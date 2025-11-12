@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏥 PEDPAL - Protocolos Clínicos</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container { max-width: 1400px; margin: 0 auto; }
+        .header {
+            background: white;
+            border-radius: 16px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+        h1 { font-size: 2.5rem; color: #2d3748; margin-bottom: 10px; }
+        .subtitle { color: #718096; font-size: 1.1rem; }
+        .search-box {
+            background: white;
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+        .search-input {
+            width: 100%;
+            padding: 15px 20px;
+            font-size: 1rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+        .search-input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+        .filter-group {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .filter-btn {
+            padding: 10px 20px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            background: white;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.9rem;
+        }
+        .filter-btn:hover { background: #f7fafc; }
+        .filter-btn.active {
+            background: #667eea;
+            color: white;
+            border-color: #667eea;
+        }
+        .results-info {
+            background: white;
+            border-radius: 12px;
+            padding: 15px 25px;
+            margin-bottom: 30px;
+            text-align: center;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        .protocols-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+        .protocol-card {
+            background: white;
+            border-radius: 16px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .protocol-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .category-badge {
+            background: #667eea;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+        .card-title {
+            font-size: 1.2rem;
+            color: #2d3748;
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+        .btn-download {
+            display: block;
+            width: 100%;
+            padding: 12px 20px;
+            background: #667eea;
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+        .btn-download:hover {
+            background: #5568d3;
+            transform: scale(1.02);
+        }
+        .no-results {
+            text-align: center;
+            padding: 60px 20px;
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .no-results p {
+            font-size: 1.2rem;
+            color: #718096;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 768px) {
+            h1 { font-size: 1.8rem; }
+            .protocols-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏥 PEDPAL - Protocolos Clínicos</h1>
+            <p class="subtitle">Cuidados Paliativos Pediátricos - Búsqueda Avanzada</p>
+        </div>
+
+        <div class="search-box">
+            <input 
+                type="text" 
+                id="searchInput" 
+                class="search-input" 
+                placeholder="🔍 Buscar por síntoma, fármaco, palabra clave..."
+                autocomplete="off"
+            >
+            <div class="filter-group" id="filterGroup"></div>
+        </div>
+
+        <div class="results-info" id="resultsInfo"></div>
+        <div class="protocols-grid" id="protocolsGrid"></div>
+        <div class="no-results" id="noResults" style="display:none;">
+            <p>❌ No se encontraron protocolos</p>
+        </div>
+    </div>
+
+    <script>
+        const protocolos = [
+            { id: 1, titulo: "Bases éticas de la toma de decisiones compartidas", categoria: "Ética", url: "https://pedpal.es/wp-content/uploads/2024/12/bases-eticas-de-la-toma-de-decisiones-compartidas.pdf", keywords: ["ética", "decisiones", "comunicación"] },
+            { id: 2, titulo: "Crisis disautonómicas", categoria: "Neurológico", url: "https://pedpal.es/wp-content/uploads/2024/12/crisis-disautonomicas.pdf", keywords: ["crisis", "disautonómicas", "neurológico"] },
+            { id: 3, titulo: "Cuidados al final de la vida en Neonatología", categoria: "Final de vida", url: "https://pedpal.es/wp-content/uploads/2024/12/cuidados-al-final-de-la-vida-en-neonatologia.pdf", keywords: ["neonatal", "final de vida", "cuidados"] },
+            { id: 4, titulo: "Cuidados paliativos neonatales. Fallecimiento paritorio", categoria: "Final de vida", url: "https://pedpal.es/wp-content/uploads/2024/12/cuidados-paliativos-neonatales-fallecimiento-paritorio.pdf", keywords: ["neonatal", "paritorio", "fallecimiento"] },
+            { id: 5, titulo: "Disnea y estertores", categoria: "Respiratorio", url: "https://pedpal.es/wp-content/uploads/2024/12/disnea-y-estertores.pdf", keywords: ["disnea", "estertores", "respiratorio"] },
+            { id: 6, titulo: "Dispositivos de soporte nutricional", categoria: "Nutrición", url: "https://pedpal.es/wp-content/uploads/2024/12/dispositivos-de-soporte-nutricional.pdf", keywords: ["nutrición", "dispositivos", "soporte"] },
+            { id: 7, titulo: "Espasticidad", categoria: "Neurológico", url: "https://pedpal.es/wp-content/uploads/2024/12/espasticidad.pdf", keywords: ["espasticidad", "neurológico", "movimiento"] },
+            { id: 8, titulo: "Estreñimiento en el paciente pediátrico", categoria: "Digestivo", url: "https://pedpal.es/wp-content/uploads/2024/12/estrenimiento-en-el-paciente-pediatrico.pdf", keywords: ["estreñimiento", "digestivo", "laxante"] },
+            { id: 9, titulo: "Generalidades, clasificación y causas del dolor en CPP", categoria: "Dolor", url: "https://pedpal.es/wp-content/uploads/2024/12/generalidades-clasificacion-y-causas-del-dolor-en-cpp.pdf", keywords: ["dolor", "analgesia", "clasificación"] },
+            { id: 10, titulo: "Irritabilidad y agitación", categoria: "Neurológico", url: "https://pedpal.es/wp-content/uploads/2024/12/irritabilidad-y-agitacion.pdf", keywords: ["irritabilidad", "agitación", "sedación"] },
+            { id: 11, titulo: "Lesiones por presión", categoria: "Cutáneo", url: "https://pedpal.es/wp-content/uploads/2024/12/lesiones-por-presion.pdf", keywords: ["piel", "lesiones", "presión"] },
+            { id: 12, titulo: "Manejo sintomático al final de la vida", categoria: "Final de vida", url: "https://pedpal.es/wp-content/uploads/2024/12/manejo-sintomatico-al-final-de-la-vida.pdf", keywords: ["final de vida", "síntomas", "paliativo"] },
+            { id: 13, titulo: "Manejo y cuidados de la traqueostomía en domicilio", categoria: "Respiratorio", url: "https://pedpal.es/wp-content/uploads/2024/12/manejo-y-cuidados-de-la-traqueostomia-en-domicilio.pdf", keywords: ["traqueostomía", "respiratorio", "domicilio"] },
+            { id: 14, titulo: "Nutrición enteral domiciliaria", categoria: "Nutrición", url: "https://pedpal.es/wp-content/uploads/2024/12/nutricion-enteral-domiciliaria.pdf", keywords: ["nutrición", "enteral", "gastrostomía"] },
+            { id: 15, titulo: "Nutrición parenteral domiciliaria", categoria: "Nutrición", url: "https://pedpal.es/wp-content/uploads/2024/12/nutricion-parenteral-domiciliaria.pdf", keywords: ["nutrición", "parenteral", "vascular"] },
+            { id: 16, titulo: "Problemas nutricionales. Malnutrición", categoria: "Nutrición", url: "https://pedpal.es/wp-content/uploads/2024/12/problemas-nutricionales-malnutricion.pdf", keywords: ["malnutrición", "nutrición", "valoración"] },
+            { id: 17, titulo: "Problemas oculares", categoria: "Otros", url: "https://pedpal.es/wp-content/uploads/2024/12/problemas-oculares.pdf", keywords: ["ojos", "ocular", "visión"] },
+            { id: 18, titulo: "Problemas sistémicos", categoria: "Otros", url: "https://pedpal.es/wp-content/uploads/2024/12/problemas-sistemicos.pdf", keywords: ["sistémico", "general"] },
+            { id: 19, titulo: "Prurito", categoria: "Cutáneo", url: "https://pedpal.es/wp-content/uploads/2024/12/prurito.pdf", keywords: ["prurito", "picor", "piel"] },
+            { id: 20, titulo: "Reflujo gastroesofágico", categoria: "Digestivo", url: "https://pedpal.es/wp-content/uploads/2024/12/reflujo-gastroesofagico.pdf", keywords: ["reflujo", "digestivo", "gastroesofágico"] },
+            { id: 21, titulo: "Sedación paliativa", categoria: "Final de vida", url: "https://pedpal.es/wp-content/uploads/2024/12/sedacion-paliativa.pdf", keywords: ["sedación", "terminal", "midazolam"] },
+            { id: 22, titulo: "Seguridad del paciente en CPP en ámbito extrahospitalario", categoria: "Organización", url: "https://pedpal.es/wp-content/uploads/2024/12/seguridad-del-paciente-en-cpp-en-ambito-extrahospitalario.pdf", keywords: ["seguridad", "extrahospitalario", "domicilio"] },
+            { id: 23, titulo: "Sialorrea", categoria: "Digestivo", url: "https://pedpal.es/wp-content/uploads/2024/12/sialorrea.pdf", keywords: ["sialorrea", "saliva", "anticolinérgico"] },
+            { id: 24, titulo: "Status epiléptico", categoria: "Urgencias", url: "https://pedpal.es/wp-content/uploads/2024/12/status-epileptico.pdf", keywords: ["epilepsia", "convulsiones", "urgencia"]
