@@ -1,0 +1,66 @@
+[{
+  "id": "morfina",
+  "nombre": "Morfina",
+  "presentaciones": ["Solución oral 1mg/ml", "Ampolla 10mg/ml SC/IV"],
+  "indicaciones": ["Dolor intenso", "Disnea refractaria"],
+  "dosis": [
+    {"grupo": "Neonatos", "dosis": "0,05-0,1 mg/kg cada 4-6h SC/IV/VO"},
+    {"grupo": "Lactantes y niños", "dosis": "0,1-0,2 mg/kg cada 4h SC/IV/VO"},
+    {"grupo": "Adolescentes", "dosis": "0,2-0,4 mg/kg cada 4h (máximo 15mg/dosis)"}
+  ],
+  "titulacion": "Ajustar según respuesta y efectos secundarios. Incrementos del 30-50% si dolor persiste.",
+  "monitorizacion": ["Frecuencia respiratoria", "Nivel de conciencia", "Valoración del dolor"],
+  "efectos": ["Depresión respiratoria", "Estreñimiento", "Náuseas/Vómitos", "Somnolencia", "Prurito"],
+  "contraindicaciones": ["Insuficiencia respiratoria grave no controlada", "Hipersensibilidad"],
+  "interacciones": ["Otros depresores del SNC", "Benzodiacepinas"],
+  "pdfs": ["uso-de-opioides.pdf"]
+},
+{
+  "id": "paracetamol",
+  "nombre": "Paracetamol",
+  "presentaciones": ["Comprimidos", "Jarabe", "Supositorios", "IV"],
+  "indicaciones": ["Dolor leve", "Fiebre"],
+  "dosis": [
+    {"grupo": "Todas las edades", "dosis": "10-15 mg/kg cada 6h VO/IV (máximo 60mg/kg/día)"}
+  ],
+  "efectos": ["Hepatotoxicidad (en sobredosis)", "Reacciones alérgicas raras"],
+  "contraindicaciones": ["Insuficiencia hepática grave", "Hipersensibilidad"],
+  "pdfs": ["generalidades-clasificacion-y-causas-del-dolor-en-cpp.pdf"]
+},
+{
+  "id": "ibuprofeno",
+  "nombre": "Ibuprofeno",
+  "presentaciones": ["Comprimidos", "Jarabe"],
+  "indicaciones": ["Dolor leve-moderado", "Fiebre", "Inflamación"],
+  "dosis": [
+    {"grupo": "Niños >6 meses", "dosis": "5-10 mg/kg cada 6-8h VO (máximo 40mg/kg/día)"}
+  ],
+  "efectos": ["Molestias gastrointestinales", "Daño renal (uso prolongado)"],
+  "contraindicaciones": ["Úlcera péptica activa", "Insuficiencia renal grave", "Alergia a AINEs"],
+  "pdfs": ["generalidades-clasificacion-y-causas-del-dolor-en-cpp.pdf"]
+},
+{
+  "id": "midazolam",
+  "nombre": "Midazolam",
+  "presentaciones": ["Ampolla 5mg/ml SC/IV", "Solución bucal"],
+  "indicaciones": ["Sedación paliativa", "Crisis epileptiformes", "Ansiedad severa"],
+  "dosis": [
+    {"grupo": "Sedación", "dosis": "0,5-1 mg/kg bolo, luego 1-5 mcg/kg/min infusión SC/IV"},
+    {"grupo": "Convulsiones", "dosis": "0,2-0,3 mg/kg bucal/nasal (máximo 10mg)"}
+  ],
+  "efectos": ["Depresión respiratoria", "Hipotensión", "Somnolencia"],
+  "contraindicaciones": ["Miastenia gravis", "Glaucoma de ángulo cerrado"],
+  "pdfs": ["sedacion-paliativa.pdf", "status-epileptico.pdf"]
+},
+{
+  "id": "ondansetron",
+  "nombre": "Ondansetrón",
+  "presentaciones": ["Comprimidos", "Solución oral", "IV"],
+  "indicaciones": ["Náuseas y vómitos"],
+  "dosis": [
+    {"grupo": "Niños", "dosis": "0,15 mg/kg cada 8h IV/VO (máximo 8mg/dosis)"}
+  ],
+  "efectos": ["Estreñimiento", "Cefalea", "Prolongación QT (raro)"],
+  "contraindicaciones": ["Hipersensibilidad", "Síndrome QT largo congénito"],
+  "pdfs": ["vomitos.pdf"]
+}]
