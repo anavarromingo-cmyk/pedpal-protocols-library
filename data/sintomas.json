@@ -1,0 +1,58 @@
+[{
+  "id": "dolor",
+  "nombre": "Dolor",
+  "descripcion": "Percepción sensorial/emocional desagradable asociada a daño tisular real o potencial.",
+  "evaluacion": ["FLACC", "EVA", "Wong-Baker FACES"],
+  "tratamiento": [
+    {
+      "escala": "Leve",
+      "farmacos": ["Paracetamol", "Ibuprofeno"]
+    },
+    {
+      "escala": "Moderado",
+      "farmacos": ["Metamizol", "Paracetamol + Ibuprofeno"]
+    },
+    {
+      "escala": "Intenso",
+      "farmacos": ["Morfina", "Fentanilo"]
+    }
+  ],
+  "no_farmaco": ["Compresas frías/calientes", "Distracción", "Masaje", "Posicionamiento"],
+  "pdfs": ["generalidades-clasificacion-y-causas-del-dolor-en-cpp.pdf", "uso-de-opioides.pdf"]
+},
+{
+  "id": "disnea",
+  "nombre": "Disnea",
+  "descripcion": "Sensación subjetiva de falta de aire o dificultad respiratoria.",
+  "evaluacion": ["Escala visual analógica", "Frecuencia respiratoria", "Saturación O2"],
+  "tratamiento": [
+    {
+      "escala": "Leve",
+      "farmacos": ["Oxígeno suplementario", "Broncodilatadores"]
+    },
+    {
+      "escala": "Moderado-Intenso",
+      "farmacos": ["Morfina", "Midazolam"]
+    }
+  ],
+  "no_farmaco": ["Ventilador", "Posición semisentada", "Fisioterapia respiratoria"],
+  "pdfs": ["disnea-y-estertores.pdf", "terapias-respiratorias.pdf"]
+},
+{
+  "id": "nauseas-vomitos",
+  "nombre": "Náuseas y Vómitos",
+  "descripcion": "Sensación de malestar gástrico con o sin expulsión del contenido gástrico.",
+  "evaluacion": ["Frecuencia", "Volumen", "Características"],
+  "tratamiento": [
+    {
+      "escala": "Primera línea",
+      "farmacos": ["Ondansetrón", "Metoclopramida"]
+    },
+    {
+      "escala": "Refractarios",
+      "farmacos": ["Haloperidol", "Dexametasona"]
+    }
+  ],
+  "no_farmaco": ["Dieta fraccionada", "Evitar olores fuertes", "Hidratación"],
+  "pdfs": ["vomitos.pdf"]
+}]
