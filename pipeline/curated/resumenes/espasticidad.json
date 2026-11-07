@@ -1,0 +1,87 @@
+{
+  "slug": "espasticidad",
+  "en_una_frase": "Definición, valoración clínica y tratamiento escalonado (fisioterapia, toxina botulínica, fármacos orales, cirugía) de la espasticidad en niños con enfermedad neurológica en cuidados paliativos.",
+  "puntos_clave": [
+    "Espasticidad: hipertonía con resistencia al estiramiento pasivo dependiente de la velocidad (\"navaja de muelle\"); la rigidez (\"rueda dentada\") es homogénea y no depende de ella.",
+    "Antes de iniciar o modificar fármacos, preguntarse qué factores empeoran la espasticidad (dolor, fiebre, infecciones, agitación, estrés) y si se puede intervenir en ellos.",
+    "La fisioterapia debe optimizarse antes del tratamiento farmacológico: aumenta rangos de movimiento, disminuye el tono y debe mantenerse en domicilio, no de forma puntual.",
+    "Espasticidad focal o segmentaria: toxina botulínica tipo A, infiltraciones cada 4-6 meses, solo si hay contractura dinámica (reducible) y se asegura el estiramiento posterior.",
+    "Espasticidad generalizada: baclofeno oral es el fármaco de elección; alternativas tizanidina, benzodiazepinas (diazepam, clonazepam) y dantroleno (retirado en España en 1998).",
+    "En espasticidad grave y refractaria valorar neuromodulación con baclofeno intratecal; la cirugía ortopédica reequilibra fuerzas articulares y corrige deformidades."
+  ],
+  "farmacos_clave": [
+    {
+      "farmaco": "baclofeno",
+      "indicacion": "espasticidad generalizada (fármaco de elección)",
+      "dosis": "Niños de 2-7 años: 2,5 -5 mg/día (3 tomas), aumento gradual semanal hasta un máximo de 30 mg/día. Niños mayores de 8 años: 60 mg/día (3 tomas)",
+      "via": "VO",
+      "nota": "Efectos secundarios: somnolencia, mareo, debilidad, confusión, hipotensión, nauseas, toxicidad renal. En espasticidad grave y refractaria valorar infusión intratecal.",
+      "page": 6
+    },
+    {
+      "farmaco": "tizanidina",
+      "indicacion": "espasticidad generalizada; propuesta como primera elección en pie equino junto a toxina botulínica tipo A",
+      "dosis": "Niños de 18 meses a 7 años; 1 mg/día en dosis nocturna. Niños de 7 a 12 años: 2 mg/día en dos dosis. Niños mayores de 12 años: 4 mg/día en dos tomas, hasta dosis de mantenimiento 12- 24 mg/día (dosis máxima 36 mg al día)",
+      "via": "VO",
+      "nota": "Estudios pediátricos: eficacia similar al adulto con 0,1-0,2 mg/kg/día en 2-3 tomas. Contraindicado si disfunción hepática; evitar con fluvoxamina o ciprofloxacino; sedación e hipotensión.",
+      "page": 6
+    },
+    {
+      "farmaco": "diazepam",
+      "indicacion": "espasticidad generalizada (benzodiazepina más usada)",
+      "dosis": "dosis inicio 0,1 mg/kg/día en 2-3 tomas, incrementar según eficacia y tolerancia hasta 0,8 mg/kg/día, máximo 40 mg/día",
+      "via": "VO",
+      "nota": "Contraindicado si insuficiencia hepática, miastenia grave, insuficiencia respiratoria, glaucoma de ángulo cerrado. Fenobarbital, carbamazepina, fenitoína y rifampicina disminuyen su efecto.",
+      "page": 6
+    },
+    {
+      "farmaco": "clonazepam",
+      "indicacion": "hemiparesia espástica (estudios con buenos resultados)",
+      "dosis": "dosis inicial 0,25 -1 mg por la noche, incrementar hasta 3 mg al día",
+      "via": "",
+      "nota": "Eficacia similar al baclofeno pero mayor sedación y debilidad.",
+      "page": 7
+    },
+    {
+      "farmaco": "dantroleno",
+      "indicacion": "espasticidad generalizada, acción periférica sobre la fibra muscular",
+      "dosis": "Inicio: 1mg/kg/día (en dos tomas). Incrementos semanales de 0,5 mg/kg/día hasta dosis de mantenimiento: 2 mg/kg/dosis en tres tomas al día. Algunos pacientes precisan dosis de 2 mg/kg/dosis en cuatro tomas al día. Dosis máxima diaria: 400 mg/día.",
+      "via": "VO",
+      "nota": "Retirado en España en 1998 (medicamento extranjero). Bastantes efectos secundarios: hipertermia maligna, síndrome neuroléptico maligno, debilidad muscular, hepatotoxicidad. Contraindicado si enfermedad hepática activa.",
+      "page": 7
+    },
+    {
+      "farmaco": "toxina botulínica tipo A",
+      "indicacion": "espasticidad focal o segmentaria; prevención primaria de deformidades y tratamiento del dolor",
+      "dosis": "Dosificación en función del peso del paciente, tamaño del músculo y tipo de toxina. Infiltraciones cada 4-6 meses",
+      "via": "Infiltración",
+      "nota": "Contraindicada si hipersensibilidad a la toxina e infección en el lugar de infiltración. No usar con otra toxina botulínica, aminoglucósidos, anticolinérgicos u otros bloqueantes neuromusculares.",
+      "page": 5
+    }
+  ],
+  "banderas_rojas": [
+    "Replantear el diagnóstico de PCI si no hay etiología clara, hay historia familiar, datos de regresión, anomalías oculomotoras, movimientos involuntarios, ataxia, atrofia muscular, déficit sensitivo o visceromegalias.",
+    "La espasticidad puede empeorar en respuesta al dolor, fiebre, infecciones, agitación, irritabilidad y estrés: buscar factores desencadenantes.",
+    "Dantroleno: hipertermia maligna, síndrome neuroléptico maligno y debilidad muscular; contraindicado si enfermedad hepática activa.",
+    "Diazepam contraindicado en miastenia grave, insuficiencia respiratoria, insuficiencia hepática y glaucoma de ángulo cerrado.",
+    "Toxina botulínica: no usar de forma concomitante con otro tipo de toxina botulínica, aminoglucósidos, fármacos anticolinérgicos y otros bloqueantes neuromusculares.",
+    "La inestabilidad de cadera es la deformidad más severa y foco de dolor nociceptivo y neuropático; la cifoescoliosis puede condicionar insuficiencia respiratoria restrictiva progresiva."
+  ],
+  "perlas": [
+    "Escala de Tardieu: una amplia diferencia entre R1 (estiramiento rápido) y R2 (lento) indica gran componente dinámico; una pequeña diferencia, contractura predominantemente fija.",
+    "La toxina botulínica no será efectiva si el trastorno depende de la debilidad de los antagonistas y no de la espasticidad; asegurar estiramiento varias horas diarias tras la infiltración.",
+    "Además de antiespásticos, asociar en ocasiones tratamiento empírico del dolor; la actividad muscular mantenida aumenta el gasto energético y puede desembocar en malnutrición."
+  ],
+  "secciones_recomendadas": [
+    "TRATAMIENTO",
+    "ESPASTICIDAD GENERALIZADA: FÁRMACOS VÍA ORAL",
+    "ESPASTICIDAD FOCAL O SEGMENTARIA: TOXINA BOTULÍNICA TIPO A",
+    "ALGORITMOS"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

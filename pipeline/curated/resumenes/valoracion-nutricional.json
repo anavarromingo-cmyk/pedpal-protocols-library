@@ -1,0 +1,56 @@
+{
+  "slug": "valoracion-nutricional",
+  "en_una_frase": "Valoración y soporte nutricional del niño en cuidados paliativos pediátricos: anamnesis, antropometría, cálculo de necesidades, vía de alimentación y objetivos según el momento evolutivo.",
+  "puntos_clave": [
+    "La anamnesis valora eficacia (cubre requerimientos y permite crecer), seguridad (riesgo de aspiración por disfagia) y eficiencia (menos de 30 minutos por toma).",
+    "Antropometría: peso, talla (longitud de tibia con fórmula de Stevenson si no se puede tallar), pliegues cutáneos y circunferencia braquial, en percentiles o puntuación Z.",
+    "Desnutrición por IMC (>5 años): leve Z de -1 a -2 DE, moderada de -2 a -3 DE, grave < -3 DE; en menores de 5 años, índice peso/talla <p3-5 o Z < -2 DE.",
+    "Requerimientos energéticos: GER por Schofield más factor de actividad y termogénesis; en pacientes neurológicos puede aproximarse el GET por el método de Krick.",
+    "Los objetivos varían con el momento evolutivo: al final de la vida priman calidad de vida y control sintomático, sin exigir recuperación del estado nutricional.",
+    "Sonda nasogástrica si se prevé una duración inferior a 3-6 semanas; gastrostomía o yeyunostomía si mayor de 2-3 meses; parenteral si hay contraindicación para la enteral."
+  ],
+  "farmacos_clave": [
+    {
+      "farmaco": "vitamina D",
+      "indicacion": "déficit de vitamina D (escasa exposición solar, baja ingesta, malabsorción o fármacos crónicos como anticonvulsionantes, inmunosupresores o corticoides)",
+      "dosis": "ingesta diaria de vitamina D vía oral de entre 400-600 UI/día, excepto si existen signos de raquitismo que se aumentará a 600-1200 UI/día",
+      "via": "VO",
+      "nota": "Precaución con los pacientes con insuficiencia renal y hepática.",
+      "page": 11
+    },
+    {
+      "farmaco": "calcio",
+      "indicacion": "suplementación en casos de hipocalcemia crónica u osteoporosis",
+      "dosis": "dosis entre 30-75 mg/kg/día o utilizar la dosis más habitual en pediatría, que supone unos 500-1000 mg de Calcio elemento/día vía oral (en forma de carbonato cálcico, carbonato + lactogluconato cálcico o fosfato cálcico) a repartir en 3-4 dosis/día",
+      "via": "VO",
+      "nota": "Ingesta diaria recomendada según edad: entre 1-3 años: 700 mg/día; entre 4-8 años: 1000 mg; entre 9-14 años: 1300mg.",
+      "page": 11
+    }
+  ],
+  "banderas_rojas": [
+    "Signos de alarma de disfagia/aspiración: antecedentes de atragantamiento, tos crónica, episodios de ingurgitación facial, broncoespasmos de repetición o reflujo gastroesofágico.",
+    "Síndrome de realimentación al iniciar el soporte en desnutridos crónicos: edemas, hipoalbuminemia, alteraciones hidroelectrolíticas, insuficiencia cardiaca y respiratoria, sobre todo los primeros días.",
+    "El IMC puede no ser útil en pacientes con PCI si la talla se estimó por segmentos, porque el error se magnifica al elevar la talla al cuadrado.",
+    "Al final de la vida la nutrición enteral puede provocar retención hídrica, compromiso respiratorio, malestar y distensión abdominal; decidir según tolerancia y comodidad del paciente.",
+    "Precaución con la suplementación de vitamina D en insuficiencia renal y hepática."
+  ],
+  "perlas": [
+    "Pesar siempre en la misma báscula; usar la técnica de doble pesada si el paciente no se mantiene en bipedestación.",
+    "Para prevenir el síndrome de realimentación: corregir antes hidratación y electrolitos, iniciar con hasta un 75-80% de las necesidades en casos graves y aumentar en 3 a 5 días.",
+    "Si la diferencia entre ingesta y aporte recomendado es pequeña, enriquecer la alimentación de forma natural (Tabla 3) o sustituir alguna toma por fórmula normocalórica (1kcal/ml).",
+    "Reevaluar a las 4-8 semanas tras la intervención; si hay recuperación o estabilidad, espaciar los controles a cada 2-3 meses.",
+    "La herramienta web de la SEGHNP (https://www.seghnp.org/nutricional) facilita el cálculo de requerimientos energéticos."
+  ],
+  "secciones_recomendadas": [
+    "TRATAMIENTO",
+    "¿Es la vía oral, la vía de elección para alimentar al paciente?",
+    "¿Cubre la alimentación oral las necesidades energéticas?",
+    "ALGORITMO DE ACTUACIÓN EN PACIENTES ESTABLES"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

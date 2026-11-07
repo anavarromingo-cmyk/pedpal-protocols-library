@@ -1,0 +1,37 @@
+{
+  "slug": "nutricion-enteral-domiciliaria",
+  "en_una_frase": "Nutrición enteral domiciliaria en CPP: indicaciones y contraindicaciones, vías y modalidades de administración, fórmulas, cuidados de sondas y ostomías y manejo de complicaciones.",
+  "puntos_clave": [
+    "Indicada si requerimientos aumentados no cubiertos por vía oral, deglución imposible, intolerancia oral, malabsorción o desnutrición moderada/grave, con cuidador entrenado.",
+    "No iniciar NE en final de vida o enfermedad muy avanzada; valorar individualmente retirar el soporte previo. Si sospecha de oclusión al final de vida: SNG de descarga.",
+    "Vía gástrica de elección si vaciado normal; yeyunal si riesgo de aspiración o vaciamiento alterado. SNG si duración inferior a 8-12 semanas; gastrostomía si superior.",
+    "La NE intermitente es la más fisiológica pero no debe darse en yeyuno (dumping); la NEDC se tolera mejor; la cíclica (8-12 h) para escolares que comen de día.",
+    "Comprobar la colocación de la SNG por pH ácido del aspirado (técnica de elección; pH 5.5 indica localización gástrica, valores superiores requieren radiografía).",
+    "Lavar la sonda con agua tras alimentos y entre fármacos; cambiar SNG si ennegrecida, con grietas o >4 meses; sonda/botón de gastrostomía cada 6-12 meses."
+  ],
+  "farmacos_clave": [],
+  "banderas_rojas": [
+    "Contraindicaciones: fracaso intestinal (obstrucción, íleo paralítico, perforación, peritonitis, vómitos persistentes y diarrea grave) y final de vida o enfermedad muy avanzada.",
+    "Signos de mala colocación de la SNG: dificultad respiratoria, tos, aleteo nasal, cianosis; detener la alimentación y retirar la sonda.",
+    "Salida o rotura del botón de gastrostomía: recolocación en domicilio o quirúrgica precoz (< 24h) para evitar el cierre del estoma.",
+    "Neumonía aspirativa: detener la nutrición y antibioterapia con cobertura de gérmenes anaerobios.",
+    "No rellenar el balón de gastrostomía con soluciones salinas (riesgo de cristalización); usar agua según indicaciones del fabricante."
+  ],
+  "perlas": [
+    "Longitud de la SNG: medida nariz-ombligo o (punta de la nariz a lóbulo de la oreja) + (lóbulo a apéndice xifoides); calibre 5F en menores de 5kg, 6F entre 6-20kg, 8-16F en mayores de 20kg.",
+    "Obstrucción de la sonda: lavar con agua y, si persiste, usar agua carbonatada; diluir con agua los jarabes muy viscosos.",
+    "Botón con balón: comprobar semanalmente el agua del balón; girar a diario el botón gástrico, nunca los de yeyunostomía/gastroyeyunostomía; mantener una succión mínima en lactantes."
+  ],
+  "secciones_recomendadas": [
+    "INDICACIONES EN CUIDADOS PALIATIVOS PEDIÁTRICOS",
+    "CONTRAINDICACIONES EN CUIDADOS PALIATIVOS PEDIÁTRICOS",
+    "1. Sondas gástricas y nasoyeyunales",
+    "TABLAS"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

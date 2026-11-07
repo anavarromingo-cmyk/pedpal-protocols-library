@@ -1,0 +1,35 @@
+{
+  "slug": "bases-eticas-de-la-toma-de-decisiones-compartidas",
+  "en_una_frase": "Fundamentos bioéticos y legales para la toma de decisiones compartidas en niños con patología crónica compleja y/o cuidados paliativos, dirigido a pediatras y equipos asistenciales.",
+  "puntos_clave": [
+    "Buscar siempre el interés superior del menor en un proceso compartido entre profesionales, familia y, si es posible, el menor, evitando cursos extremos de acción.",
+    "Principio rector: no maleficencia. No secundar actitudes de los padres maleficentes para su hijo; en caso de discrepancia prevalece el interés superior del menor.",
+    "Menores de 12 años: consentimiento por sustitución; 12-16 años: menor maduro, firma el tutor pero se les pregunta siempre; mayores de 16: mayoría de edad sanitaria.",
+    "Sedación paliativa e inicio o retirada de soporte vital no requieren firma de consentimiento, pero el proceso y lo acordado deben constar en la historia clínica.",
+    "Evitar decidir en urgencias: incorporar el Plan Anticipado de Cuidados en patología crónica compleja; si no hay plan conocido, mejor iniciar medidas y replantear después.",
+    "La indicación debe seguir criterios científicos y la decisión apoyarse en la proporcionalidad (futilidad, objetivo terapéutico); mejor hablar de adecuación que de limitación."
+  ],
+  "farmacos_clave": [],
+  "banderas_rojas": [
+    "Cuando el menor maduro se niega a una intervención con grave riesgo para su vida y los representantes la apoyan, si no es urgente es aconsejable plantear el conflicto ante el Juez de Guardia o el Fiscal.",
+    "Cuando los representantes legales de un menor sin madurez no consienten una intervención cuya omisión supone grave riesgo, el conflicto debe plantearse al Juez de Guardia; en urgencia el médico puede aplicar el tratamiento.",
+    "No todo lo técnicamente posible es éticamente aceptable: sin adecuación de medidas a veces sólo se prolonga la vida sin calidad de vida (obstinación terapéutica) o se cae en el abandono del paciente."
+  ],
+  "perlas": [
+    "No cargar el peso de la decisión en los padres: el equipo alcanza una decisión consensuada desde la escucha activa y la transmite buscando su acuerdo; un Consultor en Bioética puede ayudar y ante conflicto ofrecer el Comité de Ética asistencial.",
+    "Conocer los valores y vínculos del niño (qué le hace feliz, qué le da seguridad: hogar, mascota, amigos) ayuda a definir su mejor interés, especialmente en pacientes con discapacidad.",
+    "En enfermedades crónicas de larga evolución (p. ej. gastrostomía en parálisis cerebral) informar y dar espacio y tiempo a las familias favorece la confianza y facilita futuras decisiones.",
+    "Las medidas paliativas no se retiran: revisar e incrementar las medidas de confort y alivio del sufrimiento (mejor pasarse que quedarse cortos)."
+  ],
+  "secciones_recomendadas": [
+    "¿Quién debe tomar las decisiones en Pediatría?",
+    "CRITERIOS PARA LA TOMA DE DECISIONES (9)",
+    "ADECUACIÓN DE MEDIDAS PERMITE LA MUERTE AL NO IMPEDIRLA"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

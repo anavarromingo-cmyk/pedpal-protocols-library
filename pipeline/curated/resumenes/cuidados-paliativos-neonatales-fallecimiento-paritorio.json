@@ -1,0 +1,55 @@
+{
+  "slug": "cuidados-paliativos-neonatales-fallecimiento-paritorio",
+  "en_una_frase": "Recomendaciones prácticas de cuidados paliativos perinatales en la sala de partos (límite de viabilidad, enfermedad limitante prenatal, atención postnatal) para obstetras, neonatólogos y matronas.",
+  "puntos_clave": [
+    "Grupos candidatos: feto/RN con malformación o enfermedad limitante para la vida, prematuro en el límite de la viabilidad y neonato que no responde al tratamiento intensivo.",
+    "Viabilidad (GRN-SENeo): 22+0-22+6 semanas aproximación paliativa; 23+0-23+6 consenso con la familia, proactiva si condiciones favorables; desde 24 semanas actitud proactiva.",
+    "Gestaciones >22+0 semanas: información conjunta (obstetras, neonatólogos, matronas) en hospital de tercer nivel, con datos del propio centro, registrada en la historia clínica.",
+    "Preferencias sobre reanimación desconocidas o inciertas: razonable iniciarla en espera de nuevas discusiones; ética y legalmente, no iniciar o retirar tras iniciar son similares.",
+    "Plan de Parto consensuado y flexible en la historia materna (anexo 1): sin monitorización fetal habitual, esperar el parto espontáneo y cesárea solo si está indicada.",
+    "Postnatal: secar, calentar, gorro, envoltura y piel con piel, sin monitorización rutinaria; si precisa fármacos, opiáceos de primera línea y benzodiacepinas como coadyuvante."
+  ],
+  "farmacos_clave": [
+    {
+      "farmaco": "fentanilo",
+      "indicacion": "analgesia/control de síntomas en el recién nacido en paritorio (opiáceo de primera línea)",
+      "dosis": "1-2 microgramos/Kg",
+      "via": "preferentemente intranasal",
+      "nota": "La indicación de analgesia se realizará de manera individualizada.",
+      "page": 6
+    },
+    {
+      "farmaco": "midazolam",
+      "indicacion": "benzodiacepina coadyuvante para el confort del recién nacido en paritorio",
+      "dosis": "0,1-0,3 milígramos/Kg",
+      "via": "preferentemente intranasal",
+      "nota": "",
+      "page": 6
+    }
+  ],
+  "banderas_rojas": [
+    "Cuando el interés fetal, por debajo del límite de viabilidad, implique un grave riesgo materno, debe primar el interés de la mujer salvo su decisión en contra, consciente y libre.",
+    "RN <22 semanas: pueden presentar signos de vitalidad y aun así no se realizarán maniobras de reanimación por no tener madurez suficiente para la vida extrauterina.",
+    "Evitar medidas que prolonguen la vida (soporte respiratorio y vasoactivo) o que produzcan malestar; minimizar examen físico, procedimientos de vía aérea y acceso vascular.",
+    "Las decisiones tomadas antenatalmente pueden modificarse según la condición y los signos de madurez del niño al nacimiento; conviene discutirlo de forma preventiva."
+  ],
+  "perlas": [
+    "La respiración gasping es una respuesta refleja a hipoxia profunda que no causa ni expresa sufrimiento, por lo que no debería tratarse, pero requiere preparar a los padres.",
+    "Ofrecer ver al bebé sin obligar; a quien prefiera no verlo se le puede describir físicamente; siempre pueden cambiar de opinión. Facilitar recuerdos tangibles (huellas, fotografías, mechón de pelo).",
+    "Frases a usar: 'Siento lo que les ha pasado', 'Tienes un bebé precioso/a'; a evitar: 'Sé fuerte', 'No llores', 'Eres joven, ya tendrás más', 'El tiempo lo cura todo'.",
+    "Evitar las palabras feto o embrión (usar hijo/a, su nombre o bebé); identificar un contacto clave y un tomador de decisiones para evitar 'mensajes mixtos'.",
+    "Si el éxitus no ocurre en paritorio, trasladar madre y RN a habitación individual; asesorar sobre lactancia (supresión farmacológica o donación), dar información escrita y recursos de asociaciones de duelo perinatal."
+  ],
+  "secciones_recomendadas": [
+    "1. RECIÉN NACIDO PREMATURO EN EL LÍMITE DE LA VIABILIDAD",
+    "1. Comunicación durante el proceso asistencial. Recomendaciones",
+    "ATENCIÓN POSTNATAL AL RECIÉN NACIDO/FAMILIA",
+    "ANEXO 1 PLAN DE CUIDADOS EN CUIDADOS PALIATIVOS PERINATALES"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

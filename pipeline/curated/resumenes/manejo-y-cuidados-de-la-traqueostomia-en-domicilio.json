@@ -1,0 +1,64 @@
+{
+  "slug": "manejo-y-cuidados-de-la-traqueostomia-en-domicilio",
+  "en_una_frase": "Cuidados domiciliarios de la traqueostomía pediátrica: cánulas, recambio, aspiración, humidificación y actuación ante obstrucción, decanulación e infección; para cuidadores y equipos de CPP.",
+  "puntos_clave": [
+    "Indicaciones: obstrucción grave de la vía aérea, reflejos protectores inadecuados (SNC/neuromuscular) y ventilación mecánica prolongada; decisión multidisciplinar individualizada.",
+    "Las cánulas sin balón son las más usadas en pediatría; las de silicona (Bivona®) pueden reutilizarse hasta 5 veces en el mismo paciente; las de PVC no se reutilizan.",
+    "Primer recambio siempre en hospital; después cada 7-15 días según secreciones, idealmente con dos cuidadores; una cánula dura unos seis meses.",
+    "Aspiraciones cortas (menos de 5 segundos): introducir la sonda sin aspirar hasta la medida premarcada y retirarla con movimientos rotatorios mientras se aspira.",
+    "Cintas: cambio diario o si se ensucian; ajuste que permita un dedo entre piel y cinta con el cuello en hiperextensión; no cambiarlas en las primeras 48h.",
+    "Kit de emergencia: cánula del tamaño habitual y otra medio número inferior, fiador, aspirador portátil, TET menor, SSF, sonda, bolsa autoinflable, gasas y tijeras."
+  ],
+  "farmacos_clave": [
+    {
+      "farmaco": "suero salino fisiológico (instilación)",
+      "indicacion": "obstrucción de la cánula por tapón mucoso: instilar y aspirar de nuevo",
+      "dosis": "neonatos 0.2-0.5ml SSF lactantes 0.5-1ml SSF, niños 1-3ml SSF",
+      "via": "instilación por la cánula de traqueostomía",
+      "nota": "También instilar SSF antes de aspirar si la mucosidad es espesa o seca; limpiar la sonda con agua tras cada aspiración.",
+      "page": 8
+    },
+    {
+      "farmaco": "suero salino hipertónico 3% o 7% (nebulizado)",
+      "indicacion": "fluidificar la mucosidad espesa o seca para evitar el tapón mucoso",
+      "dosis": "Realizar nebulizaciones con SSF o SSH3% o 7",
+      "via": "nebulización",
+      "nota": "Sin volumen ni frecuencia en el texto; asociar mayor hidratación del paciente y humidificadores.",
+      "page": 8
+    },
+    {
+      "farmaco": "nitrato de plata (tópico)",
+      "indicacion": "granuloma externo del estoma",
+      "dosis": "",
+      "via": "tópica",
+      "nota": "Sin dosis en el texto. Prevención: buen ajuste de la cánula al cuello y apósito si evita holgura.",
+      "page": 9
+    }
+  ],
+  "banderas_rojas": [
+    "Signos de alarma de obstrucción: agitación, sudoración, taquipnea, tiraje, desaturación, cianosis, pérdida de conciencia, convulsión e incluso parada cardiorrespiratoria.",
+    "Decanulación accidental: no forzar la introducción de la cánula (falsa vía, neumotórax, neumomediastino, enfisema subcutáneo); si es imposible recanular y el paciente está comprometido, tapar el estoma y ventilar por boca.",
+    "Fiebre, aumento de secreciones en cantidad o consistencia y/o aumento de requerimientos ventilatorios: sospechar infección y consultar con el equipo médico.",
+    "Sangrado tras el postoperatorio por lesiones de la mucosa provocadas por la aspiración: consultar con el equipo médico.",
+    "El intercambiador de calor-humedad puede obstruirse con secreciones espesas; no usar durante la administración de fármacos ni con válvulas fonatorias.",
+    "Balón de neumotaponamiento: desinflar mínimo 2 veces al día y presión máxima de 20cmH2O.",
+    "Las cánulas de silicona llevan un anillo metálico interior que puede interferir en la realización de una RM."
+  ],
+  "perlas": [
+    "Recambio: decúbito supino con un rollito de toalla interescapular para ligera hiperextensión del cuello; lubricar la cánula e introducirla con movimiento suave, curvo, hacia atrás y abajo.",
+    "En inserción difícil usar una cánula menor, un TET menor o incluso una sonda de aspiración como guía.",
+    "Usar apósitos que no se deshilachen y no cortar gasas; la nariz artificial dura unos 3 días y debe cambiarse antes si se mancha."
+  ],
+  "secciones_recomendadas": [
+    "Material para recambio de cánula de traqueostomía",
+    "Cuidados básicos",
+    "COMPLICACIONES",
+    "4. Infección"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

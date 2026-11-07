@@ -1,0 +1,438 @@
+{
+  "AlgoritmosDiagnosticoTerapeuticos": [
+    {
+      "NombreDelAlgoritmo": "Toma de Decisiones Compartidas (Modelo Opel DJ)",
+      "Objetivo": "Guiar a los pediatras en un proceso de toma de decisiones compartida con los padres, asegurando que la elección esté en línea con las preferencias y valores de la familia.",
+      "PoblaciónDiana": "Pacientes pediátricos donde se debe tomar una decisión sobre el tratamiento.",
+      "Pasos": [
+        {
+          "Paso": "1",
+          "Descripcion": "Evaluar si la decisión incluye más de una opción médicamente razonable. Si solo hay una opción, la toma de decisiones compartida no tiene lugar, pero se debe explicar la intervención."
+        },
+        {
+          "Paso": "2",
+          "Descripcion": "Determinar si una de las opciones tiene una relación beneficio/carga médica más favorable. Si es así, el pediatra debe guiar la discusión (Physician-guided SDM). Si no, la decisión es más guiada por los padres (Parent-guided SDM)."
+        },
+        {
+          "Paso": "3",
+          "Descripcion": "Evaluar qué tan sensibles son las opciones a las preferencias y valores de los padres para asegurar que la elección final esté alineada con ellos."
+        },
+        {
+          "Paso": "4",
+          "Descripcion": "Implementar la decisión, calibrando el tipo de toma de decisiones compartida y el momento adecuado en el proceso terapéutico."
+        }
+      ]
+    },
+    {
+      "NombreDelAlgoritmo": "Algoritmo de Sedación Paliativa Neonatal",
+      "Objetivo": "Iniciar y escalar la sedación y/o analgesia para lograr una sedación profunda y asegurar el control del dolor en neonatos en cuidados paliativos.",
+      "PoblaciónDiana": "Neonatos que requieren sedación paliativa.",
+      "Pasos": [
+        {
+          "Paso": "Evaluación Inicial",
+          "Descripcion": "Utilizar la escala N-PASS cada 20-30 minutos para valorar el nivel de sedación y dolor/agitación."
+        },
+        {
+          "Paso": "Decisión de Inicio/Escalada",
+          "Descripcion": "Basado en la evaluación N-PASS, se decide iniciar o escalar la sedación y/o analgesia."
+        },
+        {
+          "Paso": "Manejo de Sedación",
+          "Descripcion": "Si el paciente tiene analgesia previa pero no sedación, iniciar Midazolam (dosis de carga 0.2 mg/kg/4h y perfusión 0.01-0.1 mg/kg/hora). Si ya tenía sedación con dexmedetomidina, aumentar la dosis. Si no se logra la sedación adecuada, valorar propofol."
+        },
+        {
+          "Paso": "Manejo del Dolor",
+          "Descripcion": "Si el paciente no tiene analgesia previa, iniciar Fentanilo (carga 1-2 microgr/kg IV y perfusión a 1-3 microg/kg/h). Si ya tiene analgesia, aumentar la dosis del fármaco actual (Fentanilo o Morfina) cada 20-30 minutos hasta alcanzar una puntuación < 4 en la escala N-PASS."
+        },
+        {
+          "Paso": "Manejo sin Sedoanalgesia Previa",
+          "Descripcion": "En casos de depresión neurológica o gran pretérmino, iniciar perfusión de Fentanilo a 2 micro/kg/hora para garantizar el control del dolor."
+        }
+      ]
+    },
+    {
+      "NombreDelAlgoritmo": "Algoritmo de Tratamiento Farmacológico de la Espasticidad",
+      "Objetivo": "Guiar la elección del tratamiento farmacológico según si la espasticidad es generalizada o focal.",
+      "PoblaciónDiana": "Pacientes con espasticidad.",
+      "Pasos": [
+        {
+          "Paso": "1. Clasificación",
+          "Descripcion": "Determinar si la espasticidad es 'Generalizada' o 'Focal'."
+        },
+        {
+          "Paso": "2. Tratamiento Espasticidad Focal",
+          "Descripcion": "Si es focal, el tratamiento de elección es la Toxina Botulínica."
+        },
+        {
+          "Paso": "3. Tratamiento Espasticidad Generalizada (Primera Línea)",
+          "Descripcion": "Si es generalizada, iniciar con fármacos orales como Baclofeno, Tizanidina, Diazepam o Dantroleno."
+        },
+        {
+          "Paso": "4. Manejo del Fallo Terapéutico en Espasticidad Generalizada",
+          "Descripcion": "Si los fármacos orales fallan, considerar el Baclofeno intratecal. También se puede utilizar la Toxina Botulínica como coadyuvante o para focalizar en grupos musculares concretos."
+        }
+      ]
+    },
+    {
+      "NombreDelAlgoritmo": "Algoritmo de Elección de Dispositivo de Nutrición Enteral",
+      "Objetivo": "Seleccionar el dispositivo de nutrición enteral (NE) más adecuado basándose en el tiempo de duración previsto de la terapia y el riesgo de aspiración del paciente.",
+      "PoblaciónDiana": "Pacientes pediátricos que requieren soporte con nutrición enteral.",
+      "Pasos": [
+        {
+          "Paso": "1. Criterio de Duración",
+          "Descripcion": "Evaluar si la terapia nutricional durará menos de 2 meses o más de 2 meses."
+        },
+        {
+          "Paso": "2. Terapia < 2 meses",
+          "Descripcion": "Si la duración es menor a 2 meses, evaluar el riesgo de aspiración. Si no hay riesgo, usar sonda nasogástrica. Si hay riesgo, usar sonda nasoduodenal o nasoyeyunal."
+        },
+        {
+          "Paso": "3. Terapia > 2 meses",
+          "Descripcion": "Si la duración es mayor a 2 meses, evaluar el riesgo de aspiración. Si no hay riesgo, optar por gastrostomía. Si hay riesgo, considerar gastrostomía con procedimiento anti-reflujo, yeyunostomía o gastro-yeyunostomía."
+        }
+      ]
+    },
+    {
+      "NombreDelAlgoritmo": "Escalera Terapéutica para Irritabilidad en Niños con Trastornos Neurológicos Graves",
+      "Objetivo": "Proporcionar un manejo farmacológico escalonado para la irritabilidad y agitación en pacientes pediátricos con trastornos neurológicos graves.",
+      "PoblaciónDiana": "Niños con trastornos neurológicos graves que presentan irritabilidad o agitación.",
+      "Pasos": [
+        {
+          "Paso": "Escalón 1",
+          "Descripcion": "Iniciar tratamiento con Gabapentina o Pregabalina."
+        },
+        {
+          "Paso": "Escalón 2",
+          "Descripcion": "Si el escalón 1 no es suficiente, añadir o cambiar a Antidepresivos tricíclicos o Clonidina."
+        },
+        {
+          "Paso": "Escalón 3",
+          "Descripcion": "Como último recurso farmacológico, considerar el uso de Metadona."
+        },
+        {
+          "Paso": "Coadyuvantes",
+          "Descripcion": "En cualquiera de los escalones, se puede considerar el uso de fármacos coadyuvantes como opioides, neurolépticos (ej. haloperidol) y benzodiacepinas para controlar los síntomas."
+        }
+      ]
+    },
+    {
+      "NombreDelAlgoritmo": "Estrategia Bifásica de la OMS para Dolor Persistente",
+      "Objetivo": "Guiar el tratamiento analgésico escalonado para el dolor persistente, utilizando un enfoque de dos fases.",
+      "PoblaciónDiana": "Menores de 12 años con dolor persistente.",
+      "Pasos": [
+        {
+          "Paso": "Fase 1: Dolor Leve",
+          "Descripcion": "Utilizar analgésicos no opioides como paracetamol, AINEs o metamizol."
+        },
+        {
+          "Paso": "Fase 2: Dolor Moderado o Intenso",
+          "Descripcion": "Si el dolor no se controla en la Fase 1 o es moderado/intenso desde el inicio, utilizar opioides mayores como morfina, fentanilo, hidromorfona, oxicodona o metadona."
+        }
+      ]
+    },
+    {
+      "NombreDelAlgoritmo": "Actuación ante Emergencia en Niño Traqueotomizado",
+      "Objetivo": "Proporcionar una secuencia de acciones claras y rápidas ante un evento de dificultad respiratoria o emergencia en un niño con traqueostomía.",
+      "PoblaciónDiana": "Niños portadores de cánula de traqueostomía.",
+      "Pasos": [
+        {
+          "Paso": "1. Detección del Evento",
+          "Descripcion": "Identificar un evento brusco de dificultad respiratoria, alteración del nivel de conciencia o fallo del respirador."
+        },
+        {
+          "Paso": "2. Evaluación Inicial",
+          "Descripcion": "Mirar, escuchar y sentir sobre la boca y la traqueostomía. Descartar causas obvias como decanulación accidental o desconexión del ventilador."
+        },
+        {
+          "Paso": "3. Pedir Ayuda y Evaluar Respiración",
+          "Descripcion": "Llamar para pedir ayuda. Si el paciente no respira, sospechar obstrucción de la traqueostomía. Si respira, aplicar alto flujo de oxígeno y valorar."
+        },
+        {
+          "Paso": "4. Manejo de la Obstrucción",
+          "Descripcion": "Secuencia de desobstrucción: retirar cánula interna/válvula, aspirar secreciones, desinflar el balón. Si no mejora, retirar completamente el tubo de traqueostomía."
+        },
+        {
+          "Paso": "5. Ventilación Alternativa",
+          "Descripcion": "Si se retira el tubo y la obstrucción persiste, valorar la necesidad de intubación orotraqueal o a través del estoma con un tubo más pequeño."
+        },
+        {
+          "Paso": "6. Parada Cardiorrespiratoria",
+          "Descripcion": "Si no tiene pulso en cualquier momento, iniciar maniobras de reanimación según el algoritmo ABCDE."
+        }
+      ]
+    },
+    {
+      "NombreDelAlgoritmo": "Manejo de Sospecha de Infección Relacionada con Catéter",
+      "Objetivo": "Diagnosticar y guiar el tratamiento de una posible bacteriemia asociada a un catéter venoso central (CVC) en un paciente con fiebre.",
+      "PoblaciónDiana": "Pacientes con CVC que presentan fiebre sin otro foco aparente.",
+      "Pasos": [
+        {
+          "Paso": "1. Sospecha y Toma de Muestras",
+          "Descripcion": "Ante fiebre en paciente con CVC, extraer hemocultivos: uno de vía periférica (HP) y uno de cada luz del catéter (HC)."
+        },
+        {
+          "Paso": "2. Diagnóstico Diferencial por Tiempo",
+          "Descripcion": "Evaluar el tiempo diferencial (TD) de positivización. Si TD (HC vs HP) es ≥ 2 horas, se confirma bacteriemia asociada a catéter."
+        },
+        {
+          "Paso": "3. Escenarios Alternativos",
+          "Descripcion": "Si HP(-) y HC(+), repetir cultivos y valorar sellado. Si HP(+) y HC(+) con TD < 2h, o si HP(+) y HC(-), valorar otro foco de infección."
+        },
+        {
+          "Paso": "4. Tratamiento de Infección Confirmada",
+          "Descripcion": "Según el microorganismo: si es Coco Gram+, considerar retirada del CVC o mantenimiento con sellados durante 14 días. Si es Bacilo Gram Negativo, considerar retirada o mantenimiento con sellados durante 10-14 días."
+        },
+        {
+          "Paso": "5. Criterios de Retirada Obligatoria",
+          "Descripcion": "Retirar siempre el CVC si hay infección complicada, inestabilidad hemodinámica, bacteriemia persistente (>72h) o aislamiento de S. Aureus, Pseudomona o Cándida."
+        }
+      ]
+    },
+    {
+      "NombreDelAlgoritmo": "Selección de Vía de Nutrición Enteral",
+      "Objetivo": "Decidir la vía de administración más adecuada para la nutrición enteral en función de la capacidad de ingesta oral, el riesgo de broncoaspiración y la duración prevista del tratamiento.",
+      "PoblaciónDiana": "Pacientes que requieren nutrición enteral.",
+      "Pasos": [
+        {
+          "Paso": "1. Evaluación de la Vía Oral",
+          "Descripcion": "Determinar si la vía oral permite cubrir las necesidades nutricionales del paciente."
+        },
+        {
+          "Paso": "2. Vía Oral Suficiente",
+          "Descripcion": "Si la vía oral es suficiente, evaluar el riesgo de broncoaspiración. Si no hay riesgo, se procede con infusión gástrica. Si existe riesgo, se opta por infusión transpilórica."
+        },
+        {
+          "Paso": "3. Vía Oral Insuficiente",
+          "Descripcion": "Si la vía oral no cubre las necesidades, estimar el tiempo de tratamiento. Si es menor a 12 semanas, se indica una sonda nasoenteral. Si es mayor a 12 semanas, se considera una ostomía (gastrostomía/yeyunostomía)."
+        }
+      ]
+    },
+    {
+      "NombreDelAlgoritmo": "Selección de Fórmula de Nutrición Enteral (< 1 año)",
+      "Objetivo": "Seleccionar la fórmula de nutrición enteral apropiada para pacientes pediátricos menores de un año, según su edad gestacional y condición clínica.",
+      "PoblaciónDiana": "Pacientes menores de un año que requieren nutrición enteral.",
+      "Pasos": [
+        {
+          "Paso": "1. Criterio de Edad Gestacional",
+          "Descripcion": "Diferenciar entre recién nacido a término y pretérmino."
+        },
+        {
+          "Paso": "2. Manejo en Pretérminos",
+          "Descripcion": "Utilizar lactancia materna fortificada o una fórmula específica para prematuros hasta alcanzar un peso equivalente al percentil 10 o las 40 semanas de edad corregida."
+        },
+        {
+          "Paso": "3. Manejo en Nacidos a Término",
+          "Descripcion": "Evaluar condiciones específicas. Si hay alergia a la proteína de leche de vaca, usar fórmula hidrolizada o elemental. Si hay un aumento de las necesidades calóricas, usar una fórmula hipercalórica (1 kcal/ml). En ausencia de estas condiciones, la lactancia materna es la opción base."
+        }
+      ]
+    },
+    {
+      "NombreDelAlgoritmo": "Selección de Fórmula de Nutrición Enteral (> 1 año)",
+      "Objetivo": "Guiar la selección de la fórmula de nutrición enteral en pacientes mayores de un año, basándose en la función intestinal y las necesidades específicas de proteínas y calorías.",
+      "PoblaciónDiana": "Pacientes mayores de un año que requieren nutrición enteral.",
+      "Pasos": [
+        {
+          "Paso": "1. Función Intestinal",
+          "Descripcion": "Evaluar si la función intestinal está comprometida. Si es así, usar una fórmula oligo-monomérica."
+        },
+        {
+          "Paso": "2. Patología Específica",
+          "Descripcion": "Si la función intestinal no está comprometida, determinar si existe una patología que requiera un tratamiento específico. Si es así, usar una fórmula especial. Si no, usar una fórmula polimérica."
+        },
+        {
+          "Paso": "3. Necesidades Proteicas",
+          "Descripcion": "Para fórmulas poliméricas, evaluar si hay un aumento de las necesidades proteicas. Si es así, seleccionar una fórmula polimérica hiperproteica. Si no, una normoproteica."
+        },
+        {
+          "Paso": "4. Necesidades Calóricas",
+          "Descripcion": "Para fórmulas poliméricas normoproteicas, evaluar si hay un aumento de las necesidades calóricas. Si no, usar una fórmula normocalórica. Si es sí, valorar si es posible aumentar el volumen. Si es posible, mantener la normocalórica; si no, cambiar a una fórmula hipercalórica."
+        }
+      ]
+    },
+    {
+      "NombreDelAlgoritmo": "Evaluación Nutricional en Enfermedad Neurológica",
+      "Objetivo": "Sistematizar la evaluación y el manejo nutricional en niños con trastornos neurológicos, determinando la adecuación y seguridad de la nutrición.",
+      "PoblaciónDiana": "Niños con enfermedad neurológica.",
+      "Pasos": [
+        {
+          "Paso": "1. Evaluación Multidisciplinaria Inicial",
+          "Descripcion": "Realizar una evaluación completa que incluya antropometría (peso, estatura, pliegues), historia dietética y evaluación de la función motora oral."
+        },
+        {
+          "Paso": "2. Valoración de la Nutrición",
+          "Descripcion": "Determinar si la nutrición actual es 'Adecuada' o 'Inadecuada' y si es 'Segura' (sin riesgo de aspiración) o 'Insegura'."
+        },
+        {
+          "Paso": "3. Manejo de Nutrición Adecuada",
+          "Descripcion": "Si es 'Adecuada' y 'Segura', realizar reevaluación sistemática (anual o según indicación). Si es 'Adecuada' pero 'Insegura', asegurar la consistencia y posición correctas."
+        },
+        {
+          "Paso": "4. Manejo de Nutrición Inadecuada",
+          "Descripcion": "Si es 'Inadecuada' pero 'Segura', optimizar los aportes. Si a pesar de ello sigue siendo inadecuada, o si es 'Inadecuada' e 'Insegura' desde el principio, se debe indicar alimentación por sonda nasogástrica (SNG), gastrostomía o yeyunostomía."
+        }
+      ]
+    },
+    {
+      "NombreDelAlgoritmo": "Manejo del Prurito",
+      "Objetivo": "Establecer un abordaje diagnóstico y terapéutico escalonado y por etiologías para el manejo del prurito en pacientes pediátricos.",
+      "PoblaciónDiana": "Pacientes con prurito.",
+      "Pasos": [
+        {
+          "Paso": "1. Evaluación Inicial y Medidas Generales",
+          "Descripcion": "Valorar la intensidad y el impacto en la calidad de vida. Realizar anamnesis y exploración. Iniciar siempre medidas generales de cuidado de la piel (hidratación, evitar rascado)."
+        },
+        {
+          "Paso": "2. Diagnóstico Diferencial Primario",
+          "Descripcion": "Determinar si existe una enfermedad dermatológica evidente. Si es así, tratar con emolientes, corticoides tópicos y antihistamínicos sistémicos."
+        },
+        {
+          "Paso": "3. Búsqueda de Causa Sistémica",
+          "Descripcion": "Si no hay enfermedad dermatológica, investigar otras causas como fármacos o enfermedades de base, apoyándose en analíticas si es necesario."
+        },
+        {
+          "Paso": "4. Tratamiento Específico por Etiología",
+          "Descripcion": "Una vez identificada o sospechada la causa, dirigir el tratamiento: Colestásico (colestiramina, rifampicina), Urémico (optimizar diálisis, fototerapia, gabapentina), Oncológico (paroxetina, gabapentina), Farmacológico (retirar fármaco, rotar opioides), o Idiopático (pruebas terapéuticas con antihistamínicos, gabapentina, etc.)."
+        }
+      ]
+    },
+    {
+      "NombreDelAlgoritmo": "Circuito de Gestión de Incidentes de Seguridad",
+      "Objetivo": "Estructurar el proceso de notificación, análisis y aprendizaje a partir de incidentes de seguridad para mejorar la calidad y seguridad de la atención.",
+      "PoblaciónDiana": "Equipos de atención sanitaria, especialmente en el ámbito de cuidados paliativos domiciliarios.",
+      "Pasos": [
+        {
+          "Paso": "1. Detección",
+          "Descripcion": "Una persona del equipo o la familia identifica una complicación o limitación que no formaba parte del proceso planificado."
+        },
+        {
+          "Paso": "2. Notificación",
+          "Descripcion": "Comunicar el incidente a los profesionales implicados y a la familia. Registrarlo en el sistema formal del centro si está disponible."
+        },
+        {
+          "Paso": "3. Análisis del Incidente",
+          "Descripcion": "Analizar según la gravedad. Los incidentes leves se analizan con los participantes directos. Los graves requieren la participación de figuras de gestión y una metodología de análisis más intensiva."
+        },
+        {
+          "Paso": "4. Análisis de Causa Raíz",
+          "Descripcion": "Utilizar la técnica de los '5 porqués' para identificar las causas subyacentes del error."
+        },
+        {
+          "Paso": "5. Propuestas y Seguimiento",
+          "Descripcion": "Establecer acciones de mejora concretas con plazos y responsables. Proponer una fecha de reevaluación para valorar la efectividad de las acciones."
+        },
+        {
+          "Paso": "6. Registro",
+          "Descripcion": "Documentar todo el análisis en un acta para monitorizar el impacto y el aprendizaje del circuito."
+        }
+      ]
+    },
+    {
+      "NombreDelAlgoritmo": "Abordaje de la Disfagia Orofaríngea en Cuidados Paliativos",
+      "Objetivo": "Sistematizar el proceso de valoración, diagnóstico y derivación de pacientes pediátricos con sospecha de disfagia orofaríngea.",
+      "PoblaciónDiana": "Pacientes en edad pediátrica con sospecha de disfagia orofaríngea.",
+      "Pasos": [
+        {
+          "Paso": "1. Sospecha y Derivación Inicial",
+          "Descripcion": "El paciente es remitido a la consulta de Disfagia de Rehabilitación Infantil por un médico rehabilitador."
+        },
+        {
+          "Paso": "2. Valoración Especializada",
+          "Descripcion": "Se realiza una valoración completa que incluye anamnesis, exploración, Test del agua, MECV y evaluación de la alimentación. Se indica una videofluoroscopia (VFSS) si es preciso."
+        },
+        {
+          "Paso": "3. Interconsultas y Confirmación Diagnóstica",
+          "Descripcion": "Se solicita valoración por otros especialistas (digestivo, nutrición, neumología, ORL) según sea necesario para llegar a una confirmación diagnóstica."
+        },
+        {
+          "Paso": "4. Plan Terapéutico",
+          "Descripcion": "Se establecen pautas y recomendaciones generales, se indica el tratamiento rehabilitador (logopedia, terapia ocupacional, fisioterapia) y se maneja la sialorrea si existe."
+        },
+        {
+          "Paso": "5. Seguimiento",
+          "Descripcion": "El seguimiento es realizado por el pediatra de Cuidados Paliativos en coordinación con el resto de especialistas implicados."
+        }
+      ]
+    },
+    {
+      "NombreDelAlgoritmo": "Manejo del Estatus Epiléptico Convulsivo",
+      "Objetivo": "Proporcionar un tratamiento farmacológico escalonado y cronometrado para detener un estatus epiléptico en pediatría.",
+      "PoblaciónDiana": "Pacientes pediátricos con una convulsión que dura más de 3-5 minutos.",
+      "Pasos": [
+        {
+          "Paso": "Fase 1 (3-5 minutos)",
+          "Descripcion": "Administrar una benzodiacepina de primera línea por vía no intravenosa: Diazepam rectal (0.5 mg/kg) o Midazolam bucal/intranasal (0.2 mg/kg)."
+        },
+        {
+          "Paso": "Fase 2 (Si no cede)",
+          "Descripcion": "Repetir la primera dosis a los 5 minutos. Si sigue sin ceder, canalizar una vía venosa y administrar una benzodiacepina IV (Midazolam 0.1-0.2 mg/kg o Diazepam 0.2 mg/kg)."
+        },
+        {
+          "Paso": "Fase 3 (Si no cede)",
+          "Descripcion": "Repetir la dosis IV a los 5 minutos. Si la crisis persiste, iniciar un fármaco de segunda línea."
+        },
+        {
+          "Paso": "Fase 4 (Segunda Línea)",
+          "Descripcion": "Administrar Levetiracetam (40-60 mg/kg). Como alternativas se pueden usar Valproico (40 mg/kg) o Fenitoína (20 mg/kg)."
+        },
+        {
+          "Paso": "Fase 5 (Estatus Refractario)",
+          "Descripcion": "Si la crisis no cede con los fármacos de segunda línea, iniciar perfusión continua de Midazolam (0.03-0.3 mg/kg/h) o Propofol."
+        }
+      ]
+    },
+    {
+      "NombreDelAlgoritmo": "Manejo del Estatus Epiléptico en Situación de Final de Vida",
+      "Objetivo": "Adaptar el manejo del estatus epiléptico para pacientes en situación de final de vida, priorizando el confort y utilizando las vías de administración disponibles.",
+      "PoblaciónDiana": "Pacientes en situación de final de vida con una convulsión que dura más de 3-5 minutos.",
+      "Pasos": [
+        {
+          "Paso": "1. Primera Línea",
+          "Descripcion": "Administrar Diazepam rectal (0.5 mg/kg) o Midazolam bucal/intranasal (0.2 mg/kg). Repetir a los 5 minutos si no cede."
+        },
+        {
+          "Paso": "2. Acceso Vascular",
+          "Descripcion": "Si la crisis persiste, canalizar una vía subcutánea o venosa."
+        },
+        {
+          "Paso": "3. Segunda Línea (Vía SC/IV)",
+          "Descripcion": "Administrar Midazolam IV (0.1-0.2 mg/kg) o Diazepam IV (0.2 mg/kg). Repetir a los 5 minutos si no cede."
+        },
+        {
+          "Paso": "4. Estatus Refractario",
+          "Descripcion": "Si la crisis no cede, iniciar perfusión continua de Midazolam IV (0.03-0.3 mg/kg/h)."
+        },
+        {
+          "Paso": "5. Escalada Final",
+          "Descripcion": "Si persiste, considerar Propofol IV (3-5 mg/kg y luego perfusión). Nota: Diazepam y Propofol no son recomendados por vía subcutánea."
+        }
+      ]
+    },
+    {
+      "NombreDelAlgoritmo": "Algoritmo de Manejo del Reflujo Gastroesofágico (RGE)",
+      "Objetivo": "Guiar el diagnóstico y tratamiento del RGE en pediatría, diferenciando entre RGE fisiológico, RGE con síntomas digestivos y RGE con síntomas atípicos.",
+      "PoblaciónDiana": "Pacientes pediátricos con sospecha de RGE.",
+      "Pasos": [
+        {
+          "Paso": "1. Valoración Inicial",
+          "Descripcion": "Realizar historia clínica y exploración física, buscando signos de alarma."
+        },
+        {
+          "Paso": "2. Clasificación y Manejo Inicial",
+          "Descripcion": "Si los datos sugieren RGE fisiológico, se opta por observación. Si hay síntomas digestivos de RGE, se inician medidas no farmacológicas. Si hay síntomas atípicos o extradigestivos, se procede a pruebas complementarias."
+        },
+        {
+          "Paso": "3. Prueba Terapéutica con IBP",
+          "Descripcion": "En pacientes con síntomas digestivos que no mejoran con medidas no farmacológicas, se realiza una prueba con inhibidores de la bomba de protones (IBP) durante 4-8 semanas."
+        },
+        {
+          "Paso": "4. Reevaluación post-IBP",
+          "Descripcion": "Si hay mejoría, se valora la retirada del IBP. Si no hay mejoría, se indica la realización de pruebas complementarias (pHmetría-impedanciometría, endoscopia, etc.)."
+        },
+        {
+          "Paso": "5. Manejo Post-Diagnóstico Confirmado",
+          "Descripcion": "Una vez realizadas las pruebas complementarias, se establece un tratamiento específico, se optimiza el manejo médico, se replantea el diagnóstico si es necesario y se considera la opción quirúrgica."
+        }
+      ]
+    }
+  ]
+}

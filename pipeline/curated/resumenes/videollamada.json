@@ -1,0 +1,36 @@
+{
+  "slug": "videollamada",
+  "en_una_frase": "Procedimiento de videollamada (telesalud) en cuidados paliativos pediátricos: requisitos técnicos, preparación, desarrollo y registro de la visita virtual para todos los profesionales del equipo.",
+  "puntos_clave": [
+    "La videollamada puede ser programada (seguimiento, control de síntomas, ajustes de medicación) o urgente (empeoramiento clínico o mal control de síntomas tras contacto familiar).",
+    "El canal oficial con paciente/familia es el Portal de Paciente; otras aplicaciones (p. ej. Zoom) solo con aprobación institucional y consentimiento informado de la familia.",
+    "Pre-visita: citar en la historia clínica, avisar a la familia (que debe estar de acuerdo), comprobar luz de frente, audio y vídeo, y usar un espacio privado sin distractores.",
+    "En la visita: presentar a todos los conectados (incluidos observadores), estructurar quién habla, mirar a la cámara y dejar que la familia exponga antes de preguntas cerradas.",
+    "Exploración ordenada (general, respiración, abdominal, neurológico) apoyada en los dispositivos médicos del domicilio y en la observación del entorno y los cuidadores.",
+    "Cierre: explicar conclusiones, resolver dudas, acordar plan con signos de alarma y próximo contacto; registrar en la historia y programar nueva cita."
+  ],
+  "farmacos_clave": [],
+  "banderas_rojas": [
+    "La barrera idiomática es un factor limitante de la visita virtual (se pierde comunicación no verbal); valorar la participación de un mediador intercultural.",
+    "En pacientes de reciente ingreso en la unidad, valorar con el equipo referente la modalidad virtual frente a la presencial para generar fidelización y seguridad.",
+    "Si no se han cubierto las expectativas de la visita, plantear visita presencial.",
+    "Requiere manejo correcto de dispositivos móviles, conexión a internet estable y dispositivo compatible por parte de la familia."
+  ],
+  "perlas": [
+    "Buena luz de frente (no de fondo), caras centradas en la imagen y no realizar la visita desde teléfonos móviles (necesario para el profesional, aconsejable para la familia).",
+    "Aprovechar la videollamada para revisar la medicación del domicilio: estado/conservación, stock, posología y administración real (miligramos, frecuencia e indicación).",
+    "No comunicarse por el chat con ningún participante; si se graba, pedir consentimiento; compartir después con la familia el documento del plan por las vías habituales del equipo."
+  ],
+  "secciones_recomendadas": [
+    "Pre-Visita",
+    "Visita",
+    "Reforzar/explorar la correcta administración de medicación",
+    "Post-Visita"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

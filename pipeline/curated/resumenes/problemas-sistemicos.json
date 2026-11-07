@@ -1,0 +1,111 @@
+{
+  "slug": "problemas-sistemicos",
+  "en_una_frase": "Manejo de astenia, anorexia-caquexia, fiebre de origen no infeccioso y diaforesis en niños en cuidados paliativos: causas, evaluación y tratamiento farmacológico y no farmacológico.",
+  "puntos_clave": [
+    "La astenia en pacientes paliativos es más intensa, angustiosa y no se alivia con el descanso; antes de tratarla hay que valorar y tratar las causas potencialmente reversibles.",
+    "Metilfenidato es el agente más empleado en la astenia; los corticoides la mejoran de forma transitoria (2-4 semanas) y solo si la esperanza de vida es inferior a 4 semanas.",
+    "El síndrome anorexia-caquexia no revierte con la ingesta calórica; el acetato de megestrol es el único fármaco aprobado en situación avanzada no terminal (efecto en 2-4 semanas).",
+    "Fiebre no infecciosa: fármacos (citostáticos, betalactámicos), fiebre tumoral, deshidratación, disautonomía o abstinencia; el naproxeno suprime la fiebre tumoral, no la infecciosa.",
+    "El tratamiento de la fiebre busca el máximo confort: evitar bajar bruscamente la temperatura y el exceso de fármacos y pruebas que molesten al niño sin beneficio.",
+    "La diaforesis se trata según su etiología (dolor, ansiedad, fiebre, fármacos, disautonomía) y, en su defecto, con anticolinérgicos como el glicopirrolato más medidas ambientales."
+  ],
+  "farmacos_clave": [
+    {
+      "farmaco": "metilfenidato",
+      "indicacion": "astenia",
+      "dosis": "0.05-0.1mg/kg cada 12 horas (máximo 30mg al día en 2 o 3 administraciones)",
+      "via": "VO (comprimidos de liberación inmediata)",
+      "nota": "Duración del efecto 1-4 horas; administrar 30 minutos antes del efecto deseado y 6 horas antes de la hora de dormir para evitar el insomnio.",
+      "page": 2
+    },
+    {
+      "farmaco": "corticoides (prednisona o dexametasona)",
+      "indicacion": "astenia",
+      "dosis": "",
+      "via": "",
+      "nota": "Efecto rápido pero transitorio (2-4 semanas); sus efectos secundarios pueden agravar la fatiga, sólo se utilizan cuando la esperanza de vida es inferior a 4 semanas.",
+      "page": 2
+    },
+    {
+      "farmaco": "acetato de megestrol",
+      "indicacion": "astenia y síndrome anorexia-caquexia",
+      "dosis": "lactantes mayores de 8 meses, niños y adolescentes: iniciar con 7.5 a 10mg/kg/día dividido en 1-4 dosis y ajustar en función de la respuesta. Dosis máxima diaria: 800mg al día o 15mg/kg/día",
+      "via": "",
+      "nota": "Tarda 2-4 semanas en comenzar su efecto: se recomienda en pacientes con expectativa de vida de más de 3 meses. Efectos secundarios: trombosis venosa, rubor, sofocaciones, metrorragias y riesgo de insuficiencia suprarrenal.",
+      "page": 3
+    },
+    {
+      "farmaco": "dexametasona",
+      "indicacion": "anorexia-caquexia (orexígeno)",
+      "dosis": "0.1mg/kg/día, máximo 8mg al día) en ciclos de 5-7 días",
+      "via": "",
+      "nota": "Efecto transitorio sin aumento ponderal; no es el tratamiento de elección si la esperanza de vida es más larga.",
+      "page": 4
+    },
+    {
+      "farmaco": "ciproheptadina",
+      "indicacion": "anorexia-caquexia",
+      "dosis": "3mg cada 8 horas en niños de entre 2 y 4 años, 6mg cada 8 horas en niños entre 4 y 10 años y 9mg cada 8 horas en mayores de 10 años",
+      "via": "",
+      "nota": "Antihistamínico de primera generación con efecto antagonista de la serotonina.",
+      "page": 5
+    },
+    {
+      "farmaco": "dronabinol (tetrahidrocannabinol)",
+      "indicacion": "anorexia en pacientes con cáncer",
+      "dosis": "dosis inicial es de 0.05-0.1mg/kg cada 12 horas vía oral, se puede aumentar si se genera tolerancia hasta un máximo de 10mg dos veces al día",
+      "via": "VO",
+      "nota": "Su administración a última hora de la tarde o por la noche puede dar pesadillas; por ahora no parece estar indicado en el tratamiento de la anorexia.",
+      "page": 5
+    },
+    {
+      "farmaco": "naproxeno",
+      "indicacion": "fiebre tumoral",
+      "dosis": "5-7mg/kg/12 horas (dosis máxima 250-500mg/12horas)",
+      "via": "",
+      "nota": "Suprime la fiebre tumoral pero no la secundaria a infecciones.",
+      "page": 7
+    },
+    {
+      "farmaco": "dexametasona",
+      "indicacion": "fiebre tumoral",
+      "dosis": "0.1mg/kg/día, máximo 4-8 mg al día",
+      "via": "",
+      "nota": "",
+      "page": 7
+    },
+    {
+      "farmaco": "glicopirrolato",
+      "indicacion": "diaforesis",
+      "dosis": "0.02mg/kg cada 12 horas. Se puede aumentar a 0.02mg/kg 3-4 veces al día. Finalmente aumentar 0.02mg/kg/dosis cada 7 días hasta 0.1mg/kg/dosis. Dosis máxima de 0.1mg/kg/dosis o 2mg/dosis cada 6 horas",
+      "via": "",
+      "nota": "Dosis empleadas de forma habitual a partir del mes de vida.",
+      "page": 9
+    }
+  ],
+  "banderas_rojas": [
+    "Corticoides en astenia: sus efectos secundarios pueden agravar la fatiga; sólo se utilizan cuando la esperanza de vida es inferior a 4 semanas.",
+    "Acetato de megestrol: trombosis venosa, rubor, sofocaciones, metrorragias y riesgo de insuficiencia suprarrenal.",
+    "Fiebre por fármacos: síndrome neuroléptico maligno (antipsicóticos, domperidona, metoclopramida) y síndrome serotoninérgico (opioide + antidepresivo tricíclico, ISRS, triptanos, ondansetrón).",
+    "Dronabinol a última hora de la tarde o por la noche puede dar pesadillas.",
+    "Fiebre en situación de últimos días: los fármacos suelen provocar sudoración profusa que incomoda más al paciente; evitarlos en la medida de lo posible."
+  ],
+  "perlas": [
+    "Metilfenidato: administrar 30 minutos antes del efecto deseado (por ejemplo, antes de la visita de familiares y amigos) y 6 horas antes de dormir para evitar el insomnio.",
+    "Anorexia: fraccionar las comidas, platos pequeños y atractivos, aderezos acentuados y alimentos preferidos (aunque sean ricos en calorías); cuidar la higiene bucal.",
+    "Astenia: diario de síntomas y plan de gasto de energía con prioridades y objetivos a corto plazo realistas; ejercicio físico adaptado a la tolerancia del niño.",
+    "Fiebre y diaforesis: habitación fresca y aireada, retirar ropa de vestir y de cama, paños con agua tibia o fríos, ropa ligera de algodón y mantener la ingesta hídrica."
+  ],
+  "secciones_recomendadas": [
+    "TRATAMIENTO",
+    "2. Tratamiento farmacológico",
+    "1. Tratamiento no farmacológico",
+    "Tabla I: Criterios diagnósticos de fiebre de origen tumoral"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

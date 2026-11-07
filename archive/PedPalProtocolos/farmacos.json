@@ -1,0 +1,1313 @@
+{
+  "FarmacosAPPM": [
+    {
+      "Farmaco": "Acetazolamida",
+      "UsosPrincipales": [
+        [cite_start]"Epilepsia"[cite: 277],
+        [cite_start]"Presión Intracraneal Elevada" [cite: 278]
+      ],
+      [cite_start]"DosisGeneral": "Niños 1 mes-11 años: inicialmente 2.5mg/kg 2-3 veces/día, mantenimiento 5-7 mg/kg 2-3 veces/día. Máx. 750mg/día (Epilepsia)[cite: 283]. [cite_start]8mg/kg 3 veces/día para PIC (no licenciado)[cite: 287].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        [cite_start]"Inyección Intravenosa Lenta (IV)" [cite: 281, 286]
+      ],
+      [cite_start]"NotaClavePaliativa": "Puede proporcionar beneficio sintomático en la obstrucción de LCR (no licenciada)[cite: 293]. [cite_start]Contraindicada en sensibilidad a sulfonamidas y hipopotasemia[cite: 296]."
+    },
+    {
+      "Farmaco": "Adrenalina (Epinefrina)",
+      "UsosPrincipales": [
+        [cite_start]"Pequeñas hemorragias externas"[cite: 319],
+        [cite_start]"Obstrucción de la vía aérea superior" [cite: 320]
+      ],
+      [cite_start]"DosisGeneral": "Sangrado localizado: Aplicación tópica de solución 1:1000 (1mg/ml)[cite: 323, 324]. Obstrucción aérea (inhalación nebulizada): 0.15-0.4ml/kg de solución 1:1000 (1mg/ml), máx. [cite_start]5ml (Niños 1 mes-11 años)[cite: 327].",
+      "RutasComunes": [
+        [cite_start]"Aplicación Tópica"[cite: 323],
+        [cite_start]"Inhalación (Nebulizada)" [cite: 326]
+      ],
+      [cite_start]"NotaClavePaliativa": "Uso a corto plazo únicamente. Riesgo de necrosis isquémica y vasodilatación de rebote con el uso prolongado[cite: 335]."
+    },
+    {
+      "Farmaco": "Alfentanilo",
+      "UsosPrincipales": [
+        [cite_start]"Opioide alternativo en Insuficiencia Renal Terminal (estadio 4 o 5) o neurotoxicidad/intolerancia a otros opioides"[cite: 345],
+        [cite_start]"Dolor irruptivo y dolor relacionado con procedimientos" [cite: 346]
+      ],
+      [cite_start]"DosisGeneral": "Infusión (CSCI/CIVI): Dosis calculada a partir de la morfina oral (Ratio 30:1) o morfina CSCI/CIVI (Ratio 15:1)[cite: 363]. [cite_start]Dolor irruptivo (SC, Bucal, IN): 1/10 a 1/6 de la dosis total de CSCI (máx. c/h)[cite: 365, 366].",
+      "RutasComunes": [
+        "Infusión Subcutánea o Intravenosa Continua (CSCI, CIVI)",
+        [cite_start]"Bolus Subcutáneo, Bucal, Intranasal (PRN)" [cite: 365]
+      ],
+      [cite_start]"NotaClavePaliativa": "Inicio de acción rápido (<5 min) y corta duración (<60 min)[cite: 378]. [cite_start]Útil en insuficiencia renal grave (no se necesita reducción de dosis)[cite: 388]. [cite_start]**Advertencia de Seguridad con Benzodiazepinas (depresión respiratoria) [cite: 350-354].**"
+    },
+    {
+      "Farmaco": "Alimemazina (Trimeprazina) tartrato (NUEVO)",
+      "UsosPrincipales": [
+        [cite_start]"Urticaria, Prurito, Antiemético" [cite: 417-419],
+        [cite_start]"Sedación para procedimientos, Trastornos del sueño (uso a corto plazo, bajo especialista)" [cite: 420, 421]
+      ],
+      [cite_start]"DosisGeneral": "Antiemético/Prurito (PO): Niños 2-4 años: 2.5mg, 3-4 veces/día[cite: 427]. [cite_start]Sedación (PO): Niños 2-11 años: 1-2mg/kg como dosis única (máx. 60mg)[cite: 434].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 425, 431]
+      ],
+      [cite_start]"NotaClavePaliativa": "Antihistamínico fenotiazínico sedante[cite: 437]. [cite_start]Contraindicado en neonatos y niños menores de 2 años, excepto por consejo especializado[cite: 447]. [cite_start]Precaución por riesgo de prolongación del QT/hipotensión[cite: 448]."
+    },
+    {
+      "Farmaco": "Amitriptilina",
+      "UsosPrincipales": [
+        [cite_start]"Dolor neuropático"[cite: 477],
+        [cite_start]"Sialorrea, sudoración, tos refractaria, prurito neuropático" [cite: 478]
+      ],
+      [cite_start]"DosisGeneral": "Niños 2-11 años: Dosis inicial 200microgramos/kg (máx. 10mg) por la noche, aumentada gradualmente (máx. 1mg/kg/dosis bid bajo supervisión)[cite: 481, 482].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 480]
+      ],
+      [cite_start]"NotaClavePaliativa": "El efecto analgésico tarda varios días en ser evidente[cite: 490]. [cite_start]Los efectos secundarios principales incluyen estreñimiento, boca seca y somnolencia[cite: 499]. [cite_start]Evitar con IMAOs[cite: 495]. Inhibidor de CYP2D6 y CYP2C19."
+    },
+    {
+      "Farmaco": "Aprepitant",
+      "UsosPrincipales": [
+        [cite_start]"Prevención/tratamiento de náuseas y vómitos por quimioterapia"[cite: 522],
+        [cite_start]"Manejo de prurito refractario"[cite: 524],
+        [cite_start]"Vómitos cíclicos y distonía gastrointestinal (NUEVO)" [cite: 525, 526]
+      ],
+      [cite_start]"DosisGeneral": "Náuseas/Vómitos (PO) - Día 1: 3mg/kg (máx. 125mg). Días 2 y 3: 2mg/kg (máx. 80mg)[cite: 531, 534]. [cite_start]Prurito (PO): 2mg/kg (máx. 80mg) una vez al día durante 3-13 días[cite: 550].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 529]
+      ],
+      [cite_start]"NotaClavePaliativa": "Antagonista selectivo de NK-1[cite: 555]. [cite_start]Es un **sustrato, inhibidor e inductor** moderado de CYP3A4, con potencial de interacciones significativas (ej. con dexametasona, midazolam, fentanilo) [cite: 561-564]."
+    },
+    {
+      "Farmaco": "Aceite de Cacahuete (Arachis Oil) Enema",
+      "UsosPrincipales": [
+        "Ablandador fecal",
+        [cite_start]"Impactación fecal" [cite: 575, 576]
+      ],
+      [cite_start]"DosisGeneral": "Dosis rectal: Niños 3-6 años: 45-65ml. Niños 7-11 años: 65-100ml[cite: 579].",
+      "RutasComunes": [
+        [cite_start]"Administración Rectal" [cite: 578]
+      ],
+      [cite_start]"NotaClavePaliativa": "Utilizado como enema de retención para ablandar las heces duras e impactadas. Se puede dejar toda la noche[cite: 584, 585]. [cite_start]Contraindicado en niños con alergia conocida al cacahuete[cite: 589]."
+    },
+    {
+      "Farmaco": "Atropina",
+      "UsosPrincipales": [
+        "Respiración ruidosa al final de la vida",
+        [cite_start]"Hipersalivación" [cite: 600, 601]
+      ],
+      [cite_start]"DosisGeneral": "Sublingual: Neonato: 20-40microgramos/kg/dosis 2-3 veces/día según se requiera[cite: 604]. [cite_start]Niños con peso ≥20kg: 250-500microgramos/dosis 2-3 veces/día[cite: 606].",
+      "RutasComunes": [
+        [cite_start]"Vía Sublingual (SL)" [cite: 603]
+      ],
+      [cite_start]"NotaClavePaliativa": "Se utiliza de **tercera línea** si el bromuro de glicopirronio o el bromhidrato de hioscina no están disponibles o son ineficaces[cite: 616]. [cite_start]El uso concurrente de 2 o más antimuscarínicos aumenta el riesgo de efectos secundarios/toxicidad central[cite: 617]."
+    },
+    {
+      "Farmaco": "Baclofeno",
+      "UsosPrincipales": [
+        [cite_start]"Espasticidad crónica grave y espasmo muscular esquelético"[cite: 632],
+        [cite_start]"Distonía, Hipos refractarios, Dolor neuropático (tercera línea)" [cite: 633]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Dosis de mantenimiento): 750microgramos-2mg/kg/día en dosis divididas[cite: 639]. [cite_start]Máximo diario: 40mg/día (1 mes-7 años)[cite: 641].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)"[cite: 635],
+        [cite_start]"Inyección Intratecal (solo equipos especialistas)" [cite: 643]
+      ],
+      [cite_start]"NotaClavePaliativa": "La **retirada abrupta** (incluida la pérdida de la vía enteral) puede precipitar el síndrome de abstinencia potencialmente mortal[cite: 659]. [cite_start]Administrar después de las comidas para reducir la irritación gástrica[cite: 670]."
+    },
+    {
+      "Farmaco": "Betanecol",
+      "UsosPrincipales": [
+        [cite_start]"Retención urinaria, incluida la retención urinaria inducida por opioides" [cite: 684]
+      ],
+      [cite_start]"DosisGeneral": "Niños 1-11 años: 600microgramos/kg/día en 3 o 4 dosis divididas (máx. 1.2mg/kg/día, 10mg/dosis)[cite: 687, 688].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 686]
+      ],
+      [cite_start]"NotaClavePaliativa": "No licenciado para uso en niños[cite: 694]. [cite_start]Administrar 1 hora antes o 2 horas después de las comidas para reducir la probabilidad de náuseas/vómitos[cite: 702]. [cite_start]Efectos antagonizados por agentes antimuscarínicos[cite: 698]."
+    },
+    {
+      "Farmaco": "Bisacodilo",
+      "UsosPrincipales": [
+        [cite_start]"Estreñimiento" [cite: 713]
+      ],
+      [cite_start]"DosisGeneral": "Oral (PO) - Niños ≥4 años: 5-10mg una vez al día (preferiblemente por la noche)[cite: 716]. [cite_start]Rectal (Supositorio) - Niños ≥2 años: 5-10mg una vez al día[cite: 719].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        [cite_start]"Vía Rectal (Supositorio)" [cite: 715, 718]
+      ],
+      [cite_start]"NotaClavePaliativa": "Laxante estimulante[cite: 721]. [cite_start]Los comprimidos tienen **cubierta entérica y NO deben triturarse**; no son adecuados para la administración por sonda de alimentación enteral[cite: 729, 730]. [cite_start]Inicio de acción rápido con supositorios (20-60 min)[cite: 727]."
+    },
+    {
+      "Farmaco": "Buprenorfina",
+      "UsosPrincipales": [
+        "Dolor moderado a grave",
+        [cite_start]"Opioide alternativo en Insuficiencia Renal Terminal (estadio 4 o 5)" [cite: 738, 739]
+      ],
+      [cite_start]"DosisGeneral": "Parche Transdérmico (parches de 7 días): Conversión usando Equivalente Oral de Morfina (OME) (ej. 12mg/24h Morfina Oral ≈ 5µg/h Buprenorfina)[cite: 755, 756]. Sublingual (Pacientes Opioide Naive): 5microgramos/kg/dosis, máx. [cite_start]100microgramos/dosis, cada 8 horas[cite: 766].",
+      "RutasComunes": [
+        "Parche Transdérmico",
+        "Vía Sublingual (SL)",
+        [cite_start]"Inyección Subcutánea/Intramuscular/Intravenosa Lenta" [cite: 749, 764, 770]
+      ],
+      [cite_start]"NotaClavePaliativa": "Opioide potente con propiedades agonistas/antagonistas[cite: 778]. [cite_start]Es **particularmente beneficioso en el dolor neuropático** e hiperalgesia[cite: 785]. [cite_start]La absorción desde el parche se ve afectada por la temperatura (riesgo de sobredosis por pirexia/baños calientes)[cite: 794, 795]. [cite_start]Metabolizada por CYP3A4[cite: 809]. [cite_start]**Advertencia de Seguridad con Benzodiazepinas (depresión respiratoria) [cite: 742-746].**"
+    },
+    {
+      "Farmaco": "Carbamazepina",
+      "UsosPrincipales": [
+        [cite_start]"Dolor neuropático"[cite: 837],
+        "Trastornos de movimiento hipercinéticos",
+        [cite_start]"Anticonvulsivante" [cite: 838]
+      ],
+      [cite_start]"DosisGeneral": "Oral: Niños 1 mes-11 años: Dosis inicial 5mg/kg por la noche o 2.5mg/kg bid, dosis de mantenimiento 5mg/kg 2-3 veces/día[cite: 842, 843].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        [cite_start]"Vía Rectal (Supositorio/Líquido)" [cite: 840, 848, 869]
+      ],
+      [cite_start]"NotaClavePaliativa": "La retirada abrupta puede causar **hiperalgesia**[cite: 854]. [cite_start]Inductor de las enzimas CYP2C9 y CYP3A4, lo que **reduce los niveles** de numerosos fármacos (ej. alfentanilo, amitriptilina, fentanilo)[cite: 866]. [cite_start]Usar peso corporal ideal (IBW) para la dosificación en niños obesos[cite: 857]."
+    },
+    {
+      "Farmaco": "Celecoxib",
+      "UsosPrincipales": [
+        [cite_start]"Dolor, dolor inflamatorio, dolor óseo, rigidez (no de primera línea)"[cite: 886],
+        [cite_start]"Dolor postoperatorio (cuando otros AINEs están contraindicados)" [cite: 887]
+      ],
+      [cite_start]"DosisGeneral": "Oral (PO) - Niños >2 años, peso 10-25kg: 2-3mg/kg/dosis bid, máx. 50mg bid. Peso >25kg: 100mg bid[cite: 891].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 889]
+      ],
+      [cite_start]"NotaClavePaliativa": "Inhibidor selectivo de la COX-2[cite: 894]. [cite_start]Se asocia con un riesgo bajo de toxicidad GI, pero se debe considerar un IBP para el uso prolongado[cite: 911, 912]. [cite_start]Inhibidor de CYP2D6; metabolizado por CYP2C9[cite: 919, 920]. [cite_start]**Reducir la dosis en un 50% si se administra con fluconazol**[cite: 922]."
+    },
+    {
+      "Farmaco": "Hidrato de cloral",
+      "UsosPrincipales": [
+        "Convulsiones en encefalopatía epiléptica grave",
+        "Estatus distónico",
+        "Insomnio (uso a corto plazo, bajo especialista)",
+        [cite_start]"Sedación para procedimientos en neonatos" [cite: 933-937]
+      ],
+      [cite_start]"DosisGeneral": "Niños 1 mes-11 años (PO/Rectal): Dosis inicial 30mg/kg dosis única por la noche (puede aumentar a 50mg/kg, máx. 1g dosis única)[cite: 941, 942, 943].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        [cite_start]"Vía Rectal (Supositorio/Líquido)" [cite: 940, 948]
+      ],
+      [cite_start]"NotaClavePaliativa": "La **solución enteral contiene propilenglicol** que puede acumularse en neonatos (precaución)[cite: 963]. [cite_start]Evitar en insuficiencia renal o hepática grave[cite: 971]. [cite_start]Mezclar con abundante jugo/agua/leche para reducir la irritación gástrica[cite: 973]."
+    },
+    {
+      "Farmaco": "Clorpromazina",
+      "UsosPrincipales": [
+        "Hipo",
+        "Náuseas y vómitos en cuidados de final de vida (cuando otros no son adecuados)",
+        [cite_start]"Delirio agitado en cuidados de final de vida" [cite: 988, 989]
+      ],
+      [cite_start]"DosisGeneral": "Oral: Niños 1-5 años: 500microgramos/kg 6-8 horas (máx. 40mg/día)[cite: 992]. [cite_start]Dosis diaria total puede darse una vez al día por la noche[cite: 995].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        [cite_start]"Vía Rectal (Supositorio - dosis doble de la oral)" [cite: 991, 1000]
+      ],
+      [cite_start]"NotaClavePaliativa": "Prolonga el **intervalo QT** y se asocia con riesgo de *Torsades de Pointes*[cite: 1004]. [cite_start]Precaución en pacientes con enfermedad cardíaca[cite: 1005]. [cite_start]Puede disminuir el umbral de convulsiones[cite: 1002]."
+    },
+    {
+      "Farmaco": "Clobazam",
+      "UsosPrincipales": [
+        "Terapia adyuvante para la epilepsia",
+        [cite_start]"Terapia a corto plazo 'complementaria' para exacerbaciones de la epilepsia" [cite: 1026, 1027]
+      ],
+      [cite_start]"DosisGeneral": "Oral: Niños 1 mes-5 años: Dosis inicial 125microgramos/kg bid, mantenimiento 250microgramos/kg bid (máx. 500microgramos/kg)[cite: 1037, 1038, 1039].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 1036]
+      ],
+      [cite_start]"NotaClavePaliativa": "Advertencia: se ha confundido con clonazepam (extremar la precaución)[cite: 1024]. [cite_start]Riesgo de **depresión respiratoria fatal** si se co-prescribe con opioides[cite: 1030, 1031]. [cite_start]Evitar la retirada abrupta[cite: 1049]. [cite_start]Las dosis diarias de hasta 30 mg se pueden administrar en una sola toma a la hora de acostarse[cite: 1042]."
+    },
+    {
+      "Farmaco": "Clonazepam",
+      "UsosPrincipales": [
+        [cite_start]"Convulsiones tónico-clónicas, crisis focales, mioclono, crisis en racimo" [cite: 1073-1076],
+        [cite_start]"Dolor neuropático, síndrome de piernas inquietas, Ansiedad/agitación" [cite: 1077-1079]
+      ],
+      [cite_start]"DosisGeneral": "Epilepsia Oral (Niños 1-4 años): Inicial 250microgramos por la noche, mantenimiento 1-3mg por la noche o en 2-3 dosis divididas[cite: 1091]. [cite_start]Ansiólisis: aproximadamente 20 veces más potente que el diazepam (250µg Clonazepam ≈ 5mg Diazepam oral)[cite: 1114, 1115].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 1089, 1098]
+      ],
+      [cite_start]"NotaClavePaliativa": "Advertencia: se ha confundido con clobazam (extremar la precaución)[cite: 1071]. [cite_start]Larga vida media (hasta 60 horas), riesgo de acumulación y toxicidad[cite: 1130, 1131]. [cite_start]Asociado con **hipersecreción salival y babeo**[cite: 1125]. [cite_start]**Advertencia de Seguridad con Benzodiazepinas (depresión respiratoria) [cite: 1082-1086].**"
+    },
+    {
+      "Farmaco": "Clonidina",
+      "UsosPrincipales": [
+        [cite_start]"Dolor / Sedación / Ahorro de opioides / Prevención de la abstinencia de opioides"[cite: 1157],
+        [cite_start]"Espasticidad / Distonía, Estatus distónico, Síntomas conductuales" [cite: 1159, 1160, 1162]
+      ],
+      [cite_start]"DosisGeneral": "Oral/IV Bolus (Niños ≥1 mes): Inicial 1microgramos/kg/dosis 3-4 veces/día. Máximo 5microgramos/kg/dosis 4 veces/día[cite: 1166, 1167]. [cite_start]Infusión CSCI/CIVI: 2.5-50microgramos/kg/24horas[cite: 1183].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        "Intravenosa (IV) Bolus",
+        "Infusión Subcutánea/Intravenosa Continua (CSCI, CIVI)",
+        [cite_start]"Parche Transdérmico" [cite: 1165, 1169, 1182]
+      ],
+      [cite_start]"NotaClavePaliativa": "**Evitar la interrupción abrupta** (riesgo de hipertensión de rebote y síntomas de abstinencia)[cite: 1210, 1211]. [cite_start]Útil por su efecto analgésico sinérgico con opioides y prevención de la abstinencia[cite: 1204]. [cite_start]Retirar parches antes de RM (riesgo de quemaduras)[cite: 1218]. [cite_start]Gran biodisponibilidad por vía rectal (100%)[cite: 1227]."
+    },
+    {
+      "Farmaco": "Co-danthramer (dantrón y poloxámero 188)",
+      "UsosPrincipales": [
+        [cite_start]"Estreñimiento en cuidados de final de vida" [cite: 1256]
+      ],
+      [cite_start]"DosisGeneral": "Suspensión 25/200: Niños 2-11 años: 2.5-5ml por la noche[cite: 1260].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 1258]
+      ],
+      [cite_start]"NotaClavePaliativa": "Laxante estimulante con agente humectante[cite: 1266]. [cite_start]**Evitar el contacto prolongado con la piel** (riesgo de irritación y excoriación); no usar en incontinencia urinaria o fecal/niños con pañales[cite: 1270, 1271]. [cite_start]La suspensión es viscosa y requiere enjuagar bien la sonda después de la administración[cite: 1275]."
+    },
+    {
+      "Farmaco": "Co-danthrusate (dantrón y docusato de sodio)",
+      "UsosPrincipales": [
+        [cite_start]"Estreñimiento en cuidados de final de vida" [cite: 1284]
+      ],
+      [cite_start]"DosisGeneral": "Suspensión 50/60: Niños 6-11 años: 5ml o 1 cápsula por la noche[cite: 1288].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 1286]
+      ],
+      [cite_start]"NotaClavePaliativa": "Laxante estimulante con ablandador[cite: 1291]. [cite_start]**No recomendado para menores de 6 años**[cite: 1295]. [cite_start]Al igual que con Co-danthramer, evitar el contacto prolongado con la piel (riesgo de irritación)[cite: 1297]."
+    },
+    {
+      "Farmaco": "Ciclicina",
+      "UsosPrincipales": [
+        [cite_start]"Antiemético de elección para la presión intracraneal elevada"[cite: 1317],
+        [cite_start]"Náuseas y vómitos de origen vestibular o refractarios" [cite: 1318]
+      ],
+      [cite_start]"DosisGeneral": "Oral/IV lenta (Niños 1 mes-5 años): 500microgramos-1mg/kg hasta 3 veces/día (máx. 25mg/dosis)[cite: 1321]. [cite_start]Infusión CSCI/CIVI (Niños 2-5 años): 25-50mg/24horas[cite: 1330].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        "Inyección Intravenosa Lenta (IV)",
+        "Vía Rectal",
+        [cite_start]"Infusión Subcutánea/Intravenosa Continua (CSCI, CIVI)" [cite: 1320, 1324, 1328]
+      ],
+      [cite_start]"NotaClavePaliativa": "**Incompatible con Cloruro de Sodio 0.9% para infusión continua (causa precipitación)**, solo diluir con agua para inyección o Dextrosa 5%[cite: 1356]. [cite_start]Incompatibilidad dependiente de la concentración con alfentanilo, dexametasona, diamorfina y oxicodona[cite: 1357]. [cite_start]Sus efectos anticolinérgicos reducen el efecto de procinéticos[cite: 1339]."
+    },
+    {
+      "Farmaco": "Dantroleno",
+      "UsosPrincipales": [
+        "Relajante del músculo esquelético",
+        [cite_start]"Espasmo muscular esquelético crónico grave o espasticidad" [cite: 1369, 1370]
+      ],
+      [cite_start]"DosisGeneral": "Oral (PO) - Niños 5-11 años: Inicial 500microgramos/kg una vez/día; aumentar semanalmente. Máximo recomendado 2mg/kg 3-4 veces/día (máx. 400mg/día)[cite: 1374, 1375, 1376, 1378].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 1373]
+      ],
+      [cite_start]"NotaClavePaliativa": "Actúa directamente sobre el músculo[cite: 1383]. [cite_start]Riesgo de **hepatotoxicidad**; considerar la monitorización de la función hepática[cite: 1387]. [cite_start]Contraindicado en insuficiencia hepática[cite: 1390]."
+    },
+    {
+      "Farmaco": "Dexametasona",
+      "UsosPrincipales": [
+        "Cefalea por Presión Intracraneal (PIC) elevada por tumor",
+        "Compresión medular maligna",
+        "Dolor neuropático/óseo (por compresión/infiltración maligna)",
+        [cite_start]"Antiemético (adyuvante o en citotóxicos altamente emetogénicos)" [cite: 1403, 1405-1407]
+      ],
+      [cite_start]"DosisGeneral": "PIC/Compresión medular (PO/IV corta): Niños 1 mes-11 años: 250microgramos/kg dos veces/día durante 5 días, luego suspender[cite: 1410, 1411]. Antiemético (PO/IV/SC): Niños 1-5 años: Inicial 1mg 3 veces/día, máx. [cite_start]2mg 3 veces/día[cite: 1436, 1437].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        "Infusión Intravenosa Corta (IV)",
+        [cite_start]"Inyección Subcutánea (SC)" [cite: 1409, 1420, 1433]
+      ],
+      [cite_start]"NotaClavePaliativa": "Administrar dosis una o dos veces al día **antes del mediodía** para reducir el insomnio[cite: 1416, 1429, 1448]. [cite_start]La administración durante cursos <2 semanas se puede suspender abruptamente[cite: 1450]. [cite_start]Inductor moderado de CYP3A4[cite: 1463]. [cite_start]La ganancia de peso y el aspecto Cushing se consideran preocupaciones mayores en niños[cite: 1455]. [cite_start]Considerar un IBP[cite: 1457]."
+    },
+    {
+      "Farmaco": "Diamorfina",
+      "UsosPrincipales": [
+        "Dolor moderado a grave",
+        "Dolor irruptivo (cuando la vía oral no está disponible o se requiere acción rápida)",
+        "Disnea",
+        [cite_start]"Opioide alternativo cuando se requieren dosis grandes en pequeño volumen" [cite: 1479-1481]
+      ],
+      [cite_start]"DosisGeneral": "Infusión (CSCI/CIVI): Conversión desde Morfina Oral (Ratio 6:1); desde Morfina CSCI/CIVI (Ratio 2:1)[cite: 1494]. [cite_start]Dolor irruptivo (SC/IV): 1/10 a 1/6 de la infusión diaria de diamorfina[cite: 1500]. [cite_start]Pacientes Opioide Naive (CSCI): Niños 2-11 años: 240-300microgramos/kg/24horas (máx. 10mg/24h)[cite: 1508].",
+      "RutasComunes": [
+        "Infusión Subcutánea/Intravenosa Continua (CSCI, CIVI)",
+        "Bolus Subcutáneo/Intravenoso (SC, IV)",
+        [cite_start]"Vía Intranasal (IN), Vía Bucal (Bucal)" [cite: 1491, 1499, 1501]
+      ],
+      [cite_start]"NotaClavePaliativa": "Pro-fármaco de la morfina[cite: 1515]. [cite_start]Principal beneficio: **mayor solubilidad** cuando se requieren dosis altas[cite: 1520, 1536]. [cite_start]**Evitar en insuficiencia renal grave** (incrementar el intervalo de dosificación o reducir la dosis en insuficiencia renal)[cite: 1532]. [cite_start]**Advertencia de Seguridad con Benzodiazepinas (depresión respiratoria) [cite: 1484-1488].**"
+    },
+    {
+      "Farmaco": "Diazepam",
+      "UsosPrincipales": [
+        "Ansiedad, Agitación, Ataques de pánico, Espasmo muscular o distonía",
+        [cite_start]"Estatus epiléptico" [cite: 1547-1549]
+      ],
+      [cite_start]"DosisGeneral": "Ansiedad (PO) - Niños 2-11 años: 500microgramos-2mg 3 veces/día[cite: 1560]. [cite_start]Espasmo muscular (PO) - Niños 5-11 años: Inicial 5mg dos veces/día[cite: 1566]. [cite_start]Estatus (IV): 300-400microgramos/kg (máx. 10mg), repetir una vez (Niños 1 mes-11 años)[cite: 1573].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        "Inyección Intravenosa Lenta (IV)",
+        [cite_start]"Vía Rectal (Solución)" [cite: 1559, 1569, 1575]
+      ],
+      [cite_start]"NotaClavePaliativa": "Casi 100% biodisponible por vía oral o rectal[cite: 1589]. [cite_start]Larga vida media (24-48 horas), su metabolito activo (nordiazepam) tiene una vida media de 48-120 horas[cite: 1592]. [cite_start]Evitar en insuficiencia respiratoria aguda o grave[cite: 1585]. [cite_start]Metabolizado por CYP2C19 y CYP3A4[cite: 1596]. [cite_start]**Advertencia de Seguridad con Benzodiazepinas (depresión respiratoria) [cite: 1552-1556].**"
+    },
+    {
+      "Farmaco": "Diclofenaco Sódico",
+      "UsosPrincipales": [
+        "Dolor e inflamación leve a moderada",
+        [cite_start]"Dolor musculoesquelético" [cite: 1615, 1616]
+      ],
+      [cite_start]"DosisGeneral": "Oral/Rectal (Niños ≥6 meses): Inicial 300microgramos/kg 3 veces/día, máx. 1mg/kg 3 veces/día (máx. 50mg dosis única)[cite: 1619]. IV/IM (Niños ≥2 años): 300-500microgramos/kg 1-2 veces/día, máx. [cite_start]1mg/kg 1-2 veces/día (máx. 2 días)[cite: 1620, 1621].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        "Vía Rectal",
+        "Inyección Intramuscular (IM)",
+        [cite_start]"Infusión Intravenosa (IV)" [cite: 1618, 1620]
+      ],
+      [cite_start]"NotaClavePaliativa": "Inhibidor preferencial de COX-2[cite: 1623]. [cite_start]Riesgo intermedio de toxicidad GI (considerar IBP)[cite: 1641, 1642]. [cite_start]Dosis IV/IM citadas para dolor postoperatorio a corto plazo[cite: 1629]. [cite_start]La absorción rectal es del 50%[cite: 1644]. [cite_start]Metabolizado por CYP2C9[cite: 1646]."
+    },
+    {
+      "Farmaco": "Docusato",
+      "UsosPrincipales": [
+        [cite_start]"Estreñimiento" [cite: 1670]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Niños 2-11 años): Inicial 12.5mg 3 veces/día, aumentar a 25mg 3 veces/día[cite: 1674]. [cite_start]Rectal (Niños ≥12 años): 1 enema (120mg) dosis única[cite: 1679].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        [cite_start]"Vía Rectal (Enema)" [cite: 1672, 1678]
+      ],
+      [cite_start]"NotaClavePaliativa": "Laxante emoliente, humectante y estimulante suave[cite: 1681]. [cite_start]Generalmente se requiere un laxante estimulante más potente para el estreñimiento inducido por opioides[cite: 1685]. [cite_start]Las preparaciones orales actúan en 1-2 días; las rectales en 20 minutos[cite: 1686, 1687]. [cite_start]La administración yeyunal no afecta la respuesta[cite: 1692]."
+    },
+    {
+      "Farmaco": "Domperidona",
+      "UsosPrincipales": [
+        "Náuseas y vómitos por motilidad GI deficiente",
+        [cite_start]"Reflujo gastroesofágico refractario" [cite: 1699, 1700]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Niños >1 mes-11 años): Inicial 250microgramos/kg, máx. 10mg/dosis, 3 veces/día. Puede aumentar a 400microgramos/kg 3-4 veces/día (máx. 80mg/24h)[cite: 1714, 1715].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 1712]
+      ],
+      [cite_start]"NotaClavePaliativa": "**Advertencia de Seguridad (EMA 2019):** No indicada en menores de 12 años o <35kg para N/V, pero **el uso paliativo está excluido**; aún así, se debe usar la dosis mínima efectiva y evitar en problemas cardíacos o riesgo de **QT prolongado**[cite: 1702, 1704, 1707, 1709]. [cite_start]Promueve la motilidad GI[cite: 1725]. [cite_start]Metabolizado por CYP3A4[cite: 1738]. [cite_start]Evitar en insuficiencia hepática[cite: 1735]."
+    },
+    {
+      "Farmaco": "Eritromicina",
+      "UsosPrincipales": [
+        [cite_start]"Estasis gastrointestinal (Agonista del receptor de motilina) - indicación principal paliativa"[cite: 1753],
+        [cite_start]"Antibiótico (infecciones del tracto respiratorio/piel)" [cite: 1752]
+      ],
+      [cite_start]"DosisGeneral": "Procinético (PO/IV): Neonato, niño: 3mg/kg 4 veces/día (máx. 1g 4 veces/día)[cite: 1770, 1771].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        [cite_start]"Infusión Intravenosa (IV)" [cite: 1756, 1764, 1769]
+      ],
+      [cite_start]"NotaClavePaliativa": "Agente procinético útil para estasis GI[cite: 1753]. [cite_start]Inhibidor de CYP3A4, **aumenta los niveles de muchos fármacos** (ej. alfentanilo, buprenorfina, dexametasona, midazolam)[cite: 1787]. [cite_start]**Prolonga el intervalo QT** y se asocia con riesgo de *Torsades de Pointes*[cite: 1782, 1783]. [cite_start]Riesgo de estenosis pilórica hipertrófica en neonatos[cite: 1784]."
+    },
+    {
+      "Farmaco": "Etoricoxib",
+      "UsosPrincipales": [
+        "Analgésico antiinflamatorio",
+        [cite_start]"Dolor musculoesquelético" [cite: 1803]
+      ],
+      [cite_start]"DosisGeneral": "Oral (PO) - Niños 12-15 años: Inicial 30mg una vez/día, máx. 60mg una vez/día[cite: 1806].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 1805]
+      ],
+      [cite_start]"NotaClavePaliativa": "Inhibidor selectivo de la COX-2[cite: 1810]. [cite_start]No licenciado para menores de 16 años[cite: 1812]. [cite_start]Bajo riesgo de toxicidad GI (considerar IBP)[cite: 1824, 1825]. [cite_start]**Contraindicado** en insuficiencia hepática y renal grave[cite: 1834]."
+    },
+    {
+      "Farmaco": "Famotidina (NUEVO)",
+      "UsosPrincipales": [
+        "Antagonista H2 para reducir la secreción de ácido gástrico",
+        [cite_start]"Dispepsia, Reflujo gastroesofágico, Prevención/tratamiento de úlceras pépticas" [cite: 1849-1852]
+      ],
+      [cite_start]"DosisGeneral": "Reflujo Oral (Niños ≥3 meses): Inicial 500microgramos/kg/dosis bid, máx. 1mg/kg/dosis bid (máx. 40mg dosis única)[cite: 1857]. [cite_start]Úlcera Péptica (Niños ≥1 año): 500microgramos/kg una vez/día por la noche (máx. 40mg/día)[cite: 1859].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 1854]
+      ],
+      [cite_start]"NotaClavePaliativa": "No licenciado en niños en el Reino Unido[cite: 1863]. [cite_start]No tiene efecto procinético (a diferencia de ranitidina)[cite: 1866]. [cite_start]Se ha asociado con un mayor riesgo de gastroenteritis y neumonía[cite: 1869]. [cite_start]**Reducir la dosis en un 50%** en insuficiencia renal grave[cite: 1877]."
+    },
+    {
+      "Farmaco": "Fentanilo",
+      "UsosPrincipales": [
+        "Dolor moderado a grave",
+        [cite_start]"Transdérmico NO debe usarse en pacientes opioides naive" [cite: 1902, 1903]
+      ],
+      [cite_start]"DosisGeneral": "Parche Transdérmico (parche de 72h): Conversión desde Morfina Oral (Ratio 100:1) (ej. 30mg/24h Morfina Oral ≈ 12µg/h Fentanilo)[cite: 1918, 1937]. [cite_start]Infusión (CSCI/CIVI): Conversión desde Morfina Oral (Ratio 100:1)[cite: 1948]. [cite_start]Dolor Irruptivo (Bucal/IN): 1/10 a 1/6 de la dosis total de CSCI/CIVI (máx. c/h)[cite: 1954, 1955].",
+      "RutasComunes": [
+        "Parche Transdérmico",
+        "Infusión Subcutánea/Intravenosa Continua (CSCI, CIVI)",
+        "Bolus Intravenoso Intermitente",
+        [cite_start]"Vía Bucal, Vía Intranasal" [cite: 1915, 1946, 1953, 1962, 1972]
+      ],
+      [cite_start]"NotaClavePaliativa": "Opioide sintético, ideal para la rotación de opioides[cite: 1978]. [cite_start]**Advertencia de Seguridad (MHRA): NO usar parches en pacientes opioides *naive*** (riesgo de depresión respiratoria fatal)[cite: 1917, 1919, 1990]. [cite_start]Se puede usar **con seguridad en insuficiencia renal** o con función renal ausente/deteriorada[cite: 2000]. [cite_start]Metabolizado por CYP3A4[cite: 1993]. [cite_start]**Advertencia de Seguridad con Benzodiazepinas (depresión respiratoria) [cite: 1906-1910].**"
+    },
+    {
+      "Farmaco": "Fluconazol",
+      "UsosPrincipales": [
+        "Candidiasis mucosal (si nistatina no es eficaz/tolerada)",
+        [cite_start]"Infecciones candidiásicas invasivas o prevención en inmunocomprometidos" [cite: 2051]
+      ],
+      [cite_start]"DosisGeneral": "Candidiasis Mucosal (PO/IV) - Niños >1 mes: 3-6mg/kg el primer día, luego 3mg/kg (máx. 100mg/día)[cite: 2057].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        [cite_start]"Infusión Intravenosa (IV)" [cite: 2054, 2061, 2067]
+      ],
+      [cite_start]"NotaClavePaliativa": "Inhibidor potente de CYP2C9 y moderado de CYP3A4. **Aumenta los niveles de muchos fármacos** (ej. alfentanilo, buprenorfina, dexametasona, fentanilo, midazolam, omeprazol)[cite: 2084, 2085]. [cite_start]La biodisponibilidad no se ve afectada por la administración yeyunal[cite: 2089]."
+    },
+    {
+      "Farmaco": "Fluoxetina",
+      "UsosPrincipales": [
+        "Depresión mayor (consultar especialista)",
+        [cite_start]"Posible beneficio en dolor neuropático y tos refractaria" [cite: 2101, 2114]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Niños ≥5 años): Inicial 10mg una vez/día. Aumentar a máx. 20mg una vez/día después de 1-2 semanas[cite: 2104, 2105].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 2103]
+      ],
+      [cite_start]"NotaClavePaliativa": "Inhibidor selectivo de la recaptación de serotonina (ISRS)[cite: 2107]. [cite_start]Inicio del beneficio en 3-4 semanas[cite: 2111]. [cite_start]Inhibe CYP2C19 y CYP2D6 (aumenta los niveles de amitriptilina, diazepam)[cite: 2127]. [cite_start]**No usar con IMAO** (riesgo de síndrome serotoninérgico)[cite: 2129]."
+    },
+    {
+      "Farmaco": "Gabapentina",
+      "UsosPrincipales": [
+        "Adyuvante en dolor neuropático",
+        "Hiperalgesia visceral, irritabilidad del SNC",
+        [cite_start]"Tono y trastornos del movimiento, Hipo refractario, Prurito urémico" [cite: 2144-2149]
+      ],
+      [cite_start]"DosisGeneral": "Neuropático (PO) - Niños 2-11 años: Inicial 5-10mg/kg/dosis, administrar 3 veces/día desde el día 3. Aumentar cada 3-7 días (máx. 20mg/kg/dosis, 600mg dosis única)[cite: 2162, 2163, 2164].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 2158]
+      ],
+      [cite_start]"NotaClavePaliativa": "**Advertencia de Seguridad (MHRA 2017):** Riesgo de depresión respiratoria grave (aún sin opioides) en pacientes con función respiratoria comprometida/insuficiencia renal[cite: 2153, 2154, 2155]. [cite_start]Absorción **saturable** (perfil no lineal)[cite: 2189]. [cite_start]Excretada sin cambios por los riñones: **reducir la dosis en insuficiencia renal**[cite: 2196]. [cite_start]La morfina puede aumentar sus concentraciones[cite: 2200]. [cite_start]El contenido de cápsulas puede mezclarse con jugo/agua para sondas[cite: 2202, 2203]."
+    },
+    {
+      "Farmaco": "Gaviscon®",
+      "UsosPrincipales": [
+        [cite_start]"Reflujo gastroesofágico, dispepsia y ardor de estómago" [cite: 2220]
+      ],
+      [cite_start]"DosisGeneral": "Infant® (polvo): Neonato-2 años <4.5kg: 1 dosis (1/2 sobre doble) cuando se requiera (máx. 6 dosis/24h)[cite: 2224]. [cite_start]Líquido/Comprimidos (Niños 2-11 años): 5-10ml de líquido o 1 comprimido después de las comidas y al acostarse[cite: 2227].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 2222]
+      ],
+      [cite_start]"NotaClavePaliativa": "No es apropiado para la **administración por yeyunostomía**[cite: 2247]. Se puede administrar por SNG/gastrostomía. [cite_start]El calcio puede unirse al fosfato del alimento y causar bloqueo de la sonda (enjuagar bien)[cite: 2245]."
+    },
+    {
+      "Farmaco": "Glicerol (Glicerina)",
+      "UsosPrincipales": [
+        [cite_start]"Estreñimiento" [cite: 2258]
+      ],
+      [cite_start]"DosisGeneral": "Rectal: Neonato (>34 semanas): Punta de supositorio de 1g[cite: 2261]. Niños 1-11 meses: Supositorio infantil de 1g. [cite_start]Niños 1-11 años: Supositorio infantil de 2g[cite: 2262, 2263].",
+      "RutasComunes": [
+        [cite_start]"Vía Rectal (Supositorio)" [cite: 2260]
+      ],
+      [cite_start]"NotaClavePaliativa": "Acción higroscópica y lubricante. Puede ser estimulante rectal[cite: 2266]. [cite_start]Asociado a enterocolitis necrotizante en bebés <34 semanas de gestación[cite: 2270]. [cite_start]Humedecer con agua antes de la inserción[cite: 2273]. [cite_start]Inicio de acción 20 min - 3 horas[cite: 2271]."
+    },
+    {
+      "Farmaco": "Bromuro de Glicopirronio",
+      "UsosPrincipales": [
+        "Control de secreciones de las vías aéreas superiores/respiración ruidosa (final de vida)",
+        "Hipersalivación y babeo",
+        [cite_start]"Dolor por cólico intestinal, sudoración o pirexia paraneoplásica" [cite: 2280]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Sol. 400µg/ml): Niños ≥1 mes: Inicial 16microgramos/kg 3 veces/día (máx. 80microgramos/kg 3 veces/día)[cite: 2281]. [cite_start]SC/IV (Bolus): Inicial 4microgramos/kg 3-4 veces/día (máx. 10microgramos/kg 3-4 veces/día)[cite: 2282]. [cite_start]CSCI/CIVI: Inicial 12microgramos/kg/24horas (máx. 40microgramos/kg/24h)[cite: 2283].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        "Inyección Subcutánea/Intravenosa (SC, IV)",
+        [cite_start]"Infusión Subcutánea/Intravenosa Continua (CSCI, CIVI)" [cite: 2281, 2282, 2283]
+      ],
+      [cite_start]"NotaClavePaliativa": "**No cruza la barrera hematoencefálica** (menos efectos secundarios que el bromhidrato de hioscina)[cite: 2291]. [cite_start]El tratamiento es **más efectivo si se inicia temprano**[cite: 2288]. [cite_start]La administración oral debe ser **1 hora antes o 2 horas después de las comidas** (la comida reduce marcadamente la exposición sistémica)[cite: 2295, 2296]. [cite_start]Riesgo de acumulación en insuficiencia renal (reducir la dosis o evitar)[cite: 2293]."
+    },
+    {
+      "Farmaco": "Haloperidol",
+      "UsosPrincipales": [
+        "Náuseas y vómitos (causa metabólica o casos difíciles/refractarios)",
+        "Delirio, Agitación (en las últimas horas/días de vida)",
+        [cite_start]"Hipo intratable, Psicosis/alucinaciones" [cite: 2305, 2306]
+      ],
+      [cite_start]"DosisGeneral": "N/V, Delirio (PO) - Niños 1 mes-11 años: 20microgramos/kg/dosis (máx. 1mg), una vez/día por la noche (máx. 180microgramos/kg/dosis, 10mg)[cite: 2308]. [cite_start]CSCI/CIVI (Niños 1 mes-11 años): Inicial 20microgramos/kg/24horas (máx. 90microgramos/kg/24h)[cite: 2310].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        [cite_start]"Infusión Intravenosa/Subcutánea Continua (CIVI, CSCI)" [cite: 2308, 2310]
+      ],
+      [cite_start]"NotaClavePaliativa": "Antagonista D2 y antipsicótico[cite: 2315]. [cite_start]Contraindicado en **Síndrome de QT largo congénito**[cite: 2321]. [cite_start]**Prolonga el intervalo QT** y se asocia con riesgo de *Torsades de Pointes*[cite: 2323, 2325]. [cite_start]La biodisponibilidad oral es del 50%; considerar reducir la dosis al convertir de vía oral a SC/IV[cite: 2327]. [cite_start]Metabolizado por CYP3A4[cite: 2328]."
+    },
+    {
+      "Farmaco": "Hidromorfona",
+      "UsosPrincipales": [
+        [cite_start]"Analgésico opioide alternativo para dolor grave (especialmente intolerancia a otros opioides fuertes)" [cite: 2335]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Liberación Inmediata): Conversión desde Morfina Oral (Ratio 5:1)[cite: 2335]. [cite_start]CSCI/CIVI: Conversión desde Morfina Oral (Ratio 10:1); desde Morfina CSCI/CIVI (Ratio 5:1)[cite: 2343].",
+      "RutasComunes": [
+        "Vía Oral (PO) (Liberación Inmediata y Modificada)",
+        "Inyección Intravenosa/Subcutánea (IV, SC) Bolus",
+        [cite_start]"Infusión Intravenosa/Subcutánea Continua (CIVI, CSCI)" [cite: 2335, 2344]
+      ],
+      [cite_start]"NotaClavePaliativa": "Análogo de la morfina. **Metabolitos se excretan por vía renal y se pueden acumular** en insuficiencia renal (usar con precaución y dosis reducidas)[cite: 2351, 2352, 2357]. [cite_start]Más soluble que la morfina (alternativa a la diamorfina cuando se necesitan dosis altas por CSCI)[cite: 2353]. [cite_start]**Las cápsulas de liberación modificada no deben administrarse por sondas de alimentación** (riesgo de bloqueo)[cite: 2360]. [cite_start]**Advertencia de Seguridad con Benzodiazepinas (depresión respiratoria) [cite: 2336-2339].**"
+    },
+    {
+      "Farmaco": "Butilbromuro de Hioscina (Buscopan)",
+      "UsosPrincipales": [
+        "Adyuvante en dolor por espasmo del músculo liso (GI/Genitourinario)",
+        "Efecto antisecretor en obstrucción intestinal",
+        [cite_start]"Manejo de secreciones/respiración ruidosa" [cite: 2363]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Niños 2-4 años): 5mg 3-4 veces/día[cite: 2364]. [cite_start]SC/IV/IM (Bolus): Niños 5-11 años: 5-10mg 3-4 veces/día[cite: 2365]. [cite_start]CSCI: Niños 5-11 años: 30mg/24horas[cite: 2365].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        "Inyección Subcutánea/Intravenosa/Intramuscular (SC, IV, IM)",
+        [cite_start]"Infusión Subcutánea Continua (CSCI)" [cite: 2364, 2365]
+      ],
+      [cite_start]"NotaClavePaliativa": "**No cruza la barrera hematoencefálica** (no causa somnolencia ni efecto antiemético central)[cite: 2372]. [cite_start]**La biodisponibilidad oral es <1%** (el efecto antiespasmódico oral probablemente sea local)[cite: 2379, 2380]. [cite_start]Contraindicado en pacientes con taquicardia[cite: 2373]. [cite_start]La administración yeyunal no se recomienda ya que anula los efectos locales[cite: 2382].",
+    },
+    {
+      "Farmaco": "Bromhidrato de Hioscina",
+      "UsosPrincipales": [
+        "Control de secreciones de las vías aéreas superiores/respiración ruidosa (final de vida)",
+        "Hipersalivación y babeo",
+        [cite_start]"Dolor por cólico intestinal" [cite: 2385]
+      ],
+      [cite_start]"DosisGeneral": "Oral/Bucal (Niños 1 mes-11 años): 10microgramos/kg (máx. 600microgramos) 4 veces/día[cite: 2386]. [cite_start]Transdérmico (Parche): Niños 3-9 años: 500microgramos (1/2 parche de 1mg/72h) cada 72 horas[cite: 2387]. [cite_start]CSCI/IV/SC: 10microgramos/kg (máx. 600microgramos) cada 4-8 horas, o 40-60microgramos/kg/24horas por CSCI/IV[cite: 2387].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        "Vía Bucal",
+        "Vía Transdérmica (Parche)",
+        [cite_start]"Inyección/Infusión Subcutánea/Intravenosa (SC, IV)" [cite: 2386, 2387]
+      ],
+      [cite_start]"NotaClavePaliativa": "Se utiliza de **segunda línea** después del glicopirronio para la hipersalivación[cite: 2390]. [cite_start]**Los parches contienen metal en el respaldo y deben retirarse antes de la RM** (riesgo de quemaduras)[cite: 2392]. [cite_start]El parche puede cortarse sin afectar la liberación del fármaco (fuera de la licencia)[cite: 2397]. [cite_start]Los efectos secundarios centrales (somnolencia, confusión) son más comunes ya que cruza la BHE[cite: 2393]."
+    },
+    {
+      "Farmaco": "Ibuprofeno",
+      "UsosPrincipales": [
+        "Analgésico no esteroideo, Anti-pirético",
+        [cite_start]"Adyuvante para el dolor musculoesquelético" [cite: 2401]
+      ],
+      [cite_start]"DosisGeneral": "Dolor/Inflamación (PO) - Niños 6-11 meses: 50mg 3-4 veces/día (máx. 30mg/kg/día)[cite: 2403]. [cite_start]Dosis Reumáticas: 30-40mg/kg/día en 3-6 dosis divididas (máx. 60mg/kg/día)[cite: 2412].",
+      "RutasComunes": [
+        "Vía Oral (PO) (Liberación Inmediata y Modificada)",
+        [cite_start]"Aplicación Tópica" [cite: 2401, 2410, 2429]
+      ],
+      [cite_start]"NotaClavePaliativa": "AINE no selectivo con menos efectos secundarios GI que otros (pero más débil antiinflamatorio)[cite: 2417, 2423]. [cite_start]**Contraindicado en cardiopatías congénitas dependientes del conducto arterioso**[cite: 2420]. [cite_start]Puede enmascarar signos de inflamación[cite: 2419, 2420]. [cite_start]Usar **peso corporal ajustado (AdjBW)** para dosificación en niños obesos[cite: 2418, 3730]."
+    },
+    {
+      "Farmaco": "Bromuro de Ipratropio",
+      "UsosPrincipales": [
+        "Sibilancias o disnea por broncoespasmo",
+        "Rinorrea (rinitis alérgica/no alérgica)",
+        [cite_start]"Manejo localizado de sialorrea" [cite: 2431]
+      ],
+      [cite_start]"DosisGeneral": "Nebulizada: Niños 1 mes-5 años: 125-250microgramos según se requiera (máx. 1mg/día)[cite: 2432]. [cite_start]Aerosol: Niños ≥1 mes: 20microgramos 3 veces/día[cite: 2433].",
+      "RutasComunes": [
+        "Inhalación (Nebulizada)",
+        "Inhalación (Aerosol con espaciador)",
+        [cite_start]"Administración Intranasal" [cite: 2432, 2434]
+      ],
+      [cite_start]"NotaClavePaliativa": "Antimuscarínico[cite: 2439]. [cite_start]En bebés <18 meses, el salbutamol es incierto; el ipratropio puede ser más útil[cite: 3412]. [cite_start]El producto inhalado debe usarse con un **dispositivo espaciador** adecuado[cite: 2442]. [cite_start]Duración de acción de 3-6 horas[cite: 2440]."
+    },
+    {
+      "Farmaco": "Ketamina",
+      "UsosPrincipales": [
+        "Dolor neuropático e hiperalgesia",
+        "Dolor refractario (opioides, no opioides, adyuvantes)",
+        "Dolor visceral/isquémico grave",
+        [cite_start]"Reducción de la 'puesta en marcha' del receptor NMDA y tolerancia a opioides" [cite: 2445]
+      ],
+      [cite_start]"DosisGeneral": "Oral/Bucal (Neonato-11 años): Inicial 100microgramos/kg, aumentar hasta 400microgramos/kg, cada 6-8 horas[cite: 2446, 2447]. [cite_start]Infusión CSCI/CIVI (Niños ≥1 mes): Inicial 500microgramos/kg/24horas a 1mg/kg/24horas (máx. usual 12mg/kg/24h)[cite: 2450].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        "Vía Bucal",
+        "Infusión Subcutánea/Intravenosa Continua (CSCI, CIVI)",
+        [cite_start]"Vía Intramuscular, Intranasal, Rectal, Tópica" [cite: 2446, 2450, 2458]
+      ],
+      [cite_start]"NotaClavePaliativa": "Bloqueador del receptor NMDA[cite: 2453]. [cite_start]**Biodisponibilidad oral baja (aprox. 20%)** pero es potenciada por el metabolismo de primer paso, lo que hace razonable un **ratio 1:1 para la conversión oral:SC/IV**[cite: 2468, 2469]. [cite_start]**Los efectos secundarios neuropsiquiátricos (agitación, alucinaciones)** pueden controlarse con benzodiazepinas o haloperidol[cite: 2465, 2467]. [cite_start]Evitar el uso prolongado (daño renal/deterioro cognitivo)[cite: 2460]. [cite_start]**Programa 2 de CD**[cite: 2482]."
+    },
+    {
+      "Farmaco": "Ketorolaco",
+      "UsosPrincipales": [
+        "Manejo a corto plazo del dolor postoperatorio agudo moderado a grave",
+        [cite_start]"Dolor crónico (experiencia limitada)" [cite: 2483]
+      ],
+      [cite_start]"DosisGeneral": "IV/SC Bolus (Niños 1-15 años): 500microgramos/kg/dosis, máx. 15mg, c/6 horas (máx. 60mg/día)[cite: 2484]. [cite_start]CSCI (Niños 1-15 años): 2mg/kg/24horas (máx. 60mg/día)[cite: 2484].",
+      "RutasComunes": [
+        "Inyección Intravenosa/Subcutánea/Intramuscular (IV, SC, IM) Bolus",
+        "Vía Bucal (con solución inyectable)",
+        [cite_start]"Infusión Subcutánea Continua (CSCI)" [cite: 2484]
+      ],
+      [cite_start]"NotaClavePaliativa": "AINE, inhibidor preferencial de COX-1 con potente efecto analgésico[cite: 2485]. [cite_start]Solo licenciado para uso a **corto plazo** (máx. 2 días) en adolescentes y adultos[cite: 2486]. [cite_start]**Alto riesgo de toxicidad GI**, se recomienda encarecidamente la co-prescripción de IBP[cite: 2489, 2495]. Alcalino en solución; [cite_start]**alto riesgo de incompatibilidad** si se mezcla con fármacos ácidos (ej. morfina, midazolam)[cite: 2505, 2507]. [cite_start]**No usar con otros AINEs**[cite: 2493]."
+    },
+    {
+      "Farmaco": "Lactulosa",
+      "UsosPrincipales": [
+        "Estreñimiento, incontinencia fecal relacionada con estreñimiento",
+        [cite_start]"Encefalopatía hepática" [cite: 2509]
+      ],
+      [cite_start]"DosisGeneral": "Estreñimiento Oral: Neonato: 2.5ml dos veces/día. Niños 1-4 años: 2.5-10ml dos veces/día[cite: 2520].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 2520]
+      ],
+      [cite_start]"NotaClavePaliativa": "Laxante osmótico[cite: 2510]. [cite_start]Generalmente **no es útil para el estreñimiento inducido por opioides** (donde se necesita un estimulante)[cite: 2513]. [cite_start]Inicio de acción 36-48 horas[cite: 2515]. [cite_start]Se puede administrar diluida por sonda (efecto terapéutico inalterado por la administración gástrica o yeyunal)[cite: 2517, 2518]."
+    },
+    {
+      "Farmaco": "Lansoprazol",
+      "UsosPrincipales": [
+        "Reflujo gastroesofágico, esofagitis erosiva, úlceras",
+        [cite_start]"Profilaxis de irritación gástrica inducida por AINEs/esteroides"[cite: 2520, 2521],
+        [cite_start]"Mala absorción de grasas en fibrosis quística" [cite: 2521]
+      ],
+      [cite_start]"DosisGeneral": "Oral: Niños <30kg: 500microgramos/kg-1mg/kg (máx. 15mg) una vez/día. Niños >30kg: 15-30mg una vez/día[cite: 2524].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 2524]
+      ],
+      [cite_start]"NotaClavePaliativa": "Inhibidor de la bomba de protones (IBP)[cite: 2524]. [cite_start]**No licenciado en niños en el Reino Unido**[cite: 2522]. [cite_start]Tomar la dosis única diaria **al menos 30 minutos antes de la comida**[cite: 2538]. [cite_start]Las cápsulas de gránulos pueden abrirse y dispersarse en jugo/yogur[cite: 2540]. [cite_start]Menos probable que el omeprazol MUPS cause obstrucción en sondas finas[cite: 2546]. [cite_start]Biodisponibilidad superior al omeprazol (80-90%)[cite: 2530]."
+    },
+    {
+      "Farmaco": "Levetiracetam",
+      "UsosPrincipales": [
+        "Crisis focales, epilepsia (mantenimiento)",
+        [cite_start]"Estatus epiléptico convulsivo (APLS - primera opción después de benzodiazepina)" [cite: 2550, 2554]
+      ],
+      [cite_start]"DosisGeneral": "Mantenimiento Oral/IV/SC (Niños 6 meses-17 años <50kg): Inicial 10mg/kg una vez/día, aumentar a 30mg/kg dos veces/día[cite: 2552]. [cite_start]Estatus (IV/IO): 40mg/kg (máx. 3g) como dosis de carga[cite: 2554].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        "Infusión Intravenosa/Subcutánea Intermitente/Continua (IV, SC)",
+        [cite_start]"Inyección Intraósea (IO)" [cite: 2551, 2554]
+      ],
+      [cite_start]"NotaClavePaliativa": "Dosis de conversión Oral:IV:SC es **1:1:1**[cite: 2558]. [cite_start]APLS lo recomienda como primera elección de anticonvulsivo de acción prolongada (después de 2 dosis de benzodiazepina) para el estatus convulsivo[cite: 2554]. [cite_start]La inyección tiene un **pH bajo y alta osmolalidad** (riesgo de irritación del sitio SC); diluir o administrar por separado en perfusión[cite: 2559, 2560, 2562].",
+    },
+    {
+      "Farmaco": "Levomepromazina",
+      "UsosPrincipales": [
+        "Antiemético de amplio espectro (causa incierta/multifactorial)",
+        "Antipsicótico, Ansiolítico",
+        "Sedación para agitación terminal",
+        [cite_start]"Adyuvante para dolor neuropático" [cite: 2565]
+      ],
+      [cite_start]"DosisGeneral": "N/V Oral (Niños 1 mes-11 años): 50-100microgramos/kg una vez/día por la noche (máx. 400microgramos/kg/24h)[cite: 2566, 2567]. Sedación/Confusión CSCI/CIVI (Niños 12 años+): Inicial 12.5mg/24horas, aumentar a máx. [cite_start]200mg/24horas[cite: 2571].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        "Inyección Subcutánea/Intravenosa (SC, IV) Bolus",
+        [cite_start]"Infusión Subcutánea/Intravenosa Continua (CSCI, CIVI)" [cite: 2566, 2569, 2571]
+      ],
+      [cite_start]"NotaClavePaliativa": "Potente sedante y antiemético[cite: 2572]. [cite_start]**Prolonga el intervalo QT** y se asocia con riesgo de *Torsades de Pointes*[cite: 2577]. [cite_start]**Hipotensión** es un efecto secundario (especialmente con dosis altas)[cite: 2579]. [cite_start]La biodisponibilidad oral es del 50%; considerar reducir la dosis al convertir a SC/IV[cite: 2581]. [cite_start]Las dosis bajas son a menudo efectivas como antiemético; las dosis altas son muy sedantes[cite: 2573, 2574]."
+    },
+    {
+      "Farmaco": "Lidocaína (Lignocaína) parche",
+      "UsosPrincipales": [
+        [cite_start]"Dolor neuropático localizado" [cite: 2589]
+      ],
+      [cite_start]"DosisGeneral": "Tópico (Niños 3-17 años): Aplicar 1-2 parches en el área(s) afectada(s) una vez/día durante 12 horas, seguido de 12 horas sin parche[cite: 2590].",
+      "RutasComunes": [
+        [cite_start]"Aplicación Tópica (Parche)" [cite: 2590]
+      ],
+      [cite_start]"NotaClavePaliativa": "No licenciado para uso en niños o adolescentes menores de 18 años[cite: 2592]. [cite_start]Actúa localmente estabilizando las membranas neuronales[cite: 2593]. [cite_start]El periodo de tratamiento adecuado es de **mínimo 4 semanas**[cite: 2596]. [cite_start]El parche debe cortarse para ajustarse al área dolorosa[cite: 2604]."
+    },
+    {
+      "Farmaco": "Loperamida",
+      "UsosPrincipales": [
+        "Diarrea de causa no infecciosa",
+        "Incontinencia fecal",
+        [cite_start]"Manejo de alto débito de ileostomía" [cite: 2607]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Niños 1-11 meses): Inicial 100microgramos/kg dos veces/día (máx. 1.25mg/kg/día)[cite: 2608]. [cite_start]Niños 1-11 años: Inicial 100microgramos/kg (máx. 2mg dosis única) 3-4 veces/día (máx. 1.25mg/kg/día, 16mg/día)[cite: 2609].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 2607]
+      ],
+      [cite_start]"NotaClavePaliativa": "Agente antidiarreico[cite: 2607]. [cite_start]Inicio de acción máximo en 16-24 horas[cite: 2615]. [cite_start]La administración yeyunal no afecta la respuesta[cite: 2623]. [cite_start]**Precaución:** dosis muy altas para pérdidas por ostomía pueden llevar a toxicidad[cite: 2617]."
+    },
+    {
+      "Farmaco": "Lorazepam",
+      "UsosPrincipales": [
+        "Ansiedad, Agitación y angustia, Irritación cerebral, Espasmo muscular",
+        "Náuseas y vómitos anticipatorios por quimioterapia",
+        [cite_start]"Estatus epiléptico" [cite: 2626]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Niños 2-5 años): 500microgramos 2-3 veces/día[cite: 2627]. [cite_start]Bucal (Niños ≥1 mes): 25microgramos/kg como dosis única (máx. 1mg/dosis)[cite: 2628]. [cite_start]Estatus (IV lenta): 100microgramos/kg/dosis (máx. 4mg), repetir a los 10 min[cite: 2634].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        "Vía Bucal",
+        [cite_start]"Inyección Intravenosa Lenta (IV)" [cite: 2627, 2628, 2634]
+      ],
+      [cite_start]"NotaClavePaliativa": "Potencia ~10 veces la del diazepam como ansiolítico/sedante[cite: 2637]. [cite_start]Absorbido bien por vía **bucal** con inicio de efecto rápido[cite: 2640]. [cite_start]Vida media de 10-20 horas (riesgo de acumulación con dosis PRN frecuentes)[cite: 2638]. [cite_start]**Advertencia de Seguridad con Benzodiazepinas (depresión respiratoria) [cite: 2630-2632].**"
+    },
+    {
+      "Farmaco": "Macrogoles",
+      "UsosPrincipales": [
+        "Estreñimiento, Impactación fecal",
+        [cite_start]"Adecuado para estreñimiento inducido por opioides" [cite: 2646]
+      ],
+      [cite_start]"DosisGeneral": "Constipación Oral (Sobres Pediátricos): Niños 1-5 años: 1 sobre/día (máx. 4 sobres/día)[cite: 2647]. [cite_start]Impactación Fecal (Sobres Pediátricos): Niños 5-11 años: 4 sobres el día 1, aumentar en 2 sobres c/2 días (máx. 12 sobres/día)[cite: 2651].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO) (Polvo diluido en agua)" [cite: 2647]
+      ],
+      [cite_start]"NotaClavePaliativa": "Laxante osmótico que estimula el peristaltismo por el aumento del volumen de las heces (no tiene acción estimulante inherente)[cite: 2656]. [cite_start]Asegurar una hidratación adecuada[cite: 2656]. [cite_start]Eficacia poco probable afectada por la administración yeyunal[cite: 2661].",
+    },
+    {
+      "Farmaco": "Melatonina",
+      "UsosPrincipales": [
+        [cite_start]"Trastornos del sueño debido a la interrupción del ritmo circadiano" [cite: 2663]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Niños ≥1 mes): 2-3mg por la noche, aumentar c/1-2 semanas hasta máx. 10mg[cite: 2664].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO) (Liberación Inmediata y Modificada)" [cite: 2664]
+      ],
+      [cite_start]"NotaClavePaliativa": "El tratamiento debe ser iniciado por un **especialista**[cite: 2668]. [cite_start]**Los comprimidos de liberación modificada** deben tomarse con o después de la comida[cite: 2674]. [cite_start]Las formulaciones de **liberación inmediata** deben tomarse con el estómago vacío (2h antes o 2h después de la comida)[cite: 2676]. [cite_start]Metabolizada por CYP1A2[cite: 2672].",
+    },
+    {
+      "Farmaco": "Metadona",
+      "UsosPrincipales": [
+        [cite_start]"Dolor moderado a grave, particularmente dolor neuropático o mal respondedor a otros opioides" [cite: 2680]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Opioide Naive) - Niños 1-12 años: 50-100microgramos/kg/dosis, máx. 2.5mg, 2-3 veces/día[cite: 2730]. [cite_start]Conversión: Requiere protocolos específicos y **colaboración con especialistas** debido al alto riesgo (ej. Ratio 15:1 para OME >800mg/día)[cite: 2681, 2700, 2716]. [cite_start]CSCI/CIVI: Dosis oral diaria total ÷ 2[cite: 2728].",
+      "RutasComunes": [
+        "Vía Oral (PO) (Linctus, Solución, Comprimidos)",
+        "Inyección Intravenosa/Subcutánea (IV, SC) Bolus",
+        [cite_start]"Infusión Intravenosa/Subcutánea Continua (CIVI, CSCI)" [cite: 2680]
+      ],
+      [cite_start]"NotaClavePaliativa": "Opioide fuerte y bloqueador del receptor NMDA[cite: 2738]. [cite_start]**Extremadamente importante:** Solo debe iniciarse por profesionales con experiencia[cite: 2683]. [cite_start]**Alto riesgo de muerte** por sobredosis debido a la larga y variable vida media (riesgo de acumulación hasta por 12 días)[cite: 2681, 2684, 2712, 2736]. [cite_start]**Prolonga el intervalo QT** (se recomienda ECG)[cite: 2744, 2746]. [cite_start]**Advertencia de Seguridad con Benzodiazepinas (depresión respiratoria) [cite: 2685-2687][cite_start].** **Programa 2 de CD**[cite: 2757]."
+    },
+    {
+      "Farmaco": "Metilnaltrexona",
+      "UsosPrincipales": [
+        [cite_start]"Estreñimiento inducido por opioides cuando la respuesta a otros laxantes es inadecuada" [cite: 2758]
+      ],
+      [cite_start]"DosisGeneral": "SC (Niños 1 mes-12 años o <38kg): 150microgramos/kg, máx. 8mg, dosis única (repetir c/otro día si es necesario)[cite: 2759, 2760].",
+      "RutasComunes": [
+        "Inyección Subcutánea (SC) Bolus",
+        [cite_start]"Inyección Intravenosa (IV) Bolus (en adultos)" [cite: 2759, 2765]
+      ],
+      [cite_start]"NotaClavePaliativa": "Antagonista del receptor µ-opioide de acción **periférica** (no cruza la BHE, por lo que no revierte la analgesia central)[cite: 2763, 2768]. [cite_start]Inicio de acción 15-60 minutos[cite: 2769]. [cite_start]**Continuar con el tratamiento laxante** concomitante[cite: 2766]. [cite_start]**Contraindicado en obstrucción intestinal conocida/sospechada**[cite: 2769]. [cite_start]**Reducir la dosis en un 50%** en insuficiencia renal grave[cite: 2772]."
+    },
+    {
+      "Farmaco": "Metoclopramida",
+      "UsosPrincipales": [
+        "Procinético antiemético (en compresión gástrica o gastroparesia)",
+        [cite_start]"Hipo" [cite: 2774]
+      ],
+      [cite_start]"DosisGeneral": "Oral/IM/SC/IV lenta (Niños 1-18 años): 100-150 microgramos/kg repetido hasta 3 veces/día (máx. 500 microgramos/kg/24h, 10mg/dosis)[cite: 2775, 2776].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        "Inyección Intramuscular (IM)",
+        "Inyección Subcutánea/Intravenosa Lenta (SC, IV) Bolus",
+        [cite_start]"Infusión Subcutánea/Intravenosa Continua (CSCI, CIVI)" [cite: 2775, 2776]
+      ],
+      [cite_start]"NotaClavePaliativa": "**El tratamiento debe limitarse a corto plazo (máx. 5 días) si es posible**[cite: 2779, 2781]. [cite_start]**Riesgo de reacciones distónicas agudas** (especialmente en niños <10kg, niñas y mujeres jóvenes); un efecto secundario neurológico clave[cite: 2782, 2783]. [cite_start]Usar solo como **segunda línea** en cuidados paliativos (solo cuando otros no funcionan)[cite: 2779]. [cite_start]La dosis IV debe administrarse **lentamente** (>3 minutos) para reducir efectos adversos[cite: 2787]."
+    },
+    {
+      "Farmaco": "Metronidazol tópico",
+      "UsosPrincipales": [
+        [cite_start]"Reducción del olor causado por bacterias anaerobias asociadas a heridas o tumores fungiformes" [cite: 2791]
+      ],
+      [cite_start]"DosisGeneral": "Aplicar a la herida limpia 1-2 veces/día y cubrir con apósito no adherente[cite: 2792].",
+      "RutasComunes": [
+        [cite_start]"Aplicación Tópica (Crema, Gel)" [cite: 2792]
+      ],
+      [cite_start]"NotaClavePaliativa": "Uso **fuera de indicación** (off-label)[cite: 2793]. [cite_start]Uso local para dirigirse a las bacterias anaerobias productoras de olor[cite: 2791]. [cite_start]Evitar el área de los ojos[cite: 2794]."
+    },
+    {
+      "Farmaco": "Miconazol gel oral",
+      "UsosPrincipales": [
+        [cite_start]"Infección fúngica oral e intestinal" [cite: 2797]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Candidiasis) - Neonato: 1ml 2-4 veces/día untado alrededor de la boca[cite: 2798]. [cite_start]Niños 2 años+: 2.5ml 4 veces/día después de las comidas[cite: 2799]. [cite_start]Continuar el tratamiento durante al menos 7 días después de la curación[cite: 2799].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (Gel) (Untado, retención en boca)" [cite: 2798, 2805]
+      ],
+      [cite_start]"NotaClavePaliativa": "No licenciado para uso en niños <4 meses o durante los primeros 5-6 meses de vida de un prematuro[cite: 2801]. [cite_start]Evitar la aplicación cerca de la parte posterior de la garganta en bebés (riesgo de asfixia)[cite: 2804]. [cite_start]Riesgo de aumento del INR/sangrado con el uso concomitante de anticoagulantes orales[cite: 2804]."
+    },
+    {
+      "Farmaco": "Midazolam",
+      "UsosPrincipales": [
+        "Estatus epiléptico y control de convulsiones terminales",
+        "Sedación consciente (procedimientos, hemorragia terminal)",
+        [cite_start]"Ansiedad/agitación (final de vida), Disnea, Irritación cerebral, Rescate de distonía" [cite: 2812, 2813]
+      ],
+      [cite_start]"DosisGeneral": "Estatus (Bucal/IN): Niños 1-4 años: 5mg/dosis. Niños 10 años+: 10mg/dosis. Repetir una vez después de 10 min[cite: 2819]. CSCI/CIVI (Convulsiones): 1mg/kg/24horas, aumentar a máx. [cite_start]7mg/kg/24horas (Neonato-2 meses)[cite: 2819]. [cite_start]CSCI/CIVI (Ansiedad/Agitación): Niños 10 años+: Máx. inicial 10mg/24horas[cite: 2826].",
+      "RutasComunes": [
+        "Vía Bucal",
+        "Vía Intranasal (IN)",
+        "Inyección Subcutánea/Intravenosa (SC, IV) Bolus",
+        "Infusión Subcutánea/Intravenosa Continua (CSCI, CIVI)",
+        [cite_start]"Vía Oral (PO)" [cite: 2819, 2822, 2824, 2825, 2826]
+      ],
+      [cite_start]"NotaClavePaliativa": "Benzodiazepina de acción corta. La dosis bucal es **dos veces más potente que el diazepam rectal** para las convulsiones[cite: 2837]. [cite_start]**El aclaramiento es más rápido en pacientes jóvenes/sanos y más lento en neonatos/pacientes críticamente enfermos** (riesgo de acumulación)[cite: 2833, 2845, 2848, 2849]. [cite_start]Metabolizado por CYP3A4[cite: 2849]. [cite_start]**Advertencia de Seguridad con Benzodiazepinas y Opioides (depresión respiratoria) [cite: 2815-2817][cite_start].** **Programa 3 de CD**[cite: 2858]."
+    },
+    {
+      "Farmaco": "Morfina",
+      "UsosPrincipales": [
+        "Dolor moderado a grave",
+        [cite_start]"Disnea" [cite: 2860]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Opioide Naive) - Niños 2-11 años: 200-300microgramos/kg/dosis (máx. 10mg/dosis) c/4 horas[cite: 2865]. [cite_start]CSCI/CIVI (Opioide Naive) - Niños 2-11 años: 480-600microgramos/kg/24horas (máx. 20mg/24h)[cite: 2865]. [cite_start]Dolor Irruptivo (PO/IV/SC): 1/10 a 1/6 de la dosis diaria total c/1-4 horas[cite: 2868]. [cite_start]CSCI/CIVI (Conversión): Dosis oral total/3[cite: 2868].",
+      "RutasComunes": [
+        "Vía Oral (PO) (Liberación Inmediata y Modificada)",
+        "Vía Rectal (Comprimidos de liberación modificada)",
+        "Inyección Intravenosa/Subcutánea (IV, SC) Bolus",
+        [cite_start]"Infusión Intravenosa/Subcutánea Continua (CIVI, CSCI)" [cite: 2865, 2866, 2893]
+      ],
+      [cite_start]"NotaClavePaliativa": "Opioide fuerte de **primera elección** por vía oral e infusión[cite: 2874, 2875]. [cite_start]Los metabolitos activos se excretan por vía renal (reducir la dosis en insuficiencia renal/hepática)[cite: 2879]. [cite_start]La **toxicidad** a menudo se presenta como **espasmos mioclónicos**[cite: 2881]. [cite_start]El ratio Oral:IV se sugiere 3:1[cite: 2874]. [cite_start]**Advertencia de Seguridad con Benzodiazepinas (depresión respiratoria) [cite: 2861-2863][cite_start].** **Programa 2 de CD**[cite: 2900]."
+    },
+    {
+      "Farmaco": "Nabilone",
+      "UsosPrincipales": [
+        "Náuseas y vómitos por quimioterapia (no primera/segunda línea)",
+        "Náuseas y vómitos refractarios a antieméticos convencionales",
+        [cite_start]"Manejo de síntomas GI superiores en distonía intestinal" [cite: 2902, 2903]
+      ],
+      [cite_start]"DosisGeneral": "Oral: Niños <18kg: 500microgramos dos veces/día. Adulto: 1-2mg dos veces/día (máx. 6mg/día en 2-3 dosis divididas)[cite: 2901].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO) (Cápsulas)" [cite: 2901]
+      ],
+      [cite_start]"NotaClavePaliativa": "Canabinoide sintético (uso solo por especialista)[cite: 2904, 2905]. [cite_start]Los efectos pueden persistir durante un período variable e impredecible[cite: 2907]. [cite_start]Evitar en insuficiencia hepática grave[cite: 2909]. [cite_start]**Programa 2 de CD**[cite: 2910]."
+    },
+    {
+      "Farmaco": "Naloxona",
+      "UsosPrincipales": [
+        [cite_start]"Reversión de emergencia de la depresión respiratoria o sobredosis de opioides potencialmente mortales" [cite: 2912]
+      ],
+      [cite_start]"DosisGeneral": "Reversión parcial (IV): Neonato, niño 1 mes-11 años: 1-10microgramos/kg (máx. 200microgramos/dosis), repetir c/1min (máx. 5 veces)[cite: 2913]. [cite_start]Infusión IV: 60% de la dosis efectiva inicial por hora[cite: 2916]. [cite_start]Intranasal: Niños ≥9kg: 1.8mg en una fosa nasal, repetir a los 2-3 min si no hay respuesta[cite: 2921].",
+      "RutasComunes": [
+        "Inyección Intravenosa (IV) Bolus",
+        "Inyección Subcutánea/Intramuscular (SC, IM)",
+        "Infusión Intravenosa Continua (CIVI)",
+        [cite_start]"Vía Intranasal" [cite: 2912, 2921]
+      ],
+      [cite_start]"NotaClavePaliativa": "Antagonista opioide potente[cite: 2924]. La duración de acción es corta; [cite_start]**pueden ser necesarias dosis repetidas o una infusión** para revertir los efectos de opioides de acción prolongada[cite: 2927, 2928]. [cite_start]Actúa en 2 minutos por vía IV[cite: 2929]. [cite_start]La dosis IV es doble de la SC/IM[cite: 2912]."
+    },
+    {
+      "Farmaco": "Naproxeno",
+      "UsosPrincipales": [
+        "Analgésico antiinflamatorio no esteroideo",
+        [cite_start]"Alivio de síntomas en artritis inflamatoria y síndromes musculoesqueléticos agudos" [cite: 2931]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Niños ≥2 años): 5-7.5mg/kg/dosis dos veces/día (máx. 1g/día). Dosis de hasta 10mg/kg dos veces/día se han utilizado[cite: 2932].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 2932]
+      ],
+      [cite_start]"NotaClavePaliativa": "Asociado con **riesgo intermedio de toxicidad GI** (considerar IBP)[cite: 2941, 2942, 2943]. [cite_start]Contraindicado en insuficiencia cardíaca, GI activo o úlcera péptica[cite: 2935]. [cite_start]Las formas de **liberación entérica no deben triturarse ni masticarse**[cite: 2948]. [cite_start]Usar con precaución en insuficiencia renal/hepática[cite: 2944].",
+    },
+    {
+      "Farmaco": "Óxido Nitroso (Entonox®)",
+      "UsosPrincipales": [
+        [cite_start]"Analgesia autorregulada sin pérdida de consciencia (ej. cambio de apósito doloroso)" [cite: 2951]
+      ],
+      [cite_start]"DosisGeneral": "Inhalación (Niños ≥2 años): Hasta 50% administrado con aparato anestésico adecuado en oxígeno[cite: 2952]. [cite_start]El uso autorregulado suele ser para mayores de 5 años[cite: 2952].",
+      "RutasComunes": [
+        [cite_start]"Inhalación (a través de válvula de demanda)" [cite: 2952]
+      ],
+      [cite_start]"NotaClavePaliativa": "Rápido inicio y terminación de la acción[cite: 2953]. [cite_start]**Riesgo de hipoxia** inmediatamente después de la administración (administrar oxígeno suplementario)[cite: 2956]. [cite_start]**No apto para uso fuera del entorno hospitalario**[cite: 2951, 2954]. [cite_start]Contraindicado si hay **neumotórax o aire intracraneal**[cite: 2955]."
+    },
+    {
+      "Farmaco": "Nistatina",
+      "UsosPrincipales": [
+        [cite_start]"Infección fúngica oral y perioral" [cite: 2965]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Niños 2 años+): 100,000-600,000 unidades 4 veces/día[cite: 2969]. [cite_start]Continuar el tratamiento durante 48 horas después de la curación[cite: 2968].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (Suspensión)" [cite: 2965]
+      ],
+      [cite_start]"NotaClavePaliativa": "Fungistático[cite: 2965]. [cite_start]Administrar **después de las comidas o tomas**[cite: 2971]. [cite_start]Retener cerca de las lesiones antes de tragar (para contacto mucosal)[cite: 2969]. [cite_start]Licenciado para todas las edades[cite: 2966]."
+    },
+    {
+      "Farmaco": "Octreotida",
+      "UsosPrincipales": [
+        "Náuseas y vómitos",
+        "Obstrucción intestinal inoperable",
+        "Diarrea intratable",
+        [cite_start]"Hemorragia por varices esofágicas/gástricas, Quilotorax" [cite: 2974]
+      ],
+      [cite_start]"DosisGeneral": "Antiemético/Antisecretor CSCI/CIVI (Niños ≥1 mes): 5-10microgramos/kg/24horas (máx. 750microgramos/24h)[cite: 2978]. [cite_start]Hemorragia/Quilotorax (CSCI/CIVI): 1microgramos/kg/hora[cite: 2976].",
+      "RutasComunes": [
+        "Infusión Intravenosa/Subcutánea Continua (CIVI, CSCI)",
+        [cite_start]"Inyección Subcutánea (SC) Bolus" [cite: 2976, 2978]
+      ],
+      [cite_start]"NotaClavePaliativa": "Análogo sintético de somatostatina; actúa como hormona inhibidora (particularmente en GI)[cite: 2983, 2985]. [cite_start]**Evitar la retirada abrupta** (riesgo de cólico biliar y pancreatitis)[cite: 2986]. [cite_start]Puede deteriorar la tolerancia a la glucosa[cite: 2987]. [cite_start]La inyección SC puede ser dolorosa (calentar la ampolla antes de la inyección)[cite: 2989]."
+    },
+    {
+      "Farmaco": "Olanzapina",
+      "UsosPrincipales": [
+        "Psicosis, Delirio, Agitación",
+        "Anorexia (cuando todos los demás fallan)",
+        [cite_start]"Náuseas y vómitos" [cite: 2992, 2993]
+      ],
+      [cite_start]"DosisGeneral": "Agitación/Delirio Oral: Niños <12 años: Inicial 1.25mg por la noche y según se requiera. Niños ≥12 años: Inicial 2.5mg por la noche y según se requiera (máx. 10mg/día)[cite: 2997]. [cite_start]Náuseas/Vómitos/Anorexia Oral: Niños ≥12 años: Inicial 1.25-2.5mg por la noche y según se requiera (máx. sugerido 7.5mg/día)[cite: 2998, 2999].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO) (Comprimidos, Orodispersibles)" [cite: 2993]
+      ],
+      [cite_start]"NotaClavePaliativa": "Antipsicótico atípico, antagonista D2 y 5-HT2[cite: 3000]. [cite_start]Baja incidencia de efectos extrapiramidales[cite: 3003]. [cite_start]Efecto secundario **muy común:** **ganancia de peso**[cite: 3007]. [cite_start]La dosis inicial debe **reducirse a la mitad** en insuficiencia renal/hepática[cite: 3011]. [cite_start]Los comprimidos orodispersibles se pueden disolver en agua para sondas[cite: 3014]."
+    },
+    {
+      "Farmaco": "Omeprazol",
+      "UsosPrincipales": [
+        "Reflujo gastroesofágico, Dispepsia relacionada con ácido",
+        [cite_start]"Profilaxis GI (con AINEs/esteroides), Tratamiento de úlceras" [cite: 3020, 3021]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Niños 10-19kg): 10mg una vez/día, máx. 20mg una vez/día. IV: Inicial 500microgramos/kg (máx. 20mg/dosis) una vez/día, máx. 2mg/kg (máx. 40mg/dosis)[cite: 3024, 3025].",
+      "RutasComunes": [
+        "Vía Oral (PO) (Cápsulas, Comprimidos)",
+        [cite_start]"Infusión Intravenosa (IV)" [cite: 3022, 3025]
+      ],
+      [cite_start]"NotaClavePaliativa": "Inhibidor de la bomba de protones (IBP)[cite: 3026]. [cite_start]**Precaución al administrar por sonda** (las cápsulas MUPS pueden bloquear sondas finas <8Fr)[cite: 3040]. [cite_start]Se recomienda una suspensión oral (no licenciada) para sondas finas[cite: 3041]. [cite_start]La administración yeyunal es efectiva[cite: 3042]. [cite_start]Inhibe CYP2C19 (aumenta niveles de diazepam)[cite: 3032]."
+    },
+    {
+      "Farmaco": "Ondansetrón",
+      "UsosPrincipales": [
+        "Antiemético (vómitos por daño a la mucosa GI, quimio/radio)",
+        "Adyuvante a levomepromazina en N/V grave",
+        [cite_start]"Prurito inducido por opioides" [cite: 3046]
+      ],
+      [cite_start]"DosisGeneral": "N/V (PO/IV) - Niños ≥6 meses: 100-150microgramos/kg/dosis c/8-12 horas (máx. 8mg/dosis)[cite: 3049]. [cite_start]N/V por quimioterapia (IV): 5mg/m² o 150microgramos/kg inmediatamente antes de la quimioterapia (máx. 8mg/dosis), repetir c/4h (máx. 32mg/día)[cite: 3047, 3048].",
+      "RutasComunes": [
+        "Vía Oral (PO) (Solución, Comprimidos, Orodispersibles)",
+        "Inyección Intravenosa Lenta (IV)",
+        [cite_start]"Infusión Intravenosa/Subcutánea Continua (CIVI, CSCI)" [cite: 3047, 3049, 3065]
+      ],
+      [cite_start]"NotaClavePaliativa": "Antagonista 5HT3[cite: 3052]. [cite_start]**Prolonga el intervalo QT** y se asocia con riesgo de *Torsades de Pointes*[cite: 3055]. [cite_start]Efecto secundario **clave: fuertemente estreñidor**[cite: 3057]. [cite_start]No licenciado para administración SC[cite: 3052, 3065]. [cite_start]La absorción de los orodispersibles depende de la deglución, NO de la mucosa oral[cite: 3060]."
+    },
+    {
+      "Farmaco": "Oxibutinina",
+      "UsosPrincipales": [
+        "Vejiga neurógena o hiperactiva",
+        [cite_start]"Tratamiento sintomático de la incontinencia, urgencia y frecuencia urinaria" [cite: 3067]
+      ],
+      [cite_start]"DosisGeneral": "Liberación Inmediata Oral (Niños 2-4 años): 1.25-2.5mg/dosis 2-3 veces/día[cite: 3068]. [cite_start]Transdérmico (Parche - dosis equiavalente aproximada): Oral 10-15mg/24h ≡ 1 parche (3.9mg/24h) dos veces/semana[cite: 3069]. [cite_start]Intravesical: 5mg 2-3 veces/día[cite: 3069].",
+      "RutasComunes": [
+        "Vía Oral (PO) (Liberación Inmediata y Modificada)",
+        "Vía Transdérmica (Parche)",
+        [cite_start]"Vía Intravesical" [cite: 3068, 3069]
+      ],
+      [cite_start]"NotaClavePaliativa": "Antiespasmódico con efecto directo en el músculo liso (aumenta la capacidad de la vejiga)[cite: 3071]. [cite_start]La vía transdérmica reduce la exposición a metabolitos activos (menos efectos adversos)[cite: 3073, 3074]. [cite_start]Las dosis sugeridas de parches son aproximadas[cite: 3076]. [cite_start]**Los parches se pueden cortar** sin afectar la liberación del fármaco[cite: 3086]. [cite_start]Aumenta el riesgo de efectos secundarios anticolinérgicos[cite: 3079]."
+    },
+    {
+      "Farmaco": "Oxicodona",
+      "UsosPrincipales": [
+        [cite_start]"Analgésico opioide alternativo para dolor grave (especialmente intolerancia a morfina)" [cite: 3093]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Liberación Inmediata): Conversión desde Morfina Oral (Ratio 2:1)[cite: 3093]. [cite_start]CSCI/CIVI: Conversión desde Morfina Oral (Ratio 3:1); desde Morfina CSCI/CIVI (Ratio 1:1)[cite: 3100, 3101]. [cite_start]Opioide Naive Oral: Niños 1 mes-11 años: 100microgramos/kg (máx. 5mg/dosis) c/4-6 horas[cite: 3104].",
+      "RutasComunes": [
+        "Vía Oral (PO) (Liberación Inmediata y Modificada)",
+        "Inyección Subcutánea/Intravenosa (IV, SC) Bolus",
+        [cite_start]"Infusión Subcutánea/Intravenosa Continua (CSCI, CIVI)" [cite: 3093, 3117]
+      ],
+      [cite_start]"NotaClavePaliativa": "Eficacia y efectos secundarios similares a la morfina; generalmente solo para pacientes intolerantes a la morfina[cite: 3106]. [cite_start]Metabolizada por CYP2D6 y CYP3A4[cite: 3114]. [cite_start]Las cápsulas de liberación modificada tienen formulaciones de 12 y 24 horas (precaución al prescribir)[cite: 3121]. [cite_start]**Advertencia de Seguridad con Benzodiazepinas (depresión respiratoria) [cite: 3095-3097][cite_start].** **Programa 2 de CD**[cite: 3122]."
+    },
+    {
+      "Farmaco": "Oxígeno",
+      "UsosPrincipales": [
+        "Disnea por hipoxemia",
+        "Hipertensión pulmonar",
+        [cite_start]"Efecto placebo para la disnea (alternativa a mover aire en la cara)" [cite: 3123]
+      ],
+      [cite_start]"DosisGeneral": "Inhalación por cánula nasal: 1-2.5L/min, ajustado según la respuesta (24–35% de $\text{O}_2$)[cite: 3124].",
+      "RutasComunes": [
+        [cite_start]"Inhalación (Cánula Nasal o Mascarilla)" [cite: 3124, 3127]
+      ],
+      [cite_start]"NotaClavePaliativa": "**No hay evidencia convincente para el $\text{O}_2$ en pacientes no hipoxémicos** (el movimiento de aire de un ventilador puede ser igual de efectivo)[cite: 3128]. [cite_start]Las cánulas nasales son generalmente preferibles (permiten hablar/comer)[cite: 3140]. [cite_start]Los objetivos de saturación de $\text{O}_2$ usuales (92-96%) pueden no ser apropiados en cuidados paliativos[cite: 3136]."
+    },
+    {
+      "Farmaco": "Pamidronato (Disódico)",
+      "UsosPrincipales": [
+        "Adyuvante para dolor óseo (por enfermedad metastásica, osteopenia, osteoporosis)",
+        "Hipercalcemia maligna",
+        [cite_start]"Osteogénesis imperfecta" [cite: 3148, 3149, 3150]
+      ],
+      [cite_start]"DosisGeneral": "Hipercalcemia (IV Infusión): Niños <2 años: 500microgramos/kg/dosis. Niños ≥3 años: 1mg/kg/dosis (máx. 90mg/dosis). Administrar en 6 horas[cite: 3151]. [cite_start]Dolor óseo (IV Infusión): Niños <2 años: 500microgramos/kg/dosis, 3 días consecutivos, c/2 meses[cite: 3152].",
+      "RutasComunes": [
+        "Infusión Intravenosa (IV)",
+        [cite_start]"Infusión Subcutánea Continua (CSCI) (Alternativa)" [cite: 3151, 3172]
+      ],
+      [cite_start]"NotaClavePaliativa": "Bifosfonato (no licenciado en niños)[cite: 3154]. [cite_start]El dolor puede aumentar inicialmente antes de mejorar[cite: 3160]. [cite_start]**Monitorizar la función renal y electrolitos** (garantizar una hidratación adecuada)[cite: 3164]. [cite_start]Los síntomas de gripe son comunes con la primera infusión[cite: 3167]."
+    },
+    {
+      "Farmaco": "Paracetamol (Acetaminofén)",
+      "UsosPrincipales": [
+        "Dolor leve a moderado",
+        [cite_start]"Pirexia" [cite: 3174]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Niños 1 mes-5 años): 20-30mg/kg dosis única, luego 15-20mg/kg c/4-6h (máx. 75mg/kg/día)[cite: 3176]. [cite_start]Rectal (Supositorio): 30mg/kg dosis única, luego 15-20mg/kg c/4-6h (máx. 75mg/kg/día)[cite: 3183, 3184]. [cite_start]IV Infusión (10-50kg): 15mg/kg c/4-6h (máx. 60mg/kg/día)[cite: 3188].",
+      "RutasComunes": [
+        "Vía Oral (PO) (Comprimidos, Solución)",
+        "Vía Rectal (Supositorios)",
+        [cite_start]"Infusión Intravenosa (IV)" [cite: 3176, 3181, 3184]
+      ],
+      [cite_start]"NotaClavePaliativa": "**Advertencia MHRA:** El riesgo de toxicidad ocurre con dosis entre 75-150mg/kg/día (se recomienda dosificación basada en el peso)[cite: 3178]. [cite_start]**Hepatotóxico en sobredosis** o dosis altas prolongadas[cite: 3205]. [cite_start]La absorción rectal es lenta, errática e incompleta (~2/3 de la dosis oral)[cite: 3203]. [cite_start]La dosis Oral se absorbe más rápido que la Rectal[cite: 3206]. [cite_start]Usar **peso corporal ajustado (AdjBW)** para dosificación en niños obesos[cite: 3196, 3730]."
+    },
+    {
+      "Farmaco": "Parecoxib",
+      "UsosPrincipales": [
+        "AINE inyectable para dolor agudo (cuando la vía enteral no está disponible)",
+        [cite_start]"Co-analgésico para dolor óseo relacionado con cáncer (cuando la vía enteral no está disponible)" [cite: 3214]
+      ],
+      [cite_start]"DosisGeneral": "IV/IM/SC Bolus (Niños 10-40kg): 500microgramos/kg/dosis-1mg/kg/dosis c/12 horas (máx. 40mg/dosis)[cite: 3220]. [cite_start]CSCI: 1-2mg/kg/24horas (máx. 80mg/24h)[cite: 3220].",
+      "RutasComunes": [
+        "Inyección Intravenosa/Intramuscular/Subcutánea (IV, IM, SC) Bolus",
+        [cite_start]"Infusión Subcutánea Continua (CSCI)" [cite: 3226, 3228]
+      ],
+      [cite_start]"NotaClavePaliativa": "Pro-fármaco del inhibidor selectivo de COX-2 valdecoxib[cite: 3214]. [cite_start]**No licenciado en niños**[cite: 3216]. [cite_start]**Bajo riesgo de toxicidad GI** (considerar IBP para uso prolongado)[cite: 3218, 3219]. [cite_start]**No mezclar con otros fármacos en bomba de jeringa**[cite: 3228]. [cite_start]Reducir la dosis/evitar en insuficiencia renal/hepática grave[cite: 3221].",
+    },
+    {
+      "Farmaco": "Paraldehído (Rectal)",
+      "UsosPrincipales": [
+        [cite_start]"Tratamiento de convulsiones prolongadas y estatus epiléptico" [cite: 3230]
+      ],
+      [cite_start]"DosisGeneral": "Rectal (enema premezclado 50:50 con aceite de oliva): Neonato: 0.8ml/kg dosis única. Niños ≥1 mes: 0.8ml/kg (máx. 20ml) dosis única[cite: 3231, 3232].",
+      "RutasComunes": [
+        [cite_start]"Administración Rectal (Enema)" [cite: 3230]
+      ],
+      [cite_start]"NotaClavePaliativa": "Formulación y ruta **fuera de indicación** (unlicensed)[cite: 3233]. [cite_start]Inicio de acción 2-5 minutos[cite: 3234]. [cite_start]El uso rectal puede causar irritación de la piel[cite: 3235]."
+    },
+    {
+      "Farmaco": "Fenobarbital",
+      "UsosPrincipales": [
+        "Epilepsia, Estatus epiléptico (paso 3 de APLS), Convulsiones neonatales",
+        "Paliación de convulsiones intratables (final de vida)",
+        [cite_start]"Adyuvante en irritabilidad cerebral, Sedación, Agitación refractaria a midazolam" [cite: 3237]
+      ],
+      [cite_start]"DosisGeneral": "Dosis de Carga (Todas las edades) - PO/IM/IV/SC: 20mg/kg/dosis (máx. 1g). Considerar media carga (10mg/kg) si el paciente está muriendo[cite: 3241]. [cite_start]Mantenimiento (Niños 1 mes-11 años): 2.5-5mg/kg una o dos veces/día (máx. 300mg/dosis)[cite: 3243].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        "Inyección Intramuscular (IM) Bolus",
+        "Inyección Intravenosa Lenta (IV) Bolus",
+        [cite_start]"Infusión Subcutánea Continua (CSCI)" [cite: 3237, 3240, 3244]
+      ],
+      [cite_start]"NotaClavePaliativa": "Causa **osteopenia** y aumenta el riesgo de fracturas (considerar suplementos de Vit. D)[cite: 3252]. [cite_start]Induce CYP3A4 (reduce los niveles de muchos fármacos: opioides, dexametasona, midazolam)[cite: 3254]. [cite_start]La vida media es larga (1-3 días en niños)[cite: 3253]. [cite_start]Las inyecciones SC directas deben evitarse (riesgo de necrosis)[cite: 3259]. [cite_start]**Advertencia de Seguridad con Benzodiazepinas (depresión respiratoria) [cite: 3240, 3556-3558][cite_start].** **Programa 3 de CD**[cite: 3263]."
+    },
+    {
+      "Farmaco": "Fenitoína",
+      "UsosPrincipales": [
+        "Epilepsia (estatus epiléptico, tónico-clónicas, focales, neonatales)",
+        [cite_start]"Dolor neuropático" [cite: 3264]
+      ],
+      [cite_start]"DosisGeneral": "Carga IV (Estatus) - Neonato/Niños: 20mg/kg[cite: 3270, 3271]. [cite_start]Mantenimiento Oral (Niños 1 mes-11 años): 1.5-2.5mg/kg dos veces/día (máx. 7.5mg/kg dos veces/día)[cite: 3266, 3267].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        [cite_start]"Infusión Intravenosa Corta (IV)" [cite: 3265, 3270]
+      ],
+      [cite_start]"NotaClavePaliativa": "Estabilizador de membrana. Alto riesgo de toxicidad debido al estrecho índice terapéutico y farmacocinética no lineal[cite: 3281]. [cite_start]La **absorción es muy pobre por vía yeyunal**[cite: 3298]. [cite_start]Induce CYP3A4 (reduce los niveles de muchos fármacos, similar al fenobarbital)[cite: 3284, 3285]. [cite_start]**Evitar la interrupción abrupta**[cite: 3277]. [cite_start]Administrar la infusión **lentamente** (>20 minutos, máx. 1mg/kg/min) con monitorización cardíaca[cite: 3289]."
+    },
+    {
+      "Farmaco": "Fosfato (Enema Rectal)",
+      "UsosPrincipales": [
+        [cite_start]"Estreñimiento refractario a otros tratamientos" [cite: 3302]
+      ],
+      [cite_start]"DosisGeneral": "Rectal (Fosfato Enema BP): Niños 3-6 años: 45-65ml dosis única. Niños 7-11 años: 65-100ml dosis única[cite: 3303].",
+      "RutasComunes": [
+        [cite_start]"Administración Rectal (Enema)" [cite: 3302]
+      ],
+      [cite_start]"NotaClavePaliativa": "Laxante osmótico[cite: 3301]. [cite_start]Onset de acción 2-5 minutos[cite: 3307]. [cite_start]**Usar solo si han fallado todos los orales y el citrato de sodio rectal**[cite: 3308, 3452]. [cite_start]Riesgo de **hiperfosfatemia** y alteración electrolítica (no usar más de una o dos veces por semana)[cite: 3309, 3310, 3311].",
+    },
+    {
+      "Farmaco": "Pregabalina",
+      "UsosPrincipales": [
+        "Epilepsia (crisis focales)",
+        "Dolor neuropático periférico y central",
+        [cite_start]"Trastorno de ansiedad generalizada (TAG), Síndrome de piernas inquietas, Prurito por quemaduras" [cite: 3312]
+      ],
+      [cite_start]"DosisGeneral": "Neuropático/Ansiedad (PO) - Niños 1 mes-15 años: 1mg/kg/dosis dos veces/día, aumentar gradualmente (máx. inicial 5mg/kg dos veces/día)[cite: 3313]. [cite_start]Adulto: 75mg dos veces/día (máx. 300mg dos veces/día)[cite: 3315].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 3312]
+      ],
+      [cite_start]"NotaClavePaliativa": "**Advertencia de Seguridad (MHRA 2021):** Riesgo de depresión respiratoria grave (aún sin opioides)[cite: 3316]. [cite_start]El aclaramiento es más rápido en niños <30kg[cite: 3324]. [cite_start]Excretada sin cambios por vía renal: **reducir la dosis en insuficiencia renal**[cite: 3322]. [cite_start]Tiene **6 veces más afinidad** por el receptor que la gabapentina[cite: 3321]. [cite_start]No suspender abruptamente[cite: 3322]. [cite_start]**Programa 3 de CD**[cite: 3329]."
+    },
+    {
+      "Farmaco": "Clorhidrato de Prometazina",
+      "UsosPrincipales": [
+        "Trastornos del sueño (uso a corto plazo), Sedación leve",
+        "Alivio sintomático de alergias",
+        [cite_start]"Náuseas y vómitos (cinetosis, inducidos por opioides), Vértigo" [cite: 3330]
+      ],
+      [cite_start]"DosisGeneral": "Sedación Oral (Niños 2-4 años): 15-20mg por la noche[cite: 3335]. [cite_start]Antialergia Oral (Niños 2-4 años): 5mg dos veces/día o 5-15mg por la noche[cite: 3332]. [cite_start]Sedación UCI (PO/IV/IM) - Neonato >37 semanas: 500microgramos/kg-1mg/kg 4 veces/día[cite: 3340].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        "Inyección Intravenosa Lenta/Intramuscular (IV, IM) Bolus",
+        [cite_start]"Infusión Subcutánea Continua (CSCI) (con precaución)" [cite: 3332, 3340, 3349]
+      ],
+      [cite_start]"NotaClavePaliativa": "**Contraindicada en niños <2 años** (riesgo de depresión respiratoria fatal)[cite: 3337]. [cite_start]**No se recomienda la inyección SC directa** (riesgo de necrosis local)[cite: 3349]. [cite_start]La biodisponibilidad oral es del 25%[cite: 3346]. [cite_start]Riesgo de hipotensión con opioides[cite: 3345]. [cite_start]Dosis oral efectiva hasta por 12 horas[cite: 3350]."
+    },
+    {
+      "Farmaco": "Bromuro de Propantelina (NUEVO)",
+      "UsosPrincipales": [
+        "Espasmo del músculo liso (vejiga y tracto GI)",
+        [cite_start]"Antisecretor, Hiperhidrosis" [cite: 3356]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Niños 1 mes-11 años): 300microgramos/kg/dosis (máx. 15mg) 3-4 veces/día. Tomar al menos 1h antes de las comidas[cite: 3356].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 3356]
+      ],
+      [cite_start]"NotaClavePaliativa": "Antimuscarínico con efectos periféricos[cite: 3357]. [cite_start]**No licenciado para uso en niños**[cite: 3357]. [cite_start]La hiperhidrosis se atribuye a su antagonismo en los receptores M3 de las glándulas[cite: 3360]. [cite_start]Tomar al menos **una hora antes de las comidas**[cite: 3356]. [cite_start]Contraindicado en obstrucción GI, retención urinaria, miastenia gravis[cite: 3360]."
+    },
+    {
+      "Farmaco": "Prucaloprida (NUEVO)",
+      "UsosPrincipales": [
+        "Agente procinético (estreñimiento cuando los laxantes son inadecuados)",
+        [cite_start]"Procinético de segunda línea para dismotilidad GI superior" [cite: 3363]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Niños <12 años o <50kg): 30-40microgramos/kg/dosis (máx. 2mg) una vez/día. Niños ≥12 años y ≥50kg: 2mg una vez/día[cite: 3363].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO) (Comprimidos)" [cite: 3363]
+      ],
+      [cite_start]"NotaClavePaliativa": "Agonista selectivo del receptor 5-HT4[cite: 3364]. [cite_start]**No licenciado para uso en niños**[cite: 3365]. [cite_start]Los efectos secundarios (cefalea, GI) ocurren principalmente al comienzo del tratamiento[cite: 3368, 3369]. [cite_start]Contraindicado en enfermedad de Crohn u obstrucción intestinal[cite: 3366]. [cite_start]**Reducir la dosis** en insuficiencia renal/hepática grave[cite: 3367]."
+    },
+    {
+      "Farmaco": "Risperidona",
+      "UsosPrincipales": [
+        "Irritabilidad neurológica grave",
+        "Distonía y espasmos distónicos refractarios",
+        "Delirio",
+        [cite_start]"Agresión persistente, Psicosis" [cite: 3371]
+      ],
+      [cite_start]"DosisGeneral": "Neuro-irritabilidad Oral (Niños 1 mes-11 años <50kg): 10microgramos/kg una vez/día (máx. 500microgramos/dosis), aumentar gradualmente hasta máx. 60microgramos/kg/día (3mg/día)[cite: 3372]. [cite_start]Manía/Psicosis: Dosis inicial más alta y titulación más rápida[cite: 3374, 3376].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO) (Comprimidos, Orodispersibles, Solución)" [cite: 3372]
+      ],
+      [cite_start]"NotaClavePaliativa": "Antipsicótico atípico, antagonista D2 y 5-HTA[cite: 3377]. [cite_start]La dosis inicial y posterior deben **reducirse a la mitad** en insuficiencia renal o hepática[cite: 3386]. [cite_start]Efecto secundario **muy común: ganancia de peso**[cite: 3385]. [cite_start]Precaución en epilepsia (disminuye el umbral convulsivo)[cite: 3383]. [cite_start]La solución oral puede diluirse en cualquier bebida no alcohólica **excepto té**[cite: 3389].",
+    },
+    {
+      "Farmaco": "Salbutamol",
+      "UsosPrincipales": [
+        "Disnea o sibilancias por broncoespasmo (incluyendo infección)",
+        [cite_start]"Hiperpotasemia" [cite: 3397, 3398]
+      ],
+      [cite_start]"DosisGeneral": "Inhalación Aerosol: Niños ≥1 mes: 100-200microgramos (1-2 puffs) hasta 4 veces/día[cite: 3400]. [cite_start]Nebulizada: Niños 1 mes-4 años: 2.5mg hasta 4 veces/día[cite: 3401].",
+      "RutasComunes": [
+        "Inhalación (Aerosol con espaciador)",
+        [cite_start]"Inhalación (Nebulizada con solución)" [cite: 3399, 3400, 3401]
+      ],
+      [cite_start]"NotaClavePaliativa": "Agonista beta 2 de acción corta[cite: 3407]. [cite_start]Eficacia en lactantes <18 meses incierta (ipratropio puede ser mejor)[cite: 3411, 3412]. [cite_start]**Riesgo de taquicardia** e hipopotasemia[cite: 3416, 3420]. [cite_start]Las dosis en urgencias son más altas y repetidas[cite: 3404, 3405]."
+    },
+    {
+      "Farmaco": "Senna",
+      "UsosPrincipales": [
+        [cite_start]"Estreñimiento (laxante estimulante)" [cite: 3430]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Niños 1 mes-3 años): 3.75-15mg una vez/día (ajustar según la respuesta)[cite: 3431]. [cite_start]Dosis de estreñimiento inducido por opioides a menudo son más altas que las del fabricante[cite: 3437].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 3431]
+      ],
+      [cite_start]"NotaClavePaliativa": "Laxante estimulante de primera elección para el **estreñimiento inducido por opioides** en cuidados paliativos[cite: 3436]. [cite_start]Inicio de acción 8-12 horas[cite: 3437]. [cite_start]La eficacia depende de la flora intestinal (puede perderse con antibióticos)[cite: 3463]. [cite_start]El uso prolongado o excesivo puede causar hipopotasemia[cite: 3464]."
+    },
+    {
+      "Farmaco": "Citrato de Sodio",
+      "UsosPrincipales": [
+        [cite_start]"Estreñimiento (laxante osmótico)" [cite: 3442]
+      ],
+      [cite_start]"DosisGeneral": "Rectal (Microenema): Niños 3 años+: 5-10ml dosis única[cite: 3443].",
+      "RutasComunes": [
+        [cite_start]"Vía Rectal (Microenema)" [cite: 3442]
+      ],
+      [cite_start]"NotaClavePaliativa": "Laxante osmótico[cite: 3446, 3447]. [cite_start]Considerado la **medida rectal de primera línea** (preferible a los enemas de fosfato)[cite: 3452]. [cite_start]Actúa generalmente en **15 minutos**[cite: 3452]. [cite_start]Se utiliza en impactación fecal junto con laxantes orales[cite: 3449].",
+    },
+    {
+      "Farmaco": "Picosulfato de Sodio",
+      "UsosPrincipales": [
+        [cite_start]"Estreñimiento (laxante estimulante)" [cite: 3456]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Niños 1 mes-3 años): <10kg: 250microgramos/kg una vez/día. >10kg: 2.5mg una vez/día (máx. 10mg/día sugerido)[cite: 3457].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 3457]
+      ],
+      [cite_start]"NotaClavePaliativa": "Laxante estimulante; la senna es de primera elección para el estreñimiento inducido por opioides[cite: 3461]. [cite_start]La administración yeyunal no afecta la respuesta[cite: 3466]. [cite_start]Inicio de acción 6-12 horas[cite: 3463]."
+    },
+    {
+      "Farmaco": "Sucralfato",
+      "UsosPrincipales": [
+        "Profilaxis de úlcera por estrés y hemorragia de GI superior",
+        "Tratamiento adyuvante de úlceras esofágicas/gástricas",
+        [cite_start]"Hemostasia tópica" [cite: 3469]
+      ],
+      [cite_start]"DosisGeneral": "Profilaxis/Tratamiento Oral (Niños 1 mes-1 año): 250mg 4-6 veces/día. Niños 2-11 años: 500mg 4-6 veces/día[cite: 3472, 3473]. [cite_start]Tópica: Suspensión (1g/5ml) aplicada 2 veces/día (enjuague bucal, rectal)[cite: 3476].",
+      "RutasComunes": [
+        "Vía Oral (PO) (Suspensión, Comprimidos)",
+        [cite_start]"Aplicación Tópica (Bucal, Rectal)" [cite: 3472, 3476]
+      ],
+      [cite_start]"NotaClavePaliativa": "Actúa localmente protegiendo la mucosa. Mínimamente absorbido[cite: 3481]. [cite_start]**Separar la administración del sucralfato de las tomas enterales en al menos 1 hora** (riesgo de bloqueo de la sonda por complejo insoluble)[cite: 3487]. [cite_start]**No apropiado para administración yeyunal** (sitio de acción gástrico/duodenal)[cite: 3489]."
+    },
+    {
+      "Farmaco": "Sacarosa",
+      "UsosPrincipales": [
+        [cite_start]"Analgesia para dolor por procedimientos en bebés" [cite: 3492]
+      ],
+      [cite_start]"DosisGeneral": "Oral: Neonato >32 semanas: 0.5-2ml de sacarosa al 24% 2 minutos antes del procedimiento[cite: 3494]. Máx. [cite_start]8 veces/24 horas en neonatos y bebés[cite: 3496].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO) (aplicada en la lengua o en chupete)" [cite: 3494]
+      ],
+      [cite_start]"NotaClavePaliativa": "Efecto potenciado por la succión no nutritiva[cite: 3498]. [cite_start]No altera los niveles de glucosa en sangre en las dosis recomendadas[cite: 3500]. [cite_start]**No es apropiado para la administración por sonda de alimentación**[cite: 3506]. [cite_start]Contraindicada en atresia esofágica, fístula T-E, enterocolitis necrotizante, o alteración del reflejo de deglución[cite: 3502, 3503]."
+    },
+    {
+      "Farmaco": "Tapentadol",
+      "UsosPrincipales": [
+        [cite_start]"Analgésico opioide" [cite: 3509]
+      ],
+      [cite_start]"DosisGeneral": "Liberación Inmediata Oral (Opioide Naive) - Niños 2-17 años (>16kg): 1.25mg/kg/dosis c/4 horas (máx. 7.5mg/kg/día)[cite: 3510]. [cite_start]Adulto (Liberación Inmediata): Inicial 50mg c/4-6 horas (máx. 700mg/24h el 1er día)[cite: 3512, 3513].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO) (Liberación Inmediata y Modificada)" [cite: 3510, 3514]
+      ],
+      [cite_start]"NotaClavePaliativa": "Doble acción: agonista µ-opioide e inhibidor de la recaptación de noradrenalina (sinérgico)[cite: 3524]. **Aprox. [cite_start]3 veces menos potente que la morfina oral** (50mg Tapentadol ≈ 15mg Morfina oral)[cite: 3519]. [cite_start]**No licenciado para uso >72 horas en niños**[cite: 3520]. [cite_start]**Advertencia MHRA:** Riesgo de convulsiones y síndrome serotoninérgico[cite: 3528]. [cite_start]**Los comprimidos de liberación modificada NO deben triturarse ni masticarse**[cite: 3546, 3547]. [cite_start]**Programa 2 de CD**[cite: 3548]."
+    },
+    {
+      "Farmaco": "Temazepam",
+      "UsosPrincipales": [
+        "Trastornos del sueño (uso a corto plazo, especialmente por ansiedad)",
+        [cite_start]"Premedicación quirúrgica/investigaciones" [cite: 3550]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Niños 12-17 años): 10-20mg 1 hora antes de procedimientos[cite: 3551]. [cite_start]Adulto: 10-20mg por la noche (máx. 40mg)[cite: 3552].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 3551]
+      ],
+      [cite_start]"NotaClavePaliativa": "Benzodiazepina. Vida media de 8-15 horas[cite: 3561]. [cite_start]Puede causar hostilidad/agresión paradójica[cite: 3555]. [cite_start]Contraindicado en insuficiencia hepática grave (a menos que el paciente esté muriendo inminentemente) y depresión respiratoria[cite: 3560]. [cite_start]**Advertencia de Seguridad con Benzodiazepinas (depresión respiratoria) [cite: 3556-3558][cite_start].** **Programa 3 de CD**[cite: 3564]."
+    },
+    {
+      "Farmaco": "Tizanidina",
+      "UsosPrincipales": [
+        "Relajante del músculo esquelético",
+        [cite_start]"Espasmo o espasticidad muscular crónica grave" [cite: 3566]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Niños 18 meses-6 años): 1mg/día en dosis divididas, aumentar gradualmente (máx. 36mg/día)[cite: 3567, 3569].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 3567]
+      ],
+      [cite_start]"NotaClavePaliativa": "**No licenciado para uso en niños**[cite: 3572]. [cite_start]Evitar la **retirada abrupta** (riesgo de hipertensión y taquicardia de rebote)[cite: 3574]. [cite_start]Monitorizar la función hepática mensualmente durante los primeros 4 meses[cite: 3576]. [cite_start]Metabolizado por CYP1A2 (los inhibidores como la ciprofloxacina pueden aumentar los niveles)[cite: 3580, 3581].",
+    },
+    {
+      "Farmaco": "Tramadol",
+      "UsosPrincipales": [
+        [cite_start]"Opioide débil con acciones analgésicas no opioides" [cite: 3587]
+      ],
+      [cite_start]"DosisGeneral": "Oral/SC/IM/IV (Niños 4-11 años): 1mg/kg/dosis c/6 horas (máx. 50mg/dosis), aumentar a máx. 2mg/kg/dosis (100mg/dosis)[cite: 3588, 3589]. [cite_start]Adulto: Inicial 50mg c/4-6 horas (máx. 400mg/día)[cite: 3590, 3591].",
+      "RutasComunes": [
+        "Vía Oral (PO) (Liberación Inmediata y Modificada)",
+        "Inyección Subcutánea/Intramuscular/Intravenosa (SC, IM, IV) Bolus",
+        [cite_start]"Infusión Subcutánea/Intravenosa Continua (CSCI, CIVI)" [cite: 3588, 3592]
+      ],
+      [cite_start]"NotaClavePaliativa": "La OMS no recomienda opioides débiles para el dolor moderado incontrolado[cite: 3587]. Aprox. [cite_start]**1/10 tan potente como la morfina oral**[cite: 3598]. [cite_start]**Causa menos estreñimiento** y depresión respiratoria que la dosis equivalente de morfina[cite: 3605]. [cite_start]Metabolizado por CYP2D6 a un metabolito activo[cite: 3601]. [cite_start]**Advertencia de Seguridad con Benzodiazepinas (depresión respiratoria) [cite: 3594-3596][cite_start].** **Programa 3 de CD**[cite: 3614]."
+    },
+    {
+      "Farmaco": "Ácido Tranexámico",
+      "UsosPrincipales": [
+        "Inhibición de la fibrinólisis",
+        "Supuración de sangre (membranas mucosas/capilares, trombocitopenia)",
+        [cite_start]"Menorragia" [cite: 3615]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Niños ≥1 mes): 15-25mg/kg (máx. 1.5g) 2-3 veces/día[cite: 3616]. [cite_start]IV Lenta: 10mg/kg (máx. 1g) 2-3 veces/día[cite: 3617]. [cite_start]Tópico: Gasa empapada en solución de 100mg/ml[cite: 3622].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        "Inyección Intravenosa Lenta (IV)",
+        "Infusión Intravenosa Continua (CIVI)",
+        [cite_start]"Aplicación Tópica" [cite: 3616, 3617, 3622]
+      ],
+      [cite_start]"NotaClavePaliativa": "Antifibrinolítico[cite: 3623]. [cite_start]La administración IV rápida conlleva riesgo de colapso cardiovascular (administrar lentamente)[cite: 3649]. [cite_start]**Reducir la dosis** en insuficiencia renal[cite: 3625]. [cite_start]El uso en hematuria puede causar coágulos/cólico en el tracto urinario[cite: 3624]."
+    },
+    {
+      "Farmaco": "Trihexifenidilo",
+      "UsosPrincipales": [
+        "Distonía",
+        "Sialorrea (babeo)",
+        [cite_start]"Antiespasmódico" [cite: 3629]
+      ],
+      [cite_start]"DosisGeneral": "Oral (Niños ≥3 meses): 1-2mg/día en 1-2 dosis divididas, aumentar c/3-7 días (máx. 2mg/kg o 100mg/día)[cite: 3631]. [cite_start]Las dosis para el babeo son generalmente mucho más bajas[cite: 3631].",
+      "RutasComunes": [
+        [cite_start]"Vía Oral (PO)" [cite: 3631]
+      ],
+      [cite_start]"NotaClavePaliativa": "Reduce los efectos del exceso colinérgico central (antimuscarínico)[cite: 3632]. [cite_start]**No licenciado para uso en niños**[cite: 3632]. [cite_start]Los efectos secundarios son **muy comunes** (boca seca, estreñimiento, visión borrosa)[cite: 3638, 3639]. [cite_start]No retirar abruptamente[cite: 3637].",
+    },
+    {
+      "Farmaco": "Vitamina K (Fitomenadiona)",
+      "UsosPrincipales": [
+        "Tratamiento de hemorragia asociada con deficiencia de Vitamina K",
+        [cite_start]"Reversión de sobredosis de anticoagulantes cumarínicos (warfarina)" [cite: 3646]
+      ],
+      [cite_start]"DosisGeneral": "Oral/IV: Neonato: 100microgramos/kg[cite: 3647]. [cite_start]Niños ≥1 mes: 250-300microgramos/kg (máx. 10mg) dosis única[cite: 3648].",
+      "RutasComunes": [
+        "Vía Oral (PO)",
+        [cite_start]"Inyección Intravenosa (IV)" [cite: 3647]
+      ],
+      [cite_start]"NotaClavePaliativa": "Precaución con el uso IV en prematuros <2.5kg (riesgo de kernícterus)[cite: 3649]. [cite_start]Riesgo de **colapso cardiovascular con la administración IV rápida** (diluir y administrar lentamente)[cite: 3649, 3650].",
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "slug": "problemas-nutricionales-malnutricion",
+  "en_una_frase": "Valoración del riesgo nutricional y la desnutrición en CPP: escalas de cribado, criterios de intervención y particularidades del paciente oncológico y del paciente con patología neurológica.",
+  "puntos_clave": [
+    "Cribado con escalas: STRONG kids (tiene en cuenta la enfermedad de base; alto riesgo 4), STAMP (riesgo elevado 4) y en oncología SCAN (validada; 3 puntos: iniciar soporte).",
+    "Criterios de intervención en oncología: pérdida de peso >5%, peso/talla <p10, albúmina <3,2mg/dl, pliegue tricipital <p5, descenso de 2 DE de peso o ingesta <80% más de 5 días.",
+    "Favorecer siempre la nutrición oral; NE si la ingesta es insuficiente con tubo digestivo funcionante; NP reservada a tracto digestivo no funcionante.",
+    "En fases finales la nutrición deja de ser un objetivo y puede empeorar otros síntomas y causar disconfort: puede estar indicado no iniciar o retirar el soporte.",
+    "Paciente neurológico: seguimiento cada 1-3 meses, antropometría al menos cada 6 meses y analítica de micronutrientes cada 6-12 meses; descartar disfagia en todos.",
+    "Sospechar disfagia ante sialorrea, comidas prolongadas (>3 horas/día), rechazo o expulsión del alimento, atragantamientos o broncoaspiraciones repetidas; videofluoroscopia."
+  ],
+  "farmacos_clave": [],
+  "banderas_rojas": [
+    "Signos de alarma de desnutrición en patología neurológica (ESPGHAN): úlceras por decúbito, problemas cutáneos, alteraciones de circulación periférica, Z-score peso/edad <-2, pliegue tricipital o perímetro braquial <p10, retraso del crecimiento.",
+    "Alto riesgo de desnutrición: LLA de medio y alto riesgo, leucemias no linfoides, leucemias/linfomas en recaída, tumores sólidos estadios III/IV, TPH y todo enfermo ya malnutrido.",
+    "En pacientes que no deambulan el cálculo de necesidades puede infraestimar (22%) o sobreestimar (>15%) y llevar al sobrepeso: monitorizar el efecto de cada intervención.",
+    "Riesgo aumentado de deshidratación en el paciente neurológico por dificultad para comunicar la sed, sialorrea o alteraciones de la deglución.",
+    "Comidas de más de 3 horas al día o que interfieren la rehabilitación o la calidad de vida de los padres: valorar nutrición enteral; afectación grave de la deglución: gastrostomía."
+  ],
+  "perlas": [
+    "Si no se puede tallar, estimar la estatura con la altura talón-rodilla o la longitud de la tibia (ecuaciones de Stevenson) y pesar en básculas planas para silla de ruedas.",
+    "No usar curvas de crecimiento estándar ni específicas de parálisis cerebral; curvas OMS solo en mayores de 5 años con estatura fiable, o curvas de segmentos corporales/crecimiento cubital.",
+    "La aplicación nutricional de la SEGHNP ofrece escalas de valoración y calculadoras de gasto energético basal con factor de actividad; en niños que no deambulan basta el 60-70% de la energía."
+  ],
+  "secciones_recomendadas": [
+    "DESNUTRICIÓN EN CUIDADOS PALIATIVOS PEDIÁTRICOS",
+    "Cribado nutricional y criterios de intervención",
+    "Evaluación nutricional en el paciente con patología neurológica",
+    "Consideraciones con respecto a los requerimientos nutricionales específicos"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

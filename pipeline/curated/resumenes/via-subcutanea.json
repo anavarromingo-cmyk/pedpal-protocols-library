@@ -1,0 +1,39 @@
+{
+  "slug": "via-subcutanea",
+  "en_una_frase": "Uso de la vía subcutánea en cuidados paliativos pediátricos: indicaciones, zonas de punción, dispositivos, modalidades de infusión, carga de infusores y fármacos/mezclas compatibles.",
+  "puntos_clave": [
+    "Indicada cuando falla la vía oral: vómitos persistentes, disfagia, obstrucción intestinal, agitación, convulsiones, coma, agonía, sedación paliativa o accesos venosos difíciles.",
+    "Las contraindicaciones (anasarca, shock, coagulopatías graves, lesiones cutáneas graves, negativa familiar) son infrecuentes; rara vez hay contraindicación absoluta.",
+    "Zonas: infraclavicular de elección para infusión continua; abdominal superior para hipodermoclisis; interescapular para grandes volúmenes y agitados; deltoidea solo bolos.",
+    "Bolos: sin diluir, no mezclar fármacos en la misma jeringa, no superar 2-3 ml y lavar la línea con un máximo de 0,5ml de suero fisiológico tras cada fármaco.",
+    "Infusión continua: permite mezclar fármacos; velocidad aconsejada no superior a 3 ml/h (descritas hasta 7 ml/h). Volumen del infusor = flujo (ml/h) x 24 h x número de días.",
+    "No mezclar más de 3 fármacos; diluir en suero salino 0,9% (isotónico) salvo excepciones como fenobarbital (solo agua para inyección); consultar siempre con farmacia."
+  ],
+  "farmacos_clave": [],
+  "banderas_rojas": [
+    "Contraindicaciones: anasarca o edema severo, hipoperfusión periférica o shock, coagulopatías graves, pieles con graves lesiones dermatológicas (epidermolisis, radiodermitis), negativa del paciente o la familia.",
+    "No administrar por vía subcutánea diazepam, metamizol, cloropromazina ni clorazepato dipotásico por su alto poder irritante y riesgo de necrosis tisular; criterios dispares para valproato y paracetamol.",
+    "No usar soluciones hipertónicas por riesgo de precipitación de fármacos y problemas en la zona de administración.",
+    "Turbidez, arenilla o cristales en la mezcla indican incompatibilidad; también debe alertar el empeoramiento inesperado de un síntoma previamente controlado al añadir otro fármaco.",
+    "Los infusores elastoméricos son de un solo uso (la reutilización altera el flujo) y carecen de alarma en caso de oclusión."
+  ],
+  "perlas": [
+    "Elegir una zona libre de inflamación, infección, cicatrices y no irradiada; en caquécticos buscar la de más panículo adiposo y evitar zonas de fácil acceso en agitados o con distonías.",
+    "No recambiar el dispositivo de forma sistemática, solo ante complicaciones; revisar a diario el punto de punción y adiestrar a la familia en su manejo.",
+    "Combinaciones estables más habituales: morfina + butilescopolamina + midazolam (últimos días) y morfina + butilescopolamina + haloperidol (síndrome de oclusión intestinal).",
+    "Complicaciones locales: dolor, reducir volumen del bolo o velocidad; eritema/induración, aumentar dilución y evitar irritantes y mezclas múltiples; equimosis, infección, obstrucción o fuga, cambiar de zona.",
+    "Con infusor elastomérico: inspeccionar al menos una vez al día, no modificar la medicación una vez cargado, proteger del calor y mantener reservorio y punto de punción a la misma altura (el flujo varía un 0,5% por cada 2,54cm)."
+  ],
+  "secciones_recomendadas": [
+    "4. INDICACIONES Y CONTRAINDICACIONES DE LA VÍA SUBCUTÁNEA",
+    "9. MODALIDADES DE INFUSIÓN VÍA SUBCUTÁNEA",
+    "11. FÁRMACOS DE USO HABITUAL POR VIA SC EN CP",
+    "8. CUIDADOS DE LA VÍA SUBCUTÁNEA"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

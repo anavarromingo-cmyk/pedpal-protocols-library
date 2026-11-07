@@ -1,0 +1,39 @@
+{
+  "slug": "trastornos-de-la-deglucion",
+  "en_una_frase": "Disfagia en cuidados paliativos pediátricos, sobre todo en niños con afectación neurológica: fisiología, diagnóstico clínico e instrumental, medidas compensatorias y alimentación de riesgo.",
+  "puntos_clave": [
+    "Los trastornos de la deglución afectan a más del 90% de los niños con afectación neurológica y causan morbilidad respiratoria (aspiración crónica, neumonía) y desnutrición.",
+    "Los síntomas son inespecíficos y la falta de tos al tragar no excluye aspiración: aspiración silenciosa en el 40-90% de niños con hendidura laríngea o enfermedad neurológica.",
+    "El MECV-V (volúmenes de 5 a 20 ml en viscosidad líquido, néctar y pudding) evalúa eficacia y seguridad a pie de cama y es un paso necesario antes de pruebas más invasivas.",
+    "En niños con necesidades paliativas no se recomiendan pruebas instrumentales (VFSS, FEES) si no van a modificar el manejo; la VFSS suele ser mejor tolerada.",
+    "Tratamiento individualizado: rehabilitación oromotora, control postural (nunca con el cuello en hiperextensión), adaptación de utensilios, espesantes y texturas modificadas.",
+    "La alimentación de riesgo o reconfortante al final de la vida se decide con la familia y el equipo; algunos autores inician medidas de ayuda si se espera supervivencia > 7-14 días."
+  ],
+  "farmacos_clave": [],
+  "banderas_rojas": [
+    "Signos de aspiración aguda: episodios de tos con la ingesta, tos nocturna, estridor, disfonía, sibilantes, distrés respiratorio y cianosis.",
+    "Riesgo de aspiración crónica: tos persistente, sibilancias, infecciones respiratorias de repetición, dificultad respiratoria o vómitos al comer; en lactantes, apneas durante la alimentación o retraso del crecimiento.",
+    "Una calidad vocal o respiratoria 'húmeda' es el síntoma más estrechamente asociado con la penetración laríngea.",
+    "Tiempo prolongado en las tomas (mayor de 30 minutos y sobre todo mayor de 45-60 minutos) es signo de disfagia.",
+    "En prematuros y neonatos puede no estar presente el reflejo de la tos y sí el de apnea y bradicardia; en el lactante la estimulación laríngea produce apnea prolongada en lugar de tos.",
+    "Sonda nasogástrica: no mantener más de 3-4 semanas; riesgo de migración a la vía aérea con neumonía por aspiración iatrogénica, aumento del reflujo gastroesofágico y estenosis pilórica.",
+    "FEES contraindicada en atresia de coanas, estenosis nasal, obstrucción nasal o estenosis faríngea."
+  ],
+  "perlas": [
+    "Al alimentar: cuidador frente al niño a la altura de sus ojos, pies apoyados, rodillas y caderas en 90º, tronco y cabeza rectos; esperar a que trague y comprobar que la boca está vacía antes de la siguiente cucharada.",
+    "Si le cuesta limpiar la boca, ofrecer una cuchara vacía; entre comidas poner la cuchara en agua helada (mejora el reflejo de succión) y apoyar la punta fría en el labio inferior para estimular la apertura.",
+    "Texturas homogéneas si hay dificultad para masticar; evitar grumos, espinas y dobles texturas (sopas con pasta). Para la aspiración de saliva se dispone de anticolinérgicos (trihexifenidilo, glicopirrolato, escopolamina, atropina) y toxina botulínica A/B."
+  ],
+  "secciones_recomendadas": [
+    "Evaluación clínica",
+    "Medidas no farmacológicas",
+    "Medidas intervencionistas",
+    "ALGORITMOS"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

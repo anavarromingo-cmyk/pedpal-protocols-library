@@ -1,0 +1,120 @@
+{
+  "slug": "prurito",
+  "en_una_frase": "Abordaje del prurito en cuidados paliativos pediátricos: causas, detección (incluidos síntomas indirectos en niños que no se comunican), medidas generales y tratamiento farmacológico.",
+  "puntos_clave": [
+    "El prurito es un síntoma multifactorial (sensitivo, emocional y cognitivo), infravalorado e infratratado; se estima en un 5-12% de los pacientes con enfermedades terminales.",
+    "En niños con enfermedad neurológica que no pueden rascarse hay que buscar síntomas indirectos: irritabilidad o llanto inconsolable, insomnio, anorexia y afectación del ánimo.",
+    "El diagnóstico es principalmente clínico; las exploraciones complementarias solo se plantean ante prurito generalizado de origen desconocido o enfermedad sistémica de base.",
+    "Las medidas generales son la base: hidratación cutánea diaria con emolientes, limpiadores suaves sin perfumes ni alcoholes, disminuir el rascado y evitar la vasodilatación cutánea.",
+    "Si se conoce la causa el tratamiento es específico; en la mayoría de casos es empírico y extrapolado de adultos (antihistamínicos, paroxetina, gabapentina, rifampicina).",
+    "En la colestasis no se han demostrado efectos beneficiosos con gabapentina ni antihistamínicos, y el ácido ursodesoxicólico no se ha demostrado efectivo en el control del prurito."
+  ],
+  "farmacos_clave": [
+    {
+      "farmaco": "dexclorfeniramina",
+      "indicacion": "prurito mediado por histamina, alergias",
+      "dosis": "c/6-8h De 2 - 6 años: 0,5 mg. De 6 - 12 años: 1 mg. > 12 años y Adultos: 2 mg.",
+      "via": "VO",
+      "nota": "Anti-H1 de primera generación: acción sedante al atravesar la BHE; se puede desarrollar tolerancia.",
+      "page": 6
+    },
+    {
+      "farmaco": "hidroxicina",
+      "indicacion": "prurito mediado por histamina, alergias",
+      "dosis": "Cada 6 - 8 h. 1 - 2 mg/kg/día. > 6 años y Adultos: 50 - 100 mg/día.",
+      "via": "VO",
+      "nota": "Anti-H1 de primera generación: acción sedante; se puede desarrollar tolerancia.",
+      "page": 6
+    },
+    {
+      "farmaco": "cetirizina",
+      "indicacion": "prurito mediado por histamina, alergias",
+      "dosis": "Cada 12 – 24 h. 2 - 5 años: 2,5 - 5 mg/día. 6 - 11 años: 5 - 10 mg/día. > 12 años y adultos: 10 mg/día.",
+      "via": "VO",
+      "nota": "Anti-H1 de segunda generación.",
+      "page": 6
+    },
+    {
+      "farmaco": "paroxetina",
+      "indicacion": "prurito por colestasis, uremia, opioides, paraneoplásico (tumores sólidos/hematológicos), prurito psicógeno",
+      "dosis": "<12 años: Inicio 5mg/día. Aumentar en 1 semana a 10mg/día, esperar respuesta en 4-6 semanas. Incrementar 5mg/día c/semana hasta máx. 20-30mg/día >12 años: Inicio 10mg/día. Aumentar en 1 semana a 20mg/día, esperar respuesta en 4-6 semanas. Incrementar 510mg/día c/semana hasta máx. 40-60mg/día",
+      "via": "VO",
+      "nota": "Pocos efectos secundarios, inicio en 24-48h. En el original figura «Incrementar 510mg/día» en el escalado de >12 años (posible errata a verificar).",
+      "page": 7
+    },
+    {
+      "farmaco": "sertralina",
+      "indicacion": "prurito por uremia, colestasis, prurito psicógeno",
+      "dosis": "<12 años: Inicio 12,5mg/día, durante 1-2 semanas, aumentar a 25mg/día y esperar respuesta 4-6 semanas. Incrementar 12,5mg/día c/semana hasta máx. 200mg/día >12 años: Inicio 25mg/día durante 1-2 semanas, aumentar a 50mg/día y esperar respuesta 4-6 semanas. Incrementar 25mg/día c/semana hasta máx. 200mg/día",
+      "via": "VO",
+      "nota": "",
+      "page": 7
+    },
+    {
+      "farmaco": "mirtazapina",
+      "indicacion": "prurito por colestasis, uremia, opioides, paraneoplásico (tumores sólidos/hematológicos)",
+      "dosis": "Adulto: 7,5- 15mg/día, aumentar dosis c/semana hasta 45mg/día",
+      "via": "VO",
+      "nota": "Solo consta dosis de adulto.",
+      "page": 7
+    },
+    {
+      "farmaco": "aprepitant",
+      "indicacion": "prurito sobretodo asociado a QT",
+      "dosis": "Dosis diaria 10 días, después la misma dosis 3 veces /semana 6 meses-12 años: 2mg/kg, máx. 80mg/día >12 años: 80mg/día",
+      "via": "",
+      "nota": "Antagonista de la sustancia P.",
+      "page": 7
+    },
+    {
+      "farmaco": "gabapentina",
+      "indicacion": "prurito por uremia, paraneoplásico, opioides, quemaduras, origen desconocido",
+      "dosis": ">2 años y <12 años: Día 1: 5-10mg/kg/dosis noche (máx. 300mg/dosis) Día 2: 5-10mg/kg/12h (máx. 300mg/dosis) Día 3: 5-10mg/kg/8h (máx. 300mg/dosis) Posteriormente aumentar cada 3 días hasta dosis máx. 20mg/kg/dosis (máx. 1800mg/día) >12 años: Día 1: 300mg/dosis noche Día 2: 5-300mg/12h Día 3: 300mg/8h Mant. 600-1800mg/día. Máx.: 3600mg/día c/8h",
+      "via": "VO",
+      "nota": "En la colestasis no se han demostrado efectos beneficiosos con la gabapentina. En el original figura «Día 2: 5-300mg/12h» para >12 años (posible errata a verificar).",
+      "page": 8
+    },
+    {
+      "farmaco": "rifampicina",
+      "indicacion": "prurito por colestasis",
+      "dosis": "10-20mg/kg/día 30 min antes de comidas o 2h después en dosis única (máx. 600mg/día)",
+      "via": "VO",
+      "nota": "Hepatotoxicidad. Requiere controles analíticos.",
+      "page": 8
+    },
+    {
+      "farmaco": "colestiramina",
+      "indicacion": "prurito por colestasis y uremia",
+      "dosis": "<1año: 1gr/día cada 6-12h 1-6 años: 2gr/día cada 6-12h 6-12 años: 4gr/día cada 6-12h >12 años 4-8gr/día cada 6-12h",
+      "via": "VO",
+      "nota": "No efectiva si obstrucción total de la vía biliar. Uso limitado por mala tolerancia.",
+      "page": 8
+    }
+  ],
+  "banderas_rojas": [
+    "El prurito psicógeno debe ser siempre un diagnóstico de exclusión.",
+    "Fármacos con efecto paradójico que pueden desencadenar prurito aunque se usen para tratarlo: cimetidina, benzodiacepinas y corticoides.",
+    "Lidocaína 2,5% tópica: en grandes cantidades puede causar toxicidad.",
+    "Rifampicina: hepatotoxicidad, requiere controles analíticos.",
+    "Paños o pijamas húmedos tras el emoliente: evitar más de 7 días por el riesgo de infecciones cutáneas leves tipo foliculitis.",
+    "Prurito por opioides: más frecuente por vía parenteral y epidural, localizado en cara y tronco; puede requerir rotación del opioide."
+  ],
+  "perlas": [
+    "Disminuir el rascado: uñas cortas, guantes de algodón, rascar con las palmas de las manos; evitar frotar con la toalla al secar y hacer baños de agua tibia de corta duración.",
+    "Preguntar por la periodicidad del picor orienta la causa: nocturna en escabiosis, por las tardes en cirrosis biliar.",
+    "Normas de higiene del sueño y relajación son especialmente útiles en el prurito nocturno; la ansiedad, el aburrimiento, la distracción o la sugestión influyen en la percepción del prurito.",
+    "En el déficit de hierro la reposición de la sideremia mejora la clínica."
+  ],
+  "secciones_recomendadas": [
+    "Medidas farmacológicas",
+    "Medidas generales(12,16,17)",
+    "ALGORITMO",
+    "CLÍNICA"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

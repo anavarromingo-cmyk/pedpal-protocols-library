@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <title>PedPal - Cuidados Paliativos Pediátricos</title>
+    <link rel="stylesheet" href="style.css">
+    <style style="display:none;">
+        :root {
+  /* Primitive Color Tokens */
+  --color-white: rgba(255, 255, 255, 1);
+  --color-black: rgba(0, 0, 0, 1);
+  --color-cream-50: rgba(252, 252, 249, 1);
+  --color-cream-100: rgba(255, 255, 253, 1);
+  --color-gray-200: rgba(245, 245, 245, 1);
+  --color-gray-300: rgba(167, 169, 169, 1);
+  --color-gray-400: rgba(119, 124, 124, 1);
+  --color-slate-500: rgba(98, 108, 113, 1);
+  --color-brown-600: rgba(94, 82, 64, 1);
+  --color-charcoal-700: rgba(31, 33, 33, 1);
+  --color-charcoal-800: rgba(38, 40, 40, 1);
+  --color-slate-900: rgba(19, 52, 59, 1);
+  --color-teal-300: rgba(50, 184, 198, 1);
+  --color-teal-400: rgba(45, 166, 178, 1);
+  --color-teal-500: rgba(33, 128, 141, 1);
+  --color-teal-600: rgba(29, 116, 128, 1);
+  --color-teal-700: rgba(26, 104, 115, 1);
+  --color-teal-800: rgba(41, 150, 161, 1);
+  --color-red-400: rgba(255, 84, 89, 1);
+  --color-red-500: rgba(192, 21, 47, 1);
+  --color-orange-400: rgba(230, 129, 97, 1);
+  --color-orange-500: rgba(168, 75, 47, 1);
+
+  --color-brown-600-rgb: 94, 82, 64;
+  --color-teal-500-rgb: 33, 128, 141;
+  --color-slate-900-rgb: 19, 52, 59;
+  --color-slate-500-rgb: 98, 108, 113;
+  --color-red-500-rgb: 192, 21, 47;
+  --color-red-400-rgb: 255, 84, 89;
+  --color-orange-500-rgb: 168, 75, 47;
+  --color-orange-400-rgb: 230, 129, 97;
+
+  --color-bg-1: rgba(59, 130, 246, 0.08);
+  --color-bg-2: rgba(245, 158, 11, 0.08);
+  --color-bg-3: rgba(34, 197, 94, 0.08);
+  --color-bg-4: rgba(239, 68, 68, 0.08);
+  --color-bg-5: rgba(147, 51, 234, 0.08);
+  --color-bg-6: rgba(249, 115, 22, 0.08);
+  --color-bg-7: rgba(236, 72, 153, 0.08);
+  --color-bg-8: rgba(6, 182, 212, 0.08);
+
+  --color-background: var(--color-cream-50);
+  --color-surface: var(--color-cream-100);
+  --color-text: var(--color-slate-900);
+  --color-text-secondary: var(--color-slate-500);
+  --color-primary: #00AEEF;
+  --pedpal-naranja: #F7941D;
+  --pedpal-verde: #8DC63F;
+  --pedpal-fucsia: #EC008C;
+  --pedpal-azul: #00AEEF;
+  --pedpal-marron: #4B2E1C;
+  --color-primary-hover: var(--color-teal-600);
+  --color-primary-active: var(--color-teal-700);
+  --color-secondary: rgba(var(--color-brown-600-rgb), 0.12);
+  --color-secondary-hover: rgba(var(--color-brown-600-rgb), 0.2);
+  --color-secondary-active: rgba(var(--color-brown-600-rgb), 0.25);
+  --color-border: rgba(var(--color-brown-600-rgb), 0.2);
+  --color-btn-primary-text: var(--color-cream-50);
+  --color-card-border: rgba(var(--color-brown-600-rgb), 0.12);
+  --color-card-border-inner: rgba(var(--color-brown-600-rgb), 0.12);
+  --color-error: var(--color-red-500);
+  --color-success: var(--color-teal-500);
+  --color-warning: var(--color-orange-500);
+  --color-info: var(--color-slate-500);
+  --color-focus-ring: rgba(var(--color-teal-500-rgb), 0.4);
+  --color-select-caret: rgba(var(--color-slate-900-rgb), 0.8);
+
+  --focus-ring: 0 0 0 3px var(--color-focus-ring);
+  --focus-outline: 2px solid var(--color-primary);
+  --status-bg-opacity: 0.15;
+  --status-border-opacity: 0.25;
+
+  --font-family-base: "FKGroteskNeue", "Geist", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-family-mono: "Berkeley Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-size-xs: 11px;
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-md: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+  --font-size-2xl: 20px;
+  --font-size-3xl: 24px;
+  --font-size-4xl: 30px;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 550;
+  --font-weight-bold: 600;
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --letter-spacing-tight: -0.01em;
+
+  --space-0: 0;
+  --space-1: 1px;
+  --space-2: 2px;
+  --space-4: 4px;
+  --space-6: 6px;
+  --space-8: 8px;
+  --space-10: 10px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-32: 32px;
+
+  --radius-sm: 6px;
+  --radius-base: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.02);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.04), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.04), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
+  --shadow-inset-sm: inset 0 1px 0 rgba(255, 255, 255, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.03);
+
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --ease-standard: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-gray-400-rgb: 119, 124, 124;
+    --color-teal-300-rgb: 50, 184, 198;
+    --color-gray-300-rgb: 167, 169, 169;
+    --color-gray-200-rgb: 245, 245, 245;
+
+    --color-bg-1: rgba(29, 78, 216, 0.15);
+    --color-bg-2: rgba(180, 83, 9, 0.15);
+    --color-bg-3: rgba(21, 128, 61, 0.15);
+    --color-bg-4: rgba(185, 28, 28, 0.15);
+    --color-bg-5: rgba(107, 33, 168, 0.15);
+    --color-bg-6: rgba(194, 65, 12, 0.15);
+    --color-bg-7: rgba(190, 24, 93, 0.15);
+    --color-bg-8: rgba(8, 145, 178, 0.15);
+
+    --color-background: var(--color-charcoal-700);
+    --color-surface: var(--color-charcoal-800);
+    --color-text: var(--color-gray-200);
+    --color-text-secondary: rgba(var(--color-gray-300-rgb), 0.7);
+    --color-primary: var(--color-teal-300);
+    --color-primary-hover: var(--color-teal-400);
+    --color-primary-active: var(--color-teal-800);
+    --color-secondary: rgba(var(--color-gray-400-rgb), 0.15);
+    --color-secondary-hover: rgba(var(--color-gray-400-rgb), 0.25);
+    --color-secondary-active: rgba(var(--color-gray-400-rgb), 0.3);
+    --color-border: rgba(var(--color-gray-400-rgb), 0.3);
+    --color-error: var(--color-red-400);
+    --color-success: var(--color-teal-300);
+    --color-warning: var(--color-orange-400);
+    --color-info: var(--color-gray-300);
+    --color-focus-ring: rgba(var(--color-teal-300-rgb), 0.4);
+    --color-btn-primary-text: var(--color-slate-900);
+    --color-card-border: rgba(var(--color-gray-400-rgb), 0.2);
+    --color-card-border-inner: rgba(var(--color-gray-400-rgb), 0.15);
+    --shadow-inset-sm: inset 0 1px 0 rgba(255, 255, 255, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    --color-select-caret: rgba(var(--color-gray-200-rgb), 0.8);
+  }
+}
+
+@font-face {
+  font-family: 'FKGroteskNeue';
+  src: url('https://r2cdn.perplexity.ai/fonts/FKGroteskNeue.woff2') format('woff2');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: var(--font-size-base);
+  font-family: var(--font-family-base);
+  line-height: var(--line-height-normal);
+  color: var(--color-text);
+  background-color: var(--color-background);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: var(--color-surface);
+  border-bottom: 1px solid var(--color-card-border);
+  padding: var(--space-24) var(--space-32);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: var(--shadow-sm);
+}
+
+.header-content {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header-title {
+  font-size: var(--font-size-3xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  margin-bottom: var(--space-4);
+}
+
+.header-subtitle {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-24);
+}
+
+.search-container {
+  max-width: 800px;
+  margin: var(--space-24) auto;
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding: var(--space-16) var(--space-24) var(--space-16) 48px;
+  font-size: var(--font-size-lg);
+  border: 2px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  background-color: var(--color-surface);
+  color: var(--color-text);
+  transition: all var(--duration-normal) var(--ease-standard);
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: var(--focus-ring);
+}
+
+.search-icon {
+  position: absolute;
+  left: var(--space-16);
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-xl);
+}
+
+.nav-tabs {
+  display: flex;
+  gap: var(--space-8);
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: var(--space-24);
+}
+
+.nav-tab {
+  padding: 12px 20px;
+  background-color: var(--color-secondary);
+  border: 1px solid var(--color-card-border);
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  min-height: 44px;
+  color: var(--color-text);
+  cursor: pointer;
+  transition: all var(--duration-normal) var(--ease-standard);
+}
+
+.nav-tab:hover {
+  background-color: var(--color-secondary-hover);
+}
+
+.nav-tab.active {
+  background-color: var(--pedpal-azul);
+  color: white;
+  border-color: var(--pedpal-azul);
+  border-bottom: 3px solid var(--pedpal-naranja);
+}
+
+.main-content {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: var(--space-32);
+}
+
+.view {
+  display: none;
+}
+
+.view.active {
+  display: block;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: var(--space-24);
+  margin-top: var(--space-24);
+}
+
+.card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-card-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-24);
+  transition: all var(--duration-normal) var(--ease-standard);
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-2px);
+}
+
+.card-title {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  margin-bottom: var(--space-12);
+}
+
+.card-border-left {
+  border-left: 4px solid var(--pedpal-azul);
+}
+
+.card-border-dolor {
+  border-left: 4px solid var(--pedpal-fucsia);
+}
+
+.card-border-respiratorio {
+  border-left: 4px solid var(--pedpal-azul);
+}
+
+.card-border-neurologico {
+  border-left: 4px solid var(--pedpal-verde);
+}
+
+.card-border-gastrointestinal {
+  border-left: 4px solid var(--pedpal-naranja);
+}
+
+.favorite-btn {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 4px;
+  transition: transform 0.2s;
+}
+
+.favorite-btn:hover {
+  transform: scale(1.2);
+}
+
+.favorite-btn.active {
+  color: #FFD700;
+}
+
+.algorithm-container {
+  background-color: var(--color-surface);
+  border-radius: var(--radius-lg);
+  padding: var(--space-32);
+  margin-bottom: var(--space-32);
+  border: 1px solid var(--color-card-border);
+}
+
+.algorithm-title {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+  margin-bottom: var(--space-24);
+  display: flex;
+  align-items: center;
+  gap: var(--space-12);
+}
+
+.algorithm-steps {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-16);
+}
+
+.algorithm-step {
+  display: flex;
+  gap: var(--space-16);
+  align-items: flex-start;
+}
+
+.step-number {
+  min-width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--pedpal-azul);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-lg);
+  flex-shrink: 0;
+}
+
+.step-content {
+  flex: 1;
+  padding: var(--space-16);
+  background-color: var(--color-bg-1);
+  border-radius: var(--radius-base);
+  border-left: 3px solid var(--pedpal-azul);
+}
+
+.step-title {
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--space-8);
+  color: var(--color-text);
+}
+
+.step-description {
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-8);
+  font-size: var(--font-size-sm);
+}
+
+.step-farmacos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+  margin-top: var(--space-8);
+}
+
+.farmaco-tag {
+  background-color: var(--pedpal-verde);
+  color: white;
+  padding: var(--space-6) var(--space-12);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+}
+
+.table-container {
+  overflow-x: auto;
+  margin-top: var(--space-16);
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--font-size-sm);
+}
+
+.data-table th {
+  background-color: var(--pedpal-azul);
+  color: white;
+  padding: var(--space-12);
+  text-align: left;
+  font-weight: var(--font-weight-semibold);
+}
+
+.data-table td {
+  padding: var(--space-12);
+  border-bottom: 1px solid var(--color-card-border-inner);
+}
+
+.data-table tr:nth-child(even) {
+  background-color: var(--color-bg-1);
+}
+
+.section-box {
+  background-color: var(--color-bg-1);
+  padding: var(--space-16);
+  border-radius: var(--radius-base);
+  margin-top: var(--space-16);
+  border-left: 3px solid var(--pedpal-azul);
+}
+
+.section-box h4 {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--space-12);
+  color: var(--color-text);
+}
+
+.route-badge {
+  background-color: var(--pedpal-fucsia);
+  color: white;
+  padding: var(--space-4) var(--space-12);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  display: inline-block;
+  margin-right: var(--space-8);
+  margin-bottom: var(--space-8);
+}
+
+.warning-box {
+  background-color: rgba(247, 148, 29, 0.1);
+  border: 1px solid var(--pedpal-naranja);
+  border-radius: var(--radius-base);
+  padding: var(--space-16);
+  margin-top: var(--space-16);
+}
+
+.warning-box strong {
+  color: var(--pedpal-naranja);
+}
+
+.card-meta {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-16);
+}
+
+.card-expanded {
+  margin-top: var(--space-16);
+  padding-top: var(--space-16);
+  border-top: 1px solid var(--color-card-border-inner);
+  display: none;
+}
+
+.card.expanded .card-expanded {
+  display: block;
+}
+
+.badge {
+  display: inline-block;
+  padding: var(--space-4) var(--space-12);
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-medium);
+  margin-right: var(--space-8);
+  margin-bottom: var(--space-8);
+}
+
+.badge-primary {
+  background-color: rgba(0, 174, 239, 0.1);
+  color: var(--pedpal-azul);
+  border: 1px solid rgba(0, 174, 239, 0.3);
+}
+
+.badge-secondary {
+  background-color: rgba(247, 148, 29, 0.1);
+  color: var(--pedpal-naranja);
+  border: 1px solid rgba(247, 148, 29, 0.3);
+}
+
+.badge-success {
+  background-color: rgba(141, 198, 63, 0.1);
+  color: var(--pedpal-verde);
+  border: 1px solid rgba(141, 198, 63, 0.3);
+}
+
+.badge-fucsia {
+  background-color: rgba(236, 0, 140, 0.1);
+  color: var(--pedpal-fucsia);
+  border: 1px solid rgba(236, 0, 140, 0.3);
+}
+
+.badge-marron {
+  background-color: rgba(75, 46, 28, 0.1);
+  color: var(--pedpal-marron);
+  border: 1px solid rgba(75, 46, 28, 0.3);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  min-height: 44px;
+  cursor: pointer;
+  transition: all var(--duration-normal) var(--ease-standard);
+  border: none;
+  text-decoration: none;
+  background-color: var(--pedpal-azul);
+  color: white;
+}
+
+.btn:hover {
+  background-color: #0099d6;
+}
+
+.btn-secondary {
+  background-color: var(--pedpal-verde);
+  color: white;
+  padding: 12px 20px;
+  font-size: 14px;
+  min-height: 44px;
+  font-weight: 500;
+}
+
+.btn-secondary:hover {
+  background-color: #7db835;
+}
+
+.btn-small {
+  padding: 12px 20px;
+  font-size: 14px;
+  min-height: 44px;
+  font-weight: 500;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+  overflow-y: auto;
+  padding: var(--space-32);
+}
+
+.modal.active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background-color: var(--color-surface);
+  border-radius: var(--radius-lg);
+  padding: var(--space-32);
+  max-width: 800px;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  position: relative;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-24);
+}
+
+.modal-title {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  font-size: var(--font-size-2xl);
+  cursor: pointer;
+  color: var(--color-text-secondary);
+  padding: var(--space-8);
+}
+
+.close-btn:hover {
+  color: var(--color-text);
+}
+
+.dose-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: var(--space-16);
+}
+
+.dose-table th,
+.dose-table td {
+  padding: var(--space-12);
+  text-align: left;
+  border-bottom: 1px solid var(--color-card-border-inner);
+}
+
+.dose-table th {
+  background-color: var(--color-secondary);
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-sm);
+}
+
+.flashcard-container {
+  max-width: 700px;
+  margin: var(--space-32) auto;
+}
+
+.mode-selector {
+  display: flex;
+  gap: var(--space-24);
+  justify-content: center;
+  margin-bottom: var(--space-32);
+}
+
+.mode-btn {
+  padding: var(--space-24) var(--space-32);
+  font-size: var(--font-size-lg);
+  border-radius: var(--radius-lg);
+  min-width: 200px;
+}
+
+.flashcard {
+  background-color: var(--color-surface);
+  border: 2px solid var(--color-card-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-32);
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: all var(--duration-normal) var(--ease-standard);
+  position: relative;
+}
+
+.flashcard:hover {
+  box-shadow: var(--shadow-lg);
+}
+
+.flashcard-question {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  margin-bottom: var(--space-16);
+}
+
+.flashcard-answer {
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  line-height: 1.8;
+  text-align: left;
+  width: 100%;
+}
+
+.flashcard-answer strong {
+  color: var(--color-primary);
+  font-weight: var(--font-weight-semibold);
+}
+
+.flashcard-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--space-32);
+}
+
+.flashcard-counter {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.flip-hint {
+  position: absolute;
+  bottom: var(--space-16);
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.protocol-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-8);
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+  margin-top: var(--space-8);
+}
+
+.protocol-link:hover {
+  color: var(--color-primary-hover);
+  text-decoration: underline;
+}
+
+.empty-state {
+  text-align: center;
+  padding: var(--space-32);
+  color: var(--color-text-secondary);
+}
+
+.empty-state-icon {
+  font-size: 48px;
+  margin-bottom: var(--space-16);
+}
+
+.section-title {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  margin-bottom: var(--space-8);
+}
+
+.section-subtitle {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-24);
+}
+
+ul {
+  list-style-position: inside;
+  margin: var(--space-12) 0;
+}
+
+li {
+  margin: var(--space-8) 0;
+}
+
+.card-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--space-12);
+}
+
+.footer {
+  background-color: #4B2E1C;
+  color: #FFFFFF;
+  padding: var(--space-24);
+  margin-top: var(--space-32);
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-content {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.footer-copyright {
+  font-size: 13px;
+  font-weight: var(--font-weight-medium);
+  margin: 0 0 var(--space-12) 0;
+  color: #FFFFFF;
+}
+
+.footer-license {
+  font-size: 12px;
+  margin: var(--space-8) 0;
+  color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+}
+
+.footer-icon {
+  font-size: 16px;
+}
+
+.footer-link {
+  color: #32B8C6;
+  text-decoration: underline;
+  font-weight: var(--font-weight-medium);
+  transition: color var(--duration-fast) var(--ease-standard);
+}
+
+.footer-link:hover {
+  color: #5DD8E6;
+}
+
+.footer-institution {
+  font-size: 12px;
+  margin: var(--space-12) 0 0 0;
+  color: rgba(255, 255, 255, 0.8);
+  font-style: italic;
+}
+
+.flashcard-filters {
+  display: flex;
+  gap: var(--space-12);
+  justify-content: center;
+  margin-bottom: var(--space-32);
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 12px 20px;
+  background-color: var(--color-secondary);
+  border: 1px solid var(--color-card-border);
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  min-height: 44px;
+  color: var(--color-text);
+  cursor: pointer;
+  transition: all var(--duration-normal) var(--ease-standard);
+}
+
+.filter-btn:hover {
+  background-color: var(--color-secondary-hover);
+}
+
+.filter-btn.active {
+  background-color: var(--pedpal-naranja);
+  color: white;
+  border-color: var(--pedpal-naranja);
+}
+
+.flashcard-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flashcard {
+  background-color: var(--color-surface);
+  border: 2px solid var(--color-card-border);
+  border-radius: var(--radius-lg);
+  min-height: 400px;
+  cursor: pointer;
+  transition: all var(--duration-normal) var(--ease-standard);
+  position: relative;
+  perspective: 1000px;
+}
+
+.flashcard:hover {
+  box-shadow: var(--shadow-lg);
+}
+
+.flashcard-inner {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flashcard.flipped .flashcard-inner {
+  transform: rotateY(180deg);
+}
+
+.flashcard-front,
+.flashcard-back {
+  position: absolute;
+  width: 100%;
+  min-height: 400px;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--space-32);
+  text-align: center;
+}
+
+.flashcard-back {
+  transform: rotateY(180deg);
+}
+
+.flashcard-question {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  margin-bottom: var(--space-16);
+  line-height: 1.4;
+}
+
+.flashcard-answer {
+  font-size: var(--font-size-base);
+  color: var(--color-text);
+  line-height: 1.8;
+  text-align: left;
+  width: 100%;
+  max-height: 320px;
+  overflow-y: auto;
+}
+
+.flashcard-answer strong {
+  color: var(--pedpal-azul);
+  font-weight: var(--font-weight-semibold);
+}
+
+.flashcard-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--space-32);
+  gap: var(--space-16);
+}
+
+.flashcard-counter {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+}
+
+.flip-hint {
+  position: absolute;
+  bottom: var(--space-16);
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+@media (max-width: 768px) {
+  .nav-tabs {
+    flex-direction: column;
+  }
+  
+  .nav-tab {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .mode-selector {
+    flex-direction: column;
+  }
+  
+  /* On small screens the header should scroll with the rest of the page. */
+  .header {
+    padding: var(--space-16);
+    position: static !important;
+    top: auto;
+  }
+  
+  .main-content {
+    padding: var(--space-16);
+  }
+  
+  .footer {
+    padding: var(--space-16);
+  }
+  
+  .footer-license {
+    font-size: 11px;
+    flex-direction: column;
+    line-height: 1.6;
+  }
+  
+  .footer-copyright,
+  .footer-institution {
+    font-size: 11px;
+  }
+}
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1 class="header-title">🏥 PedPal - Cuidados Paliativos Pediátricos</h1>
+            <p class="header-subtitle">Dashboard de Protocolos Clínicos</p>
+            
+            <div class="search-container">
+                <span class="search-icon">🔍</span>
+                <input 
+                    type="text" 
+                    class="search-input" 
+                    id="globalSearch" 
+                    placeholder="Busca por síntoma, enfermedad o medicación..."
+                >
+            </div>
+            
+            <!-- Desktop: Normal layout -->
+            <div class="header-nav-wrapper">
+                <nav class="nav-tabs">
+                    <button class="nav-tab active" data-view="sintomas">🔍 Síntomas</button>
+                    <button class="nav-tab" data-view="farmacos">💊 Fármacos</button>
+                    <button class="nav-tab" data-view="algoritmos">📊 Algoritmos</button>
+                    <button class="nav-tab" data-view="tarjetas">📚 Tarjetas de Estudio</button>
+                    <button class="nav-tab" data-view="favoritos">⭐ Favoritos</button>
+                    <button class="nav-tab" data-view="creditos">🔗 Créditos</button>
+                </nav>
+                <button class="btn btn-protocol-desktop" id="protocolBtnDesktop">
+                    📚 Acceso a Protocolos
+                </button>
+                
+                <!-- Mobile: Hamburger menu -->
+                <button class="menu-toggle" id="menuToggle" aria-label="Menú">
+                    <span class="menu-icon">☰</span>
+                </button>
+            </div>
+            
+            <!-- Mobile dropdown menu -->
+            <div class="mobile-menu" id="mobileMenu">
+                <button class="mobile-menu-item" onclick="window.open('https://anavarromingo-cmyk.github.io/pedpal-protocols-library/', '_blank')">
+                    📚 Acceso a Protocolos
+                </button>
+                <button class="mobile-menu-item" onclick="switchView('creditos'); closeMobileMenu();">
+                    ⓘ Acerca de / Créditos
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main class="main-content">
+        <!-- Vista: Síntomas -->
+        <div id="sintomas" class="view active">
+            <h2 class="section-title">Síntomas</h2>
+            <p class="section-subtitle">Explora el manejo clínico de cada síntoma</p>
+            <div id="sintomasGrid" class="cards-grid"></div>
+        </div>
+
+        <!-- Vista: Fármacos -->
+        <div id="farmacos" class="view">
+            <h2 class="section-title">Fármacos</h2>
+            <p class="section-subtitle">Consulta información de medicamentos y dosis pediátricas</p>
+            <div id="farmacosGrid" class="cards-grid"></div>
+        </div>
+
+        <!-- Vista: Algoritmos -->
+        <div id="algoritmos" class="view">
+            <h2 class="section-title">Algoritmos de Tratamiento</h2>
+            <p class="section-subtitle">Esquemas terapéuticos paso a paso</p>
+            <div id="algoritmosContainer"></div>
+        </div>
+
+        <!-- Vista: Tarjetas de Estudio -->
+        <div id="tarjetas" class="view">
+            <h2 class="section-title">Tarjetas de Estudio</h2>
+            <p class="section-subtitle">Aprende interactivamente sobre síntomas, fármacos y algoritmos</p>
+            
+            <div id="tarjetasMain">
+                <div class="flashcard-filters">
+                    <button class="filter-btn active" data-filter="all">Todas</button>
+                    <button class="filter-btn" data-filter="sintoma">Síntomas</button>
+                    <button class="filter-btn" data-filter="farmaco">Fármacos</button>
+                    <button class="filter-btn" data-filter="algoritmo">Algoritmos</button>
+                    <button class="filter-btn" data-filter="enfermedad">Enfermedades</button>
+                </div>
+                
+                <div class="flashcard-container">
+                    <div class="flashcard" id="flashcard" onclick="flipFlashcard()">
+                        <div class="flashcard-inner" id="flashcardInner">
+                            <div class="flashcard-front">
+                                <div class="flashcard-question" id="flashcardQuestion"></div>
+                                <div class="flip-hint">💡 Haz clic para ver la respuesta</div>
+                            </div>
+                            <div class="flashcard-back">
+                                <div class="flashcard-answer" id="flashcardAnswer"></div>
+                                <div class="flip-hint">💡 Haz clic para volver a la pregunta</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="flashcard-controls">
+                        <button class="btn" onclick="previousFlashcard()" style="padding: 12px 20px; font-size: 14px; min-height: 44px; font-weight: 500;">← Anterior</button>
+                        <div class="flashcard-counter" id="flashcardCounter">0 / 0</div>
+                        <button class="btn" onclick="nextFlashcard()" style="padding: 12px 20px; font-size: 14px; min-height: 44px; font-weight: 500;">Siguiente →</button>
+                    </div>
+                    
+                    <div style="text-align: center; margin-top: var(--space-24);">
+                        <button class="btn btn-secondary" onclick="shuffleFlashcards()" style="padding: 12px 20px; font-size: 14px; min-height: 44px; font-weight: 500;">🔀 Mezclar orden</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Vista: Créditos -->
+        <div id="creditos" class="view">
+            <div class="credits-container">
+                <h2 class="credits-main-title">🔗 CRÉDITOS</h2>
+                
+                <section class="credits-section">
+                    <h3 class="credits-section-title">⚠️ AVISO DE RESPONSABILIDAD</h3>
+                    <div class="credits-section-separator"></div>
+                    <p class="credits-intro">Esta aplicación es una herramienta de orientación clínica exclusivamente. Los contenidos, recomendaciones y algoritmos presentados tienen fines educativos y de referencia rápida en contextos clínicos pediátricos paliativistas.</p>
+                    <div class="credits-disclaimers">
+                        <p><strong>LIMITACIONES Y RESPONSABILIDADES:</strong></p>
+                        <ol>
+                            <li>La información aportada por esta aplicación NO constituye asesoramiento médico profesional.</li>
+                            <li>Todos los datos, protocolos y recomendaciones farmacológicas deben ser validados y corroborados en fuentes clínicas primarias antes de su aplicación clínica.</li>
+                            <li>En ningún caso esta aplicación puede sustituir el criterio clínico médico independiente, la evaluación individualizada del paciente, ni la responsabilidad profesional del facultativo.</li>
+                            <li>El usuario asume la responsabilidad exclusiva del uso de esta herramienta y sus consecuencias derivadas.</li>
+                            <li>Se recomienda consultar los protocolos completos originales y la literatura científica correspondiente antes de toda decisión terapéutica.</li>
+                        </ol>
+                        <p style="margin-top: var(--space-12); font-style: italic;">Esta herramienta se proporciona "tal cual" sin garantías de exactitud completa, actualización permanente o adecuación a situaciones clínicas específicas.</p>
+                    </div>
+                </section>
+                
+                <section class="credits-section">
+                    <h3 class="credits-section-title">PROPIEDAD INTELECTUAL Y AUTORÍA</h3>
+                    <div class="credits-section-separator"></div>
+                    <p class="credits-copyright">&copy; 2025 Álvaro Navarro Mingorance</p>
+                    <p class="credits-institution">Hospital Infantil Universitario Niño Jesús</p>
+                    <p class="credits-location">Madrid, España</p>
+                    <p class="credits-license-intro">Todos los derechos reservados bajo licencia<br><strong>Creative Commons Atribución-NoComercial 4.0 (CC BY-NC 4.0)</strong></p>
+                </section>
+                
+                <section class="credits-section">
+                    <h3 class="credits-section-title">BASES Y FUENTES DE CONTENIDO</h3>
+                    <div class="credits-section-separator"></div>
+                    
+                    <div class="credits-subsection">
+                        <h4 class="credits-subsection-title">PROTOCOLOS CLÍNICOS:</h4>
+                        <p>Los algoritmos, protocolos y recomendaciones sintomáticas están basados en los protocolos clínicos publicados por <strong>PedPal (Pediatric Palliative Care Network)</strong>.</p>
+                        <p><strong>Fuente:</strong> <a href="https://www.pedpal.es" target="_blank" class="credits-link">www.pedpal.es</a></p>
+                        <p class="credits-description">Recomendaciones y protocolos para cuidados paliativos pediátricos en contexto de enfermedad terminal.</p>
+                    </div>
+                    
+                    <div class="credits-subsection">
+                        <h4 class="credits-subsection-title">RECOMENDACIONES FARMACOLÓGICAS:</h4>
+                        <p>Las dosificaciones, vías de administración y recomendaciones farmacológicas están compiladas y adaptadas del:</p>
+                        <p><strong>"APPM Master Formulary 2025"</strong></p>
+                        <p class="credits-description">(Association for Paediatric Palliative Medicine)</p>
+                        <p class="credits-description">Referencia para prescripción en cuidados paliativos pediátricos en Reino Unido y ámbito internacional.</p>
+                    </div>
+                </section>
+                
+                <section class="credits-section">
+                    <h3 class="credits-section-title">DISCLAIMERS ADICIONALES</h3>
+                    <div class="credits-section-separator"></div>
+                    <ul class="credits-disclaimers">
+                        <li>Esta aplicación es herramienta de referencia rápida y NO sustituye la responsabilidad médica.</li>
+                        <li>Cualquier prescripción debe validarse en protocolos institucionales y criterio clínico independiente.</li>
+                        <li>Las dosis, vías y recomendaciones deben ajustarse a edad, peso, función renal y hepática del paciente.</li>
+                        <li>Se recomienda consulta con farmacéuticos especializados en pediatría para cualquier duda farmacológica.</li>
+                        <li>Información revisada a 2025. Las recomendaciones pueden variar según actualizaciones futuras de protocolos.</li>
+                    </ul>
+                </section>
+                
+                <section class="credits-section">
+                    <h3 class="credits-section-title">CONTACTO E INFORMACIÓN</h3>
+                    <div class="credits-section-separator"></div>
+                    <p><strong>Desarrollador:</strong> Álvaro Navarro Mingorance, MD</p>
+                    <p><strong>Especialista en:</strong> Cuidados Paliativos Pediátricos</p>
+                    <p><strong>Institución:</strong> Hospital Infantil Universitario Niño Jesús</p>
+                    <p>Av. Menéndez Pelayo, 65, 28009 Madrid, España</p>
+                    <p style="margin-top: var(--space-16);"><strong>Licencia:</strong> CC BY-NC 4.0</p>
+                    <p><strong>Ver licencia completa:</strong> <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" class="credits-link">https://creativecommons.org/licenses/by-nc/4.0/</a></p>
+                </section>
+                
+                <section class="credits-section">
+                    <h3 class="credits-section-title">CITA RECOMENDADA</h3>
+                    <div class="credits-section-separator"></div>
+                    <div class="credits-citation">
+                        <p>"PedPal Clinical Dashboard v5. Navarro Mingorance A. (2025). Hospital Infantil Universitario Niño Jesús. Madrid, España. Licencia CC BY-NC 4.0."</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- Vista: Favoritos -->
+        <div id="favoritos" class="view">
+            <h2 class="section-title">Favoritos</h2>
+            <p class="section-subtitle">Tus síntomas y fármacos guardados</p>
+            <div id="favoritosGrid" class="cards-grid"></div>
+            <div id="emptyFavorites" class="empty-state">
+                <div class="empty-state-icon">⭐</div>
+                <p>No tienes favoritos guardados aún</p>
+                <p style="font-size: 14px; margin-top: 8px;">Marca síntomas o fármacos con la estrella para acceder rápidamente</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal para detalles -->
+    <div id="detailModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modalTitle"></h2>
+                <button class="close-btn" onclick="closeModal()">&times;</button>
+            </div>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-copyright">&copy; 2025 Álvaro Navarro Mingorance | PedPal Clinical Dashboard</p>
+            <p class="footer-license">
+                <span class="footer-icon">🔗</span>
+                Licencia: Creative Commons Atribución No Comercial (CC BY-NC 4.0)
+                <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" class="footer-link">Ver licencia completa</a>
+            </p>
+            <p class="footer-institution">Hospital Infantil Universitario Niño Jesús - Madrid</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

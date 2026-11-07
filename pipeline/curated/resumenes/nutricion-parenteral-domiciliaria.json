@@ -1,0 +1,119 @@
+{
+  "slug": "nutricion-parenteral-domiciliaria",
+  "en_una_frase": "Nutrición parenteral domiciliaria en CPP: indicaciones (uso muy infrecuente), accesos venosos, composición, monitorización y complicaciones del catéter, metabólicas y psicosociales.",
+  "puntos_clave": [
+    "Uso muy infrecuente en CPP: indicada si la vía enteral no es utilizable de forma temporal y reversible (obstrucción maligna, mucositis, postquirúrgico) o supervivencia >2-3 meses.",
+    "Acceso central tunelizado (Broviac/Hickman) de elección; PICC transitorio; vía periférica solo con baja osmolaridad (800-850mOsm/L) y corto tiempo (10 días) por riesgo de flebitis.",
+    "Administrar siempre con bomba de infusión; inicio continuo 24 horas y ciclado gradual hora a hora cuando estable, comprobando tolerancia al volumen y glucemia.",
+    "Fiebre sin foco en portador de CVC = infección del catéter hasta demostrar lo contrario: hemocultivo de cada luz y periférico (curva diferencial) y antibioterapia empírica urgente.",
+    "Prevenir obstrucción: heparinizar el catéter cuando no se use e instilar 3-5 ml de SSF tras cada uso; comprobar la compatibilidad de cada fármaco con la NP.",
+    "Síndrome de realimentación: iniciar con el 50%-70% de las calorías; hepatopatía asociada a NP: NE mínima, ajustar calorías, evitar hepatotóxicos y reducir infecciones."
+  ],
+  "farmacos_clave": [
+    {
+      "farmaco": "heparina (suero salino heparinizado)",
+      "indicacion": "mantener la permeabilidad del catéter de uso intermitente",
+      "dosis": "Catéter tunelizado: Instilar suero salino heparinizado (5-10UI/ml) 2 veces por semana, • Port-a-cath: Mantener sellado cada 6-8 semanas.",
+      "via": "intracatéter (sellado)",
+      "nota": "Heparinizar siempre que no se esté utilizando e instilar 3-5 ml de suero salino fisiológico tras cada uso.",
+      "page": 8
+    },
+    {
+      "farmaco": "taurolidina (TauroLock)",
+      "indicacion": "solución de sellado antiséptica para reducir infecciones relacionadas con catéter",
+      "dosis": "Tras cada uso, instilar volumen necesario para ocupar recorrido del catéter (3-5ml). Aspirar contenido antes de volver a conectar NPT.",
+      "via": "intracatéter (sellado)",
+      "nota": "Antiséptico de amplio espectro; en catéteres de larga duración puede reducir el riesgo de infección en algunos grupos de pacientes.",
+      "page": 8
+    },
+    {
+      "farmaco": "etanol 70%",
+      "indicacion": "oclusión del catéter por depósito de lípidos (tras NP o fármacos con excipientes oleosos)",
+      "dosis": "instilar 3-5 ml de etanol 70% durante 1-2 horas aspirándolo después",
+      "via": "intracatéter",
+      "nota": "",
+      "page": 5
+    },
+    {
+      "farmaco": "alteplasa",
+      "indicacion": "obstrucción intraluminal del catéter (trombo o fibrina) una vez descartada la malposición",
+      "dosis": "",
+      "via": "intracatéter",
+      "nota": "Sin dosis en el texto. Superior a otros fibrinolíticos por mayor selectividad por la fibrina y menos efectos adversos.",
+      "page": 5
+    },
+    {
+      "farmaco": "ácido ursodesoxicólico",
+      "indicacion": "prevención de la enfermedad hepática asociada a nutrición parenteral",
+      "dosis": "10-30 mg/kg/día",
+      "via": "",
+      "nota": "",
+      "page": 7
+    },
+    {
+      "farmaco": "vancomicina (sellado)",
+      "indicacion": "sellado con antibiótico del CVC que se conserva en bacteriemia asociada a catéter",
+      "dosis": "5 mg/ml",
+      "via": "intracatéter (sellado)",
+      "nota": "Teicoplanina a la misma concentración (5 mg/ml). Mantener la solución un mínimo de 12 horas y un máximo de 48. Volumen: Port-a-cath < 5 años: 3 ml, 5-10 años: 4 ml, >10 años: 5 ml; catéter externo 2-5ml por cada luz. Añadir heparina 1% 20-60 UI por cada 50 ml de solución (excepto con Amikacina y Ciprofloxacino por riesgo de precipitación).",
+      "page": 13
+    },
+    {
+      "farmaco": "gentamicina (sellado)",
+      "indicacion": "sellado con antibiótico del CVC",
+      "dosis": "1 mg/ml",
+      "via": "intracatéter (sellado)",
+      "nota": "",
+      "page": 13
+    },
+    {
+      "farmaco": "amikacina (sellado)",
+      "indicacion": "sellado con antibiótico del CVC",
+      "dosis": "5 mg/ml",
+      "via": "intracatéter (sellado)",
+      "nota": "No añadir heparina por riesgo de precipitación.",
+      "page": 13
+    },
+    {
+      "farmaco": "ceftazidima (sellado)",
+      "indicacion": "sellado con antibiótico del CVC",
+      "dosis": "0.5 mg/ml",
+      "via": "intracatéter (sellado)",
+      "nota": "",
+      "page": 13
+    },
+    {
+      "farmaco": "ciprofloxacino (sellado)",
+      "indicacion": "sellado con antibiótico del CVC",
+      "dosis": "0.2 mg/ml",
+      "via": "intracatéter (sellado)",
+      "nota": "No añadir heparina por riesgo de precipitación.",
+      "page": 13
+    }
+  ],
+  "banderas_rojas": [
+    "Fiebre sin otro foco en portador de CVC: infección relacionada con el catéter hasta que se demuestre lo contrario; sospechar más si manipulación en las últimas 24 horas, trombopenia, acidosis metabólica o alteración glucídica.",
+    "Retirar el catéter si infección complicada, sepsis severa o inestabilidad hemodinámica, bacteriemia persistente tras 72 h de antibioterapia correcta, o infección por S. aureus, Pseudomonas spp. o Candida spp.",
+    "Síndrome de realimentación: sospechar ante edema, confusión y taquicardia en reposo junto con hipofosfatemia.",
+    "Fugas pericatéter o aumento de presión en la bomba: sospechar obstrucción; radiografía de tórax para descartar colocación anómala, rotura o desplazamiento antes de tratar.",
+    "No añadir heparina a los sellados con amikacina ni ciprofloxacino por riesgo de precipitación.",
+    "La bolsa de NP no se debe manipular una vez elaborada; comprobar aspecto, color y material extraño antes de administrarla; transporte con cadena de frío y protegida de la luz."
+  ],
+  "perlas": [
+    "Sacar la bolsa del frigorífico 30 minutos antes de la administración; manipular el catéter en condiciones de esterilidad.",
+    "Las cantidades de Cl deben ser ligeramente inferiores a la suma de Na+K para evitar una acidosis iatrogénica.",
+    "Se considera día 1 de tratamiento el primer día de hemocultivo negativo; si se conserva el catéter, tratar 10-14 días y realizar sellados; en CPP evitar pruebas invasivas innecesarias."
+  ],
+  "secciones_recomendadas": [
+    "Administración",
+    "1. COMPLICACIONES RELACIONADAS CON EL CATÉTER",
+    "2. COMPLICACIONES METABÓLICAS",
+    "TABLAS"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

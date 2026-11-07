@@ -1,0 +1,120 @@
+{
+  "slug": "irritabilidad-y-agitacion",
+  "en_una_frase": "Causas, diagnóstico diferencial y tratamiento escalonado de la irritabilidad y agitación en niños en cuidados paliativos, sobre todo con déficit neurológico grave.",
+  "puntos_clave": [
+    "Buscar y corregir siempre las causas subyacentes: dolor (motivo principal), disnea, infecciones, estreñimiento, reflujo, deshidratación y medicación; revisar fármacos (iatrogenia).",
+    "Solicitar a los padres un diario de síntomas; la irritabilidad cerebral es siempre diagnóstico de exclusión y sus síntomas son casi idénticos a los del dolor neuropático central.",
+    "Primer enfoque no farmacológico: ambiente tranquilo, tacto y voz de personas queridas, respetar el descanso, evitar visitas y estímulos tras las 20 horas y sujeciones corporales.",
+    "Como el dolor causa irritabilidad en pacientes crónicos complejos, realizar un ensayo terapéutico con analgésicos (rescates de acción rápida y corta) y evaluar la respuesta.",
+    "Escalera: 1º gabapentinoides (gabapentina/pregabalina); 2º amitriptilina/nortriptilina o clonidina; 3º metadona; coadyuvantes en todos: opioides, haloperidol, benzodiacepinas.",
+    "Clonidina es de elección si predomina la disautonomía; amitriptilina ante hiperalgesia visceral; midazolam ante irritabilidad cerebral con crisis de llanto incontrolable."
+  ],
+  "farmacos_clave": [
+    {
+      "farmaco": "gabapentina",
+      "indicacion": "primer escalón: dolor neuropático, irritabilidad cerebral, hiperalgesia visceral y disfunción autonómica",
+      "dosis": "Menores de 3 años: 5 mg/kg/dosis (e ir aumentando como en niños mayores). Entre 3 y 12 años: Día 1: 5-10 mg/kg/dosis (máximo 300 mg cada dosis) VO 1 vez al día antes de dormir; Día 2: 5-10 mg/kg/dosis (máximo 300 mg cada dosis) VO 2 veces al día; Día 3: 5-10 mg/kg/dosis (máximo 300 mg cada dosis) VO 3 veces al día. Mayores de 12 años: Día 1: 300 mg en una sola dosis antes de dormir; Día 2: 300 mg en dos dosis al día; Día 3: 300 mg en tres dosis al día y después ir aumentando a razón de 300 mg/día cada 3-7 días. Dosis máxima: Niños: 45-60 mg/kg/día en tres dosis; Adultos: 3600 mg/día",
+      "via": "VO (SNG o gastrostomía)",
+      "nota": "Pocas interacciones y muy pocos efectos secundarios (somnolencia, ataxia, mareos al inicio). Ajustar dosis en insuficiencia renal; esperar al menos 2 horas tras antiácidos. Contenido de cápsulas dispersado en 20ml de agua por sonda.",
+      "page": 5
+    },
+    {
+      "farmaco": "pregabalina",
+      "indicacion": "primer escalón, alternativa a gabapentina (tolerancia a dosis máxima)",
+      "dosis": "Día 1-3: 1 mg/kg/dosis VO 1 vez al día antes de dormir. Día 4-6: 1 mg/kg/dosis VO 2 veces al día. Día 7: se podrá ir aumentando 1 mg/kg/día cada 3-7. La dosis de mantenimiento sugerida 5-10 mg/kg/día. Dosis máxima: 6-15 mg/kg/día en tres dosis (máximo 600 mg/día)",
+      "via": "VO (SNG o gastrostomía, mejor solución)",
+      "nota": "Conversión gabapentina/pregabalina 6:1 (rango 1:4 a 1:9). Ajustar en insuficiencia renal. Depresión del SNC con opioides.",
+      "page": 6
+    },
+    {
+      "farmaco": "amitriptilina",
+      "indicacion": "segundo escalón; irritabilidad por hiperalgesia visceral (intolerancia alimentaria persistente)",
+      "dosis": "Niños de 2 a 11 años: dosis inicial de 200 microgramos/kg (máximo 10 mg) administrada una vez al día por la noche. Niños de 12 a 17 años: la dosis inicial de 10 mg por la noche se aumenta gradualmente, si es necesario, cada 3 a 5 días. Dosis máxima: Entre 2 y 11 años: 1 mg/kg/dosis repartido en dos dosis al día; Mayores de 12 años: 75 mg/día",
+      "via": "VO",
+      "nota": "Contraindicada en enfermedad hepática severa, arritmias y tratamiento con IMAO. Carbamazepina reduce la amitriptilina plasmática. Efecto sedante intenso.",
+      "page": 7
+    },
+    {
+      "farmaco": "clonidina",
+      "indicacion": "segundo escalón; de elección cuando predomina la disautonomía",
+      "dosis": "Día 1-3: 0.002 mg/kg VO 1 vez al día antes de dormir. Día 4-6: 0.002 mg/kg/dosis VO 2 veces al día. Día 7-9: 0.002 mg/kg/dosis VO 3 veces al día. Dosis máxima de inicio: 0.1 mg (50 kg). Dosis máxima: 0.012 mg/kg/dosis (0.6 mg para 50 kg), 3 veces al día. Niños >1 mes: Dosis inicial 1 microgramo/kg/dosis 3-4 veces al día, hasta un máximo de 5 microgramos/kg/dosis cuatro veces al día (20 mcg/kg/día)",
+      "via": "VO (SNG o gastrostomía)",
+      "nota": "Somnolencia e hipotensión. Contraindicada en bradiarritmia, hipotensión e intolerancia a la galactosa; cuidado en insuficiencia renal. Los tricíclicos disminuyen su efecto.",
+      "page": 8
+    },
+    {
+      "farmaco": "metadona",
+      "indicacion": "tercer escalón; dolor moderado-severo, neuropático o que responde mal a otros opioides",
+      "dosis": "Niños de 1 a 12 años: 30 a 100 microgramos/kg (máximo 5 mg/dosis inicial) 1 a 3 veces al día. Niños >12 años: 100-200 microgramos/kg cada 8-12 horas (máximo 5 mg/dosis). Posteriormente la posología se ajustará a un nivel que sea eficaz (sin una dosis máxima), aunque el aumento máximo de la dosis no superará el 50% en 24 h en pacientes ambulatorios.",
+      "via": "VO/SC/IV",
+      "nota": "Prescribir por profesionales con experiencia. IV lenta en 3–5 minutos. Insuficiencia renal grave: reducir la dosis en un 50%. Prolongación del QT; contraindicada con IMAO, íleo paralítico, asma agudo, hipertensión intracraneal.",
+      "page": 8
+    },
+    {
+      "farmaco": "midazolam",
+      "indicacion": "coadyuvante; irritabilidad cerebral con crisis de llanto incontrolable",
+      "dosis": "Perfusión continua IV o SC: Neonatos: 1 mcg/kg/min IV o SC; 1 m–18 años: 50–300 mcg/kg/h. El midazolam bucal (0.3–0.5mg/kg) puede ser utilizado en una situación de crisis para romper el ciclo de angustia. Dosis máxima: 6 m–5 y: 6 mg; 6–12 y: 10 mg",
+      "via": "IV/SC/bucal",
+      "nota": "Somnolencia, reacción paradójica. Precaución en enfermedad hepática y renal. Uso por periodos cortos por tolerancia.",
+      "page": 9
+    },
+    {
+      "farmaco": "diazepam",
+      "indicacion": "coadyuvante benzodiacepínico por periodos cortos",
+      "dosis": "Mayores de 6 meses: 0.12-0.8 mg/kg/día VO dividido en 3-4 dosis al día; 0.04-0.3 mg/kg/dosis IV cada 2-4 horas. Dosis máxima: 0.6 mg/kg IV en un periodo de 8 horas",
+      "via": "VO/IV",
+      "nota": "Contraindicado en insuficiencia pulmonar aguda grave, apnea del sueño, enfermedad hepática grave, miastenia gravis. Reacción paradójica, depresión respiratoria.",
+      "page": 9
+    },
+    {
+      "farmaco": "lorazepam",
+      "indicacion": "coadyuvante benzodiacepínico por periodos cortos",
+      "dosis": "0.02–0.1 mg/kg/dosis VO/SL/IV/SC cada 4–8 h. Dosis máxima: 2 mg/dosis",
+      "via": "VO/SL/IV/SC",
+      "nota": "Contraindicado en manía. Somnolencia, aturdimiento, reacción paradójica.",
+      "page": 9
+    },
+    {
+      "farmaco": "haloperidol",
+      "indicacion": "neuroléptico de primera línea cuando se desea evitar la sedación de las benzodiacepinas",
+      "dosis": "Menores de 12 años: 10-20 µg /kg c/8-12 horas VO; 25-85 µg /kg c/24 horas IV. 12-18 años: 1,5 mg c/8 horas VO; 1,5-5 mg c/24horas IV. Dosis máxima: VO máximo 5 mg/día; IV menores de 12 años máximo 1,5 mg/día y mayores de 12 años máximo 5 mg/día.",
+      "via": "VO/SC/IV/IM",
+      "nota": "Valorar monitorización del QTc, especialmente en cardiópatas. Efectos extrapiramidales a dosis altas. Carbamazepina disminuye sus niveles. Soluciones orales por sonda sin diluir.",
+      "page": 10
+    },
+    {
+      "farmaco": "levomepromazina",
+      "indicacion": "fenotiazina más sedante si haloperidol no es efectivo; dolor con ansiedad y angustia en enfermedad terminal; antiemético",
+      "dosis": "Oral: Niños de 2 a 11 años: Dosis inicial de 50 a 100 microgramos/kg administrada una o dos veces al día. Niño de 12 a 17 años: dosis inicial de 3 mg una o dos veces al día. Por infusión IV o SC continua durante 24 horas: Niños de 1 mes a 11 años: dosis inicial de 100-400 microgramos/kg/24 hora. Niños de 12 a 17 años: Dosis inicial de 5 mg/24 horas. Por inyección SC o IV: Niños de 12 a 17 años: dosis inicial según sea necesario de 2,5 mg administrados una o dos veces al día. Máximo 1 mg/kg/dosis (25 mg/dosis). Máximo 25 mg/24 horas.",
+      "via": "VO/SC/IV",
+      "nota": "La dosis SC se considera dos veces más potente que la oral. Hipotensión, somnolencia, reduce el umbral convulsivo, distonías, prolongación QT en cardiopatía o hipopotasemia; fotosensibilidad.",
+      "page": 11
+    }
+  ],
+  "banderas_rojas": [
+    "Irritabilidad cerebral: siempre diagnóstico de exclusión; descartar antes dolor, infecciones, estreñimiento, reflujo, deshidratación y toxicidad por medicación (benzodiacepinas, neurolépticos, opioides).",
+    "Sospechar pancreatitis en pacientes en tratamiento con ácido valproico y cálculos renales asociados a dieta cetogénica y topiramato como causas de dolor.",
+    "A altas dosis las benzodiacepinas pueden producir efecto paradójico y aumentar la agitación: cambiar a otra clase de fármaco en lugar de continuar con dosis más altas.",
+    "Haloperidol y fenotiazinas: valorar monitorización del QTc, especialmente en cardiópatas, por riesgo de prolongación y arritmias.",
+    "Metadona: depresión respiratoria y prolongación del QT; contraindicada con IMAO, íleo paralítico, ataque agudo de asma e hipertensión intracraneal; reducir 50% en insuficiencia renal grave.",
+    "La medicación sedante puede mejorar síntomas pero aumentar el deterioro y dificultar la comunicación; evitar antihistamínicos para ansiedad y miedo (no alivian y pueden tener efectos paradójicos)."
+  ],
+  "perlas": [
+    "Preguntas a los padres que orientan a dolor neuropático central: no distinguen gritos de atención y de dolor, no localizan el dolor, acciones no dolorosas causan angustia, llora sin razón, llanto difícil de consolar o prolongado.",
+    "Administración por sonda: cápsulas de gabapentina dispersadas en 20ml de agua; soluciones de haloperidol sin más dilución; comprimidos de levomepromazina dispersados en agua; pregabalina mejor en solución.",
+    "El abordaje requiere paciencia, persistencia, ensayo y error y decisiones compartidas con la familia; educar a la familia a mantener la calma, pues su reacción puede exacerbar la angustia del niño.",
+    "Hidrato de cloral (25-50 mg/kg/día VO o rectal cada 6-8 horas, máximo 500 mg/dosis) como agente más sedante en situaciones extremas, al menos temporalmente."
+  ],
+  "secciones_recomendadas": [
+    "CAUSAS",
+    "DIAGNÓSTICO",
+    "Medidas no farmacológicas",
+    "Medidas farmacológicas"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

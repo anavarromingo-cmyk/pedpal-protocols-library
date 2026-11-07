@@ -1,0 +1,42 @@
+{
+  "slug": "sialorrea",
+  "en_una_frase": "Diagnóstico con escalas y tratamiento escalonado de la sialorrea en niños con patología neurológica en cuidados paliativos: logopedia, anticolinérgicos, toxina botulínica y cirugía.",
+  "puntos_clave": [
+    "La sialorrea es normal hasta los dos años y patológica a partir de los cuatro; en PCI no se debe a hipersalivación sino a disfunción oromotora, sensorial y del tono orofacial.",
+    "Valorar con escalas: gravedad del babeo (Thomas-Stonell y Greenberg), Drooling Impact Scale y Drooling Rating Scale; tratar si gravedad > 3 en algún apartado o calidad de vida > 7.",
+    "No hay tratamiento estandarizado: abordaje individualizado, primero medidas no farmacológicas +/- fármacos no invasivos, reservando lo invasivo y quirúrgico si no hay respuesta.",
+    "Reevaluar la respuesta a las 6-8 semanas y luego cada 3-6 meses; buena respuesta = descenso ≥ 3 puntos en la escala de gravedad, moderada 2 puntos, mala 1 punto.",
+    "Anticolinérgicos: trihexifenidilo (sobre todo si distonías), glicopirrolato (único aprobado por la EMA en > 3 años) o escopolamina en parche; atropina sublingual de tercera línea.",
+    "Toxina botulínica A intraglandular ecoguiada si fracasan los anteriores; cirugía solo en sialorrea muy severa o fracaso conservador, y no se suele realizar antes de los 6 años."
+  ],
+  "farmacos_clave": [
+    {"farmaco": "trihexifenidilo", "indicacion": "sialorrea; muy aconsejado si el paciente asocia síntomas distónicos (extrapiramidales)", "dosis": "Vía oral 3 meses – 17 años: Dosis inicial de 0.1-0.2 mg/kg/día c/8-12h, con aumentos de 10-20% cada 1-2 semanas si no se alcanza el efecto deseado. Habitualmente se inicia 1-2 mg al día en una o dos dosis (desayuno y almuerzo). Si no se alcanza el efecto deseado en 1-2 semanas subir 1 mg al día hasta 2-3 mg tres veces al día. Dosis media habitual: 0.55/mg/kg/día. Dosis máxima 2 mg/kg/día (habitualmente 6-10 mg/día aunque puede aumentarse hasta 70 mg/día)", "via": "VO (también por SNG y gastrostomía)", "nota": "Pasa barrera hematoencefálica; pico de acción a las 3-4 horas, duración 6-7 horas. Efectos secundarios (estreñimiento, retención urinaria, irritabilidad, visión borrosa) más frecuentes en niños < 7 años. Contraindicado en glaucoma de ángulo cerrado, obstrucción GI o genitourinaria e íleo paralítico.", "page": 3},
+    {"farmaco": "fisostigmina", "indicacion": "antídoto en sobredosificación de trihexifenidilo", "dosis": "1-2 mg IM o IV lenta", "via": "IM / IV", "nota": "", "page": 3},
+    {"farmaco": "glicopirrolato (bromuro de glicopirronio)", "indicacion": "sialorrea; único fármaco aprobado por la agencia europea del medicamento para sialorrea en > 3 años", "dosis": "Vía oral (bromuro de glicopirronio) 1 mes – 17 años: Dosis inicial: 0.02 mg/kg cada 12 horas. Si la respuesta es escasa pueden pautarse 0.02 mg/kg 3-4 veces al día. Posteriormente pueden aumentarse 0.02 mg/kg/dosis cada 7 días hasta 0.1 mg/kg/dosis. Dosis máxima 0.1mg/kg/dosis o 2mg/dosis", "via": "VO (suspensión fórmula magistral o comprimidos; por SNG y gastrostomía); posibilidad SC/IV", "nota": "No pasa barrera hematoencefálica. Las dosis de glicopirrolato son menores (12.8 mcg de glicopirrolato equivalen a 16mcg de bromuro de glicopirronio). Interacción potencialmente grave con topiramato (hipertermia y alteraciones electrolíticas). Medicamento extranjero.", "page": 4},
+    {"farmaco": "escopolamina (parches de hioscina)", "indicacion": "sialorrea", "dosis": "pauta progresiva de ascenso vigilando la aparición de efectos secundarios: primera semana ¼ de parche; segunda semana: ½ de parche; tercera semana: ¾ de parche; cuarta semana: parche entero (1.5 mg). Si buena respuesta puede valorarse mantener dosis de 0.5mg-1mg. Neonatos > 32 semanas-2 años: ¼ parche cada 72 horas. Niños 3-9 años: ½ parche cada 72 horas. Niños 10-17 años: 1 parche cada 72 horas", "via": "transdérmica", "nota": "Aplicar el parche por debajo o detrás de la oreja y cambiar cada 3 días alternando ambas orejas. Misma eficacia que el glicopirrolato pero más abandono por efectos adversos. Interacción potencialmente grave con topiramato y potasio. Pasa barrera hematoencefálica.", "page": 5},
+    {"farmaco": "atropina", "indicacion": "sialorrea, tercera línea si no respuesta o disponibilidad de glicopirronio o escopolamina", "dosis": "Administración sublingual: Neonatos: ampolla inyectable 20-40 microgramos/kg/dosis 2-3 veces al día. Niños 10-19 kg: colirio oftálmico 0.5%: 1 gota 3 veces al día en intervalos de 6 horas. Niños 5-18 años (>20 kg): colirio oftálmico 0.5-1%: 1-2 gotas cada 4-6 horas", "via": "sublingual", "nota": "Uso de colirio oftálmico, excepto en neonatos donde se utilizan ampollas inyectables vía sublingual. Contraindicada en deterioro cognitivo, demencia y alucinaciones.", "page": 5},
+    {"farmaco": "toxina botulínica A (incobotulinumtoxinA, Xeomin)", "indicacion": "sialorrea crónica debida a trastornos neurológicos sin respuesta a tratamiento previo", "dosis": "100 unidades, 30 en cada parótida y 20 en cada submandibular, con posibilidad de repetición a las 16 semanas (Inbcobotulinumtoxin A)", "via": "inyección intraglandular ecoguiada", "nota": "Duración del efecto variable, hasta 6 meses; sólo se podrá administrar de manera intrahospitalaria. Punción ecoguiada para evitar difusión de la toxina a los músculos del suelo de la boca. Únicamente Xeomin® tiene indicación para sialorrea crónica.", "page": 6}
+  ],
+  "banderas_rojas": [
+    "Glicopirrolato y escopolamina: interacción potencialmente grave con topiramato (hipertermia y alteraciones electrolíticas); escopolamina también con potasio (lesión del tracto GI superior).",
+    "Contraindicaciones de glicopirrolato y escopolamina: miastenia gravis, colitis ulcerosa severa, glaucoma de ángulo estrecho, nefropatía terminal, cuadros intestinales obstructivos, uropatía obstructiva.",
+    "Trihexifenidilo: contraindicado en glaucoma de ángulo cerrado, obstrucción del tracto gastrointestinal o genitourinario e íleo paralítico; antídoto en sobredosificación: fisostigmina.",
+    "Escopolamina en parche: hipertermia si se abriga en exceso o con calor ambiental.",
+    "Atropina: contraindicada en pacientes con deterioro cognitivo, demencia y alucinaciones.",
+    "Toxina botulínica: riesgo de difusión a los músculos del suelo de la boca con problemas de deglución; la translocación del conducto de Wharton hacia la hipofaringe puede aumentar el riesgo de aspiración.",
+    "Antes de iniciar tratamiento, considerar interacciones con los fármacos habituales, eventos adversos previos y las peculiaridades de uso en enfermedades neuromusculares."
+  ],
+  "perlas": [
+    "Trihexifenidilo por SNG o gastrostomía: pulverizar el comprimido, disolver en 10 ml de agua y tomar la dosis correspondiente; puede administrarse junto a la nutrición enteral.",
+    "Parche de escopolamina: aplicar por debajo o detrás de la oreja y cambiar cada 3 días alternando ambas orejas, con ascenso progresivo semanal (¼, ½, ¾, parche entero).",
+    "La terapia miofuncional logopédica (sellado labial, control cefálico, posición lingual) se propone en sialorrea leve o leve-moderada y debe probarse al menos 6 meses antes de fármacos.",
+    "El kinesiotaping sobre los músculos suprahioideos (tira en Y si conserva el reflejo de extrusión lingual) debe acompañarse siempre de rehabilitación oromotora."
+  ],
+  "secciones_recomendadas": [
+    "Tratamiento farmacológico",
+    "ALGORITMO",
+    "Escalas de valoración clínica",
+    "TRATAMIENTO"
+  ],
+  "generado": {"modelo": "Claude Fable 5.1", "fecha": "2026-11-07", "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.", "revisado": false}
+}

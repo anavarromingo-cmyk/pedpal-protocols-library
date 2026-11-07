@@ -1,0 +1,38 @@
+{
+  "slug": "seguridad-del-paciente-en-cpp-en-ambito-extrahospitalario",
+  "en_una_frase": "Marco de seguridad del paciente aplicado a los cuidados paliativos pediátricos en domicilio: riesgos propios del entorno, gestión de incidentes y uso seguro del medicamento, para equipos de CPP.",
+  "puntos_clave": [
+    "Seguridad del paciente (OMS): ausencia o reducción a un mínimo aceptable del riesgo de daño innecesario; en domicilio es mucho más difícil de monitorizar y evaluar.",
+    "El modelo centrado en el sistema (queso suizo) sustituye al centrado en la persona: ante un evento adverso importa cómo y por qué fallaron las defensas, no quién se equivocó.",
+    "Riesgo de eventos adversos en domicilio: farmacoterapia compleja, impacto emocional, cuidadores no profesionales, sobrecarga del cuidador y dificultades de comunicación.",
+    "Planificar la visita domiciliaria con un check-list: paciente adecuado, profesionales de referencia, objetivo y estructura, material y tratamiento, anticipar complicaciones.",
+    "El uso seguro del medicamento es una de las mayores brechas en domicilio: pluripatología, pautas complejas, medicamentos de estrecho margen terapéutico y uso off label.",
+    "Gestión de incidentes no punitiva: detección, notificación, análisis (tipificación, gravedad, 5 porqués), propuestas con plazos y referente, y seguimiento con acta."
+  ],
+  "farmacos_clave": [],
+  "banderas_rojas": [
+    "Fallos más habituales en domicilio: triturar comprimidos de liberación modificada o con cubierta entérica, dosis errónea, uso inadecuado de dispositivos enterales (SNG, gastrostomías) o parenterales.",
+    "También: ausencia de conciliación de tratamientos, demora en inicio de tratamiento, error en la pauta ayunas/con alimentos, coordinación ineficaz y valoración subjetiva de los síntomas por el cuidador.",
+    "Es frecuente encontrar niños con uno o varios fármacos de la lista de medicamentos de alto riesgo para pacientes crónicos (MSSSI 2014), cuyo mal uso puede tener consecuencias fatales.",
+    "No presumir conocimientos y habilidades sanitarias en los cuidadores informales que pueden no existir: el plan de educación terapéutica debe evaluar metódicamente conocimientos y aptitudes.",
+    "Momentos de alta complejidad: trámites en torno al final de vida y el fallecimiento, cambios en la trayectoria de enfermedad y atención urgente a las necesidades paliativas."
+  ],
+  "perlas": [
+    "Tras una indicación verbal (teléfono, videollamada), enviar un documento por escrito (mail, SMS) y hacer una doble comprobación de la comprensión de las pautas con escucha activa.",
+    "Realizar un debriefing tras la visita domiciliaria para detectar puntos de mejora y transmitir eficazmente la información al resto del equipo.",
+    "Incorporar una farmacéutica al equipo: provisión y conservación de fármacos, compatibilidad, revisión del régimen, vigilancia de fármacos de alto riesgo y cálculo de dosis.",
+    "Programas de capacitación por procedimiento con sesiones de empoderamiento progresivo del cuidador, en lenguaje comprensible y con un check-list sencillo de verificación."
+  ],
+  "secciones_recomendadas": [
+    "SEGURIDAD DEL PACIENTE EN DOMICILIO",
+    "ESTRATEGIAS DE MEJORA",
+    "HERRAMIENTAS ESPECÍFICAS PARA MEJORAR EL USO SEGURO DEL MEDICAMENTO EN CUIDADOS PALIATIVOS PEDIÁTRICOS",
+    "PROBLEMAS MÁS HABITUALES EN EL ENTORNO DE LA ATENCIÓN PALIATIVA PEDIÁTRICA DOMICILIARIA"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

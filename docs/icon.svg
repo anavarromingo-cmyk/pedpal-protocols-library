@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Protocolos PEDPAL">
+  <rect width="512" height="512" rx="96" fill="#021228"/>
+  <g font-family="Montserrat, Helvetica Neue, Arial, sans-serif" font-weight="600" text-anchor="middle">
+    <text x="256" y="300" font-size="240" fill="#ffffff">P</text>
+    <text x="256" y="420" font-size="64" fill="#f28c20" letter-spacing="2">PEDPAL</text>
+  </g>
+  <g>
+    <rect x="48"    y="452" width="83.2" height="12" fill="#f28c20"/>
+    <rect x="131.2" y="452" width="83.2" height="12" fill="#96c93e"/>
+    <rect x="214.4" y="452" width="83.2" height="12" fill="#cd2e94"/>
+    <rect x="297.6" y="452" width="83.2" height="12" fill="#32b7e4"/>
+    <rect x="380.8" y="452" width="83.2" height="12" fill="#443329"/>
+  </g>
+</svg>

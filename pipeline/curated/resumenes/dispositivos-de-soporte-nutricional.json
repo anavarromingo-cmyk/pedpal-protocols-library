@@ -1,0 +1,39 @@
+{
+  "slug": "dispositivos-de-soporte-nutricional",
+  "en_una_frase": "Indicaciones, elección, colocación y cuidados de sondas nasogástricas/transpilóricas, gastrostomías y gastroyeyunostomías en niños en cuidados paliativos pediátricos y sus cuidadores.",
+  "puntos_clave": [
+    "Se recomiendan sondas enterales si se prevé un máximo de dos o tres meses de nutrición enteral; si el tiempo estimado es superior, valorar un dispositivo a través de ostomía.",
+    "Si hay riesgo de aspiración (reflujo gastroesofágico, trastornos de deglución, gastroparesia, alteración de conciencia), valorar dispositivo transpilórico o cirugía antirreflujo.",
+    "Para medir la longitud de inserción de la SNG se recomienda la técnica NEMU; la NEX se desaconseja por riesgo de infraestimar y dejar la sonda alojada en esófago.",
+    "Comprobar la posición con al menos dos métodos (pH del aspirado con punto de corte 5 o 5,5) y, en caso de duda, radiografía; la insuflación de aire con auscultación no es fiable.",
+    "La sonda transpilórica solo está indicada para infusión continua: la infusión intermitente puede provocar dolor, náuseas, síntomas vasomotores y síndrome de dumping.",
+    "La gastrostomía está indicada en nutrición enteral prolongada; esperar al menos 12 semanas hasta el primer recambio programado y acordar el protocolo con el equipo de Cirugía."
+  ],
+  "farmacos_clave": [],
+  "banderas_rojas": [
+    "Signo o síntoma de dificultad respiratoria durante la inserción (tos, cianosis o disnea): retirar la sonda.",
+    "Alto riesgo de malposición de la sonda gástrica: neonatos, afectación neurológica, reflejo nauseoso disminuido, sedados o en estado crítico; comprobación minuciosa.",
+    "Recomprobar la posición si se sospecha desplazamiento tras tos, vómitos o arcadas, si aparecen signos de distrés respiratorio y al menos una vez al día en alimentación continua.",
+    "No reinsertar el fiador una vez extraído, por riesgo de perforación de la sonda y daño en la mucosa del paciente.",
+    "En la gastroyeyunostomía, vómitos con contenido gástrico o distensión abdominal pueden indicar posición gástrica: confirmar radiológicamente y contactar con radiología intervencionista.",
+    "Ante fuga periestomal, aumentar el calibre del dispositivo conlleva el riesgo de dilatar más aún el estoma y entrar en un círculo vicioso."
+  ],
+  "perlas": [
+    "Inyectar agua por la sonda o botón antes y después de cada alimento y medicación (cada 4-6 horas en nutrición continua); las medicaciones disueltas deben carecer de grumos.",
+    "Obstrucción: aspirar con jeringa; si no, agua templada y clampar 30 minutos; se proponen enzimas pancreáticas en lugar de refrescos carbonatados, que pueden dañar el dispositivo.",
+    "Granuloma: tras limpiar con suero fisiológico, cubrir con sal de mesa 10 minutos una vez al día y retirar con suero; si se usa nitrato de plata, proteger la piel perilesional con vaselina.",
+    "El cuidador principal debe tener siempre localizado un recambio del mismo calibre y otro de grosor inmediatamente inferior; comprobar el balón sin espaciarlo más de un mes."
+  ],
+  "secciones_recomendadas": [
+    "ELECCIÓN DEL DISPOSITIVO DE NUTRICIÓN ENTERAL",
+    "CUIDADOS DE LAS SONDAS NASOGÁSTRICAS Y TRANSPILÓRICAS",
+    "CUIDADOS GENERALES DE LA GASTROSTOMÍA Y GASTROYEYUNOSTOMÍA",
+    "COMPLICACIONES MENORES ASOCIADAS A LA GASTROSTOMÍA Y GASTROYEYUNOSTOMÍA"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

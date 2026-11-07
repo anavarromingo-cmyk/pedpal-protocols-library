@@ -1,0 +1,120 @@
+{
+  "slug": "reflujo-gastroesofagico",
+  "en_una_frase": "Diagnóstico y tratamiento del reflujo gastroesofágico y la ERGE en niños con enfermedades limitantes para la vida, sobre todo con patología neurológica: medidas posturales, fármacos y cirugía.",
+  "puntos_clave": [
+    "La ERGE es una de las manifestaciones digestivas más frecuentes en pacientes paliativos; en patología neurológica o neurodegenerativa la prevalencia sube del 15% al 77%.",
+    "Es una causa a descartar ante un niño con retraso psicomotor grave que comienza con dolor o irritabilidad; las manifestaciones extradigestivas pueden ser la clínica cardinal.",
+    "Anamnesis y exploración suelen bastar para la sospecha; se instauran medidas no farmacológicas y, de forma individualizada, prueba terapéutica con IBP durante 4-8 semanas.",
+    "Si la clínica no es típica, hay signos de alarma o no mejora, se confirma el diagnóstico; siempre que sea posible se realizará pHmetría-impedanciometría (pH-MII).",
+    "Los IBP son de elección en la esofagitis; los anti-H2 son la segunda opción y los procinéticos no están recomendados para el ERGE por problemas de seguridad.",
+    "Los procesos diagnósticos y terapéuticos deben ser concordantes con las medidas de adecuación del esfuerzo terapéutico adoptadas en estos pacientes."
+  ],
+  "farmacos_clave": [
+    {
+      "farmaco": "omeprazol",
+      "indicacion": "RGE/ERGE, de elección en la esofagitis (IBP)",
+      "dosis": "1-4 mg/kg/dia. Dosis única diaria",
+      "via": "",
+      "nota": "Prueba terapéutica durante 4-8 semanas con revaluación posterior; en tratamientos prolongados están descritas alteraciones a nivel infeccioso, metabólico y nutricional.",
+      "page": 10
+    },
+    {
+      "farmaco": "lansoprazol",
+      "indicacion": "RGE/ERGE (IBP)",
+      "dosis": "<30kg: 0.5-1 mg/kg, máximo 15mg una vez al día - >30 kg: 15-30 mg una vez al día",
+      "via": "",
+      "nota": "",
+      "page": 10
+    },
+    {
+      "farmaco": "esomeprazol",
+      "indicacion": "RGE/ERGE (IBP)",
+      "dosis": "<20Kg: 10mg una vez al dia >40Kg: 20mg una vez al día",
+      "via": "",
+      "nota": "",
+      "page": 10
+    },
+    {
+      "farmaco": "ranitidina",
+      "indicacion": "RGE y esofagitis (anti-H2, segunda opción)",
+      "dosis": "5-10 mg/kg/día repartido en 2 dosis; máx. RGE 300 mg/día y esofagitis 600 mg/día.",
+      "via": "",
+      "nota": "Los anti-H2 producen frecuente taquifilaxia y son menos potentes que los IBP.",
+      "page": 11
+    },
+    {
+      "farmaco": "famotidina",
+      "indicacion": "RGE (anti-H2)",
+      "dosis": "1-12 años: 1mg/kg/día, 2 veces al día (dosis máxima: 40 mg/dosis)",
+      "via": "",
+      "nota": "",
+      "page": 11
+    },
+    {
+      "farmaco": "sucralfato",
+      "indicacion": "citoprotector: protege la mucosa esofágica del reflujo ácido o alcalino",
+      "dosis": "0,7-3 mg/kg/día",
+      "via": "",
+      "nota": "",
+      "page": 10
+    },
+    {
+      "farmaco": "almagato",
+      "indicacion": "antiácido para control sintomático postprandial, sobre todo si el reflujo es ácido",
+      "dosis": "en >12 años: 1-1,5 g (7,5-10 ml de suspensión o un sobre o una pastilla blanda o dos comprimidos masticables) entre 30 min y 1 h después de las comidas y al acostarse. Si entre una dosis y otra tiene dolor, puede tomar una dosis adicional de 1-1,5 g. No más de 8 g/día.",
+      "via": "VO",
+      "nota": "Antiácidos y alginatos no tienen eficacia en esofagitis erosiva; efectos secundarios como osteopenia, anemia microcítica y neurotoxicidad por magnesio y aluminio. No se aconsejan como tratamiento crónico.",
+      "page": 10
+    },
+    {
+      "farmaco": "domperidona",
+      "indicacion": "procinético (solo si se valora individualmente la necesidad de acelerar el vaciamiento gástrico)",
+      "dosis": "Niños >12 años y peso ≥35 kg: Vía oral: 10 mg administrados cada 8 horas. Máximo vía oral: 30 mg/día. Vía rectal: 30 mg/12 horas. Lactantes y niños <12 años o <35 kg (E: off-label): Vía oral: 0,25 mg/kg administrados cada 8 h. Máximo vía oral: 30 mg/día. Vía rectal: no recomendado.",
+      "via": "VO / rectal",
+      "nota": "Los procinéticos no están recomendados para el tratamiento del ERGE por problemas de seguridad.",
+      "page": 11
+    },
+    {
+      "farmaco": "metoclopramida",
+      "indicacion": "procinético (uso restringido)",
+      "dosis": "La dosis recomendada es de 0,1-0,15 mg/kg de peso corporal, repetida hasta 3 veces al día por vía i.v. La dosis máxima en 24 h es 0,5 mg/kg de peso corporal.",
+      "via": "IV",
+      "nota": "No utilizar en niños menores de 1 año. Restringir su uso en 1-18 años como segunda línea para vómitos post quimioterapia y postoperatorios. Limitar la duración del tratamiento a un máximo de 5 días.",
+      "page": 11
+    },
+    {
+      "farmaco": "baclofeno",
+      "indicacion": "antiespástico: reducir la espasticidad que agrava los síntomas de RGE",
+      "dosis": "0,75-2 mg/kg/día. El tratamiento debe iniciarse normalmente a dosis muy bajas (aproximadamente 0,3 mg/kg/día), preferiblemente dividido en 2 tomas. La dosis debe incrementarse con precaución a intervalos de 1 semana, hasta alcanzar la dosis suficiente para cubrir las necesidades individuales del niño.",
+      "via": "",
+      "nota": "",
+      "page": 10
+    }
+  ],
+  "banderas_rojas": [
+    "Las medidas posturales (prono, Trendelemburg 30°) pueden resultar inadecuadas en lactantes por riesgo de muerte súbita del lactante.",
+    "Procinéticos (metoclopramida, cisaprida, domperidona): no recomendados para el ERGE por problemas de seguridad.",
+    "Metoclopramida: no utilizar en menores de 1 año; limitar a un máximo de 5 días y a una dosis máxima de 0,5 mg/kg en 24 h.",
+    "Antiácidos y alginatos: osteopenia, anemia microcítica y neurotoxicidad por magnesio y aluminio; no se aconsejan como tratamiento crónico.",
+    "IBP en tratamientos prolongados: alteraciones a nivel infeccioso, metabólico y nutricional.",
+    "Cirugía antirreflujo: alta morbilidad (26-59% complicaciones postoperatorias, 6-70% reflujo recurrente, 5-15% reintervención); contraindicada en paresia gástrica y grandes vomitadores."
+  ],
+  "perlas": [
+    "Reconocer la posibilidad de sobrealimentación, especialmente con sonda nasogástrica o gastrostomía; se puede probar nutrición enteral nocturna o en débito continuo.",
+    "En pacientes con movilidad reducida se recomienda «mantener lo más incorporados posible»; evitar comidas copiosas y próximas a la hora de acostarse.",
+    "Si se plantea una PEG, es preferible realizarla sin cirugía antirreflujo; la sonda transpilórica o gastroyeyunal es una alternativa a la cirugía.",
+    "Optimizar el resto de esferas (baclofeno para la espasticidad, control del dolor) mejora los síntomas del RGE; los espesantes en ocasiones agravan los síntomas por efecto osmótico."
+  ],
+  "secciones_recomendadas": [
+    "TRATAMIENTO",
+    "Medidas farmacológicas (Tabla 5)",
+    "Medidas no farmacológicas",
+    "DIAGNÓSTICO"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

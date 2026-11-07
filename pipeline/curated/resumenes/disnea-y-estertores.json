@@ -1,0 +1,103 @@
+{
+  "slug": "disnea-y-estertores",
+  "en_una_frase": "Valoración y tratamiento de la disnea y los estertores en niños con enfermedades limitantes para la vida (opioides, benzodiacepinas, anticolinérgicos), para equipos de paliativos pediátricos.",
+  "puntos_clave": [
+    "Hasta el 24% de los niños presentan disnea en las últimas 72 horas de vida, segundo síntoma tras el dolor; la percepción del propio paciente es el mejor indicador.",
+    "Siempre descartar causas tratables y reversibles (anemia, neumonía/atelectasia, derrame pleural, broncoespasmo), valorando riesgo/beneficio de cada prueba (tablas 2 y 3).",
+    "Opioides de primera elección en final de vida: bien usados no comprometen la respiración ni aceleran el fallecimiento; empezar a dosis bajas y titular con monitorización estrecha.",
+    "Morfina: inicio al 30-50% de la dosis para dolor, aumentos del 25-50%; si ya la tomaba, subir 30-50%; rescate 15% de la dosis diaria; nebulizada no recomendada en pediatría.",
+    "Benzodiacepinas (preferible midazolam, vida media corta) en ansiedad, agitación o últimos días con disnea moderada-grave; los corticoides no mejoran la disnea en sí.",
+    "Estertores: no se recomienda aspirar secreciones (molestias, alivio transitorio); medidas posturales, limitar líquidos en últimos días, anticolinérgicos y preparar a la familia."
+  ],
+  "farmacos_clave": [
+    {
+      "farmaco": "morfina oral (paciente naive)",
+      "indicacion": "disnea",
+      "dosis": "- Neonatos: 25 mcg/kg cada 6-8 horas - Lactantes 1-2 meses: 25 mcg/kg cada 4-6 horas - Lactantes 3-5 meses: 25-50 mcg/kg cada 4-6 horas - Lactantes 6-11 meses: 50 mcg/kg cada 4-6 horas - Niños entre 1-11 años: 50-100 mcg/kg cada 4-6 horas. - Mayores de 12 años: 50-100 mcg/kg cada 4-6 horas. No deben administrarse más de 5 mg como dosis de inicio.",
+      "via": "VO",
+      "nota": "Dosis inicial 30-50% de la de dolor con aumentos de un 25%-50% según respuesta; rescate 15% de dosis diaria total; en disnea crónica considerar liberación retardada. Efectos secundarios: somnolencia, náuseas, vómitos y estreñimiento.",
+      "page": 11
+    },
+    {
+      "farmaco": "morfina SC/IV (paciente naive)",
+      "indicacion": "disnea",
+      "dosis": "- Neonatos: 10-20 mcg/kg cada 6-8 horas - Lactantes 1-5 meses: 25-50 mcg/kg cada 6-8 horas - Lactantes 6-11 meses: 25-50 mcg/kg cada 4-6 horas - Niños entre 1-11 años: 25-100 mcg/kg cada 4-6 horas. No más de 2.5 mg como dosis inicial. - Mayores de 12 años: 50-100 mcg/kg cada 4-6 horas. No más de 5 mg como dosis inicial ni más de 20 mg en las primeras 24 horas.",
+      "via": "SC/IV",
+      "nota": "",
+      "page": 11
+    },
+    {
+      "farmaco": "morfina en perfusión continua",
+      "indicacion": "disnea",
+      "dosis": "10-30 microgramos/kg/hora (menores de 12 meses iniciar a 5 microgramos/kg/hora)",
+      "via": "SC/IV",
+      "nota": "",
+      "page": 11
+    },
+    {
+      "farmaco": "midazolam",
+      "indicacion": "disnea con ansiedad/agitación; disnea refractaria en final de vida",
+      "dosis": "midazolam bucal dosis 25-50% inferiores a las usadas en crisis convulsivas",
+      "via": "bucal; SC o IV en disnea refractaria",
+      "nota": "En disnea refractaria y final de vida, vía subcutánea o intravenosa hasta alcanzar el nivel de sedación deseado si es necesario. Lorazepam o alprazolam útiles para la ansiedad asociada.",
+      "page": 5
+    },
+    {
+      "farmaco": "escopolamina hidrobromuro (hidrobromuro de hioscina)",
+      "indicacion": "estertores",
+      "dosis": "- Transdérmico: > Neonatos-2 años: un cuarto de parche cada 72 horas. > Niños 3-9 años: medio parche cada 72 horas. > Mayores de 12 años: un parche cada 72 horas. Se puede realizar un aumento progresivo de dosis según efecto. - Subcutáneo o intravenoso: > Dosis iniciales 6mcg/kg (máximo 600mcg/dosis) cada 4-8 horas. - Infusión continua subcutánea o intravenosa: > Dosis de 40-60mcg/kg en 24 horas (máximo de 2.4mg en 24 horas que puede llegarse a aumentar si fuese necesario)",
+      "via": "transdérmica/SC/IV",
+      "nota": "Atraviesa la barrera hematoencefálica: delirio, alucinaciones, insomnio, sedación; flushing facial, midriasis, taquicardia. No usar en cuadro obstructivo intestinal; precaución en patología cardiaca; combinada con otros anticolinérgicos puede derivar en psicosis.",
+      "page": 12
+    },
+    {
+      "farmaco": "butilescopolamina (butilbromuro de hioscina)",
+      "indicacion": "estertores; más útil para dolor por espasmo intestinal o genitourinario",
+      "dosis": "- Oral, intramuscular, intravenoso: > Niños 1 mes - 4 años: 0.3-0.5 mg/kg (máximo 5 mg/dosis) cada 6-8 horas. > Niños 5-11 años: 5-10 mg cada 6-8 horas. > Mayores de 12 años: 10-20 mg cada 6-8 horas. - Infusión continua subcutánea o intravenosa: > Niños 1 mes – 4 años: 1.5mg/kg cada 24 horas (máximo 15mg/día) > Niños 5 – 11 años: 30 mg cada 24 horas. > Mayores de 12 años: 60-80mg cada 24 horas hasta un máximo de 300mg cada 24 horas.",
+      "via": "VO/IM/IV/SC",
+      "nota": "No pasa la barrera hematoencefálica (sin efectos centrales). Precaución en patología cardiaca; favorece estreñimiento y retención urinaria.",
+      "page": 12
+    },
+    {
+      "farmaco": "glicopirrolato",
+      "indicacion": "estertores",
+      "dosis": "> Oral: Niños a partir de un mes: 0.02mg/kg cada 8-12 horas con aumentos de 0.02mg/kg cada 4-6 horas según efecto. Puede realizarse aumento hasta dosis máxima de 0.1mg/kg cada 6-8 horas. Dosis máxima de 2mg/dosis.",
+      "via": "VO",
+      "nota": "Fórmula magistral (solución oral 1mg/5ml); no disponible SC ni IV. Inicio de acción más lento que escopolamina; administrar separado de la comida porque disminuye su absorción; menos efectos cardiacos.",
+      "page": 12
+    },
+    {
+      "farmaco": "atropina",
+      "indicacion": "estertores, solo si el resto de tratamientos no está disponible o no es efectivo",
+      "dosis": "Se aplica a nivel sublingual la solución para uso intravenoso o el colirio de atropina al 1%",
+      "via": "sublingual",
+      "nota": "No es tratamiento de primera línea. Mayores efectos adversos que escopolamina y glicopirrolato: estreñimiento, retención urinaria y alteraciones del ritmo cardiaco; precaución si ya toma otros anticolinérgicos.",
+      "page": 7
+    }
+  ],
+  "banderas_rojas": [
+    "Oxigenoterapia: la mayoría de estudios no encuentran mejoría de la sensación disneica; si no hay mejoría a las 48 horas de su inicio valorar su retirada.",
+    "Escopolamina hidrobromuro: no debe usarse en pacientes con cuadro obstructivo intestinal; precaución en patología cardiaca; con otros anticolinérgicos puede derivar en psicosis.",
+    "Atropina: mayores efectos adversos (estreñimiento, retención urinaria, alteraciones del ritmo cardiaco); no es de primera línea.",
+    "Fentanilo: no existen suficientes estudios que apoyen su uso para el alivio de la disnea en pediatría.",
+    "La angustia familiar ante los estertores puede llevar a iniciar tratamiento aunque el paciente no muestre signos de malestar."
+  ],
+  "perlas": [
+    "Favorecer una corriente de aire con ventilador de mano a 15-20 cm del rostro, preferiblemente fresco; ambiente térmico neutro; incorporar la cama o sillón y reducir la actividad física proporcionalmente.",
+    "En afectación neurológica grave avanzada puede ser necesario limitar la hidratación al 50-70% de las necesidades basales y favorecer el confort más que intensificar la fisioterapia.",
+    "Estertores: colocar en decúbito lateral con la cabeza elevada y explicar a la familia que el niño inconsciente no percibe sensación disneica.",
+    "Escala analógica visual (0 'ausencia de disnea' a 10 'la peor disnea que pueda imaginar') si hay capacidad comunicativa; Death rattle intensity score (0-3) para seguimiento de estertores."
+  ],
+  "secciones_recomendadas": [
+    "Morfina",
+    "Midazolam",
+    "ESTERTORES",
+    "ANEXOS Y TABLAS"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

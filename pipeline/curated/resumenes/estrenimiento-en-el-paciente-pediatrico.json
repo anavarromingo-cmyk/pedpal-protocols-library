@@ -1,0 +1,120 @@
+{
+  "slug": "estrenimiento-en-el-paciente-pediatrico",
+  "en_una_frase": "Definición, diagnóstico, prevención y tratamiento escalonado del estreñimiento en niños con enfermedad crónica compleja o en cuidados paliativos, incluido el inducido por opioides.",
+  "puntos_clave": [
+    "El estreñimiento es la dificultad para expulsar las heces; la frecuencia de evacuación no lo define. Se debe esperar estreñimiento en todos los niños que reciban opioides.",
+    "Objetivo: heces blandas (Bristol 4-5) cada 2-3 días sin esfuerzo y sin dolor abdominal o rectal, con laxantes en monoterapia o asociados con distintos mecanismos de acción.",
+    "Primer escalón: laxantes osmóticos, polietilenglicol de elección (mejor tolerado que lactulosa o lactitol); segundo escalón: estimulantes (senna, bisacodilo, picosulfato).",
+    "Descartar fecaloma antes de iniciar el tratamiento; en caso de fecaloma pueden usarse laxantes por vía rectal, y los estimulantes exacerbarían los calambres.",
+    "En el estreñimiento inducido por opioides iniciar directamente la profilaxis combinando laxantes estimulantes con ablandadores de heces y considerar el cambio de opioide.",
+    "En situación de final de vida, con ingesta de líquidos disminuida, se pueden suspender los laxantes orales y usar supositorios puntuales (citrato sódico, de pequeño volumen)."
+  ],
+  "farmacos_clave": [
+    {
+      "farmaco": "polietilenglicol (macrogol)",
+      "indicacion": "laxante osmótico de elección: desimpactación y mantenimiento",
+      "dosis": "DESIMPACTACIÓN: Inicio: 0,5 hasta 1,5 g/kg/día En 1 o 2 tomas, separadas 6 h. Duración: 3-7 días. MANTENIMIENTO: 0,2- 0,8 g/kg/día. En 1 o 2 tomas, separadas 6 h. Durante 3-6 meses. DOSIS MÁXIMA: 1-5 años: 50g/día. 5-12 años: 75 g/día. >12 años: 100g/día.",
+      "via": "VO",
+      "nota": "Inicia su acción entre las 24 y 48 horas. Presentaciones sin electrolitos (Casenlax) o con electrolitos (Movicol, Macrogol 4000 Sandoz). Ajustar la dosis semanalmente hasta el efecto deseado.",
+      "page": 5
+    },
+    {
+      "farmaco": "lactulosa",
+      "indicacion": "laxante osmótico; desimpactación y mantenimiento",
+      "dosis": "DESIMPACTACIÓN (>2 años): 1-4 ml/kg/día en 1-3 dosis (máx. 30ml/día) MANTENIMIENTO (>1 año): 1-2 ml/kg/día en 1-3 dosis (máx. 30ml/día) EDAD MÍNIMA: 1 año",
+      "via": "VO",
+      "nota": "Azúcares sintéticos no absorbibles cuya fermentación origina meteorismo; mayor flatulencia y distensión abdominal que el polietilenglicol.",
+      "page": 6
+    },
+    {
+      "farmaco": "lactitol",
+      "indicacion": "laxante osmótico; desimpactación y mantenimiento",
+      "dosis": "DESIMPACTACIÓN (>6 años):10-30 g/día en 2-3 dosis MANTENIMIENTO (>1 año):0,25-0,4 g/kg/día (2 dosis). Dosis máx. 20 g/día. EDAD MÍNIMA: 1 año",
+      "via": "VO",
+      "nota": "Azúcares sintéticos no absorbibles cuya fermentación origina meteorismo.",
+      "page": 7
+    },
+    {
+      "farmaco": "senna",
+      "indicacion": "laxante estimulante, segundo escalón; útil combinado con laxantes osmóticos",
+      "dosis": "0.3mg/kg/día en dosis única (1 gota /4-6kg peso). 2-6 años: 2,5-5mg/día. 6-12 años: 7,5mg-10mg/día. >12 años: 15-20mg/día",
+      "via": "VO",
+      "nota": "No recomendado en lactantes (Off label <6 años). No usar de forma prolongada. RAM: orina roja, dolor abdominal, colon catártico y melanosis coli. Puntual gotas: 1mL=20 gotas=30mg.",
+      "page": 7
+    },
+    {
+      "farmaco": "bisacodilo",
+      "indicacion": "laxante estimulante, segundo escalón; supositorio si el recto está vacío",
+      "dosis": "2-10 años: 5 mg/día. >10 años: 5-10 mg/día. Vía rectal: supositorios de 10mg (dar ½ o 1 comp)",
+      "via": "VO o rectal",
+      "nota": "Puede administrarse oral o rectal (muy útil). Dulcolaxo comp. 5 mg: 1 comp. antes de acostarse.",
+      "page": 7
+    },
+    {
+      "farmaco": "picosulfato",
+      "indicacion": "laxante estimulante, segundo escalón",
+      "dosis": ">6 años:2-5 gotas/día por la noche (tarda el efecto 6-12 horas). Si no hay respuesta tomar 2 gotas/día por la noche hasta un máximo de 5 días.",
+      "via": "VO",
+      "nota": "No se ha evaluado seguridad ni eficacia en menores de 6 años. La administración prolongada o su sobredosis puede producir hipopotasemia.",
+      "page": 8
+    },
+    {
+      "farmaco": "parafina",
+      "indicacion": "lubricante; desimpactación y mantenimiento",
+      "dosis": "DESIMPACTACIÓN (>1 año):15-30 ml/año de edad o 1-3 ml/kg/día (máx. 240 ml/día). MANTENIMIENTO (>1 año): 1 ml/kg/día (1-2 dosis). Adultos: 15 ml/12 h. EDAD MÍNIMA: 1 año.",
+      "via": "VO",
+      "nota": "No dar en <1 año, RGE o riesgo aspiración. Pueden disminuir la absorción de vitaminas liposolubles: separar 2 horas de las comidas. Mal sabor. No recomendado a largo plazo.",
+      "page": 9
+    },
+    {
+      "farmaco": "fosfatos hipertónicos (enema)",
+      "indicacion": "desimpactación (urgencia)",
+      "dosis": "(>2 años) DOSIS DESIMPACTACIÓN: 3-5 ml/kg/día c/12 o 24h. Máx140 ml/día. Máx. 4 días.",
+      "via": "Rectal",
+      "nota": "IMPORTANTE: debe expulsarse en 5 min, si no es solo, poner enema SSF. Riesgo toxicidad. Contraindicado si insuficiencia renal. Enema SSF 0,9%: 5ml/kg, máx. 720 ml.",
+      "page": 10
+    },
+    {
+      "farmaco": "glicerina/glicerol (supositorio)",
+      "indicacion": "estreñimiento sin impactación; si heces duras en examen rectal",
+      "dosis": "DOSIS: 1/día en >2 años.",
+      "via": "Rectal",
+      "nota": "Lubrican y aspiran agua por partículas osmóticamente activas.",
+      "page": 10
+    },
+    {
+      "farmaco": "citrato sódico (enema de pequeño volumen)",
+      "indicacion": "estreñimiento sin impactación; uso puntual en final de vida",
+      "dosis": "DOSIS: 1/día. ENVASES: 5ml",
+      "via": "Rectal",
+      "nota": "Fáciles de usar y por lo general poco angustiantes para el niño; de pequeño volumen y poco molestos en fase terminal.",
+      "page": 10
+    }
+  ],
+  "banderas_rojas": [
+    "Los padres pueden confundir estreñimiento prolongado con diarrea: las heces líquidas se filtran alrededor de las heces duras en el recto (diarrea por rebosamiento).",
+    "Descartar siempre la presencia de fecaloma antes de usar laxantes estimulantes; en caso contrario se exacerbarán los calambres abdominales.",
+    "Enemas de fosfatos: riesgo de toxicidad, deben expulsarse en 5 min (si no, enema de SSF); contraindicados en insuficiencia renal. Los enemas de gran volumen pueden alterar electrolitos en el niño debilitado o deshidratado.",
+    "Parafina: no dar en menores de 1 año, reflujo gastroesofágico o riesgo de aspiración.",
+    "Laxantes formadores de volumen (fibra): uso limitado en cuidados paliativos; en pacientes terminales pueden empeorar la situación provocando impactación.",
+    "Explorar la región lumbosacra para descartar disrafismo oculto y los reflejos de miembros inferiores; el tacto rectal no se realiza de rutina."
+  ],
+  "perlas": [
+    "Ingesta diaria recomendada de fibra (g) = edad en años + 5; fruta fresca con piel (ciruelas, peras), cereales integrales, legumbres a diario; en nutrición enteral valorar fórmulas ricas en fibra.",
+    "Aprovechar el reflejo gastrocólico: sentar al niño tras las comidas no más de 10-15 minutos, con apoyo para los pies; los masajes abdominales o pequeños estímulos rectales pueden ser muy efectivos.",
+    "Todos los laxantes orales pueden usarse por sonda, priorizando soluciones mezcladas con la alimentación o el agua; abordar con la familia que la vía rectal no es la mejor para el tratamiento.",
+    "Identificar y tratar lesiones perianales que perpetúan el hábito retentivo (cicatrizantes, antiinflamatorios y anestésicos tópicos); la metilnaltrexona trata el estreñimiento por opiáceos sin descompensar el dolor."
+  ],
+  "secciones_recomendadas": [
+    "TRATAMIENTO",
+    "FÁRMACOS",
+    "5. ENEMAS",
+    "Estreñimiento inducido por opioides"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

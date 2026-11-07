@@ -1,0 +1,120 @@
+{
+  "slug": "urgencias-en-cuidados-paliativos",
+  "en_una_frase": "Urgencias en niños en cuidados paliativos: principios de atención en Urgencias y manejo de hemorragia, compresión medular, obstrucción intestinal, síndrome de vena cava superior y disfunción de VDVP.",
+  "puntos_clave": [
+    "Cuidados paliativos no equivale a ausencia de tratamientos: ante una crisis de necesidad, identificarla, diagnosticar la causa, tratarla si es tratable y controlar síntomas.",
+    "Hablar siempre con los padres/cuidadores (conocen los dispositivos y el síntoma guía) y consultar el informe de Planificación de Cuidados Paliativos y el Objetivo Terapéutico.",
+    "Exploración física rigurosa y completa: los síntomas son muy inespecíficos (vómitos por reagudización respiratoria o dolor; irritabilidad por fractura, retención urinaria...).",
+    "La claudicación familiar es una emergencia en sí misma y una indicación de ingreso urgente; la mayoría de las situaciones pueden manejarse de forma ambulatoria por la familia.",
+    "Compresión medular: iniciar dexametasona inmediatamente ante la sospecha clínica; la resonancia magnética es la prueba de elección; en últimos días priorizar medidas de confort.",
+    "Hemorragia: identificar el riesgo, instruir a la familia y dejar un 'kit de hemorragias' (paños oscuros, adrenalina, ácido tranexámico, midazolam); puede precisar sedación."
+  ],
+  "farmacos_clave": [
+    {
+      "farmaco": "dexametasona",
+      "indicacion": "compresión medular (iniciar inmediatamente ante la sospecha clínica)",
+      "dosis": "en bolo inicial de 1-2 mg/kg, seguido de 0,25-0,5 mg/kg/dosis, cada 4-6 horas durante 48h con descenso progresivo posterior. Asociar omeprazol",
+      "via": "",
+      "nota": "Asociar omeprazol.",
+      "page": 7
+    },
+    {
+      "farmaco": "dexametasona",
+      "indicacion": "hipertensión intracraneal por disfunción de VDVP (medida antiedema)",
+      "dosis": "1-2 mg/kg IV y posteriormente 0,25 mg/kg c/6 h. Asociar protector gástrico.",
+      "via": "IV",
+      "nota": "",
+      "page": 15
+    },
+    {
+      "farmaco": "suero salino hipertónico 3%",
+      "indicacion": "hipertensión intracraneal por disfunción de VDVP (medida antiedema)",
+      "dosis": "5-10 ml/kg en perfusión IV en 30 minutos",
+      "via": "IV",
+      "nota": "",
+      "page": 15
+    },
+    {
+      "farmaco": "octreótide",
+      "indicacion": "antisecretor en obstrucción intestinal maligna (algunos autores lo consideran de primera línea)",
+      "dosis": "Neonato: Inicialmente 2-5 mcg/kg c/6- 8h y luego ajustar según respuesta (máx. 7 mcg/kg c/4h). 1 mes-17 años: Inicialmente 1-2 mcg/kg c/4-6h y luego ajustar según respuesta (máx. 7 mcg/kg c/4h). Infusión continua >1 mes: 1 mcg/kg/h (máx. 50 mcg/h)",
+      "via": "SC; infusión continua IV, SC",
+      "nota": "No se debe mantener más de 24-48 horas",
+      "page": 10
+    },
+    {
+      "farmaco": "haloperidol",
+      "indicacion": "antiemético en obstrucción intestinal",
+      "dosis": "0.01-0.02 mg/kg/dosis c/8h (máx. dosis inicio 0.5-1 mg)",
+      "via": "VO, IV, SC",
+      "nota": "",
+      "page": 10
+    },
+    {
+      "farmaco": "metoclopramida",
+      "indicacion": "obstrucción parcial o funcional en pacientes sin dolor cólico",
+      "dosis": "En >1 año: 0.1-0.2 mg/kg/dosis c/8h (máx. 10 mg/dosis)",
+      "via": "VO, IV (bolo lento, al menos 3 min), SC",
+      "nota": "Si aumenta el dolor o se hace cólico y en cualquier caso si no es efectivo se suspenderá.",
+      "page": 10
+    },
+    {
+      "farmaco": "clorpromazina",
+      "indicacion": "hipo de difícil control por irritación del diafragma en obstrucción intestinal (fármaco de elección); off label",
+      "dosis": "1-5 años: 500 mcg/kg c/4-6h (máx. 40 mg/día) 6-11 años: 10 mg c/8h (máx. 75 mg/día). 12-17 años: 25 mg c/8h Ajustar según respuesta.",
+      "via": "IV",
+      "nota": "Produce además efecto sedante; puede administrarse en bolos o en infusión continua.",
+      "page": 10
+    },
+    {
+      "farmaco": "metilprednisolona",
+      "indicacion": "corticoterapia en síndrome de vena cava superior",
+      "dosis": "40 mg/m2/día, repartida en 4 dosis",
+      "via": "IV",
+      "nota": "Si aún no está diagnosticado el tipo de tumor consensuar con Oncología porque puede enmascarar o retrasar el diagnóstico, especialmente en linfomas.",
+      "page": 12
+    },
+    {
+      "farmaco": "cloruro mórfico",
+      "indicacion": "disnea en síndrome de vena cava superior",
+      "dosis": "0,05 mg/Kg vía oral, que se puede repetir cada 4 horas si precisa",
+      "via": "VO",
+      "nota": "",
+      "page": 12
+    },
+    {
+      "farmaco": "midazolam",
+      "indicacion": "control agudo de disnea y ansiedad en síndrome de vena cava superior",
+      "dosis": "0,1-0,2 mg/Kg dosis según vía y tolerancia",
+      "via": "",
+      "nota": "Para ansiolisis mantenida, benzodiacepina de vida media más larga: bromazepam 0,1 mg/kg/dosis cada 8 o 12 horas.",
+      "page": 12
+    }
+  ],
+  "banderas_rojas": [
+    "Tríada de Cushing (bradicardia, hipertensión arterial y alteraciones respiratorias) en portador de VDVP: signos de enclavamiento y herniación inminente.",
+    "Disfunción de VDVP: hasta el 80% la presentará en los 10 años siguientes; siempre es una emergencia porque puede ocasionar el fallecimiento. La infección es más frecuente en los 3 primeros meses.",
+    "Compresión medular: dolor local o radicular que aumenta con decúbito supino y Valsalva, déficit motor, déficits sensitivos y alteraciones esfinterianas; un 3% son asintomáticos.",
+    "La hemoptisis masiva puede conducir al fallecimiento por asfixia en poco tiempo; la hemorragia grave precede a la muerte en un 5-6% de los casos.",
+    "La obstrucción súbita de la vena cava superior puede conllevar edema cerebral y poner en peligro la vida del paciente.",
+    "Metoclopramida: suspender si aumenta el dolor o se hace cólico. Octreótide: no mantener más de 24-48 horas.",
+    "Furosemida en SVCS: precaución porque puede producir hemoconcentración y aumentar el riesgo trombótico. Corticoides sin diagnóstico tumoral: consensuar con Oncología (linfomas)."
+  ],
+  "perlas": [
+    "Anamnesis rápida SAMPLE: Síntomas guía, Alergias, Medicación (últimas dosis, cambios), Antecedentes, última ingesta (Last intake) y Evento con el que lo relacionan; escuchar a los padres es clave.",
+    "Sangrado respiratorio: decúbito lateral sobre el lado que sangra, si se conoce; si no, semisentado con la cabeza hacia delante. Usar toallas o paños oscuros para enmascarar la sangre.",
+    "SVCS: reposo absoluto, cabecera a 45°, ambiente tranquilo y aire fresco en la cara. Obstrucción intestinal: posición semiincorporada, sonda nasogástrica evacuadora y enemas si fecaloma."
+  ],
+  "secciones_recomendadas": [
+    "PRINCIPIOS EN URGENCIAS",
+    "HEMORRAGIA",
+    "COMPRESIÓN MEDULAR",
+    "URGENCIAS POR DISFUNCIÓN DE VÁLVULA DE DERIVACIÓN VENTRICULOPERITONEAL"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

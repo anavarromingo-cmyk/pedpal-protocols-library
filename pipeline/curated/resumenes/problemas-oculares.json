@@ -1,0 +1,120 @@
+{
+  "slug": "problemas-oculares",
+  "en_una_frase": "Síndrome de ojo seco, blefaritis y úlceras corneales en niños con necesidades paliativas: etiología, diagnóstico, tratamiento escalonado y técnica de cuidados oculares básicos.",
+  "puntos_clave": [
+    "Muchos niños en CPP tienen factores predisponentes de ojo seco, sobre todo fármacos: antimuscarínicos, anticomiciales, opioides, antihistamínicos, tricíclicos, AINE.",
+    "Ante sospecha de ojo seco remitir precozmente a oftalmología (riesgo de daño corneal irreversible); el test de Schirmer no requiere colaboración (<5mm en 5 minutos = déficit).",
+    "Ojo seco: 1º educación, ambiente, revisar fármacos, higiene palpebral (40ºC) y lágrimas sin conservantes; 2º oclusores, pomadas nocturnas, ciclosporina o corticoide tópico.",
+    "Blefaritis: el pilar es la higiene diaria con calor húmedo y masaje palpebral; 2ª línea ácido fusídico tópico; 3ª línea azitromicina o eritromicina sistémicas a dosis bajas.",
+    "Úlcera corneal: no ocluir el ojo si sospecha infecciosa; úlceras >2 mm, centrales o con amenaza visual: dos colirios reforzados (vancomicina + ceftazidima) alternando cada hora.",
+    "Limpieza ocular al menos una vez al día, gasa distinta por ojo desde el lagrimal al ángulo externo; apósito oclusivo si no hay parpadeo o cierre palpebral completo."
+  ],
+  "farmacos_clave": [
+    {
+      "farmaco": "ciclosporina A tópica",
+      "indicacion": "síndrome de ojo seco, segundo escalón (inmunomodulador que reduce la inflamación mediada por linfocitos T)",
+      "dosis": "emulsión oftálmica al 0,05% aplicándose 1 gota en cada ojo cada 12 horas",
+      "via": "tópica oftálmica",
+      "nota": "",
+      "page": 5
+    },
+    {
+      "farmaco": "aciclovir tópico",
+      "indicacion": "blefaritis por herpes simple y por herpes zóster",
+      "dosis": "una aplicación cada 4 horas durante cinco días",
+      "via": "tópica",
+      "nota": "En úlcera herpética (p. 17): Ganciclovir o aciclovir tópicos cada 5 horas durante 10-15 días.",
+      "page": 8
+    },
+    {
+      "farmaco": "mupirocina tópica",
+      "indicacion": "impétigo palpebral",
+      "dosis": "una aplicación cada 8-12 horas",
+      "via": "tópica",
+      "nota": "",
+      "page": 9
+    },
+    {
+      "farmaco": "amoxicilina-clavulánico",
+      "indicacion": "erisipela palpebral",
+      "dosis": "40 mg/kg/día, cada 8 horas, vía oral",
+      "via": "VO",
+      "nota": "",
+      "page": 9
+    },
+    {
+      "farmaco": "eritromicina pomada oftálmica",
+      "indicacion": "blefaritis angular (Moraxella sp)",
+      "dosis": "una aplicación cada 6-8 horas",
+      "via": "tópica oftálmica",
+      "nota": "También en blefaritis estafilocócica crónica junto con limpieza (alternativas: bacitracina o azitromicina tópica).",
+      "page": 10
+    },
+    {
+      "farmaco": "azitromicina tópica",
+      "indicacion": "disfunción de las glándulas de Meibomio (blefaritis crónica posterior)",
+      "dosis": "una gota cada 12 horas durante tres días",
+      "via": "tópica oftálmica",
+      "nota": "Asociar lágrimas artificiales y limpieza palpebral.",
+      "page": 12
+    },
+    {
+      "farmaco": "ácido fusídico",
+      "indicacion": "blefaritis estafilocócicas y chalaziones sin mejoría con higiene e hidratación (segunda línea en niños)",
+      "dosis": "una gota de gel en el ojo o los ojos afectados dos veces al día, hasta dos días después de la remisión de la infección",
+      "via": "tópica oftálmica",
+      "nota": "Otros antibióticos tópicos posibles: mupirocina, eritromicina, bacitracina o azitromicina.",
+      "page": 14
+    },
+    {
+      "farmaco": "vancomicina + ceftazidima (colirios reforzados)",
+      "indicacion": "úlceras corneales bacterianas >2 mm de diámetro, severas, centrales o con amenaza de la visión",
+      "dosis": "Vancomicina 50mg/ml ( para Gram+) con Ceftazidima 50mg/ml (para Gram - , especialmente pseudomona)alternando cada hora el primer día y bajando dosis según evolución",
+      "via": "tópica oftálmica",
+      "nota": "Úlceras pequeñas: fluorquinolonas (ciprofloxacino en portadores de lentes). Úlceras perforadas o con alto riesgo de perforación: añadir antibióticos sistémicos.",
+      "page": 17
+    },
+    {
+      "farmaco": "valaciclovir oral",
+      "indicacion": "úlcera herpética recidivante o acompañada de iritis",
+      "dosis": "1G diario durante 2-3 meses",
+      "via": "VO",
+      "nota": "",
+      "page": 17
+    },
+    {
+      "farmaco": "ciclopentolato",
+      "indicacion": "úlcera corneal con reacción de cámara anterior (mejorar el dolor y evitar sinequias posteriores)",
+      "dosis": "cada 8 /12horas",
+      "via": "tópica oftálmica",
+      "nota": "",
+      "page": 17
+    }
+  ],
+  "banderas_rojas": [
+    "Sospecha de ojo seco: remitir a oftalmología para valoración precoz; la demora podría suponer un daño irreversible de la superficie corneal.",
+    "Corticosteroides tópicos: pautas cortas y dosis decrecientes por riesgo de elevación de la PIO y retraso de cicatrización; evitarlos en úlceras fúngicas.",
+    "Pediculosis palpebral: en caso de detectarse, debe descartarse abuso.",
+    "Úlceras por gonococo, infecciones graves o pacientes que no puedan cumplir el tratamiento: hospitalización con terapia sistémica.",
+    "No se recomienda la instilación de colirio anestésico como tratamiento porque retrasa la cicatrización.",
+    "Lifitegrast: no se ha establecido su seguridad y eficacia en menores de 17 años.",
+    "Úlceras corneales en bebés y niños pequeños sin causa aparente: pensar en síndromes de Riley-Day y Goldenhar o en tirosinemia."
+  ],
+  "perlas": [
+    "Higiene palpebral con toallitas húmedas calientes a unos 40ºC para favorecer la fusión de los lípidos en DGM; en blefaritis por Demodex, toallitas con aceite de árbol de té (muy diluido).",
+    "Lágrimas artificiales sin conservantes en uso prolongado; indicarlas también de forma profiláctica si hay tendencia al acúmulo de secreciones o parpadeo disminuido.",
+    "Test de Teller (preferencia visual) útil en niños preverbales o con problemas neurocognitivos; colirio de suero autólogo (3er escalón) se prepara en farmacia, en nevera y protegido de la luz."
+  ],
+  "secciones_recomendadas": [
+    "1) Primer escalón",
+    "2) Segundo escalón",
+    "Tratamiento",
+    "2) Medidas farmacológicas"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

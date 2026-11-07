@@ -1,0 +1,121 @@
+{
+  "slug": "terapias-respiratorias",
+  "en_una_frase": "Terapias respiratorias domiciliarias en cuidados paliativos pediátricos: oxigenoterapia convencional y de alto flujo, aerosolterapia y dispositivos de fisioterapia respiratoria para el confort.",
+  "puntos_clave": [
+    "La oxigenoterapia es el primer apoyo en la insuficiencia respiratoria hipoxémica; sin hipoxemia es poco probable que alivie la disnea, donde los opioides son más eficaces.",
+    "Gafas nasales: FiO2 de 0,24 a 0,40 con flujo hasta 6 L/min (2 L/min en lactantes pequeños y recién nacidos); por encima de 6 L/min se desaconsejan por sequedad e irritación.",
+    "Con gafas nasales a flujos menores de 4 L/min no es necesaria humidificación; sí en traqueostomía o con flujos más altos de O2.",
+    "OAF: lactantes < 6 meses 2 lpm/kg (máx. 8-12 lpm); en niños no sobrepasar 1 lpm/kg para evitar barotrauma; alternativa si orden de no intubación e IRA con disnea refractaria.",
+    "El nebulizador es el dispositivo de elección en pacientes que no pueden coordinar o cooperar; volumen de llenado 2-4 ml y evitar mezclar fármacos salvo compatibilidad demostrada.",
+    "Cough Assist®: presiones +35/-35 a +50/-50 cmH2O; empezar con 10-15 cmH2O la primera vez; 3-5 ciclos con descansos de 20-30 s; aplicar al menos 2 h tras la ingesta."
+  ],
+  "farmacos_clave": [
+    {
+      "farmaco": "salbutamol",
+      "indicacion": "broncodilatador en reagudizaciones respiratorias (broncoespasmo moderado y grave)",
+      "dosis": "2-5 años: 2.5 mg; >5 años o >20kg: 5 mg *Ventolín®: diluir con SSF hasta 2-2.5 mL",
+      "via": "nebulizada",
+      "nota": "Nebulizador ultrasónico o de tipo jet (5-7 L/m). El gas impulsor debe ser oxígeno en pacientes gravemente enfermos.",
+      "page": 11
+    },
+    {
+      "farmaco": "bromuro de ipratropio",
+      "indicacion": "anticolinérgico de acción corta asociado o no al salbutamol en reagudizaciones",
+      "dosis": "< 30 kg: 250 mcg/4-6 horas > 30 kg: 500 mcg/4-6 horas",
+      "via": "nebulizada",
+      "nota": "",
+      "page": 12
+    },
+    {
+      "farmaco": "budesonida",
+      "indicacion": "corticoide inhalado",
+      "dosis": "0 – 6 meses: 0,25-1,0 mg día c/12h 6 meses – 12 años: 0,25-1,0 mg día c/12h >12 años: 0,5-2 mg al día c/12h",
+      "via": "nebulizada",
+      "nota": "Nebulizador de tipo jet (5-7 L/m).",
+      "page": 12
+    },
+    {
+      "farmaco": "fluticasona",
+      "indicacion": "corticoide inhalado",
+      "dosis": "50 - 1000 mcg cada 12 horas",
+      "via": "nebulizada",
+      "nota": "",
+      "page": 12
+    },
+    {
+      "farmaco": "adrenalina (1:1000)",
+      "indicacion": "antiedema",
+      "dosis": "0,5 ml/kg de la sol. 1:1.000, máximo 5 mL Diluir en SF o SG5%",
+      "via": "nebulizada",
+      "nota": "Nebulizador de tipo jet (4-6 L/m)",
+      "page": 12
+    },
+    {
+      "farmaco": "colistina",
+      "indicacion": "antibiótico inhalado en infección bronquial crónica por Pseudomonas aeruginosa (bronquiectasias, fibrosis quística)",
+      "dosis": "< 2 años (off label): 0,5-1 MUI cada 12 h > 2 años: 1-2 MUI cada 12 horas (máximo 2 MUI cada 8 horas) *Diluir en 2-4 mL de agua estéril",
+      "via": "nebulizada",
+      "nota": "Compresor de alto flujo tipo CR60® + pipeta tipo Ventstream® o Pari LC Plus® o E flow®; Promixin® con I-neb AAD®. Primeras dosis en medio hospitalario bajo supervisión.",
+      "page": 12
+    },
+    {
+      "farmaco": "tobramicina",
+      "indicacion": "antibiótico inhalado en infección bronquial crónica por Pseudomonas aeruginosa",
+      "dosis": "> 6 años: 300mg/12 horas, 28 días, repetir tras 28 días de descanso, continuar de forma cíclica (de 3-4 semanas a 6-12 meses)",
+      "via": "nebulizada",
+      "nota": "Compresor de alto flujo tipo CR60® + pipeta tipo Ventstream® o Pari LC Plus® o E flow®. Primeras dosis en medio hospitalario bajo supervisión.",
+      "page": 12
+    },
+    {
+      "farmaco": "aztreonam",
+      "indicacion": "antibiótico inhalado en infección bronquial crónica por Pseudomonas aeruginosa",
+      "dosis": "75 mg tres veces al día durante 4 semanas, con al menos 4 horas entre cada dosis",
+      "via": "nebulizada",
+      "nota": "Eflow® + dispositivo Altera®.",
+      "page": 12
+    },
+    {
+      "farmaco": "DNasa/dornasa alfa",
+      "indicacion": "mucolítico en fibrosis quística y atelectasias",
+      "dosis": "FQ: 2,5 mg una vez al día Atelectasias: 1.25-2.5 mg hasta cada 4 horas",
+      "via": "nebulizada",
+      "nota": "Nebulizador de tipo jet con compresores de alto flujo. No usar nebulizador ultrasónico (se inestabiliza con el calor).",
+      "page": 12
+    },
+    {
+      "farmaco": "morfina",
+      "indicacion": "disnea (morfina nebulizada, resultados muy controvertidos)",
+      "dosis": "La dosis inicial sería 2.5-5 mg (solución inyectable).",
+      "via": "nebulizada",
+      "nota": "Se ha descrito algún caso de broncoespasmo secundario.",
+      "page": 12
+    }
+  ],
+  "banderas_rojas": [
+    "La hipoxia crónica en niños da lugar a hipertensión pulmonar, alteraciones del neurodesarrollo, riesgo de apneas y muerte súbita; una SpO2 < 92% se asocia con disminución del crecimiento.",
+    "OAF: riesgo de barotrauma si se usan flujos muy altos o si las narinas quedan obstruidas por cánulas de tamaño excesivo (deben ocupar el 50-70% de la luz de las narinas).",
+    "Antibióticos nebulizados: administrar las primeras dosis en medio hospitalario bajo supervisión por posibles efectos adversos (broncoespasmo, disnea o dolor torácico).",
+    "Nebulizadores ultrasónicos: no apropiados para antibióticos ni fármacos en suspensión (corticoides, DNasa) ni para menores de 3 años.",
+    "Sistemas PEP: contraindicados en neumotórax no tratado, hemoptisis, vías aéreas hiperreactivas, fracturas faciales/cirugía y procesos de sinusitis y otitis.",
+    "Insuflación-exuflación mecánica: contraindicada en bullas enfisematosas, neumotórax y/o neumomediastino, hemoptisis activa, inestabilidad de la vía aérea, barotrauma reciente e inestabilidad hemodinámica.",
+    "Ventilación percusiva intrapulmonar: contraindicada en neumotórax sin drenar, síndrome de Lyell, hemoptisis, fracturas costales recientes y lesión medular reciente.",
+    "Oscilación-compresión torácica: contraindicaciones absolutas en inestabilidad hemodinámica o hemorragia activa, lesiones recientes o inestables de cabeza, cuello y tórax y hemoptisis."
+  ],
+  "perlas": [
+    "Conocer las horas de autonomía que quedan a la botella de O2 según el caudal prescrito (Tabla 2): un cilindro B-2 a 1 L/min dura 6,5 h y a 3 L/min, 2 h.",
+    "Orden recomendado en antibioterapia nebulizada: broncodilatador de acción rápida, suero salino hipertónico, drenaje de secreciones y después el antibiótico inhalado.",
+    "Limpiar el nebulizador tras cada uso según el fabricante (desmontar, agua templada con detergente, secar al aire) por riesgo de contaminación bacteriana; en los de malla usar agua destilada y no tocar la malla."
+  ],
+  "secciones_recomendadas": [
+    "Indicaciones",
+    "Oxigenoterapia de alto flujo con cánulas nasales (OAF)",
+    "AEROSOLTERAPIA",
+    "DISPOSITIVOS DE SOPORTE EN FISIOTERAPIA RESPIRATORIA"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

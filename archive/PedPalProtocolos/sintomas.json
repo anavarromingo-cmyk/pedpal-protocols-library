@@ -1,0 +1,382 @@
+{
+  "SintomasPaliativosPediátricos": [
+    {
+      "Síntoma": "Crisis Disautonómicas",
+      "ManejoFarmacológico": {
+        "DescripciónGeneral": "El manejo farmacológico se centra en el control de los síntomas predominantes, utilizando fármacos de acción rápida en crisis graves como morfina, propranolol o benzodiacepinas. La elección del fármaco depende de los síntomas predominantes.",
+        "FármacosYDosis": [
+          {
+            "Fármaco": "Morfina",
+            "DosisORecomendación": "Trata taquicardia, vasodilatación periférica y alodinia. Vía oral: 0.2-0.5 mg/kg/4-6 h. Vía SC o IM: 0.1-0.2 mg/kg cada 4 horas (máximo 15 mg/24h). Vía IV lenta: 0.05-0.1 mg/kg/4h (máximo 15 mg/24h). Perfusión: 0.04-0.07 mg/kg/h."
+          },
+          {
+            "Fármaco": "Baclofeno",
+            "DosisORecomendación": "Trata dolor, clonus y rigidez. Vía oral: 2.5-5 mg/día (3 tomas), con aumento gradual semanal hasta máximo 30 mg/día (2-7 años) y 60 mg/día en mayores de 8 años."
+          },
+          {
+            "Fármaco": "Benzodiacepinas (Ej. clonazepam)",
+            "DosisORecomendación": "Tratan agitación, hipertensión, taquicardia y posturas. Vía oral: Inicial 0.01-0.03mg/kg/día en 3 tomas. Mantenimiento 0.1-0.2 mg/kg/día en 3 dosis. Dosis máxima 20 mg/día."
+          },
+          {
+            "Fármaco": "Clonidina",
+            "DosisORecomendación": "Trata hipertensión. Vía oral: 5-60 mcg/kg/día cada 8-12 h. Se puede incrementar hasta dosis máxima 900 mcg/día."
+          },
+          {
+            "Fármaco": "Propranolol",
+            "DosisORecomendación": "Trata hipertensión, taquicardia y fiebre. Vía oral: 0.5-2 mg/kg/día cada 6-12 h."
+          },
+          {
+            "Fármaco": "Gabapentina",
+            "DosisORecomendación": "Trata espasticidad y alodinia. Vía oral: 1º día: 5 mg/kg noche. 2º día 5mg/kg/12h. 3º día 5mg/kg/8h. Mantenimiento 8-35 mg/kg/día en 3 dosis."
+          },
+          {
+            "Fármaco": "Ciproheptadina",
+            "DosisORecomendación": "Trata diaforesis, vómitos y dolor abdominal. Vía oral: 0.25-0.5 mg/kg/día cada 8-12 horas. 2-6 años (máx 12 mg/día). 7-14 años (máx 16 mg/día)."
+          },
+          {
+            "Fármaco": "Dantroleno",
+            "DosisORecomendación": "Trata rigidez muscular y posturas anómalas. Vía oral: Dosis inicio 1 mg/kg/día (en dos tomas). Incrementos semanales de 0.5 mg/kg/día hasta dosis de mantenimiento de 2 mg/kg/dosis en tres tomas al día. Dosis máxima diaria: 400 mg/día."
+          }
+        ]
+      },
+      "ManejoNoFarmacológico": [
+        "Control del dolor, ya que es un factor precipitante habitual.",
+        "Musicoterapia",
+        "Visualización",
+        "Hipnosis",
+        "Videojuegos",
+        "Respiración profunda",
+        "Relajación",
+        "Risoterapia",
+        "Aplicación de calor para disminuir dolor y espasmos musculares (20-30 minutos varias veces al día).",
+        "Aplicación de frío para disminuir la inflamación (hielo triturado en bolsa, 15-20 minutos varias veces al día).",
+        "Masajes para relajar la musculatura."
+      ],
+      "EvidenciaONivelRecomendación": "No especificado en el texto"
+    },
+    {
+      "Síntoma": "Disnea",
+      "ManejoFarmacológico": {
+        "DescripciónGeneral": "Los opioides son el fármaco de primera elección para el tratamiento de la disnea en situaciones de final de vida. Se deben empezar a dosis bajas con monitorización estrecha. Las benzodiacepinas pueden ser útiles como coadyuvantes en caso de ansiedad, agitación o estrés asociados.",
+        "FármacosYDosis": [
+          {
+            "Fármaco": "Morfina",
+            "DosisORecomendación": "Si el paciente no tomaba morfina previamente, se prescribe al 25-50% de la dosis empleada para el dolor. Si se encontraba previamente con morfina, se incrementará la dosis entre un 25 y 50%. Dosis de rescate: 1/6 de la dosis diaria total. Dosis en paciente naive: Neonatos: 25 mcg/kg cada 6-8 horas; Lactantes 1-2 meses: 25 mcg/kg cada 4-6 horas; Lactantes 3-5 meses: 25-50 mcg/kg cada 4-6 horas; Lactantes 6-11 meses: 50 mcg/kg cada 4-6 horas; Niños 1-11 años: 50-100 mcg/kg cada 4-6 horas; Mayores de 12 años: 50-100 mcg/kg cada 4-6 horas."
+          },
+          {
+            "Fármaco": "Lorazepam",
+            "DosisORecomendación": "Vía oral: Menores de 2 años: 25 mcg/kg, 2-3 veces al día; 2-5 años: 500 mcg, 2-3 veces al día; 6-10 años: 750 mcg, 3 veces al día; 11-14 años: 1 mg, 3 veces al día; 15-18 años: 1-2 mg, 3 veces al día. Vía sublingual: 25 mcg/kg dosis única, se puede aumentar a 50 mcg/kg (máximo 1 mg)."
+          },
+          {
+            "Fármaco": "Midazolam",
+            "DosisORecomendación": "Para ansiedad, agitación y/o disnea, 25-50% de las dosis para sedación consciente. Vía oral: 500 mcg/kg (máximo 20 mg) dosis única. Vía bucal o intranasal: 6 meses–9 años: 200-300 mcg/kg (máximo 5 mg) dosis única; 10-17 años: 6-7 mg dosis única. Vía subcutánea o intravenosa: 1 mes-11 años: dosis inicial 25-50 mcg/kg."
+          },
+          {
+            "Fármaco": "Fentanilo",
+            "DosisORecomendación": "No existen en la actualidad suficientes estudios que apoyen su uso para el alivio de la disnea en pediatría."
+          }
+        ]
+      },
+      "ManejoNoFarmacológico": [
+        "Favorecer una corriente de aire cerca del paciente (ventilador de mano).",
+        "Favorecer un ambiente térmico neutro y evitar altas temperaturas.",
+        "Evitar desplazamientos o movimientos innecesarios, incorporar la cama o sillón.",
+        "Reducir la actividad física de forma proporcional a la disnea.",
+        "Estrategias de afrontamiento con técnicas de relajación y manejo de la ansiedad.",
+        "Introducir distractores.",
+        "Ofrecer apoyo psicoemocional al niño y a la familia.",
+        "Fisioterapia y medidas para el control de secreciones como aspiración.",
+        "Valorar suplementación con oxigenoterapia si supone un alivio de los síntomas para el paciente. Si no existe mejoría tras 48 horas, valorar su retirada."
+      ],
+      "EvidenciaONivelRecomendación": "No especificado en el texto"
+    },
+    {
+      "Síntoma": "Estertores (Death Rattle)",
+      "ManejoFarmacológico": {
+        "DescripciónGeneral": "Se utilizan fármacos anticolinérgicos para disminuir la producción de secreciones.",
+        "FármacosYDosis": [
+          {
+            "Fármaco": "Escopolamina hidrobromuro (parches transdérmicos)",
+            "DosisORecomendación": "Neonatos-2 años: un cuarto de parche cada 72 horas. Niños 3-9 años: medio parche cada 72 horas. Mayores de 12 años: un parche cada 72 horas. Subcutáneo o intravenoso: Dosis iniciales 6mcg/kg (máximo 600mcg/dosis) cada 4-8 horas. Infusión continua: 40-60mcg/kg en 24 horas (máximo de 2.4mg en 24 horas)."
+          },
+          {
+            "Fármaco": "Butilescopolamina o butilbromuro de hioscina",
+            "DosisORecomendación": "Vía oral, intramuscular, intravenoso: Niños 1 mes-4 años: 0.3-0.5 mg/kg (máximo 5 mg/dosis) cada 6-8 horas. Niños 5-11 años: 5-10 mg cada 6-8 horas. Mayores de 12 años: 10-20 mg cada 6-8 horas. Infusión continua: Niños 1 mes – 4 años: 1.5mg/kg cada 24 horas (máximo 15mg/día). Niños 5-11 años: 30 mg cada 24 horas. Mayores de 12 años: 60-80mg cada 24 horas hasta un máximo de 300mg cada 24 horas."
+          },
+          {
+            "Fármaco": "Glicopirrolato",
+            "DosisORecomendación": "Vía oral: Niños a partir de un mes: 0.02mg/kg cada 8-12 horas con aumentos según efecto hasta dosis máxima de 0.1mg/kg cada 6-8 horas. Vía subcutánea o intravenosa (infusión continua): 1 mes-11 años: dosis inicial 12 mcg/kg/día, puede aumentarse hasta 40 mcg/kg/día (máximo 1,2 mg al día). 12-17 años: dosis inicial 600 mcg/día, puede aumentarse hasta 1,2 mg/día (máximo 2,4 mg al día)."
+          },
+          {
+            "Fármaco": "Atropina",
+            "DosisORecomendación": "Administración sublingual. Se aplica la solución para uso intravenoso o el colirio de atropina al 1%. No es un tratamiento de primera línea."
+          }
+        ]
+      },
+      "ManejoNoFarmacológico": [
+        "No se recomienda aspirar secreciones porque puede generar molestias y es un alivio transitorio.",
+        "Medidas posturales como colocar en decúbito lateral con la cabeza elevada.",
+        "Limitar los aportes de líquidos en pacientes en situación de últimos días.",
+        "Explicar a la familia que el síntoma no produce sufrimiento en el niño."
+      ],
+      "EvidenciaONivelRecomendación": "No especificado en el texto"
+    },
+    {
+      "Síntoma": "Espasticidad",
+      "ManejoFarmacológico": {
+        "DescripciónGeneral": "El tratamiento farmacológico se divide en espasticidad focal o segmentaria (Toxina Botulínica tipo A) y espasticidad generalizada (fármacos vía oral que actúan a nivel central o periférico).",
+        "FármacosYDosis": [
+          {
+            "Fármaco": "Toxina Botulínica Tipo A",
+            "DosisORecomendación": "Para espasticidad focal. Dosificación en función del peso del paciente, tamaño del músculo y tipo de toxina. Las infiltraciones son periódicas, aproximadamente cada 4-6 meses."
+          },
+          {
+            "Fármaco": "Baclofeno",
+            "DosisORecomendación": "Fármaco de elección en espasticidad generalizada. Niños de 2-7 años: 2,5 -5 mg/día (3 tomas), aumento gradual semanal hasta un máximo de 30 mg/día. Niños mayores de 8 años: 60 mg/día (3 tomas)."
+          },
+          {
+            "Fármaco": "Tizanidina",
+            "DosisORecomendación": "Niños de 18 meses a 7 años: 1 mg/día en dosis nocturna. Niños de 7 a 12 años: 2 mg/día en dos dosis. Niños mayores de 12 años: 4 mg/día en dos tomas, hasta dosis de mantenimiento 12-24 mg/día (dosis máxima 36 mg al día)."
+          },
+          {
+            "Fármaco": "Benzodiazepinas (Diazepam)",
+            "DosisORecomendación": "Dosis inicio 0,1 mg/kg/día en 2-3 tomas, incrementar según eficacia y tolerancia hasta 0,8 mg/kg/día, máximo 40 mg/día."
+          },
+          {
+            "Fármaco": "Dantroleno",
+            "DosisORecomendación": "Inicio: 1mg/kg/día (en dos tomas). Incrementos semanales de 0,5 mg/kg/día hasta dosis de mantenimiento: 2 mg/kg/dosis en tres tomas al día. Dosis máxima diaria: 400 mg/día."
+          }
+        ]
+      },
+      "ManejoNoFarmacológico": [
+        "Fisioterapia: optimizarse previo a iniciar tratamiento farmacológico. Aumento de rangos de movimiento, disminución del tono muscular, desarrollar y potenciar músculos débiles y antagonistas."
+      ],
+      "EvidenciaONivelRecomendación": "No especificado en el texto"
+    },
+    {
+      "Síntoma": "Estreñimiento",
+      "ManejoFarmacológico": {
+        "DescripciónGeneral": "Se utilizan laxantes en monoterapia o asociados, siguiendo un esquema basado en la combinación de fármacos con diferentes mecanismos de acción. El primer escalón son los laxantes osmóticos (polietilenglicol). El segundo escalón son los laxantes estimulantes.",
+        "FármacosYDosis": [
+          {
+            "Fármaco": "Polietilenglicol (PEG)",
+            "DosisORecomendación": "Desimpactación: 0,5 hasta 1,5 g/kg/día. Mantenimiento: 0,2- 0,8 g/kg/día."
+          },
+          {
+            "Fármaco": "Lactulosa",
+            "DosisORecomendación": "Desimpactación (>2 años): 1-4 ml/kg/día. Mantenimiento (>1 año): 1-2 ml/kg/día."
+          },
+          {
+            "Fármaco": "Lactitiol",
+            "DosisORecomendación": "Desimpactación (>6 años): 10-30 g/día. Mantenimiento (>1 año): 0,25-0,4 g/kg/día."
+          },
+          {
+            "Fármaco": "Senna",
+            "DosisORecomendación": "2-6 años: 2,5-5mg/día. 6-12 años: 7,5mg-10mg/día. >12 años: 15-20mg/día."
+          },
+          {
+            "Fármaco": "Bisacodilo",
+            "DosisORecomendación": "2-10 años: 5 mg/día. >10 años: 5-10 mg/día. Vía rectal: supositorios de 10mg."
+          },
+          {
+            "Fármaco": "Picosulfato",
+            "DosisORecomendación": ">6 años: 2-5 gotas/día por la noche."
+          },
+          {
+            "Fármaco": "Laxantes formadores de volumen (Plántago ovata/fibra vegetal)",
+            "DosisORecomendación": "Uso limitado en cuidados paliativos. Plántago ovata >4 años: 1,2 -3,5 g/día. Fibra vegetal líquida <1 año: máx. 2,5 g/día; 1-2 años: máx. 5 g/día; 3-12 años: máx. 7,5 g/día; >12 años: máx. 15 g/día."
+          },
+          {
+            "Fármaco": "Fármacos lubricantes (Parafina)",
+            "DosisORecomendación": "Desimpactación (>1 año): 15-30 ml/año de edad o 1-3 ml/kg/día. Mantenimiento (>1 año): 1 ml/kg/día."
+          },
+          {
+            "Fármaco": "Enemas",
+            "DosisORecomendación": "Uso de supositorios de glicerina, bisacodilo, enemas de citrato sódico, SSF 0,9% o fosfatos hipertónicos según la situación."
+          },
+          {
+            "Fármaco": "Metilnaltrexona",
+            "DosisORecomendación": "Antagonista opiáceo periférico para el estreñimiento inducido por opiáceos."
+          }
+        ]
+      },
+      "ManejoNoFarmacológico": [
+        "Fomentar la ingesta de líquidos y fibra.",
+        "Fomentar el movimiento.",
+        "Revisar la medicación para disminuir o suspender la que no sea necesaria.",
+        "Higiene defecatoria: postura adecuada, acostumbrar al niño a una hora determinada, refuerzo positivo.",
+        "Observar posturas retentivas.",
+        "Masajes abdominales o pequeños estímulos rectales."
+      ],
+      "EvidenciaONivelRecomendación": "No especificado en el texto"
+    },
+    {
+      "Síntoma": "Náuseas y Vómitos",
+      "ManejoFarmacológico": {
+        "DescripciónGeneral": "Se utilizan diversos fármacos antieméticos según la etiología y el receptor implicado. En pacientes oncológicos, el manejo se divide en profilaxis primaria, secundaria y tratamiento de rescate.",
+        "FármacosYDosis": [
+          {
+            "Fármaco": "Ondansetrón",
+            "DosisORecomendación": "0,15 mg/kg/8h. Vías: IV, VO o enteral. Administrar 30 minutos antes de QT o 1-2 h antes de RT. En >1 año: 0.1-0.2 mg/kg/dosis c/8h (máx. 10 mg/dosis)."
+          },
+          {
+            "Fármaco": "Granisetrón",
+            "DosisORecomendación": "10-40 mcg/kg/8h. Dosis máxima 3 mg/día. Vías: IV, VO o enteral."
+          },
+          {
+            "Fármaco": "Aprepitant",
+            "DosisORecomendación": "A partir de 6 meses (> 6 kg) a 12 años: 3 mg/kg (máximo 125 mg) 1h antes de QT, seguido de 2 mg/kg los 2 días siguientes. En > 12 años: 125 mg 1h antes de QT, seguido de 80 mg/24h los 2 días siguientes."
+          },
+          {
+            "Fármaco": "Domperidona",
+            "DosisORecomendación": "En < 12 años o < 35 kg (off-label): 0,25 mg/kg/8h (máximo 30 mg/día). En > 12 años y ≥ 35 kg: 10mg/8h VO o enteral."
+          },
+          {
+            "Fármaco": "Metoclopramida",
+            "DosisORecomendación": "Dosis 0,15 mg/kg/8h. Dosis máxima: 0,5 mg/kg/día. Contraindicada en < 1 año."
+          },
+          {
+            "Fármaco": "Haloperidol",
+            "DosisORecomendación": "1 mes-17 años: 10-20 mcg/kg cada 8-12 horas, hasta 5 mg cada 12 horas. Infusión continua: 1 mes-11 años: 25mcg/kg/día; 12-17 años: 1,5 mg/día."
+          },
+          {
+            "Fármaco": "Levomepromazina",
+            "DosisORecomendación": "Vía oral: 2-11 años: 50-100 mcg/kg cada 12-24h; 12-17 años: 3 mg cada 12-24h. Infusión continua: 1 mes-11 años: 100mcg/kg/día; 12-17 años: 5 mg/día."
+          }
+        ]
+      },
+      "ManejoNoFarmacológico": [
+        "Fraccionar las tomas, menor volumen y mayor frecuencia.",
+        "Evitar comidas con muchas especias o con olores fuertes, y alimentos grasos o salados.",
+        "Ambiente tranquilo y confortable.",
+        "Apoyo psicológico.",
+        "Intentar evitar que la comida coincida con la quimioterapia.",
+        "Acupuntura, hipnosis, técnicas de relajación."
+      ],
+      "EvidenciaONivelRecomendación": "No especificado en el texto"
+    },
+    {
+      "Síntoma": "Irritabilidad / Agitación / Delirium / Ansiedad",
+      "ManejoFarmacológico": {
+        "DescripciónGeneral": "El tratamiento busca corregir la causa e identificarla. Se propone una escalera terapéutica que empieza con gabapentinoides, sigue con antidepresivos tricíclicos/clonidina y finalmente metadona, usando coadyuvantes (opioides, neurolépticos, benzodiacepinas) en todos los escalones.",
+        "FármacosYDosis": [
+          {
+            "Fármaco": "Gabapentina",
+            "DosisORecomendación": "Menores de 3 años: 5 mg/kg/dosis. Entre 3 y 12 años: Día 1: 5-10 mg/kg/dosis (máximo 300 mg) VO 1 vez al día. Dosis máxima: 45-60 mg/kg/día en tres dosis."
+          },
+          {
+            "Fármaco": "Pregabalina",
+            "DosisORecomendación": "Día 1-3: 1 mg/kg/dosis VO 1 vez al día. Dosis de mantenimiento sugerida 5-10 mg/kg/día. Dosis máxima 600 mg/día."
+          },
+          {
+            "Fármaco": "Amitriptilina",
+            "DosisORecomendación": "Niños de 2 a 11 años: dosis inicial 200 microgramos/kg (máximo 10 mg) una vez al día. Dosis máxima: 1 mg/kg/dosis repartido en dos dosis. Mayores de 12 años: 75 mg/día."
+          },
+          {
+            "Fármaco": "Clonidina",
+            "DosisORecomendación": "Niños >1 mes: Dosis inicial 1 microgramo/kg/dosis 3-4 veces al día. Máximo de 5 microgramos/kg/dosis cuatro veces al día."
+          },
+          {
+            "Fármaco": "Metadona",
+            "DosisORecomendación": "Niños de 1 a 12 años: 30 a 100 microgramos/kg (máximo 5 mg/dosis inicial) 1 a 3 veces al día."
+          },
+          {
+            "Fármaco": "Benzodiacepinas (Diazepam, Midazolam, Lorazepam)",
+            "DosisORecomendación": "Diazepam >6 meses: 0.12-0.8 mg/kg/día VO. Midazolam bucal (0.3-0.5mg/kg) para crisis de angustia. Lorazepam: 0.02-0.1 mg/kg/dosis VO/SL/IV/SC cada 4-8 h."
+          },
+          {
+            "Fármaco": "Haloperidol",
+            "DosisORecomendación": "Menores de 12 años: 10-20 µg/kg c/8-12 horas VO. 12-18 años: 1,5 mg c/8 horas VO."
+          },
+          {
+            "Fármaco": "Levomepromazina",
+            "DosisORecomendación": "Niños de 2 a 11 años: Dosis inicial de 50 a 100 microgramos/kg una o dos veces al día. Máximo 1 mg/kg/dosis."
+          }
+        ]
+      },
+      "ManejoNoFarmacológico": [
+        "Emplear medidas ambientales generales: ambiente tranquilo, sin exceso de luminosidad ni ruido.",
+        "Limitar visitas, permaneciendo sólo los familiares más cercanos.",
+        "Personalizar la habitación (ropa de cama, pertenencias).",
+        "Dar seguridad a través del tacto o la voz.",
+        "Utilización de los sentidos conservados (lectura, música).",
+        "Fomentar el sueño regular.",
+        "Organizar los tratamientos para permitir períodos de descanso.",
+        "Educar a la familia a mantener la calma."
+      ],
+      "EvidenciaONivelRecomendación": "No especificado en el texto"
+    },
+    {
+      "Síntoma": "Convulsiones / Estatus Epiléptico",
+      "ManejoFarmacológico": {
+        "DescripciónGeneral": "El tratamiento de una crisis aguda debe iniciarse entre los 3-5 minutos. La primera línea son las benzodiacepinas (Midazolam, Diazepam). La segunda línea incluye Fenobarbital, Ácido Valproico, Fenitoína o Levetiracetam. En estatus refractario se usa perfusión continua de midazolam o propofol.",
+        "FármacosYDosis": [
+          {
+            "Fármaco": "Midazolam",
+            "DosisORecomendación": "Primera línea. Bucal/Intranasal: 0,2-0,5 mg/kg/dosis (máx. 10 mg). IV/SC: 0,1-0,2 mg/kg/dosis(máx. 10 mg). Perfusión continua: 0,03-0,3 mg/kg/hora."
+          },
+          {
+            "Fármaco": "Diazepam",
+            "DosisORecomendación": "Primera línea. Rectal: 0.5 mg/kg (<5 años); 0.3 mg/kg (6-11 años); 0.2 mg/kg (>11 años) (máx 10 mg). IV: 0,2 mg/kg/dosis (máx. 10 mg)."
+          },
+          {
+            "Fármaco": "Fenobarbital",
+            "DosisORecomendación": "Segunda línea. Dosis de carga: 20 mg/kg/dosis (máximo 1 g) administrada durante 20 minutos IV o SC. Mantenimiento IV/SC: Niños > 1 mes- 11 años: 2.5-5 mg/kg una o dos veces al día."
+          },
+          {
+            "Fármaco": "Ácido Valproico",
+            "DosisORecomendación": "Segunda línea. Dosis de carga IV: 40 mg/kg a pasar en 5 minutos. Mantenimiento en perfusión continua IV: 1-2 mg/kg/h."
+          },
+          {
+            "Fármaco": "Fenitoína",
+            "DosisORecomendación": "Segunda línea. Dosis de carga IV: 20 mg/kg diluidos en suero fisiológico a pasar en 20 minutos. Mantenimiento: 4-8 mg/kg/día IV repartidos cada 8-12 horas."
+          },
+          {
+            "Fármaco": "Levetiracetam",
+            "DosisORecomendación": "Segunda línea. Dosis de carga IV: 40 mg/kg (30-60 mg/kg) (dosis máxima 1.5 g) en 10-15 minutos. Mantenimiento: 25-30 mg/kg cada 12 horas."
+          }
+        ]
+      },
+      "ManejoNoFarmacológico": [
+        "Mantener la ventilación y oxigenación.",
+        "Posición: lateralización de la cabeza para evitar la broncoaspiración.",
+        "Aspiración de secreciones si fuera necesario.",
+        "Administrar O2 mediante gafas nasales o mascarilla."
+      ],
+      "EvidenciaONivelRecomendación": "No especificado en el texto"
+    },
+    {
+      "Síntoma": "Sialorrea",
+      "ManejoFarmacológico": {
+        "DescripciónGeneral": "El tratamiento farmacológico es no invasivo y se reserva para cuando las medidas no farmacológicas no son suficientes. Se utilizan principalmente fármacos anticolinérgicos.",
+        "FármacosYDosis": [
+          {
+            "Fármaco": "Trihexifenidilo",
+            "DosisORecomendación": "Vía oral (3 meses - 17 años): Dosis inicial de 0.1-0.2 mg/kg/día c/8-12h, con aumentos de 10-20% cada 1-2 semanas. Dosis media habitual: 0.55/mg/kg/día. Dosis máxima 2 mg/kg/día."
+          },
+          {
+            "Fármaco": "Glicopirrolato (bromuro de glicopirronio)",
+            "DosisORecomendación": "Vía oral (1 mes - 17 años): Dosis inicial: 0.02 mg/kg cada 12 horas, puede aumentarse hasta 0.1 mg/kg/dosis. Dosis máxima 0.1mg/kg/dosis o 2mg/dosis."
+          },
+          {
+            "Fármaco": "Escopolamina (parches de hioscina)",
+            "DosisORecomendación": "Parche transdérmico. Neonatos > 32s-2 años: ¼ parche/72h. Niños 3-9 años: ½ parche/72h. Niños 10-17 años: 1 parche/72h."
+          },
+          {
+            "Fármaco": "Atropina",
+            "DosisORecomendación": "Tercera línea. Vía sublingual. Neonatos: ampolla inyectable 20-40 microgramos/kg/dosis 2-3 veces al día. Niños 10-19 kg: colirio oftálmico 0.5% 1 gota 3 veces al día."
+          },
+          {
+            "Fármaco": "Toxina botulínica A/B",
+            "DosisORecomendación": "Inyección ecoguiada. 100 unidades, 30 en cada parótida y 20 en cada submandibular. Duración del efecto hasta 6 meses."
+          }
+        ]
+      },
+      "ManejoNoFarmacológico": [
+        "Tratamiento logopédico/Estimulación neurosensorial: Terapia miofuncional para mejorar el control cefálico, tonificar musculatura perioral, corregir maloclusiones y mejorar la posición lingual.",
+        "Uso del vendaje neuromuscular, ‘kinesiotaping’: Aplicación de bandas elásticas sobre los músculos suprahioideos para estimular la deglución."
+      ],
+      "EvidenciaONivelRecomendación": "Único fármaco aprobado por la agencia europea del medicamento para tratamiento de sialorrea en > 3 años es el glicopirrolato."
+    }
+  ]
+}

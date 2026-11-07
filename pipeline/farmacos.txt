@@ -1,0 +1,214 @@
+# Lista de fármacos para el índice. Formato: canónico|alias|alias…  (sin tildes también vale; la comparación ignora acentos y mayúsculas)
+# Opioides y analgésicos
+morfina|cloruro mórfico|sulfato de morfina
+fentanilo|fentanilo transdérmico|fentanilo transmucoso
+oxicodona
+hidromorfona
+metadona
+tramadol
+codeína
+buprenorfina
+tapentadol
+petidina|meperidina
+naloxona
+naltrexona
+metilnaltrexona
+paracetamol|acetaminofén
+ibuprofeno
+metamizol|dipirona|nolotil
+ketorolaco
+naproxeno
+diclofenaco
+celecoxib
+ácido acetilsalicílico|aspirina|AAS
+ketamina
+lidocaína|lidocaina
+bupivacaína
+lidocaína-prilocaína|EMLA
+capsaicina
+óxido nitroso
+sacarosa
+# Neuropático / anticomiciales / sedantes
+gabapentina
+pregabalina
+amitriptilina
+nortriptilina
+duloxetina
+carbamazepina
+oxcarbazepina
+clonazepam
+diazepam
+midazolam
+lorazepam
+clobazam
+levetiracetam
+fenobarbital
+fenitoína
+ácido valproico|valproato|valproico
+lacosamida
+topiramato
+lamotrigina
+vigabatrina
+zonisamida
+perampanel
+brivaracetam
+tiopental
+propofol
+dexmedetomidina
+# Antipsicóticos / antihistamínicos / antieméticos
+haloperidol
+risperidona
+olanzapina
+quetiapina
+aripiprazol
+levomepromazina|metotrimeprazina
+clorpromazina
+hidroxicina
+difenhidramina
+dexclorfeniramina
+cetirizina
+loratadina
+ondansetrón|ondansetron
+granisetrón|granisetron
+metoclopramida
+domperidona
+# Corticoides / respiratorio
+dexametasona
+prednisona
+prednisolona
+metilprednisolona
+hidrocortisona
+budesonida
+fluticasona
+salbutamol
+terbutalina
+bromuro de ipratropio|ipratropio
+glicopirrolato|glicopirronio|bromuro de glicopirronio
+escopolamina|hioscina|hidrobromuro de hioscina|bromhidrato de escopolamina
+butilbromuro de hioscina|butilescopolamina|buscapina|butilbromuro de escopolamina
+atropina
+trihexifenidilo
+toxina botulínica|botox|toxina botulinica
+baclofeno
+tizanidina
+dantroleno
+clonidina
+propranolol
+ciproheptadina
+melatonina
+trazodona
+mirtazapina
+sertralina
+fluoxetina
+escitalopram
+metilfenidato
+octreótido|octreotida
+N-acetilcisteína|acetilcisteína
+dornasa alfa
+carbocisteína
+dextrometorfano
+heliox
+oxígeno|oxigenoterapia
+surfactante
+cafeína
+# Digestivo
+omeprazol
+esomeprazol
+lansoprazol
+pantoprazol
+ranitidina
+famotidina
+sucralfato
+almagato
+hidróxido de aluminio
+polietilenglicol|macrogol|PEG 3350|PEG 4000
+lactulosa
+lactitol
+parafina|aceite de parafina|parafina líquida
+bisacodilo
+senósidos|senósido|sen
+picosulfato
+glicerina|glicerol
+loperamida
+racecadotrilo
+colestiramina
+ácido ursodesoxicólico|ursodiol
+rifampicina
+eritromicina
+simeticona
+# Antiinfecciosos
+amoxicilina
+amoxicilina-clavulánico|amoxicilina clavulánico
+cefuroxima
+ceftriaxona
+cefotaxima
+azitromicina
+claritromicina
+clindamicina
+metronidazol
+vancomicina
+teicoplanina
+meropenem
+piperacilina-tazobactam
+gentamicina
+amikacina
+ciprofloxacino
+levofloxacino
+cotrimoxazol|trimetoprim-sulfametoxazol
+nistatina
+fluconazol
+miconazol
+aciclovir
+tobramicina
+cloranfenicol
+mupirocina
+clorhexidina
+# Electrolitos / otros
+sulfato de zinc|zinc
+hierro|sulfato ferroso
+ácido fólico
+vitamina D|colecalciferol
+calcio
+magnesio|sulfato de magnesio
+potasio|cloruro potásico
+bicarbonato sódico|bicarbonato
+suero salino|suero fisiológico|cloruro sódico|salino hipertónico
+glucosa|dextrosa
+insulina
+heparina
+enoxaparina
+ácido tranexámico
+vitamina K|fitomenadiona
+furosemida
+espironolactona
+hidroclorotiazida
+captopril
+enalapril
+amlodipino
+nifedipino
+labetalol
+adrenalina|epinefrina
+noradrenalina
+dopamina
+dobutamina
+milrinona
+sildenafilo
+hialuronidasa
+nitroglicerina
+lágrimas artificiales|carmelosa|hipromelosa|carboximetilcelulosa
+ciclosporina
+pilocarpina
+flúor|fluoruro
+benzidamina
+triamcinolona
+doxepina
+tiamina
+carnitina
+pamidronato
+ácido zoledrónico|zoledronato
+denosumab
+calcitonina
+oxibutinina
+tolterodina
+desmopresina
+tetracaína

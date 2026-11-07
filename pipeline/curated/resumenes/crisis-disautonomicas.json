@@ -1,0 +1,101 @@
+{
+  "slug": "crisis-disautonomicas",
+  "en_una_frase": "Definición, detección y abordaje de las crisis disautonómicas crónicas (hiperactividad simpática paroxística) en niños con enfermedad neurológica, para equipos de cuidados paliativos pediátricos.",
+  "puntos_clave": [
+    "No existe prueba confirmatoria: diagnóstico de sospecha basado en valoración clínica exhaustiva con anotación precisa de signos y síntomas agrupados en un mismo momento.",
+    "Hacer diagnóstico diferencial con crisis epilépticas autonómicas valorando la respuesta a antiepilépticos, el EEG y la relación con factores desencadenantes.",
+    "El dolor es precipitante habitual; también procedimientos antes bien tolerados (aspiración de secreciones, luz, fisioterapia) pueden desencadenarlas: fenómeno de alodinia.",
+    "Primero reevaluar los tratamientos analgésicos en curso; después valorar añadir un fármaco según los síntomas predominantes de las crisis.",
+    "Si la sintomatología es grave, utilizar fármacos de comienzo de acción rápida como morfina, propranolol o benzodiacepinas.",
+    "La escala adaptada (anexo 1) gradúa la gravedad clínica: sin gravedad 0, leve 1-6, moderada 7-12, grave >12."
+  ],
+  "farmacos_clave": [
+    {
+      "farmaco": "morfina",
+      "indicacion": "taquicardia, vasodilatación periférica, alodinia",
+      "dosis": "Vía oral 0.2-0.5 mg/kg/4-6 h. Vía sc o im 0.1-0.2 mg/kg cada 4 horas (máximo 15 mg/24h). Vía iv lenta 0.05 – 0.1 mg/kg/4h (máximo 15 mg/24 h). Perfusión 0.04 -0.07 mg/kg/h",
+      "via": "VO/SC/IM/IV",
+      "nota": "Efectos secundarios: nauseas, vómitos, estreñimiento, depresión SNC, depresión respiratoria, convulsiones, íleo paralítico, retención urinaria, hipotensión. Su efectividad se ha propuesto como criterio diagnóstico.",
+      "page": 3
+    },
+    {
+      "farmaco": "baclofeno",
+      "indicacion": "dolor, clonus, rigidez",
+      "dosis": "Vía oral: 2,5-5 mg/día (3 tomas), aumento gradual semanal hasta máximo 30 mg/día (2-7 años) y 60 mg/día en mayores de 8 años",
+      "via": "VO",
+      "nota": "Efectos secundarios: somnolencia, mareo, debilidad, confusión, hipotensión, nauseas, toxicidad renal.",
+      "page": 3
+    },
+    {
+      "farmaco": "clonazepam (benzodiacepinas)",
+      "indicacion": "agitación, hipertensión, taquicardia, posturas",
+      "dosis": "Vía oral: Inicial 0.01- 0.03mg/kg/día en 3 dosis. Mantenimiento 0.1-0.2 mg/kg/día en 3 dosis. Dosis máxima 20 mg/día",
+      "via": "VO",
+      "nota": "Efectos secundarios: somnolencia, mareo, vértigos, torpeza motora, ataxia, bradilalia y alteraciones conductuales.",
+      "page": 3
+    },
+    {
+      "farmaco": "clonidina",
+      "indicacion": "hipertensión",
+      "dosis": "Vía oral: 5- 60mcg/kg/día cada 8- 12 h. Se puede incrementar hasta dosis máxima 900 mcg/día",
+      "via": "VO",
+      "nota": "Efectos secundarios: sequedad de boca, letargia, sedación, depresión, bradicardia, hipotensión, mareo, estreñimiento, Raynaud.",
+      "page": 4
+    },
+    {
+      "farmaco": "propranolol (β agonista según el texto)",
+      "indicacion": "hipertensión, taquicardia, fiebre",
+      "dosis": "Vía oral: 0.5 -2 mg/kg/día cada 6-12 h",
+      "via": "VO",
+      "nota": "Efectos secundarios: bradicardia, hipoglucemia, terrores nocturnos, sincopes, ataxia, eosinofilia y citopenia.",
+      "page": 4
+    },
+    {
+      "farmaco": "gabapentina",
+      "indicacion": "espasticidad, alodinia",
+      "dosis": "Vía oral: 1º día:5 mg/kg noche 2º día 5mg/kg/12 h 3ºdía 5mg/kg/8h. Mantenimiento 8-35 mg/kg/día en 3 dosis",
+      "via": "VO",
+      "nota": "Efectos secundarios: somnolencia, mareos, ataxia, cefalea, temblores y parestesias. En casos puntuales ha mejorado disautonomía, agitación y espasticidad resistentes a múltiples fármacos.",
+      "page": 4
+    },
+    {
+      "farmaco": "ciproheptadina",
+      "indicacion": "diaforesis, vómitos y dolor abdominal",
+      "dosis": "Vía oral 0.25-0.5 mg/kg/día cada 8-12 horas 2-6 años (máx 12 mg/día) 7-14 años (máx 16 mg/día)",
+      "via": "VO",
+      "nota": "Efectos secundarios: sedación, taquicardia, palpitaciones, astenia, temblor, nerviosismo, aumento de apetito. Mejoría apreciada en casos con predominio de hipotermia.",
+      "page": 4
+    },
+    {
+      "farmaco": "dantroleno",
+      "indicacion": "rigidez muscular, posturas anómalas",
+      "dosis": "Vía oral: Dosis inicio 1 mg/kg/día (en dos tomas). Incrementos semanales de 0,5 mg/kg/día hasta dosis de mantenimiento: 2 mg/kg/dosis en tres tomas al día. Dosis máxima diaria: 400 mg/día",
+      "via": "VO",
+      "nota": "Medicamento extranjero no comercializado en España. Efectos secundarios: somnolencia, vértigo, fatiga, insomnio, falta de coordinación, confusión, vómitos, estreñimiento, diarrea.",
+      "page": 4
+    }
+  ],
+  "banderas_rojas": [
+    "Tras una lesión aguda del SNC pueden darse crisis disautonómicas muy intensas en la fase inicial, que se tratarán en unidades de cuidados intensivos pediátricos.",
+    "Gravedad clínica según la escala adaptada: grave si puntuación >12.",
+    "Morfina: riesgo de depresión respiratoria, depresión del SNC, convulsiones, íleo paralítico, retención urinaria e hipotensión."
+  ],
+  "perlas": [
+    "Buscar en la exploración signos potencialmente dolorosos (espasticidad o distonía, luxación de cadera, escoliosis, lesiones cutáneas por presión) y valorar estudios radiológicos de caderas o columna como posibles focos de dolor.",
+    "Medidas físicas: calor 20 a 30 minutos varias veces al día para dolor y espasmos; frío (hielo triturado en bolsa cubierto con toalla) 15-20 minutos varias veces al día sobre la zona inflamada; masajes para relajar la musculatura.",
+    "Registrar cada crisis (anexo 2): fecha, duración, factor precipitante (dolor, baño, aspiración de secreciones, luz, tacto o fisioterapia) y los signos presentes.",
+    "Abordaje centrado en la familia e interdisciplinar: educación y capacitación familiar por enfermería, apoyo psicológico y manejo de complicaciones ambientales por trabajo social."
+  ],
+  "secciones_recomendadas": [
+    "SIGNOS Y SÍNTOMAS",
+    "Medidas farmacológicas",
+    "Escala adaptada para el diagnóstico de Crisis Disautonómica en pediatría",
+    "Registro de Crisis Disautonómicas"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

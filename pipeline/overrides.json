@@ -1,0 +1,78 @@
+{
+  "_doc": "Ajustes manuales del catálogo. 'include': PDFs de la mediateca de pedpal.es que NO están enlazados en /protocolos/ pero deben aparecer. 'exclude': slugs a ocultar. 'titulos': título corregido por slug. 'areas': área clínica por slug (si falta, se infiere por palabras clave y si no, 'Otros').",
+  "include": [
+    {
+      "slug": "cuidados-odontologicos-en-el-paciente-pediatrico-cronico",
+      "titulo": "Cuidados odontológicos en el paciente pediátrico crónico",
+      "nota": "PDF subido a pedpal.es (dic-2024) pero sin enlace en la página /protocolos/."
+    }
+  ],
+  "exclude": [],
+  "titulos": {
+    "generalidades-clasificacion-y-causas-del-dolor-en-cpp": "Dolor 1. Generalidades, clasificación y causas del dolor en CPP",
+    "uso-de-opioides": "Dolor 2. Uso de opioides en CPP",
+    "urgencias-en-cuidados-paliativos": "Urgencias en cuidados paliativos pediátricos",
+    "valoracion-nutricional": "Valoración nutricional en CPP",
+    "status-epileptico": "Estatus epiléptico"
+  },
+  "areas": {
+    "generalidades-clasificacion-y-causas-del-dolor-en-cpp": "Dolor",
+    "uso-de-opioides": "Dolor",
+    "disnea-y-estertores": "Respiratorio",
+    "terapias-respiratorias": "Respiratorio",
+    "manejo-y-cuidados-de-la-traqueostomia-en-domicilio": "Respiratorio",
+    "estrenimiento-en-el-paciente-pediatrico": "Digestivo",
+    "reflujo-gastroesofagico": "Digestivo",
+    "sialorrea": "Digestivo",
+    "trastornos-de-la-deglucion": "Digestivo",
+    "vomitos": "Digestivo",
+    "crisis-disautonomicas": "Neurológico",
+    "espasticidad": "Neurológico",
+    "irritabilidad-y-agitacion": "Neurológico",
+    "status-epileptico": "Neurológico",
+    "dispositivos-de-soporte-nutricional": "Nutrición",
+    "nutricion-enteral-domiciliaria": "Nutrición",
+    "nutricion-parenteral-domiciliaria": "Nutrición",
+    "problemas-nutricionales-malnutricion": "Nutrición",
+    "valoracion-nutricional": "Nutrición",
+    "cuidados-al-final-de-la-vida-en-neonatologia": "Final de vida",
+    "cuidados-paliativos-neonatales-fallecimiento-paritorio": "Final de vida",
+    "manejo-sintomatico-al-final-de-la-vida": "Final de vida",
+    "sedacion-paliativa": "Final de vida",
+    "lesiones-por-presion": "Piel, ojos y boca",
+    "prurito": "Piel, ojos y boca",
+    "problemas-oculares": "Piel, ojos y boca",
+    "cuidados-odontologicos-en-el-paciente-pediatrico-cronico": "Piel, ojos y boca",
+    "urgencias-en-cuidados-paliativos": "Urgencias y sistémico",
+    "problemas-sistemicos": "Urgencias y sistémico",
+    "via-subcutanea": "Procedimientos",
+    "bases-eticas-de-la-toma-de-decisiones-compartidas": "Ética y organización",
+    "seguridad-del-paciente-en-cpp-en-ambito-extrahospitalario": "Ética y organización",
+    "videollamada": "Ética y organización"
+  },
+  "area_keywords": {
+    "Dolor": ["dolor", "opioid", "analges", "neuropat"],
+    "Respiratorio": ["disnea", "respirator", "traqueost", "ventilac", "oxigen", "tos"],
+    "Digestivo": ["estrenim", "reflujo", "sialorrea", "deglucion", "vomit", "nausea", "diarrea", "disfagia"],
+    "Neurológico": ["disauton", "espastic", "irritabil", "agitac", "epilep", "convuls", "delirium", "distonia"],
+    "Nutrición": ["nutric", "malnutric", "enteral", "parenteral", "gastrostom"],
+    "Final de vida": ["final de la vida", "sedacion", "fallecimiento", "duelo", "agonia", "neonatal"],
+    "Piel, ojos y boca": ["presion", "prurito", "ocular", "odontolog", "piel", "boca", "mucositis"],
+    "Urgencias y sistémico": ["urgencia", "sistemic", "fiebre", "infecc", "hemorrag"],
+    "Procedimientos": ["subcutanea", "via ", "cateter", "dispositiv", "bomba"],
+    "Ética y organización": ["etic", "decisiones", "seguridad", "videollamada", "comunicac", "organiz"]
+  },
+  "area_meta": {
+    "Dolor":                 {"color": "fuchsia-deep", "icon": "pulse"},
+    "Respiratorio":          {"color": "blue",         "icon": "wind"},
+    "Digestivo":             {"color": "orange",       "icon": "stomach"},
+    "Neurológico":           {"color": "green",        "icon": "brain"},
+    "Nutrición":             {"color": "brown",        "icon": "utensils"},
+    "Final de vida":         {"color": "fuchsia",      "icon": "heart"},
+    "Piel, ojos y boca":     {"color": "orange",       "icon": "eye"},
+    "Urgencias y sistémico": {"color": "fuchsia-deep", "icon": "siren"},
+    "Procedimientos":        {"color": "blue-700",     "icon": "syringe"},
+    "Ética y organización":  {"color": "brown",        "icon": "scale"},
+    "Otros":                 {"color": "ink",          "icon": "file"}
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "slug": "cuidados-odontologicos-en-el-paciente-pediatrico-cronico",
+  "en_una_frase": "Higiene oral básica, lesiones de la mucosa (traumáticas, candidiasis, aftas, herpes) y patología dental con criterios de urgencia para interconsulta en el niño con enfermedad crónica ingresado.",
+  "puntos_clave": [
+    "Higiene oral básica (tabla 1) previene infecciones sistémicas (neumonía, endocarditis) y locales (gingivitis, candidiasis) y la sobreinfección de úlceras; revisar la boca a diario.",
+    "Úlcera traumática: eliminar el factor causal remodelando de forma roma la cúspide o borde del diente; desaparece en 7-15 días; antisépticos mientras persista la lesión.",
+    "Candidiasis: antifúngicos tópicos (nistatina o miconazol) 4-5 veces al día hasta 48 h tras el fin de los síntomas; si empeora o persiste a los 14 días, fluconazol o itraconazol.",
+    "Aftas: diagnóstico por exclusión (tabla 2); los corticoides tópicos son la primera línea; en brotes extensos formulaciones con triamcinolona 0,1% o dexametasona 0,2%.",
+    "Gingivoestomatitis herpética: hidratación, analgésicos y clorhexidina; aciclovir es el fármaco de elección y pautado precozmente reduce duración y síntomas.",
+    "Patología dental: tres niveles de urgencia de interconsulta (verde no urgente, naranja relativa, rojo urgente); en traumatismos conservar el fragmento siempre que sea posible."
+  ],
+  "farmacos_clave": [
+    {
+      "farmaco": "clorhexidina (CHX)",
+      "indicacion": "antiséptico antiplaca y antigingivitis; prevención de sobreinfección de lesiones",
+      "dosis": "Enjuague diario con 10 ml CHX, 60 segundos (escolares 4-12 años). La concentración de clorhexidina puede ser 0,12-0,2%",
+      "via": "tópica oral",
+      "nota": "Uso prolongado: tinciones dentales extrínsecas, alteración del gusto, descamación de la mucosa; casos de reacciones alérgicas. En neonatos y preescolares aplicar con gasa, torunda de algodón o hisopos.",
+      "page": 14
+    },
+    {
+      "farmaco": "nistatina",
+      "indicacion": "candidiasis oral (antifúngico tópico)",
+      "dosis": "(suspensión oral 100.000 UI/ml) Neonatos 200.000 UI cada 6 horas, vía oral. Menores de 1 año: 250.000-300.000 UI cada 6 horas, vía oral. Mayores de 1 año: 400.000-600.000 UI cada 6 horas, vía oral.",
+      "via": "VO (tópica)",
+      "nota": "Mantener en la boca el mayor tiempo posible antes de ingerirla; en lactantes aplicar la mitad de la dosis sobre cada lado de la boca; puede mezclarse con líquido o alimento blando no ácido. 4-5 veces al día hasta pasadas 48 horas del fin de los síntomas.",
+      "page": 5
+    },
+    {
+      "farmaco": "miconazol gel oral",
+      "indicacion": "candidiasis oral (antifúngico tópico)",
+      "dosis": "Lactantes 25 mg (1 cucharadita dosificadora) cada 6 horas. Niños 50 mg (1 cucharada dosificadora) cada 6 horas, manteniendo el contacto con las lesiones al menos 15 minutos.",
+      "via": "tópica oral",
+      "nota": "Administrar en ayunas.",
+      "page": 5
+    },
+    {
+      "farmaco": "fluconazol",
+      "indicacion": "candidiasis que empeora o persiste tras 14 días de tratamiento tópico",
+      "dosis": "Lactantes y niños hasta 11 años, 6 mg/kg el primer día seguido de 3 mg/kg/día cada 24-72 horas durante 14 días. (no se recomienda superar los 400-600 mg/día) Niños ≥12 años, pautar dosis de 3, 6 o 12 mg/kg según el desarrollo puberal.",
+      "via": "",
+      "nota": "Alternativa: itraconazol (sin dosis en el texto).",
+      "page": 5
+    },
+    {
+      "farmaco": "aciclovir",
+      "indicacion": "gingivoestomatitis herpética florida (fármaco de elección)",
+      "dosis": "60 mg/kg/día, en 4 dosis, durante 5-7 días",
+      "via": "",
+      "nota": "Pautado precozmente reduce sensiblemente la duración y sintomatología; también puede ser efectivo en recurrencias.",
+      "page": 9
+    },
+    {
+      "farmaco": "valaciclovir",
+      "indicacion": "alternativa en adolescentes con infección herpética",
+      "dosis": "500-1000 mg cada 12 horas",
+      "via": "VO",
+      "nota": "",
+      "page": 9
+    },
+    {
+      "farmaco": "corticoides tópicos orales (hidrocortisona, triamcinolona, dexametasona)",
+      "indicacion": "aftas (primera línea de tratamiento)",
+      "dosis": "formulaciones que contienen acetónido de triamcinolona al 0,1% o dexametasona al 0,2%, en las que también se suele incorporar lidocaína, ácido hialurónico y/o clorhexidina",
+      "via": "tópica oral",
+      "nota": "Los preparados comerciales con hidrocortisona (Aftasone Infantil) resultan insuficientes para brotes extensos. Aftas de Sutton: corticoides e inmunomoduladores como talidomida o infliximab.",
+      "page": 7
+    },
+    {
+      "farmaco": "flúor (pasta dentífrica)",
+      "indicacion": "prevención de caries en la higiene oral diaria",
+      "dosis": "Pre-escolares (1-3 años): 1000 ppm, cantidad grano arroz. Escolares (4-12 años): 1450 ppm, cantidad guisante (>7 años garbanzo)",
+      "via": "tópica",
+      "nota": "La aplicación de clorhexidina y flúor con una gasa o cepillo dental puede retrasar la progresión de las lesiones cariosas.",
+      "page": 14
+    }
+  ],
+  "banderas_rojas": [
+    "La candidiasis puede ser expresión de una inmunosupresión subyacente; la queilitis angular está muy asociada a estados de inmunosupresión.",
+    "Primoinfección herpética: sialorrea y anorexia intensa que pueden originar deshidratación o pérdida de peso; las infecciones graves o en inmunodeprimidos suelen requerir ingreso.",
+    "Fractura con exposición pulpar (color rojo, sangre, en el borde): urgente en dientes temporales y definitivos; dentista siempre.",
+    "Avulsión de diente definitivo: reposición lo antes posible y dentista en menos de 1 hora; el tiempo de actuación es crítico para el pronóstico. Nunca reponer dientes temporales.",
+    "Discromía de un solo diente: gris/negro (daño pulpar) y rosa (reabsorción interna) tienen mal pronóstico; rojo (exposición pulpar) es urgente.",
+    "El antibiótico no está indicado en odontalgias ni por la presencia de una fístula dental; sí en abscesos odontológicos cerrados."
+  ],
+  "perlas": [
+    "Diente definitivo avulsionado que no se puede reponer en el lugar: transportar, por orden de preferencia, en leche, suero salino o agua.",
+    "Candidiasis: limpiar las lesiones con una gasa mojada en solución saturada de bicarbonato o agua oxigenada diluida (3/1) y asegurar la hidratación de la cavidad oral.",
+    "Neonatos: lavar la cavidad oral con depresor, jeringa de 10 ml de agua y aspiración con sonda roma; humidificar la boca cada 2-4 horas (agua, manzanilla con limón o sustitutos de saliva).",
+    "Las aftas menores cicatrizan en 5 o 6 días con rebrotes cada 3 o 4 meses; la lengua geográfica no requiere tratamiento, solo evitar irritantes (cítricos) y dieta blanda."
+  ],
+  "secciones_recomendadas": [
+    "CANDIDIASIS",
+    "INFECCIÓN HERPÉTICA",
+    "TRAUMATISMOS",
+    "ANEXOS Y TABLAS"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Protocolos PEDPAL</title>
+<meta name="theme-color" content="#ffffff">
+<meta name="color-scheme" content="light">
+<meta name="description" content="Protocolos clínicos de la Sociedad Española de Cuidados Paliativos Pediátricos (PEDPAL) en formato tarjeta: buscador, fármacos y consulta sin conexión.">
+<meta name="author" content="Álvaro Navarro Mingorance">
+<meta name="referrer" content="no-referrer">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Protocolos PEDPAL">
+<meta name="application-name" content="Protocolos PEDPAL">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="./pedpal.css">
+<link rel="stylesheet" href="./app.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="#protocolos" data-nav="protocolos" aria-label="Inicio Protocolos PEDPAL">
+      <h1>Protocolos <span>PEDPAL</span></h1>
+      <p>Cuidados paliativos pediátricos · consulta rápida</p>
+    </a>
+    <nav class="top-tabs" aria-label="Secciones">
+      <ul role="tablist">
+        <li><button role="tab" id="t-protocolos" aria-controls="protocolos" aria-selected="true">Protocolos</button></li>
+        <li><button role="tab" id="t-pregunta" aria-controls="pregunta" aria-selected="false">Pregunta</button></li>
+        <li><button role="tab" id="t-farmacos" aria-controls="farmacos" aria-selected="false">Fármacos</button></li>
+        <li><button role="tab" id="t-guardados" aria-controls="guardados" aria-selected="false">Guardados</button></li>
+        <li><button role="tab" id="t-info" aria-controls="info" aria-selected="false">Info</button></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="franja" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+</header>
+
+<main class="wrap" id="main">
+
+<!-- ================= PROTOCOLOS ================= -->
+<section class="panel" id="protocolos" role="tabpanel" aria-labelledby="t-protocolos">
+  <div class="searchbar">
+    <label class="sr-only" for="q-protocolos">Filtrar protocolos</label>
+    <input type="search" id="q-protocolos" placeholder="Filtrar por título, síntoma o fármaco…" autocomplete="off" enterkeyhint="search">
+    <button type="button" class="clear" id="q-protocolos-clear" aria-label="Borrar filtro" hidden>&times;</button>
+  </div>
+  <div class="chips" id="area-chips" role="group" aria-label="Áreas clínicas"></div>
+  <div id="novedades" hidden></div>
+  <div class="count" id="protocolos-count" aria-live="polite"></div>
+  <div class="cards" id="protocolos-grid"></div>
+  <p class="empty" id="protocolos-empty" hidden>Ningún protocolo coincide. Prueba en <a href="#pregunta" data-nav="pregunta">Pregunta</a>, que busca dentro del texto completo.</p>
+</section>
+
+<!-- ================= PREGUNTA ================= -->
+<section class="panel" id="pregunta" role="tabpanel" aria-labelledby="t-pregunta" hidden>
+  <div class="lede">
+    <h2>Pregunta a los protocolos</h2>
+    <p>Busca dentro del texto completo de los protocolos PEDPAL. Todo ocurre en tu dispositivo: funciona sin conexión y no envía nada a ningún servidor.</p>
+  </div>
+  <form class="searchbar big" id="q-form" role="search">
+    <label class="sr-only" for="q-pregunta">Pregunta</label>
+    <input type="search" id="q-pregunta" placeholder="p. ej. dosis de glicopirrolato en sialorrea" autocomplete="off" enterkeyhint="search">
+    <button type="submit" class="btn btn-primary" aria-label="Buscar">Buscar</button>
+  </form>
+  <div class="chips examples" id="q-examples" aria-label="Ejemplos">
+    <button type="button" data-q="dosis de midazolam en estatus epiléptico">midazolam en estatus</button>
+    <button type="button" data-q="rescate morfina dolor irruptivo">rescate de morfina</button>
+    <button type="button" data-q="estertores final de vida hioscina">estertores</button>
+    <button type="button" data-q="parche de escopolamina sialorrea">parche escopolamina</button>
+    <button type="button" data-q="laxantes estreñimiento por opioides">estreñimiento por opioides</button>
+    <button type="button" data-q="sedación paliativa fármacos de elección">sedación paliativa</button>
+  </div>
+  <div id="q-status" class="count" aria-live="polite"></div>
+  <div id="q-ai" hidden></div>
+  <div id="q-results" class="results"></div>
+  <details class="box flat ai-settings" id="ai-settings">
+    <summary>Respuesta redactada con IA (opcional, con tu propia clave)</summary>
+    <p class="small">Si tienes una clave de API de Anthropic puedes pedir que Claude redacte una respuesta <strong>solo a partir de los pasajes recuperados</strong>, citándolos. La clave se guarda únicamente en este dispositivo y las peticiones van directas de tu navegador a Anthropic; PEDPAL no tiene coste ni acceso. Sin clave, la búsqueda funciona igual.</p>
+    <div class="row">
+      <div class="field"><label for="ai-key">Clave API (sk-ant-…)</label><input type="password" id="ai-key" autocomplete="off" placeholder="sk-ant-api03-…"></div>
+      <div class="field"><label for="ai-model">Modelo</label>
+        <select id="ai-model">
+          <option value="claude-haiku-5-5">Haiku 5.5 (rápido, económico)</option>
+          <option value="claude-sonnet-5-5">Sonnet 5.5</option>
+          <option value="claude-opus-5-5">Opus 5.5</option>
+        </select></div>
+    </div>
+    <div class="actions"><button type="button" class="btn btn-outline" id="ai-save">Guardar en este dispositivo</button><button type="button" class="btn btn-outline" id="ai-forget">Olvidar clave</button></div>
+  </details>
+</section>
+
+<!-- ================= FÁRMACOS ================= -->
+<section class="panel" id="farmacos" role="tabpanel" aria-labelledby="t-farmacos" hidden>
+  <div class="lede">
+    <h2>Fármacos en los protocolos</h2>
+    <p>Índice automático: cada fármaco con los pasajes de los protocolos donde aparece (dosis resaltadas). No es un vademécum: verifica siempre en el PDF original.</p>
+  </div>
+  <div class="searchbar">
+    <label class="sr-only" for="q-farmacos">Buscar fármaco</label>
+    <input type="search" id="q-farmacos" placeholder="Buscar fármaco (morfina, hioscina, macrogol…)" autocomplete="off">
+  </div>
+  <div class="count" id="farmacos-count" aria-live="polite"></div>
+  <ul class="druglist" id="farmacos-list"></ul>
+</section>
+
+<!-- ================= GUARDADOS ================= -->
+<section class="panel" id="guardados" role="tabpanel" aria-labelledby="t-guardados" hidden>
+  <div class="lede">
+    <h2>Guardados y recientes</h2>
+    <p>Tus protocolos marcados con <span class="ic-inline" aria-hidden="true">★</span> y los últimos consultados. Se guardan solo en este dispositivo.</p>
+  </div>
+  <h3 class="h-sub">Guardados</h3>
+  <div class="cards" id="fav-grid"></div>
+  <p class="empty" id="fav-empty">Aún no has guardado ningún protocolo. Abre uno y pulsa «Guardar».</p>
+  <h3 class="h-sub">Recientes</h3>
+  <div class="cards" id="recent-grid"></div>
+  <p class="empty" id="recent-empty">Aquí aparecerán los últimos protocolos que consultes.</p>
+</section>
+
+<!-- ================= INFO ================= -->
+<section class="panel" id="info" role="tabpanel" aria-labelledby="t-info" hidden>
+  <div class="lede">
+    <h2>Acerca de esta app</h2>
+    <p>Protocolos clínicos publicados por la <a href="https://pedpal.es/protocolos/" target="_blank" rel="noopener">Sociedad Española de Cuidados Paliativos Pediátricos (PEDPAL)</a>, convertidos automáticamente a tarjetas para consulta rápida en el móvil.</p>
+  </div>
+  <div class="box">
+    <h3>Datos</h3>
+    <dl class="kv" id="info-datos"></dl>
+    <div class="actions">
+      <button type="button" class="btn btn-outline" id="btn-check-update">Comprobar actualizaciones</button>
+      <a class="btn btn-outline" href="https://pedpal.es/protocolos/" target="_blank" rel="noopener">Ver en pedpal.es</a>
+    </div>
+    <p class="small">La app se sincroniza cada semana con pedpal.es: los protocolos nuevos o modificados aparecen automáticamente con la etiqueta «Nuevo» o «Actualizado».</p>
+  </div>
+  <div class="box">
+    <h3>Instalar en el móvil</h3>
+    <ul class="plain">
+      <li><strong>Android (Chrome):</strong> menú ⋮ → «Instalar app» o «Añadir a la pantalla de inicio».</li>
+      <li><strong>iPhone / iPad (Safari):</strong> botón Compartir → «Añadir a pantalla de inicio».</li>
+    </ul>
+    <p class="small">Tras la primera carga, los protocolos quedan guardados y se pueden consultar sin conexión.</p>
+  </div>
+  <div class="box">
+    <h3>Cómo se genera el contenido</h3>
+    <ul class="plain">
+      <li><strong>Texto, tablas y figuras:</strong> extraídos automáticamente de los PDF oficiales. La estructura puede tener imperfecciones; el PDF original siempre prevalece.</li>
+      <li><strong>Resumen rápido y fármacos clave:</strong> borrador extractivo generado con IA a partir del texto del propio protocolo, con página de referencia. Pendiente de revisión por PEDPAL: úsalo como índice, no como fuente.</li>
+      <li><strong>Algoritmos resumidos:</strong> elaboración propia (A. Navarro, 2025) a partir de los protocolos.</li>
+      <li><strong>Búsqueda:</strong> índice local (BM25 con sinónimos clínicos). No usa servidores externos.</li>
+    </ul>
+  </div>
+  <div class="box flat">
+    <h3>Aviso</h3>
+    <p class="small">Herramienta de apoyo para profesionales. No sustituye el juicio clínico ni la prescripción individualizada. Las dosis deben comprobarse en el protocolo original y en la ficha técnica. Los protocolos son propiedad intelectual de PEDPAL y de sus autores.</p>
+  </div>
+  <div class="box">
+    <h3>Créditos y licencia</h3>
+    <p class="small">Desarrollo: Álvaro Navarro Mingorance. Código y textos propios de la app bajo <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.es" target="_blank" rel="noopener">CC BY-NC 4.0</a>. Código fuente y pipeline de actualización en <a id="repo-link" href="https://github.com/anavarromingo-cmyk" target="_blank" rel="noopener">GitHub</a>.</p>
+    <div class="actions"><button type="button" class="btn btn-outline" id="btn-reset">Borrar datos locales (guardados, recientes, clave)</button></div>
+  </div>
+</section>
+
+</main>
+
+<div class="franja fina" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+<footer class="foot">
+  <div class="wrap">
+    <span>© 2026 Álvaro Navarro · <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.es" target="_blank" rel="noopener">CC BY-NC 4.0</a></span>
+    <span>Protocolos © PEDPAL y sus autores · <span id="foot-version"></span></span>
+  </div>
+</footer>
+
+<div class="bottom-pad" aria-hidden="true"></div>
+
+<!-- Nav inferior fija (móvil/tablet) — iconos Lucide inline -->
+<nav class="bottom-nav" aria-label="Secciones">
+  <ul role="tablist">
+    <li><button role="tab" data-nav="protocolos" aria-controls="protocolos" aria-selected="true">
+      <span class="pill-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3 h6 a4 4 0 0 1 4 4 v14 a3 3 0 0 0 -3 -3 H2Z"/><path d="M22 3 h-6 a4 4 0 0 0 -4 4 v14 a3 3 0 0 1 3 -3 h7Z"/></svg></span>
+      Protocolos
+    </button></li>
+    <li><button role="tab" data-nav="pregunta" aria-controls="pregunta" aria-selected="false">
+      <span class="pill-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg></span>
+      Pregunta
+    </button></li>
+    <li><button role="tab" data-nav="farmacos" aria-controls="farmacos" aria-selected="false">
+      <span class="pill-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10.5 20.5 L20.5 10.5 a4.95 4.95 0 0 0 -7 -7 L3.5 13.5 a4.95 4.95 0 0 0 7 7Z"/><line x1="8.12" y1="8.12" x2="15.88" y2="15.88"/></svg></span>
+      Fármacos
+    </button></li>
+    <li><button role="tab" data-nav="guardados" aria-controls="guardados" aria-selected="false">
+      <span class="pill-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21 l-7 -5 l-7 5 V5 a2 2 0 0 1 2 -2 h10 a2 2 0 0 1 2 2 Z"/></svg></span>
+      Guardados
+    </button></li>
+    <li><button role="tab" data-nav="info" aria-controls="info" aria-selected="false">
+      <span class="pill-ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg></span>
+      Info
+    </button></li>
+  </ul>
+</nav>
+
+<!-- ================= LECTOR DE PROTOCOLO (overlay) ================= -->
+<div class="reader" id="reader" hidden role="dialog" aria-modal="true" aria-labelledby="reader-title">
+  <div class="reader-top">
+    <div class="wrap bar">
+      <button type="button" class="iconbtn" id="reader-back" aria-label="Volver">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18 l-6 -6 l6 -6"/></svg>
+      </button>
+      <div class="reader-head">
+        <h2 id="reader-title">…</h2>
+        <p id="reader-sub"></p>
+      </div>
+      <button type="button" class="iconbtn" id="reader-fav" aria-label="Guardar" aria-pressed="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21 l-7 -5 l-7 5 V5 a2 2 0 0 1 2 -2 h10 a2 2 0 0 1 2 2 Z"/></svg>
+      </button>
+      <a class="iconbtn" id="reader-pdf" href="#" target="_blank" rel="noopener" aria-label="Abrir PDF original">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2 H6 a2 2 0 0 0 -2 2 v16 a2 2 0 0 0 2 2 h12 a2 2 0 0 0 2 -2 V8 Z"/><polyline points="14 2 14 8 20 8"/><line x1="8" y1="13" x2="16" y2="13"/><line x1="8" y1="17" x2="14" y2="17"/></svg>
+      </a>
+    </div>
+    <div class="franja" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="wrap reader-tools">
+      <div class="seg mode" role="group" aria-label="Modo de lectura">
+        <button type="button" data-mode="deck" aria-pressed="true">Tarjetas</button>
+        <button type="button" data-mode="read" aria-pressed="false">Lectura</button>
+      </div>
+      <div class="chips toc" id="reader-toc" aria-label="Secciones del protocolo"></div>
+    </div>
+  </div>
+  <div class="wrap reader-body" id="reader-body"></div>
+  <div class="deck-nav" id="deck-nav" hidden>
+    <button type="button" class="btn btn-outline" id="deck-prev" aria-label="Tarjeta anterior">‹</button>
+    <span id="deck-pos">1 / 1</span>
+    <button type="button" class="btn btn-outline" id="deck-next" aria-label="Tarjeta siguiente">›</button>
+  </div>
+</div>
+
+<!-- Visor de figuras -->
+<dialog id="lightbox" class="lightbox"><button type="button" class="iconbtn close" id="lightbox-close" aria-label="Cerrar">&times;</button><img id="lightbox-img" alt=""><a id="lightbox-open" href="#" target="_blank" rel="noopener">Abrir a tamaño completo</a></dialog>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="./search.js" defer></script>
+<script src="./app.js" defer></script>
+</body>
+</html>

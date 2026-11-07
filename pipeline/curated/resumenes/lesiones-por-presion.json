@@ -1,0 +1,48 @@
+{
+  "slug": "lesiones-por-presion",
+  "en_una_frase": "Prevención, valoración del riesgo y tratamiento por estadios de las lesiones por presión en niños en cuidados paliativos, priorizando el confort y la calidad de vida.",
+  "puntos_clave": [
+    "La lesión por presión afecta a piel y/o tejido subyacente por presión prolongada, fricción o cizallamiento sobre prominencias óseas o bajo dispositivos clínicos.",
+    "Factores de riesgo principales: inmovilidad, incontinencia, déficit nutricional y deterioro cognitivo; en <3 años la cabeza es la primera localización, en mayores talones y sacro.",
+    "Valorar el riesgo con escalas validadas: NSRAS en neonatos hasta el mes de vida; Braden Q (mejores indicadores de validez, la más utilizada) o Glamorgan de 1 mes a 14 años.",
+    "Prevención: piel limpia y seca, hidratación, ácidos grasos hiperoxigenados, cambios posturales (cada 2 h si riesgo alto, 4-6 h el resto), superficies especiales y nutrición.",
+    "Plan de curas: desbridamiento (autolítico como primera opción), limpieza con suero fisiológico sin antisépticos, cura húmeda y apósito elegido según el estadio de la lesión.",
+    "En final de vida el tratamiento debe ser proporcionado: priorizar confort sobre curación y controlar dolor, exudado y olor; los cambios posturales no son una prioridad."
+  ],
+  "farmacos_clave": [
+    {
+      "farmaco": "ácidos grasos hiperoxigenados",
+      "indicacion": "prevención en zonas de riesgo de LPP y tratamiento del estadio I",
+      "dosis": "Aplicar ácidos grasos hiperoxigenados 2 veces al día en la zona de riesgo de LPP sin hacer masaje sobre las prominencias óseas (prevención). Estadio I: Aplicación ácidos grasos hiperoxigenados c/8h.",
+      "via": "Tópica",
+      "nota": "No usar en neonatos de menos de quince días de vida.",
+      "page": 11
+    }
+  ],
+  "banderas_rojas": [
+    "Signos de infección: fiebre, inflamación, exudado purulento, mal olor; ante sospecha de infección profunda (osteomielitis u osteítis) valorar cultivo del exudado, analítica y pruebas de imagen.",
+    "No se aconseja el uso de antisépticos en la limpieza de la herida porque pueden ser tóxicos para el tejido sano.",
+    "Ácidos grasos hiperoxigenados: no usar en neonatos de menos de quince días de vida.",
+    "Superficies dinámicas de aire alternante: no usar en pacientes con sospecha de lesión medular.",
+    "Desbridamiento mecánico en desuso por traumático y no selectivo; el enzimático aumenta la humedad y puede macerar la piel periulceral, que debe protegerse.",
+    "Si las medidas implementadas no contribuyen a aumentar el confort del paciente, hay que replantearse el tratamiento."
+  ],
+  "perlas": [
+    "Vigilar la piel bajo dispositivos médicos (sondajes, catéteres, VMNI, oxigenoterapia, pulsioxímetro): examinarla con frecuencia, reposicionar el dispositivo periódicamente y usar apósitos o almohadillas.",
+    "Lavar con agua y jabón neutro, secar bien los pliegues evitando la fricción, no usar productos con alcohol como colonias, evitar arrugas en la ropa; cambiar el pañal con frecuencia y usar barreras sin alcohol.",
+    "Apósitos hidrocoloides extrafinos o films de poliuretano en sacro, talones y occipucio para reducir presión y fricción; espuma de poliuretano si mayor exudado.",
+    "La implicación familiar es imprescindible: explicar a los padres las principales medidas de prevención e implicarlos en los cuidados."
+  ],
+  "secciones_recomendadas": [
+    "PREVENCIÓN",
+    "TRATAMIENTO",
+    "Valoración del riesgo de LPP",
+    "ANEXOS Y TABLAS"
+  ],
+  "generado": {
+    "modelo": "Claude Fable 5.1",
+    "fecha": "2026-11-07",
+    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
+    "revisado": false
+  }
+}

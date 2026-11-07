@@ -1,196 +1,77 @@
-# 🏥 PEDPAL Protocols Library
+# Protocolos PEDPAL
 
-> Biblioteca digital de protocolos clínicos de cuidados paliativos pediátricos con aplicación web de búsqueda avanzada
+App móvil (PWA) para consultar de forma rápida los protocolos clínicos de la **Sociedad Española de Cuidados Paliativos Pediátricos (PEDPAL)** en formato tarjeta, con buscador de texto completo, índice de fármacos y funcionamiento sin conexión. Se sincroniza sola con <https://pedpal.es/protocolos/>.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![React](https://img.shields.io/badge/react-18.2.0-61DAFB.svg)](https://reactjs.org/)
+**Web:** <https://anavarromingo-cmyk.github.io/pedpal-protocols-library/> (GitHub Pages desde la carpeta `docs/`).
 
-## 📋 Descripción
+## Qué hace
 
-Proyecto completo para automatizar la descarga, indexación y búsqueda de los 32 protocolos clínicos de **PEDPAL** (Sociedad Española de Cuidados Paliativos Pediátricos). Incluye:
+1. **Protocolos**: catálogo de los 33 protocolos por área clínica, con etiquetas «Nuevo» / «Actualizado» cuando cambian en pedpal.es. Cada protocolo se abre como una baraja de **tarjetas** deslizables (ficha, resumen rápido, fármacos clave, banderas rojas, algoritmos, y cada sección del PDF con sus tablas y figuras), o en **modo lectura** vertical. Enlace al PDF original siempre visible.
+2. **Pregunta**: búsqueda en lenguaje natural dentro del texto completo de todos los protocolos (índice BM25 con sinónimos clínicos, 100 % en el dispositivo, sin servidor). Muestra los pasajes más relevantes con la página y un enlace a la sección. Opcionalmente, quien tenga una clave propia de la API de Anthropic puede pedir una respuesta redactada **solo** a partir de esos pasajes, con citas.
+3. **Fármacos**: índice automático de ~155 fármacos mencionados en los protocolos, con los pasajes donde aparecen (dosis resaltadas).
+4. **Guardados**: favoritos y recientes (solo en el dispositivo).
+5. **Info**: estado de los datos, comprobación de actualizaciones, instalación y créditos.
 
-- 🐍 Script Python para scraping y extracción de metadatos
-- 📊 Biblioteca JSON estructurada con clasificación clínica
-- ⚛️ Aplicación web React con búsqueda avanzada
-- 🔍 Sistema de búsqueda difusa con Fuse.js
-- 📱 Diseño responsive y accesible
+## Arquitectura
 
-## 🎯 Características
+```
+docs/                      ← la app (estático, sin build). Es lo que publica GitHub Pages.
+  index.html · app.js · app.css · search.js · pedpal.css · sw.js (generado) · manifest · iconos
+  data/protocolos.json     ← catálogo + metadatos + novedades
+  data/docs/<slug>.json    ← cada protocolo estructurado (secciones, listas, tablas, figuras, resumen, algoritmos)
+  data/index.json          ← 2 000 pasajes para el buscador
+  data/farmacos.json       ← fármaco → protocolos → pasajes
+  data/sinonimos.json      ← sinónimos clínicos (editable a mano)
+  data/fig/<slug>/*.jpg    ← figuras y páginas de algoritmo
+pipeline/                  ← Python: pedpal.es → PDFs → JSON
+  build.py                 ← orquestador (descarga con caché, extracción, índices, informe)
+  catalog.py               ← página /protocolos/ + API REST de WordPress (fechas, PDFs no enlazados)
+  extract.py               ← PDF → secciones/listas/tablas/figuras (PyMuPDF)
+  build_index.py           ← pasajes + índice de fármacos
+  overrides.json           ← áreas, títulos, inclusiones/exclusiones manuales
+  farmacos.txt             ← lista de fármacos y alias
+  curated/algoritmos.json  ← 21 algoritmos resumidos (elaboración propia, app PedPalProtocolos 2025)
+  curated/resumenes/*.json ← resumen rápido por protocolo (borrador IA, pendiente de revisión)
+  REPORT.md                ← informe de la última actualización
+.github/workflows/update-protocolos.yml ← cada lunes: ejecuta el pipeline y hace commit si hay cambios
+archive/                   ← las dos apps anteriores (referencia)
+```
 
-### Backend (Python)
-- Descarga automática de todos los PDFs desde pedpal.es
-- Extracción de metadatos (número de páginas, texto, autores)
-- Análisis NLP básico para palabras clave clínicas y farmacológicas
-- Categorización automática por áreas temáticas
-- Generación de JSON estructurado
+### Cómo se actualiza sola
 
-### Frontend (React)
-- Búsqueda en tiempo real por título, síntoma, fármaco o palabra clave
-- Filtrado por categorías clínicas
-- Vista en tarjetas responsive
-- Descarga directa y vista previa de PDFs
-- Interfaz optimizada para móviles y tablets
+Cada lunes (o a mano con «Run workflow» en GitHub Actions) el pipeline:
 
-## 🚀 Instalación
+1. Lee los enlaces PDF de <https://pedpal.es/protocolos/> y la mediateca de WordPress (`/wp-json/wp/v2/media`) para conocer fecha de subida/modificación.
+2. Descarga solo los PDF nuevos o cambiados (tamaño, fecha o hash distintos).
+3. Extrae texto, listas, tablas y figuras; reconstruye índices.
+4. Si algo cambió, hace commit en `docs/data/` → GitHub Pages republica → el service worker de la app detecta la nueva versión y avisa al usuario.
+5. Deja en `pipeline/REPORT.md` (y en el resumen del workflow) los protocolos nuevos, actualizados, retirados y los **PDF subidos a pedpal.es que no están enlazados** en la página de protocolos (posibles olvidos).
 
-### Requisitos previos
+Para incluir un PDF que esté en pedpal.es pero no enlazado, o corregir un título/área: editar `pipeline/overrides.json`.
+
+### Ejecutar el pipeline en local
+
 ```bash
-# Python 3.8 o superior
-python --version
-
-# Node.js 16 o superior
-node --version
+python3 -m venv .venv && .venv/bin/pip install -r pipeline/requirements.txt
+.venv/bin/python pipeline/build.py          # descarga + extrae + indexa → docs/data/
+python3 -m http.server 8748 --directory docs # y abrir http://localhost:8748
 ```
 
-### 1. Clonar repositorio
-```bash
-git clone https://github.com/anavarromingo-cmyk/pedpal-protocols-library.git
-cd pedpal-protocols-library
-```
+### Resúmenes rápidos (IA)
 
-### 2. Instalar dependencias Python
-```bash
-pip install -r requirements.txt
-```
+`pipeline/curated/resumenes/<slug>.json` contiene, por protocolo, una frase, 4-6 puntos clave, fármacos clave con dosis copiadas literalmente (y página), banderas rojas y perlas. Se generaron con Claude a partir del texto extraído, de forma extractiva, y la app los marca como **borrador pendiente de revisión por PEDPAL**. Para validar uno: revisarlo y poner `"revisado": true`. Un protocolo nuevo sin resumen se muestra igualmente (solo con las secciones del PDF).
 
-### 3. Descargar protocolos y generar JSON
-```bash
-python scraper/pedpal_scraper.py
-```
+## Instalación como aplicación (PWA)
 
-Esto descargará:
-- ✅ 32 PDFs en `./protocolos/`
-- ✅ Biblioteca JSON en `./data/pedpal_library.json`
+- **Android (Chrome)**: abrir la URL → menú ⋮ → «Instalar app».
+- **iOS (Safari)**: abrir la URL → Compartir → «Añadir a la pantalla de inicio».
 
-### 4. Instalar y ejecutar aplicación React
-```bash
-cd webapp
-npm install
-npm run dev
-```
+Tras la primera carga, el service worker guarda la app y todos los protocolos: funciona sin red.
 
-Abre http://localhost:5173 en tu navegador.
+## Fuentes y aviso
 
-## 📁 Estructura del proyecto
+Protocolos © PEDPAL y sus autores, publicados en <https://pedpal.es/protocolos/>. La app es una herramienta de apoyo para profesionales: no sustituye el juicio clínico ni la lectura del protocolo original, y las dosis deben comprobarse siempre en el PDF y en la ficha técnica.
 
-```
-pedpal-protocols-library/
-├── scraper/
-│   ├── pedpal_scraper.py      # Script principal de descarga
-│   ├── pdf_extractor.py       # Extracción de metadatos PDF
-│   └── clinical_nlp.py        # Procesamiento NLP clínico
-├── data/
-│   └── pedpal_library.json    # Biblioteca JSON generada
-├── protocolos/                # PDFs descargados
-├── webapp/
-│   ├── src/
-│   │   ├── App.jsx           # Componente principal
-│   │   ├── components/
-│   │   │   ├── SearchBar.jsx
-│   │   │   ├── ProtocolCard.jsx
-│   │   │   └── CategoryFilter.jsx
-│   │   └── data/
-│   │       └── pedpal_library.json
-│   ├── package.json
-│   └── vite.config.js
-├── docs/
-│   └── DEPLOYMENT.md         # Guía de deployment
-├── requirements.txt
-└── README.md
-```
+## Licencia
 
-## 🔧 Uso
-
-### Actualizar protocolos
-```bash
-python scraper/pedpal_scraper.py --update
-```
-
-### Búsqueda desde CLI
-```bash
-python scraper/pedpal_scraper.py --search "dolor neuropático"
-```
-
-### Deploy en producción
-Ver [DEPLOYMENT.md](docs/DEPLOYMENT.md) para instrucciones detalladas.
-
-## 📊 Categorías de protocolos
-
-- **Ética y Comunicación** (2 protocolos)
-- **Manejo del Dolor** (3 protocolos)
-- **Síntomas Respiratorios** (4 protocolos)
-- **Síntomas Digestivos** (6 protocolos)
-- **Síntomas Neurológicos** (5 protocolos)
-- **Nutrición y Soporte** (4 protocolos)
-- **Cuidados al Final de la Vida** (4 protocolos)
-- **Síntomas Cutáneos** (2 protocolos)
-- **Urgencias** (2 protocolos)
-
-## 🔍 Ejemplos de búsqueda
-
-La aplicación soporta búsquedas avanzadas:
-
-- Por síntoma: `"disnea"`, `"vómitos"`, `"dolor"`
-- Por fármaco: `"morfina"`, `"fentanilo"`, `"midazolam"`
-- Por procedimiento: `"traqueostomía"`, `"gastrostomía"`
-- Por área: `"neonatal"`, `"urgencias"`, `"nutrición"`
-
-## 🛠️ Tecnologías utilizadas
-
-### Backend
-- Python 3.8+
-- BeautifulSoup4 - Web scraping
-- PyPDF2 - Extracción PDF
-- Requests - HTTP client
-
-### Frontend  
-- React 18
-- Vite - Build tool
-- Fuse.js - Búsqueda difusa
-- TailwindCSS - Estilos
-
-## 📖 API JSON
-
-Estructura de cada protocolo:
-
-```json
-{
-  "id": "pedpal_001",
-  "titulo": "Bases éticas de la toma de decisiones compartidas",
-  "categoria": "Ética y Comunicación",
-  "url": "https://pedpal.es/wp-content/uploads/2024/12/...",
-  "filename": "bases-eticas-de-la-toma-de-decisiones-compartidas.pdf",
-  "num_paginas": 12,
-  "palabras_clave": ["decisiones compartidas", "ética", "comunicación"],
-  "preview_texto": "BASES ÉTICAS DE LA TOMA DE DECISIONES...",
-  "fecha_descarga": "2025-11-12"
-}
-```
-
-## 🤝 Contribuir
-
-1. Fork el proyecto
-2. Crea tu rama (`git checkout -b feature/AmazingFeature`)
-3. Commit cambios (`git commit -m 'Add: nueva funcionalidad'`)
-4. Push a la rama (`git push origin feature/AmazingFeature`)
-5. Abre un Pull Request
-
-## ⚖️ Licencia
-
-MIT License - ver [LICENSE](LICENSE) para detalles.
-
-## 📧 Contacto
-
-Proyecto: [https://github.com/anavarromingo-cmyk/pedpal-protocols-library](https://github.com/anavarromingo-cmyk/pedpal-protocols-library)
-
-PEDPAL: [https://pedpal.es](https://pedpal.es)
-
-## 🙏 Agradecimientos
-
-- [PEDPAL](https://pedpal.es) por proporcionar acceso público a estos protocolos clínicos
-- Comunidad de cuidados paliativos pediátricos en España
-
----
-
-**Nota**: Este proyecto es una herramienta de consulta. Los protocolos son propiedad intelectual de PEDPAL y sus autores.
+© 2026 Álvaro Navarro · [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.es). Texto completo en [LICENSE](LICENSE). La licencia cubre el código y los textos propios de la app; no se extiende a los protocolos de PEDPAL ni al resto de material de terceros.
