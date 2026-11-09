@@ -1,4 +1,4 @@
-# Informe de actualización — 2026-11-07
+# Informe de actualización — 2026-11-09
 
 - Protocolos en catálogo: **33** (web: 32, PDFs en mediateca: 75)
 - Pasajes indexados: 2015 · fármacos detectados: 155 · figuras: 100 (6.1 MB)
