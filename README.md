@@ -75,3 +75,15 @@ Protocolos © PEDPAL y sus autores, publicados en <https://pedpal.es/protocolos/
 ## Licencia
 
 © 2026 Álvaro Navarro · [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.es). Texto completo en [LICENSE](LICENSE). La licencia cubre el código y los textos propios de la app; no se extiende a los protocolos de PEDPAL ni al resto de material de terceros.
+
+## Novedades (noviembre 2026)
+
+- **Texto aprobado 2026.** Las tarjetas muestran el texto exacto de los protocolos maquetados y aprobados en 2026: tablas, superíndices y figuras, con la página del PDF publicado en pedpal.es.
+  - `pipeline/importar_aprobados.py` importa la versión aprobada (en local) en `pipeline/aprobados/` y verifica las páginas con `comprobar_paginas.py`.
+  - `build.py` usa esa versión solo si el PDF de pedpal.es es idéntico (sha256). Si PEDPAL sube otro PDF, vuelve a la extracción automática y lo avisa en el informe.
+- **Respuesta con IA con varios proveedores.** Admite Anthropic, Google Gemini, Groq, OpenRouter, Mistral o un modelo local (Ollama / LM Studio), siempre con la clave propia del usuario. La guía para configurar la clave está en la pestaña Info.
+- **Vademécum PEDPAL** (pestaña Fármacos). Recoge las pautas de cada fármaco, extraídas mediante IA de los protocolos aprobados.
+  - `pipeline/vademecum.py` comprueba de forma automática que cada cita es literal y que sus cifras están en el protocolo, y aplica las correcciones de la revisión.
+  - Cada pauta muestra su población, vía, dosis máxima, página, texto literal y avisos de posibles erratas del original.
+  - Es un borrador: está pendiente de revisión por PEDPAL.
+- **Revisión humana.** Los resúmenes, algoritmos y vademécum se validan con una herramienta local (`pipeline/revision_html.py`, que genera `revision/revision.html`). La validación exportada se aplica con `pipeline/aplicar_validacion.py`, que solo aplica la decisión si el texto revisado no ha cambiado.

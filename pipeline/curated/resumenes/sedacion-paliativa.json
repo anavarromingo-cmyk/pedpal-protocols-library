@@ -16,7 +16,8 @@
       "dosis": "Dosis de inducción 0,03-0,05 mg/kg. Repetir si es necesario dosis cada 5 minutos (máx 2 mg). Ritmo de mantenimiento inicial: 25%-33% de la dosis de inicio acumulada. Dosis habitual de inicio 0,05-0,1 mg/kg/h. Aumentar según necesidades. Dosis máxima diaria: 240 mg/día (10 mg/h)",
       "via": "IV / SC (bucal o nasal como inductor en urgencia)",
       "nota": "Vigilar tolerancia si recibía benzodiacepinas previamente. Compatible con la mayoría de fármacos. Utilizar con precaución en fallo hepático por posible efecto paradójico.",
-      "page": 3
+      "page": 4,
+      "page_2024": 3
     },
     {
       "farmaco": "levomepromazina",
@@ -24,7 +25,8 @@
       "dosis": "0,25-1 mg/kg/24 h (infusión SC continua o dividiendo la dosis cada 8 horas). Aumentar según se precise. Dosis máxima en adultos: 100 mg/día",
       "via": "IV / SC",
       "nota": "",
-      "page": 3
+      "page": 4,
+      "page_2024": 3
     },
     {
       "farmaco": "clorpromazina",
@@ -32,7 +34,8 @@
       "dosis": "1-2 mg/kg/día (infusión IV continua o dividiendo la dosis cada 6- 8 horas). Inducción en adultos: 12.5-25 mg. Dosis máxima en adultos: 300 mg/día",
       "via": "IV",
       "nota": "",
-      "page": 3
+      "page": 4,
+      "page_2024": 3
     },
     {
       "farmaco": "fenobarbital",
@@ -40,7 +43,8 @@
       "dosis": "Dosis de inducción 1-6 mg/kg. Si precisa repetir dosis, 1- 2 mg/kg cada 5 minutos. Ritmo de mantenimiento inicial 1 mg/kg/h. Aumentar según necesidades",
       "via": "IV / SC / IM",
       "nota": "Presenta interacciones farmacocinéticas con múltiples fármacos. Distintas diluciones según vías. No mezclar con otros fármacos.",
-      "page": 4
+      "page": 4,
+      "page_2024": 4
     },
     {
       "farmaco": "propofol",
@@ -48,7 +52,8 @@
       "dosis": "Dosis de inducción 0,25-0,5 mg/kg. Repetir dosis si es preciso a los 30 min. Ritmo de mantenimiento inicial 1-4 mg/kg/h. Si mal control: aumentar 0,5 mg/kg/h cada 30 min. No emplear >3 mg/kg/h prolongadamente",
       "via": "IV",
       "nota": "Farmacológicamente muy inestable; interacciones importantes con otros fármacos. Manejo por equipo con experiencia. Irritante en punto de infusión. Riesgo de infección. Administrar por vía única por incompatibilidades.",
-      "page": 4
+      "page": 4,
+      "page_2024": 4
     },
     {
       "farmaco": "dexmedetomidina",
@@ -56,7 +61,8 @@
       "dosis": "1 ug/kg en 10 min e iniciar infusión a 0,1 ug/kg/h. Ritmo de mantenimiento inicial 0,1-1 ug/kg/h. Titular en función respuesta en primeros 10 minutos",
       "via": "IV",
       "nota": "Monitorizar bradicardia e hipotensión en primeros minutos y en cambios de dosis.",
-      "page": 4
+      "page": 4,
+      "page_2024": 4
     }
   ],
   "banderas_rojas": [

@@ -16,7 +16,8 @@
       "dosis": "Intranasal: 0,2-0,5 mg/kg/dosis (máx. 10 mg o 5 mg por cada orificio nasal)/dividir la mitad de la dosis en cada fosa nasal mediante atomizador. Bucal (Buccolam): 0,2-0,5 mg/kg/dosis (máx. 10 mg). IV/SC: 0,1-0,2 mg/kg/dosis(máx. 10 mg).",
       "via": "intranasal/bucal/IV/SC",
       "nota": "Hasta 2 dosis separadas de 5-10 minutos. Inicio de acción: transmucosa 5-15 min; subcutánea 5-10 min; intravenoso 2-3 min. Tanto dosis bajas como mayores pueden dar lugar a una reacción paradójica.",
-      "page": 3
+      "page": 2,
+      "page_2024": 3
     },
     {
       "farmaco": "diazepam",
@@ -24,7 +25,8 @@
       "dosis": "IV: 0,2 mg/kg/dosis (máx. 10 mg) administrar lento en 2-4 minutos Rectal: 0.5 mg/kg (<5 años); 0.3 mg/kg (6-11 años); 0.2 mg/kg (>11 años) (dosis máxima 10 mg/dosis, puede administrarse una 2ª dosis).",
       "via": "IV/rectal",
       "nota": "No se puede administrar por vía subcutánea. Inicio de acción: rectal 1-3 min; intravenoso 3-5 min.",
-      "page": 4
+      "page": 3,
+      "page_2024": 4
     },
     {
       "farmaco": "midazolam en perfusión continua",
@@ -32,7 +34,8 @@
       "dosis": "0,03-0,3 mg/kg/hora. Se realizarán aumentos cada 4-6 horas si precisa. Para control de crisis en final de vida: Neonatos-18 años: Dosis inicial 1-3 mg/kg/día aumentando progresivamente hasta 7 mg/kg/día (máximo 60 mg/día ó 150mg/día en pacientes con epilepsia refractaria).",
       "via": "SC/IV (pc)",
       "nota": "",
-      "page": 5
+      "page": 4,
+      "page_2024": 5
     },
     {
       "farmaco": "fenobarbital",
@@ -40,7 +43,8 @@
       "dosis": "Dosis de carga: Oral, iv o sc: 20 mg/kg/dosis (máximo 1 g) administrada durante 20 minutos iv o sc. Neonatos para control de crisis: 2.5-5 mg/kg una o dos veces al día como mantenimiento. Niños > 1 mes- 11 años: 2.5-5 mg/kg (dosis máxima 300 mg) una o dos veces al día, o puede administrarse como perfusión continua durante 24 horas. Niños 12-17 años: 300 mg/12 horas o administrar como pc durante 24 horas.",
       "via": "VO/IV/SC",
       "nota": "Administración parenteral en 20 minutos o más. Evitar bolos por vía subcutánea ya que produce necrosis por presentar un pH elevado. Diluir 10 veces, concentración máxima de 20 mg/ml. En pc ascensos del 20% (0,1 mg/kg/h) cada 6 horas si precisa.",
-      "page": 5
+      "page": 4,
+      "page_2024": 5
     },
     {
       "farmaco": "ácido valproico",
@@ -48,7 +52,8 @@
       "dosis": "Dosis de carga iv:40 mg/kg iv a pasar en 5 minutos a un ritmo 3-6 mg/kg/min (dosis máxima 3 g/dosis) Dosis de mantenimiento en perfusión continua iv: 1-2 mg/kg/h. Se puede iniciar a 5 mg/kg/h después de la dosis de carga, ir disminuyendo durante las siguientes 6 horas a 1 mg/kg/h cada 2 horas hasta 1-2 mg/kg/h.",
       "via": "IV",
       "nota": "No indicado si: hepatopatía, coagulopatía o enfermedad mitocondrial o metabólica. Múltiples interacciones; los carbapenemes y rifampicina reducen los niveles de valproico. Riesgo biológico para embarazadas en su manejo.",
-      "page": 6
+      "page": 5,
+      "page_2024": 6
     },
     {
       "farmaco": "fenitoína",
@@ -56,7 +61,8 @@
       "dosis": "Dosis de carga iv: 20 mg/kg iv diluidos en 20 ml de suero fisiológico (no diluir en suero glucosado) a pasar en 20 minutos (ritmo 1 mg/kg/min; ritmo máx 50 mg/min).Dosis máxima 1 g. Dosis de mantenimiento: 4-8 mg/kg/día IV repartidos cada 8-12 horas. Máximo: 1.500 mg/día. Se debe comenzar 12 a 24 horas después de la dosis de carga.",
       "via": "IV",
       "nota": "Contraindicado en cardiopatías. Vigilar constantes vitales, puede dar hipotensión o arritmias (alarga el intervalo QT). Concentración máxima 10 mg/ml; no compatible con suero glucosado.",
-      "page": 6
+      "page": 6,
+      "page_2024": 6
     },
     {
       "farmaco": "levetiracetam",
@@ -64,7 +70,8 @@
       "dosis": "Dosis de carga iv: 40 mg/kg (30-60 mg/kg) (dosis máxima 1.5 g). Se administra diluido en 100 ml (SF5%, G5%, Ringer lactato) en 10-15 minutos. Dosis de mantenimiento de 25-30 mg/kg cada 12 horas.",
       "via": "IV",
       "nota": "No tiene interacciones conocidas con otros fármacos; se excreta vía renal. En caso de insuficiencia renal, sobre todo en diálisis, precisa ajuste de dosis.",
-      "page": 7
+      "page": 7,
+      "page_2024": 7
     }
   ],
   "banderas_rojas": [

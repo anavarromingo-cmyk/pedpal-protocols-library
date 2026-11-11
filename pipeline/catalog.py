@@ -32,7 +32,8 @@ def norm(s: str) -> str:
 
 
 def slug_of(url: str) -> str:
-    return re.sub(r"\.pdf$", "", url.rsplit("/", 1)[-1], flags=re.I).lower()
+    s = re.sub(r"\.pdf$", "", url.rsplit("/", 1)[-1], flags=re.I).lower()
+    return re.sub(r"-r\d+$", "", s)  # revisiones subidas como «…-r2.pdf» conservan el slug
 
 
 def fetch_page_anchors(session: requests.Session) -> list[dict]:

@@ -23,6 +23,7 @@ DOCS_DIR = DATA / "docs"
 FIG_DIR = DATA / "fig"
 CACHE = HERE / "cache" / "pdf"
 CURATED = HERE / "curated"
+APROBADOS = HERE / "aprobados"
 sys.path.insert(0, str(HERE))
 from catalog import build_catalog, UA  # noqa: E402
 from extract import extract  # noqa: E402
@@ -70,7 +71,8 @@ def main() -> int:
         if not prev:
             print("--offline requiere docs/data/protocolos.json previo", file=sys.stderr)
             return 2
-        catalog = [dict(p) for p in prev.values()]
+        excl = set(json.loads((HERE / "overrides.json").read_text(encoding="utf-8")).get("exclude", []))
+        catalog = [dict(p) for p in prev.values() if not p.get("retirado") and p["slug"] not in excl]
         report = {"offline": True, "no_enlazados": []}
     else:
         catalog, report = build_catalog(session)
@@ -114,7 +116,20 @@ def main() -> int:
         pdf = CACHE / f"{c['slug']}.pdf"
         c["sha256"] = sha256(pdf)
         c["bytes"] = pdf.stat().st_size
-        d = extract(pdf, c["slug"], FIG_DIR, "data/fig")
+        ap = APROBADOS / f"{c['slug']}.json"
+        aprob = json.loads(ap.read_text(encoding="utf-8")) if ap.exists() else None
+        if aprob and aprob["sha256_pdf"] == c["sha256"]:
+            # versión maquetada y aprobada (renovación 2026): texto idéntico al PDF publicado
+            d = aprob
+            src_fig = APROBADOS / "fig" / c["slug"]
+            if src_fig.exists():
+                shutil.rmtree(FIG_DIR / c["slug"], ignore_errors=True)
+                shutil.copytree(src_fig, FIG_DIR / c["slug"])
+        else:
+            if aprob:
+                warnings.append(f"{c['slug']}: el PDF de pedpal.es ya no coincide con la versión aprobada 2026 → extracción automática (revisar y volver a importar)")
+            d = extract(pdf, c["slug"], FIG_DIR, "data/fig")
+            d["fuente"] = "extraccion-automatica"
         if not d["secciones"]:
             warnings.append(f"{c['slug']}: 0 secciones extraídas")
         if not d["autores"]:
@@ -129,6 +144,7 @@ def main() -> int:
         # metadatos al catálogo
         c.update({k: d[k] for k in ("titulo_pdf", "autores", "centro", "fecha_doc", "paginas", "chars", "nfig", "ntab")})
         c["nsec"] = len(d["secciones"])
+        c["fuente"] = d.get("fuente", "extraccion-automatica")
         c["resumen"] = bool(sp.exists())
         c["algoritmos"] = len(curated_alg.get(c["slug"], []))
         c["secciones_idx"] = [s["h"] for s in d["secciones"] if s["level"] <= 1 and s["h"]][:14]
@@ -145,6 +161,11 @@ def main() -> int:
                 c["actualizado"] = p.get("actualizado")
         dump(DOCS_DIR / f"{c['slug']}.json", d)
 
+    # JSON de protocolos que ya no están en el catálogo: fuera de la app
+    if not args.only:
+        for f in DOCS_DIR.glob("*.json"):
+            if f.stem not in {c["slug"] for c in catalog}:
+                f.unlink()
     # retirados: estaban y ya no están en la web
     retirados = [dict(p, retirado=p.get("retirado") or today) for s, p in prev.items() if s not in {c["slug"] for c in catalog}] if not args.only else []
 
@@ -153,6 +174,14 @@ def main() -> int:
     drugs = build_drug_index(index)
     dump(DATA / "index.json", index)
     dump(DATA / "farmacos.json", drugs)
+    # Vademécum PEDPAL (extraído con IA y verificado literalmente): solo entradas de protocolos presentes
+    vp = CURATED / "vademecum.json"
+    if vp.exists():
+        vad = json.loads(vp.read_text(encoding="utf-8"))
+        slugs = {c["slug"] for c in catalog}
+        vad["farmacos"] = {k: [e for e in v if e["slug"] in slugs] for k, v in vad["farmacos"].items()}
+        vad["farmacos"] = {k: v for k, v in vad["farmacos"].items() if v}
+        dump(DATA / "vademecum.json", vad)
     for d in docs_full:  # fármacos por protocolo (para la ficha)
         pass
     per_doc_drugs = {}
@@ -164,7 +193,8 @@ def main() -> int:
 
     # ---- Catálogo + versión ----
     content_hash = hashlib.sha256(json.dumps([(c["slug"], c["sha256"], c["titulo"], c["area"]) for c in catalog] +
-                                             [("alg", json.dumps(curated_alg, sort_keys=True))], sort_keys=True).encode()).hexdigest()[:12]
+                                             [("alg", json.dumps(curated_alg, sort_keys=True)),
+                                              ("cur", hashlib.sha256(b"".join(f.read_bytes() for f in sorted(CURATED.rglob("*.json")))).hexdigest())], sort_keys=True).encode()).hexdigest()[:12]
     if content_hash != prev_version.get("hash"):
         version = {"hash": content_hash, "build": dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
                    "n": len(catalog), "fecha": today}
@@ -180,8 +210,10 @@ def main() -> int:
     sw_t = (APP / "sw.template.js").read_text(encoding="utf-8") if (APP / "sw.template.js").exists() else None
     if sw_t:
         assets = ["./data/protocolos.json", "./data/index.json", "./data/farmacos.json", "./data/version.json"] + \
+                 (["./data/vademecum.json"] if (DATA / "vademecum.json").exists() else []) + \
                  [f"./data/docs/{c['slug']}.json" for c in catalog]
-        (APP / "sw.js").write_text(sw_t.replace("{{CACHE_NAME}}", f"pedpal-protocolos-{version['hash']}")
+        app_hash = hashlib.sha256(b"".join((APP / f).read_bytes() for f in ("index.html", "app.js", "search.js", "app.css", "doc.css", "pedpal.css", "sw.template.js") if (APP / f).exists())).hexdigest()[:8]
+        (APP / "sw.js").write_text(sw_t.replace("{{CACHE_NAME}}", f"pedpal-protocolos-{version['hash']}-{app_hash}")
                                    .replace("{{DATA_ASSETS}}", ",\n  ".join(json.dumps(a) for a in assets)), encoding="utf-8")
 
     # ---- Informe ----

@@ -21,6 +21,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="./pedpal.css">
 <link rel="stylesheet" href="./app.css">
+<link rel="stylesheet" href="./doc.css">
 </head>
 <body>
 
@@ -63,7 +64,7 @@
 <section class="panel" id="pregunta" role="tabpanel" aria-labelledby="t-pregunta" hidden>
   <div class="lede">
     <h2>Pregunta a los protocolos</h2>
-    <p>Busca dentro del texto completo de los protocolos PEDPAL. Todo ocurre en tu dispositivo: funciona sin conexión y no envía nada a ningún servidor.</p>
+    <p>Busca dentro del texto completo de los protocolos PEDPAL. La búsqueda se hace en su dispositivo y funciona sin conexión. Solo si activa la respuesta con IA (opcional), la pregunta y los pasajes encontrados se envían al proveedor que usted elija: no escriba datos de pacientes.</p>
   </div>
   <form class="searchbar big" id="q-form" role="search">
     <label class="sr-only" for="q-pregunta">Pregunta</label>
@@ -82,26 +83,31 @@
   <div id="q-ai" hidden></div>
   <div id="q-results" class="results"></div>
   <details class="box flat ai-settings" id="ai-settings">
-    <summary>Respuesta redactada con IA (opcional, con tu propia clave)</summary>
-    <p class="small">Si tienes una clave de API de Anthropic puedes pedir que Claude redacte una respuesta <strong>solo a partir de los pasajes recuperados</strong>, citándolos. La clave se guarda únicamente en este dispositivo y las peticiones van directas de tu navegador a Anthropic; PEDPAL no tiene coste ni acceso. Sin clave, la búsqueda funciona igual.</p>
+    <summary>Respuesta redactada con IA (opcional, con clave propia)</summary>
+    <p class="small">Puede pedir que un modelo de IA redacte una respuesta <strong>solo a partir de los pasajes recuperados</strong>, citándolos. Hay proveedores de pago, con plan gratuito y de modelos abiertos, e incluso la opción de un modelo local en su ordenador. La clave se guarda únicamente en este dispositivo y las peticiones van directas de su navegador al proveedor; PEDPAL no tiene coste ni acceso. No guarde la clave en un equipo compartido o del hospital (use «Olvidar clave» al terminar). Sin clave, la búsqueda funciona igual. <a id="ai-help" href="#info-ia">Cómo conseguir una clave →</a></p>
     <div class="row">
-      <div class="field"><label for="ai-key">Clave API (sk-ant-…)</label><input type="password" id="ai-key" autocomplete="off" placeholder="sk-ant-api03-…"></div>
-      <div class="field"><label for="ai-model">Modelo</label>
-        <select id="ai-model">
-          <option value="claude-haiku-5-5">Haiku 5.5 (rápido, económico)</option>
-          <option value="claude-sonnet-5-5">Sonnet 5.5</option>
-          <option value="claude-opus-5-5">Opus 5.5</option>
-        </select></div>
+      <div class="field"><label for="ai-prov">Proveedor</label><select id="ai-prov"></select></div>
     </div>
-    <div class="actions"><button type="button" class="btn btn-outline" id="ai-save">Guardar en este dispositivo</button><button type="button" class="btn btn-outline" id="ai-forget">Olvidar clave</button></div>
+    <div class="row" id="ai-key-row">
+      <div class="field"><label for="ai-key">Clave API</label><input type="password" id="ai-key" autocomplete="off" spellcheck="false"></div>
+    </div>
+    <div class="row" id="ai-base-row" hidden>
+      <div class="field"><label for="ai-base">Dirección del servidor local</label><input type="url" id="ai-base" autocomplete="off" spellcheck="false" placeholder="http://localhost:11434/v1"></div>
+    </div>
+    <div class="row">
+      <div class="field"><label for="ai-model">Modelo</label><input type="text" id="ai-model" list="ai-model-list" autocomplete="off" spellcheck="false"><datalist id="ai-model-list"></datalist></div>
+    </div>
+    <div class="actions"><button type="button" class="btn btn-outline" id="ai-load">Cargar modelos</button><button type="button" class="btn btn-outline" id="ai-test">Probar conexión</button></div>
+    <p class="small" id="ai-status" aria-live="polite"></p>
+    <div class="actions"><button type="button" class="btn btn-primary" id="ai-save">Guardar en este dispositivo</button><button type="button" class="btn btn-outline" id="ai-forget">Olvidar clave</button></div>
   </details>
 </section>
 
 <!-- ================= FÁRMACOS ================= -->
 <section class="panel" id="farmacos" role="tabpanel" aria-labelledby="t-farmacos" hidden>
   <div class="lede">
-    <h2>Fármacos en los protocolos</h2>
-    <p>Índice automático: cada fármaco con los pasajes de los protocolos donde aparece (dosis resaltadas). No es un vademécum: verifica siempre en el PDF original.</p>
+    <h2>Vademécum PEDPAL y fármacos</h2>
+    <p>Para cada fármaco: las pautas del <strong>Vademécum PEDPAL</strong>, extraídas mediante IA de los protocolos aprobados (pendientes de revisión por PEDPAL; las cifras se comprueban automáticamente contra el texto del protocolo), y los pasajes de los protocolos donde se menciona. Verifique siempre la dosis en el protocolo original y en la ficha técnica.</p>
   </div>
   <div class="searchbar">
     <label class="sr-only" for="q-farmacos">Buscar fármaco</label>
@@ -129,7 +135,7 @@
 <section class="panel" id="info" role="tabpanel" aria-labelledby="t-info" hidden>
   <div class="lede">
     <h2>Acerca de esta app</h2>
-    <p>Protocolos clínicos publicados por la <a href="https://pedpal.es/protocolos/" target="_blank" rel="noopener">Sociedad Española de Cuidados Paliativos Pediátricos (PEDPAL)</a>, convertidos automáticamente a tarjetas para consulta rápida en el móvil.</p>
+    <p>Protocolos clínicos publicados por la <a href="https://pedpal.es/protocolos/" target="_blank" rel="noopener">Sociedad Española de Cuidados Paliativos Pediátricos (PEDPAL)</a>, presentados en tarjetas para consulta rápida en el móvil.</p>
   </div>
   <div class="box">
     <h3>Datos</h3>
@@ -151,11 +157,41 @@
   <div class="box">
     <h3>Cómo se genera el contenido</h3>
     <ul class="plain">
-      <li><strong>Texto, tablas y figuras:</strong> extraídos automáticamente de los PDF oficiales. La estructura puede tener imperfecciones; el PDF original siempre prevalece.</li>
-      <li><strong>Resumen rápido y fármacos clave:</strong> borrador extractivo generado con IA a partir del texto del propio protocolo, con página de referencia. Pendiente de revisión por PEDPAL: úsalo como índice, no como fuente.</li>
-      <li><strong>Algoritmos resumidos:</strong> elaboración propia (A. Navarro, 2025) a partir de los protocolos.</li>
-      <li><strong>Búsqueda:</strong> índice local (BM25 con sinónimos clínicos). No usa servidores externos.</li>
+      <li><strong>Texto, tablas y figuras:</strong> idénticos a los protocolos publicados por PEDPAL en su versión maquetada y aprobada de 2026. Si PEDPAL publica un PDF nuevo antes de que se incorpore, ese protocolo se muestra con extracción automática y se indica en su ficha.</li>
+      <li><strong>Resumen rápido y fármacos clave:</strong> borrador extractivo generado con IA a partir del texto del propio protocolo, con página de referencia. Cada resumen indica si está «pendiente de revisión» o «revisado por PEDPAL»: úselo como índice, no como fuente.</li>
+      <li><strong>Algoritmos resumidos:</strong> elaboración propia (A. Navarro, 2025-2026) a partir de los protocolos; cada uno indica si está revisado por PEDPAL.</li>
+      <li><strong>Vademécum PEDPAL:</strong> pautas de cada fármaco extraídas mediante IA de los protocolos aprobados. Se comprueba automáticamente que la cita es literal y que sus cifras están en el protocolo (se descarta la pauta que no lo cumple); cuando la dosis se ha reconstruido a partir de varias celdas de una tabla, se indica. Cada pauta muestra su página y su texto literal, y si está revisada por PEDPAL.</li>
+      <li><strong>Búsqueda:</strong> índice local (BM25 con sinónimos clínicos), en su dispositivo. Solo la respuesta con IA, si usted la activa, se comunica con un servidor externo.</li>
     </ul>
+  </div>
+  <div class="box" id="info-ia">
+    <h3>Respuestas con IA: cómo configurar su clave</h3>
+    <p class="small">La búsqueda de la pestaña «Pregunta» funciona siempre sin IA y sin conexión. Si además desea una respuesta redactada, necesita una clave de API propia de algún proveedor. La app envía su pregunta y los pasajes de los protocolos encontrados; <strong>no escriba nunca datos de pacientes</strong>. La clave se guarda solo en este dispositivo: no la guarde en equipos compartidos o del hospital y use «Olvidar clave» al terminar.</p>
+    <p class="small">Pasos comunes: 1) cree la clave en la web del proveedor; 2) en «Pregunta» → «Respuesta redactada con IA», elija el proveedor y pegue la clave; 3) pulse «Cargar modelos», elija uno y «Probar conexión»; 4) «Guardar en este dispositivo».</p>
+    <details id="info-ia-anthropic"><summary><strong>Anthropic (Claude)</strong> · de pago, la opción más fiable</summary>
+      <ol class="small"><li>Entre en <a href="https://platform.claude.com/" target="_blank" rel="noopener">platform.claude.com</a> y cree una cuenta.</li><li>Añada saldo en «Billing» (pago por uso; una consulta cuesta céntimos o menos). Recomendamos fijar un límite mensual de gasto.</li><li>En «API keys», «Create key»; copie la clave (empieza por <code>sk-ant-</code>).</li><li>Modelo recomendado: <code>claude-haiku-5-5</code> (rápido y económico) o <code>claude-sonnet-5-5</code>.</li></ol></details>
+    <details id="info-ia-gemini"><summary><strong>Google Gemini</strong> · con plan gratuito</summary>
+      <ol class="small"><li>Entre en <a href="https://aistudio.google.com/" target="_blank" rel="noopener">Google AI Studio</a> con una cuenta de Google.</li><li>Pulse «Get API key» → «Create API key»; copie la clave (empieza por <code>AIza</code>).</li><li>Pulse «Cargar modelos» y elija un modelo «flash».</li></ol>
+      <p class="small callout warn">En el plan gratuito, Google puede usar lo que se envía para mejorar sus productos, y puede revisarlo personal humano. Es aceptable para preguntas sobre los protocolos, nunca para datos de pacientes.</p></details>
+    <details id="info-ia-groq"><summary><strong>Groq</strong> · modelos abiertos, con plan gratuito</summary>
+      <ol class="small"><li>Entre en <a href="https://console.groq.com/" target="_blank" rel="noopener">console.groq.com</a> y cree una cuenta.</li><li>En «API Keys», «Create API Key»; copie la clave (empieza por <code>gsk_</code>).</li><li>Modelo sugerido: <code>openai/gpt-oss-120b</code> (abierto). El plan gratuito tiene un límite diario de consultas.</li></ol>
+      <p class="small callout warn">Revise las condiciones de uso de datos del plan gratuito. Nunca datos de pacientes.</p></details>
+    <details id="info-ia-openrouter"><summary><strong>OpenRouter</strong> · muchos modelos abiertos gratuitos</summary>
+      <ol class="small"><li>Entre en <a href="https://openrouter.ai/" target="_blank" rel="noopener">openrouter.ai</a> y cree una cuenta.</li><li>En «Keys», «Create Key»; copie la clave (empieza por <code>sk-or-</code>).</li><li>Pulse «Cargar modelos»: la app muestra solo los gratuitos (terminan en <code>:free</code>). Sin saldo hay un límite pequeño de consultas al día.</li></ol>
+      <p class="small callout warn">Algunos proveedores de modelos gratuitos pueden conservar o usar las peticiones para entrenar; revise sus condiciones. Nunca datos de pacientes.</p></details>
+    <details id="info-ia-mistral"><summary><strong>Mistral AI</strong> · europeo, con plan gratuito de pruebas</summary>
+      <ol class="small"><li>Entre en <a href="https://console.mistral.ai/" target="_blank" rel="noopener">console.mistral.ai</a> y cree una cuenta; elija el plan gratuito de pruebas.</li><li>En «API keys», cree una clave y cópiela.</li><li>Modelo sugerido: <code>mistral-small-latest</code>.</li></ol>
+      <p class="small callout warn">En el plan gratuito de pruebas, los datos pueden usarse para mejorar los modelos; revise sus condiciones. Nunca datos de pacientes.</p></details>
+    <details id="info-ia-local"><summary><strong>Modelo local (Ollama o LM Studio)</strong> · gratis y privado, solo en ordenador</summary>
+      <p class="small callout warn">Opción para usuarios con algo de experiencia informática o con ayuda técnica. Los modelos locales pequeños cometen más errores que los grandes: úselo para pruebas y compruebe siempre en el protocolo.</p>
+      <ol class="small"><li>Instale <a href="https://ollama.com/" target="_blank" rel="noopener">Ollama</a> (Windows, Mac o Linux) y descargue un modelo; en una ventana de terminal: <code>ollama pull qwen3.5:9b</code> (si el ordenador va justo, <code>qwen3.5:4b</code>).</li>
+        <li>Autorice a esta web a usar su modelo (solo una vez). Copie la dirección de la app: <code class="origen-app">https://anavarromingo-cmyk.github.io</code>
+          <ul><li><strong>Windows:</strong> Configuración → Sistema → Información → «Configuración avanzada del sistema» → «Variables de entorno» → Nueva variable de usuario: nombre <code>OLLAMA_ORIGINS</code>, valor la dirección copiada. Cierre Ollama desde la bandeja del sistema y vuelva a abrirlo.</li>
+          <li><strong>Mac:</strong> en Terminal, <code>launchctl setenv OLLAMA_ORIGINS "<span class="origen-app">https://anavarromingo-cmyk.github.io</span>"</code>; después cierre Ollama (icono de la barra superior → Quit) y vuelva a abrirlo.</li>
+          <li><strong>LM Studio</strong> (alternativa): pestaña «Developer» → arranque el servidor y active «Enable CORS».</li></ul></li>
+        <li>En la app, elija «Modelo local»: deje la dirección <code>http://localhost:11434/v1</code> (Ollama) o ponga <code>http://localhost:1234/v1</code> (LM Studio) y pulse «Cargar modelos». Si el navegador pide permiso para acceder a la red local, acéptelo.</li></ol>
+      <p class="small">Nada sale de su ordenador. No funciona en el móvil.</p></details>
+    <p class="small">Cualquier respuesta con IA puede contener errores. La app pide al modelo que use solo los pasajes, cite cada afirmación e indique población, vía y dosis máxima; compruebe siempre las dosis en el protocolo original.</p>
   </div>
   <div class="box flat">
     <h3>Aviso</h3>

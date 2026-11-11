@@ -16,7 +16,8 @@
       "dosis": "c/6-8h De 2 - 6 años: 0,5 mg. De 6 - 12 años: 1 mg. > 12 años y Adultos: 2 mg.",
       "via": "VO",
       "nota": "Anti-H1 de primera generación: acción sedante al atravesar la BHE; se puede desarrollar tolerancia.",
-      "page": 6
+      "page": 8,
+      "page_2024": 6
     },
     {
       "farmaco": "hidroxicina",
@@ -24,7 +25,8 @@
       "dosis": "Cada 6 - 8 h. 1 - 2 mg/kg/día. > 6 años y Adultos: 50 - 100 mg/día.",
       "via": "VO",
       "nota": "Anti-H1 de primera generación: acción sedante; se puede desarrollar tolerancia.",
-      "page": 6
+      "page": 8,
+      "page_2024": 6
     },
     {
       "farmaco": "cetirizina",
@@ -32,7 +34,8 @@
       "dosis": "Cada 12 – 24 h. 2 - 5 años: 2,5 - 5 mg/día. 6 - 11 años: 5 - 10 mg/día. > 12 años y adultos: 10 mg/día.",
       "via": "VO",
       "nota": "Anti-H1 de segunda generación.",
-      "page": 6
+      "page": 8,
+      "page_2024": 6
     },
     {
       "farmaco": "paroxetina",
@@ -40,7 +43,8 @@
       "dosis": "<12 años: Inicio 5mg/día. Aumentar en 1 semana a 10mg/día, esperar respuesta en 4-6 semanas. Incrementar 5mg/día c/semana hasta máx. 20-30mg/día >12 años: Inicio 10mg/día. Aumentar en 1 semana a 20mg/día, esperar respuesta en 4-6 semanas. Incrementar 510mg/día c/semana hasta máx. 40-60mg/día",
       "via": "VO",
       "nota": "Pocos efectos secundarios, inicio en 24-48h. En el original figura «Incrementar 510mg/día» en el escalado de >12 años (posible errata a verificar).",
-      "page": 7
+      "page": 9,
+      "page_2024": 7
     },
     {
       "farmaco": "sertralina",
@@ -48,7 +52,8 @@
       "dosis": "<12 años: Inicio 12,5mg/día, durante 1-2 semanas, aumentar a 25mg/día y esperar respuesta 4-6 semanas. Incrementar 12,5mg/día c/semana hasta máx. 200mg/día >12 años: Inicio 25mg/día durante 1-2 semanas, aumentar a 50mg/día y esperar respuesta 4-6 semanas. Incrementar 25mg/día c/semana hasta máx. 200mg/día",
       "via": "VO",
       "nota": "",
-      "page": 7
+      "page": 9,
+      "page_2024": 7
     },
     {
       "farmaco": "mirtazapina",
@@ -56,7 +61,8 @@
       "dosis": "Adulto: 7,5- 15mg/día, aumentar dosis c/semana hasta 45mg/día",
       "via": "VO",
       "nota": "Solo consta dosis de adulto.",
-      "page": 7
+      "page": 9,
+      "page_2024": 7
     },
     {
       "farmaco": "aprepitant",
@@ -64,7 +70,8 @@
       "dosis": "Dosis diaria 10 días, después la misma dosis 3 veces /semana 6 meses-12 años: 2mg/kg, máx. 80mg/día >12 años: 80mg/día",
       "via": "",
       "nota": "Antagonista de la sustancia P.",
-      "page": 7
+      "page": 9,
+      "page_2024": 7
     },
     {
       "farmaco": "gabapentina",
@@ -72,7 +79,8 @@
       "dosis": ">2 años y <12 años: Día 1: 5-10mg/kg/dosis noche (máx. 300mg/dosis) Día 2: 5-10mg/kg/12h (máx. 300mg/dosis) Día 3: 5-10mg/kg/8h (máx. 300mg/dosis) Posteriormente aumentar cada 3 días hasta dosis máx. 20mg/kg/dosis (máx. 1800mg/día) >12 años: Día 1: 300mg/dosis noche Día 2: 5-300mg/12h Día 3: 300mg/8h Mant. 600-1800mg/día. Máx.: 3600mg/día c/8h",
       "via": "VO",
       "nota": "En la colestasis no se han demostrado efectos beneficiosos con la gabapentina. En el original figura «Día 2: 5-300mg/12h» para >12 años (posible errata a verificar).",
-      "page": 8
+      "page": 10,
+      "page_2024": 8
     },
     {
       "farmaco": "rifampicina",
@@ -80,7 +88,8 @@
       "dosis": "10-20mg/kg/día 30 min antes de comidas o 2h después en dosis única (máx. 600mg/día)",
       "via": "VO",
       "nota": "Hepatotoxicidad. Requiere controles analíticos.",
-      "page": 8
+      "page": 10,
+      "page_2024": 8
     },
     {
       "farmaco": "colestiramina",
@@ -88,7 +97,8 @@
       "dosis": "<1año: 1gr/día cada 6-12h 1-6 años: 2gr/día cada 6-12h 6-12 años: 4gr/día cada 6-12h >12 años 4-8gr/día cada 6-12h",
       "via": "VO",
       "nota": "No efectiva si obstrucción total de la vía biliar. Uso limitado por mala tolerancia.",
-      "page": 8
+      "page": 10,
+      "page_2024": 8
     }
   ],
   "banderas_rojas": [

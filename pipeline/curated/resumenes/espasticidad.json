@@ -16,7 +16,8 @@
       "dosis": "Niños de 2-7 años: 2,5 -5 mg/día (3 tomas), aumento gradual semanal hasta un máximo de 30 mg/día. Niños mayores de 8 años: 60 mg/día (3 tomas)",
       "via": "VO",
       "nota": "Efectos secundarios: somnolencia, mareo, debilidad, confusión, hipotensión, nauseas, toxicidad renal. En espasticidad grave y refractaria valorar infusión intratecal.",
-      "page": 6
+      "page": 7,
+      "page_2024": 6
     },
     {
       "farmaco": "tizanidina",
@@ -24,7 +25,8 @@
       "dosis": "Niños de 18 meses a 7 años; 1 mg/día en dosis nocturna. Niños de 7 a 12 años: 2 mg/día en dos dosis. Niños mayores de 12 años: 4 mg/día en dos tomas, hasta dosis de mantenimiento 12- 24 mg/día (dosis máxima 36 mg al día)",
       "via": "VO",
       "nota": "Estudios pediátricos: eficacia similar al adulto con 0,1-0,2 mg/kg/día en 2-3 tomas. Contraindicado si disfunción hepática; evitar con fluvoxamina o ciprofloxacino; sedación e hipotensión.",
-      "page": 6
+      "page": 8,
+      "page_2024": 6
     },
     {
       "farmaco": "diazepam",
@@ -32,7 +34,8 @@
       "dosis": "dosis inicio 0,1 mg/kg/día en 2-3 tomas, incrementar según eficacia y tolerancia hasta 0,8 mg/kg/día, máximo 40 mg/día",
       "via": "VO",
       "nota": "Contraindicado si insuficiencia hepática, miastenia grave, insuficiencia respiratoria, glaucoma de ángulo cerrado. Fenobarbital, carbamazepina, fenitoína y rifampicina disminuyen su efecto.",
-      "page": 6
+      "page": 8,
+      "page_2024": 6
     },
     {
       "farmaco": "clonazepam",
@@ -40,7 +43,8 @@
       "dosis": "dosis inicial 0,25 -1 mg por la noche, incrementar hasta 3 mg al día",
       "via": "",
       "nota": "Eficacia similar al baclofeno pero mayor sedación y debilidad.",
-      "page": 7
+      "page": 8,
+      "page_2024": 7
     },
     {
       "farmaco": "dantroleno",
@@ -48,7 +52,8 @@
       "dosis": "Inicio: 1mg/kg/día (en dos tomas). Incrementos semanales de 0,5 mg/kg/día hasta dosis de mantenimiento: 2 mg/kg/dosis en tres tomas al día. Algunos pacientes precisan dosis de 2 mg/kg/dosis en cuatro tomas al día. Dosis máxima diaria: 400 mg/día.",
       "via": "VO",
       "nota": "Retirado en España en 1998 (medicamento extranjero). Bastantes efectos secundarios: hipertermia maligna, síndrome neuroléptico maligno, debilidad muscular, hepatotoxicidad. Contraindicado si enfermedad hepática activa.",
-      "page": 7
+      "page": 8,
+      "page_2024": 7
     },
     {
       "farmaco": "toxina botulínica tipo A",
@@ -56,7 +61,8 @@
       "dosis": "Dosificación en función del peso del paciente, tamaño del músculo y tipo de toxina. Infiltraciones cada 4-6 meses",
       "via": "Infiltración",
       "nota": "Contraindicada si hipersensibilidad a la toxina e infección en el lugar de infiltración. No usar con otra toxina botulínica, aminoglucósidos, anticolinérgicos u otros bloqueantes neuromusculares.",
-      "page": 5
+      "page": 15,
+      "page_2024": 5
     }
   ],
   "banderas_rojas": [

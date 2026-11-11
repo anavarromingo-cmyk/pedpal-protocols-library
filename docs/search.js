@@ -164,7 +164,7 @@
 
   /* Resalta términos (por raíz) y dosis dentro de un texto plano → HTML seguro */
   function esc(s) { return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c])); }
-  const DOSE_RE = /(\d+(?:[.,]\d+)?(?:\s?[-–]\s?\d+(?:[.,]\d+)?)?\s?(?:mg|mcg|µg|ug|g|ml|mL|UI|U|mEq|mmol|%)(?:\s?\/\s?(?:kg|dosis|día|dia|h|hora|min|toma|m2|m²))*(?:\s?\/\s?(?:kg|dosis|día|dia|h|hora|min))*)/g;
+  const DOSE_RE = /(\d+(?:[.,]\d+)?(?:\s?[-–]\s?\d+(?:[.,]\d+)?)?\s?(?:mg|mcg|µg|ug|g|ml|mL|UI|U|mEq|mmol|%)(?![a-zA-Zµáéíóúñ])(?:\s?\/\s?(?:kg|dosis|día|dia|h|hora|min|toma|m2|m²))*(?:\s?\/\s?(?:kg|dosis|día|dia|h|hora|min))*)/g;
   function highlight(text, terms, markDoses = true) {
     const stems = new Set(terms || []);
     let html = "";

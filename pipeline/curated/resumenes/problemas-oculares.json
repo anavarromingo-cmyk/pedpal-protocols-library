@@ -16,7 +16,8 @@
       "dosis": "emulsión oftálmica al 0,05% aplicándose 1 gota en cada ojo cada 12 horas",
       "via": "tópica oftálmica",
       "nota": "",
-      "page": 5
+      "page": 8,
+      "page_2024": 5
     },
     {
       "farmaco": "aciclovir tópico",
@@ -24,7 +25,8 @@
       "dosis": "una aplicación cada 4 horas durante cinco días",
       "via": "tópica",
       "nota": "En úlcera herpética (p. 17): Ganciclovir o aciclovir tópicos cada 5 horas durante 10-15 días.",
-      "page": 8
+      "page": 9,
+      "page_2024": 8
     },
     {
       "farmaco": "mupirocina tópica",
@@ -32,7 +34,8 @@
       "dosis": "una aplicación cada 8-12 horas",
       "via": "tópica",
       "nota": "",
-      "page": 9
+      "page": 10,
+      "page_2024": 9
     },
     {
       "farmaco": "amoxicilina-clavulánico",
@@ -40,7 +43,8 @@
       "dosis": "40 mg/kg/día, cada 8 horas, vía oral",
       "via": "VO",
       "nota": "",
-      "page": 9
+      "page": 11,
+      "page_2024": 9
     },
     {
       "farmaco": "eritromicina pomada oftálmica",
@@ -48,7 +52,8 @@
       "dosis": "una aplicación cada 6-8 horas",
       "via": "tópica oftálmica",
       "nota": "También en blefaritis estafilocócica crónica junto con limpieza (alternativas: bacitracina o azitromicina tópica).",
-      "page": 10
+      "page": 11,
+      "page_2024": 10
     },
     {
       "farmaco": "azitromicina tópica",
@@ -56,7 +61,8 @@
       "dosis": "una gota cada 12 horas durante tres días",
       "via": "tópica oftálmica",
       "nota": "Asociar lágrimas artificiales y limpieza palpebral.",
-      "page": 12
+      "page": 14,
+      "page_2024": 12
     },
     {
       "farmaco": "ácido fusídico",
@@ -64,7 +70,8 @@
       "dosis": "una gota de gel en el ojo o los ojos afectados dos veces al día, hasta dos días después de la remisión de la infección",
       "via": "tópica oftálmica",
       "nota": "Otros antibióticos tópicos posibles: mupirocina, eritromicina, bacitracina o azitromicina.",
-      "page": 14
+      "page": 15,
+      "page_2024": 14
     },
     {
       "farmaco": "vancomicina + ceftazidima (colirios reforzados)",
@@ -72,7 +79,8 @@
       "dosis": "Vancomicina 50mg/ml ( para Gram+) con Ceftazidima 50mg/ml (para Gram - , especialmente pseudomona)alternando cada hora el primer día y bajando dosis según evolución",
       "via": "tópica oftálmica",
       "nota": "Úlceras pequeñas: fluorquinolonas (ciprofloxacino en portadores de lentes). Úlceras perforadas o con alto riesgo de perforación: añadir antibióticos sistémicos.",
-      "page": 17
+      "page": 19,
+      "page_2024": 17
     },
     {
       "farmaco": "valaciclovir oral",
@@ -80,7 +88,8 @@
       "dosis": "1G diario durante 2-3 meses",
       "via": "VO",
       "nota": "",
-      "page": 17
+      "page": 19,
+      "page_2024": 17
     },
     {
       "farmaco": "ciclopentolato",
@@ -88,7 +97,8 @@
       "dosis": "cada 8 /12horas",
       "via": "tópica oftálmica",
       "nota": "",
-      "page": 17
+      "page": 20,
+      "page_2024": 17
     }
   ],
   "banderas_rojas": [

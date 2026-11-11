@@ -1,8 +1,12 @@
-# Informe de actualización — 2026-11-09
+# Informe de actualización — 2026-11-12
 
-- Protocolos en catálogo: **33** (web: 32, PDFs en mediateca: 75)
-- Pasajes indexados: 2015 · fármacos detectados: 155 · figuras: 100 (6.1 MB)
-- Hash de contenido: `d81eec9ac8e0` (build 2026-11-07T20:41:11Z)
+- Protocolos en catálogo: **33** (web: 33, PDFs en mediateca: 75)
+- Pasajes indexados: 1996 · fármacos detectados: 152 · figuras: 163 (11.8 MB)
+- Hash de contenido: `7346c5c1b7e6` (build 2026-11-11T23:22:03Z)
+
+## Retirados de la web
+- cuidados-odontologicos-en-el-paciente-pediatrico-cronico
 
 ## Avisos de extracción
+- retirada-de-ventilacion-no-invasiva: sin línea de autores
 - videollamada: sin línea de autores

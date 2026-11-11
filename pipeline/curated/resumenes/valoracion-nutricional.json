@@ -16,7 +16,8 @@
       "dosis": "ingesta diaria de vitamina D vía oral de entre 400-600 UI/día, excepto si existen signos de raquitismo que se aumentará a 600-1200 UI/día",
       "via": "VO",
       "nota": "Precaución con los pacientes con insuficiencia renal y hepática.",
-      "page": 11
+      "page": 10,
+      "page_2024": 11
     },
     {
       "farmaco": "calcio",
@@ -24,7 +25,8 @@
       "dosis": "dosis entre 30-75 mg/kg/día o utilizar la dosis más habitual en pediatría, que supone unos 500-1000 mg de Calcio elemento/día vía oral (en forma de carbonato cálcico, carbonato + lactogluconato cálcico o fosfato cálcico) a repartir en 3-4 dosis/día",
       "via": "VO",
       "nota": "Ingesta diaria recomendada según edad: entre 1-3 años: 700 mg/día; entre 4-8 años: 1000 mg; entre 9-14 años: 1300mg.",
-      "page": 11
+      "page": 10,
+      "page_2024": 11
     }
   ],
   "banderas_rojas": [

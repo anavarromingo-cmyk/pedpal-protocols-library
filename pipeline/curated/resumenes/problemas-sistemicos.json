@@ -16,7 +16,8 @@
       "dosis": "0.05-0.1mg/kg cada 12 horas (máximo 30mg al día en 2 o 3 administraciones)",
       "via": "VO (comprimidos de liberación inmediata)",
       "nota": "Duración del efecto 1-4 horas; administrar 30 minutos antes del efecto deseado y 6 horas antes de la hora de dormir para evitar el insomnio.",
-      "page": 2
+      "page": 3,
+      "page_2024": 2
     },
     {
       "farmaco": "corticoides (prednisona o dexametasona)",
@@ -24,7 +25,8 @@
       "dosis": "",
       "via": "",
       "nota": "Efecto rápido pero transitorio (2-4 semanas); sus efectos secundarios pueden agravar la fatiga, sólo se utilizan cuando la esperanza de vida es inferior a 4 semanas.",
-      "page": 2
+      "page": null,
+      "page_2024": 2
     },
     {
       "farmaco": "acetato de megestrol",
@@ -32,7 +34,8 @@
       "dosis": "lactantes mayores de 8 meses, niños y adolescentes: iniciar con 7.5 a 10mg/kg/día dividido en 1-4 dosis y ajustar en función de la respuesta. Dosis máxima diaria: 800mg al día o 15mg/kg/día",
       "via": "",
       "nota": "Tarda 2-4 semanas en comenzar su efecto: se recomienda en pacientes con expectativa de vida de más de 3 meses. Efectos secundarios: trombosis venosa, rubor, sofocaciones, metrorragias y riesgo de insuficiencia suprarrenal.",
-      "page": 3
+      "page": 3,
+      "page_2024": 3
     },
     {
       "farmaco": "dexametasona",
@@ -40,7 +43,8 @@
       "dosis": "0.1mg/kg/día, máximo 8mg al día) en ciclos de 5-7 días",
       "via": "",
       "nota": "Efecto transitorio sin aumento ponderal; no es el tratamiento de elección si la esperanza de vida es más larga.",
-      "page": 4
+      "page": 5,
+      "page_2024": 4
     },
     {
       "farmaco": "ciproheptadina",
@@ -48,7 +52,8 @@
       "dosis": "3mg cada 8 horas en niños de entre 2 y 4 años, 6mg cada 8 horas en niños entre 4 y 10 años y 9mg cada 8 horas en mayores de 10 años",
       "via": "",
       "nota": "Antihistamínico de primera generación con efecto antagonista de la serotonina.",
-      "page": 5
+      "page": 5,
+      "page_2024": 5
     },
     {
       "farmaco": "dronabinol (tetrahidrocannabinol)",
@@ -56,7 +61,8 @@
       "dosis": "dosis inicial es de 0.05-0.1mg/kg cada 12 horas vía oral, se puede aumentar si se genera tolerancia hasta un máximo de 10mg dos veces al día",
       "via": "VO",
       "nota": "Su administración a última hora de la tarde o por la noche puede dar pesadillas; por ahora no parece estar indicado en el tratamiento de la anorexia.",
-      "page": 5
+      "page": 5,
+      "page_2024": 5
     },
     {
       "farmaco": "naproxeno",
@@ -64,7 +70,8 @@
       "dosis": "5-7mg/kg/12 horas (dosis máxima 250-500mg/12horas)",
       "via": "",
       "nota": "Suprime la fiebre tumoral pero no la secundaria a infecciones.",
-      "page": 7
+      "page": 9,
+      "page_2024": 7
     },
     {
       "farmaco": "dexametasona",
@@ -72,7 +79,8 @@
       "dosis": "0.1mg/kg/día, máximo 4-8 mg al día",
       "via": "",
       "nota": "",
-      "page": 7
+      "page": 9,
+      "page_2024": 7
     },
     {
       "farmaco": "glicopirrolato",
@@ -80,7 +88,8 @@
       "dosis": "0.02mg/kg cada 12 horas. Se puede aumentar a 0.02mg/kg 3-4 veces al día. Finalmente aumentar 0.02mg/kg/dosis cada 7 días hasta 0.1mg/kg/dosis. Dosis máxima de 0.1mg/kg/dosis o 2mg/dosis cada 6 horas",
       "via": "",
       "nota": "Dosis empleadas de forma habitual a partir del mes de vida.",
-      "page": 9
+      "page": 10,
+      "page_2024": 9
     }
   ],
   "banderas_rojas": [

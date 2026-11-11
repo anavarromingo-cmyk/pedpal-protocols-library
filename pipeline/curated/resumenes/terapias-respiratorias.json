@@ -16,7 +16,8 @@
       "dosis": "2-5 años: 2.5 mg; >5 años o >20kg: 5 mg *Ventolín®: diluir con SSF hasta 2-2.5 mL",
       "via": "nebulizada",
       "nota": "Nebulizador ultrasónico o de tipo jet (5-7 L/m). El gas impulsor debe ser oxígeno en pacientes gravemente enfermos.",
-      "page": 11
+      "page": 14,
+      "page_2024": 11
     },
     {
       "farmaco": "bromuro de ipratropio",
@@ -24,7 +25,8 @@
       "dosis": "< 30 kg: 250 mcg/4-6 horas > 30 kg: 500 mcg/4-6 horas",
       "via": "nebulizada",
       "nota": "",
-      "page": 12
+      "page": 14,
+      "page_2024": 12
     },
     {
       "farmaco": "budesonida",
@@ -32,7 +34,8 @@
       "dosis": "0 – 6 meses: 0,25-1,0 mg día c/12h 6 meses – 12 años: 0,25-1,0 mg día c/12h >12 años: 0,5-2 mg al día c/12h",
       "via": "nebulizada",
       "nota": "Nebulizador de tipo jet (5-7 L/m).",
-      "page": 12
+      "page": 14,
+      "page_2024": 12
     },
     {
       "farmaco": "fluticasona",
@@ -40,7 +43,8 @@
       "dosis": "50 - 1000 mcg cada 12 horas",
       "via": "nebulizada",
       "nota": "",
-      "page": 12
+      "page": 14,
+      "page_2024": 12
     },
     {
       "farmaco": "adrenalina (1:1000)",
@@ -48,7 +52,8 @@
       "dosis": "0,5 ml/kg de la sol. 1:1.000, máximo 5 mL Diluir en SF o SG5%",
       "via": "nebulizada",
       "nota": "Nebulizador de tipo jet (4-6 L/m)",
-      "page": 12
+      "page": 15,
+      "page_2024": 12
     },
     {
       "farmaco": "colistina",
@@ -56,7 +61,8 @@
       "dosis": "< 2 años (off label): 0,5-1 MUI cada 12 h > 2 años: 1-2 MUI cada 12 horas (máximo 2 MUI cada 8 horas) *Diluir en 2-4 mL de agua estéril",
       "via": "nebulizada",
       "nota": "Compresor de alto flujo tipo CR60® + pipeta tipo Ventstream® o Pari LC Plus® o E flow®; Promixin® con I-neb AAD®. Primeras dosis en medio hospitalario bajo supervisión.",
-      "page": 12
+      "page": 15,
+      "page_2024": 12
     },
     {
       "farmaco": "tobramicina",
@@ -64,7 +70,8 @@
       "dosis": "> 6 años: 300mg/12 horas, 28 días, repetir tras 28 días de descanso, continuar de forma cíclica (de 3-4 semanas a 6-12 meses)",
       "via": "nebulizada",
       "nota": "Compresor de alto flujo tipo CR60® + pipeta tipo Ventstream® o Pari LC Plus® o E flow®. Primeras dosis en medio hospitalario bajo supervisión.",
-      "page": 12
+      "page": 15,
+      "page_2024": 12
     },
     {
       "farmaco": "aztreonam",
@@ -72,7 +79,8 @@
       "dosis": "75 mg tres veces al día durante 4 semanas, con al menos 4 horas entre cada dosis",
       "via": "nebulizada",
       "nota": "Eflow® + dispositivo Altera®.",
-      "page": 12
+      "page": 15,
+      "page_2024": 12
     },
     {
       "farmaco": "DNasa/dornasa alfa",
@@ -80,7 +88,8 @@
       "dosis": "FQ: 2,5 mg una vez al día Atelectasias: 1.25-2.5 mg hasta cada 4 horas",
       "via": "nebulizada",
       "nota": "Nebulizador de tipo jet con compresores de alto flujo. No usar nebulizador ultrasónico (se inestabiliza con el calor).",
-      "page": 12
+      "page": 15,
+      "page_2024": 12
     },
     {
       "farmaco": "morfina",
@@ -88,7 +97,8 @@
       "dosis": "La dosis inicial sería 2.5-5 mg (solución inyectable).",
       "via": "nebulizada",
       "nota": "Se ha descrito algún caso de broncoespasmo secundario.",
-      "page": 12
+      "page": 15,
+      "page_2024": 12
     }
   ],
   "banderas_rojas": [

@@ -16,7 +16,8 @@
       "dosis": "1-2 microgramos/Kg",
       "via": "preferentemente intranasal",
       "nota": "La indicación de analgesia se realizará de manera individualizada.",
-      "page": 6
+      "page": null,
+      "page_2024": 6
     },
     {
       "farmaco": "midazolam",
@@ -24,7 +25,8 @@
       "dosis": "0,1-0,3 milígramos/Kg",
       "via": "preferentemente intranasal",
       "nota": "",
-      "page": 6
+      "page": 8,
+      "page_2024": 6
     }
   ],
   "banderas_rojas": [

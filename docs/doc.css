@@ -1,0 +1,54 @@
+/* Contenido de los protocolos aprobados (renovación 2026) dentro de las tarjetas.
+   Adaptación para pantalla de la plantilla de maquetación PEDPAL (plantilla_pedpal.css + plantilla_web.css),
+   limitada a .pp-doc para no afectar al resto de la app. */
+.pp-doc { font-size: 0.95rem; line-height: 1.55; min-width: 0; }
+.pp-doc > :first-child { margin-top: 0; }
+.pp-doc p { margin: 0 0 8px; overflow-wrap: anywhere; }
+.pp-doc p.nota { font-style: italic; font-size: 0.88rem; color: var(--pp-ink-muted); }
+.pp-doc p.leyenda { font-family: var(--f-display); font-weight: 600; font-size: 0.86rem; color: var(--pp-blue-700); margin: 12px 0 6px; }
+.pp-doc p.bib, .pp-doc .li.bib { font-size: 0.86rem; line-height: 1.45; }
+.pp-doc p.bib { padding-left: 1.2em; text-indent: -1.2em; }
+.pp-doc strong { font-weight: 700; }
+.pp-doc sup { font-size: 0.7em; line-height: 0; }
+.pp-doc h4 { font-family: var(--f-display); font-size: 0.95rem; font-weight: 600; margin: 12px 0 4px; }
+.pp-doc .hmk { margin-right: 2px; }
+
+/* listas con sangría francesa (marcador del original) */
+.pp-doc .li { display: block; margin: 0 0 4px; padding-left: 1.7em; text-indent: -1.7em; overflow-wrap: anywhere; }
+.pp-doc .li .mk { display: inline-block; min-width: 1.7em; text-indent: 0; color: var(--pp-blue-700); font-weight: 600; white-space: nowrap; box-sizing: border-box; padding-right: 0.4em; }
+.pp-doc .li .lt { text-indent: 0; }
+.pp-doc .lv0 { margin-left: 0.2em; } .pp-doc .lv1 { margin-left: 1.4em; } .pp-doc .lv2 { margin-left: 2.6em; }
+.pp-doc .lv3 { margin-left: 3.8em; } .pp-doc .lv4 { margin-left: 5em; } .pp-doc .lv5 { margin-left: 6.2em; }
+
+/* tablas: desplazamiento horizontal en móvil sin perder columnas */
+.pp-doc .tabla-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 8px 0 14px; }
+.pp-doc .tabla-scroll.ancha { box-shadow: inset -10px 0 8px -8px rgba(2, 18, 40, .25); }
+.pp-doc p.desliza { display: none; font-size: 0.75rem; color: var(--pp-ink-muted); margin: 0 0 4px; }
+@media (max-width: 640px) { .pp-doc p.desliza.si { display: block; } }
+.pp-doc table.pp-tabla { width: 100%; table-layout: fixed; border-collapse: collapse; margin: 0; font-size: 0.84rem; line-height: 1.38; }
+.pp-doc table.pp-tabla th, .pp-doc table.pp-tabla td { border: 1px solid #c9ccd1; padding: 5px 7px; vertical-align: top; text-align: left; overflow-wrap: break-word; word-break: normal; }
+.pp-doc table.pp-tabla th { background: var(--pp-blue); color: var(--pp-ink); font-family: var(--f-body); font-weight: 700; text-transform: none; letter-spacing: 0; }
+.pp-doc table.pp-tabla td.b { background: var(--pp-surface-alt); }
+.pp-doc table.pp-tabla p { margin: 0 0 3px; font-size: inherit; }
+.pp-doc table.pp-tabla .li { margin: 0 0 3px; }
+.pp-doc table.pp-tabla .sp { margin-top: 9px; }
+.pp-doc table.pp-tabla img.cellfig { display: block; max-width: 100%; height: auto; margin: 3px auto; border: 0; }
+.pp-doc table.pp-tabla caption { text-align: left; }
+.pp-doc table.pp-tabla caption.cap-pie { caption-side: bottom; }
+.pp-doc table.pp-tabla caption p.leyenda { margin: 4px 0 6px; }
+.pp-doc table.pp-tabla caption p.nota-tabla { font-size: 0.82rem; font-style: italic; color: var(--pp-ink-muted); margin: 4px 0 2px; }
+.pp-doc table.pp-tabla tr.fila-pie td { border: none; padding: 3px 0 0; background: none; }
+.pp-doc table.pp-tabla.subfilas tbody td { border-top: none; border-bottom: none; }
+.pp-doc table.pp-tabla.subfilas { border-bottom: 1px solid #c9ccd1; }
+.pp-doc table.pp-tabla.land th, .pp-doc table.pp-tabla.land td { padding: 4px; }
+
+/* cajas del original (recuadros de fármacos, etc.) */
+.pp-doc .pp-caja { background: var(--pp-surface-alt); border-left: 3px solid var(--pp-blue); padding: 8px 12px 4px; margin: 8px 0 12px; }
+
+/* figuras */
+.pp-doc figure.fig { margin: 8px 0 10px; text-align: center; display: block; }
+.pp-doc figure.fig img { max-width: 100%; height: auto !important; max-height: none; border: 1px solid var(--pp-line); border-radius: var(--r); background: #fff; cursor: zoom-in; }
+.pp-doc figure.fig + p.leyenda.pie { margin-top: 4px; }
+
+/* resaltado de términos buscados */
+.pp-doc mark { background: var(--pp-mark); color: inherit; padding: 0 1px; border-radius: 2px; }

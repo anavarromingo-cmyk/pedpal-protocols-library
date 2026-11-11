@@ -16,7 +16,8 @@
       "dosis": "1-4 mg/kg/dia. Dosis única diaria",
       "via": "",
       "nota": "Prueba terapéutica durante 4-8 semanas con revaluación posterior; en tratamientos prolongados están descritas alteraciones a nivel infeccioso, metabólico y nutricional.",
-      "page": 10
+      "page": null,
+      "page_2024": 10
     },
     {
       "farmaco": "lansoprazol",
@@ -24,7 +25,8 @@
       "dosis": "<30kg: 0.5-1 mg/kg, máximo 15mg una vez al día - >30 kg: 15-30 mg una vez al día",
       "via": "",
       "nota": "",
-      "page": 10
+      "page": 11,
+      "page_2024": 10
     },
     {
       "farmaco": "esomeprazol",
@@ -32,7 +34,8 @@
       "dosis": "<20Kg: 10mg una vez al dia >40Kg: 20mg una vez al día",
       "via": "",
       "nota": "",
-      "page": 10
+      "page": 11,
+      "page_2024": 10
     },
     {
       "farmaco": "ranitidina",
@@ -40,7 +43,8 @@
       "dosis": "5-10 mg/kg/día repartido en 2 dosis; máx. RGE 300 mg/día y esofagitis 600 mg/día.",
       "via": "",
       "nota": "Los anti-H2 producen frecuente taquifilaxia y son menos potentes que los IBP.",
-      "page": 11
+      "page": 11,
+      "page_2024": 11
     },
     {
       "farmaco": "famotidina",
@@ -48,7 +52,8 @@
       "dosis": "1-12 años: 1mg/kg/día, 2 veces al día (dosis máxima: 40 mg/dosis)",
       "via": "",
       "nota": "",
-      "page": 11
+      "page": 11,
+      "page_2024": 11
     },
     {
       "farmaco": "sucralfato",
@@ -56,7 +61,8 @@
       "dosis": "0,7-3 mg/kg/día",
       "via": "",
       "nota": "",
-      "page": 10
+      "page": 10,
+      "page_2024": 10
     },
     {
       "farmaco": "almagato",
@@ -64,7 +70,8 @@
       "dosis": "en >12 años: 1-1,5 g (7,5-10 ml de suspensión o un sobre o una pastilla blanda o dos comprimidos masticables) entre 30 min y 1 h después de las comidas y al acostarse. Si entre una dosis y otra tiene dolor, puede tomar una dosis adicional de 1-1,5 g. No más de 8 g/día.",
       "via": "VO",
       "nota": "Antiácidos y alginatos no tienen eficacia en esofagitis erosiva; efectos secundarios como osteopenia, anemia microcítica y neurotoxicidad por magnesio y aluminio. No se aconsejan como tratamiento crónico.",
-      "page": 10
+      "page": 10,
+      "page_2024": 10
     },
     {
       "farmaco": "domperidona",
@@ -72,7 +79,8 @@
       "dosis": "Niños >12 años y peso ≥35 kg: Vía oral: 10 mg administrados cada 8 horas. Máximo vía oral: 30 mg/día. Vía rectal: 30 mg/12 horas. Lactantes y niños <12 años o <35 kg (E: off-label): Vía oral: 0,25 mg/kg administrados cada 8 h. Máximo vía oral: 30 mg/día. Vía rectal: no recomendado.",
       "via": "VO / rectal",
       "nota": "Los procinéticos no están recomendados para el tratamiento del ERGE por problemas de seguridad.",
-      "page": 11
+      "page": 10,
+      "page_2024": 11
     },
     {
       "farmaco": "metoclopramida",
@@ -80,7 +88,8 @@
       "dosis": "La dosis recomendada es de 0,1-0,15 mg/kg de peso corporal, repetida hasta 3 veces al día por vía i.v. La dosis máxima en 24 h es 0,5 mg/kg de peso corporal.",
       "via": "IV",
       "nota": "No utilizar en niños menores de 1 año. Restringir su uso en 1-18 años como segunda línea para vómitos post quimioterapia y postoperatorios. Limitar la duración del tratamiento a un máximo de 5 días.",
-      "page": 11
+      "page": 10,
+      "page_2024": 11
     },
     {
       "farmaco": "baclofeno",
@@ -88,7 +97,8 @@
       "dosis": "0,75-2 mg/kg/día. El tratamiento debe iniciarse normalmente a dosis muy bajas (aproximadamente 0,3 mg/kg/día), preferiblemente dividido en 2 tomas. La dosis debe incrementarse con precaución a intervalos de 1 semana, hasta alcanzar la dosis suficiente para cubrir las necesidades individuales del niño.",
       "via": "",
       "nota": "",
-      "page": 10
+      "page": 10,
+      "page_2024": 10
     }
   ],
   "banderas_rojas": [

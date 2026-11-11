@@ -2,7 +2,7 @@
 // (el nombre de caché cambia con cada build de datos → actualización automática).
 const CACHE = "{{CACHE_NAME}}";
 const CORE = [
-  "./", "./index.html", "./pedpal.css", "./app.css", "./app.js", "./search.js",
+  "./", "./index.html", "./pedpal.css", "./app.css", "./doc.css", "./app.js", "./search.js",
   "./manifest.webmanifest", "./icon.svg", "./icon-192.png", "./icon-512.png",
   "./icon-512-maskable.png", "./apple-touch-icon.png", "./data/sinonimos.json"
 ];
@@ -13,9 +13,9 @@ const DATA = [
 self.addEventListener("install", (e) => {
   e.waitUntil((async () => {
     const c = await caches.open(CACHE);
-    await c.addAll(CORE).catch(() => {});
+    await c.addAll(CORE.map((u) => new Request(u, { cache: "reload" }))).catch(() => {});
     // datos en segundo plano, sin bloquear la instalación si alguno falla
-    await Promise.all(DATA.map((u) => c.add(u).catch(() => {})));
+    await Promise.all(DATA.map((u) => c.add(new Request(u, { cache: "reload" })).catch(() => {})));
   })());
   self.skipWaiting();
 });
@@ -41,8 +41,7 @@ self.addEventListener("fetch", (event) => {
   if (req.mode === "navigate" || url.pathname.endsWith("/data/version.json")) {
     event.respondWith(
       fetch(req).then((res) => {
-        const copy = res.clone();
-        caches.open(CACHE).then((c) => c.put(req, copy)).catch(() => {});
+        if (res.ok) { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(req, copy)).catch(() => {}); }
         return res;
       }).catch(() => caches.match(req).then((r) => r || caches.match("./index.html")))
     );

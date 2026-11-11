@@ -16,7 +16,8 @@
       "dosis": "Recién nacido hasta 3 meses: 5-10 mg/kg cada 6-8 h. Niños y adolescentes: 10-15 mg/kg cada 4-6 h. Dosis diaria máxima: 75 mg/kg/día o 4 g/día",
       "via": "VO",
       "nota": "Tiene dosis diaria máxima y techo analgésico.",
-      "page": 12
+      "page": null,
+      "page_2024": 12
     },
     {
       "farmaco": "ibuprofeno",
@@ -24,7 +25,8 @@
       "dosis": "Recién nacido hasta 3 meses: No indicado. Niños y adolescentes: 4-10 mg/kg cada 6-8 h. Dosis diaria máxima: 40 mg/kg/día",
       "via": "VO",
       "nota": "AINEs: precaución en uso prolongado por daño gastrointestinal y toxicidad renal; evitar en trastornos de la coagulación o trombopenia; asociar protector gástrico si factores de riesgo de sangrado, dosis altas o corticoides.",
-      "page": 12
+      "page": null,
+      "page_2024": 12
     },
     {
       "farmaco": "metamizol",
@@ -32,7 +34,8 @@
       "dosis": "Recién nacido hasta 3 meses: No indicado. Niños y adolescentes: 10-15 mg/kg cada 6-8 h. Dosis diaria máxima: 4 meses a 4 años: 600mg/día; 5 años a 14 años: 1,5 g/día; >15 años: 6 g/día",
       "via": "VO",
       "nota": "",
-      "page": 12
+      "page": 15,
+      "page_2024": 12
     },
     {
       "farmaco": "amitriptilina",
@@ -40,7 +43,8 @@
       "dosis": "La dosis por vía oral de 2 a 12 años es 0,2 mg/kg en dosis nocturna, pudiendo hacer aumentos cada 2 semanas hasta 150 mg/dosis. Para niños entre 12 y 18 años se comenzará con 10 mg por la noche, pudiendo hacer incrementos hasta 150 mg al día repartidos en varias tomas.",
       "via": "VO",
       "nota": "Efecto anticolinérgico: sequedad bucal, estreñimiento, retención urinaria, sedación o visión borrosa.",
-      "page": 13
+      "page": 16,
+      "page_2024": 13
     },
     {
       "farmaco": "gabapentina",
@@ -48,7 +52,8 @@
       "dosis": "La dosis inicial es 5 mg/kg en dosis única nocturna el primer día (máximo 300 mg/dosis), seguido de 5 mg/kg/12h el segundo día (máximo 300 mg/dosis) y posteriormente 5 mg/kg/8h el tercer día (máximo 300 mg/dosis). Se pueden hacer aumentos cada tres días hasta alcanzar la dosis de mantenimiento habitual 8-35 mg/kg/día.",
       "via": "VO",
       "nota": "Fórmula magistral para sonda: Gabapentina 50 mg/ml suspensión oral.",
-      "page": 13
+      "page": 16,
+      "page_2024": 13
     },
     {
       "farmaco": "pregabalina",
@@ -56,7 +61,8 @@
       "dosis": "La dosis de inicio recomendada para el dolor neuropático es 1 mg/kg en dosis única diaria durante tres días, seguido de 1 mg/kg/12h durante tres días pudiendo hacer incrementos semanales hasta una dosis máxima de 6 mg/kg/día.",
       "via": "VO",
       "nota": "Potencia cuatro veces mayor que la gabapentina. No se ha establecido su eficacia y seguridad en menores de 12 años.",
-      "page": 13
+      "page": 16,
+      "page_2024": 13
     },
     {
       "farmaco": "carbamacepina",
@@ -64,7 +70,8 @@
       "dosis": "La dosis de inicio para menores de 4 años es 20-60 mg/día en 1-2 dosis, haciendo aumentos si es preciso de 20-60 mg cada dos días. Para mayores de 4 años se inicia en 100 mg/día en 1-2 dosis, incrementando si precisa 100 mg cada semana. La dosis de mantenimiento habitual es 10-20 mg/kg/día en 2-3 dosis.",
       "via": "VO",
       "nota": "",
-      "page": 13
+      "page": 16,
+      "page_2024": 13
     },
     {
       "farmaco": "ketamina",
@@ -72,7 +79,8 @@
       "dosis": "La dosis por vía oral en menores de 11 años es 0,1-0,4 mg/kg/dosis cada 6-8 horas. En niños desde los 12 años se inicia a 5-10 mg dosis, con incrementos de 5- 10 mg hasta un máximo de 50 mg por dosis, cada 6-8 horas. Por vía intravenosa o subcutánea la dosis de los bolos se recomienda 1 mg/kg con dosis sucesivas si precisa de 0,5 mg/kg hasta máximo 50 mg. En perfusión continua se puede iniciar a 0,02-0,1 mg/kg/h.",
       "via": "VO/IV/SC",
       "nota": "Precaución en reflujo gastroesofágico o riesgo de hipertensión intracraneal. Riesgo de alucinaciones (prevenibles con midazolam a dosis bajas), irritabilidad o delirio. IV/SC: dilución 1/5 para evitar efectos adversos de la infusión.",
-      "page": 14
+      "page": 17,
+      "page_2024": 14
     },
     {
       "farmaco": "dexametasona",
@@ -80,7 +88,8 @@
       "dosis": "La dosis inicial en pacientes con enfermedad tumoral es 0,25 mg/kg/día en dos dosis durante 3-5 días e ir reduciendo hasta retirarlo o hasta conseguir la dosis mínima eficaz que habitualmente es < 0,1 mg/kg/día.",
       "via": "",
       "nota": "Presentaciones: solución para inyección 4 mg/ml, 40 mg/5ml; comprimidos 1 mg, 4 mg, 8 mg; FM 1 mg/ml solución oral.",
-      "page": 14
+      "page": 17,
+      "page_2024": 14
     },
     {
       "farmaco": "clonidina",
@@ -88,7 +97,8 @@
       "dosis": "La dosis por vía oral en pacientes mayores de 1 mes es 2-4 mcg/kg/4-6 horas (máximo 150 mcg/dosis). Por vía intravenosa se puede administrar en bolos de 1 mcg/kg/4-6 horas o en perfusión continua de 0,1-2 mcg/kg/h.",
       "via": "VO/IV",
       "nota": "Agonista alfa-2: desciende frecuencia cardiaca y presión arterial. Fórmula magistral 0,1 mg/ml; FM 20 mcg/ml para sonda.",
-      "page": 14
+      "page": 17,
+      "page_2024": 14
     }
   ],
   "banderas_rojas": [

@@ -16,7 +16,8 @@
       "dosis": "Catéter tunelizado: Instilar suero salino heparinizado (5-10UI/ml) 2 veces por semana, • Port-a-cath: Mantener sellado cada 6-8 semanas.",
       "via": "intracatéter (sellado)",
       "nota": "Heparinizar siempre que no se esté utilizando e instilar 3-5 ml de suero salino fisiológico tras cada uso.",
-      "page": 8
+      "page": 10,
+      "page_2024": 8
     },
     {
       "farmaco": "taurolidina (TauroLock)",
@@ -24,7 +25,8 @@
       "dosis": "Tras cada uso, instilar volumen necesario para ocupar recorrido del catéter (3-5ml). Aspirar contenido antes de volver a conectar NPT.",
       "via": "intracatéter (sellado)",
       "nota": "Antiséptico de amplio espectro; en catéteres de larga duración puede reducir el riesgo de infección en algunos grupos de pacientes.",
-      "page": 8
+      "page": 10,
+      "page_2024": 8
     },
     {
       "farmaco": "etanol 70%",
@@ -32,7 +34,8 @@
       "dosis": "instilar 3-5 ml de etanol 70% durante 1-2 horas aspirándolo después",
       "via": "intracatéter",
       "nota": "",
-      "page": 5
+      "page": 6,
+      "page_2024": 5
     },
     {
       "farmaco": "alteplasa",
@@ -40,7 +43,8 @@
       "dosis": "",
       "via": "intracatéter",
       "nota": "Sin dosis en el texto. Superior a otros fibrinolíticos por mayor selectividad por la fibrina y menos efectos adversos.",
-      "page": 5
+      "page": null,
+      "page_2024": 5
     },
     {
       "farmaco": "ácido ursodesoxicólico",
@@ -48,7 +52,8 @@
       "dosis": "10-30 mg/kg/día",
       "via": "",
       "nota": "",
-      "page": 7
+      "page": 9,
+      "page_2024": 7
     },
     {
       "farmaco": "vancomicina (sellado)",
@@ -56,7 +61,8 @@
       "dosis": "5 mg/ml",
       "via": "intracatéter (sellado)",
       "nota": "Teicoplanina a la misma concentración (5 mg/ml). Mantener la solución un mínimo de 12 horas y un máximo de 48. Volumen: Port-a-cath < 5 años: 3 ml, 5-10 años: 4 ml, >10 años: 5 ml; catéter externo 2-5ml por cada luz. Añadir heparina 1% 20-60 UI por cada 50 ml de solución (excepto con Amikacina y Ciprofloxacino por riesgo de precipitación).",
-      "page": 13
+      "page": null,
+      "page_2024": 13
     },
     {
       "farmaco": "gentamicina (sellado)",
@@ -64,7 +70,8 @@
       "dosis": "1 mg/ml",
       "via": "intracatéter (sellado)",
       "nota": "",
-      "page": 13
+      "page": null,
+      "page_2024": 13
     },
     {
       "farmaco": "amikacina (sellado)",
@@ -72,7 +79,8 @@
       "dosis": "5 mg/ml",
       "via": "intracatéter (sellado)",
       "nota": "No añadir heparina por riesgo de precipitación.",
-      "page": 13
+      "page": null,
+      "page_2024": 13
     },
     {
       "farmaco": "ceftazidima (sellado)",
@@ -80,7 +88,8 @@
       "dosis": "0.5 mg/ml",
       "via": "intracatéter (sellado)",
       "nota": "",
-      "page": 13
+      "page": null,
+      "page_2024": 13
     },
     {
       "farmaco": "ciprofloxacino (sellado)",
@@ -88,7 +97,8 @@
       "dosis": "0.2 mg/ml",
       "via": "intracatéter (sellado)",
       "nota": "No añadir heparina por riesgo de precipitación.",
-      "page": 13
+      "page": null,
+      "page_2024": 13
     }
   ],
   "banderas_rojas": [

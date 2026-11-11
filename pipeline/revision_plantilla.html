@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Revisión de contenidos PEDPAL</title>
+<style>
+:root{--ink:#021228;--muted:#021228b8;--line:#0212282b;--alt:#f1f1f1;--orange:#f28c20;--green:#96c93e;--fuchsia:#cd2e94;--blue:#32b7e4;--brown:#443329;--blue7:#147495;
+--ok:#4b7a1c;--okbg:#eef6e2;--warn:#9a5200;--warnbg:#fdf0e1;--crit:#b22f7f;--critbg:#fae8f3;--disp:"Montserrat","Helvetica Neue",Arial,sans-serif;--body:"Open Sans","Segoe UI",Arial,sans-serif}
+*{box-sizing:border-box}html,body{margin:0;background:#fff;color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
+a{color:var(--blue7)}h1,h2,h3,h4{font-family:var(--disp);margin:0}
+.franja{display:flex;height:5px}.franja i{flex:1}.franja i:nth-child(1){background:var(--orange)}.franja i:nth-child(2){background:var(--green)}.franja i:nth-child(3){background:var(--fuchsia)}.franja i:nth-child(4){background:var(--blue)}.franja i:nth-child(5){background:var(--brown)}
+header.top{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--line)}
+.top .in{max-width:1200px;margin:0 auto;padding:10px 16px;display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
+.top h1{font-size:1.1rem;font-weight:600}.top .sp{flex:1}
+.top input[type=text]{padding:6px 10px;border:1px solid var(--line);border-radius:4px;font:inherit;min-width:180px}
+.btn{font-family:var(--disp);font-weight:600;font-size:.85rem;padding:7px 14px;border-radius:999px;border:1.5px solid var(--ink);background:#fff;color:var(--ink);cursor:pointer;white-space:nowrap}
+.btn.pri{background:var(--orange);border-color:var(--orange);color:var(--brown)}
+.prog{font-size:.85rem;color:var(--muted)}
+.wrap{max-width:1200px;margin:0 auto;padding:16px;display:grid;grid-template-columns:260px minmax(0,1fr);gap:20px}
+@media(max-width:860px){.wrap{grid-template-columns:1fr}nav.lista{position:static!important;max-height:none!important}}
+nav.lista{position:sticky;top:70px;max-height:calc(100vh - 90px);overflow:auto;border-right:1px solid var(--line);padding-right:10px}
+nav.lista button{display:flex;width:100%;text-align:left;gap:8px;align-items:baseline;border:0;background:none;padding:6px 8px;border-radius:4px;cursor:pointer;font:inherit;font-size:.88rem;color:var(--ink)}
+nav.lista button[aria-current=true]{background:var(--alt);font-weight:600}
+nav.lista .n{margin-left:auto;font-size:.75rem;color:var(--muted);white-space:nowrap}
+.dot{width:8px;height:8px;border-radius:50%;flex:none;background:var(--line);display:inline-block}
+.dot.done{background:var(--green)}.dot.part{background:var(--orange)}
+.filtros{display:flex;gap:12px;flex-wrap:wrap;font-size:.85rem;margin:0 0 10px}
+.intro{background:var(--alt);border-left:3px solid var(--blue);padding:10px 14px;font-size:.88rem;margin-bottom:14px}
+.prot h2{font-size:1.25rem;font-weight:600;margin:0 0 4px}.prot .meta{font-size:.85rem;color:var(--muted);margin-bottom:12px}
+h3.grupo{font-size:1rem;font-weight:600;color:var(--brown);margin:22px 0 8px;border-bottom:2px solid var(--orange);padding-bottom:3px}
+.item{border:1px solid var(--line);border-radius:4px;padding:10px 12px;margin:0 0 10px;display:grid;gap:6px}
+.item.st-ok{border-left:4px solid var(--green)}.item.st-fix{border-left:4px solid var(--orange)}.item.st-del{border-left:4px solid var(--crit);opacity:.75}
+.item .tipo{font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+.item .txt{font-size:.95rem}
+.flags{display:flex;flex-wrap:wrap;gap:6px}
+.flag{font-size:.75rem;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--warnbg);color:var(--warn)}
+.flag.crit{background:var(--critbg);color:var(--crit)}.flag.ok{background:var(--okbg);color:var(--ok)}
+.apoyo{font-size:.84rem;background:#fafafa;border-left:3px solid var(--blue);padding:6px 10px;color:var(--ink)}
+.apoyo .pg{font-size:.75rem;color:var(--muted)}
+.hall{font-size:.84rem;border-left:3px solid var(--fuchsia);background:#fff8fc;padding:6px 10px}
+.hall.g-alta{border-color:var(--crit)}.hall.g-media{border-color:var(--orange)}.hall.g-baja{border-color:var(--blue)}
+.hall b{font-family:var(--disp)}.hall .cita{font-style:italic;color:var(--muted)}
+.ctrl{display:flex;flex-wrap:wrap;gap:6px 14px;align-items:center;font-size:.88rem}
+.ctrl label{display:inline-flex;gap:4px;align-items:center;cursor:pointer}
+textarea{width:100%;min-height:54px;font:inherit;font-size:.9rem;padding:6px 8px;border:1px solid var(--line);border-radius:4px}
+.figs{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:10px;margin:6px 0 12px}
+.figs figure{margin:0;border:1px solid var(--line);border-radius:4px;padding:6px;font-size:.78rem;color:var(--muted)}
+.figs img{width:100%;height:auto;cursor:zoom-in}
+.vad{font-size:.88rem}.vad dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;margin:0}.vad dt{font-weight:600;color:var(--muted)}.vad dd{margin:0}
+dialog{max-width:95vw;max-height:95vh;padding:8px}dialog img{max-width:90vw;max-height:85vh}
+.small{font-size:.8rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="franja" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+<header class="top"><div class="in">
+  <h1>Revisión de contenidos · app Protocolos PEDPAL</h1>
+  <span class="prog" id="prog"></span><span class="sp"></span>
+  <label class="small">Revisor/a <input type="text" id="revisor" placeholder="Nombre y apellidos"></label>
+  <button class="btn" id="importar">Importar revisión</button>
+  <button class="btn pri" id="exportar">Exportar validación</button>
+  <input type="file" id="fichero" accept="application/json" hidden>
+</div></header>
+<div class="wrap">
+  <nav class="lista" id="lista" aria-label="Protocolos"></nav>
+  <main id="main"></main>
+</div>
+<dialog id="zoom"><img alt=""><form method="dialog"><button class="btn">Cerrar</button></form></dialog>
+<script>
+const DATOS = /*__DATOS__*/null;
+const KEY = "pedpal.revision.v1";
+const TIPOS = {frase:"Resumen en una frase",punto:"Punto clave",farmaco:"Fármaco clave",bandera:"Bandera roja",perla:"Perla práctica",alg_titulo:"Algoritmo · título",alg_paso:"Algoritmo · paso",vad:"Vademécum"};
+const GRUPOS = [["Resumen rápido",["frase","punto","perla"]],["Fármacos clave",["farmaco"]],["Banderas rojas",["bandera"]],["Algoritmos",["alg_titulo","alg_paso"]],["Vademécum (extraído con IA)",["vad"]]];
+// huella del texto del elemento: la validación solo se aplica si el texto no ha cambiado (FNV-1a 32 bits)
+const huella = t => { let h = 0x811c9dc5; for (const ch of String(t || "")) { h ^= ch.codePointAt(0); h = Math.imul(h, 0x01000193) >>> 0; } return h.toString(16); };
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+let st; try { st = JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) { st = {}; }
+st.items = st.items || {};
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} prog(); lista(); };
+let cur = (location.hash || "").slice(1) || DATOS.protocolos[0].slug;
+let soloAvisos = false;
+
+function itemsOf(p) {
+  const its = p.items.map(i => ({...i}));
+  (p.vademecum || []).forEach((v, k) => its.push({id: "vad:" + k, tipo: "vad", texto: [v.farmaco, v.indicacion, v.poblacion, v.dosis, v.via].filter(Boolean).join(" · "), vad: v,
+    apoyo: [{t: v.cita, page: v.pagina, sec: ""}], cifras_no_encontradas: v.cifras_no_en_protocolo || [], dosis_literal: v.verificado, tramos_no_literales: v.problemas || []}));
+  return its;
+}
+function key(p, i) { return p.slug + "|" + i.id; }
+function hallazgos(p, i) { return (p.criticos || []).filter(h => h.id === i.id); }
+function aviso(p, i) { return (i.cifras_no_encontradas && i.cifras_no_encontradas.length) || i.dosis_literal === false || hallazgos(p, i).length; }
+function prog() {
+  let n = 0, r = 0; DATOS.protocolos.forEach(p => itemsOf(p).forEach(i => { n++; if (st.items[key(p, i)] && st.items[key(p, i)].estado) r++; }));
+  document.getElementById("prog").textContent = `${r} de ${n} elementos revisados`;
+}
+function lista() {
+  document.getElementById("lista").innerHTML = `<div class="filtros"><label><input type="checkbox" id="soloav" ${soloAvisos ? "checked" : ""}> Solo con avisos</label></div>` +
+    DATOS.protocolos.map(p => {
+      const its = itemsOf(p); const r = its.filter(i => st.items[key(p, i)] && st.items[key(p, i)].estado).length;
+      const av = its.filter(i => aviso(p, i)).length;
+      const cls = r === its.length && its.length ? "done" : r ? "part" : "";
+      return `<button data-s="${p.slug}" aria-current="${p.slug === cur}"><span class="dot ${cls}"></span><span>${esc(p.titulo || p.slug)}</span><span class="n">${r}/${its.length}${av ? " · ⚠" + av : ""}</span></button>`;
+    }).join("");
+  document.getElementById("soloav").onchange = e => { soloAvisos = e.target.checked; render(); };
+  document.querySelectorAll("#lista button[data-s]").forEach(b => b.onclick = () => { cur = b.dataset.s; location.hash = cur; render(); lista(); window.scrollTo(0, 0); });
+}
+function render() {
+  const p = DATOS.protocolos.find(x => x.slug === cur) || DATOS.protocolos[0];
+  const its = itemsOf(p);
+  let h = `<div class="intro">Para cada elemento: compáralo con los fragmentos del protocolo aprobado 2026 y con los avisos. Marca <b>Correcto</b>, <b>Corregir</b> (escribe el texto corregido, copiado del protocolo si es una dosis) o <b>Quitar</b>. Los avisos ⚠ vienen de comprobaciones automáticas y de tres revisores IA independientes; son ayudas, no veredictos. Tu revisión se guarda en este navegador; al terminar pulsa «Exportar validación» y envía el archivo.</div>`;
+  h += `<section class="prot"><h2>${esc(p.titulo || p.slug)}</h2><div class="meta">${p.paginas} págs. · ${p.pdf ? `<a href="${esc(p.pdf)}" target="_blank" rel="noopener">abrir PDF aprobado</a>` : ""}${p.sin_resumen ? " · sin resumen" : ""}${(p.secciones_recomendadas || []).filter(s => !s.existe).length ? " · ⚠ secciones recomendadas que ya no existen: " + esc(p.secciones_recomendadas.filter(s => !s.existe).map(s => s.h).join("; ")) : ""}</div>`;
+  const omis = (p.criticos || []).filter(c => c.id === "omision" || !its.some(i => i.id === c.id));
+  if (omis.length) h += `<h3 class="grupo">Omisiones y observaciones generales de los revisores IA</h3>` + omis.map(hallHTML).join("");
+  GRUPOS.forEach(([titulo, tipos]) => {
+    let g = its.filter(i => tipos.includes(i.tipo));
+    if (soloAvisos) g = g.filter(i => aviso(p, i));
+    if (!g.length) return;
+    h += `<h3 class="grupo">${titulo}</h3>`;
+    if (tipos[0] === "alg_titulo" && p.figuras_algoritmo && p.figuras_algoritmo.length) {
+      const fig = f => `<figure><img src="${esc(f.src)}" alt="Figura pág. ${f.page}" loading="lazy"><figcaption>pág. ${f.page} · ${esc(f.sec)} ${f.pie ? "· " + esc(f.pie) : ""}</figcaption></figure>`;
+      const fa = p.figuras_algoritmo.filter(f => f.alg), fo = p.figuras_algoritmo.filter(f => !f.alg);
+      if (fa.length) h += `<p class="small">Figuras de algoritmo del protocolo aprobado, para contrastar (toca para ampliar):</p><div class="figs">${fa.map(fig).join("")}</div>`;
+      if (fo.length) h += `<details><summary class="small">Otras figuras del protocolo (${fo.length})</summary><div class="figs">${fo.map(fig).join("")}</div></details>`;
+    }
+    h += g.map(i => itemHTML(p, i)).join("");
+  });
+  h += `</section>`;
+  const m = document.getElementById("main"); m.innerHTML = h;
+  m.querySelectorAll(".figs img").forEach(im => im.onclick = () => { const d = document.getElementById("zoom"); d.querySelector("img").src = im.src; d.showModal(); });
+  m.querySelectorAll(".item").forEach(el => {
+    const k = el.dataset.k;
+    el.querySelectorAll("input[type=radio]").forEach(r => r.onchange = () => { st.items[k] = Object.assign(st.items[k] || {}, {estado: r.value, fecha: new Date().toISOString().slice(0, 10), huella: el.dataset.h}); el.className = "item st-" + r.value; save(); });
+    const ta = el.querySelector("textarea"); ta.oninput = () => { st.items[k] = Object.assign(st.items[k] || {}, {correccion: ta.value}); save(); };
+    el.querySelectorAll("[data-prop]").forEach(b => b.onclick = () => { ta.value = b.dataset.prop; ta.oninput(); const fx = el.querySelector("input[value=fix]"); fx.checked = true; fx.onchange(); });
+  });
+}
+function hallHTML(c) {
+  return `<div class="hall g-${esc(c.gravedad)}"><b>${esc(c.critico)} · gravedad ${esc(c.gravedad)}</b>: ${esc(c.problema)}${c.cita_protocolo ? `<br><span class="cita">Protocolo (pág. ${esc(c.pagina)}): «${esc(c.cita_protocolo)}»</span>` : ""}${c.propuesta ? `<br>Propuesta: ${esc(c.propuesta)} <button class="btn" style="padding:2px 10px;font-size:.75rem" data-prop="${esc(c.propuesta)}">usar propuesta</button>` : ""}</div>`;
+}
+function itemHTML(p, i) {
+  const k = key(p, i), s = st.items[k] || {};
+  const flags = [];
+  if (i.cifras_no_encontradas && i.cifras_no_encontradas.length) flags.push(`<span class="flag crit">Cifras no encontradas en el protocolo: ${esc(i.cifras_no_encontradas.join(", "))}</span>`);
+  if (i.dosis_literal === false) flags.push(`<span class="flag">Dosis no literal: ${esc((i.tramos_no_literales || []).join(" / ")).slice(0, 300)}</span>`);
+  if (i.dosis_literal === true) flags.push(`<span class="flag ok">Dosis literal en el protocolo</span>`);
+  if (i.pagina_2026) flags.push(`<span class="flag ok">pág. 2026: ${i.pagina_2026}${i.pagina_2024 && i.pagina_2024 !== i.pagina_2026 ? ` (antes ${i.pagina_2024})` : ""}</span>`);
+  const hs = hallazgos(p, i);
+  const vadDl = i.vad ? `<div class="vad"><dl>${["farmaco","indicacion","poblacion","via","dosis","dosis_maxima","observaciones"].filter(f => i.vad[f]).map(f => `<dt>${f.replace("_", " ")}</dt><dd>${esc(i.vad[f])}</dd>`).join("")}</dl></div>` : "";
+  return `<div class="item ${s.estado ? "st-" + s.estado : ""}" data-k="${esc(k)}" data-h="${huella(i.texto)}">
+    <span class="tipo">${TIPOS[i.tipo] || i.tipo}${i.alg_nombre ? " · " + esc(i.alg_nombre) : ""} · ${esc(i.id)}</span>
+    ${i.vad ? vadDl : `<div class="txt">${esc(i.texto)}</div>`}
+    ${flags.length ? `<div class="flags">${flags.join("")}</div>` : ""}
+    ${(i.apoyo || []).slice(0, 2).map(a => `<div class="apoyo">${esc(a.t)} <span class="pg">— pág. ${esc(a.page)}${a.sec ? " · " + esc(a.sec) : ""}</span></div>`).join("") || `<div class="apoyo"><span class="pg">Sin fragmento de apoyo encontrado automáticamente.</span></div>`}
+    ${hs.map(hallHTML).join("")}
+    <div class="ctrl"><label><input type="radio" name="r-${esc(k)}" value="ok" ${s.estado === "ok" ? "checked" : ""}> Correcto</label>
+      <label><input type="radio" name="r-${esc(k)}" value="fix" ${s.estado === "fix" ? "checked" : ""}> Corregir</label>
+      <label><input type="radio" name="r-${esc(k)}" value="del" ${s.estado === "del" ? "checked" : ""}> Quitar</label></div>
+    <textarea placeholder="Texto corregido o comentario (opcional)">${esc(s.correccion || "")}</textarea>
+  </div>`;
+}
+document.getElementById("revisor").value = st.revisor || "";
+document.getElementById("revisor").oninput = e => { st.revisor = e.target.value; save(); };
+document.getElementById("exportar").onclick = () => {
+  if (!st.revisor) { alert("Escribe tu nombre en «Revisor/a» antes de exportar."); return; }
+  const out = {formato: "pedpal-revision-1", revisor: st.revisor, exportado: new Date().toISOString(), items: st.items};
+  const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob([JSON.stringify(out, null, 1)], {type: "application/json"}));
+  a.download = `validacion-${st.revisor.replace(/\W+/g, "-").toLowerCase()}-${new Date().toISOString().slice(0, 10)}.json`; a.click();
+};
+document.getElementById("importar").onclick = () => document.getElementById("fichero").click();
+document.getElementById("fichero").onchange = async e => {
+  const f = e.target.files[0]; if (!f) return;
+  try { const j = JSON.parse(await f.text()); if (j.formato !== "pedpal-revision-1") throw new Error("formato"); Object.assign(st.items, j.items); if (!st.revisor) st.revisor = j.revisor; save(); render(); alert("Revisión importada."); }
+  catch (err) { alert("El archivo no es una exportación de esta herramienta."); }
+};
+window.addEventListener("hashchange", () => { const s = location.hash.slice(1); if (s && s !== cur) { cur = s; render(); lista(); } });
+prog(); lista(); render();
+</script>
+</body>
+</html>

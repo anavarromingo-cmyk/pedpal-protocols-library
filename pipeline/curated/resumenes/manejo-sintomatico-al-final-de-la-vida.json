@@ -16,7 +16,8 @@
       "dosis": "si el paciente no tomaba previamente morfina, esta se prescribe al 25- 50% de la dosis empleada para el dolor y presenta dosis techo, precisando añadir adyuvantes si no se consigue el control del síntoma a partir de una infusión continua de 30 mcg/kg/h. Si se encontraba previamente con morfina, se incrementará la dosis entre un 25 y 50%, dejando siempre una dosis de rescate, 1/6 de la dosis diaria total",
       "via": "parenteral si no se puede emplear la enteral; infusión continua si disnea persistente",
       "nota": "Presenta dosis techo para la disnea; si no se controla, añadir adyuvantes (benzodiacepinas).",
-      "page": 6
+      "page": 7,
+      "page_2024": 6
     },
     {
       "farmaco": "lorazepam",
@@ -24,7 +25,8 @@
       "dosis": "Por vía oral: Menores de 2 años: 25 mcg/kg, 2-3 veces al día. 2 - 5 años: 500 mcg, 2-3 veces al día. 6 - 10 años: 750 mcg, 3 veces al día. 11 - 14 años: 1 mg, 3 veces al día. 15 - 18 años: 1-2 mg, 3 veces al día. Por vía sublingual: Niños de todas las edades: 25 mcg/kg, como dosis única. Aumentar a 50 mcg/kg (máximo 1 mg) si es necesario. Dosis habitual para adultos: 500 mcg-1 mg como dosis única, que se puede repetir si se precisa.",
       "via": "VO/SL",
       "nota": "Benzodiacepina de vida media corta.",
-      "page": 6
+      "page": 8,
+      "page_2024": 6
     },
     {
       "farmaco": "midazolam",
@@ -32,7 +34,8 @@
       "dosis": "debe emplearse entre 25-50% de las dosis indicadas para sedación consciente, las cuales son las siguientes: Por vía oral: 500 mcg/kg (máximo 20 mg) como dosis única. Por vía bucal o intranasal: 6 meses – 9 años: 200-300 mcg/kg (máximo 5 mg) como dosis única. 10 - 17 años: 6-7 mg como dosis única. Por vía subcutánea o intravenosa: 1 mes – 11 años: dosis inicial de 25-50 mcg/kg, a administrarse en 2-3 minutos. La dosis puede incrementarse, si es necesario, de forma progresiva hasta 6 mg. 6-11 años: dosis inicial de 25-50 mcg/kg, a administrarse en 2-3 minutos. La dosis puede incrementarse, si es necesario, de forma progresiva hasta 7,5 mg. 12 - 17 años: dosis inicial de 25-50 mcg/kg, a administrarse en 2-3 minutos. La dosis puede incrementarse, si es necesario, de forma progresiva hasta 10 mg.",
       "via": "VO / bucal / intranasal / SC / IV",
       "nota": "También en infusión continua como sedante en estatus refractario y para la angustia en hemorragias.",
-      "page": 6
+      "page": 8,
+      "page_2024": 6
     },
     {
       "farmaco": "midazolam",
@@ -40,7 +43,8 @@
       "dosis": "Por vía bucal o intranasal se debe esperar 10 minutos para repetir la dosis. Neonatos: 300 mcg/kg/dosis. 1 – 2 meses: 300 mcg/kg/dosis (máximo 2,5 mg). 3 – 11 meses: 2,5 mg/dosis. 1 – 4 años: 5 mg/dosis. 5 – 9 años: 7,5 mg/dosis. 10 – 17 años: 10 mg/dosis. Por infusión continua subcutánea o intravenosa: Neonatos – 18 años: dosis inicial de 1-3 mg/kg/día. Si es necesario, puede aumentarse hasta 7 mg/kg/día (máximo 60 mg/día o 150 mg/día en pacientes con epilepsia refractaria).",
       "via": "bucal / intranasal / infusión continua SC o IV",
       "nota": "En pacientes controlados previamente con diazepam rectal, reducir la dosis inicial de midazolam un 50% respecto a su dosis habitual de diazepam para minimizar el riesgo de depresión respiratoria.",
-      "page": 11
+      "page": 14,
+      "page_2024": 11
     },
     {
       "farmaco": "butilbromuro de hioscina",
@@ -48,7 +52,8 @@
       "dosis": "Por vía oral (el contenido de las ampollas puede administrarse por vía enteral): 1 mes - 4 años: 300-500mcg/kg (máximo 5 mg), 3-4 veces al día. 5 - 11 años: 5-10 mg, 3-4 veces al día. 12 -17 años: 10-20 mg, 3-4 veces al día. Por infusión continua subcutánea: 1 mes-4 años: 1,5 mg/kg/día (máximo 15 mg al día). 5-11 años: 30 mg al día. 12-17 años: hasta 60-80 mg al día.",
       "via": "VO/enteral / infusión continua SC",
       "nota": "Anticolinérgico; puede administrarse por vía subcutánea en bolos o en infusión continua.",
-      "page": 7
+      "page": 9,
+      "page_2024": 7
     },
     {
       "farmaco": "glicopirrolato",
@@ -56,7 +61,8 @@
       "dosis": "Por vía oral: 1 mes - 17 años: dosis inicial de 40 mcg/kg, 3-4 veces al día. Si es necesario, puede aumentarse hasta 100 mcg/kg, 3-4 veces al día (máximo 2 mg por dosis). Por vía subcutánea o intravenosa: 1 mes – 11 años: dosis inicial de 4 mcg/kg, 3-4 veces al día. Si es necesario, puede aumentarse hasta 10 mcg/kg, 3-4 veces al día (máximo de 200 mcg por dosis). 12 -17 años: 22 mcg cada 4 horas. Por infusión continua subcutánea o intravenosa: 1 mes– 11 años: dosis inicial de 12 mcg/kg/día. Si es necesario, puede aumentarse hasta 40 mcg/kg/día (máximo 1,2 mg al día). 12 -17 años: dosis inicial de 600 mcg/día. Si es necesario, puede aumentarse hasta 1,2 mg/día (máximo 2,4 mg al día).",
       "via": "VO / SC / IV / infusión continua SC o IV",
       "nota": "",
-      "page": 7
+      "page": 9,
+      "page_2024": 7
     },
     {
       "farmaco": "ondansetrón",
@@ -64,7 +70,8 @@
       "dosis": "Por vía oral o subcutánea (el contenido de las ampollas puede administrarse por vía enteral): 100 mcg/kg cada 8-12 horas (máximo 4 mg por dosis).",
       "via": "VO/SC",
       "nota": "Conocer el receptor sobre el que actúa cada antiemético para evitar tratamientos duplicados.",
-      "page": 8
+      "page": 11,
+      "page_2024": 8
     },
     {
       "farmaco": "haloperidol",
@@ -72,7 +79,8 @@
       "dosis": "Por vía oral: 1 mes - 17 años: 10-20 mcg/kg cada 8-12 horas, hasta 5 mg cada 12 horas. Por infusión continua subcutánea o intravenosa: 1 mes – 11 años: dosis inicial de 25 mcg/kg/día (máxima dosis inicial 1,5 mg/día). Si es necesario, puede aumentarse hasta un máximo de 85 mcg/kg/día. 12 - 17 años: dosis inicial de 1,5 mg/día. Si es necesario, puede aumentarse hasta un máximo de 5 mg/día.",
       "via": "VO / infusión continua SC o IV",
       "nota": "Como antiemético (p. 8) en 12 – 17 años por vía oral: 1,5 mg al día por la noche, pudiendo aumentarse a 1,5 mg cada 12 horas (máximo 5 mg cada 12 horas).",
-      "page": 10
+      "page": 13,
+      "page_2024": 10
     },
     {
       "farmaco": "levomepromazina",
@@ -80,7 +88,8 @@
       "dosis": "Por vía oral: 2 - 11 años: dosis inicial de 50-100 mcg/kg cada 12-24 horas. Si es necesario, puede aumentarse hasta un máximo de 1 mg/kg/dosis o 25 mg/dosis, cada 12- 24 horas. 12 – 17 años: dosis inicial de 3 mg cada 12-24 horas. Si es necesario, puede aumentarse hasta un máximo de 25 mg cada 12-24 horas. Por vía subcutánea o intravenosa: 12 – 17 años: dosis inicial de 2,5 mg cada 12-24 horas. Por infusión continua subcutánea o intravenosa: 1 mes – 11 años: dosis inicial de 100mcg/kg/día. Si es necesario, puede aumentarse hasta un máximo de 400mcg/kg/día o 25 mg/día. 12 - 17 años: dosis inicial de 5 mg/día. Si es necesario, puede aumentarse hasta un máximo de 25 mg/día.",
       "via": "VO / SC / IV / infusión continua SC o IV",
       "nota": "Para agitación (p. 10) las dosis son mayores: infusión continua 1 – 11 años dosis inicial de 350mcg/kg/día (máxima dosis inicial 12,5 mg), hasta 3 mg/kg/día; 12 - 17 años 12,5 mg/día, hasta 200 mg/día.",
-      "page": 8
+      "page": 11,
+      "page_2024": 8
     },
     {
       "farmaco": "dexametasona",
@@ -88,7 +97,8 @@
       "dosis": "Por vía oral o intravenosa: Menores de 1 año: dosis inicial de 250 mcg cada 8 horas. Si es necesario, puede aumentarse hasta 1 mg cada 8 horas. 1 – 5 años: dosis inicial de 1 mg cada 8 horas. Si es necesario, puede aumentarse hasta 2 mg cada 8 horas. 6 – 11 años: dosis inicial de 2 mg cada 8 horas. Si es necesario, puede aumentarse hasta 4 mg cada 8 horas. 12 – 17 años: 4 mg cada 8 horas.",
       "via": "VO/IV",
       "nota": "",
-      "page": 8
+      "page": 12,
+      "page_2024": 8
     }
   ],
   "banderas_rojas": [

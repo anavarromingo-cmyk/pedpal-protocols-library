@@ -83,7 +83,7 @@ header.top {
 }
 header.top .bar {
   display: flex; align-items: center; justify-content: space-between;
-  gap: 16px; padding: 10px 0;
+  gap: 16px; padding-block: 10px;
 }
 .brand { text-decoration: none; color: inherit; }
 .brand h1 { font-size: 1.15rem; line-height: 1.2; margin: 0; }
@@ -193,7 +193,7 @@ section.panel { display: grid; gap: 18px; }
   display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
   gap: 12px;
 }
-input[type=number], input[type=search], input[type=text], select, textarea {
+input[type=number], input[type=search], input[type=text], input[type=password], input[type=url], select, textarea {
   color: var(--pp-ink); background: var(--pp-surface);
   border: 1px solid rgba(2, 18, 40, 0.4);
   border-radius: var(--r); padding: 10px 12px;
@@ -291,7 +291,7 @@ footer.foot .wrap { display: flex; flex-wrap: wrap; justify-content: space-betwe
 /* Móvil */
 @media (max-width: 640px) {
   body { font-size: 15.5px; }
-  header.top .bar { padding: 8px 0; }
+  header.top .bar { padding-block: 8px; }
   .brand h1 { font-size: 1.05rem; }
   .brand p { font-size: 0.75rem; }
   .disclaimer { font-size: 0.8rem; padding: 8px 0 10px; }

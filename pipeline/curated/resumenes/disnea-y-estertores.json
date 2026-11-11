@@ -16,7 +16,8 @@
       "dosis": "- Neonatos: 25 mcg/kg cada 6-8 horas - Lactantes 1-2 meses: 25 mcg/kg cada 4-6 horas - Lactantes 3-5 meses: 25-50 mcg/kg cada 4-6 horas - Lactantes 6-11 meses: 50 mcg/kg cada 4-6 horas - Niños entre 1-11 años: 50-100 mcg/kg cada 4-6 horas. - Mayores de 12 años: 50-100 mcg/kg cada 4-6 horas. No deben administrarse más de 5 mg como dosis de inicio.",
       "via": "VO",
       "nota": "Dosis inicial 30-50% de la de dolor con aumentos de un 25%-50% según respuesta; rescate 15% de dosis diaria total; en disnea crónica considerar liberación retardada. Efectos secundarios: somnolencia, náuseas, vómitos y estreñimiento.",
-      "page": 11
+      "page": 11,
+      "page_2024": 11
     },
     {
       "farmaco": "morfina SC/IV (paciente naive)",
@@ -24,7 +25,8 @@
       "dosis": "- Neonatos: 10-20 mcg/kg cada 6-8 horas - Lactantes 1-5 meses: 25-50 mcg/kg cada 6-8 horas - Lactantes 6-11 meses: 25-50 mcg/kg cada 4-6 horas - Niños entre 1-11 años: 25-100 mcg/kg cada 4-6 horas. No más de 2.5 mg como dosis inicial. - Mayores de 12 años: 50-100 mcg/kg cada 4-6 horas. No más de 5 mg como dosis inicial ni más de 20 mg en las primeras 24 horas.",
       "via": "SC/IV",
       "nota": "",
-      "page": 11
+      "page": 11,
+      "page_2024": 11
     },
     {
       "farmaco": "morfina en perfusión continua",
@@ -32,7 +34,8 @@
       "dosis": "10-30 microgramos/kg/hora (menores de 12 meses iniciar a 5 microgramos/kg/hora)",
       "via": "SC/IV",
       "nota": "",
-      "page": 11
+      "page": 11,
+      "page_2024": 11
     },
     {
       "farmaco": "midazolam",
@@ -40,7 +43,8 @@
       "dosis": "midazolam bucal dosis 25-50% inferiores a las usadas en crisis convulsivas",
       "via": "bucal; SC o IV en disnea refractaria",
       "nota": "En disnea refractaria y final de vida, vía subcutánea o intravenosa hasta alcanzar el nivel de sedación deseado si es necesario. Lorazepam o alprazolam útiles para la ansiedad asociada.",
-      "page": 5
+      "page": 6,
+      "page_2024": 5
     },
     {
       "farmaco": "escopolamina hidrobromuro (hidrobromuro de hioscina)",
@@ -48,7 +52,8 @@
       "dosis": "- Transdérmico: > Neonatos-2 años: un cuarto de parche cada 72 horas. > Niños 3-9 años: medio parche cada 72 horas. > Mayores de 12 años: un parche cada 72 horas. Se puede realizar un aumento progresivo de dosis según efecto. - Subcutáneo o intravenoso: > Dosis iniciales 6mcg/kg (máximo 600mcg/dosis) cada 4-8 horas. - Infusión continua subcutánea o intravenosa: > Dosis de 40-60mcg/kg en 24 horas (máximo de 2.4mg en 24 horas que puede llegarse a aumentar si fuese necesario)",
       "via": "transdérmica/SC/IV",
       "nota": "Atraviesa la barrera hematoencefálica: delirio, alucinaciones, insomnio, sedación; flushing facial, midriasis, taquicardia. No usar en cuadro obstructivo intestinal; precaución en patología cardiaca; combinada con otros anticolinérgicos puede derivar en psicosis.",
-      "page": 12
+      "page": 12,
+      "page_2024": 12
     },
     {
       "farmaco": "butilescopolamina (butilbromuro de hioscina)",
@@ -56,7 +61,8 @@
       "dosis": "- Oral, intramuscular, intravenoso: > Niños 1 mes - 4 años: 0.3-0.5 mg/kg (máximo 5 mg/dosis) cada 6-8 horas. > Niños 5-11 años: 5-10 mg cada 6-8 horas. > Mayores de 12 años: 10-20 mg cada 6-8 horas. - Infusión continua subcutánea o intravenosa: > Niños 1 mes – 4 años: 1.5mg/kg cada 24 horas (máximo 15mg/día) > Niños 5 – 11 años: 30 mg cada 24 horas. > Mayores de 12 años: 60-80mg cada 24 horas hasta un máximo de 300mg cada 24 horas.",
       "via": "VO/IM/IV/SC",
       "nota": "No pasa la barrera hematoencefálica (sin efectos centrales). Precaución en patología cardiaca; favorece estreñimiento y retención urinaria.",
-      "page": 12
+      "page": 12,
+      "page_2024": 12
     },
     {
       "farmaco": "glicopirrolato",
@@ -64,7 +70,8 @@
       "dosis": "> Oral: Niños a partir de un mes: 0.02mg/kg cada 8-12 horas con aumentos de 0.02mg/kg cada 4-6 horas según efecto. Puede realizarse aumento hasta dosis máxima de 0.1mg/kg cada 6-8 horas. Dosis máxima de 2mg/dosis.",
       "via": "VO",
       "nota": "Fórmula magistral (solución oral 1mg/5ml); no disponible SC ni IV. Inicio de acción más lento que escopolamina; administrar separado de la comida porque disminuye su absorción; menos efectos cardiacos.",
-      "page": 12
+      "page": 12,
+      "page_2024": 12
     },
     {
       "farmaco": "atropina",
@@ -72,7 +79,8 @@
       "dosis": "Se aplica a nivel sublingual la solución para uso intravenoso o el colirio de atropina al 1%",
       "via": "sublingual",
       "nota": "No es tratamiento de primera línea. Mayores efectos adversos que escopolamina y glicopirrolato: estreñimiento, retención urinaria y alteraciones del ritmo cardiaco; precaución si ya toma otros anticolinérgicos.",
-      "page": 7
+      "page": 8,
+      "page_2024": 7
     }
   ],
   "banderas_rojas": [

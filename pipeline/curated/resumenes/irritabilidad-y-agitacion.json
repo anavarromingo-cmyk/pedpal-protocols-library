@@ -16,7 +16,8 @@
       "dosis": "Menores de 3 años: 5 mg/kg/dosis (e ir aumentando como en niños mayores). Entre 3 y 12 años: Día 1: 5-10 mg/kg/dosis (máximo 300 mg cada dosis) VO 1 vez al día antes de dormir; Día 2: 5-10 mg/kg/dosis (máximo 300 mg cada dosis) VO 2 veces al día; Día 3: 5-10 mg/kg/dosis (máximo 300 mg cada dosis) VO 3 veces al día. Mayores de 12 años: Día 1: 300 mg en una sola dosis antes de dormir; Día 2: 300 mg en dos dosis al día; Día 3: 300 mg en tres dosis al día y después ir aumentando a razón de 300 mg/día cada 3-7 días. Dosis máxima: Niños: 45-60 mg/kg/día en tres dosis; Adultos: 3600 mg/día",
       "via": "VO (SNG o gastrostomía)",
       "nota": "Pocas interacciones y muy pocos efectos secundarios (somnolencia, ataxia, mareos al inicio). Ajustar dosis en insuficiencia renal; esperar al menos 2 horas tras antiácidos. Contenido de cápsulas dispersado en 20ml de agua por sonda.",
-      "page": 5
+      "page": 7,
+      "page_2024": 5
     },
     {
       "farmaco": "pregabalina",
@@ -24,7 +25,8 @@
       "dosis": "Día 1-3: 1 mg/kg/dosis VO 1 vez al día antes de dormir. Día 4-6: 1 mg/kg/dosis VO 2 veces al día. Día 7: se podrá ir aumentando 1 mg/kg/día cada 3-7. La dosis de mantenimiento sugerida 5-10 mg/kg/día. Dosis máxima: 6-15 mg/kg/día en tres dosis (máximo 600 mg/día)",
       "via": "VO (SNG o gastrostomía, mejor solución)",
       "nota": "Conversión gabapentina/pregabalina 6:1 (rango 1:4 a 1:9). Ajustar en insuficiencia renal. Depresión del SNC con opioides.",
-      "page": 6
+      "page": 8,
+      "page_2024": 6
     },
     {
       "farmaco": "amitriptilina",
@@ -32,7 +34,8 @@
       "dosis": "Niños de 2 a 11 años: dosis inicial de 200 microgramos/kg (máximo 10 mg) administrada una vez al día por la noche. Niños de 12 a 17 años: la dosis inicial de 10 mg por la noche se aumenta gradualmente, si es necesario, cada 3 a 5 días. Dosis máxima: Entre 2 y 11 años: 1 mg/kg/dosis repartido en dos dosis al día; Mayores de 12 años: 75 mg/día",
       "via": "VO",
       "nota": "Contraindicada en enfermedad hepática severa, arritmias y tratamiento con IMAO. Carbamazepina reduce la amitriptilina plasmática. Efecto sedante intenso.",
-      "page": 7
+      "page": 9,
+      "page_2024": 7
     },
     {
       "farmaco": "clonidina",
@@ -40,7 +43,8 @@
       "dosis": "Día 1-3: 0.002 mg/kg VO 1 vez al día antes de dormir. Día 4-6: 0.002 mg/kg/dosis VO 2 veces al día. Día 7-9: 0.002 mg/kg/dosis VO 3 veces al día. Dosis máxima de inicio: 0.1 mg (50 kg). Dosis máxima: 0.012 mg/kg/dosis (0.6 mg para 50 kg), 3 veces al día. Niños >1 mes: Dosis inicial 1 microgramo/kg/dosis 3-4 veces al día, hasta un máximo de 5 microgramos/kg/dosis cuatro veces al día (20 mcg/kg/día)",
       "via": "VO (SNG o gastrostomía)",
       "nota": "Somnolencia e hipotensión. Contraindicada en bradiarritmia, hipotensión e intolerancia a la galactosa; cuidado en insuficiencia renal. Los tricíclicos disminuyen su efecto.",
-      "page": 8
+      "page": 10,
+      "page_2024": 8
     },
     {
       "farmaco": "metadona",
@@ -48,7 +52,8 @@
       "dosis": "Niños de 1 a 12 años: 30 a 100 microgramos/kg (máximo 5 mg/dosis inicial) 1 a 3 veces al día. Niños >12 años: 100-200 microgramos/kg cada 8-12 horas (máximo 5 mg/dosis). Posteriormente la posología se ajustará a un nivel que sea eficaz (sin una dosis máxima), aunque el aumento máximo de la dosis no superará el 50% en 24 h en pacientes ambulatorios.",
       "via": "VO/SC/IV",
       "nota": "Prescribir por profesionales con experiencia. IV lenta en 3–5 minutos. Insuficiencia renal grave: reducir la dosis en un 50%. Prolongación del QT; contraindicada con IMAO, íleo paralítico, asma agudo, hipertensión intracraneal.",
-      "page": 8
+      "page": 11,
+      "page_2024": 8
     },
     {
       "farmaco": "midazolam",
@@ -56,7 +61,8 @@
       "dosis": "Perfusión continua IV o SC: Neonatos: 1 mcg/kg/min IV o SC; 1 m–18 años: 50–300 mcg/kg/h. El midazolam bucal (0.3–0.5mg/kg) puede ser utilizado en una situación de crisis para romper el ciclo de angustia. Dosis máxima: 6 m–5 y: 6 mg; 6–12 y: 10 mg",
       "via": "IV/SC/bucal",
       "nota": "Somnolencia, reacción paradójica. Precaución en enfermedad hepática y renal. Uso por periodos cortos por tolerancia.",
-      "page": 9
+      "page": 12,
+      "page_2024": 9
     },
     {
       "farmaco": "diazepam",
@@ -64,7 +70,8 @@
       "dosis": "Mayores de 6 meses: 0.12-0.8 mg/kg/día VO dividido en 3-4 dosis al día; 0.04-0.3 mg/kg/dosis IV cada 2-4 horas. Dosis máxima: 0.6 mg/kg IV en un periodo de 8 horas",
       "via": "VO/IV",
       "nota": "Contraindicado en insuficiencia pulmonar aguda grave, apnea del sueño, enfermedad hepática grave, miastenia gravis. Reacción paradójica, depresión respiratoria.",
-      "page": 9
+      "page": 12,
+      "page_2024": 9
     },
     {
       "farmaco": "lorazepam",
@@ -72,7 +79,8 @@
       "dosis": "0.02–0.1 mg/kg/dosis VO/SL/IV/SC cada 4–8 h. Dosis máxima: 2 mg/dosis",
       "via": "VO/SL/IV/SC",
       "nota": "Contraindicado en manía. Somnolencia, aturdimiento, reacción paradójica.",
-      "page": 9
+      "page": 12,
+      "page_2024": 9
     },
     {
       "farmaco": "haloperidol",
@@ -80,7 +88,8 @@
       "dosis": "Menores de 12 años: 10-20 µg /kg c/8-12 horas VO; 25-85 µg /kg c/24 horas IV. 12-18 años: 1,5 mg c/8 horas VO; 1,5-5 mg c/24horas IV. Dosis máxima: VO máximo 5 mg/día; IV menores de 12 años máximo 1,5 mg/día y mayores de 12 años máximo 5 mg/día.",
       "via": "VO/SC/IV/IM",
       "nota": "Valorar monitorización del QTc, especialmente en cardiópatas. Efectos extrapiramidales a dosis altas. Carbamazepina disminuye sus niveles. Soluciones orales por sonda sin diluir.",
-      "page": 10
+      "page": 13,
+      "page_2024": 10
     },
     {
       "farmaco": "levomepromazina",
@@ -88,7 +97,8 @@
       "dosis": "Oral: Niños de 2 a 11 años: Dosis inicial de 50 a 100 microgramos/kg administrada una o dos veces al día. Niño de 12 a 17 años: dosis inicial de 3 mg una o dos veces al día. Por infusión IV o SC continua durante 24 horas: Niños de 1 mes a 11 años: dosis inicial de 100-400 microgramos/kg/24 hora. Niños de 12 a 17 años: Dosis inicial de 5 mg/24 horas. Por inyección SC o IV: Niños de 12 a 17 años: dosis inicial según sea necesario de 2,5 mg administrados una o dos veces al día. Máximo 1 mg/kg/dosis (25 mg/dosis). Máximo 25 mg/24 horas.",
       "via": "VO/SC/IV",
       "nota": "La dosis SC se considera dos veces más potente que la oral. Hipotensión, somnolencia, reduce el umbral convulsivo, distonías, prolongación QT en cardiopatía o hipopotasemia; fotosensibilidad.",
-      "page": 11
+      "page": 14,
+      "page_2024": 11
     }
   ],
   "banderas_rojas": [

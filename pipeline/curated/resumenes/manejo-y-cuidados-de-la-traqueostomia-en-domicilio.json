@@ -16,7 +16,8 @@
       "dosis": "neonatos 0.2-0.5ml SSF lactantes 0.5-1ml SSF, niños 1-3ml SSF",
       "via": "instilación por la cánula de traqueostomía",
       "nota": "También instilar SSF antes de aspirar si la mucosidad es espesa o seca; limpiar la sonda con agua tras cada aspiración.",
-      "page": 8
+      "page": 10,
+      "page_2024": 8
     },
     {
       "farmaco": "suero salino hipertónico 3% o 7% (nebulizado)",
@@ -24,7 +25,8 @@
       "dosis": "Realizar nebulizaciones con SSF o SSH3% o 7",
       "via": "nebulización",
       "nota": "Sin volumen ni frecuencia en el texto; asociar mayor hidratación del paciente y humidificadores.",
-      "page": 8
+      "page": 10,
+      "page_2024": 8
     },
     {
       "farmaco": "nitrato de plata (tópico)",
@@ -32,7 +34,8 @@
       "dosis": "",
       "via": "tópica",
       "nota": "Sin dosis en el texto. Prevención: buen ajuste de la cánula al cuello y apósito si evita holgura.",
-      "page": 9
+      "page": null,
+      "page_2024": 9
     }
   ],
   "banderas_rojas": [

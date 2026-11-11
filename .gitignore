@@ -4,3 +4,9 @@ __pycache__/
 .DS_Store
 pipeline/cache/
 .pytest_cache/
+
+# Tablas de validación con correos personales de autores: NO publicar
+validacion-autores*
+
+# Material de revisión interna (críticos, erratas, validaciones): solo local
+revision/

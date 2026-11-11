@@ -16,7 +16,8 @@
       "dosis": "en bolo inicial de 1-2 mg/kg, seguido de 0,25-0,5 mg/kg/dosis, cada 4-6 horas durante 48h con descenso progresivo posterior. Asociar omeprazol",
       "via": "",
       "nota": "Asociar omeprazol.",
-      "page": 7
+      "page": 8,
+      "page_2024": 7
     },
     {
       "farmaco": "dexametasona",
@@ -24,7 +25,8 @@
       "dosis": "1-2 mg/kg IV y posteriormente 0,25 mg/kg c/6 h. Asociar protector gástrico.",
       "via": "IV",
       "nota": "",
-      "page": 15
+      "page": 14,
+      "page_2024": 15
     },
     {
       "farmaco": "suero salino hipertónico 3%",
@@ -32,7 +34,8 @@
       "dosis": "5-10 ml/kg en perfusión IV en 30 minutos",
       "via": "IV",
       "nota": "",
-      "page": 15
+      "page": 14,
+      "page_2024": 15
     },
     {
       "farmaco": "octreótide",
@@ -40,7 +43,8 @@
       "dosis": "Neonato: Inicialmente 2-5 mcg/kg c/6- 8h y luego ajustar según respuesta (máx. 7 mcg/kg c/4h). 1 mes-17 años: Inicialmente 1-2 mcg/kg c/4-6h y luego ajustar según respuesta (máx. 7 mcg/kg c/4h). Infusión continua >1 mes: 1 mcg/kg/h (máx. 50 mcg/h)",
       "via": "SC; infusión continua IV, SC",
       "nota": "No se debe mantener más de 24-48 horas",
-      "page": 10
+      "page": 10,
+      "page_2024": 10
     },
     {
       "farmaco": "haloperidol",
@@ -48,7 +52,8 @@
       "dosis": "0.01-0.02 mg/kg/dosis c/8h (máx. dosis inicio 0.5-1 mg)",
       "via": "VO, IV, SC",
       "nota": "",
-      "page": 10
+      "page": 10,
+      "page_2024": 10
     },
     {
       "farmaco": "metoclopramida",
@@ -56,7 +61,8 @@
       "dosis": "En >1 año: 0.1-0.2 mg/kg/dosis c/8h (máx. 10 mg/dosis)",
       "via": "VO, IV (bolo lento, al menos 3 min), SC",
       "nota": "Si aumenta el dolor o se hace cólico y en cualquier caso si no es efectivo se suspenderá.",
-      "page": 10
+      "page": 10,
+      "page_2024": 10
     },
     {
       "farmaco": "clorpromazina",
@@ -64,7 +70,8 @@
       "dosis": "1-5 años: 500 mcg/kg c/4-6h (máx. 40 mg/día) 6-11 años: 10 mg c/8h (máx. 75 mg/día). 12-17 años: 25 mg c/8h Ajustar según respuesta.",
       "via": "IV",
       "nota": "Produce además efecto sedante; puede administrarse en bolos o en infusión continua.",
-      "page": 10
+      "page": 10,
+      "page_2024": 10
     },
     {
       "farmaco": "metilprednisolona",
@@ -72,7 +79,8 @@
       "dosis": "40 mg/m2/día, repartida en 4 dosis",
       "via": "IV",
       "nota": "Si aún no está diagnosticado el tipo de tumor consensuar con Oncología porque puede enmascarar o retrasar el diagnóstico, especialmente en linfomas.",
-      "page": 12
+      "page": 12,
+      "page_2024": 12
     },
     {
       "farmaco": "cloruro mórfico",
@@ -80,7 +88,8 @@
       "dosis": "0,05 mg/Kg vía oral, que se puede repetir cada 4 horas si precisa",
       "via": "VO",
       "nota": "",
-      "page": 12
+      "page": 12,
+      "page_2024": 12
     },
     {
       "farmaco": "midazolam",
@@ -88,7 +97,8 @@
       "dosis": "0,1-0,2 mg/Kg dosis según vía y tolerancia",
       "via": "",
       "nota": "Para ansiolisis mantenida, benzodiacepina de vida media más larga: bromazepam 0,1 mg/kg/dosis cada 8 o 12 horas.",
-      "page": 12
+      "page": 12,
+      "page_2024": 12
     }
   ],
   "banderas_rojas": [

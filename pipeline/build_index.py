@@ -18,7 +18,7 @@ def norm(s: str) -> str:
 
 
 def block_text(b: dict) -> str:
-    if b["t"] == "p":
+    if b["t"] in ("p", "html"):
         return b["x"]
     if b["t"] == "ul":
         return " ".join("• " + i["x"] for i in b["items"])
@@ -97,6 +97,8 @@ def build_drug_index(index: dict) -> dict:
     slugs = [d["slug"] for d in index["docs"]]
     for ci, (di, si, page, text) in enumerate(index["chunks"]):
         nt = norm(text)
+        # palabras partidas por guion de fin de línea en el original («baclo-feno»): solo para detectar
+        nt = nt + " " + re.sub(r"(?<=[a-z])-(?=[a-z])", "", nt)
         for canon, aliases, rx in patterns:
             if rx.search(nt):
                 e = result.setdefault(canon, {"aliases": aliases[1:], "n": 0, "docs": {}})

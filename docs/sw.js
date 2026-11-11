@@ -1,8 +1,8 @@
 // Protocolos PEDPAL — service worker. Generado por pipeline/build.py a partir de sw.template.js
 // (el nombre de caché cambia con cada build de datos → actualización automática).
-const CACHE = "pedpal-protocolos-d81eec9ac8e0";
+const CACHE = "pedpal-protocolos-7346c5c1b7e6-8a1c9bec";
 const CORE = [
-  "./", "./index.html", "./pedpal.css", "./app.css", "./app.js", "./search.js",
+  "./", "./index.html", "./pedpal.css", "./app.css", "./doc.css", "./app.js", "./search.js",
   "./manifest.webmanifest", "./icon.svg", "./icon-192.png", "./icon-512.png",
   "./icon-512-maskable.png", "./apple-touch-icon.png", "./data/sinonimos.json"
 ];
@@ -11,6 +11,7 @@ const DATA = [
   "./data/index.json",
   "./data/farmacos.json",
   "./data/version.json",
+  "./data/vademecum.json",
   "./data/docs/bases-eticas-de-la-toma-de-decisiones-compartidas.json",
   "./data/docs/crisis-disautonomicas.json",
   "./data/docs/cuidados-al-final-de-la-vida-en-neonatologia.json",
@@ -31,6 +32,7 @@ const DATA = [
   "./data/docs/problemas-sistemicos.json",
   "./data/docs/prurito.json",
   "./data/docs/reflujo-gastroesofagico.json",
+  "./data/docs/retirada-de-ventilacion-no-invasiva.json",
   "./data/docs/sedacion-paliativa.json",
   "./data/docs/seguridad-del-paciente-en-cpp-en-ambito-extrahospitalario.json",
   "./data/docs/sialorrea.json",
@@ -42,16 +44,15 @@ const DATA = [
   "./data/docs/valoracion-nutricional.json",
   "./data/docs/via-subcutanea.json",
   "./data/docs/videollamada.json",
-  "./data/docs/vomitos.json",
-  "./data/docs/cuidados-odontologicos-en-el-paciente-pediatrico-cronico.json"
+  "./data/docs/vomitos.json"
 ];
 
 self.addEventListener("install", (e) => {
   e.waitUntil((async () => {
     const c = await caches.open(CACHE);
-    await c.addAll(CORE).catch(() => {});
+    await c.addAll(CORE.map((u) => new Request(u, { cache: "reload" }))).catch(() => {});
     // datos en segundo plano, sin bloquear la instalación si alguno falla
-    await Promise.all(DATA.map((u) => c.add(u).catch(() => {})));
+    await Promise.all(DATA.map((u) => c.add(new Request(u, { cache: "reload" })).catch(() => {})));
   })());
   self.skipWaiting();
 });
@@ -77,8 +78,7 @@ self.addEventListener("fetch", (event) => {
   if (req.mode === "navigate" || url.pathname.endsWith("/data/version.json")) {
     event.respondWith(
       fetch(req).then((res) => {
-        const copy = res.clone();
-        caches.open(CACHE).then((c) => c.put(req, copy)).catch(() => {});
+        if (res.ok) { const copy = res.clone(); caches.open(CACHE).then((c) => c.put(req, copy)).catch(() => {}); }
         return res;
       }).catch(() => caches.match(req).then((r) => r || caches.match("./index.html")))
     );

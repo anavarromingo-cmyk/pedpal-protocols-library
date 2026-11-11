@@ -16,7 +16,8 @@
       "dosis": "Fórmulas de liberación inmediata: 1mes-12 meses: 80-200 mcg/kg cada 4 horas. 1-2 años: 200-400 mcg/kg cada 4 horas. 2-12 años: 200-500 mcg/kg cada 4 horas. Dosis inicial máxima 5 mg. Fórmula de liberación prolongada: 1-12 años: 200-800 mcg/kg cada 12 horas.",
       "via": "VO",
       "nota": "Los comprimidos de liberación retardada no pueden fraccionarse ni administrarse por sondas; las cápsulas de liberación prolongada pueden abrirse y disolverse en agua. Precaución en insuficiencia renal y hepática.",
-      "page": 4
+      "page": 5,
+      "page_2024": 4
     },
     {
       "farmaco": "morfina (parenteral)",
@@ -24,7 +25,8 @@
       "dosis": "Bolos: Neonatos: 25-50 mcg/kg cada 6 horas. 1-6 meses: 100 mcg/kg cada 6 horas, ajustar según respuesta. 6 meses-18 años: 100 mcg/kg cada 4 horas. Máximo inicial 2,5 mg. Perfusión continua: Neonatos: bolo inicial seguido de 5-10 mcg/kg/h. 1-6 meses: bolo inicial seguido de 10-30 mcg/kg/h. 6 meses-18 años: bolo inicial seguido de 20-30 mcg/kg/h.",
       "via": "IV/SC",
       "nota": "Conversión de vía: VO:SC 2:1, VO:IV 3:1.",
-      "page": 4
+      "page": 5,
+      "page_2024": 4
     },
     {
       "farmaco": "fentanilo (parenteral)",
@@ -32,7 +34,8 @@
       "dosis": "Bolos: <2 años: 1-2 mcg/kg/dosis. Se puede repetir cada 2-4 horas. >2 años: 1-2 mcg/kg/dosis. Se puede repetir cada 30-60 minutos. Perfusión continua: <2 años: bolo inicial de 1-2 mcg/kg seguido de perfusión 0,5-1 mcg/kg/h. >2 años: bolo inicial de 1-2 mcg/kg seguido de perfusión 1 mcg/kg/h.",
       "via": "IV/SC",
       "nota": "Inicio de acción más rápido y efecto más breve que la morfina. Precaución en disfunción hepática.",
-      "page": 5
+      "page": 6,
+      "page_2024": 5
     },
     {
       "farmaco": "fentanilo (transbucal e intranasal)",
@@ -40,7 +43,8 @@
       "dosis": "Transbucal: en niños mayores de 2 años y más de 10 kg de peso a dosis de 10-15 mcg/kg. Se puede repetir la administración a los 30 minutos. Intranasal: 1-3 mcg/kg/dosis (máximo 50 mcg/dosis).",
       "via": "transbucal/intranasal",
       "nota": "Si el dolor no cede a pesar de dos dosis transbucales, incrementar a la siguiente presentación. Volumen tolerado por vía nasal 0,1 a 0,5 ml.",
-      "page": 5
+      "page": 6,
+      "page_2024": 5
     },
     {
       "farmaco": "fentanilo transdérmico",
@@ -48,7 +52,8 @@
       "dosis": "niños mayores de 2 años que toleran bien los opioides y que están recibiendo como mínimo el equivalente a 45- 60 mg diarios de morfina oral. Los parches deben cambiarse cada 72 horas y la dosis se puede incrementar cada tres días",
       "via": "transdérmica",
       "nota": "Algunos pacientes sufren síntomas de abstinencia con el cambio; puede ser útil morfina de rescate. Fentanilo transdérmico (mcg/h) x 2,4 = dosis en mg de morfina oral en 24 horas.",
-      "page": 5
+      "page": 6,
+      "page_2024": 5
     },
     {
       "farmaco": "hidromorfona",
@@ -56,7 +61,8 @@
       "dosis": "oral con formulaciones de liberación inmediata, en pacientes por encima de 1 año que nunca han estado expuestos a opioides es 30- 80 mcg/kg/dosis (máximo 2 mg por dosis) cada 3-4 horas. En niños mayores de 12 años pueden administrarse cápsulas de liberación prolongada iniciando por 4 mg cada 12 horas. La dosis por vía subcutánea o intravenosa para pacientes mayores de 1 año que nunca han recibido opioides es 15 mcg/kg/dosis pudiendo repetirse cada 3-6 horas.",
       "via": "VO/SC/IV",
       "nota": "Morfina a hidromorfona 5:1; hidromorfona a morfina 1:4. Al pasar de IV a oral puede ser necesario aumentar la dosis oral hasta cinco veces. Ajuste en insuficiencia renal y hepática.",
-      "page": 7
+      "page": 8,
+      "page_2024": 7
     },
     {
       "farmaco": "metadona",
@@ -64,7 +70,8 @@
       "dosis": "Inicio: 100-200 mcg/kg cada 4 horas las 2-3 primeras dosis, seguido de 100-200 mcg/kg cada 6-12 horas. Inicialmente máximo 5 mg por dosis.",
       "via": "VO/IV/SC",
       "nota": "Puede ser necesario reducir la dosis un 50% en los 2-3 días después de alcanzar la dosis eficaz; aumentos posteriores de un 50% como máximo a intervalos de una semana o más. Riesgo de acumulación y toxicidad; alarga el QT.",
-      "page": 7
+      "page": 9,
+      "page_2024": 7
     },
     {
       "farmaco": "oxicodona",
@@ -72,7 +79,8 @@
       "dosis": "1 mes a 1 año: 50-125 mcg/kg cada 4 horas. 1 año a 12 años: 125-200 mcg/kg cada 4 horas (máximo de 5 mg). Mayores de 12 años comenzarán con 5 mg cada 4-6 horas y se irá incrementando la dosis si es necesario.",
       "via": "VO",
       "nota": "Liberación prolongada en mayores de 8 años a 5 mg cada 12 horas. Conversión morfina oral a oxicodona oral 1,5:1. Ajuste en insuficiencia renal y hepática.",
-      "page": 8
+      "page": 9,
+      "page_2024": 8
     },
     {
       "farmaco": "naloxona",
@@ -80,7 +88,8 @@
       "dosis": "La dosis indicada en niños por vía intravenosa es de 10 mcg/kg. Si no hay respuesta podría repetirse cada 2-3 minutos hasta reversión de los síntomas. Tras esta respuesta inicial puede ser necesario administrar la dosis intravenosa cada 20-60 minutos debido a la corta duración de su efecto.",
       "via": "IV",
       "nota": "Precaución por el riesgo de síndrome de abstinencia y reaparición del dolor.",
-      "page": 9
+      "page": 10,
+      "page_2024": 9
     },
     {
       "farmaco": "metilnaltrexona",
@@ -88,7 +97,8 @@
       "dosis": "Para niños con peso inferior a 38 kg la dosis sería 150 mcg/kg/48 horas. En caso de niños con peso entre 38-62 kg la dosis sería 8 mg/48 horas. Y para peso superior a 62 kg la dosis sería 12 mg/48 horas.",
       "via": "SC",
       "nota": "No atraviesa la barrera hematoencefálica (no genera abstinencia). No debe usarse en casos de obstrucción intestinal.",
-      "page": 9
+      "page": 10,
+      "page_2024": 9
     }
   ],
   "banderas_rojas": [

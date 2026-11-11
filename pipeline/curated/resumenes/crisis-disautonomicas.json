@@ -16,7 +16,8 @@
       "dosis": "Vía oral 0.2-0.5 mg/kg/4-6 h. Vía sc o im 0.1-0.2 mg/kg cada 4 horas (máximo 15 mg/24h). Vía iv lenta 0.05 – 0.1 mg/kg/4h (máximo 15 mg/24 h). Perfusión 0.04 -0.07 mg/kg/h",
       "via": "VO/SC/IM/IV",
       "nota": "Efectos secundarios: nauseas, vómitos, estreñimiento, depresión SNC, depresión respiratoria, convulsiones, íleo paralítico, retención urinaria, hipotensión. Su efectividad se ha propuesto como criterio diagnóstico.",
-      "page": 3
+      "page": 4,
+      "page_2024": 3
     },
     {
       "farmaco": "baclofeno",
@@ -24,7 +25,8 @@
       "dosis": "Vía oral: 2,5-5 mg/día (3 tomas), aumento gradual semanal hasta máximo 30 mg/día (2-7 años) y 60 mg/día en mayores de 8 años",
       "via": "VO",
       "nota": "Efectos secundarios: somnolencia, mareo, debilidad, confusión, hipotensión, nauseas, toxicidad renal.",
-      "page": 3
+      "page": 4,
+      "page_2024": 3
     },
     {
       "farmaco": "clonazepam (benzodiacepinas)",
@@ -32,7 +34,8 @@
       "dosis": "Vía oral: Inicial 0.01- 0.03mg/kg/día en 3 dosis. Mantenimiento 0.1-0.2 mg/kg/día en 3 dosis. Dosis máxima 20 mg/día",
       "via": "VO",
       "nota": "Efectos secundarios: somnolencia, mareo, vértigos, torpeza motora, ataxia, bradilalia y alteraciones conductuales.",
-      "page": 3
+      "page": 4,
+      "page_2024": 3
     },
     {
       "farmaco": "clonidina",
@@ -40,7 +43,8 @@
       "dosis": "Vía oral: 5- 60mcg/kg/día cada 8- 12 h. Se puede incrementar hasta dosis máxima 900 mcg/día",
       "via": "VO",
       "nota": "Efectos secundarios: sequedad de boca, letargia, sedación, depresión, bradicardia, hipotensión, mareo, estreñimiento, Raynaud.",
-      "page": 4
+      "page": 4,
+      "page_2024": 4
     },
     {
       "farmaco": "propranolol (β agonista según el texto)",
@@ -48,7 +52,8 @@
       "dosis": "Vía oral: 0.5 -2 mg/kg/día cada 6-12 h",
       "via": "VO",
       "nota": "Efectos secundarios: bradicardia, hipoglucemia, terrores nocturnos, sincopes, ataxia, eosinofilia y citopenia.",
-      "page": 4
+      "page": 4,
+      "page_2024": 4
     },
     {
       "farmaco": "gabapentina",
@@ -56,7 +61,8 @@
       "dosis": "Vía oral: 1º día:5 mg/kg noche 2º día 5mg/kg/12 h 3ºdía 5mg/kg/8h. Mantenimiento 8-35 mg/kg/día en 3 dosis",
       "via": "VO",
       "nota": "Efectos secundarios: somnolencia, mareos, ataxia, cefalea, temblores y parestesias. En casos puntuales ha mejorado disautonomía, agitación y espasticidad resistentes a múltiples fármacos.",
-      "page": 4
+      "page": 4,
+      "page_2024": 4
     },
     {
       "farmaco": "ciproheptadina",
@@ -64,7 +70,8 @@
       "dosis": "Vía oral 0.25-0.5 mg/kg/día cada 8-12 horas 2-6 años (máx 12 mg/día) 7-14 años (máx 16 mg/día)",
       "via": "VO",
       "nota": "Efectos secundarios: sedación, taquicardia, palpitaciones, astenia, temblor, nerviosismo, aumento de apetito. Mejoría apreciada en casos con predominio de hipotermia.",
-      "page": 4
+      "page": 4,
+      "page_2024": 4
     },
     {
       "farmaco": "dantroleno",
@@ -72,7 +79,8 @@
       "dosis": "Vía oral: Dosis inicio 1 mg/kg/día (en dos tomas). Incrementos semanales de 0,5 mg/kg/día hasta dosis de mantenimiento: 2 mg/kg/dosis en tres tomas al día. Dosis máxima diaria: 400 mg/día",
       "via": "VO",
       "nota": "Medicamento extranjero no comercializado en España. Efectos secundarios: somnolencia, vértigo, fatiga, insomnio, falta de coordinación, confusión, vómitos, estreñimiento, diarrea.",
-      "page": 4
+      "page": 4,
+      "page_2024": 4
     }
   ],
   "banderas_rojas": [
