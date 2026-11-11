@@ -53,6 +53,7 @@
     <input type="search" id="q-protocolos" placeholder="Filtrar por título, síntoma o fármaco…" autocomplete="off" enterkeyhint="search">
     <button type="button" class="clear" id="q-protocolos-clear" aria-label="Borrar filtro" hidden>&times;</button>
   </div>
+  <p class="small estado-prot">Protocolos en su versión original (2024), pendientes de revisión clínica por PEDPAL. <a href="#info">Más información</a></p>
   <div class="chips" id="area-chips" role="group" aria-label="Áreas clínicas"></div>
   <div id="novedades" hidden></div>
   <div class="count" id="protocolos-count" aria-live="polite"></div>
@@ -107,7 +108,7 @@
 <section class="panel" id="farmacos" role="tabpanel" aria-labelledby="t-farmacos" hidden>
   <div class="lede">
     <h2>Vademécum PEDPAL y fármacos</h2>
-    <p>Para cada fármaco: las pautas del <strong>Vademécum PEDPAL</strong>, extraídas mediante IA de los protocolos aprobados (pendientes de revisión por PEDPAL; las cifras se comprueban automáticamente contra el texto del protocolo), y los pasajes de los protocolos donde se menciona. Verifique siempre la dosis en el protocolo original y en la ficha técnica.</p>
+    <p>Para cada fármaco: las pautas del <strong>Vademécum PEDPAL</strong>, extraídas mediante IA de los protocolos PEDPAL (pendientes de revisión por PEDPAL; las cifras se comprueban automáticamente contra el texto del protocolo), y los pasajes de los protocolos donde se menciona. Verifique siempre la dosis en el protocolo original y en la ficha técnica.</p>
   </div>
   <div class="searchbar">
     <label class="sr-only" for="q-farmacos">Buscar fármaco</label>
@@ -157,10 +158,10 @@
   <div class="box">
     <h3>Cómo se genera el contenido</h3>
     <ul class="plain">
-      <li><strong>Texto, tablas y figuras:</strong> idénticos a los protocolos publicados por PEDPAL en su versión maquetada y aprobada de 2026. Si PEDPAL publica un PDF nuevo antes de que se incorpore, ese protocolo se muestra con extracción automática y se indica en su ficha.</li>
+      <li><strong>Texto, tablas y figuras:</strong> idénticos a los protocolos publicados por PEDPAL. En 2026 se han maquetado de nuevo con la identidad de PEDPAL <strong>sin cambiar su contenido</strong>, que corresponde a la versión original (2024) y está pendiente de revisión clínica. Si PEDPAL publica un PDF nuevo antes de que se incorpore, ese protocolo se muestra con extracción automática y se indica en su ficha.</li>
       <li><strong>Resumen rápido y fármacos clave:</strong> borrador extractivo generado con IA a partir del texto del propio protocolo, con página de referencia. Cada resumen indica si está «pendiente de revisión» o «revisado por PEDPAL»: úselo como índice, no como fuente.</li>
       <li><strong>Algoritmos resumidos:</strong> elaboración propia (A. Navarro, 2025-2026) a partir de los protocolos; cada uno indica si está revisado por PEDPAL.</li>
-      <li><strong>Vademécum PEDPAL:</strong> pautas de cada fármaco extraídas mediante IA de los protocolos aprobados. Se comprueba automáticamente que la cita es literal y que sus cifras están en el protocolo (se descarta la pauta que no lo cumple); cuando la dosis se ha reconstruido a partir de varias celdas de una tabla, se indica. Cada pauta muestra su página y su texto literal, y si está revisada por PEDPAL.</li>
+      <li><strong>Vademécum PEDPAL:</strong> pautas de cada fármaco extraídas mediante IA de los protocolos. Se comprueba automáticamente que la cita es literal y que sus cifras están en el protocolo (se descarta la pauta que no lo cumple); cuando la dosis se ha reconstruido a partir de varias celdas de una tabla, se indica. Cada pauta muestra su página y su texto literal, y si está revisada por PEDPAL.</li>
       <li><strong>Búsqueda:</strong> índice local (BM25 con sinónimos clínicos), en su dispositivo. Solo la respuesta con IA, si usted la activa, se comunica con un servidor externo.</li>
     </ul>
   </div>
@@ -195,6 +196,7 @@
   </div>
   <div class="box flat">
     <h3>Aviso</h3>
+    <p class="small"><strong>Estado de los protocolos:</strong> los protocolos corresponden a su versión original (2024) y están pendientes de revisión y actualización clínica por PEDPAL; algunas recomendaciones o dosis pueden no reflejar la evidencia más reciente. «Retirada de ventilación no invasiva» es un protocolo nuevo (versión 1.1, 2026).</p>
     <p class="small">Herramienta de apoyo para profesionales. No sustituye el juicio clínico ni la prescripción individualizada. Las dosis deben comprobarse en el protocolo original y en la ficha técnica. Los protocolos son propiedad intelectual de PEDPAL y de sus autores.</p>
   </div>
   <div class="box">

@@ -150,7 +150,7 @@ def main() -> int:
     (VD / "verificado.json").write_text(json.dumps({"entradas": todas}, ensure_ascii=False, indent=1), encoding="utf-8")
     out = {
         "titulo": "Vademécum PEDPAL",
-        "aviso": "Información extraída mediante IA de los protocolos PEDPAL aprobados (2026) y verificada automáticamente contra su texto literal. "
+        "aviso": "Información extraída mediante IA de los protocolos PEDPAL (contenido de su versión original, pendiente de revisión clínica) y verificada automáticamente contra su texto literal. "
                  "No sustituye al protocolo ni a la ficha técnica: compruebe siempre la dosis en el protocolo original.",
         "generado": {"fecha": dt.date.today().isoformat(), "metodo": "Extracción con IA (Claude) + verificación literal automática", "revisado": False},
         "farmacos": dict(sorted(buenas.items(), key=lambda kv: fold(kv[0]))),

@@ -247,3 +247,5 @@ a.pdf { min-height: 28px; display: inline-flex; align-items: center; }
 .pp-doc figure.fig img:focus-visible { outline: 2px solid var(--pp-ink); outline-offset: 2px; }
 @media (max-width: 640px) { .ai-settings .row { grid-template-columns: 1fr; } }
 .detail > .vad .callout { margin: 0; }
+
+.estado-prot { margin: 4px 0 8px; color: var(--pp-ink-muted); }

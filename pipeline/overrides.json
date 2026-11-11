@@ -176,5 +176,40 @@
       "icon": "file"
     }
   },
-  "_nota_odontologia": "2026-11-11: el PDF de odontología ya no está en pedpal.es (404) y no forma parte de la renovación 2026; se excluye hasta que PEDPAL decida."
+  "_nota_odontologia": "2026-11-11: el PDF de odontología ya no está en pedpal.es (404) y no forma parte de la renovación 2026; se excluye hasta que PEDPAL decida.",
+  "remaquetados_2026": [
+    "bases-eticas-de-la-toma-de-decisiones-compartidas",
+    "crisis-disautonomicas",
+    "cuidados-al-final-de-la-vida-en-neonatologia",
+    "cuidados-paliativos-neonatales-fallecimiento-paritorio",
+    "disnea-y-estertores",
+    "dispositivos-de-soporte-nutricional",
+    "espasticidad",
+    "estrenimiento-en-el-paciente-pediatrico",
+    "generalidades-clasificacion-y-causas-del-dolor-en-cpp",
+    "irritabilidad-y-agitacion",
+    "lesiones-por-presion",
+    "manejo-sintomatico-al-final-de-la-vida",
+    "manejo-y-cuidados-de-la-traqueostomia-en-domicilio",
+    "nutricion-enteral-domiciliaria",
+    "nutricion-parenteral-domiciliaria",
+    "problemas-nutricionales-malnutricion",
+    "problemas-oculares",
+    "problemas-sistemicos",
+    "prurito",
+    "reflujo-gastroesofagico",
+    "sedacion-paliativa",
+    "seguridad-del-paciente-en-cpp-en-ambito-extrahospitalario",
+    "sialorrea",
+    "status-epileptico",
+    "terapias-respiratorias",
+    "trastornos-de-la-deglucion",
+    "urgencias-en-cuidados-paliativos",
+    "uso-de-opioides",
+    "valoracion-nutricional",
+    "via-subcutanea",
+    "videollamada",
+    "vomitos"
+  ],
+  "_nota_remaquetados": "Noviembre 2026: remaquetación con la identidad PEDPAL SIN cambios de contenido (versión 2024, pendiente de revisión clínica). No se marcan como «Actualizado». Quitar un slug de la lista cuando se publique su revisión clínica."
 }

@@ -24,6 +24,9 @@ FIG_DIR = DATA / "fig"
 CACHE = HERE / "cache" / "pdf"
 CURATED = HERE / "curated"
 APROBADOS = HERE / "aprobados"
+# Protocolos cuyo PDF cambió en nov-2026 SOLO por la remaquetación (mismo contenido de 2024): no son «Actualizados».
+# Al publicar una revisión clínica real de un protocolo, quitarlo de esta lista.
+REMAQUETADOS = set(json.loads((HERE / "overrides.json").read_text(encoding="utf-8")).get("remaquetados_2026", []))
 sys.path.insert(0, str(HERE))
 from catalog import build_catalog, UA  # noqa: E402
 from extract import extract  # noqa: E402
@@ -155,7 +158,8 @@ def main() -> int:
             c["nuevo_desde"] = today if prev else (c.get("fecha_subida") or today)
         else:
             c["nuevo_desde"] = p.get("nuevo_desde")
-            if p.get("sha256") and p["sha256"] != c["sha256"]:
+            relayout = c.get("fuente") == "aprobado-2026" and p.get("fuente") != "aprobado-2026"
+            if p.get("sha256") and p["sha256"] != c["sha256"] and not relayout and c["slug"] not in REMAQUETADOS:
                 c["actualizado"] = today
             else:
                 c["actualizado"] = p.get("actualizado")

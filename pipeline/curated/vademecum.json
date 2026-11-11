@@ -1,6 +1,6 @@
 {
  "titulo": "Vademécum PEDPAL",
- "aviso": "Información extraída mediante IA de los protocolos PEDPAL aprobados (2026) y verificada automáticamente contra su texto literal. No sustituye al protocolo ni a la ficha técnica: compruebe siempre la dosis en el protocolo original.",
+ "aviso": "Información extraída mediante IA de los protocolos PEDPAL (contenido de su versión original, pendiente de revisión clínica) y verificada automáticamente contra su texto literal. No sustituye al protocolo ni a la ficha técnica: compruebe siempre la dosis en el protocolo original.",
  "generado": {
   "fecha": "2026-11-12",
   "metodo": "Extracción con IA (Claude) + verificación literal automática",

@@ -295,7 +295,7 @@
       </dl>
       <div class="actions"><a class="btn btn-primary" href="${esc(doc.url)}" target="_blank" rel="noopener">Abrir PDF original</a><button type="button" class="btn btn-outline" data-act="fav">${state.fav.has(p.slug) ? "★ Guardado" : "☆ Guardar"}</button></div>
       <p class="foot-note">${doc.fuente === "aprobado-2026"
-        ? "Texto idéntico al del protocolo publicado por PEDPAL (maquetación aprobada 2026), con sus tablas y figuras. Las páginas citadas son las del PDF de pedpal.es."
+        ? "Texto idéntico al del protocolo publicado por PEDPAL, con sus tablas y figuras (maquetación 2026 sin cambios de contenido). Las páginas citadas son las del PDF de pedpal.es. " + (p.slug === "retirada-de-ventilacion-no-invasiva" ? "Protocolo nuevo (versión 1.1, 2026)." : "Contenido de la versión original de los protocolos (2024), pendiente de revisión y actualización clínica por PEDPAL.")
         : "Texto extraído automáticamente del PDF; la estructura puede contener imperfecciones. Ante cualquier duda, el PDF original prevalece."}</p></article>`, "meta");
     // 2. resumen IA
     const r = doc.resumen;
