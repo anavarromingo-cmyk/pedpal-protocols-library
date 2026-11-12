@@ -12,7 +12,7 @@
   "farmacos_clave": [],
   "banderas_rojas": [
     "La barrera idiomática es un factor limitante de la visita virtual (se pierde comunicación no verbal); valorar la participación de un mediador intercultural.",
-    "En pacientes de reciente ingreso en la unidad, valorar con el equipo referente la modalidad virtual frente a la presencial para generar fidelización y seguridad.",
+    "En el caso de pacientes que no estén vinculados a la unidad (de reciente ingreso en la unidad), es necesario valorar con el equipo referente la modalidad virtual frente a la presencial en pro de poder generar fidelización y seguridad en el paciente y su familia.",
     "Si no se han cubierto las expectativas de la visita, plantear visita presencial.",
     "Requiere manejo correcto de dispositivos móviles, conexión a internet estable y dispositivo compatible por parte de la familia."
   ],
@@ -31,6 +31,8 @@
     "modelo": "Claude Fable 5.1",
     "fecha": "2026-11-07",
     "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "revisado": true,
+    "revisado_por": "Alvaro Navarro",
+    "revisado_fecha": "2026-11-12"
   }
 }

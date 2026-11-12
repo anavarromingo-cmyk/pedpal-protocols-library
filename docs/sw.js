@@ -1,6 +1,6 @@
 // Protocolos PEDPAL — service worker. Generado por pipeline/build.py a partir de sw.template.js
 // (el nombre de caché cambia con cada build de datos → actualización automática).
-const CACHE = "pedpal-protocolos-fe53d9370cc2-844617de";
+const CACHE = "pedpal-protocolos-782b202c68a0-844617de";
 const CORE = [
   "./", "./index.html", "./pedpal.css", "./app.css", "./doc.css", "./app.js", "./search.js",
   "./manifest.webmanifest", "./icon.svg", "./icon-192.png", "./icon-512.png",
