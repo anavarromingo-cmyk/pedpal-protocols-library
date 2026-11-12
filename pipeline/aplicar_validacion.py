@@ -21,6 +21,14 @@ from pathlib import Path
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 CUR = HERE / "curated"
+INSTRUCCION = __import__("re").compile(r"^\s*(añadir|anadir|quitar|eliminar|cambiar|incluir|poner|sustituir|revisar|corregir|completar|matizar|ampliar|reducir|mover)\b", __import__("re").I)
+
+
+def es_instruccion(t: str) -> bool:
+    """«Añadir la excepción…» es una indicación para el editor, no el texto final: no se aplica a ciegas."""
+    return bool(INSTRUCCION.match(t or "")) or len((t or "").strip()) < 25
+
+
 def huella(t: str) -> str:
     """Igual que en revision_plantilla.html (FNV-1a 32 bits sobre puntos de código)."""
     h = 0x811C9DC5
@@ -80,7 +88,7 @@ def main() -> int:
                 if d["estado"] == "del":
                     borrar.setdefault(CAMPO[t], []).append(idx)
                 elif d["estado"] == "fix" and d.get("correccion", "").strip():
-                    if t == "farmaco":
+                    if t == "farmaco" or es_instruccion(d["correccion"]):
                         manual.append(f"- {slug} · {iid}: {d['correccion'].strip()}")
                         pend_res = True
                     elif t == "frase":
@@ -118,6 +126,9 @@ def main() -> int:
                     pend = True
                 elif d["estado"] == "del":
                     quitar.append(pi)
+                elif d["estado"] == "fix" and d.get("correccion", "").strip() and es_instruccion(d["correccion"]):
+                    manual.append(f"- {slug} · alg_paso:{ai}.{pi}: {d['correccion'].strip()}")
+                    pend = True
                 elif d["estado"] == "fix" and d.get("correccion", "").strip():
                     paso["x"] = d["correccion"].strip()
                 elif d["estado"] == "fix":

@@ -44,7 +44,7 @@
   "bases-eticas-de-la-toma-de-decisiones-compartidas": [
     {
       "nombre": "Toma de Decisiones Compartidas (Modelo Opel DJ)",
-      "objetivo": "Facilitar la toma de decisiones éticas en situaciones de limitación del esfuerzo terapéutico",
+      "objetivo": "Facilitar la toma de decisiones éticas en situaciones de adecuación del esfuerzo terapéutico",
       "poblacion": "Todas las edades en situación de decisión clínica compleja",
       "pasos": [
         {
@@ -57,7 +57,7 @@
         },
         {
           "paso": "3",
-          "x": "Presentación de opciones alineadas con mejor interés del paciente"
+          "x": "Si existe una opción más beneficiosa para el niño, el pediatra es responsable de guiar la discusión y tener un rol más activo en la toma de decisiones."
         },
         {
           "paso": "4",
