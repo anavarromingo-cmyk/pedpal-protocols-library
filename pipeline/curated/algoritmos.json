@@ -64,7 +64,10 @@
           "x": "Consenso, documentación y revisión periódica del plan"
         }
       ],
-      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original."
+      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original.",
+      "revisado": true,
+      "revisado_por": "Alvaro Navarro",
+      "revisado_fecha": "2026-11-12"
     }
   ],
   "cuidados-al-final-de-la-vida-en-neonatologia": [
