@@ -2,7 +2,7 @@
 
 - Protocolos en catálogo: **33** (web: 33, PDFs en mediateca: 75)
 - Pasajes indexados: 1996 · fármacos detectados: 152 · figuras: 163 (11.8 MB)
-- Hash de contenido: `782b202c68a0` (build 2026-11-12T00:31:59Z)
+- Hash de contenido: `ab3935b5c1f3` (build 2026-11-12T00:33:34Z)
 
 ## Retirados de la web
 - cuidados-odontologicos-en-el-paciente-pediatrico-cronico
