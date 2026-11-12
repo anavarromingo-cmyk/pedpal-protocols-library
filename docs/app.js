@@ -603,8 +603,18 @@
     const headers = P.tipo === "anthropic"
       ? { "x-api-key": conf.key, "anthropic-version": "2026-10-21", "anthropic-dangerous-direct-browser-access": "true" }
       : (conf.key ? { authorization: "Bearer " + conf.key } : {});
-    const r = await fetch(conf.base.replace(/\/$/, "") + "/models", { headers });
-    if (!r.ok) throw new Error(r.status === 401 || r.status === 403 ? "Clave no válida." : `Error ${r.status} al listar modelos`);
+    let r = await fetch(conf.base.replace(/\/$/, "") + "/models", { headers });
+    if (!r.ok && id === "gemini" && r.status !== 401 && r.status !== 403) {
+      // alternativa: listado nativo de Gemini (misma clave, cabecera propia)
+      const r2 = await fetch("https://generativelanguage.googleapis.com/v1beta/models?pageSize=200", { headers: { "x-goog-api-key": conf.key } }).catch(() => null);
+      if (r2 && r2.ok) r = r2;
+    }
+    if (!r.ok) {
+      const e = await r.json().catch(() => ({}));
+      const det = String((e.error && (e.error.message || e.error)) || e.message || "");
+      if (r.status === 401 || r.status === 403 || /api.?key|clave|unauthori[sz]ed|invalid.*key/i.test(det)) throw new Error("La clave no es válida para este proveedor. Compruebe que la ha copiado entera, sin espacios, y que es del proveedor elegido.");
+      throw new Error(`El proveedor respondió con un error (${r.status})${det ? ": " + det.slice(0, 160) : ""}. Puede escribir el nombre del modelo a mano y pulsar «Probar conexión».`);
+    }
     const j = await r.json();
     let ids = (j.data || j.models || []).map((m) => (m.id || m.name || "").replace(/^models\//, "")).filter(Boolean);
     if (P.soloGratis) ids = ids.filter((x) => /:free$/.test(x));
@@ -660,12 +670,13 @@
       $("#ai-base-row").hidden = !P.editarBase; $("#ai-base").value = c.base;
       $("#ai-model").value = c.model;
       $("#ai-model-list").innerHTML = P.sugeridos.map((m) => `<option value="${esc(m)}">`).join("");
+      $("#ai-model-sel-row").hidden = true; $("#ai-model-sel").innerHTML = "";
       $("#ai-help").href = "#info-ia-" + id;
       $("#ai-status").textContent = P.coste + (P.gratis ? ". En el plan gratuito los datos pueden usarse para entrenar modelos: no introduzca datos de pacientes." : "") + (id === "local" ? ". Solo en ordenador; comete más errores que los modelos grandes." : "");
     }
     function read() {
       const id = sel.value, P = AI_PROVIDERS[id];
-      return { id, P, conf: { key: $("#ai-key").value.trim(), model: $("#ai-model").value.trim(), base: P.editarBase ? ($("#ai-base").value.trim() || P.base) : P.base } };
+      return { id, P, conf: { key: $("#ai-key").value.replace(/[\s"'«»]/g, ""), model: $("#ai-model").value.trim(), base: P.editarBase ? ($("#ai-base").value.trim() || P.base) : P.base } };
     }
     fill(aiProv());
     window.__ppFillAI = () => fill(aiProv());
@@ -677,10 +688,21 @@
       try {
         const ids = await aiModels(id, conf);
         $("#ai-model-list").innerHTML = ids.map((m) => `<option value="${esc(m)}">`).join("");
-        st.textContent = ids.length ? `${ids.length} modelos disponibles: toca el campo «Modelo» para elegir.` : "No se encontraron modelos.";
-        if (ids.length && !conf.model) $("#ai-model").value = ids[0];
-      } catch (e) { st.textContent = e instanceof TypeError ? "No se pudo conectar (revisa la dirección o el permiso de acceso)." : e.message; }
+        const sel = $("#ai-model-sel");
+        if (ids.length) {
+          const cur = $("#ai-model").value.trim();
+          const pref = ids.includes(cur) ? cur : (P.sugeridos.find((m) => ids.includes(m)) || ids[0]);
+          sel.innerHTML = ids.map((m) => `<option value="${esc(m)}"${m === pref ? " selected" : ""}>${esc(m)}</option>`).join("");
+          $("#ai-model-sel-row").hidden = false;
+          $("#ai-model").value = pref;
+          st.textContent = `${ids.length} modelos disponibles. Elija uno en «Modelo disponible» y pulse «Probar conexión».`;
+        } else {
+          $("#ai-model-sel-row").hidden = true;
+          st.textContent = P.soloGratis ? "No hay modelos gratuitos disponibles ahora mismo con esta clave." : "El proveedor no devolvió modelos. Puede escribir el nombre a mano.";
+        }
+      } catch (e) { $("#ai-model-sel-row").hidden = true; st.textContent = e instanceof TypeError ? (id === "local" ? "No se pudo conectar con el modelo local: compruebe que Ollama/LM Studio está abierto y que ha autorizado esta web (Info → «Respuestas con IA»)." : "No se pudo conectar con el proveedor. Compruebe la conexión a internet.") : e.message; }
     });
+    $("#ai-model-sel").addEventListener("change", (e) => { $("#ai-model").value = e.target.value; });
     $("#ai-test").addEventListener("click", async () => {
       const { id, P, conf } = read(), st = $("#ai-status");
       if (!P.sinClave && !conf.key) { st.textContent = "Escribe primero la clave."; return; }
