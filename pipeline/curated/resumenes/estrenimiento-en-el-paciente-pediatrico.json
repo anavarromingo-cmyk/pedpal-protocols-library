@@ -1,130 +1,130 @@
 {
   "slug": "estrenimiento-en-el-paciente-pediatrico",
-  "en_una_frase": "Definición, diagnóstico, prevención y tratamiento escalonado del estreñimiento en niños con enfermedad crónica compleja o en cuidados paliativos, incluido el inducido por opioides.",
+  "en_una_frase": "Definición, diagnóstico, prevención y tratamiento del estreñimiento en niños con enfermedad crónica compleja y necesidades paliativas, incluidos el final de vida y el estreñimiento inducido por opioides.",
   "puntos_clave": [
-    "El estreñimiento es la dificultad para expulsar las heces; la frecuencia de evacuación no lo define. Se debe esperar estreñimiento en todos los niños que reciban opioides.",
-    "Objetivo: heces blandas (Bristol 4-5) cada 2-3 días sin esfuerzo y sin dolor abdominal o rectal, con laxantes en monoterapia o asociados con distintos mecanismos de acción.",
-    "Primer escalón: laxantes osmóticos, polietilenglicol de elección (mejor tolerado que lactulosa o lactitol); segundo escalón: estimulantes (senna, bisacodilo, picosulfato).",
-    "Descartar fecaloma antes de iniciar el tratamiento; en caso de fecaloma pueden usarse laxantes por vía rectal, y los estimulantes exacerbarían los calambres.",
-    "En el estreñimiento inducido por opioides iniciar directamente la profilaxis combinando laxantes estimulantes con ablandadores de heces y considerar el cambio de opioide.",
-    "En situación de final de vida, con ingesta de líquidos disminuida, se pueden suspender los laxantes orales y usar supositorios puntuales (citrato sódico, de pequeño volumen)."
-  ],
-  "farmacos_clave": [
     {
-      "farmaco": "polietilenglicol (macrogol)",
-      "indicacion": "laxante osmótico de elección: desimpactación y mantenimiento",
-      "dosis": "DESIMPACTACIÓN: Inicio: 0,5 hasta 1,5 g/kg/día En 1 o 2 tomas, separadas 6 h. Duración: 3-7 días. MANTENIMIENTO: 0,2- 0,8 g/kg/día. En 1 o 2 tomas, separadas 6 h. Durante 3-6 meses. DOSIS MÁXIMA: 1-5 años: 50g/día. 5-12 años: 75 g/día. >12 años: 100g/día.",
-      "via": "VO",
-      "nota": "Inicia su acción entre las 24 y 48 horas. Presentaciones sin electrolitos (Casenlax) o con electrolitos (Movicol, Macrogol 4000 Sandoz). Ajustar la dosis semanalmente hasta el efecto deseado.",
-      "page": 7,
-      "page_2024": 5
+      "x": "El estreñimiento es la dificultad para la expulsión de las heces; puede asociar dolor abdominal, anorexia, náuseas, vómitos, diarrea por rebosamiento y disfunción vesical. La frecuencia de evacuación no lo define.",
+      "cita": "El estreñimiento constituye la dificultad para la expulsión de las heces, pudiendo asociar dolor abdominal, anorexia, náuseas, vómitos, diarrea por rebosamiento y disfunción vesical. La frecuencia de evacuación es diferente dependiendo el niño y por tanto no define el estreñimiento.",
+      "page": 1,
+      "auto": true
     },
     {
-      "farmaco": "lactulosa",
-      "indicacion": "laxante osmótico; desimpactación y mantenimiento",
-      "dosis": "DESIMPACTACIÓN (>2 años): 1-4 ml/kg/día en 1-3 dosis (máx. 30ml/día) MANTENIMIENTO (>1 año): 1-2 ml/kg/día en 1-3 dosis (máx. 30ml/día) EDAD MÍNIMA: 1 año",
-      "via": "VO",
-      "nota": "Azúcares sintéticos no absorbibles cuya fermentación origina meteorismo; mayor flatulencia y distensión abdominal que el polietilenglicol.",
+      "x": "Los opioides retrasan el vaciamiento gástrico y el tránsito de las heces y aumentan el tono del esfínter anal: al iniciarlos hay que considerar siempre la prevención primaria.",
+      "cita": "Los opioides van a retrasar el vaciamiento gástrico, el tránsito de las heces a través del intestino delgado y grueso y aumentan el tono del esfínter anal por lo que en el caso de iniciar fármacos de este tipo debemos considerar siempre la prevención primaria.",
+      "page": 13,
+      "auto": true
+    },
+    {
+      "x": "Objetivo del tratamiento: heces de consistencia blanda (Bristol 4-5) cada 2-3 días, sin esfuerzo para la defecación y con remisión total del dolor abdominal o rectal.",
+      "cita": "El objetivo del tratamiento es lograr emisión de heces de consistencia blanda (Bristol 4-5) cada 2-3 días, sin tener que realizar esfuerzo para la defecación ylogrando la remisión total del dolor abdominal o rectal concomitante, haciendo uso si fuera preciso, de tratamiento local tópico anal.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Antes de iniciar el tratamiento, descartar la existencia de fecaloma; en caso de fecaloma pueden usarse laxantes por vía rectal.",
+      "cita": "Es importante descartar, previo inicio del tratamiento para el estreñimiento, la existencia de fecaloma. En caso de fecaloma podemos hacer uso de laxantes por vía rectal.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Laxantes osmóticos: primer escalón en la mayoría de pacientes. El polietilenglicol suele considerarse de elección; inicia su acción entre las 24 y 48 horas y es igual de eficaz pero mejor tolerado que lactulosa o lactitol.",
+      "cita": "1. LAXANTES OSMÓTICOS Constituyen el primer escalón de tratamiento en la mayoría de pacientes. Retienen líquido y aumentan la actividad peristáltica. El polietilenglicol suele ser considerado de elección. Inicia su acción entre las 24 y 48 horas. Es igual de eficaz pero mejor tolerado que lactulosa o lactitiol",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Laxantes estimulantes (senna o dantron, bisacodilo o picosulfato de sodio): segundo escalón si el estreñimiento no responde a laxantes osmóticos.",
+      "cita": "2. LAXANTES ESTIMULANTES Aumentan la motilidad intestinal por acción directa sobre las terminaciones nerviosas, irritando la mucosa o por actividad intraneuronal sobre el plexo nervioso. Pueden ser del grupo de antracenos (senna o dantron) o polifenoles (bisacodilo o picosulfato de sodio). Constituyen el segundo escalón del tratamiento si el estreñimiento no responde a laxantes osmóticos.",
       "page": 8,
-      "page_2024": 6
+      "auto": true
     },
     {
-      "farmaco": "lactitol",
-      "indicacion": "laxante osmótico; desimpactación y mantenimiento",
-      "dosis": "DESIMPACTACIÓN (>6 años):10-30 g/día en 2-3 dosis MANTENIMIENTO (>1 año):0,25-0,4 g/kg/día (2 dosis). Dosis máx. 20 g/día. EDAD MÍNIMA: 1 año",
-      "via": "VO",
-      "nota": "Azúcares sintéticos no absorbibles cuya fermentación origina meteorismo.",
-      "page": 8,
-      "page_2024": 7
-    },
-    {
-      "farmaco": "senna",
-      "indicacion": "laxante estimulante, segundo escalón; útil combinado con laxantes osmóticos",
-      "dosis": "0.3mg/kg/día en dosis única (1 gota /4-6kg peso). 2-6 años: 2,5-5mg/día. 6-12 años: 7,5mg-10mg/día. >12 años: 15-20mg/día",
-      "via": "VO",
-      "nota": "No recomendado en lactantes (Off label <6 años). No usar de forma prolongada. RAM: orina roja, dolor abdominal, colon catártico y melanosis coli. Puntual gotas: 1mL=20 gotas=30mg.",
-      "page": 9,
-      "page_2024": 7
-    },
-    {
-      "farmaco": "bisacodilo",
-      "indicacion": "laxante estimulante, segundo escalón; supositorio si el recto está vacío",
-      "dosis": "2-10 años: 5 mg/día. >10 años: 5-10 mg/día. Vía rectal: supositorios de 10mg (dar ½ o 1 comp)",
-      "via": "VO o rectal",
-      "nota": "Puede administrarse oral o rectal (muy útil). Dulcolaxo comp. 5 mg: 1 comp. antes de acostarse.",
-      "page": 9,
-      "page_2024": 7
-    },
-    {
-      "farmaco": "picosulfato",
-      "indicacion": "laxante estimulante, segundo escalón",
-      "dosis": ">6 años:2-5 gotas/día por la noche (tarda el efecto 6-12 horas). Si no hay respuesta tomar 2 gotas/día por la noche hasta un máximo de 5 días.",
-      "via": "VO",
-      "nota": "No se ha evaluado seguridad ni eficacia en menores de 6 años. La administración prolongada o su sobredosis puede producir hipopotasemia.",
-      "page": 9,
-      "page_2024": 8
-    },
-    {
-      "farmaco": "parafina",
-      "indicacion": "lubricante; desimpactación y mantenimiento",
-      "dosis": "DESIMPACTACIÓN (>1 año):15-30 ml/año de edad o 1-3 ml/kg/día (máx. 240 ml/día). MANTENIMIENTO (>1 año): 1 ml/kg/día (1-2 dosis). Adultos: 15 ml/12 h. EDAD MÍNIMA: 1 año.",
-      "via": "VO",
-      "nota": "No dar en <1 año, RGE o riesgo aspiración. Pueden disminuir la absorción de vitaminas liposolubles: separar 2 horas de las comidas. Mal sabor. No recomendado a largo plazo.",
-      "page": 11,
-      "page_2024": 9
-    },
-    {
-      "farmaco": "fosfatos hipertónicos (enema)",
-      "indicacion": "desimpactación (urgencia)",
-      "dosis": "(>2 años) DOSIS DESIMPACTACIÓN: 3-5 ml/kg/día c/12 o 24h. Máx140 ml/día. Máx. 4 días.",
-      "via": "Rectal",
-      "nota": "IMPORTANTE: debe expulsarse en 5 min, si no es solo, poner enema SSF. Riesgo toxicidad. Contraindicado si insuficiencia renal. Enema SSF 0,9%: 5ml/kg, máx. 720 ml.",
-      "page": 12,
-      "page_2024": 10
-    },
-    {
-      "farmaco": "glicerina/glicerol (supositorio)",
-      "indicacion": "estreñimiento sin impactación; si heces duras en examen rectal",
-      "dosis": "DOSIS: 1/día en >2 años.",
-      "via": "Rectal",
-      "nota": "Lubrican y aspiran agua por partículas osmóticamente activas.",
-      "page": 12,
-      "page_2024": 10
-    },
-    {
-      "farmaco": "citrato sódico (enema de pequeño volumen)",
-      "indicacion": "estreñimiento sin impactación; uso puntual en final de vida",
-      "dosis": "DOSIS: 1/día. ENVASES: 5ml",
-      "via": "Rectal",
-      "nota": "Fáciles de usar y por lo general poco angustiantes para el niño; de pequeño volumen y poco molestos en fase terminal.",
-      "page": null,
-      "page_2024": 10
+      "x": "Estreñimiento inducido por opioides: iniciar directamente tratamiento antiestreñimiento; el pilar de la profilaxis es la combinación de laxantes estimulantes con ablandadores de heces.",
+      "cita": "Por tanto, iniciaremos directamente tratamiento antiestreñimiento siendo el pilar de la profilaxis la combinación de laxantes estimulantes combinados con ablandadores de heces.",
+      "page": 13,
+      "auto": false
     }
   ],
   "banderas_rojas": [
-    "Los padres pueden confundir estreñimiento prolongado con diarrea: las heces líquidas se filtran alrededor de las heces duras en el recto (diarrea por rebosamiento).",
-    "Descartar siempre la presencia de fecaloma antes de usar laxantes estimulantes; en caso contrario se exacerbarán los calambres abdominales.",
-    "Enemas de fosfatos: riesgo de toxicidad, deben expulsarse en 5 min (si no, enema de SSF); contraindicados en insuficiencia renal. Los enemas de gran volumen pueden alterar electrolitos en el niño debilitado o deshidratado.",
-    "Parafina: no dar en menores de 1 año, reflujo gastroesofágico o riesgo de aspiración.",
-    "Laxantes formadores de volumen (fibra): uso limitado en cuidados paliativos; en pacientes terminales pueden empeorar la situación provocando impactación.",
-    "Explorar la región lumbosacra para descartar disrafismo oculto y los reflejos de miembros inferiores; el tacto rectal no se realiza de rutina."
+    {
+      "x": "Laxantes estimulantes: pueden dar calambres abdominales (repartir la dosis en pequeñas dosis con las comidas principales y una mayor al acostarse). Descartar siempre la presencia de fecaloma; en caso contrario se exacerbarán los calambres.",
+      "cita": "Como efecto adverso pueden tener calambres abdominales, para lo cual podemos distribuir la dosis a lo largo del día con pequeñas dosis que coincidan con las comidas principales y una dosis mayor a la hora de acostarse. Hay que descartar siempre la presencia de fecaloma, en caso contrario se exacerbarán los calambres.",
+      "page": 8,
+      "auto": false
+    },
+    {
+      "x": "Los padres pueden confundir el estreñimiento prolongado con diarrea: las heces líquidas pueden filtrarse alrededor de las heces duras en el recto y escapar al control voluntario.",
+      "cita": "No es infrecuente que los padres puedan confundir el estreñimiento prolongado con diarrea, ya que las heces líquidas pueden filtrarse alrededor de las heces duras en el recto y escapar al control voluntario.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "Enema de fosfatos hipertónicos (>2 años): máx. 140 ml/día y máx. 4 días. Debe expulsarse en 5 min; si no, poner enema de SSF. Riesgo de toxicidad. Contraindicado si insuficiencia renal.",
+      "cita": "FOSFATOS HIPERTÓNICOS (>2 años) DOSIS DESIMPACTACIÓN: 3-5 ml/kg/día c/12 o 24h. Máx140 ml/día. Máx. 4 días. ENVASES: 80/ 140/ 250 ml. IMPORTANTE: debe expulsarse en 5 min, si no es solo, poner enema SSF. Riesgo toxicidad. Contraindicado si insuficiencia renal",
+      "page": 12,
+      "auto": false
+    },
+    {
+      "x": "Los enemas de mayor volumen pueden producir alteraciones de líquidos y electrolitos, particularmente en el niño debilitado o deshidratado.",
+      "cita": "Los enemas de mayor volumen pueden producir líquido y alteraciones electrolíticas particularmente en el niño debilitado o deshidratado.",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "Parafina: puede disminuir la absorción de vitaminas liposolubles (separar 2 horas de las comidas). No dar en <1 año, RGE o riesgo de aspiración.",
+      "cita": "PARAFINA ♦ Sustancia oleosa, no absorbible. Lubrica las heces. ♦ Tienen mal sabor. ♦ Pueden ↓ la absorción de vitaminas liposolubles, por eso se separan 2 horas de las comidas. ♦ No dar en <1 año, RGE o riesgo aspiración.",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "Laxantes formadores de volumen: uso limitado en cuidados paliativos; en pacientes terminales pueden empeorar la situación provocando impactación con malestar abdominal.",
+      "cita": "Tienen un uso limitado en CP. Podrían combinarse con dieta adecuada y líquidos constituyendo un tratamiento natural pero poco efectivo. Por otra parte, en pacientes terminales pueden empeorar la situación provocando impactación con mal estar abdominal.",
+      "page": 10,
+      "auto": false
+    },
+    {
+      "x": "Picosulfato: no se ha evaluado su seguridad ni eficacia en menores de 6 años; la administración prolongada o la sobredosis puede producir hipopotasemia.",
+      "cita": "PICOSULFATO • RAM: La administración prolongada o su sobredosis puede producir hipopotasemia. | DOSIS • No se ha evaluado seguridad ni eficacia en menores de 6 años.",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "Senna: no recomendado en lactantes (off label en <6 años); no usar de forma prolongada.",
+      "cita": "DOSIS No recomendado en lactantes (Off label<6 años) 0.3mg/kg/día en dosis única (1 gota /4-6kg peso) 2-6 años: 2,5-5mg/día 6-12 años: 7,5mg-10mg/día >12 años: 15-20mg/día No usar de forma prolongada",
+      "page": 9,
+      "auto": false
+    }
   ],
   "perlas": [
-    "Ingesta diaria recomendada de fibra (g) = edad en años + 5; fruta fresca con piel (ciruelas, peras), cereales integrales, legumbres a diario; en nutrición enteral valorar fórmulas ricas en fibra.",
-    "Aprovechar el reflejo gastrocólico: sentar al niño tras las comidas no más de 10-15 minutos, con apoyo para los pies; los masajes abdominales o pequeños estímulos rectales pueden ser muy efectivos.",
-    "Todos los laxantes orales pueden usarse por sonda, priorizando soluciones mezcladas con la alimentación o el agua; abordar con la familia que la vía rectal no es la mejor para el tratamiento.",
-    "Identificar y tratar lesiones perianales que perpetúan el hábito retentivo (cicatrizantes, antiinflamatorios y anestésicos tópicos); la metilnaltrexona trata el estreñimiento por opiáceos sin descompensar el dolor."
-  ],
-  "secciones_recomendadas": [
-    "TRATAMIENTO",
-    "FÁRMACOS",
-    "5. ENEMAS",
-    "Estreñimiento inducido por opioides"
+    {
+      "x": "El efecto de los opioides sobre el estreñimiento es inmediato y dependiente de la dosis, y los pacientes nunca se vuelven tolerantes.",
+      "cita": "El efecto de los opioides sobre este síntoma es inmediato y está relacionado con la dosis, además, a diferencia de la mayoría de efectos secundarios, los pacientes nunca se vuelven tolerantes.",
+      "page": 13,
+      "auto": true
+    },
+    {
+      "x": "En la fase terminal, con la ingesta de líquidos disminuida, se pueden suspender los laxantes orales; pueden ser útiles supositorios puntuales (los de citrato sódico son de pequeño volumen y poco molestos) para reducir el malestar rectal.",
+      "cita": "Durante la fase terminal la ingesta de líquidos estará disminuida por lo que podemos suspender los laxantes orales. En este caso puede ser útil los supositorios de manera puntual (los de citrato sódico son de pequeño volumen y poco molestos para el paciente) para reducir el malestar rectal que surge de la necesidad de defecar.",
+      "page": 13,
+      "auto": true
+    },
+    {
+      "x": "Todos los laxantes orales pueden utilizarse por sondas, priorizando soluciones mezcladas con la alimentación o el agua.",
+      "cita": "Todos los laxantes orales pueden utilizarse por sondas, priorizando el uso de soluciones mezcladas con la alimentación o el agua.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Ingesta diaria recomendada de fibra (g): edad en años + 5 gramos.",
+      "cita": "Ingesta diaria recomendada de fibra al día (g) | Edad en años + 5 gramos",
+      "page": 4,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

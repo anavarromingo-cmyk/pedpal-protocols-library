@@ -1,120 +1,130 @@
 {
   "slug": "problemas-sistemicos",
-  "en_una_frase": "Manejo de astenia, anorexia-caquexia, fiebre de origen no infeccioso y diaforesis en niños en cuidados paliativos: causas, evaluación y tratamiento farmacológico y no farmacológico.",
+  "en_una_frase": "Astenia, anorexia y caquexia, fiebre de origen no infeccioso y diaforesis en cuidados paliativos pediátricos: definición, causas, evaluación y tratamiento farmacológico y no farmacológico.",
   "puntos_clave": [
-    "La astenia en pacientes paliativos es más intensa, angustiosa y no se alivia con el descanso; antes de tratarla hay que valorar y tratar las causas potencialmente reversibles.",
-    "Metilfenidato es el agente más empleado en la astenia; los corticoides la mejoran de forma transitoria (2-4 semanas) y solo si la esperanza de vida es inferior a 4 semanas.",
-    "El síndrome anorexia-caquexia no revierte con la ingesta calórica; el acetato de megestrol es el único fármaco aprobado en situación avanzada no terminal (efecto en 2-4 semanas).",
-    "Fiebre no infecciosa: fármacos (citostáticos, betalactámicos), fiebre tumoral, deshidratación, disautonomía o abstinencia; el naproxeno suprime la fiebre tumoral, no la infecciosa.",
-    "El tratamiento de la fiebre busca el máximo confort: evitar bajar bruscamente la temperatura y el exceso de fármacos y pruebas que molesten al niño sin beneficio.",
-    "La diaforesis se trata según su etiología (dolor, ansiedad, fiebre, fármacos, disautonomía) y, en su defecto, con anticolinérgicos como el glicopirrolato más medidas ambientales."
-  ],
-  "farmacos_clave": [
     {
-      "farmaco": "metilfenidato",
-      "indicacion": "astenia",
-      "dosis": "0.05-0.1mg/kg cada 12 horas (máximo 30mg al día en 2 o 3 administraciones)",
-      "via": "VO (comprimidos de liberación inmediata)",
-      "nota": "Duración del efecto 1-4 horas; administrar 30 minutos antes del efecto deseado y 6 horas antes de la hora de dormir para evitar el insomnio.",
+      "x": "Astenia: tras valorar y tratar las causas potencialmente reversibles, el tratamiento busca disminuir la intensidad de la fatiga y/o favorecer la funcionalidad con un nivel aceptable de astenia.",
+      "cita": "Después de valorar y tratar las causas potencialmente reversibles de astenia nos plantearemos el tratamiento con el objetivo de disminuir la intensidad de la fatiga y/o favorecer la funcionalidad del paciente con un nivel aceptable de astenia.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Metilfenidato: es el agente más empleado en la astenia; aumenta los niveles de dopamina en el sistema nervioso central y favorece la motivación y la atención.",
+      "cita": "etilfenidato: es el agente más empleado, actúa aumentando los niveles de dopamina en el sistema nervioso central favoreciendo la motivación y la atención.",
       "page": 3,
-      "page_2024": 2
+      "auto": true
     },
     {
-      "farmaco": "corticoides (prednisona o dexametasona)",
-      "indicacion": "astenia",
-      "dosis": "",
-      "via": "",
-      "nota": "Efecto rápido pero transitorio (2-4 semanas); sus efectos secundarios pueden agravar la fatiga, sólo se utilizan cuando la esperanza de vida es inferior a 4 semanas.",
-      "page": null,
-      "page_2024": 2
+      "x": "Corticoides en la astenia: la mejoran rápidamente pero de forma transitoria (2-4 semanas) y sus efectos secundarios pueden agravar la fatiga; solo se utilizan cuando la esperanza de vida es inferior a 4 semanas.",
+      "cita": "Mejoran la astenia rápidamente y tienen un efecto euforizante, pero de forma transitoria (2-4 semanas). Sus efectos secundarios pueden agravar la fatiga, por este motivo, sólo se utilizan cuando la esperanza de vida es inferior a 4 semanas.",
+      "page": 2,
+      "auto": true
     },
     {
-      "farmaco": "acetato de megestrol",
-      "indicacion": "astenia y síndrome anorexia-caquexia",
-      "dosis": "lactantes mayores de 8 meses, niños y adolescentes: iniciar con 7.5 a 10mg/kg/día dividido en 1-4 dosis y ajustar en función de la respuesta. Dosis máxima diaria: 800mg al día o 15mg/kg/día",
-      "via": "",
-      "nota": "Tarda 2-4 semanas en comenzar su efecto: se recomienda en pacientes con expectativa de vida de más de 3 meses. Efectos secundarios: trombosis venosa, rubor, sofocaciones, metrorragias y riesgo de insuficiencia suprarrenal.",
+      "x": "Caquexia: síndrome metabólico complejo con pérdida de masa muscular, con o sin pérdida de masa grasa, que no suele compensarse aumentando el aporte nutricional; debe diferenciarse de la desnutrición, que sí se compensaría.",
+      "cita": "Se define como caquexia a un síndrome metabólico complejo asociado a una patología subyacente y caracterizado por pérdida de masa muscular con o sin pérdida de masa grasa que no suele compensarse con el aumento del aporte nutricional. Debe diferenciarse de la desnutrición, que sí se compensaría con alimentación adecuada o apoyo nutricional.",
       "page": 3,
-      "page_2024": 3
+      "auto": true
     },
     {
-      "farmaco": "dexametasona",
-      "indicacion": "anorexia-caquexia (orexígeno)",
-      "dosis": "0.1mg/kg/día, máximo 8mg al día) en ciclos de 5-7 días",
-      "via": "",
-      "nota": "Efecto transitorio sin aumento ponderal; no es el tratamiento de elección si la esperanza de vida es más larga.",
+      "x": "Acetato de megestrol: es el único fármaco aprobado para la anorexia/caquexia en pacientes en situación avanzada no terminal; la ganancia de peso suele observarse a las 2-4 semanas.",
+      "cita": "Acetato de megestrol: es el único fármaco aprobado para pacientes en situación avanzada no terminal. La dosis, es la misma indicada para la astenia. La ganancia de peso suele observarse a las 2-4 semanas.",
       "page": 5,
-      "page_2024": 4
+      "auto": true
     },
     {
-      "farmaco": "ciproheptadina",
-      "indicacion": "anorexia-caquexia",
-      "dosis": "3mg cada 8 horas en niños de entre 2 y 4 años, 6mg cada 8 horas en niños entre 4 y 10 años y 9mg cada 8 horas en mayores de 10 años",
-      "via": "",
-      "nota": "Antihistamínico de primera generación con efecto antagonista de la serotonina.",
-      "page": 5,
-      "page_2024": 5
+      "x": "Fiebre no infecciosa: el tratamiento debe ir encaminado a mejorar la situación del paciente y buscar el máximo confort; se debe evitar bajar bruscamente la temperatura.",
+      "cita": "Debe ir encaminado a mejorar la situación del paciente y buscar el máximo confort. Se debe evitar bajar bruscamente la temperatura.",
+      "page": 8,
+      "auto": true
     },
     {
-      "farmaco": "dronabinol (tetrahidrocannabinol)",
-      "indicacion": "anorexia en pacientes con cáncer",
-      "dosis": "dosis inicial es de 0.05-0.1mg/kg cada 12 horas vía oral, se puede aumentar si se genera tolerancia hasta un máximo de 10mg dos veces al día",
-      "via": "VO",
-      "nota": "Su administración a última hora de la tarde o por la noche puede dar pesadillas; por ahora no parece estar indicado en el tratamiento de la anorexia.",
-      "page": 5,
-      "page_2024": 5
-    },
-    {
-      "farmaco": "naproxeno",
-      "indicacion": "fiebre tumoral",
-      "dosis": "5-7mg/kg/12 horas (dosis máxima 250-500mg/12horas)",
-      "via": "",
-      "nota": "Suprime la fiebre tumoral pero no la secundaria a infecciones.",
-      "page": 9,
-      "page_2024": 7
-    },
-    {
-      "farmaco": "dexametasona",
-      "indicacion": "fiebre tumoral",
-      "dosis": "0.1mg/kg/día, máximo 4-8 mg al día",
-      "via": "",
-      "nota": "",
-      "page": 9,
-      "page_2024": 7
-    },
-    {
-      "farmaco": "glicopirrolato",
-      "indicacion": "diaforesis",
-      "dosis": "0.02mg/kg cada 12 horas. Se puede aumentar a 0.02mg/kg 3-4 veces al día. Finalmente aumentar 0.02mg/kg/dosis cada 7 días hasta 0.1mg/kg/dosis. Dosis máxima de 0.1mg/kg/dosis o 2mg/dosis cada 6 horas",
-      "via": "",
-      "nota": "Dosis empleadas de forma habitual a partir del mes de vida.",
+      "x": "Diaforesis: el tratamiento debe dirigirse a la etiología y, en su defecto, se pueden utilizar anticolinérgicos como el glicopirrolato.",
+      "cita": "El tratamiento debe ser dirigido a la etiología de la diaforesis y, en su defecto, se pueden utilizar anticolinérgicos como el glicopirrolato.",
       "page": 10,
-      "page_2024": 9
+      "auto": true
     }
   ],
   "banderas_rojas": [
-    "Corticoides en astenia: sus efectos secundarios pueden agravar la fatiga; sólo se utilizan cuando la esperanza de vida es inferior a 4 semanas.",
-    "Acetato de megestrol: trombosis venosa, rubor, sofocaciones, metrorragias y riesgo de insuficiencia suprarrenal.",
-    "Fiebre por fármacos: síndrome neuroléptico maligno (antipsicóticos, domperidona, metoclopramida) y síndrome serotoninérgico (opioide + antidepresivo tricíclico, ISRS, triptanos, ondansetrón).",
-    "Dronabinol a última hora de la tarde o por la noche puede dar pesadillas.",
-    "Fiebre en situación de últimos días: los fármacos suelen provocar sudoración profusa que incomoda más al paciente; evitarlos en la medida de lo posible."
+    {
+      "x": "Acetato de megestrol, efectos secundarios (poco frecuentes): trombosis venosa, rubor, sofocaciones, metrorragias y riesgo de insuficiencia suprarrenal.",
+      "cita": "Los efectos secundarios son poco frecuentes y son: trombosis venosa, rubor, sofocaciones, metrorragias y riesgo de insuficiencia suprarrenal.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "Causa de fiebre: fármacos que interfieren en la termorregulación (trihexifenidilo, atropina, glicopirrolato).",
+      "cita": "Administración de fármacos que interfieren en la termorregulación: trihexifenidilo, atropina, glicopirrolato.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Causa de fiebre: síndrome de abstinencia por retirada de opiáceos y benzodiacepinas.",
+      "cita": "Síndrome de abstinencia por retirada de opiáceos y benzodiacepinas.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Causa de fiebre: síndrome neuroléptico maligno por antipsicóticos tradicionales (clorpromazina, haloperidol) o de nueva generación (olanzapina, quetiapina, risperidona), antieméticos (domperidona, metoclopramida) o suspensión abrupta de dopaminérgicos como la levodopa.",
+      "cita": "Síndrome neuroléptico maligno secundario a:",
+      "page": 6,
+      "auto": false
+    },
+    {
+      "x": "Causa de fiebre: síndrome serotoninérgico, sobre todo si se combinan fármacos como un opioide y un antidepresivo tricíclico; relacionados: ISRS como la fluoxetina, antidepresivos tricíclicos, triptanos, opioides, dextrometorfano, metoclopramida, ondansetrón y granisetrón, entre otros.",
+      "cita": "Síndrome serotoninérgico sobre todo si se combinan ciertos medicamentos como un opioide y un antidepresivo tricíclico. Algunos de los fármacos relacionados con este síndrome son: inhibidores selectivos de la recaptación de serotonina como la fluoxetina, antidepresivos tricíclicos, triptanos, opioides, dextrometrofano, metoclopraminda, ondansetrón y granisetrón entre otros.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Deshidratación como causa de fiebre: tenerla en cuenta sobre todo en lactantes o en pacientes con enfermedades neurológicas severas que dependen de los líquidos que les aportan sus cuidadores.",
+      "cita": "Deshidratación: para tener en cuenta sobre todo en lactantes o en pacientes con enfermedades neurológicas severas que dependen del agua o líquidos que les aportan sus cuidadores.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Fiebre en situación de últimos días: en caso de disconfort, evitar en lo posible los fármacos, ya que es habitual que provoquen sudoración profusa que incomode más al paciente.",
+      "cita": "Fiebre en situación de últimos días: en caso de disconfort evitar, en la medida de lo posible, fármacos, ya que es habitual que provoquen sudoración profusa y que incomode más al paciente.",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "Fiebre: en general, la causa más frecuente es la infecciosa; aun así, existen múltiples causas de fiebre no infecciosa en pacientes en situación paliativa.",
+      "cita": "En general, la causa más frecuente de fiebre es la infecciosa, aun así, existen múltiples causas de aparición de fiebre no infecciosa en pacientes en situación paliativa",
+      "page": 6,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Metilfenidato: administrar 30 minutos antes del efecto deseado (por ejemplo, antes de la visita de familiares y amigos) y 6 horas antes de dormir para evitar el insomnio.",
-    "Anorexia: fraccionar las comidas, platos pequeños y atractivos, aderezos acentuados y alimentos preferidos (aunque sean ricos en calorías); cuidar la higiene bucal.",
-    "Astenia: diario de síntomas y plan de gasto de energía con prioridades y objetivos a corto plazo realistas; ejercicio físico adaptado a la tolerancia del niño.",
-    "Fiebre y diaforesis: habitación fresca y aireada, retirar ropa de vestir y de cama, paños con agua tibia o fríos, ropa ligera de algodón y mantener la ingesta hídrica."
-  ],
-  "secciones_recomendadas": [
-    "TRATAMIENTO",
-    "2. Tratamiento farmacológico",
-    "1. Tratamiento no farmacológico",
-    "Tabla I: Criterios diagnósticos de fiebre de origen tumoral"
+    {
+      "x": "Metilfenidato: administrar 30 minutos antes del efecto deseado (por ejemplo, antes de la visita de familiares y amigos) y 6 horas antes de la hora de dormir para evitar el insomnio.",
+      "cita": "Se debe administrar 30 minutos antes del efecto deseado (por ejemplo, antes de un evento importante como la visita de familiares y amigos) y 6 horas antes de la hora de dormir para evitar el insomnio.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "A nivel de pediatría, la única escala validada para la astenia es la de Hockenberry (perspectiva del niño, los padres y los profesionales).",
+      "cita": "A nivel de pediatría la única escala validada es la de Hockenberry, basada en instrumentos de medida de la fatiga en niños con cáncer: la perspectiva del niño, los padres y los profesionales (ver anexo 2).",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "El naproxeno suprime la fiebre tumoral pero no la secundaria a infecciones.",
+      "cita": "El naproxeno suprime la fiebre tumoral pero no la secundaria a infecciones.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Fiebre asociada a fármacos: intentar retirar o cambiar el fármaco responsable; si es imprescindible, se puede dar paracetamol, AINE o corticoides antes de su administración.",
+      "cita": "Fiebre asociada a fármacos: intentar retirar o cambiar el fármaco responsable de la fiebre. Si es imprescindible su uso, se puede utilizar paracetamol, AINE o corticoides previo a la administración del fármaco.",
+      "page": 9,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

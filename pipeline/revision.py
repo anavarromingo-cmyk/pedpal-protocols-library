@@ -25,6 +25,8 @@ APROB = HERE / "aprobados"
 CUR = HERE / "curated"
 OUTD = ROOT / "revision"
 
+PEND: dict = {}
+FIGALG: dict = {}
 STOP = set("""de la el los las y o u en a con por para que se del al un una unos unas es son ser como mas más
 sin sobre entre tras desde hasta su sus lo le les no si ya muy cada otro otra otros otras este esta estos estas ese esa
 puede pueden debe deben hay ha han dosis""".split())
@@ -131,6 +133,12 @@ def main() -> int:
     ap.add_argument("--actualizar-paginas", action="store_true")
     a = ap.parse_args()
     algs = json.loads((CUR / "algoritmos.json").read_text(encoding="utf-8"))
+    global PEND
+    pp = ROOT / "revision" / "v2" / "pendientes.json"
+    PEND = json.loads(pp.read_text(encoding="utf-8")) if pp.exists() else {}
+    global FIGALG
+    fp = CUR / "figuras_algoritmo.json"
+    FIGALG = json.loads(fp.read_text(encoding="utf-8")) if fp.exists() else {}
     out = []
     for jp in sorted(APROB.glob("*.json")):
         doc = json.loads(jp.read_text(encoding="utf-8"))
@@ -142,8 +150,18 @@ def main() -> int:
         heads = {fold(s["h"]).strip() for s in doc["secciones"]}
         entry = {"slug": slug, "titulo": doc["titulo_pdf"], "paginas": doc["paginas"], "items": []}
 
-        def add(tipo, idx, texto, literal=None, extra=None):
+        def add(tipo, idx, texto, literal=None, extra=None, v2id=None, auto=None):
+            if isinstance(texto, dict):  # elemento con cita literal verificada
+                o = texto
+                e = {"id": f"{tipo}:{idx}", "tipo": tipo, "texto": o["x"], "apoyo": [{"t": o.get("cita", ""), "page": o.get("page"), "sec": ""}],
+                     "cifras_no_encontradas": [], "auto": bool(o.get("auto")), "motivos": PEND.get(f"{slug}|{v2id}", [])}
+                if extra:
+                    e.update(extra)
+                entry["items"].append(e)
+                return e
             e = {"id": f"{tipo}:{idx}", "tipo": tipo, "texto": texto, "apoyo": support(texto, sents)}
+            if auto is not None:
+                e["auto"] = auto
             e.update(check(texto, doc_nums, sq, literal))
             if extra:
                 e.update(extra)
@@ -154,9 +172,12 @@ def main() -> int:
         if rp.exists():
             r = json.loads(rp.read_text(encoding="utf-8"))
             entry["resumen_generado"] = r.get("generado", {})
-            add("frase", 0, r.get("en_una_frase", ""))
+            hecho = bool(r.get("generado", {}).get("revisado"))
+            entry["revisado"] = hecho
+            v2 = any(isinstance(x, dict) for x in r.get("puntos_clave", []))
+            add("frase", 0, r.get("en_una_frase", ""), auto=True if (v2 or hecho) else None)
             for i, x in enumerate(r.get("puntos_clave", [])):
-                add("punto", i, x)
+                add("punto", i, x, v2id=f"puntos_clave:{i}", auto=True if hecho else None)
             changed = False
             for i, d in enumerate(r.get("farmacos_clave", [])):
                 txt = " · ".join(v for v in (d.get("farmaco"), d.get("indicacion"), d.get("dosis"), d.get("via"), d.get("nota")) if v)
@@ -171,19 +192,31 @@ def main() -> int:
                     if d.get("page") != newp:
                         d["page"] = newp; changed = True  # None = página no localizable: la app no enlaza página
             for i, x in enumerate(r.get("banderas_rojas", [])):
-                add("bandera", i, x)
+                add("bandera", i, x, v2id=f"banderas_rojas:{i}", auto=True if hecho else None)
             for i, x in enumerate(r.get("perlas", [])):
-                add("perla", i, x)
+                add("perla", i, x, v2id=f"perlas:{i}", auto=True if hecho else None)
             entry["secciones_recomendadas"] = [{"h": h, "existe": fold(h).strip() in heads} for h in r.get("secciones_recomendadas", [])]
             if changed:
                 rp.write_text(json.dumps(r, ensure_ascii=False, indent=2), encoding="utf-8")
         else:
             entry["sin_resumen"] = True
+        for fi, fg in enumerate(FIGALG.get(slug, [])):
+            e = {"id": f"alg_fig:{fi}", "tipo": "alg_fig", "apoyo": [], "cifras_no_encontradas": [],
+                 "texto": " — ".join(x for x in (fg.get("titulo"), fg.get("descripcion"), ("AVISO: " + fg["aviso"]) if fg.get("aviso") else "") if x),
+                 "fig": "../docs/" + fg["src"], "auto": bool(fg.get("revisado")) or not fg.get("aviso"),
+                 "motivos": ["La figura del protocolo no coincide con su texto: compruebe que el aviso lo describe bien"] if fg.get("aviso") and not fg.get("revisado") else []}
+            entry["items"].append(e)
         for ai, alg in enumerate(algs.get(slug, [])):
-            add("alg_titulo", f"{ai}", " — ".join(x for x in (alg.get("nombre"), alg.get("objetivo"), alg.get("poblacion")) if x))
+            ahecho = bool(alg.get("revisado"))
+            av2 = any("cita" in p for p in alg["pasos"])
+            add("alg_titulo", f"{ai}", " — ".join(x for x in (alg.get("nombre"), alg.get("objetivo"), alg.get("poblacion")) if x),
+                auto=True if (ahecho or (av2 and all(p.get("auto") for p in alg["pasos"]))) else (False if av2 else None))
             for pi, p in enumerate(alg["pasos"]):
-                add("alg_paso", f"{ai}.{pi}", (f"{p['paso']}: " if p.get("paso") and not p["paso"].isdigit() else "") + p["x"],
-                    extra={"alg": ai, "alg_nombre": alg.get("nombre", "")})
+                if "cita" in p:
+                    add("alg_paso", f"{ai}.{pi}", p, extra={"alg": ai, "alg_nombre": alg.get("nombre", "")}, v2id=f"algoritmo:{ai}:{pi}")
+                else:
+                    add("alg_paso", f"{ai}.{pi}", (f"{p['paso']}: " if p.get("paso") and not p["paso"].isdigit() else "") + p["x"],
+                        extra={"alg": ai, "alg_nombre": alg.get("nombre", "")}, auto=True if ahecho else None)
         out.append(entry)
     # resúmenes de protocolos que ya no están en la app
     huerfanos = sorted(p.stem for p in (CUR / "resumenes").glob("*.json") if not (APROB / f"{p.stem}.json").exists())

@@ -1,38 +1,112 @@
 {
   "slug": "seguridad-del-paciente-en-cpp-en-ambito-extrahospitalario",
-  "en_una_frase": "Marco de seguridad del paciente aplicado a los cuidados paliativos pediátricos en domicilio: riesgos propios del entorno, gestión de incidentes y uso seguro del medicamento, para equipos de CPP.",
+  "en_una_frase": "Seguridad del paciente en cuidados paliativos pediátricos fuera del hospital: riesgos propios del domicilio, gestión de incidentes y herramientas para el uso seguro del medicamento.",
   "puntos_clave": [
-    "Seguridad del paciente (OMS): ausencia o reducción a un mínimo aceptable del riesgo de daño innecesario; en domicilio es mucho más difícil de monitorizar y evaluar.",
-    "El modelo centrado en el sistema (queso suizo) sustituye al centrado en la persona: ante un evento adverso importa cómo y por qué fallaron las defensas, no quién se equivocó.",
-    "Riesgo de eventos adversos en domicilio: farmacoterapia compleja, impacto emocional, cuidadores no profesionales, sobrecarga del cuidador y dificultades de comunicación.",
-    "Planificar la visita domiciliaria con un check-list: paciente adecuado, profesionales de referencia, objetivo y estructura, material y tratamiento, anticipar complicaciones.",
-    "El uso seguro del medicamento es una de las mayores brechas en domicilio: pluripatología, pautas complejas, medicamentos de estrecho margen terapéutico y uso off label.",
-    "Gestión de incidentes no punitiva: detección, notificación, análisis (tipificación, gravedad, 5 porqués), propuestas con plazos y referente, y seguimiento con acta."
+    {
+      "x": "Cuando ocurre un evento adverso lo importante no es quién se equivocó, sino cómo y por qué fallaron las defensas (modelo del queso suizo).",
+      "cita": "cuando ocurre un evento adverso lo importante no es quién se equivocó, sino cómo y por qué las defensas fallaron.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Factores de riesgo de eventos adversos en la atención domiciliaria: farmacoterapia compleja, impacto emocional de un diagnóstico/pronóstico complicado o incierto, cuidadores no profesionales, cansancio/sobrecarga del cuidador y dificultades de comunicación eficaz y transcultural.",
+      "cita": "Se pueden destacar los siguientes factores de riesgo a sufrir EA:",
+      "page": 6,
+      "auto": false
+    },
+    {
+      "x": "Planificar la visita domiciliaria con un check-list: paciente adecuado (identificación correcta y comprobación de la dirección), profesionales que realizarán la visita (preferiblemente los de referencia para el niño y su familia), objetivo y estructura de la visita, material/tratamiento adecuados y anticipación de posibles complicaciones o trámites no previstos.",
+      "cita": "puede resultar bastante recomendable la planificación sistemática del proceso de atención en domicilio con anterioridad, siendo útil para realizarlo correctamente establecer un check-list que ayude al equipo a preparar la visita y establecer ciertas garantías:",
+      "page": 5,
+      "auto": false
+    },
+    {
+      "x": "El uso del medicamento es una de las mayores brechas de seguridad en domicilio: pluripatología, pautas complejas de administración, medicamentos de estrecho margen terapéutico y dificultades en la adherencia o el cumplimiento.",
+      "cita": "(pluripatología, pautas complejas de administración, medicamentos de estrecho margen terapéutico, dificultades en la adherencia o el cumplimiento del tratamiento, etc.) hacen que esta sea una de las mayores brechas en la seguridad del paciente en domicilio.",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "La declaración de incidentes no busca culpabilizar ni responsabilizar a nadie: pretende capacitar a profesionales y cuidadores informales para entender las debilidades y desarrollar estrategias que disminuyan los riesgos.",
+      "cita": "la declaración de incidentes no busca culpabilizar ni responsabilizar a nadie de los errores detectados, sino que pretende capacitar a los profesionales y cuidadores informales a entender las debilidades y desarrollar estrategias que lo hagan más sencillo y disminuyan los riesgos.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Es necesario establecer pautas de actuación ante las diferentes situaciones y estandarizar al máximo posible todas las técnicas y cuidados potenciales en domicilio.",
+      "cita": "es necesario establecer pautas de actuación ante las diferentes situaciones que nos encontramos y estandarizar al máximo posible todas las técnicas y cuidados potenciales en domicilio.",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "Programas de capacitación por procedimiento/proceso: varias sesiones de empoderamiento progresivo del cuidador en las que se explican elementos de cuidados o técnicas, se evalúa la competencia y se corrigen errores en la práctica.",
+      "cita": "Se trata de planes de educación terapéutica específicos por procedimiento/proceso que constan de varias sesiones de empoderamiento progresivo al cuidador, en los que se van explicando elementos de cuidados o técnicas al mismo tiempo que se evalúa la competencia y se corrigen errores en la práctica.",
+      "page": 13,
+      "auto": true
+    }
   ],
-  "farmacos_clave": [],
   "banderas_rojas": [
-    "Fallos más habituales en domicilio: triturar comprimidos de liberación modificada o con cubierta entérica, dosis errónea, uso inadecuado de dispositivos enterales (SNG, gastrostomías) o parenterales.",
-    "También: ausencia de conciliación de tratamientos, demora en inicio de tratamiento, error en la pauta ayunas/con alimentos, coordinación ineficaz y valoración subjetiva de los síntomas por el cuidador.",
-    "Es frecuente encontrar niños con uno o varios fármacos de la lista de medicamentos de alto riesgo para pacientes crónicos (MSSSI 2014), cuyo mal uso puede tener consecuencias fatales.",
-    "No presumir conocimientos y habilidades sanitarias en los cuidadores informales que pueden no existir: el plan de educación terapéutica debe evaluar metódicamente conocimientos y aptitudes.",
-    "Momentos de alta complejidad: trámites en torno al final de vida y el fallecimiento, cambios en la trayectoria de enfermedad y atención urgente a las necesidades paliativas."
+    {
+      "x": "Fallos habituales al administrar medicamentos en domicilio: triturar comprimidos de liberación modificada o con cubierta entérica, fármaco inadecuado, dosis errónea, coordinación ineficaz con otros profesionales referentes y uso inadecuado de dispositivos enterales (SNG, gastrostomías) o parenterales.",
+      "cita": "Triturar comprimidos de liberación modificada o con cubierta entérica | Administración de fármaco inadecuado Dosis errónea | Coordinación ineficaz con otros profesionales referentes Uso inadecuado de dispositivos enterales (SNG, gastrostomías) | Uso inadecuado de dispositivos parenterales",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "Otros fallos habituales: ausencia de conciliación de tratamientos, demora en el inicio del tratamiento, error en la recomendación de administrar en ayunas/con alimentos y valoración subjetiva de los síntomas por parte del cuidador.",
+      "cita": "Ausencia de conciliación de tratamientos | Demora en inicio de tratamiento Administración fármacos ayunas/con alimentos (error en recomendaciones de la pauta) | Valoración subjetiva de los síntomas por parte del cuidador.",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "Es frecuente encontrar niños con uno o varios fármacos de los grupos de medicamentos de alto riesgo para pacientes crónicos, cuyo mal uso puede tener consecuencias fatales.",
+      "cita": "Es frecuente encontrar niños con pauta de uno o varios fármacos de alguno de esos grupos, cuyo mal uso puede tener consecuencias fatales.",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "No presumir en los cuidadores informales conocimientos y habilidades sanitarias que pueden no existir: se les transfiere una importante responsabilidad.",
+      "cita": "se pueden presumir unos conocimientos y habilidades sanitarias en los cuidadores informales que pueden no existir siempre, transfiriéndoles una importante responsabilidad.",
+      "page": 1,
+      "auto": true
+    },
+    {
+      "x": "Momentos de alta complejidad: trámites en torno al final de vida y el fallecimiento (cambios en la trayectoria de enfermedad, coordinación con los servicios postmortem) y atención urgente a las necesidades paliativas.",
+      "cita": "En cuanto a los momentos de alta complejidad resaltan los trámites en torno al final de vida y el fallecimiento: cambios en la trayectoria de enfermedad, coordinación con los servicios postmortem (funerarias, seguro de decesos) y la atención urgente a las necesidades paliativas (control de síntomas, toma de decisiones y escalada terapéutica, etc.)",
+      "page": 7,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Tras una indicación verbal (teléfono, videollamada), enviar un documento por escrito (mail, SMS) y hacer una doble comprobación de la comprensión de las pautas con escucha activa.",
-    "Realizar un debriefing tras la visita domiciliaria para detectar puntos de mejora y transmitir eficazmente la información al resto del equipo.",
-    "Incorporar una farmacéutica al equipo: provisión y conservación de fármacos, compatibilidad, revisión del régimen, vigilancia de fármacos de alto riesgo y cálculo de dosis.",
-    "Programas de capacitación por procedimiento con sesiones de empoderamiento progresivo del cuidador, en lenguaje comprensible y con un check-list sencillo de verificación."
-  ],
-  "secciones_recomendadas": [
-    "SEGURIDAD DEL PACIENTE EN DOMICILIO",
-    "ESTRATEGIAS DE MEJORA",
-    "HERRAMIENTAS ESPECÍFICAS PARA MEJORAR EL USO SEGURO DEL MEDICAMENTO EN CUIDADOS PALIATIVOS PEDIÁTRICOS",
-    "PROBLEMAS MÁS HABITUALES EN EL ENTORNO DE LA ATENCIÓN PALIATIVA PEDIÁTRICA DOMICILIARIA"
+    {
+      "x": "En la atención telefónica: escucha activa y doble comprobación de la comprensión de las pautas; tras una indicación verbal, enviar un documento por escrito (mail, SMS, etc.).",
+      "cita": "Es imprescindible realizar una escucha activa e intentar realizar una doble comprobación de la comprensión de las pautas o recomendaciones. Al realizar una indicación de forma verbal, es aconsejable enviar un documento por escrito que clarifique y deje registrado (bien sea a través de mail, SMS, etc.)",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Tras la visita, es aconsejable una pequeña sesión de discusión (debriefing) para evaluar, detectar puntos de mejora y transmitir eficazmente la información al resto del equipo.",
+      "cita": "Tras la visita, sería aconsejable realizar una pequeña sesión de discusión ( debriefing), a modo de evaluación, detección de puntos de mejora, aprendizaje y herramienta para la transmisión eficaz de información al resto del equipo.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Es recomendable disponer en el equipo de un referente de seguridad del paciente, que trabaje con el soporte del departamento de calidad y seguridad del centro.",
+      "cita": "es recomendable disponer de un referente del ámbito, que trabaje con el soporte del departamento de calidad y seguridad del centro correspondiente.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "La incorporación de una farmacéutica al equipo de atención paliativa puede resultar imprescindible para la valoración y el seguimiento del tratamiento farmacológico.",
+      "cita": "La incorporación de una figura de farmacéutica en los equipos de atención paliativa puede resultar imprescindible desde el punto de vista de la valoración y seguimiento del tratamiento farmacológico.",
+      "page": 14,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

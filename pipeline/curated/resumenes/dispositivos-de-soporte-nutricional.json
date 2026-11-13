@@ -1,39 +1,184 @@
 {
   "slug": "dispositivos-de-soporte-nutricional",
-  "en_una_frase": "Indicaciones, elección, colocación y cuidados de sondas nasogástricas/transpilóricas, gastrostomías y gastroyeyunostomías en niños en cuidados paliativos pediátricos y sus cuidadores.",
+  "en_una_frase": "Indicaciones, elección, colocación, comprobación y cuidados de las sondas nasogástricas y transpilóricas, la gastrostomía y la gastroyeyunostomía en niños en cuidados paliativos pediátricos.",
   "puntos_clave": [
-    "Se recomiendan sondas enterales si se prevé un máximo de dos o tres meses de nutrición enteral; si el tiempo estimado es superior, valorar un dispositivo a través de ostomía.",
-    "Si hay riesgo de aspiración (reflujo gastroesofágico, trastornos de deglución, gastroparesia, alteración de conciencia), valorar dispositivo transpilórico o cirugía antirreflujo.",
-    "Para medir la longitud de inserción de la SNG se recomienda la técnica NEMU; la NEX se desaconseja por riesgo de infraestimar y dejar la sonda alojada en esófago.",
-    "Comprobar la posición con al menos dos métodos (pH del aspirado con punto de corte 5 o 5,5) y, en caso de duda, radiografía; la insuflación de aire con auscultación no es fiable.",
-    "La sonda transpilórica solo está indicada para infusión continua: la infusión intermitente puede provocar dolor, náuseas, síntomas vasomotores y síndrome de dumping.",
-    "La gastrostomía está indicada en nutrición enteral prolongada; esperar al menos 12 semanas hasta el primer recambio programado y acordar el protocolo con el equipo de Cirugía."
+    {
+      "x": "Duración prevista: sondas enterales si se prevé un máximo de dos o tres meses de nutrición enteral; si el tiempo estimado es superior, valorar un dispositivo a través de ostomía.",
+      "cita": "De manera general, la bibliografía recomienda utilizar sondas enterales si se prevé un tiempo máximo de dos o tres meses de NE (SENPE, 2011; Cordero et al, 2019). Si el tiempo estimado es superior, está indicado valorar la necesidad de implantación de un dispositivo nutricional a través de ostomía.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "Sonda transpilórica: indicada en pacientes con riesgo de aspiración (gastroparesia, alteración del nivel de conciencia, trastornos de la deglución o reflujo gastroesofágico grave), evitando la distensión gástrica; no obstante, la primera opción a tener en cuenta siempre debería ser la SOG o SNG, y el equipo valorará individualmente cada caso.",
+      "cita": "pacientes con riesgo de aspiración (gastroparesia, alteración del nivel de conciencia, trastornos de la deglución o reflujo gastroesofágico grave) evitando la distensión gástrica (Cordero et al, 2019). No obstante, la primera opción a tener en cuenta siempre debería ser la SOG o SNG será el equipo quien valorará individualmente cada caso",
+      "page": 10,
+      "auto": true
+    },
+    {
+      "x": "La SNG es la vía de elección por su comodidad; la SOG, con más riesgo de arrancamiento accidental, se reserva para atresia de coanas, neonatos con ventilación mecánica no invasiva y prematuros con riesgo de lesión de la mucosa nasal.",
+      "cita": "La SNG es la vía de elección por su comodidad, mientras que la SOG tiene mayor riesgo de arrancamiento accidental quedando reservada fundamentalmente para pacientes con atresia de coanas, neonatos con dispositivos de ventilación mecánica no invasiva y en prematuros con riesgo de lesión de la mucosa nasal",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Longitud de inserción de la sonda gástrica: se recomienda la técnica NEMU (la NEX más la distancia del apéndice xifoides al punto medio hasta el ombligo), tanto en pediatría como en neonatología.",
+      "cita": "Nose-Earlobe-Xiphoid-Midline of the Umbilicus (NEMU): técnica derivada de NEX similar a esta, en la que se añade una medición extra desde el apéndice xifoides hasta el punto medio hasta el ombligo. La bibliografía recomienda la utilización de este método tanto en el ámbito de la pediatría como de la neonatología",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Comprobación de la posición: adaptar el método a los recursos disponibles, utilizar al menos dos métodos y, en caso de duda, recurrir a la radiografía como método de referencia.",
+      "cita": "En conclusión, la recomendación es adaptar la metodología de comprobación a los recursos disponibles en el contexto en el que se encuentre el paciente. De esta manera, es recomendable utilizar al menos dos métodos y, en caso de duda, recurrir a la radiografía como método de comprobación de referencia.",
+      "page": 10,
+      "auto": true
+    },
+    {
+      "x": "La sonda transpilórica solo está indicada para infusión continua: la infusión intermitente podría provocar dolor, náuseas, síntomas vasomotores y síndrome de dumping.",
+      "cita": "Esta sonda solo está indicada para la infusión continua de alimentos, ya que una infusión intermitente llevaría el alimento de forma masiva al intestino delgado y podría provocar dolor, náuseas, síntomas vasomotores y síndrome de dumping",
+      "page": 10,
+      "auto": true
+    },
+    {
+      "x": "Gastrostomía: se recomienda esperar al menos 12 semanas hasta el primer cambio programado del dispositivo y acordar el protocolo con el equipo de Cirugía responsable.",
+      "cita": "Por tanto, es recomendable esperar al menos 12 semanas hasta realizar el primer cambio programado en caso de que fuera necesario. Es recomendable contactar con el equipo de Cirugía responsable para acordar el protocolo a seguir en cada caso específico.",
+      "page": 16,
+      "auto": true
+    }
   ],
-  "farmacos_clave": [],
   "banderas_rojas": [
-    "Signo o síntoma de dificultad respiratoria durante la inserción (tos, cianosis o disnea): retirar la sonda.",
-    "Alto riesgo de malposición de la sonda gástrica: neonatos, afectación neurológica, reflejo nauseoso disminuido, sedados o en estado crítico; comprobación minuciosa.",
-    "Recomprobar la posición si se sospecha desplazamiento tras tos, vómitos o arcadas, si aparecen signos de distrés respiratorio y al menos una vez al día en alimentación continua.",
-    "No reinsertar el fiador una vez extraído, por riesgo de perforación de la sonda y daño en la mucosa del paciente.",
-    "En la gastroyeyunostomía, vómitos con contenido gástrico o distensión abdominal pueden indicar posición gástrica: confirmar radiológicamente y contactar con radiología intervencionista.",
-    "Ante fuga periestomal, aumentar el calibre del dispositivo conlleva el riesgo de dilatar más aún el estoma y entrar en un círculo vicioso."
+    {
+      "x": "Durante la inserción, si aparece dificultad respiratoria (tos, cianosis o disnea): retirar la sonda.",
+      "cita": "Signo o síntoma de dificultad respiratoria como tos, cianosis o disnea, en este caso se debe retirar la sonda.",
+      "page": 10,
+      "auto": true
+    },
+    {
+      "x": "No se recomienda reinsertar el fiador una vez extraído: riesgo de perforación de la sonda y daño en la mucosa.",
+      "cita": "No se recomienda la reinserción del fiador una vez extraído, por riesgo de perforación de la sonda y daño en la mucosa del paciente.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "La técnica NEX se desaconseja por riesgo de infraestimar la longitud a introducir.",
+      "cita": "Nose-Earlobe-Xiphoid (NEX): técnica empleada tradicionalmente. Se mide desde la nariz hasta el lóbulo auricular y desde ahí hasta el apéndice xifoides. Existe bibliografía tanto en el ámbito de la pediatría como en adultos que desaconseja esta técnica por riesgo de infraestimar la longitud a introducir.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Alto riesgo de malposición de la sonda gástrica: neonatos, afectación neurológica, reflejo nauseoso disminuido, sedados o en estado crítico; en ellos la comprobación debe ser minuciosa.",
+      "cita": "hay un sector de niños que se consideran con alto riesgo de malposición de la sonda gástrica, entre éstos se encuentran los neonatos, los niños con afectación neurológica, los que tienen disminuido el reflejo nauseoso o los que se encuentran sedados o en estado crítico. En estos casos debe ser minuciosa la correcta comprobación de la sonda",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "En esos casos de alto riesgo de malposición, comprobar la sonda minuciosamente tras su colocación y también de manera rutinaria (profesional o cuidador): si se sospecha desplazamiento accidental, tras episodios de tos, vómitos o arcadas, o si aparecen signos de distrés respiratorio.",
+      "cita": "En estos casos debe ser minuciosa la correcta comprobación de la sonda (Irving, Lyman, Northington, Barlett y Kemper, 2014) tras su colocación pero también de manera rutinaria por el profesional que la maneje o por el cuidador, si se sospecha que existe un desplazamiento accidental, tras episodios de tos, vómitos o arcadas o si aparecen signos de distrés respiratorio.",
+      "page": 8,
+      "auto": false
+    },
+    {
+      "x": "Insuflar aire y auscultar no es un método fiable de comprobación: el burbujeo puede oírse con la sonda en esófago, estómago o incluso pulmón.",
+      "cita": "No obstante, este sonido se puede escuchar si el extremo distal de la sonda está localizado a nivel del esófago, del estómago o incluso del pulmón. Por esta razón, actualmente no está recomendada su utilización como método fiable de comprobación",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "pH del aspirado: la mayoría de estudios ponen el punto de corte en 5 o 5,5, pero la falta de consenso limita la decisión con pH cercano a la neutralidad.",
+      "cita": "La mayoría de estudios ponen el punto de corte en un pH de 5 o 5,5 (Irving, Lyman, Northington, Barlett y Kemper, 2014, Irving et al, 2018, Ni et al, 2017). Sin embargo, la falta de consenso limita la decisión en determinaciones de pH cercano a la neutralidad",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "En pacientes con reflujo gastroesofágico, un pH ácido indica que la sonda no está en bronquio, pero no descarta que esté en esófago.",
+      "cita": "en pacientes con reflujo gastroesofágico, la determinación del pH ácido puede indicarnos la no localización bronquial de la sonda, pero no podemos descartar que se encuentre a nivel esofágico",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "Botón de gastrostomía: nunca acceder al puerto directamente con jeringas (se deteriora la válvula antirreflujo); usar las extensiones o alargaderas.",
+      "cita": "El acceso para administrar alimentación, agua o medicación se realiza mediante las extensiones o alargaderas gástricas, nunca directamente en el puerto ya que se produce deterioro de válvula antirreflujo.",
+      "page": 15,
+      "auto": true
+    },
+    {
+      "x": "Gastroyeyunostomía: no introducir y sacar el dispositivo ni rotarlo sobre sí mismo, para respetar la posición del extremo distal.",
+      "cita": "durante la manipulación de la gastroyeyunostomía es importante respetar la posición del extremo distal. De esta manera es recomendable no introducir y sacar el dispositivo ni rotarlo sobre sí mismo",
+      "page": 18,
+      "auto": true
+    },
+    {
+      "x": "Gastroyeyunostomía: no realizar giros del dispositivo, por riesgo de desplazar el extremo postpilórico.",
+      "cita": "En el caso de la gastroyeyunostomía, es fundamental no realizar giros del dispositivo por riesgo de desplazar el extremo postpilórico.",
+      "page": 19,
+      "auto": true
+    },
+    {
+      "x": "Gastroyeyunostomía: vómitos con contenido gástrico o distensión abdominal pueden indicar posición gástrica; ante desplazamiento, confirmar radiológicamente y contactar con radiología intervencionista.",
+      "cita": "La aparición de vómitos con contenido gástrico o distensión abdominal pueden ser indicativos de posición gástrica (Gómez López, Pedrón Giner, Martínez Costa, 2013b). En caso de desplazamiento, se debe confirmar radiológicamente la posición del dispositivo y contactar con el equipo de radiología intervencionista para recolocar si es necesario.",
+      "page": 18,
+      "auto": true
+    },
+    {
+      "x": "Fuga periestomal: aumentar el calibre del dispositivo conlleva el riesgo de dilatar más el estoma y entrar en un círculo vicioso.",
+      "cita": "Aumentar el calibre del dispositivo conlleva el riesgo de dilatar más aún el estoma y entrar en un círculo vicioso.",
+      "page": 19,
+      "auto": true
+    },
+    {
+      "x": "Con alimentación continua, o tras un periodo sin usar la sonda, comprobar su correcta posición al menos una vez al día.",
+      "cita": "En los casos de pacientes con alimentación continua o que hayan estado durante un periodo sin hacer uso de la sonda se deberá comprobar su correcta posición al menos una vez al día",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "Cuidados de la gastrostomía y la gastroyeyunostomía: no introducir cables o agujas a través del dispositivo.",
+      "cita": "No introducir cables o agujas a través del dispositivo.",
+      "page": 19,
+      "auto": true
+    },
+    {
+      "x": "Obstrucción: la infusión de pequeños volúmenes de refrescos carbonatados puede ser perjudicial para la integridad del botón o sonda; en su lugar se propone el empleo de enzimas pancreáticas.",
+      "cita": "También se recomienda la infusión de pequeños volúmenes de refrescos carbonatados (Gómez López, Pedrón Giner, Martínez Costa, 2013b), pero esto puede ser perjudicial para la integridad del botón o sonda. En su lugar, se propone el empleo de enzimas pancreáticas",
+      "page": 20,
+      "auto": true
+    },
+    {
+      "x": "Una localización esofágica del extremo de la sonda conlleva riesgo de aspiración pulmonar de la fórmula; una localización duodenal o yeyunal no intencional, riesgo de síndrome de dumping.",
+      "cita": "Una localización esofágica conlleva un riesgo de aspiración pulmonar de la fórmula de alimentación, mientras que una localización duodenal o yeyunal no intencional puede llevar riesgo de síndrome de dumping",
+      "page": 8,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Inyectar agua por la sonda o botón antes y después de cada alimento y medicación (cada 4-6 horas en nutrición continua); las medicaciones disueltas deben carecer de grumos.",
-    "Obstrucción: aspirar con jeringa; si no, agua templada y clampar 30 minutos; se proponen enzimas pancreáticas en lugar de refrescos carbonatados, que pueden dañar el dispositivo.",
-    "Granuloma: tras limpiar con suero fisiológico, cubrir con sal de mesa 10 minutos una vez al día y retirar con suero; si se usa nitrato de plata, proteger la piel perilesional con vaselina.",
-    "El cuidador principal debe tener siempre localizado un recambio del mismo calibre y otro de grosor inmediatamente inferior; comprobar el balón sin espaciarlo más de un mes."
-  ],
-  "secciones_recomendadas": [
-    "ELECCIÓN DEL DISPOSITIVO DE NUTRICIÓN ENTERAL",
-    "CUIDADOS DE LAS SONDAS NASOGÁSTRICAS Y TRANSPILÓRICAS",
-    "CUIDADOS GENERALES DE LA GASTROSTOMÍA Y GASTROYEYUNOSTOMÍA",
-    "COMPLICACIONES MENORES ASOCIADAS A LA GASTROSTOMÍA Y GASTROYEYUNOSTOMÍA"
+    {
+      "x": "Prevención de la obstrucción: lavar el dispositivo con agua antes y después del alimento y entre cada medicación; en nutrición continua, cada 4-6 horas.",
+      "cita": "se recomienda lavar con agua el dispositivo antes y después de administrar el alimento y también entre cada medicación (Johnson, Seegmiller, Epp y Mundi, 2019). En caso de nutrición continua, se recomienda lavar el dispositivo cada 4-6 horas",
+      "page": 20,
+      "auto": true
+    },
+    {
+      "x": "Obstrucción ya establecida: primero aspirar con una jeringa; si no es eficaz, infundir agua templada y clampar 30 minutos.",
+      "cita": "Para eliminar una obstrucción ya presente en la luz del dispositivo, se propone en primer lugar la aspiración de con una jeringa a través de la sonda. Si esto no es eficaz, tradicionalmente se ha propuesto la infusión de agua templada en función de lo que permita la obstrucción del dispositivo y clampar durante 30 minutos.",
+      "page": 20,
+      "auto": true
+    },
+    {
+      "x": "Granuloma, enfoque conservador: la sal de mesa parece una solución barata, cómoda y libre de efectos adversos, pero requiere más investigación; tras limpiar con suero salino fisiológico, se propone cubrir el granuloma con sal de mesa y dejar actuar 10 minutos una vez al día.",
+      "cita": "Parece ser una solución barata, cómoda y libre de efectos adversos que requiere más investigación. Tras la adecuada limpieza y retirada de detritus con suero salino fisiológico, se propone cubrir la superficie del granuloma con sal de mesa ayudándose de una cucharilla y dejando actuar durante 10 minutos una vez al día.",
+      "page": 20,
+      "auto": true
+    },
+    {
+      "x": "El cuidador principal debe tener siempre localizado un recambio del mismo calibre y otro de grosor inmediatamente inferior.",
+      "cita": "Se recomienda que el cuidador principal siempre tenga localizado un recambio del mismo calibre y otro de grosor inmediatamente inferior.",
+      "page": 19,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

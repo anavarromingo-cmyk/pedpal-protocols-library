@@ -53,7 +53,7 @@ def main() -> int:
     vdir = REV / "vademecum" / "verificado.json"
     if vdir.exists():
         for e in json.loads(vdir.read_text(encoding="utf-8"))["entradas"]:
-            vad.setdefault(e["slug"], []).append(e)
+            vad.setdefault(e["slug"], []).append(e)  # se conservan todas para no mover los índices «vad:k»
     # hallazgos de los críticos del vademécum: id «slug:i» → «vad:k» (posición en la lista del protocolo)
     for f in sorted((REV / "vademecum" / "criticos").glob("cv[123].json")):
         try:
@@ -67,8 +67,9 @@ def main() -> int:
             if h.get("id") in pos:
                 h = dict(h, id=f"vad:{pos.index(h['id'])}", critico=j.get("critico", "C?") + " vademécum")
                 crit.setdefault(slug, []).append(h)
+    v2 = {f.stem for f in (REV / "v2" / "salida").glob("*.json")} if (REV / "v2" / "salida").exists() else set()
     for p in datos["protocolos"]:
-        p["criticos"] = crit.get(p["slug"], [])
+        p["criticos"] = [h for h in crit.get(p["slug"], []) if p["slug"] not in v2 or str(h.get("id", "")).startswith("vad:")]
         p["figuras_algoritmo"] = figuras_algoritmo(p["slug"]) if any(i["tipo"].startswith("alg") for i in p["items"]) else []
         p["vademecum"] = vad.get(p["slug"], [])
     url = {}

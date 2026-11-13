@@ -1,109 +1,88 @@
 {
   "slug": "crisis-disautonomicas",
-  "en_una_frase": "Definición, detección y abordaje de las crisis disautonómicas crónicas (hiperactividad simpática paroxística) en niños con enfermedad neurológica, para equipos de cuidados paliativos pediátricos.",
+  "en_una_frase": "Definición, detección y abordaje de las crisis disautonómicas crónicas en niños con enfermedades del sistema nervioso.",
   "puntos_clave": [
-    "No existe prueba confirmatoria: diagnóstico de sospecha basado en valoración clínica exhaustiva con anotación precisa de signos y síntomas agrupados en un mismo momento.",
-    "Hacer diagnóstico diferencial con crisis epilépticas autonómicas valorando la respuesta a antiepilépticos, el EEG y la relación con factores desencadenantes.",
-    "El dolor es precipitante habitual; también procedimientos antes bien tolerados (aspiración de secreciones, luz, fisioterapia) pueden desencadenarlas: fenómeno de alodinia.",
-    "Primero reevaluar los tratamientos analgésicos en curso; después valorar añadir un fármaco según los síntomas predominantes de las crisis.",
-    "Si la sintomatología es grave, utilizar fármacos de comienzo de acción rápida como morfina, propranolol o benzodiacepinas.",
-    "La escala adaptada (anexo 1) gradúa la gravedad clínica: sin gravedad 0, leve 1-6, moderada 7-12, grave >12."
-  ],
-  "farmacos_clave": [
     {
-      "farmaco": "morfina",
-      "indicacion": "taquicardia, vasodilatación periférica, alodinia",
-      "dosis": "Vía oral 0.2-0.5 mg/kg/4-6 h. Vía sc o im 0.1-0.2 mg/kg cada 4 horas (máximo 15 mg/24h). Vía iv lenta 0.05 – 0.1 mg/kg/4h (máximo 15 mg/24 h). Perfusión 0.04 -0.07 mg/kg/h",
-      "via": "VO/SC/IM/IV",
-      "nota": "Efectos secundarios: nauseas, vómitos, estreñimiento, depresión SNC, depresión respiratoria, convulsiones, íleo paralítico, retención urinaria, hipotensión. Su efectividad se ha propuesto como criterio diagnóstico.",
-      "page": 4,
-      "page_2024": 3
+      "x": "Se habla de crisis disautonómica cuando los signos/síntomas tienen intensidad suficiente para afectar la calidad de vida y se agrupan varios en un mismo momento.",
+      "cita": "Hablamos de crisis disautonómica cuando estos signos/síntomas tienen suficiente intensidad como para afectar la calidad de vida del paciente y se agrupan varios de ellos en un mismo momento.",
+      "page": 2,
+      "auto": true
     },
     {
-      "farmaco": "baclofeno",
-      "indicacion": "dolor, clonus, rigidez",
-      "dosis": "Vía oral: 2,5-5 mg/día (3 tomas), aumento gradual semanal hasta máximo 30 mg/día (2-7 años) y 60 mg/día en mayores de 8 años",
-      "via": "VO",
-      "nota": "Efectos secundarios: somnolencia, mareo, debilidad, confusión, hipotensión, nauseas, toxicidad renal.",
-      "page": 4,
-      "page_2024": 3
+      "x": "El diagnóstico es de sospecha: no existe prueba confirmatoria; se basa en una valoración clínica exhaustiva con anotación precisa de signos y síntomas.",
+      "cita": "Una valoración clínica exhaustiva con anotación precisa de los signos y síntomas es la base del diagnóstico, que será de sospecha ya que no existe una prueba confirmatoria.",
+      "page": 2,
+      "auto": true
     },
     {
-      "farmaco": "clonazepam (benzodiacepinas)",
-      "indicacion": "agitación, hipertensión, taquicardia, posturas",
-      "dosis": "Vía oral: Inicial 0.01- 0.03mg/kg/día en 3 dosis. Mantenimiento 0.1-0.2 mg/kg/día en 3 dosis. Dosis máxima 20 mg/día",
-      "via": "VO",
-      "nota": "Efectos secundarios: somnolencia, mareo, vértigos, torpeza motora, ataxia, bradilalia y alteraciones conductuales.",
-      "page": 4,
-      "page_2024": 3
+      "x": "Diagnóstico diferencial con crisis epilépticas autonómicas: valorar la respuesta a antiepilépticos, los registros electroencefalográficos y la relación con factores desencadenantes.",
+      "cita": "Debemos realizar el diagnóstico diferencial con crisis epilépticas autonómicas para lo que valoraremos la respuesta a los fármacos antiepilépticos, los registros de actividad electroencefalográfica y la relación con factores desencadenantes.",
+      "page": 2,
+      "auto": true
     },
     {
-      "farmaco": "clonidina",
-      "indicacion": "hipertensión",
-      "dosis": "Vía oral: 5- 60mcg/kg/día cada 8- 12 h. Se puede incrementar hasta dosis máxima 900 mcg/día",
-      "via": "VO",
-      "nota": "Efectos secundarios: sequedad de boca, letargia, sedación, depresión, bradicardia, hipotensión, mareo, estreñimiento, Raynaud.",
-      "page": 4,
-      "page_2024": 4
+      "x": "Además del dolor, pueden desencadenarlas procedimientos antes bien tolerados (aspiración de secreciones, luz, fisioterapia): fenómeno de alodinia.",
+      "cita": "Las crisis disautonómicas, además de poder ser desencadenadas por dolor, pueden ser desencadenadas por procedimientos que previamente eran bien tolerados por el paciente, como la aspiración de secreciones, la luz o la fisioterapia. Este es el fenómeno de alodinia.",
+      "page": 2,
+      "auto": true
     },
     {
-      "farmaco": "propranolol (β agonista según el texto)",
-      "indicacion": "hipertensión, taquicardia, fiebre",
-      "dosis": "Vía oral: 0.5 -2 mg/kg/día cada 6-12 h",
-      "via": "VO",
-      "nota": "Efectos secundarios: bradicardia, hipoglucemia, terrores nocturnos, sincopes, ataxia, eosinofilia y citopenia.",
-      "page": 4,
-      "page_2024": 4
+      "x": "En primer lugar, reevaluar los tratamientos farmacológicos que se estén empleando para el manejo y control del dolor.",
+      "cita": "En primer lugar debemos reevaluar los tratamientos farmacológicos que estemos empleando para el manejo y control del dolor.",
+      "page": 3,
+      "auto": true
     },
     {
-      "farmaco": "gabapentina",
-      "indicacion": "espasticidad, alodinia",
-      "dosis": "Vía oral: 1º día:5 mg/kg noche 2º día 5mg/kg/12 h 3ºdía 5mg/kg/8h. Mantenimiento 8-35 mg/kg/día en 3 dosis",
-      "via": "VO",
-      "nota": "Efectos secundarios: somnolencia, mareos, ataxia, cefalea, temblores y parestesias. En casos puntuales ha mejorado disautonomía, agitación y espasticidad resistentes a múltiples fármacos.",
-      "page": 4,
-      "page_2024": 4
+      "x": "En segundo lugar, valorar añadir uno de los fármacos de la tabla, elegido según los síntomas predominantes de las crisis.",
+      "cita": "En segundo lugar, valorar añadir uno de los siguientes fármacos recogidos en la siguiente tabla. Estos fármacos han tenido algún grado de efectividad en los casos publicados hasta el momento. En la elección del fármaco debemos tener en cuenta los síntomas predominantes de las crisis disautonómicas (ver síntomas tratados en la tabla).",
+      "page": 3,
+      "auto": true
     },
     {
-      "farmaco": "ciproheptadina",
-      "indicacion": "diaforesis, vómitos y dolor abdominal",
-      "dosis": "Vía oral 0.25-0.5 mg/kg/día cada 8-12 horas 2-6 años (máx 12 mg/día) 7-14 años (máx 16 mg/día)",
-      "via": "VO",
-      "nota": "Efectos secundarios: sedación, taquicardia, palpitaciones, astenia, temblor, nerviosismo, aumento de apetito. Mejoría apreciada en casos con predominio de hipotermia.",
-      "page": 4,
-      "page_2024": 4
-    },
-    {
-      "farmaco": "dantroleno",
-      "indicacion": "rigidez muscular, posturas anómalas",
-      "dosis": "Vía oral: Dosis inicio 1 mg/kg/día (en dos tomas). Incrementos semanales de 0,5 mg/kg/día hasta dosis de mantenimiento: 2 mg/kg/dosis en tres tomas al día. Dosis máxima diaria: 400 mg/día",
-      "via": "VO",
-      "nota": "Medicamento extranjero no comercializado en España. Efectos secundarios: somnolencia, vértigo, fatiga, insomnio, falta de coordinación, confusión, vómitos, estreñimiento, diarrea.",
-      "page": 4,
-      "page_2024": 4
+      "x": "Si la sintomatología es grave: fármacos de comienzo de acción rápida como morfina, propranolol o benzodiacepinas.",
+      "cita": "Si la sintomatología es grave, utilizaremos fármacos de comienzo de acción rápida como morfina, propranolol o benzodiacepinas.",
+      "page": 3,
+      "auto": true
     }
   ],
   "banderas_rojas": [
-    "Tras una lesión aguda del SNC pueden darse crisis disautonómicas muy intensas en la fase inicial, que se tratarán en unidades de cuidados intensivos pediátricos.",
-    "Gravedad clínica según la escala adaptada: grave si puntuación >12.",
-    "Morfina: riesgo de depresión respiratoria, depresión del SNC, convulsiones, íleo paralítico, retención urinaria e hipotensión."
+    {
+      "x": "Tras una lesión aguda del sistema nervioso central pueden darse crisis muy intensas en la fase inicial, que se tratan en cuidados intensivos pediátricos; el protocolo se refiere solo a las crisis crónicas.",
+      "cita": "Tras una lesión aguda del sistema nervioso central pueden darse crisis disautonómicas muy intensas en la fase inicial, que se trataran en unidades de cuidados intensivos pediátricos. En este texto nos referiremos al manejo de las crisis disautonómicas crónicas.",
+      "page": 2,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Buscar en la exploración signos potencialmente dolorosos (espasticidad o distonía, luxación de cadera, escoliosis, lesiones cutáneas por presión) y valorar estudios radiológicos de caderas o columna como posibles focos de dolor.",
-    "Medidas físicas: calor 20 a 30 minutos varias veces al día para dolor y espasmos; frío (hielo triturado en bolsa cubierto con toalla) 15-20 minutos varias veces al día sobre la zona inflamada; masajes para relajar la musculatura.",
-    "Registrar cada crisis (anexo 2): fecha, duración, factor precipitante (dolor, baño, aspiración de secreciones, luz, tacto o fisioterapia) y los signos presentes.",
-    "Abordaje centrado en la familia e interdisciplinar: educación y capacitación familiar por enfermería, apoyo psicológico y manejo de complicaciones ambientales por trabajo social."
-  ],
-  "secciones_recomendadas": [
-    "SIGNOS Y SÍNTOMAS",
-    "Medidas farmacológicas",
-    "Escala adaptada para el diagnóstico de Crisis Disautonómica en pediatría",
-    "Registro de Crisis Disautonómicas"
+    {
+      "x": "La exploración entre episodios será normal o la habitual del paciente; buscar signos potencialmente dolorosos: espasticidad o distonía, luxación de cadera, escoliosis, lesiones cutáneas por presión.",
+      "cita": "La exploración física entre los episodios será normal o la habitual del paciente. Buscaremos signos potencialmente dolorosos como la espasticidad o distonía, luxación de cadera, escoliosis, lesiones cutáneas por presión…",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "El EEG sirve para el diagnóstico diferencial con epilepsia, con cautela: hasta un 2% de la población sana tiene puntas en el EEG y el 50% de los pacientes epilépticos pueden tener un EEG intercrítico normal.",
+      "cita": "No disponemos de una prueba complementaria diagnóstica. Utilizaremos registros electroencefalográficos (EEGs) en el diagnóstico diferencial con epilepsia. Debemos tener en cuenta que hasta un 2% de la población sana tiene puntas en el EEG y que el 50% de los pacientes epilépticos pueden tener un EEG intercrítico normal.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Algunos autores proponen la efectividad de la morfina como criterio diagnóstico, ya que afirman que la gran mayoría de las crisis mejoran con ella.",
+      "cita": "Algunos autores han propuesto que la efectividad de la morfina en el control de las crisis disautonómicas puede ser utilizado como criterio diagnóstico, ya que afirman que la gran mayoría mejoran con esta medicación.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Como parte del manejo del dolor, valorar medidas no farmacológicas: cognitivas (musicoterapia, visualización, hipnosis, videojuegos), conductuales (respiración profunda, relajación, risoterapia) y físicas (calor, frío, masajes).",
+      "cita": "Como parte de la adecuación en el manejo del dolor, valoraremos las medidas no farmacológicas a emplear:",
+      "page": 3,
+      "auto": false
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

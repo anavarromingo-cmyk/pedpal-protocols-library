@@ -31,6 +31,13 @@ def main() -> int:
             if re.search(r"errata (del|en el) (propio )?(protocolo|original)|errata del texto", t, re.I):
                 por.setdefault(h["slug"], []).append({"farmaco": "", "pagina": h.get("pagina"), "nota": t,
                                                       "cita": (h.get("cita_protocolo") or "")[:300], "origen": "revisión de resúmenes"})
+    fp = HERE / "curated" / "figuras_algoritmo.json"
+    if fp.exists():
+        for slug, figs in json.loads(fp.read_text(encoding="utf-8")).items():
+            for g in figs:
+                if g.get("aviso"):
+                    por.setdefault(slug, []).append({"farmaco": "", "pagina": g.get("page"), "cita": "", "origen": "figura de algoritmo",
+                                                     "nota": f"[figura de algoritmo que no coincide con el texto] «{g.get('titulo', '')}»: {g['aviso']}"})
     tit = {}
     for p in (HERE / "aprobados").glob("*.json"):
         tit[p.stem] = json.loads(p.read_text(encoding="utf-8"))["titulo_pdf"]

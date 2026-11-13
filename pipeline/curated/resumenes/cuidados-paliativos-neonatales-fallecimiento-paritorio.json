@@ -1,57 +1,124 @@
 {
   "slug": "cuidados-paliativos-neonatales-fallecimiento-paritorio",
-  "en_una_frase": "Recomendaciones prácticas de cuidados paliativos perinatales en la sala de partos (límite de viabilidad, enfermedad limitante prenatal, atención postnatal) para obstetras, neonatólogos y matronas.",
+  "en_una_frase": "Cuidados paliativos perinatales en la sala de partos: manejo prenatal del prematuro en el límite de la viabilidad y del feto con enfermedad limitante, comunicación con la familia, plan de parto y atención postnatal al recién nacido que fallece y a su familia.",
   "puntos_clave": [
-    "Grupos candidatos: feto/RN con malformación o enfermedad limitante para la vida, prematuro en el límite de la viabilidad y neonato que no responde al tratamiento intensivo.",
-    "Viabilidad (GRN-SENeo): 22+0-22+6 semanas aproximación paliativa; 23+0-23+6 consenso con la familia, proactiva si condiciones favorables; desde 24 semanas actitud proactiva.",
-    "Gestaciones >22+0 semanas: información conjunta (obstetras, neonatólogos, matronas) en hospital de tercer nivel, con datos del propio centro, registrada en la historia clínica.",
-    "Preferencias sobre reanimación desconocidas o inciertas: razonable iniciarla en espera de nuevas discusiones; ética y legalmente, no iniciar o retirar tras iniciar son similares.",
-    "Plan de Parto consensuado y flexible en la historia materna (anexo 1): sin monitorización fetal habitual, esperar el parto espontáneo y cesárea solo si está indicada.",
-    "Postnatal: secar, calentar, gorro, envoltura y piel con piel, sin monitorización rutinaria; si precisa fármacos, opiáceos de primera línea y benzodiacepinas como coadyuvante."
-  ],
-  "farmacos_clave": [
     {
-      "farmaco": "fentanilo",
-      "indicacion": "analgesia/control de síntomas en el recién nacido en paritorio (opiáceo de primera línea)",
-      "dosis": "1-2 microgramos/Kg",
-      "via": "preferentemente intranasal",
-      "nota": "La indicación de analgesia se realizará de manera individualizada.",
-      "page": null,
-      "page_2024": 6
+      "x": "Límite de la viabilidad (Tabla 1, GRN-SENeo): < 22 6/7 semanas, cuidados paliativos; 23 0/7–23 6/7, actitud proactiva frente a cuidados paliativos, individualizando según la opinión de la familia y los factores de riesgo; > 24 0/7, actitud proactiva.",
+      "cita": "Tabla 1. Manejo de los RN con edad gestacional límite de la viabilidad Edad gestacional(semanas) | Cuidado neonatal recomendado < 22 6/7 | Cuidados paliativos 23 0/7 –23 6/7 | Actitud Proactiva vs Cuidados Paliativos. Individualizar actuación (según opinión de la familia y valoración de factores de riesgo) > 24 0/7 | Actitud Proactiva.",
+      "page": 3,
+      "auto": true
     },
     {
-      "farmaco": "midazolam",
-      "indicacion": "benzodiacepina coadyuvante para el confort del recién nacido en paritorio",
-      "dosis": "0,1-0,3 milígramos/Kg",
-      "via": "preferentemente intranasal",
-      "nota": "",
+      "x": "Tramo de la semana veintidós de gestación (el inmediatamente anterior a las 23 semanas): aproximación paliativa con cuidados de confort (manejo de síntomas, acompañamiento familiar y apoyo en el duelo). Puede plantearse una actitud más proactiva si la familia así lo manifiesta y en gestaciones con condiciones perinatales favorables y más cercanas a las 23 semanas, en función de la situación clínica del recién nacido. El protocolo no delimita igual este tramo en el texto, en la tabla y en el apartado de reanimación.",
+      "cita": "Aproximación paliativa, cuidados de confort (manejo de síntomas como dolor o disnea, acompañamiento familiar y apoyo en el duelo). Aunque se puede plantear una actitud más proactiva en el caso de familias que así lo manifiesten y en gestaciones con condiciones perinatales favorables y más cercanas a las 23 semanas, en función de la situación clínica del recién nacido.",
+      "page": 2,
+      "auto": false
+    },
+    {
+      "x": "En gestaciones > 22 0/7 semanas es prioritario que la información la den de forma conjunta obstetras, neonatólogos y matronas en un hospital de tercer nivel.",
+      "cita": "En gestaciones > 22 0/7 semanas, se considera prioritario que el proceso de información se realice de forma conjunta entre obstetras, neonatólogos y matronas en un hospital de tercer nivel.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "Prematuro en el límite de la viabilidad: si las preferencias de los progenitores sobre la reanimación son desconocidas o inciertas, es razonable iniciar la reanimación en espera de nuevas discusiones. No se aplica a los recién nacidos por debajo del límite en los que el protocolo indica que no se realizarán maniobras de reanimación (véase la bandera correspondiente).",
+      "cita": "Si las preferencias de los progenitores con respecto a la reanimación de su hijo/a son desconocidas o inciertas, es razonable iniciar la reanimación en espera de nuevas discusiones.",
+      "page": 6,
+      "auto": false
+    },
+    {
+      "x": "Recién nacido con sospecha o diagnóstico prenatal de enfermedad limitante de la vida: plan de atención explícito elaborado con los padres, que incluya si desean monitorización fetal (normalmente no se recomienda en estos casos), medidas ante sufrimiento fetal, desarrollo del parto y cuidado del recién nacido; en general, esperar el parto espontáneo y evitar intervenciones innecesarias.",
+      "cita": "plan de atención explícito junto con los padres que incluya si desean monitorización fetal (normalmente no se recomienda en estos casos), las medidas que se deben tomar en caso de sufrimiento fetal, el desarrollo del parto y la manipulación y cuidado del recién nacido durante y después del nacimiento. En general, el objetivo debe ser esperar el parto espontáneo y evitar intervenciones innecesarias",
+      "page": 7,
+      "auto": false
+    },
+    {
+      "x": "Medidas de estabilización inicial y confort: secar, calentar, colocar gorro, envolver con paño/toalla y contacto físico continuo con los padres (piel con piel); evitar ruidos fuertes, luces brillantes o aire frío.",
+      "cita": "Las medidas de estabilización inicial y confort al recién nacido incluyen: secar, calentar, colocar gorro, proporcionar envoltura mediante paño/toalla y contacto físico continuo por parte de los padres (piel con piel), así como evitar estímulos como ruidos fuertes, luces brillantes o aire frío.",
       "page": 8,
-      "page_2024": 6
+      "auto": true
+    },
+    {
+      "x": "Si precisa medicación, se sugieren opiáceos como primera línea y benzodiacepinas como coadyuvante.",
+      "cita": "Si precisara medicación se sugiere la administración de opiáceos como primera línea, así como el uso de benzodiacepinas como coadyuvante.",
+      "page": 8,
+      "auto": true
     }
   ],
   "banderas_rojas": [
-    "Cuando el interés fetal, por debajo del límite de viabilidad, implique un grave riesgo materno, debe primar el interés de la mujer salvo su decisión en contra, consciente y libre.",
-    "RN <22 semanas: pueden presentar signos de vitalidad y aun así no se realizarán maniobras de reanimación por no tener madurez suficiente para la vida extrauterina.",
-    "Evitar medidas que prolonguen la vida (soporte respiratorio y vasoactivo) o que produzcan malestar; minimizar examen físico, procedimientos de vía aérea y acceso vascular.",
-    "Las decisiones tomadas antenatalmente pueden modificarse según la condición y los signos de madurez del niño al nacimiento; conviene discutirlo de forma preventiva."
+    {
+      "x": "Cuando el interés fetal, por debajo del límite de viabilidad, implique un grave riesgo materno, debe primar el interés de la mujer salvo su decisión en contra, consciente y libre.",
+      "cita": "Cuando el interés fetal, por debajo del límite de viabilidad, implique un grave riesgo materno, debe primar el interés de la mujer salvo su decisión en contra, consciente y libre.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "RN < 22 semanas: explicar a la familia que pueden presentar signos de vitalidad y que, aun así, no se podrán realizar maniobras de reanimación por no tener madurez suficiente para la vida extrauterina.",
+      "cita": "En casos de RN < 22 semanas, explicar que hay posibilidad de que presenten signos de vitalidad y que, aún así, no se podrán realizar maniobras de reanimación por no tener madurez suficiente para afrontar la vida extrauterina.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Las decisiones tomadas antenatalmente pueden modificarse según la condición y los signos de madurez del niño al nacimiento; conviene discutir esta posibilidad de forma preventiva.",
+      "cita": "decisiones tomadas antenatalmente pueden ser modificadas dependiendo de la condición y los signos de madurez del niño al nacimiento. Es importante considerar esta posibilidad y puede resultar útil discutirla de forma preventiva.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Advertir a la familia de que existe la posibilidad de fallecimiento incluso recibiendo medidas activas de reanimación y cuidados intensivos neonatales.",
+      "cita": "Que existe la posibilidad de fallecimiento incluso recibiendo medidas activas de reanimación y cuidados intensivos neonatales.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Recién nacido en cuidados de confort, siguiendo el plan de cuidados acordado con la madre/familia: evitar las medidas que prolonguen la vida, como el soporte respiratorio y vasoactivo, o que produzcan malestar; si existe hipoxemia se puede probar oxigenoterapia y valorar si aumenta el confort.",
+      "cita": "Evitar las medidas que prolonguen la vida, como el soporte respiratorio y vasoactivo, o que produzcan malestar. Si existe hipoxemia, se puede probar oxigenoterapia y valorar si aumenta el confort.",
+      "page": 8,
+      "auto": false
+    },
+    {
+      "x": "Recién nacido en cuidados de confort, siguiendo el plan de cuidados acordado con la madre/familia: minimizar o evitar las intervenciones que puedan causar molestias (examen físico, procedimientos de las vías respiratorias, acceso vascular…).",
+      "cita": "se deben minimizar o evitar las intervenciones que puedan causar molestias ( examen físico, procedimientos de las vías respiratorias, acceso vascular…).",
+      "page": 8,
+      "auto": false
+    },
+    {
+      "x": "Parto del recién nacido con enfermedad limitante de la vida: en determinadas situaciones puede ser necesaria una intervención, pero solo se debe ofrecer una cesárea si está clínicamente indicado, sobre todo ligada a indicaciones que tengan en cuenta el interés materno.",
+      "cita": "En determinadas situaciones, puede ser necesaria una intervención, pero sólo se debe ofrecer una cesárea si está clínicamente indicado, sobre todo ligada a indicaciones que tengan en cuenta el interés materno.",
+      "page": 7,
+      "auto": false
+    }
   ],
   "perlas": [
-    "La respiración gasping es una respuesta refleja a hipoxia profunda que no causa ni expresa sufrimiento, por lo que no debería tratarse, pero requiere preparar a los padres.",
-    "Ofrecer ver al bebé sin obligar; a quien prefiera no verlo se le puede describir físicamente; siempre pueden cambiar de opinión. Facilitar recuerdos tangibles (huellas, fotografías, mechón de pelo).",
-    "Frases a usar: 'Siento lo que les ha pasado', 'Tienes un bebé precioso/a'; a evitar: 'Sé fuerte', 'No llores', 'Eres joven, ya tendrás más', 'El tiempo lo cura todo'.",
-    "Evitar las palabras feto o embrión (usar hijo/a, su nombre o bebé); identificar un contacto clave y un tomador de decisiones para evitar 'mensajes mixtos'.",
-    "Si el éxitus no ocurre en paritorio, trasladar madre y RN a habitación individual; asesorar sobre lactancia (supresión farmacológica o donación), dar información escrita y recursos de asociaciones de duelo perinatal."
-  ],
-  "secciones_recomendadas": [
-    "1. RECIÉN NACIDO PREMATURO EN EL LÍMITE DE LA VIABILIDAD",
-    "1. Comunicación durante el proceso asistencial. Recomendaciones",
-    "ATENCIÓN POSTNATAL AL RECIÉN NACIDO/FAMILIA",
-    "ANEXO 1 PLAN DE CUIDADOS EN CUIDADOS PALIATIVOS PERINATALES"
+    {
+      "x": "Algunos autores describen que la respiración gasping es una respuesta refleja a una hipoxia profunda que no causa ni expresa sufrimiento, por lo que no debería tratarse, pero requiere preparar a los padres.",
+      "cita": "Algunos autores describen que la respiración gasping es una respuesta refleja a una hipoxia profunda iniciada por el tronco del encéfalo y que no causa ni expresa sufrimiento, por lo que no debería tratarse, pero requiere preparar a los padres.",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "Recién nacido en cuidados de confort, si precisa medicación y con indicación individualizada de la analgesia: los fármacos recomendados son fentanilo (1-2 microgramos/kg) y midazolam (0,1-0,3 miligramos/kg), preferentemente por vía intranasal.",
+      "cita": "Los fármacos recomendados a utilizar serán: Fentanilo (1-2 microgramos/Kg) y Midazolam (0,1-0,3 milígramos/Kg) preferentemente por vía intranasal.",
+      "page": 8,
+      "auto": false
+    },
+    {
+      "x": "Recién nacido en cuidados de confort, siguiendo el plan de cuidados acordado con la madre/familia: no es necesario monitorizar al recién nacido ni tomar constantes rutinariamente; el médico responsable lo valorará de forma periódica hasta diagnosticar el fallecimiento.",
+      "cita": "No es necesario monitorizar al recién nacido ni tomar constantes rutinariamente. De forma periódica, el médico responsable valorará al paciente hasta diagnosticar su fallecimiento.",
+      "page": 8,
+      "auto": false
+    },
+    {
+      "x": "Ofrecer a los padres la posibilidad de ver a su hijo/a, sin obligar; a quien prefiera no verlo se le puede describir cómo es físicamente, y siempre deben saber que pueden cambiar de opinión.",
+      "cita": "Se recomienda ofrecer a los padres la posibilidad de ver a su hijo/a y respetar al máximo el criterio de cada uno. Habrá quien prefiera no ver al bebé, en estos casos también se les puede describir cómo es físicamente si lo desean. Esto les puede ayudar a comprender que el bebé tiene una apariencia física normal. Siempre hay que dejarles saber que pueden cambiar de opinión.",
+      "page": 9,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

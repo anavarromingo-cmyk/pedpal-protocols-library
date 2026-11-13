@@ -1,37 +1,166 @@
 {
   "slug": "nutricion-enteral-domiciliaria",
-  "en_una_frase": "Nutrición enteral domiciliaria en CPP: indicaciones y contraindicaciones, vías y modalidades de administración, fórmulas, cuidados de sondas y ostomías y manejo de complicaciones.",
+  "en_una_frase": "Nutrición enteral domiciliaria en cuidados paliativos pediátricos: indicaciones y contraindicaciones, vías y modalidades de administración, cuidados de sondas y ostomías, fórmulas y complicaciones.",
   "puntos_clave": [
-    "Indicada si requerimientos aumentados no cubiertos por vía oral, deglución imposible, intolerancia oral, malabsorción o desnutrición moderada/grave, con cuidador entrenado.",
-    "No iniciar NE en final de vida o enfermedad muy avanzada; valorar individualmente retirar el soporte previo. Si sospecha de oclusión al final de vida: SNG de descarga.",
-    "Vía gástrica de elección si vaciado normal; yeyunal si riesgo de aspiración o vaciamiento alterado. SNG si duración inferior a 8-12 semanas; gastrostomía si superior.",
-    "La NE intermitente es la más fisiológica pero no debe darse en yeyuno (dumping); la NEDC se tolera mejor; la cíclica (8-12 h) para escolares que comen de día.",
-    "Comprobar la colocación de la SNG por pH ácido del aspirado (técnica de elección; pH 5.5 indica localización gástrica, valores superiores requieren radiografía).",
-    "Lavar la sonda con agua tras alimentos y entre fármacos; cambiar SNG si ennegrecida, con grietas o >4 meses; sonda/botón de gastrostomía cada 6-12 meses."
+    {
+      "x": "Requisitos para la nutrición enteral domiciliaria: situación clínica estable o estabilizable en domicilio por un equipo sanitario, tolerancia comprobada, cuidadores que aceptan la terapia y están entrenados, y condiciones higiénico-sociales adecuadas.",
+      "cita": "Situación clínica estable o que se pueda estabilizar en domicilio por un equipo sanitario.",
+      "page": 1,
+      "auto": false
+    },
+    {
+      "x": "En final de vida o enfermedad muy avanzada con importante deterioro clínico no se recomienda iniciar nutrición enteral; si ya existía, evaluar de forma individualizada la retirada del soporte nutricional.",
+      "cita": "Final de vida o enfermedad muy avanzada con importante deterioro clínico: En esta situación no se recomienda el inicio de nutrición enteral. Se debe evaluar de forma individualizada la retirada del soporte nutricional si ya existía previamente.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Sonda nasogástrica: duración inferior a 8-12 semanas; NE prolongada en pacientes en los que no sea aconsejable un procedimiento quirúrgico o anestésico; o tiempo de sonda superior a 12 semanas pero autolimitado.",
+      "cita": "Sonda Nasogástrica: • Duración inferior a 8-12 semanas. • NE prolongada, en pacientes en los que no sea aconsejable realizar un procedimiento quirúrgico o anestésico. • Tiempo de sonda superior a 12 semanas pero autolimitado.",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "Gastrostomía: duración superior a 8-12 semanas, siempre que el estómago no esté afectado por la enfermedad primaria, no existan fístulas gastrointestinales altas y el vaciamiento gastroduodenal sea adecuado.",
+      "cita": "Gastrostomía: Duración superior a 8-12 semanas siempre que: Estómago no esté afectado por enfermedad primaria. No existan fístulas gastrointestinales altas. Adecuado vaciamiento gastroduodenal",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "Sonda transpilórica, indicada si hay riesgo de aspiración broncopulmonar (RGE, íleo gástrico, fístulas esofágicas o gástricas) o pancreatitis aguda. Yeyunostomía, indicada en RGE grave o gastroparesia que no se puede controlar.",
+      "cita": "Sonda Transpilórica: • Riesgo de aspiración broncopulmonar: RGE, íleo gástrico, fístulas esofágicas o gástricas. • Pancreatitis aguda. | Yeyunostomía: RGE grave o gastroparesia que no se puede controlar",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "La nutrición enteral intermitente es la más fisiológica y permite la movilidad, pero no se debe administrar en yeyuno por riesgo de dumping; frente a la continua produce más náuseas, vómitos, dolor abdominal, diarreas y riesgo de aspiración.",
+      "cita": "Es la forma de administración más fisiológica y permite la movilidad del paciente. No se debe administrar en yeyuno por riesgo de producir fenómeno de dumping. Comparada con la NEDC, presenta más nauseas, vómitos, dolor abdominal, diarreas y riesgo de aspiración.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "Comprobar la colocación de la sonda con el pH del aspirado (técnica de elección): pH ≤ 5.5 indica localización gástrica; valores superiores requieren confirmación radiológica. Tener en cuenta el tratamiento con IBP o antiácidos, que modifican el pH.",
+      "cita": "Comprobar pH ácido del contenido aspirado. Es la técnica de elección. Un pH ≤ 5.5 es indicativo de localización gástrica. Valores superiores requieren confirmación radiológica. Debemos tener en cuenta si el paciente se encuentra en tratamiento con IBP o antiácidos que modifiquen el pH.",
+      "page": 4,
+      "auto": true
+    }
   ],
-  "farmacos_clave": [],
   "banderas_rojas": [
-    "Contraindicaciones: fracaso intestinal (obstrucción, íleo paralítico, perforación, peritonitis, vómitos persistentes y diarrea grave) y final de vida o enfermedad muy avanzada.",
-    "Signos de mala colocación de la SNG: dificultad respiratoria, tos, aleteo nasal, cianosis; detener la alimentación y retirar la sonda.",
-    "Salida o rotura del botón de gastrostomía: recolocación en domicilio o quirúrgica precoz (< 24h) para evitar el cierre del estoma.",
-    "Neumonía aspirativa: detener la nutrición y antibioterapia con cobertura de gérmenes anaerobios.",
-    "No rellenar el balón de gastrostomía con soluciones salinas (riesgo de cristalización); usar agua según indicaciones del fabricante."
+    {
+      "x": "Contraindicada en el fracaso intestinal: obstrucción, íleo paralítico, perforación, peritonitis, vómitos persistentes y diarrea grave.",
+      "cita": "Fracaso intestinal: Obstrucción, íleo paralítico, perforación, peritonitis, vómitos persistentes y diarrea grave.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Contraindicada si hay malas condiciones higiénico-sociales que no garanticen administrar la terapia de manera segura y adecuada.",
+      "cita": "Malas condiciones higiénicos sociales que no garanticen la administración de la terapia de manera segura y adecuada.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Signo de alarma para valorar soporte enteral: incapacidad de ingerir por boca al menos el 60% de las necesidades calóricas durante los últimos 10 días.",
+      "cita": "Incapacidad de ingerir por boca al menos el 60% de las necesidades calóricas durante los últimos 10 días.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Signo de alarma: tiempo total invertido en la ingesta >4 horas al día.",
+      "cita": "Tiempo total invertido en la ingesta >4 horas al día.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Signo de alarma: inadecuado crecimiento o ganancia ponderal durante más de un mes en niños menores de 2 años.",
+      "cita": "Inadecuado crecimiento o ganancia ponderal durante más de un mes en niños menores de 2 años.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Signo de alarma: pérdida de peso o ausencia de ganancia ponderal durante 3 meses en niños mayores de 2 años.",
+      "cita": "Pérdida de peso o ausencia de ganancia ponderal durante 3 meses en niños mayores de 2 años.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Control radiográfico de la sonda en caso de dudas y en pacientes con trastornos de la deglución o que no presenten sofocación o tos por disminución del nivel de consciencia.",
+      "cita": "En caso de dudas y en pacientes trastornos de la deglución o que no presenten sofocación o tos por disminución del nivel de consciencia, se realizará control radiográfico.",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Signos de mala colocación de la sonda nasogástrica (dificultad respiratoria, tos, aleteo nasal, cianosis): detener la alimentación y retirar la sonda.",
+      "cita": "Debemos estar alerta ante la aparición de signos clínicos que sugieran mala colocación de la sonda nasogástrica: Dificultad respiratoria, tos, aleteo nasal, cianosis etc. Si aparecen estos signos se debe detener la alimentación y retirar la sonda.",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Aspiración: prevenir incorporando al paciente 30º-45º y con procinéticos; si ocurre, suspender la alimentación y antibioterapia.",
+      "cita": "Aspiración | Incorporar al paciente 30º-45º Procinéticos | Suspender alimentación Antibioterapia",
+      "page": 10,
+      "auto": true
+    },
+    {
+      "x": "Neumonía aspirativa: antibioterapia con cobertura de gérmenes anaerobios y detener la nutrición.",
+      "cita": "Neumonía aspirativa | Antibioterapia con cobertura de gérmenes anaerobios Detener nutrición",
+      "page": 13,
+      "auto": true
+    },
+    {
+      "x": "Salida o rotura del botón de gastrostomía: recolocación en domicilio o quirúrgica precoz (< 24h) para evitar el cierre.",
+      "cita": "Salida o rotura del botón | Recolocación en domicilio o quirúrgico | precoz (< 24h) para evitar cierre",
+      "page": 10,
+      "auto": true
+    },
+    {
+      "x": "Sondas y botones con balón: rellenar con agua según el fabricante y evitar las soluciones salinas por el riesgo de cristalización; comprobar semanalmente el contenido de agua para detectar fugas o roturas.",
+      "cita": "el balón se rellena con agua según las indicaciones del fabricante. Se deben evitan las soluciones salinas por el riesgo de cristalización. El tamaño del balón se irá ajustando según el crecimiento del niño. Debe comprobarse semanalmente el contenido del agua para detectar posibles fugas o roturas.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Sondas y botones de gastrostomía fijos (tipo Bard ®, con tope interno en forma de disco, seta o anillos): se cambian en el hospital mediante control endoscópico.",
+      "cita": "Las sondas y botones de gastrostomía pueden ser dispositivos fijos (tipo Bard ®) Anexo 3. con un tope interno en forma de disco, seta o anillos. Estos dispositivos se cambiarán en el hospital mediante control endoscópico.",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Cuidados de la sonda larga y el botón: girar diariamente, pero no se deben girar los botones de yeyunostomía/gastroyeyunostomías.",
+      "cita": "• Girar diariamente. No se deben girar los botones de yeyunostomía/ gastroyeyunostomías.",
+      "page": 5,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Longitud de la SNG: medida nariz-ombligo o (punta de la nariz a lóbulo de la oreja) + (lóbulo a apéndice xifoides); calibre 5F en menores de 5kg, 6F entre 6-20kg, 8-16F en mayores de 20kg.",
-    "Obstrucción de la sonda: lavar con agua y, si persiste, usar agua carbonatada; diluir con agua los jarabes muy viscosos.",
-    "Botón con balón: comprobar semanalmente el agua del balón; girar a diario el botón gástrico, nunca los de yeyunostomía/gastroyeyunostomía; mantener una succión mínima en lactantes."
-  ],
-  "secciones_recomendadas": [
-    "INDICACIONES EN CUIDADOS PALIATIVOS PEDIÁTRICOS",
-    "CONTRAINDICACIONES EN CUIDADOS PALIATIVOS PEDIÁTRICOS",
-    "1. Sondas gástricas y nasoyeyunales",
-    "TABLAS"
+    {
+      "x": "La vía gástrica es la de elección si el vaciado gástrico es normal y no hay contraindicaciones: es la más fisiológica y permite una digestión prácticamente normal.",
+      "cita": "Gástrica: es la vía de elección si el vaciado gástrico es normal y no existen contraindicaciones. Es la más fisiológica y permite una digestión prácticamente normal.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "La nutrición enteral a débito continuo se tolera mejor y consigue mejor balance energético, mejor control glucémico y antes los objetivos nutricionales que la fraccionada.",
+      "cita": "Mejor tolerada. Consigue mejor balance energético, mejor control glucémico y se consiguen antes los objetivos nutricionales comparados con la nutrición fraccionada.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "Limpiar la sonda con agua tras la alimentación o los fármacos, lavar siempre entre un medicamento y otro y diluir con agua los jarabes muy viscosos.",
+      "cita": "Limpiar la sonda con agua tras la administración de alimentación o fármacos. Si se van a administrar varios medicamentos hay que lavar siempre entre uno y otro. Si se administra un jarabe muy viscoso se debe diluir con agua.",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Las tablas 4 y 5 del protocolo indican los ritmos de inicio, aumento y máximo de la nutrición enteral continua y fraccionada.",
+      "cita": "En las tablas 4 y 5 se indican los ritmos de inicio, aumento y máximo en la nutrición enteral continua y fraccionada.",
+      "page": 3,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

@@ -1,44 +1,68 @@
 {
   "generalidades-clasificacion-y-causas-del-dolor-en-cpp": [
     {
-      "nombre": "Estrategia Bifásica de la OMS para Dolor Persistente",
-      "objetivo": "Abordaje sistemático del dolor persistente en cuidados paliativos pediátricos",
-      "poblacion": "Niños y adolescentes con dolor persistente",
+      "nombre": "Estrategia bifásica de la OMS para el dolor persistente",
+      "objetivo": "Elegir y pautar la analgesia en el dolor persistente según su intensidad",
+      "poblacion": "Menores de 12 años con dolor persistente",
       "pasos": [
         {
-          "paso": "1",
-          "x": "Analgésicos no opioides + medidas no farmacológicas"
+          "x": "Marco: directrices de la OMS para el manejo del dolor persistente en menores de 12 años.",
+          "cita": "En consonancia con las directrices de la OMS para el manejo del dolor persistente en menores de 12 años se deben tener en cuenta los siguientes aspectos:",
+          "page": 13,
+          "auto": true,
+          "paso": "1"
         },
         {
-          "paso": "2",
-          "x": "Opioides mayores (sin tramadol ni codeína) + no opioides + coadyuvantes según tipo de dolor"
+          "x": "Primera fase, dolor leve: analgésicos no opioides como paracetamol, AINEs o metamizol.",
+          "cita": "Primera fase: dolor leve. Los fármacos de elección son los analgésicos no opioides como paracetamol, AINEs o metamizol.",
+          "page": 14,
+          "auto": false,
+          "paso": "2"
+        },
+        {
+          "x": "Precaución de la primera fase (analgésicos no opioides): de recién nacido hasta 3 meses, ibuprofeno y metamizol figuran como «No indicado»; el paracetamol sí tiene posología en esa edad.",
+          "cita": "Fármaco | Recién nacido hasta 3 meses | Niños y adolescentes | Dosis diaria máxima Paracetamol | 5-10 mg/kg cada 6-8 h | 10-15 mg/kg cada 4-6 h | 75 mg/kg/día o 4 g/día Ibuprofeno | No indicado | 4-10 mg/kg cada 6-8 h | 40 mg/kg/día Metamizol | No indicado",
+          "page": 15,
+          "auto": true,
+          "paso": "3"
+        },
+        {
+          "x": "Segunda fase, dolor moderado o intenso: opioides mayores (morfina, fentanilo, hidromorfona, oxicodona o metadona). La morfina es el opioide de elección por seguridad, disponibilidad y coste-efectividad.",
+          "cita": "Segunda fase: dolor moderado o intenso. Los fármacos de elección son los opioides mayores como la morfina, fentanilo, hidromorfona, oxicodona o metadona. La morfina se considera el opioide de elección por su seguridad, disponibilidad y coste-efectividad.",
+          "page": 14,
+          "auto": true,
+          "paso": "4"
+        },
+        {
+          "x": "En dolor persistente, administrar la analgesia con pauta regular, dejando rescates para las agudizaciones.",
+          "cita": "2. Administración a intervalos regulares: en caso de dolor persistente la analgesia debe administrarse con una pauta regular dejando rescates para los casos de agudización.",
+          "page": 14,
+          "auto": true,
+          "paso": "5"
+        },
+        {
+          "x": "Elegir la vía de administración más adecuada: si es posible, la vía de elección es la oral, por sencilla, bien aceptada, cómoda y eficaz.",
+          "cita": "3. Elección de la vía de administración más adecuada: si es posible la vía de elección será la vía oral ya que es sencilla, bien aceptada, cómoda y eficaz",
+          "page": 14,
+          "auto": true,
+          "paso": "6"
+        },
+        {
+          "x": "Si la ingesta oral no es posible: sondas gástricas (sonda nasogástrica o transpilórica, botones gástricos o gastroyeyunales). Las vías intravenosa, subcutánea, transmucosa o transdérmica también podrán ser de elección según el contexto.",
+          "cita": "parte de los pacientes pediátricos que reciben atención paliativa donde la ingesta oral no es posible, recurriéndose para la administración a sondas gástricas (sonda nasogástrica o transpilóricas, botones gástricos o gastroyeyunales…).Existen otras vía de administración de fármacos como la intravenosa, subcutánea, transmucosa o transdérmica, que también podrán ser de elección según el contexto.",
+          "page": 14,
+          "auto": false,
+          "paso": "7"
+        },
+        {
+          "x": "Individualizar: seleccionar las dosis según las características de cada niño, en especial edad y peso; influyen el estado nutricional, las interacciones y la insuficiencia renal o hepática.",
+          "cita": "4. Tratamiento individualizado. Debe ajustarse el tratamiento a cada caso. La dosis de analgésicos deben seleccionarse en función de las características de cada niño (en especial de la edad y el peso). Hay factores que pueden influir en el metabolismo de estos fármacos como son el estado nutricional, la interacción medicamentosa y la presencia de insuficiencia renal o hepática.",
+          "page": 14,
+          "auto": true,
+          "paso": "8"
         }
       ],
-      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original."
-    },
-    {
-      "nombre": "Manejo de Dolor Neuropático Refractario",
-      "objetivo": "",
-      "poblacion": "",
-      "pasos": [
-        {
-          "paso": "1",
-          "x": "Iniciar gabapentina o pregabalina con titulación gradual"
-        },
-        {
-          "paso": "2",
-          "x": "Si no respuesta: añadir antidepresivo tricíclico o clonidina (especialmente si disautonomía)"
-        },
-        {
-          "paso": "3",
-          "x": "Si irritabilidad refractaria, considerar metadona (requiere experiencia)"
-        },
-        {
-          "paso": "4",
-          "x": "En cualquier escalón pueden añadirse: opioides (si dolor), neurolépticos, benzodiacepinas"
-        }
-      ],
-      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original."
+      "fuente": "Resumen generado con IA a partir del texto del protocolo PEDPAL, con cita por paso. Verificar siempre con el protocolo."
     }
   ],
   "bases-eticas-de-la-toma-de-decisiones-compartidas": [
@@ -70,542 +94,300 @@
       "revisado_fecha": "2026-11-12"
     }
   ],
-  "cuidados-al-final-de-la-vida-en-neonatologia": [
-    {
-      "nombre": "Algoritmo de Sedación Paliativa Neonatal",
-      "objetivo": "Proporcionar confort en situación de final de vida neonatal",
-      "poblacion": "Neonatos en situación de limitación del esfuerzo terapéutico",
-      "pasos": [
-        {
-          "paso": "1",
-          "x": "Identificar dolor, disnea, agitación no controlables con tratamiento convencional"
-        },
-        {
-          "paso": "2",
-          "x": "Fentanilo: carga 2mcg/kg + perfusión 3mcg/kg/h. Midazolam: 1mcg/kg/min"
-        },
-        {
-          "paso": "3",
-          "x": "Aumentar Fentanilo 1mcg/kg/h cada 30min si precisa. Valorar Morfina si sedación prolongada"
-        },
-        {
-          "paso": "4",
-          "x": "Acompañamiento familiar, piel con piel, ambiente tranquilo"
-        }
-      ],
-      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original."
-    }
-  ],
-  "espasticidad": [
-    {
-      "nombre": "Algoritmo de Tratamiento Farmacológico de la Espasticidad",
-      "objetivo": "Reducción de la hipertonicidad muscular y mejora funcional",
-      "poblacion": "Niños con espasticidad secundaria a parálisis cerebral o enfermedades neurodegenerativas",
-      "pasos": [
-        {
-          "paso": "1",
-          "x": "Baclofeno oral: 2-7años inicio 2.5-5mg/día en 3 tomas (máx 30mg/día). >8años hasta 60mg/día"
-        },
-        {
-          "paso": "2",
-          "x": "Si intolerancia o respuesta insuficiente: Tizanidina o Diazepam"
-        },
-        {
-          "paso": "3",
-          "x": "Toxina botulínica intramuscular para espasticidad focal o regional"
-        },
-        {
-          "paso": "4",
-          "x": "Baclofeno intratecal mediante bomba programable para espasticidad generalizada refractaria"
-        }
-      ],
-      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original."
-    },
-    {
-      "nombre": "Tratamiento Farmacológico Avanzado de Espasticidad",
-      "objetivo": "Manejo de espasticidad generalizada refractaria",
-      "poblacion": "Niños con espasticidad severa no controlada con tratamiento oral",
-      "pasos": [
-        {
-          "paso": "1",
-          "x": "Fisioterapia, estiramientos, posicionamiento, órtesis"
-        },
-        {
-          "paso": "2",
-          "x": "Baclofeno oral como primera línea farmacológica"
-        },
-        {
-          "paso": "3",
-          "x": "Si espasticidad focal: toxina botulínica intramuscular"
-        },
-        {
-          "paso": "4",
-          "x": "Si refractaria: baclofeno intratecal mediante bomba programable"
-        }
-      ],
-      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original."
-    }
-  ],
-  "dispositivos-de-soporte-nutricional": [
-    {
-      "nombre": "Algoritmo de Elección de Dispositivo de Nutrición Enteral",
-      "objetivo": "Selección del dispositivo más adecuado según duración esperada y situación clínica",
-      "poblacion": "Niños con disfagia o imposibilidad de alimentación oral",
-      "pasos": [
-        {
-          "paso": "1",
-          "x": "<4-6 semanas: considerar sonda nasogástrica. >4-6 semanas: gastrostomía"
-        },
-        {
-          "paso": "2",
-          "x": "Sonda nasogástrica (SNG). Si reflujo severo: sonda nasoyeyunal (SNY)"
-        },
-        {
-          "paso": "3",
-          "x": "Gastrostomía endoscópica percutánea (PEG) o quirúrgica. Si reflujo severo o gastroparesia: yeyunostomía"
-        },
-        {
-          "paso": "4",
-          "x": "Educación familiar, prevención de complicaciones, ajuste de fórmula"
-        }
-      ],
-      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original."
-    }
-  ],
-  "irritabilidad-y-agitacion": [
-    {
-      "nombre": "Escalera Terapéutica para Irritabilidad",
-      "objetivo": "Manejo escalonado de irritabilidad refractaria en pacientes neurológicos",
-      "poblacion": "Niños con encefalopatología grave y episodios de irritabilidad",
-      "pasos": [
-        {
-          "paso": "1",
-          "x": "Gabapentina (titular hasta 45-60mg/kg/día) o Pregabalina (5-10mg/kg/día)"
-        },
-        {
-          "paso": "2",
-          "x": "Añadir Amitriptilina o Clonidina (especialmente si disautonomía)"
-        },
-        {
-          "paso": "3",
-          "x": "Metadona 30-100mcg/kg 1-3 veces/día (requiere experiencia)"
-        },
-        {
-          "paso": "4",
-          "x": "Opioides (si dolor), Haloperidol, Benzodiacepinas según síntomas asociados"
-        }
-      ],
-      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original."
-    }
-  ],
-  "manejo-y-cuidados-de-la-traqueostomia-en-domicilio": [
-    {
-      "nombre": "Actuación ante Emergencia en Niño Traqueotomizado",
-      "objetivo": "Manejo sistemático de complicaciones agudas de traqueostomía",
-      "poblacion": "Niños portadores de traqueostomía",
-      "pasos": [
-        {
-          "paso": "1",
-          "x": "Comprobar permeabilidad de la cánula, descartar obstrucción por tapón mucoso"
-        },
-        {
-          "paso": "2",
-          "x": "Aspiración suave por traqueostomía. Si no mejora: cambio de cánula"
-        },
-        {
-          "paso": "3",
-          "x": "Retirar cánula, ventilar por estoma traqueal con ambulón adaptado o por boca/nariz"
-        },
-        {
-          "paso": "4",
-          "x": "Insertar nueva cánula (mismo tamaño o 0.5 menor si dificultad). Verificar posición"
-        }
-      ],
-      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original."
-    }
-  ],
-  "nutricion-parenteral-domiciliaria": [
-    {
-      "nombre": "Manejo de Sospecha de Infección Relacionada con Catéter",
-      "objetivo": "Identificación y tratamiento de infección de catéter venoso central",
-      "poblacion": "Niños con catéter venoso central y signos de infección",
-      "pasos": [
-        {
-          "paso": "1",
-          "x": "Fiebre, signos locales en punto de inserción, bacteriemia sin otro foco"
-        },
-        {
-          "paso": "2",
-          "x": "Hemocultivo periférico + hemocultivo por catéter antes de iniciar antibiótico"
-        },
-        {
-          "paso": "3",
-          "x": "Vancomicina + Gentamicina o Ceftazidima según sospecha. Ajustar según antibiograma"
-        },
-        {
-          "paso": "4",
-          "x": "Retirar si: shock séptico, endocarditis, infección fúngica, no respuesta a 48-72h de tratamiento"
-        }
-      ],
-      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original."
-    }
-  ],
-  "nutricion-enteral-domiciliaria": [
-    {
-      "nombre": "Selección de Vía de Nutrición Enteral",
-      "objetivo": "Elegir la vía óptima según situación clínica y duración",
-      "poblacion": "Niños con necesidad de soporte nutricional enteral",
-      "pasos": [
-        {
-          "paso": "1",
-          "x": "Valorar deglución segura. Si sí: espesantes, adaptar texturas. Si no: nutrición enteral por sonda"
-        },
-        {
-          "paso": "2",
-          "x": "Sonda nasogástrica (SNG) o nasoyeyunal (SNY) si reflujo severo"
-        },
-        {
-          "paso": "3",
-          "x": "Gastrostomía (PEG o quirúrgica). Yeyunostomía si RGE severo o gastroparesia"
-        },
-        {
-          "paso": "4",
-          "x": "Nutrición parenteral (central si >2 semanas, periférica si <2 semanas)"
-        }
-      ],
-      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original."
-    },
-    {
-      "nombre": "Selección de Fórmula de Nutrición Enteral (< 1 año)",
-      "objetivo": "Elegir fórmula nutricional adecuada en lactantes",
-      "poblacion": "Lactantes <1 año con nutrición enteral",
-      "pasos": [
-        {
-          "paso": "1",
-          "x": "Leche materna extraída siempre que sea posible"
-        },
-        {
-          "paso": "2",
-          "x": "Fórmula de inicio (0-6m) o continuación (6-12m) según edad"
-        },
-        {
-          "paso": "3",
-          "x": "Hidrolizado (alergia), sin lactosa (intolerancia), hipercalórica (desnutrición)"
-        },
-        {
-          "paso": "4",
-          "x": "Peso, talla, tolerancia digestiva, ajuste caloricó/proteico según evolución"
-        }
-      ],
-      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original."
-    },
-    {
-      "nombre": "Selección de Fórmula de Nutrición Enteral (> 1 año)",
-      "objetivo": "Elegir fórmula nutricional adecuada en niños mayores",
-      "poblacion": "Niños >1 año con nutrición enteral",
-      "pasos": [
-        {
-          "paso": "1",
-          "x": "Normonutrido: fórmula normocalórica. Desnutrido: fórmula hipercalórica"
-        },
-        {
-          "paso": "2",
-          "x": "Primera elección si función digestiva conservada"
-        },
-        {
-          "paso": "3",
-          "x": "Oligomérica (malabsorción), con fibra (estreñimiento), específica de patología"
-        },
-        {
-          "paso": "4",
-          "x": "Valorar tolerancia, estado nutricional, ajustar volumen y aporte calórico"
-        }
-      ],
-      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original."
-    }
-  ],
-  "valoracion-nutricional": [
-    {
-      "nombre": "Evaluación Nutricional en Enfermedad Neurológica",
-      "objetivo": "Detección precoz de malnutrición en niños con enfermedad neurológica",
-      "poblacion": "Niños con parálisis cerebral, enfermedades neurodegenerativas o neurometabólicas",
-      "pasos": [
-        {
-          "paso": "1",
-          "x": "Peso, talla, IMC, perímetro braquial, pliegues cutáneos. Usar curvas específicas (ej: PC)"
-        },
-        {
-          "paso": "2",
-          "x": "Capacidad de deglución, tiempo de ingesta, vómitos, RGE, estreñimiento"
-        },
-        {
-          "paso": "3",
-          "x": "Hemograma, proteínas, prealbumina, vitaminas, minerales según clínica"
-        },
-        {
-          "paso": "4",
-          "x": "Ajustar textura, vía, aporte calórico-proteico, suplementación. Revisión periódica"
-        }
-      ],
-      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original."
-    }
-  ],
-  "prurito": [
-    {
-      "nombre": "Manejo del Prurito",
-      "objetivo": "Tratamiento sistemático del prurito en cuidados paliativos",
-      "poblacion": "Niños con prurito de diversas etiologías",
-      "pasos": [
-        {
-          "paso": "1",
-          "x": "Hidratación cutánea, evitar irritantes, uñas cortas, ambiente fresco"
-        },
-        {
-          "paso": "2",
-          "x": "Emolientes, lociones de calamina, corticoides tópicos si inflamación"
-        },
-        {
-          "paso": "3",
-          "x": "Antihistamínicos: Hidroxizina, Cetirizina. Si colestasis: Colestiramina, Rifampicina"
-        },
-        {
-          "paso": "4",
-          "x": "Gabapentina, Pregabalina, Ondansetrón. Valorar causa tratable (infección, alergia)"
-        }
-      ],
-      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original."
-    }
-  ],
   "seguridad-del-paciente-en-cpp-en-ambito-extrahospitalario": [
     {
-      "nombre": "Circuito de Gestión de Incidentes de Seguridad",
-      "objetivo": "Notificación y análisis de eventos adversos para mejora continua",
-      "poblacion": "Todos los pacientes en cuidados paliativos",
+      "nombre": "Circuito de gestión de incidentes de seguridad del paciente",
+      "objetivo": "Detectar, notificar y analizar los incidentes de seguridad sin culpabilizar, para diseñar acciones de mejora y prevención.",
+      "poblacion": "Pacientes pediátricos con enfermedad crónica compleja o necesidades paliativas atendidos en domicilio; incluye errores de profesionales y de cuidadores no profesionales.",
       "pasos": [
         {
-          "paso": "1",
-          "x": "Identificación por cualquier miembro del equipo de evento adverso o cuasi-evento"
+          "x": "Detección: quien lo detecta no es necesariamente quien ejecutó el error, sino quien encuentra una limitación o posible complicación que no formaba parte del proceso planificado.",
+          "cita": "Detección: la persona que lo detecta no es necesariamente la ejecutora del error, es la que encuentra una limitación o posible complicación que no formaba parte del proceso en su planificación.",
+          "page": 7,
+          "auto": true,
+          "paso": "1"
         },
         {
-          "paso": "2",
-          "x": "Comunicación al responsable del equipo y registro en sistema de notificación"
+          "x": "Notificación: a los agentes de salud participantes y al potencial damnificado (paciente/familia); si el centro dispone de un sistema de notificación formal, cumplimentar el formulario.",
+          "cita": "Notificación: Es importante notificarlo a los agentes de salud participantes y al potencial damnificado (paciente/familia) y en caso de disponer de un sistema de notificación formal del centro, cumplimentar el formulario.",
+          "page": 7,
+          "auto": true,
+          "paso": "2"
         },
         {
-          "paso": "3",
-          "x": "Revisión multidisciplinar, identificación de causas raíz, no culpabilización"
+          "x": "Análisis del incidente: más o menos exhaustivo según la clasificación de gravedad (leve, moderado o grave) y el riesgo potencial.",
+          "cita": "Análisis incidente: dependiendo de la clasificación de gravedad del incidente (en leve, moderado o grave) y del riesgo potencial del mismo precisará un análisis más o menos exhaustivo.",
+          "page": 7,
+          "auto": true,
+          "paso": "3"
         },
         {
-          "paso": "4",
-          "x": "Medidas correctoras, difusión de aprendizaje, monitorización de efectividad"
+          "x": "Incidentes leves: analizar en un primer nivel con los participantes directos; si son muy frecuentes, plantearse elevarlos para diseñar acciones de mejora.",
+          "cita": "Los incidentes leves se pueden analizar en un primer nivel con los participantes directos del mismo y en caso de ser muy frecuentes, plantearse elevarlo para diseñar acciones de mejora.",
+          "page": 8,
+          "auto": true,
+          "paso": "4"
+        },
+        {
+          "x": "Incidentes graves: requieren la participación de figuras de gestión de equipos o servicios y una metodología de análisis más intensiva.",
+          "cita": "Los incidentes graves requieren de la participación de figuras de gestión de equipos o servicios y de una metodología de análisis más intensiva.",
+          "page": 8,
+          "auto": true,
+          "paso": "5"
+        },
+        {
+          "x": "Tipificación del incidente: accidente, autolesión, agresión, alimentación, administrativo, comunicación, confidencialidad y consentimiento, diagnóstico, documentación/identificación, infección, infraestructura y equipos, monitorización, medicación, úlceras/heridas, procedimiento o pruebas complementarias.",
+          "cita": "Tipificación del incidente: pueden ser de tipo accidente, autolesión, agresión, de alimentación, administrativo, de comunicación, confidencialidad y consentimiento, de diagnóstico, de documentación/identificación, de infección, de infraestructura y equipos, de monitorización, de medicación, de úlceras/heridas, de procedimiento o de pruebas complementarias.",
+          "page": 8,
+          "auto": true,
+          "paso": "6"
+        },
+        {
+          "x": "Establecer el nivel de gravedad y la frecuencia.",
+          "cita": "Nivel gravedad y frecuencia",
+          "page": 8,
+          "auto": true,
+          "paso": "7"
+        },
+        {
+          "x": "Causas («5 porqués»): preguntarse 5 veces en cadena el porqué de la respuesta.",
+          "cita": "Causas ¿5 porqués?: Peguntarse 5 veces en cadena porqué de la respuesta.",
+          "page": 8,
+          "auto": true,
+          "paso": "8"
+        },
+        {
+          "x": "Propuestas: acciones de mejora concretas, con periodos de tiempo objetivos y profesional referente.",
+          "cita": "Propuestas: Establecer acciones de mejora concretas con periodos de tiempo objetivos y profesional referente.",
+          "page": 8,
+          "auto": true,
+          "paso": "9"
+        },
+        {
+          "x": "Seguimiento: reevaluación en un plazo determinado por un profesional responsable.",
+          "cita": "Seguimiento: propuesta de reevaluación en un plazo determinado por un profesional responsable.",
+          "page": 8,
+          "auto": true,
+          "paso": "10"
+        },
+        {
+          "x": "Levantar acta durante el análisis que recoja los puntos anteriores y permita monitorizar el impacto del circuito.",
+          "cita": "Es necesario realizar un acta durante el análisis de incidente que recoja los puntos mencionados anteriormente y permita monitorizar el impacto del circuito.",
+          "page": 8,
+          "auto": true,
+          "paso": "11"
         }
       ],
-      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original."
-    }
-  ],
-  "trastornos-de-la-deglucion": [
-    {
-      "nombre": "Abordaje de la Disfagia Orofaríngea en Cuidados Paliativos",
-      "objetivo": "Manejo seguro de la disfagia minimizando riesgo de aspiración",
-      "poblacion": "Niños con disfagia orofaríngea",
-      "pasos": [
-        {
-          "paso": "1",
-          "x": "Exploración clínica, test de deglución, videofluoroscopia si disponible"
-        },
-        {
-          "paso": "2",
-          "x": "Espesantes para líquidos, modificación de consistencia de sólidos según tolerancia"
-        },
-        {
-          "paso": "3",
-          "x": "Posición semiincorporada, flexión cervical, degluciones múltiples, pequeños volúmenes"
-        },
-        {
-          "paso": "4",
-          "x": "Si aspiración recurrente o ingesta insuficiente: SNG o gastrostomía"
-        }
-      ],
-      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original."
-    }
-  ],
-  "status-epileptico": [
-    {
-      "nombre": "Manejo del Estatus Epiléptico Convulsivo",
-      "objetivo": "Tratamiento secuencial del estatus epiléptico",
-      "poblacion": "Niños con crisis convulsivas >5 minutos o crisis recurrentes sin recuperación",
-      "pasos": [
-        {
-          "paso": "1",
-          "x": "Vía aérea, posición lateral, oxígeno, monitor, glucemia"
-        },
-        {
-          "paso": "2",
-          "x": "Midazolam bucal 200-300mcg/kg o Diazepam rectal 0.5mg/kg. Repetir 1 vez si no cede"
-        },
-        {
-          "paso": "3",
-          "x": "Levetiracetam 40mg/kg IV, Fenitoina 20mg/kg IV, o Valproato 40mg/kg IV"
-        },
-        {
-          "paso": "4",
-          "x": "Midazolam perfusión 200mcg/kg bolus + 1-5mcg/kg/min. Considerar intubación y UCI"
-        }
-      ],
-      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original."
-    },
-    {
-      "nombre": "Manejo del Estatus Epiléptico en Situación de Final de Vida",
-      "objetivo": "Control de crisis convulsivas priorizando confort en final de vida",
-      "poblacion": "Niños en situación terminal con crisis convulsivas",
-      "pasos": [
-        {
-          "paso": "1",
-          "x": "Consenso con familia: prioridad es confort, evitar sufrimiento"
-        },
-        {
-          "paso": "2",
-          "x": "Midazolam bucal 200-300mcg/kg o SC 25-50mcg/kg. Repetir si precisa"
-        },
-        {
-          "paso": "3",
-          "x": "Midazolam perfusión SC 50-300mcg/kg/h. Titular según respuesta"
-        },
-        {
-          "paso": "4",
-          "x": "Aumentar Midazolam hasta control de síntomas. Añadir Morfina si dolor"
-        }
-      ],
-      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original."
-    }
-  ],
-  "reflujo-gastroesofagico": [
-    {
-      "nombre": "Algoritmo de Manejo del Reflujo Gastroesofágico",
-      "objetivo": "Tratamiento escalonado del RGE en niños con patología neurológica",
-      "poblacion": "Niños con RGE, especialmente con discapacidad neurológica",
-      "pasos": [
-        {
-          "paso": "1",
-          "x": "Elevación cabecera 30º, espesar alimentos, tomas pequeñas frecuentes"
-        },
-        {
-          "paso": "2",
-          "x": "Omeprazol 1-2mg/kg/día. Añadir Domperidona o Metoclopramida si gastroparesia"
-        },
-        {
-          "paso": "3",
-          "x": "Si RGE severo con aspiración: considerar sonda nasoyeyunal o yeyunostomía"
-        },
-        {
-          "paso": "4",
-          "x": "Funduplicatura de Nissen si: RGE refractario, aspiraciones recurrentes, esofagitis severa"
-        }
-      ],
-      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original."
+      "fuente": "Resumen generado con IA a partir del texto del protocolo PEDPAL, con cita por paso. Verificar siempre con el protocolo."
     }
   ],
   "crisis-disautonomicas": [
     {
-      "nombre": "Tratamiento de Crisis Disautonómicas",
-      "objetivo": "Control de episodios de hiperactividad simpática",
-      "poblacion": "Niños con daño cerebral grave, TCE, enfermedades neurodegenerativas",
+      "nombre": "Abordaje terapéutico de las crisis disautonómicas crónicas",
+      "objetivo": "Ordenar el tratamiento no farmacológico y farmacológico de las crisis disautonómicas",
+      "poblacion": "Niños con crisis disautonómicas crónicas secundarias a enfermedades del sistema nervioso (las crisis intensas tras lesión aguda se tratan en cuidados intensivos pediátricos)",
       "pasos": [
         {
-          "paso": "1",
-          "x": "Identificar y tratar dolor (principal desencadenante). Usar opioides si precisa"
+          "x": "Abordaje centrado en la familia e interdisciplinar: diagnóstico y tratamiento médico, educación y capacitación de la familia por enfermería, apoyo psicológico y manejo de las complicaciones ambientales por trabajo social.",
+          "cita": "Utilizaremos un abordaje centrado en la familia e interdisciplinar: diagnóstico y tratamiento médico, educación sanitaria y capacitación a la familia por la enfermera, apoyo psicológico por la psicóloga y manejo de las complicaciones ambientales por la trabajadora social.",
+          "page": 3,
+          "auto": true,
+          "paso": "1"
         },
         {
-          "paso": "2",
-          "x": "Añadir clonidina (agonista α2) y/o propranolol (β-bloqueante)"
+          "x": "Valorar las medidas no farmacológicas como parte de la adecuación del manejo del dolor.",
+          "cita": "Como parte de la adecuación en el manejo del dolor, valoraremos las medidas no farmacológicas a emplear:",
+          "page": 3,
+          "auto": true,
+          "paso": "2"
         },
         {
-          "paso": "3",
-          "x": "Gabapentina para modular hiperexcitabilidad del SNC"
+          "x": "En primer lugar, reevaluar los tratamientos farmacológicos en uso para el manejo y control del dolor.",
+          "cita": "En primer lugar debemos reevaluar los tratamientos farmacológicos que estemos empleando para el manejo y control del dolor.",
+          "page": 3,
+          "auto": true,
+          "paso": "3"
         },
         {
-          "paso": "4",
-          "x": "Si crisis graves: benzodiacepinas o sedación paliativa"
+          "x": "En segundo lugar, valorar añadir uno de los fármacos de la tabla, elegido según los síntomas predominantes (ver «síntomas tratados» en la tabla).",
+          "cita": "En segundo lugar, valorar añadir uno de los siguientes fármacos recogidos en la siguiente tabla. Estos fármacos han tenido algún grado de efectividad en los casos publicados hasta el momento. En la elección del fármaco debemos tener en cuenta los síntomas predominantes de las crisis disautonómicas (ver síntomas tratados en la tabla).",
+          "page": 3,
+          "auto": true,
+          "paso": "4"
+        },
+        {
+          "x": "Si la sintomatología es grave: fármacos de comienzo de acción rápida como morfina, propranolol o benzodiacepinas.",
+          "cita": "Si la sintomatología es grave, utilizaremos fármacos de comienzo de acción rápida como morfina, propranolol o benzodiacepinas.",
+          "page": 3,
+          "auto": true,
+          "paso": "5"
+        },
+        {
+          "x": "Si predomina la hipotermia: se ha apreciado mejoría con ciproheptadina en el control de la diaforesis, los vómitos y el dolor abdominal.",
+          "cita": "En casos en los que predomina la hipotermia, se ha apreciado una mejoría con ciproheptadina en el control de la diaforesis, vómitos y dolor abdominal.",
+          "page": 5,
+          "auto": true,
+          "paso": "6"
+        },
+        {
+          "x": "En pacientes resistentes a múltiples fármacos: en casos puntuales la gabapentina ha mejorado la disautonomía, agitación y espasticidad persistentes.",
+          "cita": "En casos puntuales, la gabapentina ha mejorado la disautonomía, agitación y espasticidad persistentes, en pacientes resistentes a múltiples fármacos.",
+          "page": 5,
+          "auto": true,
+          "paso": "7"
         }
       ],
-      "fuente": "Resumen de elaboración propia (A. Navarro, app PedPalProtocolos 2025) a partir del protocolo PEDPAL. Verificar siempre con el PDF original."
+      "fuente": "Resumen generado con IA a partir del texto del protocolo PEDPAL, con cita por paso. Verificar siempre con el protocolo."
     }
   ],
   "retirada-de-ventilacion-no-invasiva": [
     {
-      "nombre": "Retirada de la VMNI: paso a paso",
-      "objetivo": "Retirar la VMNI en un niño con deterioro neurológico y clínico irreversible, orientada al confort y en el contexto de final de vida. Cada paso debe documentarse en la historia clínica.",
-      "poblacion": "Niños con deterioro neurológico y clínico irreversible en cuidados paliativos pediátricos (UCPP, UCIP, planta o domicilio).",
-      "pasos": [
-        {
-          "paso": "1",
-          "x": "Confirmar y documentar la decisión: toma de decisiones consensuada actualizada, consentimiento documentado y acuerdo entre equipo médico y familia. Identificar al médico responsable. Confirmar situación irreversible, incapacidad de disparar el respirador y sedación (si la lleva) adecuada para permitir respiraciones espontáneas. Registrar indicación, proceso y personas presentes."
-        },
-        {
-          "paso": "2",
-          "x": "Preparar el entorno y el equipo: entorno tranquilo con luz regulable y espacio para la familia; enfermería designada presente; retirar o silenciar alarmas no imprescindibles; medicación de rescate a pie de cama; si es en domicilio, equipo de CPP accesible por teléfono o presencialmente."
-        },
-        {
-          "paso": "3",
-          "x": "Acompañar y preparar a la familia: reunión breve antes de iniciar, explicar la secuencia, ofrecer apoyo de psicólogo o trabajador social, confirmar quién desea estar presente y evitar el lenguaje técnico."
-        },
-        {
-          "paso": "4",
-          "x": "Administrar sedoanalgesia anticipada: 30–45 min antes de retirar, fármacos SC/IV según el esquema A o B en función de la tolerancia sin ventilador. Evaluar el efecto con escalas validadas. No retirar la VMNI hasta confirmar un efecto farmacológico satisfactorio."
-        },
-        {
-          "paso": "5",
-          "x": "Retirar la VMNI. Retirada gradual: reducir IPAP en 2 cmH₂O cada 10–15 min, después reducir EPAP hasta 5 cmH₂O, retirar el O₂ suplementario y finalmente la interfase; vigilar el confort en cada paso y rescatar si RDOS ≥3. Retirada directa: retirar la interfase y la oxigenoterapia en un único paso tras confirmar sedación profunda (RASS −4/−5)."
-        },
-        {
-          "paso": "6",
-          "x": "Monitorización y ajuste continuo: evaluar RDOS / COMFORT-B cada 10–15 min inicialmente y después cada 30 min. Bolus de rescate ante cualquier signo de distrés. Aumentar la infusión continua un 25–50% si se requieren más de 2 rescates en 1 hora. Registrar cada dosis y la respuesta."
-        },
-        {
-          "paso": "7",
-          "x": "Cuidados durante la fase agónica: higiene bucal cada 2–4 horas, cambios posturales suaves, crema hidratante en zonas de presión de la interfase, habitación en silencio. El estertor se controla evitando la hidratación en fase agónica; si es muy molesto, butilescopolamina SC según pauta."
-        },
-        {
-          "paso": "8",
-          "x": "Acompañamiento hasta el fallecimiento: comunicar la muerte con calma y palabras adecuadas, dar tiempo a la familia para despedirse sin prisas y registrar la hora, el lugar y las circunstancias del fallecimiento en la historia clínica."
-        }
-      ],
-      "fuente": "Resumen de elaboración propia a partir del protocolo PEDPAL aprobado 2026. Verificar siempre con el PDF original."
-    },
-    {
       "nombre": "Modalidad de retirada y esquema de sedoanalgesia según tolerancia sin ventilador",
-      "objetivo": "Elegir retirada gradual o directa y la sedoanalgesia previa según la tolerancia sin ventilador.",
-      "poblacion": "Pacientes en los que se ha evaluado la tolerancia sin ventilador (¿dispara el trigger?, trigger al más sensible, descartada sedación excesiva).",
+      "objetivo": "Elegir retirada gradual o directa y la sedoanalgesia según la tolerancia sin ventilador.",
+      "poblacion": "Niños en cuidados paliativos pediátricos en los que se ha decidido retirar la VMNI.",
       "pasos": [
         {
-          "paso": "1",
-          "x": "Evaluar la tolerancia sin ventilador: comprobar si el paciente dispara el trigger; si no lo dispara, descartar causa reversible (evolución de la enfermedad vs. sedación excesiva)."
+          "x": "Evaluar la tolerancia sin ventilador: comprobar si el paciente dispara el trigger; si no lo dispara, descartar causa reversible (evolución de la enfermedad vs. sedación excesiva).",
+          "cita": "Evaluación de la tolerancia sin ventilador. Es imprescindible comprobar si el paciente dispara el trigger; si no lo dispara, debe descartarse causa reversible (evolución de la enfermedad vs. sedación excesiva).",
+          "page": 5,
+          "auto": true,
+          "paso": "1"
         },
         {
-          "paso": "2A",
-          "x": "Con tolerancia parcial (Escenario A, retirada gradual): objetivo RASS −2 a −3. Morfina 0,05–0,1 mg/kg SC + Midazolam 0,05-0.1 mg/kg SC, 30–45 min antes de retirar. Infusión continua SC: Morfina 5-10 mcg/kg/h + Midazolam 0,05-0.1 mg/kg/h (podría ser también dexmedetomidina)."
+          "x": "Retirada gradual (con tolerancia parcial): reducción progresiva de BIPAP → CPAP → FiO₂ en pasos de 2 cmH₂O según confort; permite observar la respuesta y ajustar la medicación; puede tomar de 30 min a varias horas.",
+          "cita": "Retirada gradual (con tolerancia parcial) | Retirada directa (sin tolerancia o fase agónica) - Reducción progresiva de BIPAP → CPAP → FiO₂. - Pasos de 2 cmH₂O cada 10–20 min según confort. - Permite observar la respuesta y ajustar la medicación. - Puede tomar de 30 min a varias horas.",
+          "page": 7,
+          "auto": false,
+          "paso": "2"
         },
         {
-          "paso": "3A",
-          "x": "Escenario A: bolus de rescate cada 20–30 min si RDOS ≥3 o COMFORT-B ≥17 (Morfina 0,05–0,1 mg/kg SC + Midazolam 0,05 mg/kg SC). Si agitación: añadir Levomepromazina 0,25–0,5 mg/kg SC en bolus. Monitorizar RDOS / COMFORT-B cada 15–30 min hasta el fallecimiento."
+          "x": "Retirada directa (indicada en dependencia total / fase agónica establecida): retirada de la interfase de forma directa, siempre precedida de sedación establecida; se espera a que el BIS o la clínica confirmen sedación (RASS −4/−5); fallecimiento generalmente en minutos.",
+          "cita": "- Retirada de la interfase de forma directa. - Siempre precedida de sedación establecida. - Se espera a que el BIS o la clínica confirmen sedación (RASS −4/−5). - Fallecimiento generalmente en minutos 2. - Indicada en dependencia total / fase agónica establecida.",
+          "page": 7,
+          "auto": true,
+          "paso": "3"
         },
         {
-          "paso": "2B",
-          "x": "Sin tolerancia (Escenario B, retirada directa): objetivo RASS −4 a −5. Carga de sedación profunda ANTES de retirar la interfase: Morfina 0,1–0,15 mg/kg IV/SC + Midazolam 0,1–0,2 mg/kg IV/SC. Esperar 15–30 min y confirmar RASS −4/−5 y RDOS <3 antes de retirar."
+          "x": "Las dosis son orientativas: ajustar siempre según la respuesta clínica (RDOS / COMFORT-B / RASS) e individualizar según peso, función renal y hepática y medicación previa.",
+          "cita": "Advertencia: las dosis indicadas son orientativas. La dosis adecuada es la que alivia el sufrimiento del paciente. Debe ajustarse siempre según la respuesta clínica valorada con RDOS /COMFORT-B / RASS. Se individualizará según peso, función renal y hepática y medicación previa.",
+          "page": 9,
+          "auto": true,
+          "paso": "4"
         },
         {
-          "paso": "3B",
-          "x": "Escenario B: infusión continua desde el inicio (Morfina 5-10 mcg/kg/h + Midazolam 0.1 mg/kg/h); si resulta insuficiente, añadir Levomepromazina 0,5–1 mg/kg/día IV/SC. Bolus de rescate ante RDOS ≥3: 10% de la dosis diaria de cada fármaco, repetible cada 15 min."
+          "x": "Escenario A. Tolerancia parcial sin ventilador: control sintomático estrecho.",
+          "cita": "Escenario A. Tolerancia parcial sin ventilador — Control sintomático estrecho",
+          "page": 9,
+          "auto": true,
+          "paso": "5"
         },
         {
-          "paso": "4B",
-          "x": "Escenario B: no retirar la VMNI hasta confirmar sedación profunda estable."
+          "x": "Objetivo: RASS -2 a -3 (sedación leve-moderada, respuesta a la voz, sin contacto visual o breve).",
+          "cita": "Objetivo: RASS -2 a -3 (sedación leve-moderada, respuesta a la voz, sin contacto visual o breve).",
+          "page": 9,
+          "auto": true,
+          "paso": "6"
         },
         {
-          "paso": "5",
-          "x": "Escenario C (estertor preagónico / hipersecreciones): Butilescopolamina 0,3–0,5 mg/kg/día SC en infusión continua, o 0,1 mg/kg c/6–8 h SC; evitar la aspiración invasiva, higiene de boca y labios con gasas húmedas, posición lateral de seguridad si es posible y no hidratar en fase agónica."
+          "x": "Morfina 0,05–0,1 mg/kg SC + Midazolam 0,05-0.1 mg/kg SC, 30–45 min antes de retirar.",
+          "cita": "1. Morfina 0,05–0,1 mg/kg SC + Midazolam 0,05-0.1 mg/kg SC, 30–45 min antes de retirar.",
+          "page": 10,
+          "auto": true,
+          "paso": "7"
+        },
+        {
+          "x": "Infusión continua SC: Morfina 5-10 mcg/kg/h + Midazolam 0,05-0.1 mg/kg/h (podría ser también dexmedetomidina).",
+          "cita": "2. Infusión continua SC: Morfina 5-10 mcg/kg/h + Midazolam 0,05-0.1 mg/kg/h. (podría ser también dexmedetomidina)",
+          "page": 10,
+          "auto": true,
+          "paso": "8"
+        },
+        {
+          "x": "Bolus de rescate cada 20–30 min si RDOS ≥3 o COMFORT-B ≥17: Morfina 0,05–0,1 mg/kg SC + Midazolam 0,05 mg/kg SC.",
+          "cita": "3. Bolus de rescate cada 20–30 min si RDOS ≥3 o COMFORT-B ≥17: Morfina 0,05–0,1 mg/kg SC + Midazolam 0,05 mg/kg SC.",
+          "page": 10,
+          "auto": true,
+          "paso": "9"
+        },
+        {
+          "x": "Si agitación: añadir Levomepromazina 0,25–0,5 mg/kg SC en bolus.",
+          "cita": "4. Si agitación: añadir Levomepromazina 0,25–0,5 mg/kg SC en bolus.",
+          "page": 10,
+          "auto": true,
+          "paso": "10"
+        },
+        {
+          "x": "Monitorización: RDOS / COMFORT-B cada 15–30 min hasta el fallecimiento.",
+          "cita": "5. Monitorización: RDOS / COMFORT-B cada 15–30 min hasta el fallecimiento.",
+          "page": 10,
+          "auto": true,
+          "paso": "11"
+        },
+        {
+          "x": "Escenario B. Sin tolerancia sin ventilador: sedación paliativa profunda continua antes de la retirada.",
+          "cita": "Escenario B. Sin tolerancia sin ventilador — Sedación paliativa profunda continua antes de la retirada",
+          "page": 10,
+          "auto": true,
+          "paso": "12"
+        },
+        {
+          "x": "Objetivo: RASS −4 a −5 (sedación profunda, sin respuesta a estímulos; ausencia de signos de distrés).",
+          "cita": "Objetivo: RASS −4 a −5 (sedación profunda, sin respuesta a estímulos; ausencia de signos de distrés).",
+          "page": 10,
+          "auto": true,
+          "paso": "13"
+        },
+        {
+          "x": "Carga de sedación profunda ANTES de retirar la interfase: Morfina 0,1–0,15 mg/kg IV/SC + Midazolam 0,1–0,2 mg/kg IV/SC. Esperar 15–30 min y confirmar RASS −4/−5 y RDOS <3 antes de retirar.",
+          "cita": "1. Carga de sedación profunda ANTES de retirar la interfase: Morfina 0,1–0,15 mg/kg IV/SC + Midazolam 0,1–0,2 mg/kg IV/SC. Esperar 15–30 min y confirmar RASS −4/−5 y RDOS <3 antes de retirar.",
+          "page": 10,
+          "auto": true,
+          "paso": "14"
+        },
+        {
+          "x": "Infusión continua desde el inicio: Morfina 5-10 mcg/kg/h + Midazolam 0.1 mg/kg/h. Si resulta insuficiente, añadir Levomepromazina 0,5–1 mg/kg/día IV/SC.",
+          "cita": "2. Infusión continua desde el inicio: Morfina 5-10 mcg/kg/h + Midazolam 0.1 mg/kg/h. Si resulta insuficiente, añadir Levomepromazina 0,5–1 mg/kg/día IV/SC.",
+          "page": 10,
+          "auto": true,
+          "paso": "15"
+        },
+        {
+          "x": "Bolus de rescate ante cualquier signo de distrés (RDOS ≥3): 10% de la dosis diaria de cada fármaco, repetible cada 15 min.",
+          "cita": "3. Bolus de rescate ante cualquier signo de distrés (RDOS ≥3): 10% de la dosis diaria de cada fármaco, repetible cada 15 min.",
+          "page": 10,
+          "auto": true,
+          "paso": "16"
+        },
+        {
+          "x": "No retirar la VMNI hasta confirmar sedación profunda estable.",
+          "cita": "4. No retirar VMNI hasta confirmar sedación profunda estable.",
+          "page": 10,
+          "auto": true,
+          "paso": "17"
+        },
+        {
+          "x": "Escenario C. Estertor preagónico / hipersecreciones.",
+          "cita": "Escenario C. Estertor preagónico / Hipersecreciones",
+          "page": 10,
+          "auto": true,
+          "paso": "18"
+        },
+        {
+          "x": "Butilescopolamina (Buscapina): 0,3–0,5 mg/kg/día SC en infusión continua, o 0,1 mg/kg c/6–8 h SC.",
+          "cita": "Butilescopolamina (Buscapina): 0,3–0,5 mg/kg/día SC en infusión continua, o 0,1 mg/kg c/6–8 h SC.",
+          "page": 10,
+          "auto": true,
+          "paso": "19"
+        },
+        {
+          "x": "Evitar la aspiración invasiva de secreciones.",
+          "cita": "Evitar la aspiración invasiva de secreciones.",
+          "page": 10,
+          "auto": true,
+          "paso": "20"
         }
       ],
-      "fuente": "Resumen de elaboración propia a partir del protocolo PEDPAL aprobado 2026. Verificar siempre con el PDF original."
+      "fuente": "Resumen generado con IA a partir del texto del protocolo PEDPAL, con cita por paso. Verificar siempre con el protocolo."
     }
   ]
 }

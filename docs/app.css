@@ -249,3 +249,11 @@ a.pdf { min-height: 28px; display: inline-flex; align-items: center; }
 .detail > .vad .callout { margin: 0; }
 
 .estado-prot { margin: 4px 0 8px; color: var(--pp-ink-muted); }
+
+/* resúmenes con cita verificada */
+.badge-ai.auto { background: var(--pp-surface-alt); color: var(--pp-ink); }
+.card li .src a.pdf { min-height: 0; padding: 0 6px; font-size: 0.72rem; vertical-align: baseline; }
+.noauto { font-size: 0.72rem; font-weight: 700; color: var(--pp-warn); background: var(--pp-warn-soft); border-radius: 999px; padding: 0 6px; white-space: nowrap; }
+.drugtable .d .pauta { display: block; font-size: 0.88rem; padding: 3px 0; border-top: 1px dashed var(--pp-line); }
+.drugtable .d .pauta .ind { color: var(--pp-ink-muted); }
+.drugtable .d b a { color: inherit; }

@@ -51,6 +51,9 @@ textarea{width:100%;min-height:54px;font:inherit;font-size:.9rem;padding:6px 8px
 .vad{font-size:.88rem}.vad dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;margin:0}.vad dt{font-weight:600;color:var(--muted)}.vad dd{margin:0}
 dialog{max-width:95vw;max-height:95vh;padding:8px}dialog img{max-width:90vw;max-height:85vh}
 .small{font-size:.8rem;color:var(--muted)}
+details.autos{border:1px dashed var(--line);border-radius:4px;padding:6px 10px;margin:0 0 10px}details.autos>summary{cursor:pointer;font-size:.88rem;color:var(--muted);padding:4px 0}
+details.autos .item{margin-top:8px}.cierre{margin:24px 0;display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;border-top:2px solid var(--orange);padding-top:14px}
+.flag{white-space:normal}h3.grupo .small{font-weight:400}
 </style>
 </head>
 <body>
@@ -71,8 +74,8 @@ dialog{max-width:95vw;max-height:95vh;padding:8px}dialog img{max-width:90vw;max-
 <script>
 const DATOS = /*__DATOS__*/null;
 const KEY = "pedpal.revision.v1";
-const TIPOS = {frase:"Resumen en una frase",punto:"Punto clave",farmaco:"Fármaco clave",bandera:"Bandera roja",perla:"Perla práctica",alg_titulo:"Algoritmo · título",alg_paso:"Algoritmo · paso",vad:"Vademécum"};
-const GRUPOS = [["Resumen rápido",["frase","punto","perla"]],["Fármacos clave",["farmaco"]],["Banderas rojas",["bandera"]],["Algoritmos",["alg_titulo","alg_paso"]],["Vademécum (extraído con IA)",["vad"]]];
+const TIPOS = {frase:"Resumen en una frase",punto:"Punto clave",farmaco:"Fármaco clave",bandera:"Bandera roja",perla:"Perla práctica",alg_fig:"Algoritmo · figura del protocolo",alg_titulo:"Algoritmo · título",alg_paso:"Algoritmo · paso",vad:"Vademécum"};
+const GRUPOS = [["Resumen rápido",["frase","punto","perla"]],["Fármacos clave",["farmaco"]],["Banderas rojas",["bandera"]],["Algoritmos",["alg_fig","alg_titulo","alg_paso"]],["Vademécum (extraído con IA)",["vad"]]];
 // huella del texto del elemento: la validación solo se aplica si el texto no ha cambiado (FNV-1a 32 bits)
 const huella = t => { let h = 0x811c9dc5; for (const ch of String(t || "")) { h ^= ch.codePointAt(0); h = Math.imul(h, 0x01000193) >>> 0; } return h.toString(16); };
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -84,24 +87,28 @@ let soloAvisos = false;
 
 function itemsOf(p) {
   const its = p.items.map(i => ({...i}));
-  (p.vademecum || []).forEach((v, k) => its.push({id: "vad:" + k, tipo: "vad", texto: [v.farmaco, v.indicacion, v.poblacion, v.dosis, v.via].filter(Boolean).join(" · "), vad: v,
+  (p.vademecum || []).forEach((v, k) => v.verificado === false ? null : its.push({id: "vad:" + k, tipo: "vad", motivos: v.aviso ? [v.aviso] : [],
+    auto: !v.aviso && v.dosis_literal !== false && !(p.criticos || []).some(h => h.id === "vad:" + k && h.gravedad === "alta"), texto: [v.farmaco, v.indicacion, v.poblacion, v.dosis, v.via].filter(Boolean).join(" · "), vad: v,
     apoyo: [{t: v.cita, page: v.pagina, sec: ""}], cifras_no_encontradas: v.cifras_no_en_protocolo || [], dosis_literal: v.verificado, tramos_no_literales: v.problemas || []}));
   return its;
 }
 function key(p, i) { return p.slug + "|" + i.id; }
 function hallazgos(p, i) { return (p.criticos || []).filter(h => h.id === i.id); }
 function aviso(p, i) { return (i.cifras_no_encontradas && i.cifras_no_encontradas.length) || i.dosis_literal === false || hallazgos(p, i).length; }
+// «auto»: verificado automáticamente (cita literal + cifras + revisores IA). Solo lo demás requiere su atención.
+function esAuto(p, i) { return i.auto === true; }
+function hecho(p, i) { const s = st.items[key(p, i)]; return !!(s && s.estado); }
 function prog() {
-  let n = 0, r = 0; DATOS.protocolos.forEach(p => itemsOf(p).forEach(i => { n++; if (st.items[key(p, i)] && st.items[key(p, i)].estado) r++; }));
-  document.getElementById("prog").textContent = `${r} de ${n} elementos revisados`;
+  let n = 0, r = 0, na = 0; DATOS.protocolos.forEach(p => itemsOf(p).forEach(i => { if (esAuto(p, i)) { na++; return; } n++; if (hecho(p, i)) r++; }));
+  document.getElementById("prog").textContent = `${r} de ${n} elementos que requieren revisión · ${na} verificados automáticamente`;
 }
 function lista() {
-  document.getElementById("lista").innerHTML = `<div class="filtros"><label><input type="checkbox" id="soloav" ${soloAvisos ? "checked" : ""}> Solo con avisos</label></div>` +
+  document.getElementById("lista").innerHTML = `<div class="filtros"><label><input type="checkbox" id="soloav" ${soloAvisos ? "checked" : ""}> Ocultar lo verificado automáticamente</label></div>` +
     DATOS.protocolos.map(p => {
-      const its = itemsOf(p); const r = its.filter(i => st.items[key(p, i)] && st.items[key(p, i)].estado).length;
-      const av = its.filter(i => aviso(p, i)).length;
-      const cls = r === its.length && its.length ? "done" : r ? "part" : "";
-      return `<button data-s="${p.slug}" aria-current="${p.slug === cur}"><span class="dot ${cls}"></span><span>${esc(p.titulo || p.slug)}</span><span class="n">${r}/${its.length}${av ? " · ⚠" + av : ""}</span></button>`;
+      const its = itemsOf(p); const pe = its.filter(i => !esAuto(p, i)); const r = pe.filter(i => hecho(p, i)).length;
+      const restoOk = its.filter(i => esAuto(p, i)).every(i => hecho(p, i));
+      const cls = p.revisado && !pe.length ? "done" : (r === pe.length && restoOk ? "done" : (r || its.some(i => hecho(p, i))) ? "part" : "");
+      return `<button data-s="${p.slug}" aria-current="${p.slug === cur}"><span class="dot ${cls}"></span><span>${esc(p.titulo || p.slug)}</span><span class="n">${p.revisado && !pe.length ? "revisado" : `${r}/${pe.length}`}</span></button>`;
     }).join("");
   document.getElementById("soloav").onchange = e => { soloAvisos = e.target.checked; render(); };
   document.querySelectorAll("#lista button[data-s]").forEach(b => b.onclick = () => { cur = b.dataset.s; location.hash = cur; render(); lista(); window.scrollTo(0, 0); });
@@ -109,25 +116,31 @@ function lista() {
 function render() {
   const p = DATOS.protocolos.find(x => x.slug === cur) || DATOS.protocolos[0];
   const its = itemsOf(p);
-  let h = `<div class="intro">Para cada elemento: compáralo con los fragmentos del protocolo aprobado 2026 y con los avisos. Marca <b>Correcto</b>, <b>Corregir</b> (escribe el texto corregido, copiado del protocolo si es una dosis) o <b>Quitar</b>. Los avisos ⚠ vienen de comprobaciones automáticas y de tres revisores IA independientes; son ayudas, no veredictos. Tu revisión se guarda en este navegador; al terminar pulsa «Exportar validación» y envía el archivo.</div>`;
+  let h = `<div class="intro"><b>Revisión por excepción.</b> Cada frase lleva debajo la cita literal del protocolo de la que sale. Lo que un programa y dos revisores IA independientes han podido comprobar queda plegado como «verificado automáticamente»; arriba solo aparece lo que necesita su criterio, con el motivo. Marque <b>Correcto</b>, <b>Corregir</b> (escriba el texto final, o una indicación como «Añadir…») o <b>Quitar</b>, y al final pulse «Validar el resto» para dar por bueno lo verificado. Su revisión se guarda en este navegador; pulse «Exportar validación» para enviarla.</div>`;
   h += `<section class="prot"><h2>${esc(p.titulo || p.slug)}</h2><div class="meta">${p.paginas} págs. · ${p.pdf ? `<a href="${esc(p.pdf)}" target="_blank" rel="noopener">abrir PDF aprobado</a>` : ""}${p.sin_resumen ? " · sin resumen" : ""}${(p.secciones_recomendadas || []).filter(s => !s.existe).length ? " · ⚠ secciones recomendadas que ya no existen: " + esc(p.secciones_recomendadas.filter(s => !s.existe).map(s => s.h).join("; ")) : ""}</div>`;
   const omis = (p.criticos || []).filter(c => c.id === "omision" || !its.some(i => i.id === c.id));
   if (omis.length) h += `<h3 class="grupo">Omisiones y observaciones generales de los revisores IA</h3>` + omis.map(hallHTML).join("");
   GRUPOS.forEach(([titulo, tipos]) => {
-    let g = its.filter(i => tipos.includes(i.tipo));
-    if (soloAvisos) g = g.filter(i => aviso(p, i));
-    if (!g.length) return;
-    h += `<h3 class="grupo">${titulo}</h3>`;
-    if (tipos[0] === "alg_titulo" && p.figuras_algoritmo && p.figuras_algoritmo.length) {
+    const todos = its.filter(i => tipos.includes(i.tipo));
+    const g = todos.filter(i => !esAuto(p, i)), ga = todos.filter(i => esAuto(p, i));
+    if (!todos.length || (soloAvisos && !g.length)) return;
+    h += `<h3 class="grupo">${titulo} <span class="small">· ${g.length} por revisar${ga.length ? ` · ${ga.length} verificados` : ""}</span></h3>`;
+    if (false) {
       const fig = f => `<figure><img src="${esc(f.src)}" alt="Figura pág. ${f.page}" loading="lazy"><figcaption>pág. ${f.page} · ${esc(f.sec)} ${f.pie ? "· " + esc(f.pie) : ""}</figcaption></figure>`;
       const fa = p.figuras_algoritmo.filter(f => f.alg), fo = p.figuras_algoritmo.filter(f => !f.alg);
       if (fa.length) h += `<p class="small">Figuras de algoritmo del protocolo aprobado, para contrastar (toca para ampliar):</p><div class="figs">${fa.map(fig).join("")}</div>`;
       if (fo.length) h += `<details><summary class="small">Otras figuras del protocolo (${fo.length})</summary><div class="figs">${fo.map(fig).join("")}</div></details>`;
     }
     h += g.map(i => itemHTML(p, i)).join("");
+    if (ga.length && !soloAvisos) h += `<details class="autos"><summary>${ga.length} verificado${ga.length > 1 ? "s" : ""} automáticamente (ver)</summary>${ga.map(i => itemHTML(p, i)).join("")}</details>`;
   });
+  const resto = its.filter(i => esAuto(p, i) && !hecho(p, i));
+  h += `<div class="cierre">${resto.length ? `<button class="btn pri" id="validar-resto">Validar el resto: ${resto.length} elementos verificados automáticamente</button>` : `<span class="flag ok">Todo lo verificado automáticamente está validado</span>`}
+    <span class="small">Pendientes de su revisión en este protocolo: ${its.filter(i => !esAuto(p, i) && !hecho(p, i)).length}</span></div>`;
   h += `</section>`;
   const m = document.getElementById("main"); m.innerHTML = h;
+  const vr = document.getElementById("validar-resto");
+  if (vr) vr.onclick = () => { m.querySelectorAll(".autos .item, .item[data-auto='1']").forEach(el => { const k = el.dataset.k; if (!(st.items[k] && st.items[k].estado)) st.items[k] = {estado: "ok", fecha: new Date().toISOString().slice(0, 10), huella: el.dataset.h, auto: true}; }); save(); render(); };
   m.querySelectorAll(".figs img").forEach(im => im.onclick = () => { const d = document.getElementById("zoom"); d.querySelector("img").src = im.src; d.showModal(); });
   m.querySelectorAll(".item").forEach(el => {
     const k = el.dataset.k;
@@ -142,15 +155,18 @@ function hallHTML(c) {
 function itemHTML(p, i) {
   const k = key(p, i), s = st.items[k] || {};
   const flags = [];
+  if (i.auto === true) flags.push(`<span class="flag ok">Verificado automáticamente</span>`);
+  (i.motivos || []).forEach(t => flags.push(`<span class="flag">${esc(t)}</span>`));
   if (i.cifras_no_encontradas && i.cifras_no_encontradas.length) flags.push(`<span class="flag crit">Cifras no encontradas en el protocolo: ${esc(i.cifras_no_encontradas.join(", "))}</span>`);
   if (i.dosis_literal === false) flags.push(`<span class="flag">Dosis no literal: ${esc((i.tramos_no_literales || []).join(" / ")).slice(0, 300)}</span>`);
   if (i.dosis_literal === true) flags.push(`<span class="flag ok">Dosis literal en el protocolo</span>`);
   if (i.pagina_2026) flags.push(`<span class="flag ok">pág. 2026: ${i.pagina_2026}${i.pagina_2024 && i.pagina_2024 !== i.pagina_2026 ? ` (antes ${i.pagina_2024})` : ""}</span>`);
   const hs = hallazgos(p, i);
   const vadDl = i.vad ? `<div class="vad"><dl>${["farmaco","indicacion","poblacion","via","dosis","dosis_maxima","observaciones"].filter(f => i.vad[f]).map(f => `<dt>${f.replace("_", " ")}</dt><dd>${esc(i.vad[f])}</dd>`).join("")}</dl></div>` : "";
-  return `<div class="item ${s.estado ? "st-" + s.estado : ""}" data-k="${esc(k)}" data-h="${huella(i.texto)}">
+  return `<div class="item ${s.estado ? "st-" + s.estado : ""}" data-k="${esc(k)}" data-h="${huella(i.texto)}" data-auto="${i.auto === true ? 1 : 0}">
     <span class="tipo">${TIPOS[i.tipo] || i.tipo}${i.alg_nombre ? " · " + esc(i.alg_nombre) : ""} · ${esc(i.id)}</span>
     ${i.vad ? vadDl : `<div class="txt">${esc(i.texto)}</div>`}
+    ${i.fig ? `<div class="figs"><figure><img src="${esc(i.fig)}" alt="Figura de algoritmo" loading="lazy"></figure></div>` : ""}
     ${flags.length ? `<div class="flags">${flags.join("")}</div>` : ""}
     ${(i.apoyo || []).slice(0, 2).map(a => `<div class="apoyo">${esc(a.t)} <span class="pg">— pág. ${esc(a.page)}${a.sec ? " · " + esc(a.sec) : ""}</span></div>`).join("") || `<div class="apoyo"><span class="pg">Sin fragmento de apoyo encontrado automáticamente.</span></div>`}
     ${hs.map(hallHTML).join("")}

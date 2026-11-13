@@ -1,95 +1,142 @@
 {
   "slug": "sialorrea",
-  "en_una_frase": "Diagnóstico con escalas y tratamiento escalonado de la sialorrea en niños con patología neurológica en cuidados paliativos: logopedia, anticolinérgicos, toxina botulínica y cirugía.",
+  "en_una_frase": "Valoración con escalas y tratamiento no farmacológico, farmacológico y quirúrgico de la sialorrea en niños con patología neurológica en cuidados paliativos.",
   "puntos_clave": [
-    "La sialorrea es normal hasta los dos años y patológica a partir de los cuatro; en PCI no se debe a hipersalivación sino a disfunción oromotora, sensorial y del tono orofacial.",
-    "Valorar con escalas: gravedad del babeo (Thomas-Stonell y Greenberg), Drooling Impact Scale y Drooling Rating Scale; tratar si gravedad > 3 en algún apartado o calidad de vida > 7.",
-    "No hay tratamiento estandarizado: abordaje individualizado, primero medidas no farmacológicas +/- fármacos no invasivos, reservando lo invasivo y quirúrgico si no hay respuesta.",
-    "Reevaluar la respuesta a las 6-8 semanas y luego cada 3-6 meses; buena respuesta = descenso ≥ 3 puntos en la escala de gravedad, moderada 2 puntos, mala 1 punto.",
-    "Anticolinérgicos: trihexifenidilo (sobre todo si distonías), glicopirrolato (único aprobado por la EMA en > 3 años) o escopolamina en parche; atropina sublingual de tercera línea.",
-    "Toxina botulínica A intraglandular ecoguiada si fracasan los anteriores; cirugía solo en sialorrea muy severa o fracaso conservador, y no se suele realizar antes de los 6 años."
-  ],
-  "farmacos_clave": [
     {
-      "farmaco": "trihexifenidilo",
-      "indicacion": "sialorrea; muy aconsejado si el paciente asocia síntomas distónicos (extrapiramidales)",
-      "dosis": "Vía oral 3 meses – 17 años: Dosis inicial de 0.1-0.2 mg/kg/día c/8-12h, con aumentos de 10-20% cada 1-2 semanas si no se alcanza el efecto deseado. Habitualmente se inicia 1-2 mg al día en una o dos dosis (desayuno y almuerzo). Si no se alcanza el efecto deseado en 1-2 semanas subir 1 mg al día hasta 2-3 mg tres veces al día. Dosis media habitual: 0.55/mg/kg/día. Dosis máxima 2 mg/kg/día (habitualmente 6-10 mg/día aunque puede aumentarse hasta 70 mg/día)",
-      "via": "VO (también por SNG y gastrostomía)",
-      "nota": "Pasa barrera hematoencefálica; pico de acción a las 3-4 horas, duración 6-7 horas. Efectos secundarios (estreñimiento, retención urinaria, irritabilidad, visión borrosa) más frecuentes en niños < 7 años. Contraindicado en glaucoma de ángulo cerrado, obstrucción GI o genitourinaria e íleo paralítico.",
+      "x": "La sialorrea se considera normal hasta los dos años de vida y patológica a partir de los cuatro.",
+      "cita": "Se considera normal hasta los dos años de vida; siendo patológica a partir de los cuatro.",
+      "page": 1,
+      "auto": true
+    },
+    {
+      "x": "El abordaje debe ser individualizado y sujeto a reevaluación: en general, primero medidas no farmacológicas +/- tratamiento farmacológico no invasivo, reservando las medidas invasivas y quirúrgicas a la ausencia de respuesta.",
+      "cita": "el abordaje terapéutico tendrá que ser individualizado y sujeto a reevaluación. Si bien de forma general, se recomiendael abordaje primario de la sialorrea mediante medidas no farmacológicas +/- tratamiento farmacológico no invasivo reservando las medidas invasivas y quirúrgicas en ausencia de respuesta.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Antes de tratar, evaluar con la escala de gravedad del babeo (Thomas-Stonell y Greenberg); si la frecuencia o la intensidad son ≥3, considerar la escala de calidad de vida (Drooling Impact Scale; Drooling Rating Scale).",
+      "cita": "Antes de iniciar el tratamiento se evaluará la sialorrea con la escala de gravedad de babeo (Thomas-Stonell y Greenberg) y si la frecuencia o intensidad son ≥3 se considerará realizar la escala de calidad de vida (Drooling Impact Scale; Drooling Rating Scale).",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "Valorar el inicio de tratamiento si el cuestionario de gravedad del babeo es > 3 puntos en alguno de los apartados.",
+      "cita": "Cuestionario de gravedad del babeo > 3 puntos en alguno de los apartados",
+      "page": 2,
+      "auto": false
+    },
+    {
+      "x": "Valorar el inicio de tratamiento si el cuestionario de calidad de vida es > 7 puntos.",
+      "cita": "Cuestionario calidad de vida > 7 puntos",
+      "page": 2,
+      "auto": false
+    },
+    {
+      "x": "Valoración basal con las tres escalas antes de iniciar el tratamiento; valorar la respuesta a las 6-8 semanas del inicio y después cada 3-6 meses (mantenimiento de respuesta, cambio de dosis o de tratamiento).",
+      "cita": "En todos los casos deberá hacerse una valoración basal, previo al inicio del tratamiento, en la que se aplicarán las tres escalas; una valoración de la respuesta a las 6-8 semanas desde su inicio y, posteriormente, una valoración cada 3-6 meses para valorar el mantenimiento de respuesta y la necesidad de cambio de dosis o cambio de tratamiento.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Salvo casos concretos de gran afectación neurológica, el tratamiento farmacológico debería ir siempre acompañado de tratamiento no farmacológico.",
+      "cita": "Salvo casos concretos de gran afectación neurológica, el tratamiento farmacológico debería ir siempre acompañado de tratamiento no farmacológico.",
       "page": 4,
-      "page_2024": 3
-    },
-    {
-      "farmaco": "fisostigmina",
-      "indicacion": "antídoto en sobredosificación de trihexifenidilo",
-      "dosis": "1-2 mg IM o IV lenta",
-      "via": "IM / IV",
-      "nota": "",
-      "page": 5,
-      "page_2024": 3
-    },
-    {
-      "farmaco": "glicopirrolato (bromuro de glicopirronio)",
-      "indicacion": "sialorrea; único fármaco aprobado por la agencia europea del medicamento para sialorrea en > 3 años",
-      "dosis": "Vía oral (bromuro de glicopirronio) 1 mes – 17 años: Dosis inicial: 0.02 mg/kg cada 12 horas. Si la respuesta es escasa pueden pautarse 0.02 mg/kg 3-4 veces al día. Posteriormente pueden aumentarse 0.02 mg/kg/dosis cada 7 días hasta 0.1 mg/kg/dosis. Dosis máxima 0.1mg/kg/dosis o 2mg/dosis",
-      "via": "VO (suspensión fórmula magistral o comprimidos; por SNG y gastrostomía); posibilidad SC/IV",
-      "nota": "No pasa barrera hematoencefálica. Las dosis de glicopirrolato son menores (12.8 mcg de glicopirrolato equivalen a 16mcg de bromuro de glicopirronio). Interacción potencialmente grave con topiramato (hipertermia y alteraciones electrolíticas). Medicamento extranjero.",
-      "page": 5,
-      "page_2024": 4
-    },
-    {
-      "farmaco": "escopolamina (parches de hioscina)",
-      "indicacion": "sialorrea",
-      "dosis": "pauta progresiva de ascenso vigilando la aparición de efectos secundarios: primera semana ¼ de parche; segunda semana: ½ de parche; tercera semana: ¾ de parche; cuarta semana: parche entero (1.5 mg). Si buena respuesta puede valorarse mantener dosis de 0.5mg-1mg. Neonatos > 32 semanas-2 años: ¼ parche cada 72 horas. Niños 3-9 años: ½ parche cada 72 horas. Niños 10-17 años: 1 parche cada 72 horas",
-      "via": "transdérmica",
-      "nota": "Aplicar el parche por debajo o detrás de la oreja y cambiar cada 3 días alternando ambas orejas. Misma eficacia que el glicopirrolato pero más abandono por efectos adversos. Interacción potencialmente grave con topiramato y potasio. Pasa barrera hematoencefálica.",
-      "page": 6,
-      "page_2024": 5
-    },
-    {
-      "farmaco": "atropina",
-      "indicacion": "sialorrea, tercera línea si no respuesta o disponibilidad de glicopirronio o escopolamina",
-      "dosis": "Administración sublingual: Neonatos: ampolla inyectable 20-40 microgramos/kg/dosis 2-3 veces al día. Niños 10-19 kg: colirio oftálmico 0.5%: 1 gota 3 veces al día en intervalos de 6 horas. Niños 5-18 años (>20 kg): colirio oftálmico 0.5-1%: 1-2 gotas cada 4-6 horas",
-      "via": "sublingual",
-      "nota": "Uso de colirio oftálmico, excepto en neonatos donde se utilizan ampollas inyectables vía sublingual. Contraindicada en deterioro cognitivo, demencia y alucinaciones.",
-      "page": 7,
-      "page_2024": 5
-    },
-    {
-      "farmaco": "toxina botulínica A (incobotulinumtoxinA, Xeomin)",
-      "indicacion": "sialorrea crónica debida a trastornos neurológicos sin respuesta a tratamiento previo",
-      "dosis": "100 unidades, 30 en cada parótida y 20 en cada submandibular, con posibilidad de repetición a las 16 semanas (Inbcobotulinumtoxin A)",
-      "via": "inyección intraglandular ecoguiada",
-      "nota": "Duración del efecto variable, hasta 6 meses; sólo se podrá administrar de manera intrahospitalaria. Punción ecoguiada para evitar difusión de la toxina a los músculos del suelo de la boca. Únicamente Xeomin® tiene indicación para sialorrea crónica.",
-      "page": 8,
-      "page_2024": 6
+      "auto": true
     }
   ],
   "banderas_rojas": [
-    "Glicopirrolato y escopolamina: interacción potencialmente grave con topiramato (hipertermia y alteraciones electrolíticas); escopolamina también con potasio (lesión del tracto GI superior).",
-    "Contraindicaciones de glicopirrolato y escopolamina: miastenia gravis, colitis ulcerosa severa, glaucoma de ángulo estrecho, nefropatía terminal, cuadros intestinales obstructivos, uropatía obstructiva.",
-    "Trihexifenidilo: contraindicado en glaucoma de ángulo cerrado, obstrucción del tracto gastrointestinal o genitourinario e íleo paralítico; antídoto en sobredosificación: fisostigmina.",
-    "Escopolamina en parche: hipertermia si se abriga en exceso o con calor ambiental.",
-    "Atropina: contraindicada en pacientes con deterioro cognitivo, demencia y alucinaciones.",
-    "Toxina botulínica: riesgo de difusión a los músculos del suelo de la boca con problemas de deglución; la translocación del conducto de Wharton hacia la hipofaringe puede aumentar el riesgo de aspiración.",
-    "Antes de iniciar tratamiento, considerar interacciones con los fármacos habituales, eventos adversos previos y las peculiaridades de uso en enfermedades neuromusculares."
+    {
+      "x": "Glicopirrolato: interacción potencialmente grave con topiramato (hipertermia y alteraciones electrolíticas).",
+      "cita": "Interacciones: potencialmente grave con topiramato (hipertermia y alteraciones electrolíticas).",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Escopolamina en parche: interacción potencialmente grave con topiramato (hipertermia y alteraciones electrolíticas) y con potasio (lesión del tracto GI superior).",
+      "cita": "Interacciones: potencialmente grave con topiramato (hipertermia y alteraciones electrolíticas) y potasio (lesión del tracto GI superior).",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Glicopirrolato y escopolamina, contraindicados en: miastenia gravis, colitis ulcerosa severa, glaucoma de ángulo estrecho, nefropatía terminal, cuadros intestinales obstructivos y uropatía obstructiva.",
+      "cita": "Contraindicaciones: Miastenia gravis, colitis ulcerosa severa, glaucoma de ángulo estrecho, nefropatía terminal, cuadros intestinales obstructivos, uropatía obstructiva.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Atropina: contraindicada en pacientes con deterioro cognitivo, demencia y alucinaciones.",
+      "cita": "Está contraindicado en pacientes con deterioro cognitivo, demencia y alucinaciones.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Toxina botulínica: punción ecoguiada para evitar la difusión a los músculos del suelo de la boca y los consiguientes problemas de deglución.",
+      "cita": "Efectos secundarios: se aconseja punción ecoguiada para evitar difusión de la toxina a los músculos del suelo de la boca con consecuentes problemas de deglución.",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "Cirugía: la translocación del conducto de Wharton hacia la hipofaringe puede aumentar el riesgo de aspiración.",
+      "cita": "Efectos secundarios: la translocación del conducto de Wharton hacia la hipofaringe puede aumentar el riesgo de aspiración.",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "Trihexifenidilo: contraindicado en glaucoma de ángulo cerrado, obstrucción del tracto gastrointestinal o genitourinario e íleo paralítico.",
+      "cita": "Contraindicaciones:glaucoma de ángulo cerrado, obstrucción del tracto gastrointestinal o genitourinario, íleo paralítico.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Trihexifenidilo, sobredosificación: el antídoto es la fisostigmina, IM o IV lenta.",
+      "cita": "Sobredosificación: Antídoto, fisostigmina 1-2 mg IM o IV lenta.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Escopolamina en parche: puede producir hipertermia si se abriga en exceso o hay calor ambiental.",
+      "cita": "hipertermia (si se abriga en exceso o calor ambiental)",
+      "page": 7,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Trihexifenidilo por SNG o gastrostomía: pulverizar el comprimido, disolver en 10 ml de agua y tomar la dosis correspondiente; puede administrarse junto a la nutrición enteral.",
-    "Parche de escopolamina: aplicar por debajo o detrás de la oreja y cambiar cada 3 días alternando ambas orejas, con ascenso progresivo semanal (¼, ½, ¾, parche entero).",
-    "La terapia miofuncional logopédica (sellado labial, control cefálico, posición lingual) se propone en sialorrea leve o leve-moderada y debe probarse al menos 6 meses antes de fármacos.",
-    "El kinesiotaping sobre los músculos suprahioideos (tira en Y si conserva el reflejo de extrusión lingual) debe acompañarse siempre de rehabilitación oromotora."
-  ],
-  "secciones_recomendadas": [
-    "Tratamiento farmacológico",
-    "ALGORITMO",
-    "Escalas de valoración clínica",
-    "TRATAMIENTO"
+    {
+      "x": "Respuesta al tratamiento según la escala de gravedad: buena si desciende al menos 3 puntos, moderada si desciende 2 puntos, mala si desciende solo un punto.",
+      "cita": "Puede considerarse como buena respuesta un descenso en la puntuación a nivel de escala de gravedad de al menos 3 puntos o más. La respuesta será moderada ante un descenso en la escala de gravedad de 2 puntos. Los casos de mala respuesta serán aquellos con descenso en la escala de gravedad de solo un punto.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "La rehabilitación logopédica se propone cuando la sialorrea es leve o leve-moderada y debe probarse al menos 6 meses antes de considerar tratamiento farmacológico; debe realizarla o supervisarla en todo momento un logopeda capacitado y especializado.",
+      "cita": "Se considera que este tipo de rehabilitación se propondrá cuando el grado de sialorrea es leve o leve-moderado, y debe probarse durante al menos 6 meses antes de considerar un tratamiento farmacológico. La rehabilitación debe ser realizada o supervisada en todo momento por un logopeda capacitado y especializado.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "En niños con PCI la sialorrea no se debe a hipersalivación, sino a disfunción oromotora, trastornos sensoriales y alteraciones del tono muscular orofacial.",
+      "cita": "En Cuidados Paliativos, y más concretamente en niños con PCI la sialorrea no está causada por una salivación excesiva o hipersalivación, si no que está relacionada con la disfunción oromotora, trastornos sensoriales y alteraciones del tono muscular orofacial que suelen presentar estos pacientes.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "Cirugía: indicada en sialorrea muy severa, fracaso del tratamiento conservador o retraso severo que impide la adherencia; no se suele realizar antes de los 6 años.",
+      "cita": "Consideraciones especiales: está indicado en caso de sialorrea muy severa, fracaso del tratamiento conservador o retraso severo que impide una adecuada adherencia al tratamiento. En todo caso no se suele realizar antes de los 6 años porque hasta esa edad los pacientes tienen capacidad para aprender funciones orales.",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "Para que un tratamiento no invasivo de la sialorrea sea efectivo en niños con PCI, los pacientes deben cumplir unos requisitos mínimos a nivel cognitivo, relacionados con el grado de discapacidad y su aptitud para seguir órdenes sencillas.",
+      "cita": "Para realizar un tratamiento no invasivo de la sialorrea en niños con PCI que sea efectivo, los pacientes deben cumplir unos requisitos mínimos a nivel cognitivo relacionados con el grado de discapacidad y su aptitud para el seguimiento de órdenes sencillas.",
+      "page": 3,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

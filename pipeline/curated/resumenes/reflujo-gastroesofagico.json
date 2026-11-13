@@ -1,130 +1,136 @@
 {
   "slug": "reflujo-gastroesofagico",
-  "en_una_frase": "Diagnóstico y tratamiento del reflujo gastroesofágico y la ERGE en niños con enfermedades limitantes para la vida, sobre todo con patología neurológica: medidas posturales, fármacos y cirugía.",
+  "en_una_frase": "Diagnóstico y tratamiento del reflujo gastroesofágico y de la enfermedad por reflujo en cuidados paliativos pediátricos, sobre todo en pacientes con patología neurológica: medidas no farmacológicas, fármacos y medidas intervencionistas.",
   "puntos_clave": [
-    "La ERGE es una de las manifestaciones digestivas más frecuentes en pacientes paliativos; en patología neurológica o neurodegenerativa la prevalencia sube del 15% al 77%.",
-    "Es una causa a descartar ante un niño con retraso psicomotor grave que comienza con dolor o irritabilidad; las manifestaciones extradigestivas pueden ser la clínica cardinal.",
-    "Anamnesis y exploración suelen bastar para la sospecha; se instauran medidas no farmacológicas y, de forma individualizada, prueba terapéutica con IBP durante 4-8 semanas.",
-    "Si la clínica no es típica, hay signos de alarma o no mejora, se confirma el diagnóstico; siempre que sea posible se realizará pHmetría-impedanciometría (pH-MII).",
-    "Los IBP son de elección en la esofagitis; los anti-H2 son la segunda opción y los procinéticos no están recomendados para el ERGE por problemas de seguridad.",
-    "Los procesos diagnósticos y terapéuticos deben ser concordantes con las medidas de adecuación del esfuerzo terapéutico adoptadas en estos pacientes."
-  ],
-  "farmacos_clave": [
     {
-      "farmaco": "omeprazol",
-      "indicacion": "RGE/ERGE, de elección en la esofagitis (IBP)",
-      "dosis": "1-4 mg/kg/dia. Dosis única diaria",
-      "via": "",
-      "nota": "Prueba terapéutica durante 4-8 semanas con revaluación posterior; en tratamientos prolongados están descritas alteraciones a nivel infeccioso, metabólico y nutricional.",
-      "page": null,
-      "page_2024": 10
+      "x": "La prevalencia de ERGE cambia considerablemente en pacientes pediátricos con patología de base, sobre todo neurológica o neurodegenerativa, con incrementos desde un 15% a un 77%. Es una causa a descartar ante un niño con retraso psicomotor grave que comienza con dolor o irritabilidad.",
+      "cita": "pero estas cifras cambian considerablemente cuando hablamos de pacientes pediátricos con patología de base, sobre todo si esta base es de estirpe neurológica o neurodegenerativa, con incrementos desde un 15% a un 77%. Por ello, es una de las causas a descartar ante un niño con retraso del desarrollo psicomotor grave que comienza con dolor o irritabilidad.",
+      "page": 1,
+      "auto": false
     },
     {
-      "farmaco": "lansoprazol",
-      "indicacion": "RGE/ERGE (IBP)",
-      "dosis": "<30kg: 0.5-1 mg/kg, máximo 15mg una vez al día - >30 kg: 15-30 mg una vez al día",
-      "via": "",
-      "nota": "",
-      "page": 11,
-      "page_2024": 10
+      "x": "Los procesos diagnósticos y terapéuticos deben ser concordantes con las medidas de adecuación del esfuerzo terapéutico adoptadas en estos pacientes.",
+      "cita": "siempre hay que tener en cuenta que tanto los procesos diagnósticos, como terapéuticos deben ser concordantes con las medidas de adecuación del esfuerzo terapéutico adoptadas en estos pacientes.",
+      "page": 4,
+      "auto": true
     },
     {
-      "farmaco": "esomeprazol",
-      "indicacion": "RGE/ERGE (IBP)",
-      "dosis": "<20Kg: 10mg una vez al dia >40Kg: 20mg una vez al día",
-      "via": "",
-      "nota": "",
-      "page": 11,
-      "page_2024": 10
+      "x": "Con el diagnóstico de sospecha, instaurar medidas no farmacológicas y decidir de forma individualizada si se inicia tratamiento empírico con inhibidores de la bomba de protones.",
+      "cita": "Una vez establecido el diagnóstico de sospecha, deben instaurarse medidas no farmacológicas y decidir, de manera individualizada si se puede iniciar tratamiento empírico con inhibidos de la bomba de protones.",
+      "page": 4,
+      "auto": true
     },
     {
-      "farmaco": "ranitidina",
-      "indicacion": "RGE y esofagitis (anti-H2, segunda opción)",
-      "dosis": "5-10 mg/kg/día repartido en 2 dosis; máx. RGE 300 mg/día y esofagitis 600 mg/día.",
-      "via": "",
-      "nota": "Los anti-H2 producen frecuente taquifilaxia y son menos potentes que los IBP.",
-      "page": 11,
-      "page_2024": 11
+      "x": "Si la clínica no es típica, existen signos de alarma o no mejora con las medidas iniciales, confirmar el diagnóstico; no existe un «gold estándar» concreto.",
+      "cita": "Si la clínica no es típica, existen signos de alarma o el paciente no mejora a medidas iniciales, se debe proceder a la confirmación del diagnóstico, para el que no existe un “gold estándar” concreto.",
+      "page": 4,
+      "auto": true
     },
     {
-      "farmaco": "famotidina",
-      "indicacion": "RGE (anti-H2)",
-      "dosis": "1-12 años: 1mg/kg/día, 2 veces al día (dosis máxima: 40 mg/dosis)",
-      "via": "",
-      "nota": "",
-      "page": 11,
-      "page_2024": 11
+      "x": "En los pacientes paliativos las manifestaciones extradigestivas pueden ser la clínica cardinal del trastorno gastroesofágico, aunque muchas pueden tener otras causas que habrá que descartar.",
+      "cita": "Las manifestaciones extradigestivas en los pacientes paliativos pueden ser la clínica cardinal del trastorno gastroesofágico, aunque muchas de ellas puedan tener otras causas que habrá que descartar. Las más frecuentes son:",
+      "page": 3,
+      "auto": true
     },
     {
-      "farmaco": "sucralfato",
-      "indicacion": "citoprotector: protege la mucosa esofágica del reflujo ácido o alcalino",
-      "dosis": "0,7-3 mg/kg/día",
-      "via": "",
-      "nota": "",
-      "page": 10,
-      "page_2024": 10
+      "x": "Los IBP son eficaces y seguros en el RGE y de elección en la esofagitis; en tratamientos prolongados se describen alteraciones infecciosas, metabólicas y nutricionales. Prueba terapéutica de 4-8 semanas con revaluación posterior.",
+      "cita": "Son eficaces y seguros en el tratamiento del RGE y son de elección en la esofagitis. Son muy bien tolerados, pero en tratamientos prolongados están descritas alteraciones a nivel infeccioso, metabólico y nutricional. Lo recomendable es realizar pruebas terapéuticas con estos durante 4-8 semanas con revaluación posterior, para valorar eficacia y excluir otras causas.",
+      "page": 6,
+      "auto": true
     },
     {
-      "farmaco": "almagato",
-      "indicacion": "antiácido para control sintomático postprandial, sobre todo si el reflujo es ácido",
-      "dosis": "en >12 años: 1-1,5 g (7,5-10 ml de suspensión o un sobre o una pastilla blanda o dos comprimidos masticables) entre 30 min y 1 h después de las comidas y al acostarse. Si entre una dosis y otra tiene dolor, puede tomar una dosis adicional de 1-1,5 g. No más de 8 g/día.",
-      "via": "VO",
-      "nota": "Antiácidos y alginatos no tienen eficacia en esofagitis erosiva; efectos secundarios como osteopenia, anemia microcítica y neurotoxicidad por magnesio y aluminio. No se aconsejan como tratamiento crónico.",
-      "page": 10,
-      "page_2024": 10
-    },
-    {
-      "farmaco": "domperidona",
-      "indicacion": "procinético (solo si se valora individualmente la necesidad de acelerar el vaciamiento gástrico)",
-      "dosis": "Niños >12 años y peso ≥35 kg: Vía oral: 10 mg administrados cada 8 horas. Máximo vía oral: 30 mg/día. Vía rectal: 30 mg/12 horas. Lactantes y niños <12 años o <35 kg (E: off-label): Vía oral: 0,25 mg/kg administrados cada 8 h. Máximo vía oral: 30 mg/día. Vía rectal: no recomendado.",
-      "via": "VO / rectal",
-      "nota": "Los procinéticos no están recomendados para el tratamiento del ERGE por problemas de seguridad.",
-      "page": 10,
-      "page_2024": 11
-    },
-    {
-      "farmaco": "metoclopramida",
-      "indicacion": "procinético (uso restringido)",
-      "dosis": "La dosis recomendada es de 0,1-0,15 mg/kg de peso corporal, repetida hasta 3 veces al día por vía i.v. La dosis máxima en 24 h es 0,5 mg/kg de peso corporal.",
-      "via": "IV",
-      "nota": "No utilizar en niños menores de 1 año. Restringir su uso en 1-18 años como segunda línea para vómitos post quimioterapia y postoperatorios. Limitar la duración del tratamiento a un máximo de 5 días.",
-      "page": 10,
-      "page_2024": 11
-    },
-    {
-      "farmaco": "baclofeno",
-      "indicacion": "antiespástico: reducir la espasticidad que agrava los síntomas de RGE",
-      "dosis": "0,75-2 mg/kg/día. El tratamiento debe iniciarse normalmente a dosis muy bajas (aproximadamente 0,3 mg/kg/día), preferiblemente dividido en 2 tomas. La dosis debe incrementarse con precaución a intervalos de 1 semana, hasta alcanzar la dosis suficiente para cubrir las necesidades individuales del niño.",
-      "via": "",
-      "nota": "",
-      "page": 10,
-      "page_2024": 10
+      "x": "Antihistamínicos H2: producen taquifilaxia frecuente y son menos potentes que los IBP; son la segunda opción en la esofagitis por reflujo.",
+      "cita": "Antihistamínicos H2: Producen frecuente taquifilaxia y son menos potentes que los IBPs. Esto hacen que hayan sido desplazados por estos en el tratamiento de la esofagitis por reflujo, aunque siguen siendo la segunda opción. La ranitidina es el empleado en nuestro medio.",
+      "page": 6,
+      "auto": true
     }
   ],
   "banderas_rojas": [
-    "Las medidas posturales (prono, Trendelemburg 30°) pueden resultar inadecuadas en lactantes por riesgo de muerte súbita del lactante.",
-    "Procinéticos (metoclopramida, cisaprida, domperidona): no recomendados para el ERGE por problemas de seguridad.",
-    "Metoclopramida: no utilizar en menores de 1 año; limitar a un máximo de 5 días y a una dosis máxima de 0,5 mg/kg en 24 h.",
-    "Antiácidos y alginatos: osteopenia, anemia microcítica y neurotoxicidad por magnesio y aluminio; no se aconsejan como tratamiento crónico.",
-    "IBP en tratamientos prolongados: alteraciones a nivel infeccioso, metabólico y nutricional.",
-    "Cirugía antirreflujo: alta morbilidad (26-59% complicaciones postoperatorias, 6-70% reflujo recurrente, 5-15% reintervención); contraindicada en paresia gástrica y grandes vomitadores."
+    {
+      "x": "Procinéticos: no recomendados para el tratamiento del ERGE por problemas de seguridad (las revisiones sistemáticas no apoyan metoclopramida, cisaprida ni domperidona); restringirlos a pacientes en los que se valore individualmente la necesidad de acelerar el vaciamiento gástrico.",
+      "cita": "Procinéticos: No están recomendados para el tratamiento del ERGE por problemas de seguridad. Revisiones sistemáticas no apoyan el uso de metoclopramida, cisaprida o domperidona en este contexto. Su uso debe restringirse a pacientes en los que individualmente se valore la necesidad de acelerar el vaciamiento gástrico.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Metoclopramida: no utilizar en menores de 1 año; en niños y adolescentes de 1-18 años, uso restringido a segunda línea en vómitos post quimioterapia y postoperatorios; máximo 5 días y dosis máxima de 0,5 mg/kg en 24 h.",
+      "cita": "Metoclopramida: No utilizar la metoclopramida en niños menores de 1 año. Restringir su uso en niños y adolescentes de 1-18 años como segunda línea de tratamiento para prevenir vómitos post quimio-terapia y en tratamiento de vómitos postoperatorios. Limitar la duración del tratamiento a un máximo de 5 días. Limitar la dosis máxima a 0,5 mg/kg de peso corporal en 24 h.",
+      "page": 10,
+      "auto": true
+    },
+    {
+      "x": "Medidas posturales (prono, Trendelemburg con inclinación de unos 30° o decúbito lateral izquierdo): pueden ser inadecuadas en lactantes por riesgo de muerte súbita y complicadas con movilidad reducida, por lo que se recomienda «mantener lo más incorporados posible».",
+      "cita": "Medidas posturales: posición en prono, posición de Trendelemburg con inclinación de unos 30° o en decúbito lateral izquierdo. Esto puede resultar inadecuado en lactantes (riesgo muerte súbita del lactante) y complicado en pacientes con movilidad reducida por su patología de base por lo que se les suele recomendar “mantener lo mas incorporados posible”.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Antiácidos y alginatos: sin eficacia en la esofagitis erosiva; pueden causar osteopenia, anemia microcítica o neurotoxicidad por magnesio y aluminio. No se aconsejan como tratamiento crónico.",
+      "cita": "Antiácidos y alginatos: Buenos en el control sintomático postprandial, sobre todo si el reflujo es ácido. No tienen eficacia en pacientes con esofagitis erosiva. Pueden presentar efectos secundarios como osteopenia, anemia microcítica o neurotoxicidad al tener magnesio y aluminio. No se aconsejan como tratamiento crónico.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Funduplicatura con o sin piloroplastia: efectiva en aproximadamente el 80% de los casos según algunas series, pero con alta morbilidad (26-59% complicaciones postoperatorias, 6-70% reflujo recurrente, en torno a 5-15% reintervención).",
+      "cita": "La funduplicatura con o sin piloroplastia es efectiva en aproximadamente el 80% de los casos según algunas series, pero tiene una alta morbilidad (26-59% complicaciones post-operatorias, 6-70% tienen reflujo gastrointestinal recurrente y en torno a 5-15% requieren reintervención).",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Cirugía antirreflujo: contraindicada en la paresia gástrica y en pacientes muy nauseosos o grandes vomitadores.",
+      "cita": "Las contraindicaciones para la técnica antirreflujo son la paresia gástrica, pacientes muy nauseosos o grandes vomitadores que pueden presentar problemas postquirúrgicos importantes.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Los espesantes en ocasiones pueden agravar los síntomas por efecto osmótico.",
+      "cita": "Otros: empleo de espesantes (en ocasiones pueden agravar los síntomas por efecto osmótico) Promover la salivación con actividades como mascar chicle.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Signos de alarma que obligan a descartar otras patologías (Tabla 3): vómitos biliosos; sangrado gastrointestinal (hematemesis o melenas); fallo de medro o pérdida de peso; diarrea; fiebre; letargia; hepatoesplenomegalia; abombamiento de la fontanela; micro o macrocefalia; vómitos proyectivos persistentes; convulsiones; distensión abdominal; sofocación durante la ingesta; sospecha de síndrome genético; inicio del cuadro más allá de los seis meses.",
+      "cita": "Tabla 3. Signos de alarma que obligan a descartar otras patologías.",
+      "page": 9,
+      "auto": false
+    },
+    {
+      "x": "Cirugía antirreflujo: consideración especial en pacientes con patología neurológica tipo PCI; la inhibición a nivel central, la alteración de la motilidad gastrointestinal y la hipersensibilidad visceral pueden condicionar la aparición de complicaciones tras la cirugía.",
+      "cita": "hay que tener consideración especial con los pacientes afectos de patología neurológica tipo PCI, ya que la inhibición a nivel central, la alteración de la motilidad gastrointestinal y la hipersensibilidad visceral que estos pacientes atesoran pueden condicionar la aparición de complicaciones tras la cirugía.",
+      "page": 7,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Reconocer la posibilidad de sobrealimentación, especialmente con sonda nasogástrica o gastrostomía; se puede probar nutrición enteral nocturna o en débito continuo.",
-    "En pacientes con movilidad reducida se recomienda «mantener lo más incorporados posible»; evitar comidas copiosas y próximas a la hora de acostarse.",
-    "Si se plantea una PEG, es preferible realizarla sin cirugía antirreflujo; la sonda transpilórica o gastroyeyunal es una alternativa a la cirugía.",
-    "Optimizar el resto de esferas (baclofeno para la espasticidad, control del dolor) mejora los síntomas del RGE; los espesantes en ocasiones agravan los síntomas por efecto osmótico."
-  ],
-  "secciones_recomendadas": [
-    "TRATAMIENTO",
-    "Medidas farmacológicas (Tabla 5)",
-    "Medidas no farmacológicas",
-    "DIAGNÓSTICO"
+    {
+      "x": "Reconocer la posibilidad de sobrealimentación, especialmente en niños con nutrición enteral por sonda nasogástrica o gastrostomía.",
+      "cita": "Intentar reconocer la posibilidad de sobrealimentación, especialmente en niños con dispositivos de nutrición enteral (sonda nasogástrica, gastrostomía)",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Si es posible, es preferible realizar la PEG sin cirugía antirreflujo, que puede no resolver el reflujo y presentar complicaciones posteriores.",
+      "cita": "Si es posible, es preferible la realización de la PEG sin cirugía antirreflujo, ya que esta puede no asegurar resolver el reflujo y puede presentar complicaciones a posteriori.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Alternativa a la cirugía antirreflujo: sonda transpilórica o gastroyeyunal, que reduce el reflujo al saltar el paso por el estómago.",
+      "cita": "Una alternativa a la cirugía antirreflujo es la colocación de una sonda transpilórica o gastroyeyunal, lo que reduce el reflujo al saltarnos el paso por el estómago.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Optimizar el tratamiento del resto de esferas (baclofeno para la espasticidad, medicación para el dolor) contribuye al tratamiento integral del RGE.",
+      "cita": "Por ello, la optimización de los tratamientos del resto de esferas son fundamentales, como el empleo de baclofeno para reducir la espasticidad o el uso de medicación para el control del dolor, contribuirán al objetivo de tratamiento integral de estos pacientes.",
+      "page": 8,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

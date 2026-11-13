@@ -1,130 +1,184 @@
 {
   "slug": "irritabilidad-y-agitacion",
-  "en_una_frase": "Causas, diagnóstico diferencial y tratamiento escalonado de la irritabilidad y agitación en niños en cuidados paliativos, sobre todo con déficit neurológico grave.",
+  "en_una_frase": "Causas, diagnóstico diferencial y tratamiento no farmacológico y farmacológico escalonado de la irritabilidad y la agitación en cuidados paliativos pediátricos.",
   "puntos_clave": [
-    "Buscar y corregir siempre las causas subyacentes: dolor (motivo principal), disnea, infecciones, estreñimiento, reflujo, deshidratación y medicación; revisar fármacos (iatrogenia).",
-    "Solicitar a los padres un diario de síntomas; la irritabilidad cerebral es siempre diagnóstico de exclusión y sus síntomas son casi idénticos a los del dolor neuropático central.",
-    "Primer enfoque no farmacológico: ambiente tranquilo, tacto y voz de personas queridas, respetar el descanso, evitar visitas y estímulos tras las 20 horas y sujeciones corporales.",
-    "Como el dolor causa irritabilidad en pacientes crónicos complejos, realizar un ensayo terapéutico con analgésicos (rescates de acción rápida y corta) y evaluar la respuesta.",
-    "Escalera: 1º gabapentinoides (gabapentina/pregabalina); 2º amitriptilina/nortriptilina o clonidina; 3º metadona; coadyuvantes en todos: opioides, haloperidol, benzodiacepinas.",
-    "Clonidina es de elección si predomina la disautonomía; amitriptilina ante hiperalgesia visceral; midazolam ante irritabilidad cerebral con crisis de llanto incontrolable."
-  ],
-  "farmacos_clave": [
     {
-      "farmaco": "gabapentina",
-      "indicacion": "primer escalón: dolor neuropático, irritabilidad cerebral, hiperalgesia visceral y disfunción autonómica",
-      "dosis": "Menores de 3 años: 5 mg/kg/dosis (e ir aumentando como en niños mayores). Entre 3 y 12 años: Día 1: 5-10 mg/kg/dosis (máximo 300 mg cada dosis) VO 1 vez al día antes de dormir; Día 2: 5-10 mg/kg/dosis (máximo 300 mg cada dosis) VO 2 veces al día; Día 3: 5-10 mg/kg/dosis (máximo 300 mg cada dosis) VO 3 veces al día. Mayores de 12 años: Día 1: 300 mg en una sola dosis antes de dormir; Día 2: 300 mg en dos dosis al día; Día 3: 300 mg en tres dosis al día y después ir aumentando a razón de 300 mg/día cada 3-7 días. Dosis máxima: Niños: 45-60 mg/kg/día en tres dosis; Adultos: 3600 mg/día",
-      "via": "VO (SNG o gastrostomía)",
-      "nota": "Pocas interacciones y muy pocos efectos secundarios (somnolencia, ataxia, mareos al inicio). Ajustar dosis en insuficiencia renal; esperar al menos 2 horas tras antiácidos. Contenido de cápsulas dispersado en 20ml de agua por sonda.",
-      "page": 7,
-      "page_2024": 5
+      "x": "Es fundamental tratar todos los factores provocadores subyacentes; si no se encuentra la causa y la irritabilidad/agitación persiste, manejar los síntomas directamente.",
+      "cita": "Para su tratamiento es fundamental tratar todos los factores provocadores subyacentes si los hubiera. Si no encontramos la causa y la irritabilidad/agitación persiste debemos manejar los síntomas directamente.",
+      "page": 1,
+      "auto": true
     },
     {
-      "farmaco": "pregabalina",
-      "indicacion": "primer escalón, alternativa a gabapentina (tolerancia a dosis máxima)",
-      "dosis": "Día 1-3: 1 mg/kg/dosis VO 1 vez al día antes de dormir. Día 4-6: 1 mg/kg/dosis VO 2 veces al día. Día 7: se podrá ir aumentando 1 mg/kg/día cada 3-7. La dosis de mantenimiento sugerida 5-10 mg/kg/día. Dosis máxima: 6-15 mg/kg/día en tres dosis (máximo 600 mg/día)",
-      "via": "VO (SNG o gastrostomía, mejor solución)",
-      "nota": "Conversión gabapentina/pregabalina 6:1 (rango 1:4 a 1:9). Ajustar en insuficiencia renal. Depresión del SNC con opioides.",
-      "page": 8,
-      "page_2024": 6
+      "x": "Causas orgánicas: dolor somático y/o neuropático, disnea, infecciones, estreñimiento, reflujo gastroesofágico, deshidratación y medicación (benzodiacepinas, neurolépticos, toxicidad por opioides).",
+      "cita": "-Dolor somático y/o neuropático -Disnea -Infecciones -Estreñimiento -Reflujo gastroesofágico -Deshidratación -Medicación (benzodiacepinas, neurolépticos, toxicidad por opioides)",
+      "page": 1,
+      "auto": true
     },
     {
-      "farmaco": "amitriptilina",
-      "indicacion": "segundo escalón; irritabilidad por hiperalgesia visceral (intolerancia alimentaria persistente)",
-      "dosis": "Niños de 2 a 11 años: dosis inicial de 200 microgramos/kg (máximo 10 mg) administrada una vez al día por la noche. Niños de 12 a 17 años: la dosis inicial de 10 mg por la noche se aumenta gradualmente, si es necesario, cada 3 a 5 días. Dosis máxima: Entre 2 y 11 años: 1 mg/kg/dosis repartido en dos dosis al día; Mayores de 12 años: 75 mg/día",
-      "via": "VO",
-      "nota": "Contraindicada en enfermedad hepática severa, arritmias y tratamiento con IMAO. Carbamazepina reduce la amitriptilina plasmática. Efecto sedante intenso.",
-      "page": 9,
-      "page_2024": 7
+      "x": "Como a menudo es complicado hallar la causa por la inespecificidad de los síntomas, pedir a los padres un diario de síntomas para intentar establecer factores temporales relacionados.",
+      "cita": "En muchas ocasiones es complicado hallar la causa por la inespecificidad de los síntomas. Por ello será fundamental solicitar a los padres un diario de síntomas para intentar establecer factores temporales relacionados.",
+      "page": 3,
+      "auto": true
     },
     {
-      "farmaco": "clonidina",
-      "indicacion": "segundo escalón; de elección cuando predomina la disautonomía",
-      "dosis": "Día 1-3: 0.002 mg/kg VO 1 vez al día antes de dormir. Día 4-6: 0.002 mg/kg/dosis VO 2 veces al día. Día 7-9: 0.002 mg/kg/dosis VO 3 veces al día. Dosis máxima de inicio: 0.1 mg (50 kg). Dosis máxima: 0.012 mg/kg/dosis (0.6 mg para 50 kg), 3 veces al día. Niños >1 mes: Dosis inicial 1 microgramo/kg/dosis 3-4 veces al día, hasta un máximo de 5 microgramos/kg/dosis cuatro veces al día (20 mcg/kg/día)",
-      "via": "VO (SNG o gastrostomía)",
-      "nota": "Somnolencia e hipotensión. Contraindicada en bradiarritmia, hipotensión e intolerancia a la galactosa; cuidado en insuficiencia renal. Los tricíclicos disminuyen su efecto.",
-      "page": 10,
-      "page_2024": 8
+      "x": "Descartadas las causas orgánicas, considerar la depresión, el delirium o la ansiedad y hacer el diagnóstico diferencial.",
+      "cita": "Una vez descartadas las causas orgánicas posibles será fundamental considerar otros motivos como la depresión, el delirium o la ansiedad, con los que habrá que realizar un diagnostico diferencial.",
+      "page": 3,
+      "auto": true
     },
     {
-      "farmaco": "metadona",
-      "indicacion": "tercer escalón; dolor moderado-severo, neuropático o que responde mal a otros opioides",
-      "dosis": "Niños de 1 a 12 años: 30 a 100 microgramos/kg (máximo 5 mg/dosis inicial) 1 a 3 veces al día. Niños >12 años: 100-200 microgramos/kg cada 8-12 horas (máximo 5 mg/dosis). Posteriormente la posología se ajustará a un nivel que sea eficaz (sin una dosis máxima), aunque el aumento máximo de la dosis no superará el 50% en 24 h en pacientes ambulatorios.",
-      "via": "VO/SC/IV",
-      "nota": "Prescribir por profesionales con experiencia. IV lenta en 3–5 minutos. Insuficiencia renal grave: reducir la dosis en un 50%. Prolongación del QT; contraindicada con IMAO, íleo paralítico, asma agudo, hipertensión intracraneal.",
-      "page": 11,
-      "page_2024": 8
+      "x": "El primer enfoque consiste en herramientas no farmacológicas.",
+      "cita": "El primer enfoque consiste en herramientas no farmacológicas como pueden ser:",
+      "page": 5,
+      "auto": true
     },
     {
-      "farmaco": "midazolam",
-      "indicacion": "coadyuvante; irritabilidad cerebral con crisis de llanto incontrolable",
-      "dosis": "Perfusión continua IV o SC: Neonatos: 1 mcg/kg/min IV o SC; 1 m–18 años: 50–300 mcg/kg/h. El midazolam bucal (0.3–0.5mg/kg) puede ser utilizado en una situación de crisis para romper el ciclo de angustia. Dosis máxima: 6 m–5 y: 6 mg; 6–12 y: 10 mg",
-      "via": "IV/SC/bucal",
-      "nota": "Somnolencia, reacción paradójica. Precaución en enfermedad hepática y renal. Uso por periodos cortos por tolerancia.",
-      "page": 12,
-      "page_2024": 9
+      "x": "Como el dolor es causa de irritabilidad, se recomienda realizar un ensayo terapéutico con analgésicos y evaluar la respuesta. Las crisis dolorosas se tratan con dosis de rescate de analgésicos de acción rápida y corta.",
+      "cita": "Ya que el dolor es causa de irritabilidad en pacientes crónicos complejos y en situación de cuidados paliativos, recomendamos realizar un ensayo terapéutico con analgésicos y evaluar la respuesta. El tratamiento de estas crisis dolorosas se basa en la administración de dosis de rescate de analgésicos de acción rápida y corta.",
+      "page": 6,
+      "auto": true
     },
     {
-      "farmaco": "diazepam",
-      "indicacion": "coadyuvante benzodiacepínico por periodos cortos",
-      "dosis": "Mayores de 6 meses: 0.12-0.8 mg/kg/día VO dividido en 3-4 dosis al día; 0.04-0.3 mg/kg/dosis IV cada 2-4 horas. Dosis máxima: 0.6 mg/kg IV en un periodo de 8 horas",
-      "via": "VO/IV",
-      "nota": "Contraindicado en insuficiencia pulmonar aguda grave, apnea del sueño, enfermedad hepática grave, miastenia gravis. Reacción paradójica, depresión respiratoria.",
-      "page": 12,
-      "page_2024": 9
-    },
-    {
-      "farmaco": "lorazepam",
-      "indicacion": "coadyuvante benzodiacepínico por periodos cortos",
-      "dosis": "0.02–0.1 mg/kg/dosis VO/SL/IV/SC cada 4–8 h. Dosis máxima: 2 mg/dosis",
-      "via": "VO/SL/IV/SC",
-      "nota": "Contraindicado en manía. Somnolencia, aturdimiento, reacción paradójica.",
-      "page": 12,
-      "page_2024": 9
-    },
-    {
-      "farmaco": "haloperidol",
-      "indicacion": "neuroléptico de primera línea cuando se desea evitar la sedación de las benzodiacepinas",
-      "dosis": "Menores de 12 años: 10-20 µg /kg c/8-12 horas VO; 25-85 µg /kg c/24 horas IV. 12-18 años: 1,5 mg c/8 horas VO; 1,5-5 mg c/24horas IV. Dosis máxima: VO máximo 5 mg/día; IV menores de 12 años máximo 1,5 mg/día y mayores de 12 años máximo 5 mg/día.",
-      "via": "VO/SC/IV/IM",
-      "nota": "Valorar monitorización del QTc, especialmente en cardiópatas. Efectos extrapiramidales a dosis altas. Carbamazepina disminuye sus niveles. Soluciones orales por sonda sin diluir.",
-      "page": 13,
-      "page_2024": 10
-    },
-    {
-      "farmaco": "levomepromazina",
-      "indicacion": "fenotiazina más sedante si haloperidol no es efectivo; dolor con ansiedad y angustia en enfermedad terminal; antiemético",
-      "dosis": "Oral: Niños de 2 a 11 años: Dosis inicial de 50 a 100 microgramos/kg administrada una o dos veces al día. Niño de 12 a 17 años: dosis inicial de 3 mg una o dos veces al día. Por infusión IV o SC continua durante 24 horas: Niños de 1 mes a 11 años: dosis inicial de 100-400 microgramos/kg/24 hora. Niños de 12 a 17 años: Dosis inicial de 5 mg/24 horas. Por inyección SC o IV: Niños de 12 a 17 años: dosis inicial según sea necesario de 2,5 mg administrados una o dos veces al día. Máximo 1 mg/kg/dosis (25 mg/dosis). Máximo 25 mg/24 horas.",
-      "via": "VO/SC/IV",
-      "nota": "La dosis SC se considera dos veces más potente que la oral. Hipotensión, somnolencia, reduce el umbral convulsivo, distonías, prolongación QT en cardiopatía o hipopotasemia; fotosensibilidad.",
-      "page": 14,
-      "page_2024": 11
+      "x": "Escalera terapéutica propuesta: primer escalón, gabapentinoides (gabapentina o pregabalina); segundo escalón, antidepresivos tricíclicos (amitriptilina, nortriptilina) o clonidina; último escalón, metadona.",
+      "cita": "En el primer escalón, en la mayoría de casos se contempla el tratamiento con fármacos antiepilépticos análogos estructurales del GABA o gabapentinoides (gabapentina o pregabalina), en un segundo escalón se incluirían los antidepresivos tricíclicos (amitriptilina, nortriptilina) o la clonidina, y en un último escalón el uso de metadona.",
+      "page": 6,
+      "auto": true
     }
   ],
   "banderas_rojas": [
-    "Irritabilidad cerebral: siempre diagnóstico de exclusión; descartar antes dolor, infecciones, estreñimiento, reflujo, deshidratación y toxicidad por medicación (benzodiacepinas, neurolépticos, opioides).",
-    "Sospechar pancreatitis en pacientes en tratamiento con ácido valproico y cálculos renales asociados a dieta cetogénica y topiramato como causas de dolor.",
-    "A altas dosis las benzodiacepinas pueden producir efecto paradójico y aumentar la agitación: cambiar a otra clase de fármaco en lugar de continuar con dosis más altas.",
-    "Haloperidol y fenotiazinas: valorar monitorización del QTc, especialmente en cardiópatas, por riesgo de prolongación y arritmias.",
-    "Metadona: depresión respiratoria y prolongación del QT; contraindicada con IMAO, íleo paralítico, ataque agudo de asma e hipertensión intracraneal; reducir 50% en insuficiencia renal grave.",
-    "La medicación sedante puede mejorar síntomas pero aumentar el deterioro y dificultar la comunicación; evitar antihistamínicos para ansiedad y miedo (no alivian y pueden tener efectos paradójicos)."
+    {
+      "x": "Irritabilidad cerebral: sospecharla en pacientes con daño hipóxico cerebral o condiciones neurodegenerativas graves; siempre debe ser un diagnóstico de exclusión.",
+      "cita": "Irritabilidad cerebral | Se sospechará en un paciente con daño hipóxico cerebral condiciones neurodegenerativas graves con episodios de llanto, irritabilidad, aumento del tono, alteración del sueño, síntomas vegetativos… Siempre debe ser un diagnóstico de exclusión.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Especial cuidado con la medicación sedante: puede mejorar los síntomas, pero también aumentar el deterioro, dificultando la comunicación y la interacción.",
+      "cita": "Hay que tener especial cuidado con la medicación sedante ya que puede mejorar los síntomas, pero también aumentar el deterioro, dificultando la comunicación y la interacción.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "En caso de ansiedad y miedo es aconsejable evitar los medicamentos sedantes, como antihistamínicos: no alivian la ansiedad ni el miedo y pueden tener efectos paradójicos.",
+      "cita": "En caso de ansiedad y miedo, es aconsejable evitar los medicamentos sedantes, como antihistamínicos, ya que no alivian la ansiedad ni el miedo, y pueden tener efectos paradójicos.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Evitar, salvo necesidad extrema, los sistemas de sujeción corporales, que pueden aumentar la agitación.",
+      "cita": "Se evitará, salvo necesidad extrema, sistemas de sujeción corporales que puedan aumentar la agitación del paciente.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Benzodiacepinas a altas dosis: pueden producir efecto paradójico y aumentar la agitación; es preferible cambiar a otra clase de fármacos en lugar de continuar con dosis más altas.",
+      "cita": "A altas dosis, las benzodiacepinas pueden produce efecto paradójico y aumentar la agitación. En estos casos es preferible cambiar a otra clase de fármacos, en lugar de continuar con dosis más altas.",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "Las benzodiazepinas pueden ser útiles durante períodos cortos de tiempo, porque se puede desarrollar tolerancia cuando se usan de forma regular.",
+      "cita": "Las benzodiazepinas, a través de su acción en el receptor GABA, pueden ser útiles para tratar la irritabilidad/agitación durante períodos cortos de tiempo, ya que los pacientes pueden desarrollar tolerancia cuando se usan de forma regular.",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "Con haloperidol y fenotiazinas, valorar la necesidad de monitorizar el QTc, especialmente en pacientes cardiópatas, por el riesgo de prolongación y de arritmias cardiacas.",
+      "cita": "Ante el empleo de haloperidol y fenotiazinas debe valorarse la necesidad de monitorización del QTc especialmente en pacientes cardiópatas, dado el riesgo de que pueda ser prolongado por el haloperidol y que se favorezca la aparición de arritmias cardiacas",
+      "page": 13,
+      "auto": true
+    },
+    {
+      "x": "Metadona, dosis de inicio: niños de 1 a 12 años, 30 a 100 microgramos/kg (máximo 5 mg/dosis inicial) 1 a 3 veces al día; niños >12 años, 100-200 microgramos/kg cada 8-12 horas (máximo 5 mg/dosis). La metadona IV se administra lentamente, en 3–5 minutos.",
+      "cita": "• Niños de 1 a 12 años: 30 a 100 microgramos/kg (máximo 5 mg/dosis inicial) 1 a 3 veces al día • Niños >12 años: 100-200 microgramos/kg cada 8-12 horas (máximo 5 mg/dosis La metadona IV se administrará lentamente, en 3–5 minutos.",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "Metadona: en insuficiencia renal grave reducir la dosis un 50 %. Contraindicada en depresión respiratoria aguda, ataque agudo de asma, íleo paralítico, uso concomitante con inhibidores de la monoaminooxidas e hipertensión intracraneal.",
+      "cita": "Insuficiencia renal grave reducir la dosis de metadona en un 50 %. Hipersensibilidad a los agonistas opioides, depresión respiratoria aguda; ataque agudo de asma; íleo paralítico; uso concomitante con inhibidores de la monoaminooxidas, hipertensión intracraneal.",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "Hidrato de cloral: en situaciones extremas, cuando los otros fármacos no alivien la irritabilidad/agitación, puede ser apropiado usar un agente más sedante, al menos temporalmente.",
+      "cita": "En situaciones extremas cuando los otros fármacos no alivien la irritabilidad/agitación puede ser apropiado usar un agente más sedante, al menos temporalmente.",
+      "page": 15,
+      "auto": true
+    },
+    {
+      "x": "Metadona: tras la dosis inicial (máximo 5 mg/dosis) la posología se ajusta a un nivel eficaz, sin dosis máxima, pero el aumento no superará el 50% en 24 h en pacientes ambulatorios. Efectos adversos: disfunción respiratoria y prolongación del intervalo QT, entre otros.",
+      "cita": "La metadona IV se administrará lentamente, en 3–5 minutos. | Máximo 5 mg/dosis inicial. Posteriormente la posología se ajustará a un nivel que sea eficaz (sin una dosis máxima), aunque el aumento máximo de la dosis no superará el 50% en 24 h en pacientes ambulatorios. | Disfunción respiratoria, prolongación del intervalo QT",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "Metadona: es un fármaco seguro y alternativo cuando es prescrito por profesionales con experiencia en su uso.",
+      "cita": "Se trata de un fármaco seguro y alternativo cuando es prescrito por profesionales con experiencia en su uso.",
+      "page": 10,
+      "auto": true
+    },
+    {
+      "x": "Hidrato de cloral: efectos adversos, irritación gástrica, vómitos, sedación y depresión respiratoria; contraindicado en insuficiencia hepática y renal graves.",
+      "cita": "Irritación gástrica, vómitos, sedación, depresión respiratoria | Insuficiencia hepática y renal graves",
+      "page": 15,
+      "auto": true
+    },
+    {
+      "x": "Clonidina: interacciona con los antidepresivos tricíclicos, disminuyendo su efecto si se usan de forma conjunta.",
+      "cita": "Interacciona con los antidepresivos tricíclicos, disminuyendo su efecto si se usan de forma conjunta.",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "Clonidina: efectos adversos, somnolencia e hipotensión; contraindicada en bradiarritmia, hipotensión e intolerancia a la galactosa; ser cuidadosos en pacientes con insuficiencia renal.",
+      "cita": "Somnolencia e hipotensión | Bradiarritmia, hipotensión e intolerancia a la galactosa. Ser cuidadosos en pacientes con Insuficiencia renal",
+      "page": 10,
+      "auto": true
+    },
+    {
+      "x": "Amitriptilina: contraindicada en enfermedad hepática severa, arritmias y tratamiento con IMAO; el uso concomitante de carbamazepina reduce la amitriptilina plasmática.",
+      "cita": "El uso concomitante de carbamazepina reduce la amitriptilina plasmática | Enfermedad hepática severa y arritmias. Tratamiento con IMAO.",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "Pregabalina: depresión del SNC cuando se usa conjuntamente con otros fármacos como los opioides; ajustar dosis en insuficiencia renal.",
+      "cita": "Depresión del SNC cuando se usa conjuntamente con otros fármacos como los opioides | Ajustar dosis en Insuficiencia renal",
+      "page": 8,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Preguntas a los padres que orientan a dolor neuropático central: no distinguen gritos de atención y de dolor, no localizan el dolor, acciones no dolorosas causan angustia, llora sin razón, llanto difícil de consolar o prolongado.",
-    "Administración por sonda: cápsulas de gabapentina dispersadas en 20ml de agua; soluciones de haloperidol sin más dilución; comprimidos de levomepromazina dispersados en agua; pregabalina mejor en solución.",
-    "El abordaje requiere paciencia, persistencia, ensayo y error y decisiones compartidas con la familia; educar a la familia a mantener la calma, pues su reacción puede exacerbar la angustia del niño.",
-    "Hidrato de cloral (25-50 mg/kg/día VO o rectal cada 6-8 horas, máximo 500 mg/dosis) como agente más sedante en situaciones extremas, al menos temporalmente."
-  ],
-  "secciones_recomendadas": [
-    "CAUSAS",
-    "DIAGNÓSTICO",
-    "Medidas no farmacológicas",
-    "Medidas farmacológicas"
+    {
+      "x": "Clonidina: cuando predomina la disautonomía es el fármaco de elección.",
+      "cita": "Cuando predomina la disautonomía es el fármaco de elección.",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "Midazolam es uno de los fármacos empleados ante la sospecha de irritabilidad cerebral con crisis de llanto incontrolable.",
+      "cita": "Midazolam es uno de los fármacos empleados ante sospecha de irritabilidad cerebral con crisis de llanto incontrolable.",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "En todos los escalones se considera el uso de coadyuvantes: opioides, neurolépticos (haloperidol) y benzodiacepinas.",
+      "cita": "En todos los escalones se considera el uso de agentes coadyuvantes como serían los opioides, neurolépticos (haloperidol) y benzodiacepinas.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Para clasificar el grado de agitación según su intensidad pueden emplearse escalas como la Escala de Agitación-Sedación de Richmong (RASS).",
+      "cita": "Para ella podemos emplear escalas como por ejemplo la Escala de Agitación-Sedación de Richmong (RASS).",
+      "page": 3,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

@@ -1,0 +1,218 @@
+{
+  "cuidados-al-final-de-la-vida-en-neonatologia": [
+    {
+      "src": "data/fig/cuidados-al-final-de-la-vida-en-neonatologia/cuidados-al-final-de-la-vida-en-neonatologia_p03_fig02.jpg",
+      "titulo": "Algoritmo de sedación paliativa neonatal",
+      "descripcion": "Según la puntuación N-PASS, decide mantener, iniciar o escalar sedación y analgesia (fentanilo, morfina, midazolam, dexmedetomidina, propofol).",
+      "aviso": "La figura da N-PASS: sedación profunda -10 a -6, ligera -5 a -2, dolor severo +8 a +10; el Anexo I: profunda -5 a -10, ligera -2 a -5, dolor grave +7 a +10. La figura pone a la morfina dosis máxima 60 microg/kg/hora; el texto dice que «la dosis máxima no existe». Consulte el protocolo.",
+      "page": 4
+    },
+    {
+      "src": "data/fig/cuidados-al-final-de-la-vida-en-neonatologia/cuidados-al-final-de-la-vida-en-neonatologia_p18_fig04.jpg",
+      "titulo": "Anexo II: Algoritmo de actuación",
+      "descripcion": "Recorrido asistencial del neonato susceptible de cuidados paliativos y su familia: plan de cuidado integral, AET o cuidados domiciliarios, fases finales y seguimiento del duelo.",
+      "aviso": "",
+      "page": 23
+    }
+  ],
+  "dispositivos-de-soporte-nutricional": [
+    {
+      "src": "data/fig/dispositivos-de-soporte-nutricional/dispositivos-de-soporte-nutricional_p03_fig01.jpg",
+      "titulo": "Figura 1. Algoritmo de decisión de la vía de acceso para nutrición enteral",
+      "descripcion": "Elige el dispositivo según la duración prevista de la nutrición enteral y el riesgo de aspiración: sonda nasogástrica, sonda nasoduodenal o nasoyeyunal, gastrostomía, gastrostomía con antirreflujo, yeyunostomía o gastroyeyunostomía.",
+      "aviso": "La figura usa el corte «< 2 meses / > 2 meses»; el texto del protocolo recomienda sondas enterales si se prevé «un tiempo máximo de dos o tres meses» de nutrición enteral. Consulte el protocolo.",
+      "page": 3
+    }
+  ],
+  "espasticidad": [
+    {
+      "src": "data/fig/espasticidad/espasticidad_p08_fig01.jpg",
+      "titulo": "Algoritmo 1: Opciones terapéuticas en el tratamiento farmacológico de la espasticidad",
+      "descripcion": "Elige el tratamiento según la espasticidad sea generalizada (fármacos orales y, si fallan, baclofeno intratecal o toxina en grupos musculares concretos) o focal (toxina botulínica).",
+      "aviso": "La figura incluye dantroleno entre los fármacos de la espasticidad generalizada; el texto del protocolo indica que «fue retirado en España en 1998» y la tabla 6, que es «medicamento extranjero no comercializado en España». Consulte el protocolo.",
+      "page": 9
+    },
+    {
+      "src": "data/fig/espasticidad/espasticidad_p08_fig02.jpg",
+      "titulo": "Algoritmo 2: Manejo del tratamiento farmacológico de la espasticidad",
+      "descripcion": "De la valoración y los objetivos (paciente, cuidador, equipo) al tratamiento individualizado, con la fisioterapia como base en todos los niveles.",
+      "aviso": "",
+      "page": 10
+    }
+  ],
+  "irritabilidad-y-agitacion": [
+    {
+      "src": "data/fig/irritabilidad-y-agitacion/irritabilidad-y-agitacion_p05_fig02.jpg",
+      "titulo": "Escalera terapéutica de la irritabilidad",
+      "descripcion": "Tres escalones (gabapentina/pregabalina; antidepresivos tricíclicos/clonidina; metadona) con coadyuvantes en todos ellos.",
+      "aviso": "",
+      "page": 6
+    }
+  ],
+  "manejo-y-cuidados-de-la-traqueostomia-en-domicilio": [
+    {
+      "src": "data/fig/manejo-y-cuidados-de-la-traqueostomia-en-domicilio/manejo-y-cuidados-de-la-traqueostomia-en-domicilio_p08_fig05.jpg",
+      "titulo": "Algoritmo de actuación ante una emergencia en un niño traqueotomizado",
+      "descripcion": "Qué hacer ante un evento brusco de dificultad respiratoria, alteración del nivel de conciencia o fallo del respirador: valorar si respira, sospechar obstrucción, aspirar, desinflar balón, retirar el tubo y valorar intubación.",
+      "aviso": "La figura empieza por comprobar si respira (sí: alto flujo de oxígeno; no y sin pulso: reanimación) y desobstruye retirando cánula interna, aspirando, desinflando el balón y retirando el tubo. El texto dice aspirar, instilar suero y reaspirar, cambiar cánula, oxígeno y RCP. Consulte el protocolo.",
+      "page": 10
+    }
+  ],
+  "nutricion-enteral-domiciliaria": [
+    {
+      "src": "data/fig/nutricion-enteral-domiciliaria/nutricion-enteral-domiciliaria_p13_fig02.jpg",
+      "titulo": "Algoritmo 1. Selección de vía",
+      "descripcion": "Decide vía oral o enteral, infusión gástrica o transpilórica según el riesgo de broncoaspiración, y sonda nasoenteral u ostomía según la duración prevista.",
+      "aviso": "La figura pone el corte en 12 semanas (<12 sonda nasoenteral, >12 ostomía); el texto del protocolo (Tabla 3) indica sonda nasogástrica si la duración es inferior a 8-12 semanas y gastrostomía si es superior a 8-12 semanas. Consulte el protocolo.",
+      "page": 13
+    },
+    {
+      "src": "data/fig/nutricion-enteral-domiciliaria/nutricion-enteral-domiciliaria_p13_fig03.jpg",
+      "titulo": "Algoritmo 2. Selección de fórmula de nutrición enteral en paciente menor de un año",
+      "descripcion": "Elige lactancia materna o fórmula según la edad gestacional, la alergia a proteína de leche de vaca y el aumento de necesidades calóricas.",
+      "aviso": "",
+      "page": 14
+    },
+    {
+      "src": "data/fig/nutricion-enteral-domiciliaria/nutricion-enteral-domiciliaria_p14_fig04.jpg",
+      "titulo": "Algoritmo 3. Selección de fórmula de nutrición enteral en paciente mayor de un año",
+      "descripcion": "Elige el tipo de fórmula según la función intestinal, la patología específica y las necesidades proteicas y calóricas.",
+      "aviso": "",
+      "page": 15
+    }
+  ],
+  "nutricion-parenteral-domiciliaria": [
+    {
+      "src": "data/fig/nutricion-parenteral-domiciliaria/nutricion-parenteral-domiciliaria_p15_fig02.jpg",
+      "titulo": "Algoritmo 1. Sospecha de infección relacionada con catéter",
+      "descripcion": "Ante fiebre en un paciente con CVC, interpreta hemocultivo periférico, central y tiempo diferencial, y decide duración del tratamiento, sellados y retirada del catéter.",
+      "aviso": "Figura: «bacteriemia asociada a catéter» si «TD> o=(+) 2h» y «valorar otro foco» si «TD<2h»; texto: del catéter si crece «en un tiempo menor o igual a dos horas» frente a sangre periférica. Duración si se conserva el catéter: figura 14 d o «10.14d», texto 10-14 d. Si se retira: figura 7 d o 7-10 d; el texto solo da 5-7 d cuando se retira el catéter y se aísla un estafilococo coagulasa negativo. Consulte el protocolo.",
+      "page": 15
+    }
+  ],
+  "problemas-nutricionales-malnutricion": [
+    {
+      "src": "data/fig/problemas-nutricionales-malnutricion/problemas-nutricionales-malnutricion_p13_fig02.jpg",
+      "titulo": "Algoritmo 1: evaluación nutricional del niño con enfermedad neurológica (ESPGHAN)",
+      "descripcion": "Según la nutrición sea adecuada o inadecuada y segura o insegura: reevaluación sistemática, asegurar consistencia y posición, optimizar aportes o alimentación por SNG/gastrostomía/yeyunostomía.",
+      "aviso": "",
+      "page": 11
+    }
+  ],
+  "prurito": [
+    {
+      "src": "data/fig/prurito/prurito_p09_fig02.jpg",
+      "titulo": "Algoritmo de manejo clínico del prurito",
+      "descripcion": "Desde la anamnesis y las medidas generales, decide el tratamiento según haya enfermedad dermatológica o causa colestásica, urémica, oncológica, farmacológica o idiopática.",
+      "aviso": "La figura propone cimetidina en el prurito oncológico; el texto del protocolo pide evitarla por posible efecto paradójico. Naltrexona, ondansetrón, fenobarbital e inmunomoduladores tópicos solo aparecen en la figura, sin dosis ni advertencias en el texto. Consulte el protocolo.",
+      "page": 11
+    }
+  ],
+  "reflujo-gastroesofagico": [
+    {
+      "src": "data/fig/reflujo-gastroesofagico/reflujo-gastroesofagico_p08_fig01.jpg",
+      "titulo": "Algoritmo 1: Algoritmo de manejo para el RGE",
+      "descripcion": "Desde la historia clínica y los signos de alarma: observación y medidas no farmacológicas, prueba con IBP 4-8 semanas y pruebas complementarias con tratamiento específico si no hay mejoría o los síntomas son atípicos.",
+      "aviso": "",
+      "page": 8
+    }
+  ],
+  "retirada-de-ventilacion-no-invasiva": [
+    {
+      "src": "data/fig/retirada-de-ventilacion-no-invasiva/retirada-de-ventilacion-no-invasiva_p20_fig01.jpg",
+      "titulo": "Anexo 2. Diagrama de flujo de la retirada de VMNI: paso a paso",
+      "descripcion": "Secuencia de ocho pasos desde la confirmación de la decisión hasta el fallecimiento, con las decisiones de efecto farmacológico, modalidad gradual o directa y rescates.",
+      "aviso": "",
+      "page": 20
+    }
+  ],
+  "sialorrea": [
+    {
+      "src": "data/fig/sialorrea/sialorrea_p08_fig02.jpg",
+      "titulo": "Algoritmo de tratamiento escalonado de la sialorrea",
+      "descripcion": "Escalera terapéutica con reevaluación cada 6-8 semanas: tratamiento no farmacológico, trihexifenidilo (sobre todo si hay distonías), glicopirrolato o escopolamina en parche y, por último, toxina.",
+      "aviso": "La figura pasa del tratamiento no farmacológico al farmacológico a las 6-8 semanas; el texto del protocolo dice que la rehabilitación «debe probarse durante al menos 6 meses antes de considerar un tratamiento farmacológico». Consulte el protocolo.",
+      "page": 9
+    }
+  ],
+  "status-epileptico": [
+    {
+      "src": "data/fig/status-epileptico/status-epileptico_p08_fig01.jpg",
+      "titulo": "Algoritmo de tratamiento de la convulsión y el estatus epiléptico",
+      "descripcion": "Secuencia ante una convulsión de más de 3-5 minutos: benzodiacepina rectal/bucal/intranasal, benzodiacepina intravenosa, levetiracetam, valproico o fenitoína, perfusión de midazolam y propofol.",
+      "aviso": "El protocolo da cifras distintas en su texto de posología, por un lado, y en sus tablas y esta figura, por otro: levetiracetam máx. 1,5 g en 10-15 min (texto) frente a máx. 3 g en 5 min; midazolam IV máx. 10 mg (texto) frente a 5 mg; hasta 2 dosis de benzodiacepina (texto) frente a 4; diazepam rectal 0,5-0,3-0,2 mg/kg según edad (texto) frente a 0,5 mg/kg. Consulte el protocolo.",
+      "page": 7
+    },
+    {
+      "src": "data/fig/status-epileptico/status-epileptico_p09_fig02.jpg",
+      "titulo": "Algoritmo de tratamiento de la convulsión en situación de final de vida",
+      "descripcion": "Secuencia en final de vida: benzodiacepina rectal/bucal/intranasal, canalización de vía subcutánea o venosa, benzodiacepina parenteral, perfusión continua de midazolam y propofol.",
+      "aviso": "El protocolo da cifras distintas en su texto de posología, por un lado, y en su tabla y esta figura, por otro: midazolam IV/SC máx. 10 mg (texto) frente a bolo de 5 mg; hasta 2 dosis de benzodiacepina (texto) frente a 4; diazepam rectal sin tramos de edad en la figura. Diazepam y propofol no se recomiendan por vía subcutánea (nota al pie). Consulte el protocolo.",
+      "page": 9
+    }
+  ],
+  "terapias-respiratorias": [
+    {
+      "src": "data/fig/terapias-respiratorias/terapias-respiratorias_p10_fig09.jpg",
+      "titulo": "Orden recomendado para la antibioterapia nebulizada",
+      "descripcion": "Secuencia de pasos previos a la antibioterapia inhalada: broncodilatador de acción rápida, suero salino hipertónico, drenaje de secreciones y antibiótico.",
+      "aviso": "",
+      "page": 12
+    }
+  ],
+  "trastornos-de-la-deglucion": [
+    {
+      "src": "data/fig/trastornos-de-la-deglucion/trastornos-de-la-deglucion_p14_fig01.jpg",
+      "titulo": "Algoritmo 1: Propuesta de abordaje de la disfagia orofaríngea en cuidados paliativos pediátricos",
+      "descripcion": "Circuito desde la sospecha: valoración en consulta de disfagia, confirmación diagnóstica, derivaciones, tratamiento y seguimiento por el pediatra de cuidados paliativos.",
+      "aviso": "",
+      "page": 16
+    },
+    {
+      "src": "data/fig/trastornos-de-la-deglucion/trastornos-de-la-deglucion_p14_fig02.jpg",
+      "titulo": "Algoritmo 2: Manejo de la disfagia en Unidad Interdisciplinar de Cuidados Paliativos Pediátricos",
+      "descripcion": "Ante sospecha de disfagia: fase alterada (eficacia o seguridad) y edad de desarrollo, necesidades, evaluación por especialistas y plan interdisciplinar con apoyo a la familia.",
+      "aviso": "",
+      "page": 16
+    }
+  ],
+  "valoracion-nutricional": [
+    {
+      "src": "data/fig/valoracion-nutricional/valoracion-nutricional_p13_fig07.jpg",
+      "titulo": "Intervención nutricional en pacientes estables",
+      "descripcion": "Árbol de decisión: tras anamnesis, exploración, cálculo de necesidades y encuesta nutricional, decide la vía de alimentación (oral, enteral o parenteral) y la intervención según se cubran las necesidades energéticas.",
+      "aviso": "La figura indica sonda nasogástrica «3-6 semanas» y gastrostomía/yeyunostomía «>6-8 semanas»; el texto del protocolo, sonda si se prevé una duración inferior a 3-6 semanas y gastrostomía o yeyunostomía si mayor de 2-3 meses. Consulte el protocolo.",
+      "page": 12
+    }
+  ],
+  "vomitos": [
+    {
+      "src": "data/fig/vomitos/vomitos_p06_fig03.jpg",
+      "titulo": "Abordaje general de los vómitos",
+      "descripcion": "Esquema: identificar la causa, medidas no farmacológicas y tratamiento según etiología (farmacológica, HTIC, obstrucción o desconocida).",
+      "aviso": "",
+      "page": 6
+    },
+    {
+      "src": "data/fig/vomitos/vomitos_p06_fig04.jpg",
+      "titulo": "Figura 4. Profilaxis primaria en pacientes en tratamiento con QT",
+      "descripcion": "Elige la profilaxis antiemética según el potencial emetógeno de la quimioterapia (alto, moderado, bajo o mínimo).",
+      "aviso": "",
+      "page": 7
+    },
+    {
+      "src": "data/fig/vomitos/vomitos_p07_fig05.jpg",
+      "titulo": "Figura 5. Profilaxis secundaria en pacientes en tratamiento con QT",
+      "descripcion": "Qué añadir si no hay control de los vómitos: anticipatorios frente a agudos o tardíos, según el potencial emetógeno de la QT recibida.",
+      "aviso": "",
+      "page": 8
+    },
+    {
+      "src": "data/fig/vomitos/vomitos_p08_fig06.jpg",
+      "titulo": "Figura 6. Tratamiento antiemético de rescate en pacientes en tratamiento con QT",
+      "descripcion": "Árbol de decisión del rescate: otra etiología, vómitos agudos o tardíos y escalones sucesivos si persiste la clínica.",
+      "aviso": "",
+      "page": 8
+    }
+  ]
+}

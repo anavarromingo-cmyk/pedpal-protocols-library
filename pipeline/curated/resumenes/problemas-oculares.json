@@ -1,130 +1,166 @@
 {
   "slug": "problemas-oculares",
-  "en_una_frase": "Síndrome de ojo seco, blefaritis y úlceras corneales en niños con necesidades paliativas: etiología, diagnóstico, tratamiento escalonado y técnica de cuidados oculares básicos.",
+  "en_una_frase": "Síndrome de ojo seco, blefaritis y úlceras corneales en niños con necesidades paliativas: etiología, diagnóstico y tratamiento, y técnica de cuidados básicos de los ojos.",
   "puntos_clave": [
-    "Muchos niños en CPP tienen factores predisponentes de ojo seco, sobre todo fármacos: antimuscarínicos, anticomiciales, opioides, antihistamínicos, tricíclicos, AINE.",
-    "Ante sospecha de ojo seco remitir precozmente a oftalmología (riesgo de daño corneal irreversible); el test de Schirmer no requiere colaboración (<5mm en 5 minutos = déficit).",
-    "Ojo seco: 1º educación, ambiente, revisar fármacos, higiene palpebral (40ºC) y lágrimas sin conservantes; 2º oclusores, pomadas nocturnas, ciclosporina o corticoide tópico.",
-    "Blefaritis: el pilar es la higiene diaria con calor húmedo y masaje palpebral; 2ª línea ácido fusídico tópico; 3ª línea azitromicina o eritromicina sistémicas a dosis bajas.",
-    "Úlcera corneal: no ocluir el ojo si sospecha infecciosa; úlceras >2 mm, centrales o con amenaza visual: dos colirios reforzados (vancomicina + ceftazidima) alternando cada hora.",
-    "Limpieza ocular al menos una vez al día, gasa distinta por ojo desde el lagrimal al ángulo externo; apósito oclusivo si no hay parpadeo o cierre palpebral completo."
-  ],
-  "farmacos_clave": [
     {
-      "farmaco": "ciclosporina A tópica",
-      "indicacion": "síndrome de ojo seco, segundo escalón (inmunomodulador que reduce la inflamación mediada por linfocitos T)",
-      "dosis": "emulsión oftálmica al 0,05% aplicándose 1 gota en cada ojo cada 12 horas",
-      "via": "tópica oftálmica",
-      "nota": "",
-      "page": 8,
-      "page_2024": 5
+      "x": "Muchos niños subsidiarios de cuidados paliativos pediátricos tienen factores predisponentes de ojo seco, fundamentalmente farmacológicos: hay que estar alerta ante su aparición.",
+      "cita": "Muchos de los niños subsidiarios de cuidados paliativos pediátricos presentarán factores predisponentes de SOS, fundamentalmente farmacológicos, por lo que debemos estar alerta ante la posible aparición de esta entidad.",
+      "page": 4,
+      "auto": true
     },
     {
-      "farmaco": "aciclovir tópico",
-      "indicacion": "blefaritis por herpes simple y por herpes zóster",
-      "dosis": "una aplicación cada 4 horas durante cinco días",
-      "via": "tópica",
-      "nota": "En úlcera herpética (p. 17): Ganciclovir o aciclovir tópicos cada 5 horas durante 10-15 días.",
-      "page": 9,
-      "page_2024": 8
+      "x": "Ojo seco, tratamiento escalonado. Primer escalón: educación, modificaciones ambientales, dieta, valoración de los tratamientos sistémicos, higiene palpebral y lágrimas artificiales. Segundo, si las medidas del primero no son suficientes: conservación de la lágrima, tratamientos nocturnos y fármacos. Tercero, si es refractario a las medidas del segundo: pilocarpina oral, lentes de apoyo escleral y suero autólogo. Cuarto, en casos graves refractarios: corticosteroides tópicos prolongados, injerto de membrana amniótica o cirugía.",
+      "cita": "Basándonos en el tratamiento escalonado que propone la Tear Film Ocular Society’s Dry Eye workshop II,en Cuidados Paliativos Pediátricos podríamos seguir los siguientes pasos:",
+      "page": 6,
+      "auto": false
     },
     {
-      "farmaco": "mupirocina tópica",
-      "indicacion": "impétigo palpebral",
-      "dosis": "una aplicación cada 8-12 horas",
-      "via": "tópica",
-      "nota": "",
-      "page": 10,
-      "page_2024": 9
-    },
-    {
-      "farmaco": "amoxicilina-clavulánico",
-      "indicacion": "erisipela palpebral",
-      "dosis": "40 mg/kg/día, cada 8 horas, vía oral",
-      "via": "VO",
-      "nota": "",
-      "page": 11,
-      "page_2024": 9
-    },
-    {
-      "farmaco": "eritromicina pomada oftálmica",
-      "indicacion": "blefaritis angular (Moraxella sp)",
-      "dosis": "una aplicación cada 6-8 horas",
-      "via": "tópica oftálmica",
-      "nota": "También en blefaritis estafilocócica crónica junto con limpieza (alternativas: bacitracina o azitromicina tópica).",
-      "page": 11,
-      "page_2024": 10
-    },
-    {
-      "farmaco": "azitromicina tópica",
-      "indicacion": "disfunción de las glándulas de Meibomio (blefaritis crónica posterior)",
-      "dosis": "una gota cada 12 horas durante tres días",
-      "via": "tópica oftálmica",
-      "nota": "Asociar lágrimas artificiales y limpieza palpebral.",
-      "page": 14,
-      "page_2024": 12
-    },
-    {
-      "farmaco": "ácido fusídico",
-      "indicacion": "blefaritis estafilocócicas y chalaziones sin mejoría con higiene e hidratación (segunda línea en niños)",
-      "dosis": "una gota de gel en el ojo o los ojos afectados dos veces al día, hasta dos días después de la remisión de la infección",
-      "via": "tópica oftálmica",
-      "nota": "Otros antibióticos tópicos posibles: mupirocina, eritromicina, bacitracina o azitromicina.",
+      "x": "Blefaritis, primera línea: higiene ocular diaria y constante, con calor húmedo y masaje suave desde el párpado hacia el borde; limpieza con toallitas o jabón de pH neutro insistiendo en los bordes.",
+      "cita": "Primera línea: el pilar fundamental del tratamiento de las blefaritis es la higiene ocular diaria y constante: debe aplicarse calor húmedo, con masaje suave desde el párpado hacia el borde. Puede realizarse la limpieza con toallitas o con jabón de pH neutro, insistiendo bien en los bordes (si es necesario usar bastoncillo de algodón.",
       "page": 15,
-      "page_2024": 14
+      "auto": true
     },
     {
-      "farmaco": "vancomicina + ceftazidima (colirios reforzados)",
-      "indicacion": "úlceras corneales bacterianas >2 mm de diámetro, severas, centrales o con amenaza de la visión",
-      "dosis": "Vancomicina 50mg/ml ( para Gram+) con Ceftazidima 50mg/ml (para Gram - , especialmente pseudomona)alternando cada hora el primer día y bajando dosis según evolución",
-      "via": "tópica oftálmica",
-      "nota": "Úlceras pequeñas: fluorquinolonas (ciprofloxacino en portadores de lentes). Úlceras perforadas o con alto riesgo de perforación: añadir antibióticos sistémicos.",
+      "x": "Blefaritis, segunda línea (sin mejoría con higiene e hidratación): antibióticos tópicos en las estafilocócicas y en los chalaziones; en niños se recomienda ácido fusídico, una gota de gel dos veces al día hasta dos días después de la remisión.",
+      "cita": "Segunda línea: en caso de no mejoría con las medidas de higiene e hidratación, pueden emplearse antibióticos tópicosen las blefaritis estafilocócicas y en los chalaziones. En niños se recomienda el uso de ácido fusídico: una gota de gel en el ojo o los ojos afectados dos veces al día, hasta dos días después de la remisión de la infección.",
+      "page": 15,
+      "auto": true
+    },
+    {
+      "x": "Úlcera corneal: antes de iniciar el tratamiento conviene realizar pruebas complementarias para asegurar la etiología.",
+      "cita": "Antes de iniciar el tratamiento de la úlcera es conveniente realizar otras pruebas complementarias para asegurarnos de la etiología.",
+      "page": 18,
+      "auto": true
+    },
+    {
+      "x": "Úlceras >2 mm de diámetro, severas, centrales o con amenaza de la visión: dos colirios antibióticos reforzados (la asociación más utilizada es vancomicina con ceftazidima), alternando cada hora el primer día y bajando dosis según evolución.",
+      "cita": "Úlceras >2 mm de diámetro, severas, centrales o amenaza de la visión: terapia combinada con dos colirios antibióticos reforzados (más concentrados). La más utilizada es la asociación de Vancomicina 50mg/ml ( para Gram+) con Ceftazidima 50mg/ml (para Gram -, especialmente pseudomona)alternando cada hora el primer día y bajando dosis según evolución.",
       "page": 19,
-      "page_2024": 17
+      "auto": true
     },
     {
-      "farmaco": "valaciclovir oral",
-      "indicacion": "úlcera herpética recidivante o acompañada de iritis",
-      "dosis": "1G diario durante 2-3 meses",
-      "via": "VO",
-      "nota": "",
-      "page": 19,
-      "page_2024": 17
-    },
-    {
-      "farmaco": "ciclopentolato",
-      "indicacion": "úlcera corneal con reacción de cámara anterior (mejorar el dolor y evitar sinequias posteriores)",
-      "dosis": "cada 8 /12horas",
-      "via": "tópica oftálmica",
-      "nota": "",
-      "page": 20,
-      "page_2024": 17
+      "x": "Cuidados de los ojos: limpieza al menos una vez al día, aumentando la frecuencia según los requerimientos del paciente.",
+      "cita": "La limpieza de los ojos debe realizarse al menos una vez al día, pudiendo aumentar la frecuencia en función de los requerimientos del paciente.",
+      "page": 22,
+      "auto": true
     }
   ],
   "banderas_rojas": [
-    "Sospecha de ojo seco: remitir a oftalmología para valoración precoz; la demora podría suponer un daño irreversible de la superficie corneal.",
-    "Corticosteroides tópicos: pautas cortas y dosis decrecientes por riesgo de elevación de la PIO y retraso de cicatrización; evitarlos en úlceras fúngicas.",
-    "Pediculosis palpebral: en caso de detectarse, debe descartarse abuso.",
-    "Úlceras por gonococo, infecciones graves o pacientes que no puedan cumplir el tratamiento: hospitalización con terapia sistémica.",
-    "No se recomienda la instilación de colirio anestésico como tratamiento porque retrasa la cicatrización.",
-    "Lifitegrast: no se ha establecido su seguridad y eficacia en menores de 17 años.",
-    "Úlceras corneales en bebés y niños pequeños sin causa aparente: pensar en síndromes de Riley-Day y Goldenhar o en tirosinemia."
+    {
+      "x": "Sospecha de ojo seco: remitir a oftalmología para valoración precoz; la demora diagnóstica podría suponer un daño irreversible de la superficie corneal.",
+      "cita": "Ante una sospecha de SOS en pediatría debemos remitir al paciente a oftalmología para valoración precoz, ya que la demora en su diagnóstico podría suponer un daño irreversible de la superficie corneal.",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Úlcera corneal: evitar la oclusión del ojo si se sospecha causa infecciosa (favorece la proliferación bacteriana y dificulta el tratamiento tópico).",
+      "cita": "Evitar la oclusión del ojo si se sospecha causa infecciosa (favorece la proliferación bacteriana y dificulta la administración del tratamiento tópico).",
+      "page": 19,
+      "auto": true
+    },
+    {
+      "x": "Úlcera corneal: los esteroides tópicos pueden comenzarse después de conocer el microorganismo y tras 2-5 días de tratamiento antibiótico apropiado.",
+      "cita": "Los esteroides tópicos pueden comenzarse después de que se conozcan el microorganismo y tras 2-5 días de tratamiento antibiótico apropiado.",
+      "page": 19,
+      "auto": true
+    },
+    {
+      "x": "Úlceras por gonococos, infecciones graves o pacientes que no puedan o no quieran cumplir el tratamiento: hospitalización con terapia sistémica.",
+      "cita": "La hospitalización con terapia sistémica es necesaria para las úlceras causadas por gonococos, infecciones graves y para aquellos que no puedan o no quieran cumplir el tratamiento.",
+      "page": 19,
+      "auto": true
+    },
+    {
+      "x": "Úlceras corneales perforadas o con alto riesgo de perforación: antibióticos sistémicos.",
+      "cita": "Úlceras corneales perforadas o con alto riesgo de perforación: usode antibióticos sistémicos.",
+      "page": 19,
+      "auto": true
+    },
+    {
+      "x": "Úlceras fúngicas: se manejan como bacterianas hasta la confirmación microbiológica; evitar los corticoides tópicos.",
+      "cita": "Antimicóticos. Se manejan como bacterianas hasta confirmación microbiológica. Evitar los corticoides tópicos.",
+      "page": 19,
+      "auto": true
+    },
+    {
+      "x": "Queratitis por Acanthamoeba: difícil de diagnosticar al inicio, suele confundirse con queratitis herpética y eso retrasa el diagnóstico; se trata con colirios de biguanida (clorhexidina al 0,02%) asociada a una diamidina (isetionato de propamidina 0,1%), preparados en farmacia.",
+      "cita": "Antiparasitarios: La queratitis por Acanthamoeba es difícil de diagnosticar en un primer momento, suele confundirse con queratitis herpética, lo cual retrasa su diagnóstico. Se trata con colirios de biguanidas, como la clorhexidina al 0,02%, asociado a una diamidina, como el isetionato de propamidina 0,1%. Se prepara en farmacia.",
+      "page": 20,
+      "auto": true
+    },
+    {
+      "x": "Dolor en la úlcera corneal: analgésicos orales según escala de dolor; no se recomienda instilar colirio anestésico porque retrasa la cicatrización.",
+      "cita": "Analgésicos orales. Administrados según escala de dolor. No se recomienda la instilacion de colirio anestésico por retrasar la cicatrización.",
+      "page": 20,
+      "auto": true
+    },
+    {
+      "x": "Corticosteroides tópicos en ojo seco: sin conservantes, de potencia media, en pautas cortas y dosis decrecientes, para evitar elevación de la PIO o retraso en la cicatrización de erosiones corneales.",
+      "cita": "Corticosteroides tópicos: se utilizan por su poder antiinflamatorio,se recomiendan sin conservantes y de potencia media como la Fluormetolona o la Hidrocortisona fosfato de sodio, y en pautas cortas y dosis decrecientes, para evitar efectos secundarios como elevación de la PIO o retraso en la cicatrización de posibles erosiones corneales.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Úlceras corneales en bebés y niños pequeños sin causa aparente: pensar en defectos sensitivos (síndromes de Riley-Day y Goldenhar) o trastornos metabólicos como la tirosinemia.",
+      "cita": "Otros: Las úlceras corneales en bebés y niños pequeños sin causa aparente deben hacer pensar en defectos sensitivos como los síndromes de Riley-Day y Goldenhar o en trastornos metabólicos como la tirosinemia.",
+      "page": 17,
+      "auto": true
+    },
+    {
+      "x": "Pediculosis palpebral: si se detecta, debe descartarse abuso.",
+      "cita": "Pediculosis palpebral: infestación de las pestañas por Pthiruspubis que provoca irritación y picor. En caso de detectarse, debe descartarse abuso.",
+      "page": 12,
+      "auto": true
+    },
+    {
+      "x": "Lifitegrast tópico: no se ha establecido su seguridad y eficacia en menores de 17 años.",
+      "cita": "Lifitegrast, disminuye la inflamación mediada por linfocitos T. No se ha establecido su seguridad y eficacia en menores de 17 años.",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "Úlcera corneal, tratamientos previos: los antibióticos presuponen que el germen será resistente y agresivo; los corticoides, sospechar hongos.",
+      "cita": "Tratamientos previos: antibióticos(presuponen que el germen será resistente y agresivo), corticoides ( sospechar hongos)",
+      "page": 17,
+      "auto": true
+    },
+    {
+      "x": "Corticoides tópicos en la úlcera corneal: cuando la inflamación es severa y siempre que se haya iniciado el tratamiento adecuado a la etiología; pueden retrasar la cicatrización y hay que controlar de cerca la evolución. Dosis bajas y en períodos cortos.",
+      "cita": "Corticoides. Se utilizarán vía tópica cuando la inflamación es severa y siempre que se haya iniciado el tratamiento adecuado a la etiología de la úlcera. Son especialmente útiles si se acompañan de cuadros de uveítis anterior, en los que se pueden asociar corticoides orales. Pueden retrasar la cicatrización y debe controlarse de cerca la evolución de la misma. Dosis bajas y en períodos cortos.",
+      "page": 20,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Higiene palpebral con toallitas húmedas calientes a unos 40ºC para favorecer la fusión de los lípidos en DGM; en blefaritis por Demodex, toallitas con aceite de árbol de té (muy diluido).",
-    "Lágrimas artificiales sin conservantes en uso prolongado; indicarlas también de forma profiláctica si hay tendencia al acúmulo de secreciones o parpadeo disminuido.",
-    "Test de Teller (preferencia visual) útil en niños preverbales o con problemas neurocognitivos; colirio de suero autólogo (3er escalón) se prepara en farmacia, en nevera y protegido de la luz."
-  ],
-  "secciones_recomendadas": [
-    "1) Primer escalón",
-    "2) Segundo escalón",
-    "Tratamiento",
-    "2) Medidas farmacológicas"
+    {
+      "x": "Lágrimas artificiales: administrarlas de forma constante, a intervalos variables según las molestias; preferibles sin conservantes porque su uso va a ser prolongado.",
+      "cita": "Se deben administrar de forma constante, en intervalos de tiempo variables según las molestias. Es preferible optar por lágrimas sin conservantes puesto que su uso va a ser prolongado.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Test de Schirmer: <5mm en 5 minutos indica déficit de producción lagrimal y entre 5 y 10 mm está en el límite de la normalidad; útil en niños con barreras comunicativas porque no requiere colaboración.",
+      "cita": "Por el contrario, un valor de <5mm en 5 minutos indicaría un déficit de producción lagrimal. Valores entre 5 y 10 mm se encontrarían en el límite de la normalidad. Esta prueba podría ser útil en niños con barreras comunicativas, dado que no requiere la colaboración del paciente.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Si el paciente no tiene reflejo de parpadeo o no puede cerrar del todo los párpados: apósito oclusivo para cerrar el ojo e impedir que la córnea se seque y se irrite. Excepción: en la úlcera corneal, evitar la oclusión del ojo si se sospecha causa infecciosa.",
+      "cita": "Si el paciente no tiene reflejo de parpadeo o no puede cerrar los párpados del todo, colocar un apósito oclusivo para cerrar el ojo e impedir que la córnea se seque y se irrite.",
+      "page": 22,
+      "auto": false
+    },
+    {
+      "x": "Lubricantes oculares en cualquier tipo de úlcera corneal: ayudan a la epitelización y alivian; lágrimas artificiales durante el día y pomada por la noche.",
+      "cita": "Lubricantes oculares. Ayudan a la epitelización y producen alivio sintomático. Lágrimas artificiales durante el día y pomada por la noche. Están indicadas en cualquier tipo de úlcera.",
+      "page": 20,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

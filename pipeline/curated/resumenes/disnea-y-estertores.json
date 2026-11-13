@@ -1,111 +1,124 @@
 {
   "slug": "disnea-y-estertores",
-  "en_una_frase": "Valoración y tratamiento de la disnea y los estertores en niños con enfermedades limitantes para la vida (opioides, benzodiacepinas, anticolinérgicos), para equipos de paliativos pediátricos.",
+  "en_una_frase": "Valoración y tratamiento de la disnea y de los estertores en niños con enfermedades limitantes para la vida: causas tratables, medidas no farmacológicas, opioides, benzodiacepinas y anticolinérgicos.",
   "puntos_clave": [
-    "Hasta el 24% de los niños presentan disnea en las últimas 72 horas de vida, segundo síntoma tras el dolor; la percepción del propio paciente es el mejor indicador.",
-    "Siempre descartar causas tratables y reversibles (anemia, neumonía/atelectasia, derrame pleural, broncoespasmo), valorando riesgo/beneficio de cada prueba (tablas 2 y 3).",
-    "Opioides de primera elección en final de vida: bien usados no comprometen la respiración ni aceleran el fallecimiento; empezar a dosis bajas y titular con monitorización estrecha.",
-    "Morfina: inicio al 30-50% de la dosis para dolor, aumentos del 25-50%; si ya la tomaba, subir 30-50%; rescate 15% de la dosis diaria; nebulizada no recomendada en pediatría.",
-    "Benzodiacepinas (preferible midazolam, vida media corta) en ansiedad, agitación o últimos días con disnea moderada-grave; los corticoides no mejoran la disnea en sí.",
-    "Estertores: no se recomienda aspirar secreciones (molestias, alivio transitorio); medidas posturales, limitar líquidos en últimos días, anticolinérgicos y preparar a la familia."
-  ],
-  "farmacos_clave": [
     {
-      "farmaco": "morfina oral (paciente naive)",
-      "indicacion": "disnea",
-      "dosis": "- Neonatos: 25 mcg/kg cada 6-8 horas - Lactantes 1-2 meses: 25 mcg/kg cada 4-6 horas - Lactantes 3-5 meses: 25-50 mcg/kg cada 4-6 horas - Lactantes 6-11 meses: 50 mcg/kg cada 4-6 horas - Niños entre 1-11 años: 50-100 mcg/kg cada 4-6 horas. - Mayores de 12 años: 50-100 mcg/kg cada 4-6 horas. No deben administrarse más de 5 mg como dosis de inicio.",
-      "via": "VO",
-      "nota": "Dosis inicial 30-50% de la de dolor con aumentos de un 25%-50% según respuesta; rescate 15% de dosis diaria total; en disnea crónica considerar liberación retardada. Efectos secundarios: somnolencia, náuseas, vómitos y estreñimiento.",
-      "page": 11,
-      "page_2024": 11
+      "x": "La percepción del propio paciente es el mejor indicador de disnea; hay que diferenciarla de fatiga o cansancio y de signos como el esfuerzo respiratorio o la hipoxemia.",
+      "cita": "La percepción del paciente de la presencia de disnea es el mejor indicador de este síntoma. Se debe intentar diferenciar disnea de otros síntomas como fatiga o cansancio, y de otros signos como el esfuerzo respiratorio o la hipoxemia.",
+      "page": 1,
+      "auto": true
     },
     {
-      "farmaco": "morfina SC/IV (paciente naive)",
-      "indicacion": "disnea",
-      "dosis": "- Neonatos: 10-20 mcg/kg cada 6-8 horas - Lactantes 1-5 meses: 25-50 mcg/kg cada 6-8 horas - Lactantes 6-11 meses: 25-50 mcg/kg cada 4-6 horas - Niños entre 1-11 años: 25-100 mcg/kg cada 4-6 horas. No más de 2.5 mg como dosis inicial. - Mayores de 12 años: 50-100 mcg/kg cada 4-6 horas. No más de 5 mg como dosis inicial ni más de 20 mg en las primeras 24 horas.",
-      "via": "SC/IV",
-      "nota": "",
-      "page": 11,
-      "page_2024": 11
+      "x": "Si el paciente no puede indicar la disnea por dificultades de comunicación, valorar datos objetivos: signos de trabajo respiratorio (musculatura accesoria, respiración abdominal, retracciones, aumento de frecuencia respiratoria y cardiaca), hipoxemia o malestar asociado (agitación, intranquilidad, sudoración, irritabilidad).",
+      "cita": "no puede indicarnos la presencia e intensidad de la disnea por dificultades de comunicación, será de utilidad valorar datos objetivos como signos de trabajo respiratorio (uso de musculatura accesoria, respiración abdominal, retracciones, aumento de frecuencia respiratoria y cardiaca), hipoxemia o datos de malestar asociado como agitación, intranquilidad, sudoración o irritabilidad",
+      "page": 2,
+      "auto": true
     },
     {
-      "farmaco": "morfina en perfusión continua",
-      "indicacion": "disnea",
-      "dosis": "10-30 microgramos/kg/hora (menores de 12 meses iniciar a 5 microgramos/kg/hora)",
-      "via": "SC/IV",
-      "nota": "",
+      "x": "Causas frecuentes y su abordaje: anemia, transfusión; hipoxia, oxigenoterapia; síndrome de vena cava superior, radioterapia y corticoides; derrame pleural, toracocentesis o tubo de drenaje; derrame pericárdico, pericardiocentesis; insuficiencia cardiaca y/o edema de pulmón, diuréticos.",
+      "cita": "Anemia | Transfusión Hipoxia | Suplementación con oxigenoterapia Síndrome de vena cava superior | Radioterapia, corticoides Derrame pleural | Toracocentesis, tubo de drenaje pleural Derrame pericárdico | Pericardiocentesis Insuficiencia cardiaca y/o edema de pulmón | Diuréticos",
       "page": 11,
-      "page_2024": 11
+      "auto": true
     },
     {
-      "farmaco": "midazolam",
-      "indicacion": "disnea con ansiedad/agitación; disnea refractaria en final de vida",
-      "dosis": "midazolam bucal dosis 25-50% inferiores a las usadas en crisis convulsivas",
-      "via": "bucal; SC o IV en disnea refractaria",
-      "nota": "En disnea refractaria y final de vida, vía subcutánea o intravenosa hasta alcanzar el nivel de sedación deseado si es necesario. Lorazepam o alprazolam útiles para la ansiedad asociada.",
+      "x": "Opioides: primera elección para la disnea en final de vida; usados correctamente no comprometen la respiración ni aceleran el fallecimiento; empezar a dosis bajas con monitorización estrecha para titular y evitar la sobredosificación.",
+      "cita": "Los opioides son el fármaco de primera elección para el tratamiento de la disnea en las situaciones de final de vida. Usados de forma correcta no comprometen al paciente a nivel respiratorio y no aceleran su fallecimiento (11,14). Se deben empezar a dosis bajas con monitorización estrecha, de cara a titular su dosis y evitar la sobredosificación (11).",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Morfina en disnea: iniciar a dosis bajas y titular; la dosis inicial suele ser el 30-50% de la usada para el dolor, con aumentos de un 25%-50% según respuesta; si ya tomaba morfina, aumentar la dosis previa un 30-50%; plantear rescates (15 % de la dosis diaria total).",
+      "cita": "Se iniciará a dosis bajas titulando su efecto hasta el control de los síntomas. La dosis inicial suele ser del 30-50% de la usada para el tratamiento del dolor con aumentos de un 25%- 50% según respuesta. En pacientes que ya tomaban previamente morfina, se aconseja aumentar la dosis previa en un 30-50%. Es importante plantear dosis de rescate si fuera necesario (15 % de dosis diaria total)",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Benzodiacepinas: útiles si hay ansiedad, agitación o estrés y en últimos días con disnea moderada-grave; a veces se usan al inicio hasta controlar la disnea con opiáceos y luego pueden suspenderse.",
+      "cita": "Pueden ser útiles en caso de ansiedad, agitación o estrés, así como en situación de últimos días con disnea moderada-grave (14,16). A veces puede ser necesario su uso inicial, hasta alcanzar el control de los síntomas de disnea con opiáceos, pudiéndose suspender posteriormente (7).",
       "page": 6,
-      "page_2024": 5
+      "auto": true
     },
     {
-      "farmaco": "escopolamina hidrobromuro (hidrobromuro de hioscina)",
-      "indicacion": "estertores",
-      "dosis": "- Transdérmico: > Neonatos-2 años: un cuarto de parche cada 72 horas. > Niños 3-9 años: medio parche cada 72 horas. > Mayores de 12 años: un parche cada 72 horas. Se puede realizar un aumento progresivo de dosis según efecto. - Subcutáneo o intravenoso: > Dosis iniciales 6mcg/kg (máximo 600mcg/dosis) cada 4-8 horas. - Infusión continua subcutánea o intravenosa: > Dosis de 40-60mcg/kg en 24 horas (máximo de 2.4mg en 24 horas que puede llegarse a aumentar si fuese necesario)",
-      "via": "transdérmica/SC/IV",
-      "nota": "Atraviesa la barrera hematoencefálica: delirio, alucinaciones, insomnio, sedación; flushing facial, midriasis, taquicardia. No usar en cuadro obstructivo intestinal; precaución en patología cardiaca; combinada con otros anticolinérgicos puede derivar en psicosis.",
-      "page": 12,
-      "page_2024": 12
-    },
-    {
-      "farmaco": "butilescopolamina (butilbromuro de hioscina)",
-      "indicacion": "estertores; más útil para dolor por espasmo intestinal o genitourinario",
-      "dosis": "- Oral, intramuscular, intravenoso: > Niños 1 mes - 4 años: 0.3-0.5 mg/kg (máximo 5 mg/dosis) cada 6-8 horas. > Niños 5-11 años: 5-10 mg cada 6-8 horas. > Mayores de 12 años: 10-20 mg cada 6-8 horas. - Infusión continua subcutánea o intravenosa: > Niños 1 mes – 4 años: 1.5mg/kg cada 24 horas (máximo 15mg/día) > Niños 5 – 11 años: 30 mg cada 24 horas. > Mayores de 12 años: 60-80mg cada 24 horas hasta un máximo de 300mg cada 24 horas.",
-      "via": "VO/IM/IV/SC",
-      "nota": "No pasa la barrera hematoencefálica (sin efectos centrales). Precaución en patología cardiaca; favorece estreñimiento y retención urinaria.",
-      "page": 12,
-      "page_2024": 12
-    },
-    {
-      "farmaco": "glicopirrolato",
-      "indicacion": "estertores",
-      "dosis": "> Oral: Niños a partir de un mes: 0.02mg/kg cada 8-12 horas con aumentos de 0.02mg/kg cada 4-6 horas según efecto. Puede realizarse aumento hasta dosis máxima de 0.1mg/kg cada 6-8 horas. Dosis máxima de 2mg/dosis.",
-      "via": "VO",
-      "nota": "Fórmula magistral (solución oral 1mg/5ml); no disponible SC ni IV. Inicio de acción más lento que escopolamina; administrar separado de la comida porque disminuye su absorción; menos efectos cardiacos.",
-      "page": 12,
-      "page_2024": 12
-    },
-    {
-      "farmaco": "atropina",
-      "indicacion": "estertores, solo si el resto de tratamientos no está disponible o no es efectivo",
-      "dosis": "Se aplica a nivel sublingual la solución para uso intravenoso o el colirio de atropina al 1%",
-      "via": "sublingual",
-      "nota": "No es tratamiento de primera línea. Mayores efectos adversos que escopolamina y glicopirrolato: estreñimiento, retención urinaria y alteraciones del ritmo cardiaco; precaución si ya toma otros anticolinérgicos.",
-      "page": 8,
-      "page_2024": 7
+      "x": "Estertores: en general no se recomienda aspirar secreciones (molesta y solo alivia transitoriamente); preparar a la familia explicando que ocurren cuando el niño está inconsciente y no percibe sensación disneica.",
+      "cita": "en general, no se recomienda aspirar secreciones porque puede generar molestias y esta medida sólo supone un alivio transitorio. Es muy importante preparar a la familia para esta situación y explicarles que sucede cuando el niño está inconsciente y no es capaz de percibir ninguna sensación disneica.",
+      "page": 7,
+      "auto": true
     }
   ],
   "banderas_rojas": [
-    "Oxigenoterapia: la mayoría de estudios no encuentran mejoría de la sensación disneica; si no hay mejoría a las 48 horas de su inicio valorar su retirada.",
-    "Escopolamina hidrobromuro: no debe usarse en pacientes con cuadro obstructivo intestinal; precaución en patología cardiaca; con otros anticolinérgicos puede derivar en psicosis.",
-    "Atropina: mayores efectos adversos (estreñimiento, retención urinaria, alteraciones del ritmo cardiaco); no es de primera línea.",
-    "Fentanilo: no existen suficientes estudios que apoyen su uso para el alivio de la disnea en pediatría.",
-    "La angustia familiar ante los estertores puede llevar a iniciar tratamiento aunque el paciente no muestre signos de malestar."
+    {
+      "x": "Oxigenoterapia: la mayoría de los estudios no encuentran que mejore la sensación disneica; puede valorarse si alivia los síntomas, pero si no hay mejoría tras 48 horas desde su inicio se debería valorar su retirada.",
+      "cita": "Respecto a la administración de oxigenoterapia, la mayoría de los estudios no encuentran que su uso mejore la sensación disneica en los pacientes. Se puede valorar su suplementación si supone un alivio de los síntomas para el paciente; sin embargo, si no existe mejoría tras 48 horas desde su inicio se debería valorar su retirada",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Morfina nebulizada: no se recomienda actualmente en pediatría.",
+      "cita": "El uso de morfina nebulizada, aunque se ha descrito en algunos estudios, no se recomienda actualmente en pediatría",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Pruebas como la toracocentesis deben ser consensuadas, estableciendo su utilidad y beneficio antes de plantearlas; radiografía de tórax, electrocardiograma o ecografía de tórax son, en general, poco invasivos y accesibles.",
+      "cita": "Estudios como la radiografía de tórax, el electrocardiograma o la ecografía de tórax son, en general, poco invasivos y accesibles; sin embargo, otro tipo de estudios como la toracocentesis deben ser consensuados y debe establecerse su utilidad y beneficio antes de plantear su realización",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "Estertores: generan gran angustia y ansiedad en familia y cuidadores, lo que puede llevar a iniciar tratamiento farmacológico aunque el paciente no muestre signos de malestar.",
+      "cita": "Constituye un síntoma que genera gran angustia y ansiedad en la familia y cuidadores; lo que puede derivar en el inicio de tratamiento farmacológico a pesar de que el paciente no muestre signos de malestar",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Estertores: los anticolinérgicos son los fármacos más usados, pero no están exentos de efectos adversos; en situación de últimos días es recomendable limitar los aportes de líquidos, que pueden aumentar las secreciones bronquiales y el edema pulmonar.",
+      "cita": "Respecto a las medidas farmacológicas, los fármacos anticolinérgicos son los más usados, aunque su administración no está exenta de efectos adversos. Junto a ellos, en pacientes en situación de últimos días, es recomendable limitar los aportes de líquidos dado que puede aumentar las secreciones bronquiales y el edema pulmonar",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Escopolamina: favorece la retención urinaria y el estreñimiento, por lo que no debe usarse en pacientes con cuadro obstructivo intestinal; precaución en patología cardiaca; combinada con otros anticolinérgicos puede derivar en psicosis.",
+      "cita": "Favorece la retención urinaria y estreñimiento por lo que no debe usarse en pacientes con cuadro obstructivo intestinal. Debe utilizarse también con precaución en pacientes con patología cardiaca. Su uso combinado con otros fármacos anticolinérgicos puede derivar en psicosis",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Atropina sublingual: no es un tratamiento de primera línea; usar solo si el resto de tratamientos no está disponible o no es efectivo. Tiene más efectos adversos que escopolamina y glicopirrolato (estreñimiento, retención urinaria, alteraciones del ritmo cardiaco); precaución si el paciente ya recibe otros anticolinérgicos.",
+      "cita": "No es un tratamiento de primera línea, debe usarse solo si el resto de tratamientos no se encuentran disponible o no es efectivo. Presenta mayores efectos adversos que escopolamina y glicopirrolato como estreñimiento, retención urinaria y alteraciones del ritmo cardiaco. Debe usarse con precaución si el paciente ya se encuentra en tratamiento con otros fármacos anticolinérgicos",
+      "page": 8,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Favorecer una corriente de aire con ventilador de mano a 15-20 cm del rostro, preferiblemente fresco; ambiente térmico neutro; incorporar la cama o sillón y reducir la actividad física proporcionalmente.",
-    "En afectación neurológica grave avanzada puede ser necesario limitar la hidratación al 50-70% de las necesidades basales y favorecer el confort más que intensificar la fisioterapia.",
-    "Estertores: colocar en decúbito lateral con la cabeza elevada y explicar a la familia que el niño inconsciente no percibe sensación disneica.",
-    "Escala analógica visual (0 'ausencia de disnea' a 10 'la peor disnea que pueda imaginar') si hay capacidad comunicativa; Death rattle intensity score (0-3) para seguimiento de estertores."
-  ],
-  "secciones_recomendadas": [
-    "Morfina",
-    "Midazolam",
-    "ESTERTORES",
-    "ANEXOS Y TABLAS"
+    {
+      "x": "Corriente de aire cerca del paciente: son útiles los ventiladores, como los de mano, que aporten un flujo de aire a 15-20 cm del rostro, preferiblemente fresco; ambiente térmico neutro y evitar altas temperaturas.",
+      "cita": "Puede ser de alivio favorecer una corriente de aire cerca del paciente ya sea mediante ventilación del espacio o con ventilador. Se ha demostrado que es de utilidad el uso de ventiladores, como ventiladores de mano, que aporten un flujo de aire a 15-20 cm del rostro, preferiblemente fresco; se debe también favorecer un ambiente térmico neutro y evitar altas temperaturas",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "En pacientes con afectación neurológica grave son frecuentes las descompensaciones respiratorias, en las que se aconseja fisioterapia respiratoria, hidratar y humidificar las secreciones; no obstante, en estadios avanzados de la enfermedad puede ser necesario limitar la hidratación al 50-70 % de las necesidades basales y favorecer el confort del paciente.",
+      "cita": "en pacientes con afectación neurológica grave son frecuentes los episodios de descompensación respiratoria, en los cuales se aconseja realizar fisioterapia respiratoria, hidratar y humidificar tales secreciones. No obstante, en estadios avanzados de la enfermedad, puede ser necesario limitar la hidratación al 50-70 % de las necesidades basales y favorecer el confort del paciente",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Corticoides: no mejoran la disnea en sí, pero sí algunas de las causas posiblemente relacionadas con ella.",
+      "cita": "No mejoran en sí la disnea, pero sí algunas de las causas posiblemente relacionadas con la misma.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Estertores: se recomiendan medidas posturales, como incorporar al paciente o colocarlo en decúbito lateral con la cabeza elevada.",
+      "cita": "Se recomiendan medidas posturales como la incorporación del paciente, colocar en decúbito lateral con la cabeza elevada",
+      "page": 7,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

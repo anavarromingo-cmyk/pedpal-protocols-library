@@ -1,130 +1,142 @@
 {
   "slug": "generalidades-clasificacion-y-causas-del-dolor-en-cpp",
-  "en_una_frase": "Generalidades, clasificación, causas, valoración con escalas por edad y bases del tratamiento multimodal del dolor en niños que precisan cuidados paliativos pediátricos.",
+  "en_una_frase": "Generalidades, clasificación y causas del dolor en cuidados paliativos pediátricos, su valoración con escalas según edad y estado cognitivo, y las bases del tratamiento multimodal.",
   "puntos_clave": [
-    "El dolor está presente en el 85% de pacientes oncológicos, el 70% con parálisis cerebral y el 30% con VIH; su manejo obliga a identificar la causa, características e intensidad.",
-    "Se clasifica por fisiopatología (nociceptivo, neuropático, mixto), duración (agudo/crónico), curso (basal, intermitente, irruptor, incidental, final de dosis) e intensidad.",
-    "Valorar y registrar el dolor sistemáticamente como quinta constante vital, con escalas validadas por edad y estado cognitivo (CRIES/PIPP, FACES, Walco y Howite, FLACC, NCCPC-R).",
-    "La modalidad más efectiva es la analgesia multimodal (no farmacológica, farmacológica e intervencionista); entrenar a los padres a reconocer el tipo de dolor (incidental/irruptor).",
-    "OMS: estrategia bifásica (no opioides en dolor leve; opioides mayores en moderado-intenso, morfina de elección), pauta a intervalos regulares con rescates y vía oral si es posible.",
-    "Los adyuvantes para dolor neuropático (amitriptilina, gabapentina, pregabalina, carbamacepina, ketamina, clonidina) se usan a cualquier intensidad, combinados con analgésicos."
-  ],
-  "farmacos_clave": [
     {
-      "farmaco": "paracetamol",
-      "indicacion": "analgésico no opioide, dolor leve y en combinación con opioides",
-      "dosis": "Recién nacido hasta 3 meses: 5-10 mg/kg cada 6-8 h. Niños y adolescentes: 10-15 mg/kg cada 4-6 h. Dosis diaria máxima: 75 mg/kg/día o 4 g/día",
-      "via": "VO",
-      "nota": "Tiene dosis diaria máxima y techo analgésico.",
-      "page": null,
-      "page_2024": 12
+      "x": "El dolor se estima presente en un 85% de los pacientes con enfermedad oncológica, en el 70% de los niños con parálisis cerebral y en el 30% de los infectados por VIH.",
+      "cita": "El dolor es un síntoma frecuente en los niños que precisan CPP. Se estima que está presente en un 85% de los pacientes con enfermedad oncológica, en el 70% de los niños con parálisis cerebral y en el 30% de los infectados por VIH.",
+      "page": 1,
+      "auto": true
     },
     {
-      "farmaco": "ibuprofeno",
-      "indicacion": "AINE más utilizado; dolor leve-moderado, especialmente útil en dolor óseo",
-      "dosis": "Recién nacido hasta 3 meses: No indicado. Niños y adolescentes: 4-10 mg/kg cada 6-8 h. Dosis diaria máxima: 40 mg/kg/día",
-      "via": "VO",
-      "nota": "AINEs: precaución en uso prolongado por daño gastrointestinal y toxicidad renal; evitar en trastornos de la coagulación o trombopenia; asociar protector gástrico si factores de riesgo de sangrado, dosis altas o corticoides.",
-      "page": null,
-      "page_2024": 12
+      "x": "Clasificación del dolor: por fisiopatología (nociceptivo somático o visceral, neuropático, complejo o mixto), duración (agudo o crónico), curso (continuo o basal, intermitente, irruptor, incidental, final de dosis) e intensidad (leve, moderado o intenso).",
+      "cita": "Tabla 1. Clasificación del dolor. Fisiopatología | Nociceptivo: - Somático: superficial o profundo - Visceral Neuropático: SNC o SNP Complejo o mixto Duración | Agudo o crónico Curso | Continuo o basal Intermitente Irruptor Incidental Final de dosis Intensidad | Leve, moderado o intenso",
+      "page": 3,
+      "auto": true
     },
     {
-      "farmaco": "metamizol",
-      "indicacion": "analgésico no opioide, dolor leve-moderado",
-      "dosis": "Recién nacido hasta 3 meses: No indicado. Niños y adolescentes: 10-15 mg/kg cada 6-8 h. Dosis diaria máxima: 4 meses a 4 años: 600mg/día; 5 años a 14 años: 1,5 g/día; >15 años: 6 g/día",
-      "via": "VO",
-      "nota": "",
+      "x": "Usar escalas validadas como herramienta de valoración del dolor; la elección de la escala depende de la edad y del estado cognitivo del niño.",
+      "cita": "Se debe hacer uso de escalas validadas como herramienta de valoración del dolor. La elección de la escala dependerá de la edad y del estado cognitivo del niño.",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "Valorar y registrar el dolor de forma sistemática en la documentación clínica, como quinta constante vital.",
+      "cita": "Se recomienda valorar y registrar de forma sistemática el dolor en la documentación clínica, considerándolo como quinta constante vital.",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "La modalidad más efectiva es la analgesia multimodal: abordaje multidisciplinar que integra medidas no farmacológicas, farmacológicas y técnicas intervencionistas.",
+      "cita": "La modalidad más efectiva para el manejo del dolor es la denominada analgesia multimodal. Ésta supone un abordaje multidisciplinar integrando las medidas no farmacológicas, farmacológicas y las técnicas intervencionistas.",
+      "page": 12,
+      "auto": true
+    },
+    {
+      "x": "Estrategia bifásica: tratamiento analgésico en dos escalones en vez de tres; el escalón intermedio usaba opioides débiles (codeína y tramadol), cuya eficacia y seguridad no están establecidas en menores de 12 años.",
+      "cita": "1. Estrategia bifásica: se recomienda utilizar el tratamiento analgésico en dos escalones en vez de tres. Esta recomendación se basa en una mayor eficacia en el control del dolor. La estrategia trifásica suponía utilizar un escalón intermedio con opioides débiles (codeína y tramadol) cuya eficacia y seguridad no están establecidas en menores de 12 años.",
+      "page": 13,
+      "auto": true
+    },
+    {
+      "x": "Los adyuvantes tienen una indicación primaria distinta del dolor, pero propiedades analgésicas en determinadas situaciones; pueden usarse con cualquier intensidad de dolor y suelen combinarse con otros analgésicos.",
+      "cita": "Este grupo de fármacos se caracteriza por tener una indicación primaria distinta del tratamiento del dolor pero, poseen propiedades analgésicas en determinadas situaciones. La terapia adyuvante se puede utilizar en cualquier niño independientemente de la intensidad del dolor y suele prescribirse en combinación con otros fármacos dirigidos primariamente para el dolor.",
       "page": 15,
-      "page_2024": 12
-    },
-    {
-      "farmaco": "amitriptilina",
-      "indicacion": "adyuvante en dolor crónico neuropático (también sialorrea)",
-      "dosis": "La dosis por vía oral de 2 a 12 años es 0,2 mg/kg en dosis nocturna, pudiendo hacer aumentos cada 2 semanas hasta 150 mg/dosis. Para niños entre 12 y 18 años se comenzará con 10 mg por la noche, pudiendo hacer incrementos hasta 150 mg al día repartidos en varias tomas.",
-      "via": "VO",
-      "nota": "Efecto anticolinérgico: sequedad bucal, estreñimiento, retención urinaria, sedación o visión borrosa.",
-      "page": 16,
-      "page_2024": 13
-    },
-    {
-      "farmaco": "gabapentina",
-      "indicacion": "adyuvante en dolor neuropático",
-      "dosis": "La dosis inicial es 5 mg/kg en dosis única nocturna el primer día (máximo 300 mg/dosis), seguido de 5 mg/kg/12h el segundo día (máximo 300 mg/dosis) y posteriormente 5 mg/kg/8h el tercer día (máximo 300 mg/dosis). Se pueden hacer aumentos cada tres días hasta alcanzar la dosis de mantenimiento habitual 8-35 mg/kg/día.",
-      "via": "VO",
-      "nota": "Fórmula magistral para sonda: Gabapentina 50 mg/ml suspensión oral.",
-      "page": 16,
-      "page_2024": 13
-    },
-    {
-      "farmaco": "pregabalina",
-      "indicacion": "adyuvante en dolor neuropático",
-      "dosis": "La dosis de inicio recomendada para el dolor neuropático es 1 mg/kg en dosis única diaria durante tres días, seguido de 1 mg/kg/12h durante tres días pudiendo hacer incrementos semanales hasta una dosis máxima de 6 mg/kg/día.",
-      "via": "VO",
-      "nota": "Potencia cuatro veces mayor que la gabapentina. No se ha establecido su eficacia y seguridad en menores de 12 años.",
-      "page": 16,
-      "page_2024": 13
-    },
-    {
-      "farmaco": "carbamacepina",
-      "indicacion": "adyuvante en dolor neuropático (antiepiléptico y relajante muscular)",
-      "dosis": "La dosis de inicio para menores de 4 años es 20-60 mg/día en 1-2 dosis, haciendo aumentos si es preciso de 20-60 mg cada dos días. Para mayores de 4 años se inicia en 100 mg/día en 1-2 dosis, incrementando si precisa 100 mg cada semana. La dosis de mantenimiento habitual es 10-20 mg/kg/día en 2-3 dosis.",
-      "via": "VO",
-      "nota": "",
-      "page": 16,
-      "page_2024": 13
-    },
-    {
-      "farmaco": "ketamina",
-      "indicacion": "dolor refractario a otros analgésicos o adyuvante en dolor neuropático (off-label)",
-      "dosis": "La dosis por vía oral en menores de 11 años es 0,1-0,4 mg/kg/dosis cada 6-8 horas. En niños desde los 12 años se inicia a 5-10 mg dosis, con incrementos de 5- 10 mg hasta un máximo de 50 mg por dosis, cada 6-8 horas. Por vía intravenosa o subcutánea la dosis de los bolos se recomienda 1 mg/kg con dosis sucesivas si precisa de 0,5 mg/kg hasta máximo 50 mg. En perfusión continua se puede iniciar a 0,02-0,1 mg/kg/h.",
-      "via": "VO/IV/SC",
-      "nota": "Precaución en reflujo gastroesofágico o riesgo de hipertensión intracraneal. Riesgo de alucinaciones (prevenibles con midazolam a dosis bajas), irritabilidad o delirio. IV/SC: dilución 1/5 para evitar efectos adversos de la infusión.",
-      "page": 17,
-      "page_2024": 14
-    },
-    {
-      "farmaco": "dexametasona",
-      "indicacion": "edema por tumores cerebrales, dolor neuropático por atrapamiento nervioso o compresión medular; antiemético",
-      "dosis": "La dosis inicial en pacientes con enfermedad tumoral es 0,25 mg/kg/día en dos dosis durante 3-5 días e ir reduciendo hasta retirarlo o hasta conseguir la dosis mínima eficaz que habitualmente es < 0,1 mg/kg/día.",
-      "via": "",
-      "nota": "Presentaciones: solución para inyección 4 mg/ml, 40 mg/5ml; comprimidos 1 mg, 4 mg, 8 mg; FM 1 mg/ml solución oral.",
-      "page": 17,
-      "page_2024": 14
-    },
-    {
-      "farmaco": "clonidina",
-      "indicacion": "dolor neuropático en combinación con opioides; síndrome de abstinencia a opioides",
-      "dosis": "La dosis por vía oral en pacientes mayores de 1 mes es 2-4 mcg/kg/4-6 horas (máximo 150 mcg/dosis). Por vía intravenosa se puede administrar en bolos de 1 mcg/kg/4-6 horas o en perfusión continua de 0,1-2 mcg/kg/h.",
-      "via": "VO/IV",
-      "nota": "Agonista alfa-2: desciende frecuencia cardiaca y presión arterial. Fórmula magistral 0,1 mg/ml; FM 20 mcg/ml para sonda.",
-      "page": 17,
-      "page_2024": 14
+      "auto": true
     }
   ],
   "banderas_rojas": [
-    "AINEs: riesgo de daño gastrointestinal y toxicidad renal en uso prolongado; evitar en niños con trastornos de la coagulación o trombopenia por riesgo de sangrado.",
-    "Opioides débiles (codeína y tramadol): eficacia y seguridad no establecidas en menores de 12 años; la OMS recomienda estrategia bifásica en dos escalones.",
-    "Ketamina: precaución en reflujo gastroesofágico o riesgo de hipertensión intracraneal; riesgo de alucinaciones, irritabilidad o delirio.",
-    "Analgesia espinal: tener presente el riesgo de infección del sistema nervioso central y de neurotoxicidad asociado a la técnica.",
-    "En niños con deterioro cognitivo, indicadores de dolor: llanto, gemidos, muecas, mayor tono, arqueamiento o rigidez, incapacidad de ser consolado o comportamientos atípicos (risa, retracción, agresividad).",
-    "La vía intramuscular en general se evita por ser dolorosa y mal tolerada por los niños."
+    {
+      "x": "AINEs: precaución, sobre todo en uso prolongado, por riesgo de daño gastrointestinal y toxicidad renal; evitar en niños con trastornos de la coagulación o trombopenia por riesgo de sangrado.",
+      "cita": "Los AINEs deben usarse con precaución, sobre todo cuando se toman de forma prolongada, debido al riesgo de daño gastrointestinal y toxicidad renal. Deben evitarse en niños con trastornos de la coagulación o trombopenia, por el riesgo de sangrado.",
+      "page": 14,
+      "auto": true
+    },
+    {
+      "x": "Pregabalina: no se ha establecido su eficacia y seguridad en menores de 12 años.",
+      "cita": "La pregabalina posee una potencia cuatro veces mayor que la gabapentina. No se ha establecido su eficacia y seguridad en menores de 12 años.",
+      "page": 16,
+      "auto": true
+    },
+    {
+      "x": "Duloxetina y venlafaxina (ISRSN): no hay datos suficientes de seguridad y eficacia en menores de 18 años.",
+      "cita": "Antidepresivos selectivos de la recaptación de la serotonina y norepinefrina (ISRSN): duloxetina y venlafaxina. Existen estudios en adultos sobre su utilidad como coadyuvantes en el dolor neuropático, sin embargo no hay datos suficientes de seguridad y eficacia en menores de 18 años.",
+      "page": 16,
+      "auto": true
+    },
+    {
+      "x": "Ketamina: precaución en pacientes con reflujo gastroesofágico o con riesgo de hipertensión intracraneal; riesgo de alucinaciones (prevenibles o tratables con midazolam a dosis bajas), irritabilidad o delirio.",
+      "cita": "Debe usarse con precaución en pacientes con reflujo gastroesofágico o con riesgo de hipertensión intracraneal. Existe riesgo de alucinaciones (pueden ser prevenidas o tratadas con midazolam a dosis bajas), irritabilidad o deliro.",
+      "page": 17,
+      "auto": false
+    },
+    {
+      "x": "La vía intramuscular en general se evita por ser dolorosa y mal tolerada por los niños.",
+      "cita": "La vía intramuscular en general, la evitaremos por ser dolorosa y mal tolerada por los niños.",
+      "page": 14,
+      "auto": true
+    },
+    {
+      "x": "Analgesia espinal: tener presente el riesgo de infección del sistema nervioso central y de neurotoxicidad.",
+      "cita": "Analgesia espinal: que busca la analgesia regional inyectando combinaciones de anestésicos locales, opioides y baclofeno. Se pueden administrar por vía epidural o vía raquídea. Es útil para el dolor agudo y permite la colocación de catéteres para infusión prolongada. Se debe tener presente el riesgo de infección del sistema nervioso central y de neurotoxicidad asociado a esta técnica.",
+      "page": 18,
+      "auto": true
+    },
+    {
+      "x": "Las escalas no pueden reemplazar la anamnesis ni la exploración física: se usan para complementar esa información, como ayuda en la evaluación de la gravedad y en el seguimiento del tratamiento.",
+      "cita": "Hay que tener presente que las escalas no pueden reemplazar la anamnesis ni la exploración física. Se deben utilizar para complementar toda esa información, como ayuda en la evaluación de la gravedad y en el seguimiento del tratamiento.",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "Ibuprofeno y metamizol: «No indicado» de recién nacido hasta 3 meses (Tabla 6 de posología de analgésicos no opioides por vía oral).",
+      "cita": "Tabla 6. Posología de analgésicos no opioides por vía oral en pediatría. Fármaco | Recién nacido hasta 3 meses | Niños y adolescentes | Dosis diaria máxima Paracetamol | 5-10 mg/kg cada 6-8 h | 10-15 mg/kg cada 4-6 h | 75 mg/kg/día o 4 g/día Ibuprofeno | No indicado | 4-10 mg/kg cada 6-8 h | 40 mg/kg/día Metamizol | No indicado",
+      "page": 15,
+      "auto": true
+    },
+    {
+      "x": "AINEs: se recomienda asociar un protector gástrico si existen factores de riesgo de sangrado digestivo (por ejemplo, historia previa de úlcera péptica), si se utilizan a dosis altas o si el paciente toma corticoides de forma concomitante.",
+      "cita": "Se recomienda asociar un protector gástrico en el caso de existir factores de riesgo de sangrado digestivo (por ejemplo historia previa de úlcera péptica), si se utilizan a dosis altas o si el paciente está tomando corticoides de forma concomitante.",
+      "page": 14,
+      "auto": true
+    },
+    {
+      "x": "Escala PIPP: indicada para valorar el dolor en recién nacidos a término y prematuros; no es apta para niños sedados.",
+      "cita": "Escala PIPP (Premature Infant Pain Profile). Indicada para valoración del dolor en recién nacido a término y prematuros. No es apta para niños sedados.",
+      "page": 8,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Dolor de final de dosis: aparece antes de la siguiente dosis y expresa infradosificación, mala planificación o desajuste; se resuelve aumentando la dosis o disminuyendo el intervalo.",
-    "Lidocaína en gel para mucositis y en parches al 5% para dolor neuropático localizado (p. ej. luxaciones de caderas o tobillos, off label); crema de lidocaína-prilocaína antes de punciones.",
-    "Las medidas físicas (presión local, calor y frío, masajes, caricias) y la distracción con juego, lectura o arte disminuyen el componente ansiógeno; cuidar el ambiente y los acompañantes.",
-    "El anexo recoge fórmulas magistrales y presentaciones líquidas para administrar por sonda (morfina, metadona, gabapentina, baclofeno, ketamina, dexametasona, clonidina)."
-  ],
-  "secciones_recomendadas": [
-    "Medidas farmacológicas",
-    "Analgésicos no opioides",
-    "Fármacos adyuvantes",
-    "Escalas de valoración del dolor"
+    {
+      "x": "Dolor de final de dosis: aparece antes de la dosis siguiente; puede expresar infradosificación, mala planificación, desajuste de dosis o intolerancia. Se resuelve aumentando la dosis o disminuyendo el intervalo.",
+      "cita": "Dolor final de dosis: aquel que aparece previo al momento de administrar la dosis del medicamento analgésico. Puede expresar infradosificación, mala planificación, desajuste de dosis o intolerancia al fármaco. Se resuelve aumentando la dosis o disminuyendo el intervalo entre dosis.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "En niños sin afectación neurológica, los métodos de autoinforme son fiables desde los cuatro años de edad, especialmente desde los 7 años.",
+      "cita": "En esta población se utilizan los métodos autovalorativos o de autoinforme que son fiables desde los cuatro años de edad (especialmente desde los 7 años).",
+      "page": 9,
+      "auto": false
+    },
+    {
+      "x": "Escala FLACC: validada para niños entre 1 mes y 4 años y/o con afectación cognitiva.",
+      "cita": "Escala FLACC (Face, Legs, Activity, Cry, Consolability): validada para niños entre 1 mes y 4 años y/o niños con afectación cognitiva.",
+      "page": 10,
+      "auto": true
+    },
+    {
+      "x": "Escala NCCPC-R: validada para niños entre 3 y 18 años sin comunicación verbal; la completan padres y cuidadores observando al niño las últimas dos horas. Una puntuación ≥7 indicaría dolor.",
+      "cita": "Escala NCCPC-R (Non ComunicatingChildrenPainCheckList-Revised): validada para niños entre 3 y 18 años sin capacidad para la comunicación verbal. Está diseñada para que la usen los padres y cuidadores sin entrenamiento específico previo. Para completar esta encuesta hay que basarse en la observación del niño en las últimas dos horas. Una puntuación ≥7 indicaría que el niño tiene dolor.",
+      "page": 10,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

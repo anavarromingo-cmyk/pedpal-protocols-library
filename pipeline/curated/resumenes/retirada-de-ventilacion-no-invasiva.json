@@ -1,94 +1,154 @@
 {
   "slug": "retirada-de-ventilacion-no-invasiva",
-  "en_una_frase": "Marco clínico, ético y procedimental para la retirada de la ventilación mecánica no invasiva (VMNI) en niños con deterioro neurológico y clínico irreversible, orientada al confort y al final de vida, con pauta de sedoanalgesia y paso a paso.",
+  "en_una_frase": "Marco clínico, ético y procedimental para la retirada de la ventilación mecánica no invasiva (VMNI) en niños con deterioro neurológico y clínico irreversible, con criterios, sedoanalgesia, paso a paso y checklist a pie de cama.",
   "puntos_clave": [
-    "La retirada de la VMNI en un paciente que ya no obtiene beneficio es éticamente equivalente a no haberla iniciado; el uso de opioides y sedantes se justifica por el principio del doble efecto (el objetivo es el alivio del síntoma, nunca inducir el fallecimiento).",
-    "Es imprescindible el consentimiento informado, que puede ser verbal, con registro detallado en la historia clínica; toda retirada va precedida de una reunión familiar formal con al menos dos miembros del equipo.",
-    "Evaluar la tolerancia sin ventilador (¿dispara el trigger?, ajustado al más sensible posible; descartar sedación excesiva) condiciona el abordaje: con tolerancia, retirada gradual y control sintomático estrecho; sin tolerancia, sedación paliativa profunda continua previa y retirada directa.",
-    "La medicación de confort se prescribe, prepara y deja disponible ANTES de retirar; opioides y benzodiazepinas son los fármacos principales; vía SC en domicilio, IV en hospital o si ya hay acceso venoso.",
-    "Retirada gradual: reducir IPAP en 2 cmH₂O cada 10–15 min, después EPAP hasta 5 cmH₂O, retirar O₂ suplementario y por último la interfase. Retirada directa: solo tras confirmar sedación profunda (RASS −4/−5).",
-    "Monitorizar con escalas validadas (RDOS, COMFORT-B, RASS, EVA/Borg) y rescatar ante RDOS ≥3; el estertor se controla sobre todo evitando la hidratación en fase agónica."
-  ],
-  "farmacos_clave": [
     {
-      "farmaco": "morfina",
-      "indicacion": "1.ª línea disnea y dolor",
-      "dosis": "0,05–0,1 mg/kg 10-30 mcg/kg/h IC",
-      "via": "SC /IV",
-      "nota": "Dosis máxima teórica: sin techo para control de dolor en CPP; descrito techo en disnea 30 mcg/kg/h. Indicaciones para pacientes sin uso previo de opioides, ver guías específicas en otras situaciones clínicas.",
-      "page": 9,
-      "page_2024": 9
+      "x": "Retirar la VMNI a un paciente con enfermedad progresiva que ya no obtiene beneficio de ella es éticamente equivalente a no haberla iniciado.",
+      "cita": "La retirada de la VMNI en un paciente con enfermedad progresiva que ya no obtiene beneficio de ella es éticamente equivalente a no haberla iniciado.",
+      "page": 3,
+      "auto": true
     },
     {
-      "farmaco": "fentanilo",
-      "indicacion": "alternativa a morfina si insuficiencia renal",
-      "dosis": "0,5–1 µg/kg (bolo) 0,5–2 µg/kg/h IC",
-      "via": "SC /IV",
-      "nota": "Dosis máxima teórica: 5 µg/kg/dosis (riesgo de sídrome de rigidez torácica).",
-      "page": 9,
-      "page_2024": 9
+      "x": "Doble efecto: los opioides y sedantes en dosis suficientes para controlar la disnea y el sufrimiento están éticamente justificados aunque pueda existir un riesgo secundario de acelerar la muerte; el objetivo es siempre aliviar el síntoma, nunca inducir el fallecimiento.",
+      "cita": "El uso de opioides y sedantes en dosis suficientes para controlar la disnea y el sufrimiento durante la retirada de la VMNI está éticamente justificado, aunque pueda existir un riesgo secundario de aceleración del proceso de muerte. El objetivo es siempre el alivio del síntoma, nunca la inducción del fallecimiento",
+      "page": 3,
+      "auto": true
     },
     {
-      "farmaco": "midazolam",
-      "indicacion": "1ª línea sedación",
-      "dosis": "0,03-0.05 mg/kg 0,05–0,1 mg/kg/h IC",
-      "via": "SC /IV",
-      "nota": "Dosis máxima teórica 0,2 mg/kg dosis; máxima diaria 240 mg/día. Vigilar tolerancia si recibía benzodiacepinas previamente. Compatible con la mayoría de fármacos. Precaución en fallo hepático por posible efecto paradójico.",
-      "page": 9,
-      "page_2024": 9
+      "x": "Obtener el consentimiento informado verbal y documentarlo en la historia clínica del paciente.",
+      "cita": "Obtener y documentar el consentimiento informado verbal y documentarlo en la historia clínica del paciente.",
+      "page": 6,
+      "auto": true
     },
     {
-      "farmaco": "levomepromazina",
-      "indicacion": "adyuvante, especialmente con ansiedad o delirium",
-      "dosis": "0,25–1 mg/kg/día cada 8 horas o IC",
-      "via": "SC /IV",
-      "nota": "Dosis máxima en adultos: 300 mg/día. En agitación (escenario A): 0,25–0,5 mg/kg SC en bolus.",
-      "page": 9,
-      "page_2024": 9
+      "x": "Criterios que indican retirada: fase agónica (horas-días de vida esperados), la VMNI ya no alivia la disnea ni mejora el confort o genera más disconfort que alivio, petición del paciente o la familia que obedece al mejor interés del paciente, progresión irreversible de la enfermedad de base, fracaso de la VMNI o plan de decisiones anticipadas que la contempla.",
+      "cita": "- Paciente en fase agónica (horas-días de vida esperados). - La VMNI ya no alivia la disnea ni mejora el confort. - La VMNI genera mayor disconfort que alivio. - Paciente o familia solicitan la retirada y esta petición obedece al mejor interés del paciente. - Progresión irreversible de la enfermedad base. - Fracaso de la VMNI. * - Plan de decisiones anticipadas acordado contempla la retirada.",
+      "page": 4,
+      "auto": true
     },
     {
-      "farmaco": "dexmedetomidina",
-      "indicacion": "control de disnea (poca evidencia, uso prometedor)",
-      "dosis": "1 mcg/kg bolo de carga 0,2–0,9 µg/kg/h IC",
-      "via": "SC/IV",
-      "nota": "Dosis máxima 0,9 mcg/kg/h. Aunque existe poca evidencia aún, su uso parece prometedor para el control de disnea.",
-      "page": 9,
-      "page_2024": 9
+      "x": "Determinar si el paciente conserva tolerancia sin el ventilador condiciona el abordaje farmacológico: es imprescindible comprobar si dispara el trigger y, si no, valorar si se debe a la evolución de la enfermedad o a una sedación excesiva.",
+      "cita": "consiste en determinar si el paciente conserva o no tolerancia sin el ventilador. Esta evaluación condiciona el abordaje farmacológico. Es imprescindible comprobar si el paciente dispara el trigger del respirador; en caso contrario, debe valorarse si la causa es la propia evolución de la enfermedad o una sedación excesiva.",
+      "page": 4,
+      "auto": true
     },
     {
-      "farmaco": "butilescopolamina",
-      "indicacion": "estertor preagónico / hipersecreciones",
-      "dosis": "0,3–0,5 mg/kg/día SC en infusión continua, o 0,1 mg/kg c/6–8 h SC",
-      "via": "SC",
-      "nota": "Evitar la aspiración invasiva de secreciones; la mejor medida para evitar la hipersecreción es no hidratar en fase agónica.",
-      "page": 10,
-      "page_2024": 10
+      "x": "Toda retirada de VMNI debe ir precedida de una reunión familiar formal, en un espacio adecuado y con tiempo suficiente, con al menos dos miembros del equipo.",
+      "cita": "Toda retirada de VMNI debe ir precedida de una reunión familiar formal, en un espacio adecuado y con tiempo suficiente, con al menos dos miembros del equipo de atención.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "La medicación de confort debe prescribirse y prepararse ANTES de retirar el soporte ventilatorio.",
+      "cita": "La medicación de confort debe prescribirse y prepararse ANTES de retirar el soporte ventilatorio.",
+      "page": 8,
+      "auto": true
     }
   ],
   "banderas_rojas": [
-    "Sin tolerancia sin ventilador: muerte esperable en muy breve plazo (<30 min) al retirar la VMNI y riesgo alto de disnea y distrés grave agudo; no retirar hasta tener la sedación profunda establecida.",
-    "Ausencia de disparo espontáneo del respirador: revisar la programación (trigger al más sensible) y descartar sedación excesiva antes de concluir que es por la enfermedad.",
-    "No retirar la VMNI hasta confirmar sedación profunda estable (RASS −4/−5 y RDOS <3 en el escenario B) o un efecto farmacológico satisfactorio.",
-    "Rescate ante cualquier signo de distrés (RDOS ≥3 o COMFORT-B ≥17); aumentar la infusión continua un 25–50% si se requieren más de 2 rescates en 1 hora.",
-    "Fentanilo: dosis máxima teórica 5 µg/kg/dosis por riesgo de síndrome de rigidez torácica.",
-    "Midazolam: precaución en fallo hepático por posible efecto paradójico; vigilar tolerancia si recibía benzodiacepinas previamente."
+    {
+      "x": "Signos de deterioro irreversible: patrón respiratorio agónico (Cheyne-Stokes, apneico), extremidades moteadas y frías, pérdida de conciencia o sedación profunda espontánea, ausencia de respuesta a estímulos verbales, oliguria/anuria, dificultad para deglutir saliva y estertor preagónico.",
+      "cita": "- Patrón respiratorio agónico (Cheyne- Stokes, apneico). - Extremidades moteadas y frías (livedo reticularis). - Pérdida de conciencia o sedación profunda espontánea. - Ausencia de respuesta a estímulos verbales. - Oliguria / anuria. - Dificultad para deglutir saliva. - Acumulación de secreciones (estertor preagónico).",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Antes de concluir que el paciente no dispara el trigger: comprobar que la VMNI está optimizada y el trigger ajustado al más sensible posible, y descartar una sedación farmacológica excesiva.",
+      "cita": "Trascomprobar que la VMNI se ha optimizado, es fundamental asegurarse de que el trigger esta ajustado al más sensible posible antes de determinar que el paciente no es capaz de dispararlo. Igualmente, hay que descartar que la ausencia de disparo se deba a una sedación farmacológica excesiva.",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Sin tolerancia sin ventilador: muerte esperada en intervalo corto al retirar la VMNI (muy breve, <30 min), riesgo alto de disnea y distrés grave agudo; requiere sedación paliativa profunda continua previa, retirar cuando la sedación esté establecida y entorno hospitalario o, si domicilio, equipo de soporte presente.",
+      "cita": "- Muerte en intervalo corto de tiempo esperada al retirar la VMNI. - Riesgo alto de disnea y distrés grave agudo. - Requiere sedación paliativa profunda continua previo a la retirada. - Tiempo hasta fallecimiento esperable: muy breve (<30 min). - La retirada debe producirse cuando la sedación esté establecida. - Requiere entorno hospitalario o, si domicilio, equipo de soporte presente.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Sin tolerancia sin ventilador (escenario B): sedación paliativa profunda continua antes de la retirada.",
+      "cita": "Escenario B. Sin tolerancia sin ventilador — Sedación paliativa profunda continua antes de la retirada",
+      "page": 10,
+      "auto": true
+    },
+    {
+      "x": "Premedicación 30–45 min antes de retirar el soporte, según el esquema A o B: no retirar la VMNI hasta confirmar un efecto farmacológico satisfactorio.",
+      "cita": "30–45 min antes de retirar el soporte, administrar fármacos SC/IV según el esquema A o B en función de la tolerancia sin ventilador. Evaluar el efecto con escalas validadas. No retirar la VMNI hasta confirmar un efecto farmacológico satisfactorio.",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "Puntuaciones de alarma: RDOS ≥3 puntos = distrés respiratorio (no verbal, lactante o sedado); COMFORT-B ≥17 = sedación insuficiente.",
+      "cita": "RDOS | No verbal / lactante / sedado | ≥3 puntos = distrés respiratorio | 8,9 COMFORT-B | Neonato a adolescente | ≥17 = sedación insuficiente",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Tras la retirada, evaluar RDOS / COMFORT-B cada 10–15 min inicialmente y después cada 30 min; bolus de rescate ante cualquier signo de distrés y aumentar la infusión continua un 25–50% si se requieren más de 2 rescates en 1 hora.",
+      "cita": "Evaluar RDOS / COMFORT-B cada 10–15 min inicialmente y, posteriormente, cada 30 min. Administrar bolus de rescate ante cualquier signo de distrés. Aumentar la infusión continua un 25–50% si se requieren más de 2 rescates en 1 hora.",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "Retirada en domicilio: indicada con familia preparada, tolerancia parcial y CPP domiciliario disponible; requisitos mínimos: equipo de CPP de guardia 24 h con opción de presencialidad y medicación disponible en el domicilio con acceso parenteral (SC; IV).",
+      "cita": "Domicilio | Familia preparada; tolerancia parcial; CPP domiciliario disponible. | Máxima intimidad; entorno conocido; preferencia familiar. | Equipo de CPP de guardia 24 h con opción de presencialidad; medicación disponible en el domicilio con acceso parenteral (SC; IV).",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "Ausencia de disparo espontáneo del respirador (signo de deterioro irreversible): revisar la programación del respirador.",
+      "cita": "- Ausencia de disparo espontáneo del respirador. (Revisar programación del respirador)",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Morfina (tabla de sedoanalgesia): inicio 0,05–0,1 mg/kg y 10-30 mcg/kg/h en infusión continua; descrito techo en disnea 30 mcg/kg/h. Indicaciones para pacientes sin uso previo de opioides; ver guías específicas en otras situaciones clínicas.",
+      "cita": "Morfina (1.ª línea disnea y dolor) | 0,05–0,1 mg/kg 10-30 mcg/kg/h IC | Sin techo para control de dolor en CPP. Descrito techo en disnea 30 mcg/kg/h. | SC /IV | Indicaciones para pacientes sin uso previo de opioides, ver guías específicas en otras situaciones clínicas.",
+      "page": 9,
+      "auto": false
+    },
+    {
+      "x": "Fentanilo (alternativa a morfina si insuficiencia renal): dosis máxima 5 µg/kg/dosis por riesgo de síndrome de rigidez torácica.",
+      "cita": "Fentanilo | 0,5–1 µg/kg (bolo) 0,5–2 µg/kg/h IC | 5 µg/kg/dosis (riesgo de sídrome de rigidez torácica) | SC /IV | Alternativa a morfina si insuficiencia renal.",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "Midazolam: dosis máxima diaria 240 mg/día; vigilar tolerancia si recibía benzodiacepinas previamente; utilizar con precaución en fallo hepático por posible efecto paradójico.",
+      "cita": "Midazolam (1ª línea sedación) | 0,03-0.05 mg/kg 0,05–0,1 mg/kg/h IC | 0,2 mg/kg dosis Dosis máxima diaria: 240 mg/día | SC /IV | -Vigilar tolerancia si recibía benzodiacepinas previamente. -Compatible con la mayoría de fármacos. -Utilizar con precaución en fallo hepático por posible efecto paradójico.",
+      "page": 9,
+      "auto": false
+    }
   ],
   "perlas": [
-    "Las dosis son orientativas: la adecuada es la que alivia el sufrimiento del paciente, ajustada según RDOS / COMFORT-B / RASS y individualizada según peso, función renal y hepática y medicación previa.",
-    "Evitar la monitorización técnica invasiva (SpO₂, FR, FC) que distrae a la familia; si se utiliza, no informar de los valores a la familia.",
-    "Soporte al equipo: briefing previo, presencia de al menos un profesional con experiencia en CPP y debriefing tras el fallecimiento (24–72 h)."
-  ],
-  "secciones_recomendadas": [
-    "CRITERIOS PARA PLANTEAR LA RETIRADA",
-    "SEDOANALGESIA: PAUTA FARMACOLÓGICA",
-    "Esquemas según escenario clínico – Modalidades de retirada",
-    "PROTOCOLO DE RETIRADA: PASO A PASO",
-    "ANEXO 2. Diagrama de Flujo retirada VMNI."
+    {
+      "x": "Las dosis son orientativas: la adecuada es la que alivia el sufrimiento del paciente, ajustada según la respuesta clínica (RDOS / COMFORT-B / RASS) e individualizada según peso, función renal y hepática y medicación previa.",
+      "cita": "Advertencia: las dosis indicadas son orientativas. La dosis adecuada es la que alivia el sufrimiento del paciente. Debe ajustarse siempre según la respuesta clínica valorada con RDOS /COMFORT-B / RASS. Se individualizará según peso, función renal y hepática y medicación previa.",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "La vía subcutánea es la de elección en el domicilio; la intravenosa, en el entorno hospitalario o cuando ya existe acceso venoso.",
+      "cita": "La vía subcutánea (SC) es la de elección en el domicilio; la vía intravenosa (IV) en el entorno hospitalario o cuando ya existe acceso venoso.",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "Evitar la monitorización técnica invasiva (SpO₂, FR, FC), que distrae a la familia; si se utiliza, no informar de los valores a la familia.",
+      "cita": "Evitar la monitorización técnica invasiva (SpO₂, FR, FC) que distrae a la familia; si se utiliza, no informar de los valores a la familia.",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "La mejor medida para evitar la hipersecreción es no hidratar en fase agónica.",
+      "cita": "La mejor medida para evitar la hipersecreción es no hidratar en fase agónica.",
+      "page": 10,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Sonnet",
-    "fecha": "2026-11-11",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL aprobado 2026. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

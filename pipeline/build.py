@@ -112,6 +112,13 @@ def main() -> int:
     # ---- Extracción ----
     curated_alg = json.loads((CURATED / "algoritmos.json").read_text(encoding="utf-8")) if (CURATED / "algoritmos.json").exists() else {}
     curated_sum_dir = CURATED / "resumenes"
+    curated_figalg = json.loads((CURATED / "figuras_algoritmo.json").read_text(encoding="utf-8")) if (CURATED / "figuras_algoritmo.json").exists() else {}
+    vad_por_slug: dict[str, list] = {}
+    if (CURATED / "vademecum.json").exists():
+        for farm, es in json.loads((CURATED / "vademecum.json").read_text(encoding="utf-8"))["farmacos"].items():
+            for e in es:
+                vad_por_slug.setdefault(e["slug"], []).append({"farmaco": farm, **{k: e.get(k) for k in
+                    ("indicacion", "poblacion", "via", "dosis", "dosis_maxima", "pagina", "aviso", "revisado") if e.get(k)}})
     if not args.only:
         shutil.rmtree(FIG_DIR, ignore_errors=True)
     docs_full = []
@@ -138,8 +145,14 @@ def main() -> int:
         if not d["autores"]:
             warnings.append(f"{c['slug']}: sin línea de autores")
         d.update({"titulo": c["titulo"], "area": c["area"], "url": c["url"], "fecha_subida": c["fecha_subida"]})
-        if c["slug"] in curated_alg:
+        if curated_alg.get(c["slug"]):
             d["algoritmos"] = curated_alg[c["slug"]]
+        else:
+            d.pop("algoritmos", None)
+        if curated_figalg.get(c["slug"]) and d.get("fuente") == "aprobado-2026":
+            d["figuras_algoritmo"] = curated_figalg[c["slug"]]
+        if vad_por_slug.get(c["slug"]):
+            d["farmacos_vad"] = vad_por_slug[c["slug"]]
         sp = curated_sum_dir / f"{c['slug']}.json"
         if sp.exists():
             d["resumen"] = json.loads(sp.read_text(encoding="utf-8"))
@@ -149,7 +162,7 @@ def main() -> int:
         c["nsec"] = len(d["secciones"])
         c["fuente"] = d.get("fuente", "extraccion-automatica")
         c["resumen"] = bool(sp.exists())
-        c["algoritmos"] = len(curated_alg.get(c["slug"], []))
+        c["algoritmos"] = len(curated_alg.get(c["slug"], [])) + len(d.get("figuras_algoritmo", []))
         c["secciones_idx"] = [s["h"] for s in d["secciones"] if s["level"] <= 1 and s["h"]][:14]
         # novedades
         p = prev.get(c["slug"])

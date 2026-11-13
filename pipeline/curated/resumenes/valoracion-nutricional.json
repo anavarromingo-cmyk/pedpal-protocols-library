@@ -1,58 +1,112 @@
 {
   "slug": "valoracion-nutricional",
-  "en_una_frase": "Valoración y soporte nutricional del niño en cuidados paliativos pediátricos: anamnesis, antropometría, cálculo de necesidades, vía de alimentación y objetivos según el momento evolutivo.",
+  "en_una_frase": "Valoración y soporte nutricional del niño en cuidados paliativos pediátricos: anamnesis, antropometría, cálculo de necesidades, elección de la vía de alimentación y objetivos según el momento evolutivo.",
   "puntos_clave": [
-    "La anamnesis valora eficacia (cubre requerimientos y permite crecer), seguridad (riesgo de aspiración por disfagia) y eficiencia (menos de 30 minutos por toma).",
-    "Antropometría: peso, talla (longitud de tibia con fórmula de Stevenson si no se puede tallar), pliegues cutáneos y circunferencia braquial, en percentiles o puntuación Z.",
-    "Desnutrición por IMC (>5 años): leve Z de -1 a -2 DE, moderada de -2 a -3 DE, grave < -3 DE; en menores de 5 años, índice peso/talla <p3-5 o Z < -2 DE.",
-    "Requerimientos energéticos: GER por Schofield más factor de actividad y termogénesis; en pacientes neurológicos puede aproximarse el GET por el método de Krick.",
-    "Los objetivos varían con el momento evolutivo: al final de la vida priman calidad de vida y control sintomático, sin exigir recuperación del estado nutricional.",
-    "Sonda nasogástrica si se prevé una duración inferior a 3-6 semanas; gastrostomía o yeyunostomía si mayor de 2-3 meses; parenteral si hay contraindicación para la enteral."
-  ],
-  "farmacos_clave": [
     {
-      "farmaco": "vitamina D",
-      "indicacion": "déficit de vitamina D (escasa exposición solar, baja ingesta, malabsorción o fármacos crónicos como anticonvulsionantes, inmunosupresores o corticoides)",
-      "dosis": "ingesta diaria de vitamina D vía oral de entre 400-600 UI/día, excepto si existen signos de raquitismo que se aumentará a 600-1200 UI/día",
-      "via": "VO",
-      "nota": "Precaución con los pacientes con insuficiencia renal y hepática.",
-      "page": 10,
-      "page_2024": 11
+      "x": "Eficiencia de la alimentación: se debe tardar menos de 30 minutos en cada toma. Valorar también la postura en la que se alimenta al paciente y si le resulta agradable, sin generar un estrés adicional en la familia.",
+      "cita": "Eficiencia: se debe tardar menos de 30 minutos en la administración de cada toma. Debemos también valorar la postura en la que el paciente es alimentado, así como si es agradable para él sin generar un estrés adicional en la familia.",
+      "page": 2,
+      "auto": true
     },
     {
-      "farmaco": "calcio",
-      "indicacion": "suplementación en casos de hipocalcemia crónica u osteoporosis",
-      "dosis": "dosis entre 30-75 mg/kg/día o utilizar la dosis más habitual en pediatría, que supone unos 500-1000 mg de Calcio elemento/día vía oral (en forma de carbonato cálcico, carbonato + lactogluconato cálcico o fosfato cálcico) a repartir en 3-4 dosis/día",
-      "via": "VO",
-      "nota": "Ingesta diaria recomendada según edad: entre 1-3 años: 700 mg/día; entre 4-8 años: 1000 mg; entre 9-14 años: 1300mg.",
+      "x": "Índice peso/talla (el protocolo lo aplica en menores de cinco años): desnutrición si <p3-5 o puntuación Z < -2 DE.",
+      "cita": "o Desnutrición: <p3-5 o puntuación Z < -2DE",
+      "page": 3,
+      "auto": false
+    },
+    {
+      "x": "IMC (el protocolo lo aplica en mayores de cinco años; puede no ser útil en PCI con talla estimada por segmentos): desnutrición moderada con puntuación Z de -2 DE a -3 DE.",
+      "cita": "o Desnutrición moderada: puntuación Z de -2 DE a -3 DE.",
+      "page": 4,
+      "auto": false
+    },
+    {
+      "x": "Pasado el punto de inflexión o al final de la vida, los objetivos se centran en mejorar la calidad de vida y el control sintomático, sin exigir una recuperación del estado nutricional.",
+      "cita": "Sin embargo, una vez pasado el punto de inflexión o en la etapa al final de la vida, los objetivos deberán de centrarse en mejorar la calidad de vida y el control sintomático, sin exigir una recuperación del estado nutricional.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Sonda nasogástrica si la vía oral no cubre las necesidades energéticas o no es segura y se prevé una duración inferior a 3-6 semanas, o como paso transicional a la gastrostomía.",
+      "cita": "o Se propondrá la sonda nasogástrica si la vía oral no cubre las necesidades energéticas o no es segura, y si se prevé una duración inferior a 3-6 semanas o como paso transicional a la gastrostomía.",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "Gastrostomía o yeyunostomía +/- cirugía antirreflujo si la vía oral no cubre las necesidades calóricas o no es segura y se prevé una duración mayor de 2-3 meses.",
+      "cita": "o Se propondrá la realización de gastrostomía o yeyunostomía +/- cirugía antirreflujo en caso de que la vía oral no cubra las necesidades calóricas o no sea segura y se prevea una duración mayor de 2-3 meses.",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "Igual que otras intervenciones médicas, la retirada o no inicio de la NAH (nutrición artificial e hidratación) puede contemplarse cuando resulte una actuación fútil o no conduzca al mejor interés del paciente.",
+      "cita": "Por tanto, de la misma manera que se plantean otras intervenciones médicas, la retirada o no inicio de la NAH puede contemplarse cuando resulte una actuación fútil o cuando se considere que no conduce al mejor interés del paciente.",
       "page": 10,
-      "page_2024": 11
+      "auto": true
     }
   ],
   "banderas_rojas": [
-    "Signos de alarma de disfagia/aspiración: antecedentes de atragantamiento, tos crónica, episodios de ingurgitación facial, broncoespasmos de repetición o reflujo gastroesofágico.",
-    "Síndrome de realimentación al iniciar el soporte en desnutridos crónicos: edemas, hipoalbuminemia, alteraciones hidroelectrolíticas, insuficiencia cardiaca y respiratoria, sobre todo los primeros días.",
-    "El IMC puede no ser útil en pacientes con PCI si la talla se estimó por segmentos, porque el error se magnifica al elevar la talla al cuadrado.",
-    "Al final de la vida la nutrición enteral puede provocar retención hídrica, compromiso respiratorio, malestar y distensión abdominal; decidir según tolerancia y comodidad del paciente.",
-    "Precaución con la suplementación de vitamina D en insuficiencia renal y hepática."
+    {
+      "x": "Signos de alarma de riesgo de aspiración por disfagia: antecedentes de atragantamiento, tos crónica, episodios de ingurgitación facial, broncoespasmos de repetición o reflujo gastroesofágico (caries, hipersalivación, anemia, distonías).",
+      "cita": "Seguridad: valorar el riesgo de aspiración por disfagia. Los signos de alarma a tener en cuenta son: antecedentes de atragantamiento, tos crónica, episodios de ingurgitación facial, broncoespasmos de repetición, o reflujo gastroesofágico (caries, hipersalivación, anemia, distonías).",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Síndrome de realimentación: edemas, hipoalbuminemia, alteraciones hidroelectrolíticas, insuficiencia cardiaca e insuficiencia respiratoria al realimentar.",
+      "cita": "aparición de edemas, hipoalbuminemia, alteraciones hidroelectrolíticas, insuficiencia cardiaca, insuficiencia respiratoria; conjunto conocido como síndrome de realimentación.",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "El IMC (mayores de 5 años) puede no ser útil en pacientes con PCI si la talla se ha estimado por segmentos: al elevar la talla al cuadrado, el error de estimación se magnifica.",
+      "cita": "Índice de masa corporal (IMC) en pacientes mayores de 5 años y su puntuación Z o curva percentilada. Debemos tener en cuenta que este índice puede no ser útil en los pacientes con PCI, si se ha estimado la talla a través de la medición por segmentos, ya que, al elevar la talla al cuadrado, el posible error de estimación se magnifica.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "En agonía o últimos días la nutrición enteral puede ofrecer confort, pero también provocar retención hídrica, compromiso respiratorio, malestar y distensión abdominal; la decisión debe basarse en la tolerancia y comodidad del paciente.",
+      "cita": "En algunos pacientes, la nutrición enteral en este momento puede ofrecer confort y alivio de los síntomas. Sin embargo, también puede provocar complicaciones no deseadas, como retención hídrica, compromiso respiratorio, malestar y distensión abdominal. Es por ello que la toma de decisiones clínicas sobre su beneficio y conveniencia, debe basarse en la tolerancia y comodidad del paciente.",
+      "page": 10,
+      "auto": false
+    },
+    {
+      "x": "Mayor riesgo de síndrome de realimentación en pacientes con pérdidas de peso o desnutrición crónicas, sobre todo durante los primeros días de la intervención nutricional.",
+      "cita": "conjunto conocido como síndrome de realimentación. Los pacientes con pérdidas de peso o desnutrición crónicas tienen mayor riesgo de padecerlo, sobre todo durante los primeros días de la intervención nutricional.",
+      "page": 9,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Pesar siempre en la misma báscula; usar la técnica de doble pesada si el paciente no se mantiene en bipedestación.",
-    "Para prevenir el síndrome de realimentación: corregir antes hidratación y electrolitos, iniciar con hasta un 75-80% de las necesidades en casos graves y aumentar en 3 a 5 días.",
-    "Si la diferencia entre ingesta y aporte recomendado es pequeña, enriquecer la alimentación de forma natural (Tabla 3) o sustituir alguna toma por fórmula normocalórica (1kcal/ml).",
-    "Reevaluar a las 4-8 semanas tras la intervención; si hay recuperación o estabilidad, espaciar los controles a cada 2-3 meses.",
-    "La herramienta web de la SEGHNP (https://www.seghnp.org/nutricional) facilita el cálculo de requerimientos energéticos."
-  ],
-  "secciones_recomendadas": [
-    "TRATAMIENTO",
-    "¿Es la vía oral, la vía de elección para alimentar al paciente?",
-    "¿Cubre la alimentación oral las necesidades energéticas?",
-    "ALGORITMO DE ACTUACIÓN EN PACIENTES ESTABLES"
+    {
+      "x": "Prevención del síndrome de realimentación: antes de iniciar el soporte, corregir de forma paulatina la hidratación y las alteraciones electrolíticas; después, repleción calórica de hasta un 75-80% de las necesidades en los casos graves y, si se tolera, aumento progresivo de la ingesta durante 3 a 5 días.",
+      "cita": "Para prevenir su aparición, antes de iniciar el soporte, se debe corregir el estado de hidratación y las alteraciones electrolíticas de forma paulatina. Posteriormente, se realizará una repleción calórica de hasta un 75-80% de las necesidades en los casos graves. Si se tolera, la ingesta inicial puede aumentarse progresivamente durante 3 a 5 días",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "Si hay pocas diferencias entre la ingesta y el aporte recomendado: enriquecimiento natural de la alimentación (Tabla 3) o fórmula normocalórica (1kcal/ml) en sustitución de alguna toma.",
+      "cita": "3) o iniciar una fórmula normocalórica (1kcal/ml) en sustitución de alguna/s toma/s.",
+      "page": 9,
+      "auto": false
+    },
+    {
+      "x": "Si hay grandes diferencias calóricas o alteración grave del estado nutricional: fórmulas hipercalóricas (1.3-1.5 kcal/ml). En lactantes son hipercalóricas las de 1 kcal/ml, pues la lactancia materna y la fórmula estándar contienen 0.67 kcal/ml.",
+      "cita": "grandes diferencias calóricas o una alteración grave del estado nutricional, plantearemos la alimentación con fórmulas hipercalóricas (1.3-1.5 kcal/ml), tanto en formato líquido como en polvo. Es importante destacar que, en los lactantes, las fórmulas hipercalóricas son aquellas que contienen 1 kcal/ml, puesto que la lactancia materna y la fórmula artificial estándar contienen 0.67 kcal/ml.",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "Tras la intervención nutricional, reevaluar a las 4-8 semanas aproximadamente; si hay recuperación o estabilidad, espaciar los controles a cada 2-3 meses.",
+      "cita": "Tras la intervención nutricional individualizada, se propone una reevaluación a las 4-8 semanas aproximadamente, para poder realizar ajustes si fuera necesario. Si tras la intervención se observa recuperación o estabilidad, se pueden espaciar los controles nutricionales a cada 2-3 meses.",
+      "page": 10,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

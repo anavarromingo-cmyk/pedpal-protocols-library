@@ -1,67 +1,148 @@
 {
   "slug": "manejo-y-cuidados-de-la-traqueostomia-en-domicilio",
-  "en_una_frase": "Cuidados domiciliarios de la traqueostomía pediátrica: cánulas, recambio, aspiración, humidificación y actuación ante obstrucción, decanulación e infección; para cuidadores y equipos de CPP.",
+  "en_una_frase": "Manejo domiciliario de la traqueostomía pediátrica: indicaciones, tipos de cánula, recambio, cuidados básicos (estoma, cintas, aspiración, humidificación) y actuación ante complicaciones como la obstrucción o la salida accidental de la cánula.",
   "puntos_clave": [
-    "Indicaciones: obstrucción grave de la vía aérea, reflejos protectores inadecuados (SNC/neuromuscular) y ventilación mecánica prolongada; decisión multidisciplinar individualizada.",
-    "Las cánulas sin balón son las más usadas en pediatría; las de silicona (Bivona®) pueden reutilizarse hasta 5 veces en el mismo paciente; las de PVC no se reutilizan.",
-    "Primer recambio siempre en hospital; después cada 7-15 días según secreciones, idealmente con dos cuidadores; una cánula dura unos seis meses.",
-    "Aspiraciones cortas (menos de 5 segundos): introducir la sonda sin aspirar hasta la medida premarcada y retirarla con movimientos rotatorios mientras se aspira.",
-    "Cintas: cambio diario o si se ensucian; ajuste que permita un dedo entre piel y cinta con el cuello en hiperextensión; no cambiarlas en las primeras 48h.",
-    "Kit de emergencia: cánula del tamaño habitual y otra medio número inferior, fiador, aspirador portátil, TET menor, SSF, sonda, bolsa autoinflable, gasas y tijeras."
-  ],
-  "farmacos_clave": [
     {
-      "farmaco": "suero salino fisiológico (instilación)",
-      "indicacion": "obstrucción de la cánula por tapón mucoso: instilar y aspirar de nuevo",
-      "dosis": "neonatos 0.2-0.5ml SSF lactantes 0.5-1ml SSF, niños 1-3ml SSF",
-      "via": "instilación por la cánula de traqueostomía",
-      "nota": "También instilar SSF antes de aspirar si la mucosidad es espesa o seca; limpiar la sonda con agua tras cada aspiración.",
-      "page": 10,
-      "page_2024": 8
+      "x": "Para manipular la cánula y el estoma en domicilio se requiere higiene de manos; no es necesaria la esterilidad (salvo situaciones concretas).",
+      "cita": "Para el manejo y manipulación de la cánula y el estoma en domicilio, se requiere higiene de manos no siendo necesario (salvo situaciones concretas) la esterilidad.",
+      "page": 5,
+      "auto": true
     },
     {
-      "farmaco": "suero salino hipertónico 3% o 7% (nebulizado)",
-      "indicacion": "fluidificar la mucosidad espesa o seca para evitar el tapón mucoso",
-      "dosis": "Realizar nebulizaciones con SSF o SSH3% o 7",
-      "via": "nebulización",
-      "nota": "Sin volumen ni frecuencia en el texto; asociar mayor hidratación del paciente y humidificadores.",
-      "page": 10,
-      "page_2024": 8
+      "x": "El primer cambio de cánula se realiza siempre en el hospital. De forma habitual se cambia cada 7 días, y con mayor frecuencia en situaciones como infecciones respiratorias con gran aumento de secreciones, para evitar tapones de mucosidad. El protocolo da además otra estimación de la frecuencia de recambio (véase la bandera correspondiente).",
+      "cita": "El primer cambio de la cánula se realiza siempre en el hospital por las precauciones a tener en cuenta en un estoma de reciente realización. De forma habitual se realiza cada 7 días, pero existen situaciones como infecciones respiratorias con gran aumento de secreciones, que pueden hacer realizarlo con mayor frecuencia para evitar los tapones de mucosidad.",
+      "page": 6,
+      "auto": false
     },
     {
-      "farmaco": "nitrato de plata (tópico)",
-      "indicacion": "granuloma externo del estoma",
-      "dosis": "",
-      "via": "tópica",
-      "nota": "Sin dosis en el texto. Prevención: buen ajuste de la cánula al cuello y apósito si evita holgura.",
-      "page": null,
-      "page_2024": 9
+      "x": "Aspiraciones cortas (menos de 5 segundos), efectivas y poco traumáticas: introducir la sonda sin aspirar hasta la medida premarcada y retirarla con movimientos rotatorios y circulares mientras se aspira.",
+      "cita": "Las aspiraciones deben ser cortas (menos de 5 segundos), efectivas y poco traumáticas. Se recomienda introducir la sonda sin aspirar hasta la medida premarcada e iniciar la aspiración posteriormente. Retiramos la sonda con movimientos rotatorios y circulares mientras se aspiran las secreciones.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Cintas: ni muy ajustadas (erosión o presión en la piel) ni muy flojas (favorecen la decanulación); el ajuste ideal permite introducir un dedo entre la piel y la cinta con el cuello en hiperextensión.",
+      "cita": "Anudar cintas, las cuales no deben quedar muy ajustadas dado que podrían dañar la piel por erosión o presión, ni tampoco quedar muy flojas dado que favorecería la decanulación. El ajuste ideal es el que permite introducir entre la piel y la cinta un dedo estando el cuello en hiperextensión.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Kit de emergencia en el domicilio: cánula con cinta de repuesto (una del tamaño usado y otra de medio número inferior), fiador, aspirador portátil de secreciones, tijeras, tubo endotraqueal de tamaño menor a la cánula (como alternativa a la cánula), suero salino fisiológico, sonda de aspiración, bolsa autoinflable y gasas estériles.",
+      "cita": "En el domicilio deben disponer de un kit de emergencia para actuar precozmente",
+      "page": 9,
+      "auto": false
+    },
+    {
+      "x": "Actuación ante una obstrucción de la cánula, según el texto del protocolo: aspiración de secreciones; instilación de suero fisiológico y aspiración de nuevo; cambiar la cánula; oxígeno si hay cianosis o desaturación; maniobras de RCP si hay parada cardiorrespiratoria. El algoritmo en figura del protocolo empieza por comprobar si el paciente respira y da una secuencia distinta: consúltelo.",
+      "cita": "Actuación ante una obstrucción",
+      "page": 10,
+      "auto": false
+    },
+    {
+      "x": "Salida accidental de la cánula: lo primordial es mantener la calma y recanular tras hiperextender el cuello, sin forzar la introducción porque puede crearse una falsa vía.",
+      "cita": "Ante esta situación lo primordial es tratar de mantener la calma para proceder a la recanulación tras hiperextender el cuello. No se debe forzar la introducción de la cánula ya que puede crearse una falsa vía.",
+      "page": 11,
+      "auto": true
     }
   ],
   "banderas_rojas": [
-    "Signos de alarma de obstrucción: agitación, sudoración, taquipnea, tiraje, desaturación, cianosis, pérdida de conciencia, convulsión e incluso parada cardiorrespiratoria.",
-    "Decanulación accidental: no forzar la introducción de la cánula (falsa vía, neumotórax, neumomediastino, enfisema subcutáneo); si es imposible recanular y el paciente está comprometido, tapar el estoma y ventilar por boca.",
-    "Fiebre, aumento de secreciones en cantidad o consistencia y/o aumento de requerimientos ventilatorios: sospechar infección y consultar con el equipo médico.",
-    "Sangrado tras el postoperatorio por lesiones de la mucosa provocadas por la aspiración: consultar con el equipo médico.",
-    "El intercambiador de calor-humedad puede obstruirse con secreciones espesas; no usar durante la administración de fármacos ni con válvulas fonatorias.",
-    "Balón de neumotaponamiento: desinflar mínimo 2 veces al día y presión máxima de 20cmH2O.",
-    "Las cánulas de silicona llevan un anillo metálico interior que puede interferir en la realización de una RM."
+    {
+      "x": "Signos de alarma de obstrucción: agitación, sudoración, taquipnea, tiraje, desaturación, cianosis, pérdida de conciencia, convulsión e incluso parada cardiorrespiratoria.",
+      "cita": "Signos de alarma de obstrucción: Agitación, sudoración, taquipnea, tiraje, desaturación, cianosis, pérdida de conciencia, convulsión incluso parada cardiorespiratoria.",
+      "page": 10,
+      "auto": true
+    },
+    {
+      "x": "Si es imposible recanular y el paciente está comprometido, se debe tapar el estoma y ventilar por la boca.",
+      "cita": "En situaciones extremas en las que sea imposible la recanulación y el paciente esté comprometido, se debe tapar el estoma y emplear la boca para la ventilación.",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "La recanulación es más difícil si la traqueostomía es reciente, pero el estoma puede cerrarse aunque la traqueostomía se haya realizado hace tiempo.",
+      "cita": "Es preciso realizar una recanulación, esta será más difícil si la traqueostomía se ha realizado recientemente. No obstante, el estoma puede cerrarse aunque la traqueostomía se haya realizado hace tiempo.",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "En las primeras 48h tras la realización de la traqueostomía no se deben cambiar las cintas.",
+      "cita": "En las primeras 48h de realización de traqueostomía no se deben cambiar las cintas",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "Fiebre, aumento de secreciones respiratorias en cantidad o consistencia y/o aumento de los requerimientos ventilatorios: sospechar infección y consultar con el equipo médico.",
+      "cita": "La presencia de fiebre, aumento de secreciones respiratorias en cantidad o consistencia y/o el aumento de los requerimientos ventilatorios debe hacernos sospechar la existencia de una infección debiendo consultarse con el equipo médico.",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "Sangrado tras el postoperatorio (por lesiones en la mucosa provocadas por la aspiración): consultar con el equipo médico.",
+      "cita": "El sangrado que se produce tras el postoperatorio es debido a lesiones en la mucosa provocadas por la aspiración. Se debe consultar con el equipo médico.",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "El intercambiador de calor-humedad puede obstruirse e impedir el paso de aire si hay secreciones espesas; no puede usarse durante la administración de fármacos ni junto con válvulas fonatorias.",
+      "cita": "Si el paciente presenta secreciones espesas este tipo de filtro puede llegar a obstruirse e impedir el paso de aire y no puede usarse durante la administración de fármacos o concomitante con el uso de válvulas fonatorias.",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "Cánulas con balón (pacientes ventilodependientes): desinflar mínimo 2 veces al día y con una presión máxima de 20 cmH2O.",
+      "cita": "Se utilizan en pacientes ventilodependientes y es importante desinflar mínimo 2 veces al día y con una presión máxima de 20cmH2O",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "Las cánulas de silicona llevan un anillo metálico en el interior que puede interferir en la realización de una RM.",
+      "cita": "llevan un anillo metálico en el interior que puede interferir en la realización de una RM.",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Frecuencia de recambio de cánula: el protocolo también estima que los recambios se realicen c/15 días, aunque hay pacientes que requieren realizarlos semanalmente debido a la gran cantidad de secreciones y ante el riesgo de formar tapones mucosos.",
+      "cita": "Los recambios de cánula se estiman que sean realizados c/15 días aunque hay pacientes que requieren realizarlos semanalmente debido a la gran cantidad de secreciones y ante el riesgo de formar tapones mucosos.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Recanulación: no se debe forzar la introducción de la cánula, ya que puede crearse una falsa vía; otras posibles complicaciones son neumotórax, neumomediastino y enfisema subcutáneo.",
+      "cita": "Ante esta situación lo primordial es tratar de mantener la calma para proceder a la recanulación tras hiperextender el cuello. No se debe forzar la introducción de la cánula ya que puede crearse una falsa vía. Otras posibles complicaciones serían la creación de neumotórax, neumomediastino, enfisema subcutáneo, etc.",
+      "page": 11,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Recambio: decúbito supino con un rollito de toalla interescapular para ligera hiperextensión del cuello; lubricar la cánula e introducirla con movimiento suave, curvo, hacia atrás y abajo.",
-    "En inserción difícil usar una cánula menor, un TET menor o incluso una sonda de aspiración como guía.",
-    "Usar apósitos que no se deshilachen y no cortar gasas; la nariz artificial dura unos 3 días y debe cambiarse antes si se mancha."
-  ],
-  "secciones_recomendadas": [
-    "Material para recambio de cánula de traqueostomía",
-    "Cuidados básicos",
-    "COMPLICACIONES",
-    "4. Infección"
+    {
+      "x": "Instilación de suero fisiológico antes de volver a aspirar en la obstrucción: neonatos 0,2-0,5 ml, lactantes 0,5-1 ml, niños 1-3 ml.",
+      "cita": "Instilación de suero fisiológico y aspiración de nuevo: neonatos 0.2-0.5ml SSF lactantes 0.5-1ml SSF, niños 1-3ml SSF.",
+      "page": 10,
+      "auto": true
+    },
+    {
+      "x": "En caso de inserción difícil se puede usar una cánula menor, un TET menor o incluso una sonda de aspiración que servirá de guía.",
+      "cita": "En caso de inserción difícil se puede usar una cánula menor, un TET menor o incluso una sonda de aspiración que se usará como guía posteriormente.",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "La traqueotomía aumenta la producción de moco y disminuye la eficacia de la tos y el aclaramiento mucociliar: es necesario recurrir a aspiraciones frecuentes para mantener su permeabilidad.",
+      "cita": "La presencia de la traqueotomía aumenta la producción de moco, disminuye la eficacia de la tos y el aclaramiento mucociliar, factores ya de por sí alterados en el tipo de pacientes que tratamos, de ahí que sea necesario recurrir a las aspiraciones frecuentes para mantener la permeabilidad de la misma.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Para prevenir la obstrucción: usar apósitos que no se deshilachen y no cortar gasas.",
+      "cita": "Usar apósitos que no se deshilachen. No cortar gasas",
+      "page": 10,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

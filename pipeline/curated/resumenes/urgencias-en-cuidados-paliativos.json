@@ -1,130 +1,214 @@
 {
   "slug": "urgencias-en-cuidados-paliativos",
-  "en_una_frase": "Urgencias en niños en cuidados paliativos: principios de atención en Urgencias y manejo de hemorragia, compresión medular, obstrucción intestinal, síndrome de vena cava superior y disfunción de VDVP.",
+  "en_una_frase": "Urgencias en niños en cuidados paliativos: principios de atención en Urgencias y manejo de la hemorragia, la compresión medular, la obstrucción intestinal, el síndrome de vena cava superior y la disfunción de la válvula de derivación ventriculoperitoneal.",
   "puntos_clave": [
-    "Cuidados paliativos no equivale a ausencia de tratamientos: ante una crisis de necesidad, identificarla, diagnosticar la causa, tratarla si es tratable y controlar síntomas.",
-    "Hablar siempre con los padres/cuidadores (conocen los dispositivos y el síntoma guía) y consultar el informe de Planificación de Cuidados Paliativos y el Objetivo Terapéutico.",
-    "Exploración física rigurosa y completa: los síntomas son muy inespecíficos (vómitos por reagudización respiratoria o dolor; irritabilidad por fractura, retención urinaria...).",
-    "La claudicación familiar es una emergencia en sí misma y una indicación de ingreso urgente; la mayoría de las situaciones pueden manejarse de forma ambulatoria por la familia.",
-    "Compresión medular: iniciar dexametasona inmediatamente ante la sospecha clínica; la resonancia magnética es la prueba de elección; en últimos días priorizar medidas de confort.",
-    "Hemorragia: identificar el riesgo, instruir a la familia y dejar un 'kit de hemorragias' (paños oscuros, adrenalina, ácido tranexámico, midazolam); puede precisar sedación."
-  ],
-  "farmacos_clave": [
     {
-      "farmaco": "dexametasona",
-      "indicacion": "compresión medular (iniciar inmediatamente ante la sospecha clínica)",
-      "dosis": "en bolo inicial de 1-2 mg/kg, seguido de 0,25-0,5 mg/kg/dosis, cada 4-6 horas durante 48h con descenso progresivo posterior. Asociar omeprazol",
-      "via": "",
-      "nota": "Asociar omeprazol.",
+      "x": "Estar en un programa de cuidados paliativos no equivale a ausencia de tratamientos para el control de síntomas ni a limitación de tratamientos de cualquier proceso intercurrente.",
+      "cita": "Estar en un programa de cuidados paliativos, no es sinónimo a ausencia de tratamientos para el control de síntomas que produzcan disconfort al paciente, ni a limitación de tratamientos de cualquier proceso intercurrente.",
+      "page": 1,
+      "auto": true
+    },
+    {
+      "x": "En cualquier urgencia es imprescindible hablar con los padres/cuidadores para conocer la situación, qué les preocupa y por qué han acudido.",
+      "cita": "Es por ello que se hace imprescindible en cualquier situación de urgencias hablar con ellos para conocer la situación, saber qué les preocupa y por qué han acudido a Urgencias.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Evitar pruebas complementarias que no sean imprescindibles: hacerlas solo si pueden aportar un cambio al plan terapéutico.",
+      "cita": "Evitar pruebas complementarias que no sean imprescindibles. Se deberán hacer sólo si pueden aportar un cambio al plan terapéutico.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "Ingreso: la mayoría de las situaciones pueden manejarse de forma ambulatoria por la familia; ingresar si no se controla el síntoma de forma ambulatoria, si está adaptándose a un nuevo tratamiento o dispositivo, o si la familia prefiere el hospital o no puede asumir el cuidado en domicilio.",
+      "cita": "La mayoría de las situaciones pueden ser manejadas de forma ambulatoria por la familia. Se cursará ingreso si no es posible el control del síntoma de forma ambulatoria, si se encuentra en fase de adaptación de un nuevo tratamiento o dispositivo, o en cualquier caso si la familia muestra su preferencia de estar en el hospital o no es capaz de asumir el cuidado en domicilio",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Hemorragia: el equipo debe identificar previamente el riesgo de sangrado e instruir a la familia sobre cómo actuar, especificando las medidas en el plan anticipado de cuidados.",
+      "cita": "El equipo asistencial debe identificar previamente el riesgo de sangrado del niño e instruir a la familia acerca de la actuación en esas situaciones, especificando las medidas en el plan anticipado de cuidados.",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Compresión medular: iniciar dexametasona inmediatamente ante la sospecha clínica y asociar omeprazol.",
+      "cita": "Iniciar tratamiento con dexametasona inmediatamente ante la sospecha clínica: en bolo inicial de 1-2 mg/kg, seguido de 0,25-0,5 mg/kg/dosis, cada 4-6 horas durante 48h con descenso progresivo posterior. Asociar omeprazol",
       "page": 8,
-      "page_2024": 7
+      "auto": true
     },
     {
-      "farmaco": "dexametasona",
-      "indicacion": "hipertensión intracraneal por disfunción de VDVP (medida antiedema)",
-      "dosis": "1-2 mg/kg IV y posteriormente 0,25 mg/kg c/6 h. Asociar protector gástrico.",
-      "via": "IV",
-      "nota": "",
-      "page": 14,
-      "page_2024": 15
-    },
-    {
-      "farmaco": "suero salino hipertónico 3%",
-      "indicacion": "hipertensión intracraneal por disfunción de VDVP (medida antiedema)",
-      "dosis": "5-10 ml/kg en perfusión IV en 30 minutos",
-      "via": "IV",
-      "nota": "",
-      "page": 14,
-      "page_2024": 15
-    },
-    {
-      "farmaco": "octreótide",
-      "indicacion": "antisecretor en obstrucción intestinal maligna (algunos autores lo consideran de primera línea)",
-      "dosis": "Neonato: Inicialmente 2-5 mcg/kg c/6- 8h y luego ajustar según respuesta (máx. 7 mcg/kg c/4h). 1 mes-17 años: Inicialmente 1-2 mcg/kg c/4-6h y luego ajustar según respuesta (máx. 7 mcg/kg c/4h). Infusión continua >1 mes: 1 mcg/kg/h (máx. 50 mcg/h)",
-      "via": "SC; infusión continua IV, SC",
-      "nota": "No se debe mantener más de 24-48 horas",
-      "page": 10,
-      "page_2024": 10
-    },
-    {
-      "farmaco": "haloperidol",
-      "indicacion": "antiemético en obstrucción intestinal",
-      "dosis": "0.01-0.02 mg/kg/dosis c/8h (máx. dosis inicio 0.5-1 mg)",
-      "via": "VO, IV, SC",
-      "nota": "",
-      "page": 10,
-      "page_2024": 10
-    },
-    {
-      "farmaco": "metoclopramida",
-      "indicacion": "obstrucción parcial o funcional en pacientes sin dolor cólico",
-      "dosis": "En >1 año: 0.1-0.2 mg/kg/dosis c/8h (máx. 10 mg/dosis)",
-      "via": "VO, IV (bolo lento, al menos 3 min), SC",
-      "nota": "Si aumenta el dolor o se hace cólico y en cualquier caso si no es efectivo se suspenderá.",
-      "page": 10,
-      "page_2024": 10
-    },
-    {
-      "farmaco": "clorpromazina",
-      "indicacion": "hipo de difícil control por irritación del diafragma en obstrucción intestinal (fármaco de elección); off label",
-      "dosis": "1-5 años: 500 mcg/kg c/4-6h (máx. 40 mg/día) 6-11 años: 10 mg c/8h (máx. 75 mg/día). 12-17 años: 25 mg c/8h Ajustar según respuesta.",
-      "via": "IV",
-      "nota": "Produce además efecto sedante; puede administrarse en bolos o en infusión continua.",
-      "page": 10,
-      "page_2024": 10
-    },
-    {
-      "farmaco": "metilprednisolona",
-      "indicacion": "corticoterapia en síndrome de vena cava superior",
-      "dosis": "40 mg/m2/día, repartida en 4 dosis",
-      "via": "IV",
-      "nota": "Si aún no está diagnosticado el tipo de tumor consensuar con Oncología porque puede enmascarar o retrasar el diagnóstico, especialmente en linfomas.",
-      "page": 12,
-      "page_2024": 12
-    },
-    {
-      "farmaco": "cloruro mórfico",
-      "indicacion": "disnea en síndrome de vena cava superior",
-      "dosis": "0,05 mg/Kg vía oral, que se puede repetir cada 4 horas si precisa",
-      "via": "VO",
-      "nota": "",
-      "page": 12,
-      "page_2024": 12
-    },
-    {
-      "farmaco": "midazolam",
-      "indicacion": "control agudo de disnea y ansiedad en síndrome de vena cava superior",
-      "dosis": "0,1-0,2 mg/Kg dosis según vía y tolerancia",
-      "via": "",
-      "nota": "Para ansiolisis mantenida, benzodiacepina de vida media más larga: bromazepam 0,1 mg/kg/dosis cada 8 o 12 horas.",
-      "page": 12,
-      "page_2024": 12
+      "x": "Disfunción de la válvula de derivación ventriculoperitoneal: siempre es una emergencia porque puede ocasionar el fallecimiento; hasta el 80% de los portadores tendrá una disfunción valvular en los 10 años siguientes a la colocación.",
+      "cita": "Las complicaciones en los niños portadores de válvula de derivación ventriculoperitoneal (VDVP) son frecuentes, estimándose que hasta el 80% de los pacientes portadores de VDVP presentará una disfunción valvular en los 10 años siguientes a la colocación de la misma, siendo siempre una emergencia porque puede ocasionar el fallecimiento del paciente.",
+      "page": 13,
+      "auto": true
     }
   ],
   "banderas_rojas": [
-    "Tríada de Cushing (bradicardia, hipertensión arterial y alteraciones respiratorias) en portador de VDVP: signos de enclavamiento y herniación inminente.",
-    "Disfunción de VDVP: hasta el 80% la presentará en los 10 años siguientes; siempre es una emergencia porque puede ocasionar el fallecimiento. La infección es más frecuente en los 3 primeros meses.",
-    "Compresión medular: dolor local o radicular que aumenta con decúbito supino y Valsalva, déficit motor, déficits sensitivos y alteraciones esfinterianas; un 3% son asintomáticos.",
-    "La hemoptisis masiva puede conducir al fallecimiento por asfixia en poco tiempo; la hemorragia grave precede a la muerte en un 5-6% de los casos.",
-    "La obstrucción súbita de la vena cava superior puede conllevar edema cerebral y poner en peligro la vida del paciente.",
-    "Metoclopramida: suspender si aumenta el dolor o se hace cólico. Octreótide: no mantener más de 24-48 horas.",
-    "Furosemida en SVCS: precaución porque puede producir hemoconcentración y aumentar el riesgo trombótico. Corticoides sin diagnóstico tumoral: consensuar con Oncología (linfomas)."
+    {
+      "x": "La claudicación de los padres y/o cuidadores es una emergencia en sí misma: hay que identificarla, entre otras cosas porque son necesarios para cuidar al niño.",
+      "cita": "Es preciso identificar la posible claudicación de los padres y/o cuidadores que es una emergencia en sí misma, entre otras cosas porque son necesarios para cuidar al niño.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Un síntoma no controlado es una urgencia: resolverlo es prioritario, en el lugar que la familia desee y valorando siempre la proporcionalidad del tratamiento.",
+      "cita": "Si el niño presenta un síntoma no controlado es una urgencia resolverlo, en la medida de lo posible y debe ser una prioridad, en el lugar en que la familia desee y valorando siempre la proporcionalidad del tratamiento.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "Revisar adherencia, medicación actual y cambios recientes (dosis y vía) para descartar un error que justifique los síntomas; tener en cuenta efectos adversos e interacciones.",
+      "cita": "Preguntar por adherencia terapéutica, revisar medicación actual y cambios recientes en la medicación, dosis y vía de administración, para descartar posible error que justifique la aparición de sintomatología. Tener en cuenta la posible aparición de efectos adversos y colaterales e interacciones entre los medicamentos.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "La hemoptisis masiva puede conducir al fallecimiento por asfixia en poco tiempo; según la cantidad de sangrado y el distrés, puede ser necesaria una sedación paliativa de urgencia.",
+      "cita": "La hemoptisis masiva puede conducir al fallecimiento por asfixia en poco tiempo. Además de las medidas de confort, según la cantidad de sangrado y el distrés que genere en el paciente, puede ser necesario aplicar una sedación paliativa de urgencia.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Transfusión de plaquetas: aunque en general se considera adecuado transfundir cuando la cifra desciende de 10000/μL, en cuidados paliativos la indicación la determina la presencia del síntoma.",
+      "cita": "Aunque en general se considera adecuado transfundir cuando la cifra descienda de 10000/μL, en cuidados paliativos la indicación vendrá determinada por la presencia del síntoma",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "La compresión de la médula espinal o de las raíces espinales es una emergencia: la intervención precoz puede evitar secuelas neurológicas graves.",
+      "cita": "La compresión de la médula espinal o de las raíces espinales es una emergencia, porque la intervención precoz puede evitar la aparición de secuelas neurológicas graves y la calidad de vida posterior del paciente.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Compresión medular: evitar e identificar la retención urinaria, con sondaje intermitente o permanente si es necesario.",
+      "cita": "Es preciso evitar e identificar la retención urinaria con sondaje intermitente o permanente si es necesario.",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "Obstrucción intestinal: los pacientes sin dolor cólico pueden beneficiarse de metoclopramida (puede aliviar una obstrucción parcial o funcional); suspenderla si aumenta el dolor o se hace cólico y, en cualquier caso, si no es efectiva.",
+      "cita": "Los pacientes que no presentan dolor cólico pueden beneficiarse del uso de metoclopramida que puede ayudar a aliviar una obstrucción parcial o funcional. Si aumenta el dolor o se hace cólico y en cualquier caso si no es efectivo se suspenderá.",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "La obstrucción súbita de la vena cava superior, aunque infrecuente, puede conllevar edema cerebral y poner en peligro la vida del paciente.",
+      "cita": "Sin embargo, aunque se trata de una situación infrecuente, la obstrucción súbita de la vena cava superior puede conllevar la aparición de edema cerebral y poner en peligro la vida del paciente.",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "Síndrome de vena cava superior sin tipo de tumor diagnosticado: consensuar los corticoides con Oncología, porque pueden enmascarar o retrasar el diagnóstico, especialmente en linfomas.",
+      "cita": "Si aún no está diagnosticado el tipo de tumor se debe consensuar con Oncología porque puede enmascarar el diagnóstico o retrasarlo, especialmente en el caso de los linfomas, muy sensibles al tratamiento con corticoides.",
+      "page": 12,
+      "auto": true
+    },
+    {
+      "x": "Diuréticos (furosemida) en el síndrome de vena cava superior: usar con precaución porque pueden producir hemoconcentración y aumentar secundariamente el riesgo trombótico.",
+      "cita": "Diuréticos: furosemida 0,5 mg/Kg/dosis. Usar con precaución porque pueden producir hemoconcentración y secundariamente aumentar el riesgo trombótico",
+      "page": 12,
+      "auto": true
+    },
+    {
+      "x": "Tríada de Cushing (bradicardia, hipertensión arterial y alteraciones respiratorias): signos de enclavamiento y herniación inminente.",
+      "cita": "Triada de Cushing: bradicardia, hipertensión arterial y alteraciones respiratorias, como consecuencia del desplazamiento de estructuras cerebrales por aumento de presión intracraneal, son signos de enclavamiento y herniación inminente.",
+      "page": 13,
+      "auto": true
+    },
+    {
+      "x": "Infección de la válvula: a veces el motivo de consulta es dolor abdominal e irritación peritoneal por infección de la punta del catéter intraperitoneal (distensión, abdomen doloroso, íleo paralítico, fiebre y vómitos).",
+      "cita": "En ocasiones, el motivo de consulta es dolor abdominal e irritación peritoneal debido a la infección de la punta del catéter intraperitoneal: distensión abdominal, abdomen doloroso, íleo paralítico, fiebre y vómitos.",
+      "page": 14,
+      "auto": true
+    },
+    {
+      "x": "Es muy difícil controlar solo con fármacos los síntomas de una hipertensión intracraneal por progresión tumoral o por obstrucción de la válvula.",
+      "cita": "Es muy difícil controlar los síntomas de una hipertensión intracraneal debidos a progresión de un tumor o a la obstrucción de una VDVP, solo con tratamiento farmacológico.",
+      "page": 14,
+      "auto": true
+    },
+    {
+      "x": "Hipertensión intracraneal: sedación paliativa si la cefalea o los vómitos no son controlables y se ha desestimado el tratamiento quirúrgico.",
+      "cita": "Sedación paliativa, si la cefalea o los vómitos no son controlables y se ha desestimado el tratamiento quirúrgico.",
+      "page": 15,
+      "auto": true
+    },
+    {
+      "x": "Compresión medular: puede aparecer en el 3-5% de los niños con cáncer, pero no es la única causa; en cuidados paliativos, donde la osteoporosis es tan frecuente, puede haber fracturas vertebrales con desplazamiento que la condicionen incluso sin traumatismo de alta energía.",
+      "cita": "Puede aparecer en el 3-5% de los niños con cáncer, pero no es la única causa: en niños en Cuidados Paliativos en los que la osteoporosis es tan frecuente, incluso en ausencia de traumatismo de alta energía podría haber fracturas vertebrales con desplazamiento que condicione compresión medular.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Síntomas de compresión medular, dolor local o radicular: aumenta con el decúbito supino y las maniobras de Valsalva.",
+      "cita": "Dolor local o radicular: aumenta con decúbito supino y maniobras de Valsalva.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Síntomas de compresión medular, déficit motor: debilidad muscular, pérdida de fuerza, parálisis.",
+      "cita": "Déficit motor: debilidad muscular, pérdida de fuerza, parálisis.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Síntomas de compresión medular, déficits sensitivos por debajo de la lesión: la sensibilidad posicional y la vibratoria se alteran antes que la térmica y la dolorosa.",
+      "cita": "Déficits sensitivos por debajo de la lesión: la sensibilidad posicional y vibratoria se alteran antes que la térmica y la dolorosa.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Síntomas de compresión medular, alteraciones esfinterianas: retraso en la micción, polaquiuria, pérdida de control de esfínteres, estreñimiento.",
+      "cita": "Alteraciones esfinterianas: retraso en la micción, polaquiuria, pérdida de control de esfínteres, estreñimiento",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "La claudicación familiar es una indicación de ingreso urgente.",
+      "cita": "La claudicación familiar es una indicación de ingreso urgente.",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Válvula de derivación: la complicación más frecuente es la obstrucción o malfunción; la infección de la válvula es más frecuente en los tres primeros meses tras su colocación.",
+      "cita": "La complicación más frecuente es obstrucción / malfunción. Otra complicación que puede presentarse es la infección de la válvula, siendo ésta más frecuente en los tres primeros meses tras su colocación.",
+      "page": 13,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Anamnesis rápida SAMPLE: Síntomas guía, Alergias, Medicación (últimas dosis, cambios), Antecedentes, última ingesta (Last intake) y Evento con el que lo relacionan; escuchar a los padres es clave.",
-    "Sangrado respiratorio: decúbito lateral sobre el lado que sangra, si se conoce; si no, semisentado con la cabeza hacia delante. Usar toallas o paños oscuros para enmascarar la sangre.",
-    "SVCS: reposo absoluto, cabecera a 45°, ambiente tranquilo y aire fresco en la cara. Obstrucción intestinal: posición semiincorporada, sonda nasogástrica evacuadora y enemas si fecaloma."
-  ],
-  "secciones_recomendadas": [
-    "PRINCIPIOS EN URGENCIAS",
-    "HEMORRAGIA",
-    "COMPRESIÓN MEDULAR",
-    "URGENCIAS POR DISFUNCIÓN DE VÁLVULA DE DERIVACIÓN VENTRICULOPERITONEAL"
+    {
+      "x": "Sangrado respiratorio: decúbito lateral sobre el lado que sangra, si se conoce, para evitar el paso al otro pulmón; si no, semisentado con la cabeza hacia delante.",
+      "cita": "En los casos de sangrado respiratorio: posición en decúbito lateral sobre el lado que sangra, si se conoce, para evitar el paso al otro pulmón. Si no, semisentado con la cabeza hacia delante.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Algunos autores proponen dejar en el domicilio, si la hemorragia es previsible, un «kit de hemorragias»: material y fármacos para que la familia pueda actuar mientras acude el equipo de cuidados paliativos o los servicios de emergencias.",
+      "cita": "Algunos autores proponen dejar en el domicilio un “kit de hemorragias”: material y fármacos proporcionados a la familia para que puedan actuar en caso de una hemorragia, si se trata de algo previsible mientras acude a su domicilio el equipo de cuidados paliativos o los servicios de emergencias.",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Compresión medular: si se trata de una situación previsible puede no ser necesaria ninguna prueba diagnóstica.",
+      "cita": "Si se trata de una situación previsible puede no ser necesaria ninguna prueba diagnóstica.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Hipo de muy difícil control en la obstrucción intestinal (irritación del diafragma): el fármaco de elección es la clorpromazina, que además seda y puede darse en bolos o en infusión continua.",
+      "cita": "Es posible que en una obstrucción intestinal se presente hipo de muy difícil control por irritación del diafragma. Es un síntoma muy limitante que puede llegar a ser doloroso, e impedir la comunicación y el descanso. El fármaco de elección en ese caso es clorpromazina, que además produce efecto sedante y que es posible administrar en bolos o en infusión continua.",
+      "page": 10,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

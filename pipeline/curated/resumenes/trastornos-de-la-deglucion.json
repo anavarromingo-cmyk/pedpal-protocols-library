@@ -1,39 +1,154 @@
 {
   "slug": "trastornos-de-la-deglucion",
-  "en_una_frase": "Disfagia en cuidados paliativos pediátricos, sobre todo en niños con afectación neurológica: fisiología, diagnóstico clínico e instrumental, medidas compensatorias y alimentación de riesgo.",
+  "en_una_frase": "Disfagia en cuidados paliativos pediátricos: fisiología y fisiopatología de la deglución, causas, evaluación clínica e instrumental, medidas compensatorias, alimentación de riesgo y vías alternativas.",
   "puntos_clave": [
-    "Los trastornos de la deglución afectan a más del 90% de los niños con afectación neurológica y causan morbilidad respiratoria (aspiración crónica, neumonía) y desnutrición.",
-    "Los síntomas son inespecíficos y la falta de tos al tragar no excluye aspiración: aspiración silenciosa en el 40-90% de niños con hendidura laríngea o enfermedad neurológica.",
-    "El MECV-V (volúmenes de 5 a 20 ml en viscosidad líquido, néctar y pudding) evalúa eficacia y seguridad a pie de cama y es un paso necesario antes de pruebas más invasivas.",
-    "En niños con necesidades paliativas no se recomiendan pruebas instrumentales (VFSS, FEES) si no van a modificar el manejo; la VFSS suele ser mejor tolerada.",
-    "Tratamiento individualizado: rehabilitación oromotora, control postural (nunca con el cuello en hiperextensión), adaptación de utensilios, espesantes y texturas modificadas.",
-    "La alimentación de riesgo o reconfortante al final de la vida se decide con la familia y el equipo; algunos autores inician medidas de ayuda si se espera supervivencia > 7-14 días."
+    {
+      "x": "La falta de tos al tragar no excluye la aspiración: la aspiración silenciosa es muy común en niños, especialmente en bebés (a veces sin reflejo de la tos desarrollado) y en niños con déficit neurológicos avanzados.",
+      "cita": "La falta de tos al tragar no ex-cluye la existencia de aspiración, porque se puede producir una aspiración silenciosa, que es muy común en niños y especialmente en bebés, donde en ocasiones no se ha desarro-llado el reflejo de la tos y en niños con déficit neurológicos avanzados 15.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Siempre hay que evaluar la alimentación: no solo recoger lo que cuenta la familia, sino ver cómo come el niño y su relación con la comida.",
+      "cita": "Siempre hay que realizar la evaluación de la alimentación, no solo recoger en la historia clínica lo que nos cuenta la familia, -y el niño si es posible-, sino ver como come y su relación con la comida durante la consulta",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "MECV-V: método de exploración para niños mayores y adultos (volúmenes de 5 a 20 ml en viscosidad líquido, néctar y pudding), indicado ante cualquier sospecha de disfagia, fácil de hacer en consulta o a pie de cama y paso necesario antes de pedir pruebas de confirmación más invasivas.",
+      "cita": "(MECV-V): es un método de exploración para niños mayores y adultos donde se administran volúmenes de 5 a 20 ml en visco-sidad líquido, néctar y pudding. Está indicado en cualquier paciente en el que se sospeche disfagia, es fácil de hacer tanto en la consulta como a pie de cama. Se considera un paso necesario antes de pedir otras pruebas de confirmación más invasivas.",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "En niños con necesidades paliativas no se recomiendan técnicas adicionales, más allá de los datos y la exploración clínica, si no van a modificar el manejo.",
+      "cita": "La evaluación con técnicas adicionales, más allá de los datos y la exploración clínica, no se recomienda en niños con necesidades paliativas si no van a modificar el manejo del niño.",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "Las decisiones iniciales deben tener en cuenta si es posible mantener una ingesta oral segura y adecuada: el abanico va desde la vía oral con estrategias compensatorias hasta la sonda de alimentación temporal o permanente.",
+      "cita": "Las decisiones iniciales para el tratamiento de la disfagia deben tener en cuenta si es posi-ble mantener una ingesta oral segura y adecuada. El método más seguro y efectivo de una ingesta calórica apropiada va desde el uso de la vía oral con estrategias compensatorias a la colocación temporal o permanente de una sonda de alimentación.",
+      "page": 13,
+      "auto": true
+    },
+    {
+      "x": "Si la alimentación oral no es segura hay que decidir cuándo recomendar vías alternativas (sonda nasogástrica, gastrostomía), pero cualquier vía alternativa debe continuar con rehabilitación oromotora activa, nutritiva o no nutritiva según la severidad.",
+      "cita": "Si la alimentación oral no es segura debemos decidir el momento de recomendar las vías alternativas (sonda nasogástrica, gastrostomía, por ejemplo). Sin embargo, no debemos olvidar que cualquier vía alternativa debe continuar con rehabilitación activa oro motora nutritiva o no nutritiva según la severidad.",
+      "page": 14,
+      "auto": true
+    },
+    {
+      "x": "Dar de comer o beber a pesar del riesgo continuo de aspiración («alimentación de riesgo o reconfortante») es una decisión que se toma de acuerdo con la familia y el equipo, buscando la mejor calidad de vida al final de la vida y maximizar el disfrute a la hora de comer.",
+      "cita": "La decisión de dar de comer o beber a pesar del riesgo continuo de aspiración se conoce como “alimentación de riesgo o reconfortante” y se debe tomar de acuerdo con la familia y el equipo de profesionales de la salud, con el objetivo de lograr la mejor calidad de vida para el niño al final de la vida y maximizar el disfrute a la hora de comer",
+      "page": 14,
+      "auto": true
+    }
   ],
-  "farmacos_clave": [],
   "banderas_rojas": [
-    "Signos de aspiración aguda: episodios de tos con la ingesta, tos nocturna, estridor, disfonía, sibilantes, distrés respiratorio y cianosis.",
-    "Riesgo de aspiración crónica: tos persistente, sibilancias, infecciones respiratorias de repetición, dificultad respiratoria o vómitos al comer; en lactantes, apneas durante la alimentación o retraso del crecimiento.",
-    "Una calidad vocal o respiratoria 'húmeda' es el síntoma más estrechamente asociado con la penetración laríngea.",
-    "Tiempo prolongado en las tomas (mayor de 30 minutos y sobre todo mayor de 45-60 minutos) es signo de disfagia.",
-    "En prematuros y neonatos puede no estar presente el reflejo de la tos y sí el de apnea y bradicardia; en el lactante la estimulación laríngea produce apnea prolongada en lugar de tos.",
-    "Sonda nasogástrica: no mantener más de 3-4 semanas; riesgo de migración a la vía aérea con neumonía por aspiración iatrogénica, aumento del reflujo gastroesofágico y estenosis pilórica.",
-    "FEES contraindicada en atresia de coanas, estenosis nasal, obstrucción nasal o estenosis faríngea."
+    {
+      "x": "El riesgo de aspiración crónica se relaciona con tos persistente, sibilancias, infecciones respiratorias de repetición y, a veces, dificultad respiratoria o vómitos al comer.",
+      "cita": "En general, el riesgo de aspiración crónica se relaciona con tos persistente, sibilancias, infecciones respiratorias de repetición y, a veces, dificultad respi-ratoria o vómitos al comer.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "En lactantes: episodios de apnea durante la alimentación y/o retraso del crecimiento por la dificultad para comer y una ingesta calórica inadecuada.",
+      "cita": "En los lactantes se pueden presentar episodios de apnea du-rante la alimentación y/o retraso del crecimiento debido a la dificultad para comer y a una ingesta calórica inadecuada",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Signos de aspiración aguda: episodios de tos con la ingesta, tos nocturna, estridor, disfonía, sibilantes, distrés respiratorio y cianosis. Crónica: tos, sibilantes, crepitantes, halitosis, aversión a alimentos y fallo de medro.",
+      "cita": "AGUDOS | CRÓNICOS Episodios de tos con la ingesta | Tos Tos nocturna | Sibilantes Estridor | Crepitantes Disfonía | Halitosis Sibilantes | Aversión a alimentos Distrés respiratorio | Fallo de medro Cianosis",
+      "page": 22,
+      "auto": true
+    },
+    {
+      "x": "Tos, voz o respiración «húmeda»: sugiere penetración o aspiración laríngea, aunque no es diagnóstico de certeza.",
+      "cita": "Tos, voz o respiración \"húmeda\", sugiere penetración o aspira-ción laríngea, aunque no es diagnostico de certeza.",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "Signo de disfagia: tiempo prolongado en las tomas o comidas (mayor de 30 minutos y sobre todo mayor de 45-60 minutos).",
+      "cita": "Tiempo prolongado en las tomas/comidas (mayor de 30 minutos y sobre todo ma-yor de 45-60 minutos)",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "En prematuros y en neonatos durante las primeras semanas puede no estar presente el reflejo de la tos y sí el reflejo de apnea y bradicardia.",
+      "cita": "En prematuros y en neonatos durante las primeras semanas pue-de no estar presente el reflejo de la tos y sí el reflejo de apnea y bradicardia.",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "Colocación para comer: pies apoyados, rodillas y caderas en 90º y tronco y cabeza estables y rectos. Nunca dar el alimento con el cuello en hiperextensión, mirando hacia arriba.",
+      "cita": "El niño debe estar bien colocado con los pies apoyados, rodillas y caderas en 90º y el tronco y cabeza estables y rectos. Nunca dar el alimento con el cuello en hiperex-tensión, mirando hacia arriba.",
+      "page": 14,
+      "auto": true
+    },
+    {
+      "x": "Nunca introducir el dedo en la boca.",
+      "cita": "Nunca introducir el dedo en la boca.",
+      "page": 14,
+      "auto": true
+    },
+    {
+      "x": "Sondas nasogástricas o nasoyeyunales: no mantener más de 3-4 semanas; cuidadores capacitados para evitar la migración a la vía aérea inferior (riesgo significativo de neumonía por aspiración iatrogénica); aumentan el riesgo de reflujo gastroesofágico y de estenosis pilórica.",
+      "cita": "Los tubos de alimentación pueden colocarse a nivel nasogástrico o nasoyeyu-nal. No se deben mantener más de 3-4 semanas y los cuidadores deben estar ade-cuadamente capacitados para evitar su migración a la vía aérea inferior por el riesgo significativo de neumonía por aspiración iatrogénica. Igualmente aumenta el riesgo de reflujo gastroesofágico y la aparición de estenosis pilórica.",
+      "page": 15,
+      "auto": true
+    },
+    {
+      "x": "La FEES está contraindicada en pacientes con atresia de coanas, estenosis nasal, obstrucción nasal o estenosis faríngea.",
+      "cita": "La FEES está contraindicada en pacientes con atresia de coanas, estenosis nasal, obstrucción nasal o estenosis faríngea.",
+      "page": 10,
+      "auto": true
+    },
+    {
+      "x": "Disfagia orofaríngea: muy frecuente en enfermedades musculares y neurológicas; su complicación más grave es la aspiración, que entraña riesgo vital.",
+      "cita": "Es muy fre-cuente en enfermedades musculares y neurológicas, siendo su complicación más grave la aspiración, la cual entraña riesgo vital.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "VFSS: durante la prueba se somete al niño y al cuidador a una exposición importante de radiación, a nivel del cerebro, que podría representar un riesgo para los bebés pequeños o los niños con lesiones cerebrales significativas.",
+      "cita": "no son candidatos apropiados para el VFSS, ya que se debe ingerir una cantidad suficiente de contraste para conseguir imágenes adecuadas. Durante la prueba se somete al niño y al cuidador a una exposición importante de radiación, a nivel del cerebro, que podría representar un riesgo para los bebés pequeños o en niños con lesiones cerebrales significativas.",
+      "page": 9,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Al alimentar: cuidador frente al niño a la altura de sus ojos, pies apoyados, rodillas y caderas en 90º, tronco y cabeza rectos; esperar a que trague y comprobar que la boca está vacía antes de la siguiente cucharada.",
-    "Si le cuesta limpiar la boca, ofrecer una cuchara vacía; entre comidas poner la cuchara en agua helada (mejora el reflejo de succión) y apoyar la punta fría en el labio inferior para estimular la apertura.",
-    "Texturas homogéneas si hay dificultad para masticar; evitar grumos, espinas y dobles texturas (sopas con pasta). Para la aspiración de saliva se dispone de anticolinérgicos (trihexifenidilo, glicopirrolato, escopolamina, atropina) y toxina botulínica A/B."
-  ],
-  "secciones_recomendadas": [
-    "Evaluación clínica",
-    "Medidas no farmacológicas",
-    "Medidas intervencionistas",
-    "ALGORITMOS"
+    {
+      "x": "Test del agua (5-10 ml): muy sensible (100%) pero poco específico (44%); sirve para despistaje, pero no es el más indicado para el diagnóstico de disfagia.",
+      "cita": "Test del agua: consiste en administrar 5-10 ml de agua y se observa la pre-sencia de signos de alarma, como tos, cambios de voz, desaturación, etc. Es-ta prueba es muy sensible (100%) pero poco especifica (44%) 21, por lo que, aunque la realicemos para despistaje, no es la más indicada para diag-nostico de disfagia.",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "Gastrostomía o yeyunostomía quirúrgica: en la disfagia crónica que no responde a medidas conservadoras; se recomienda estudiar y descartar antes el reflujo gastroesofágico para tratarlo con una funduplicatura previa a la gastrostomía.",
+      "cita": "Tubo de gastrostomía o yeyunostomía quirúrgica: se recurre a ellos en disfagia crónica que no responden a medidas conservadoras. Se pueden colocar con un procedimiento abierto o mediante cirugía percutánea o endoscópica. Se recomien-da realizar previamente un estudio y descartar reflujo gastroesofágico, para tratar-lo con una funduplicatura previo a la gastrostomía",
+      "page": 15,
+      "auto": true
+    },
+    {
+      "x": "Manejo de la saliva: no existe un tratamiento estandarizado; se dispone de anticolinérgicos e infiltración de toxina botulínica A/B y, si fallan, se puede valorar el tratamiento quirúrgico de manera individualizada.",
+      "cita": "No existe un tratamiento estandarizado para el manejo de la saliva, se dispone de fárma-cos como los anticolinérgicos (trihexifenidilio,glicopirrolato,escopolamina,atropina) y la infiltración de toxina botulínica A/B, si estos fallan se puede valorar el tratamiento qui-rúrgico de manera individualizada.",
+      "page": 15,
+      "auto": true
+    },
+    {
+      "x": "Alimentación de riesgo al final de la vida: no hay ninguna herramienta ni evidencia disponible de apoyo a los profesionales en la toma de decisiones; algunos autores recomiendan iniciar medidas de ayuda cuando se espera que el niño pueda sobrevivir más de 7 a 14 días.",
+      "cita": "no hay ninguna herramienta ni evidencia disponible de apoyo a los profesionales en la toma de decisiones ante un niño con alimentación de riesgo al final de la vida. Algu-nos autores recomiendan iniciar medidas de ayuda cuando se espera que el niño pueda sobrevivir más de 7 a 14 días",
+      "page": 14,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

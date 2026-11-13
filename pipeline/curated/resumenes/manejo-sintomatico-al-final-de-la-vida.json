@@ -1,130 +1,172 @@
 {
   "slug": "manejo-sintomatico-al-final-de-la-vida",
-  "en_una_frase": "Manejo de la situación de últimos días (SUD) en niños: diagnóstico, medidas generales, cuidados no farmacológicos y tratamiento de los síntomas más frecuentes, para equipos de CPP.",
+  "en_una_frase": "Diagnóstico de la situación de últimos días y medidas generales, cuidados y tratamiento de los síntomas más frecuentes para mantener el confort del niño y de su familia.",
   "puntos_clave": [
-    "La SUD dura habitualmente menos de una semana; la escala de Menten (4 o más ítems = agonía) orienta aunque no esté validada en pediatría.",
-    "Revisar el plan terapéutico: simplificar, suspender fármacos no imprescindibles para el confort y dejar pautas fijas y de rescate disponibles en domicilio.",
-    "Evitar constantes y monitorización; prever la pérdida de la vía oral y cambiar la vía: la subcutánea es de elección en SUD y admite la mayoría de fármacos.",
-    "Estertores: no producen sufrimiento ni hay que aspirarlos; decúbito lateral, elevar el cabecero y retirar el exceso con gasa; anticolinérgicos SC si precisa.",
-    "Disnea: morfina de elección (parenteral si no hay vía enteral, infusión continua si persistente); benzodiacepinas de vida media corta si ansiedad asociada.",
-    "Agitación/delirium: excluir retención urinaria, impactación fecal o dolor mal controlado; haloperidol de elección; sedación paliativa si sufrimiento refractario."
-  ],
-  "farmacos_clave": [
     {
-      "farmaco": "morfina",
-      "indicacion": "disnea (tratamiento de elección)",
-      "dosis": "si el paciente no tomaba previamente morfina, esta se prescribe al 25- 50% de la dosis empleada para el dolor y presenta dosis techo, precisando añadir adyuvantes si no se consigue el control del síntoma a partir de una infusión continua de 30 mcg/kg/h. Si se encontraba previamente con morfina, se incrementará la dosis entre un 25 y 50%, dejando siempre una dosis de rescate, 1/6 de la dosis diaria total",
-      "via": "parenteral si no se puede emplear la enteral; infusión continua si disnea persistente",
-      "nota": "Presenta dosis techo para la disnea; si no se controla, añadir adyuvantes (benzodiacepinas).",
+      "x": "Revisar el plan terapéutico: priorizar los problemas que puedan producir un sufrimiento importante y simplificar el tratamiento, suspendiendo fármacos o medidas de soporte no imprescindibles para el confort.",
+      "cita": "Revisar el plan terapéutico del paciente y realizar los cambios de medicación y de cuidados adaptados a los nuevos objetivos: hay que priorizar el manejo de los problemas que puedan producir un sufrimiento importante y simplificar el tratamiento en la medida de lo posible, suspendiendo los fármacos o medidas de soporte que no sean imprescindibles para el confort del niño.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "Cambiar la vía de administración cuando se prevea la pérdida de la vía oral: la subcutánea es una buena alternativa en SUD y permite administrar la mayoría de los fármacos de esta fase.",
+      "cita": "Cambiar la vía de administración de medicación cuando se prevea la pérdida de la vía oral. La vía subcutánea es una buena alternativa en SUD, pues permite la administración de la mayoría de los fármacos que se usan en esta fase.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "Dolor: puede ser necesario pasar la analgesia basal y de rescate a vía parenteral en dosis equianalgésica; de elección la vía subcutánea por su facilidad de manejo en domicilio.",
+      "cita": "Todo ello puede obligar a la administración de la analgesia, tanto la pauta basal como de rescate, por vía parenteral en dosis equianalgésica, siendo de elección la vía subcutánea por su facilidad de manejo en el ámbito domiciliario y por permitir la administración de la mayoría de los fármacos precisos en SUD.",
       "page": 7,
-      "page_2024": 6
+      "auto": true
     },
     {
-      "farmaco": "lorazepam",
-      "indicacion": "ansiedad asociada a disnea (adyuvante de elección junto con midazolam)",
-      "dosis": "Por vía oral: Menores de 2 años: 25 mcg/kg, 2-3 veces al día. 2 - 5 años: 500 mcg, 2-3 veces al día. 6 - 10 años: 750 mcg, 3 veces al día. 11 - 14 años: 1 mg, 3 veces al día. 15 - 18 años: 1-2 mg, 3 veces al día. Por vía sublingual: Niños de todas las edades: 25 mcg/kg, como dosis única. Aumentar a 50 mcg/kg (máximo 1 mg) si es necesario. Dosis habitual para adultos: 500 mcg-1 mg como dosis única, que se puede repetir si se precisa.",
-      "via": "VO/SL",
-      "nota": "Benzodiacepina de vida media corta.",
-      "page": 8,
-      "page_2024": 6
+      "x": "Disnea: el tratamiento de elección es la morfina, por vía parenteral si no se puede usar la enteral y en infusión continua si la disnea es persistente.",
+      "cita": "Su tratamiento de elección es la morfina, debiéndose administrar por vía parenteral si no se puede emplear la enteral, y en infusión continua si se trata de una disnea persistente.",
+      "page": 7,
+      "auto": true
     },
     {
-      "farmaco": "midazolam",
-      "indicacion": "ansiedad, agitación y/o disnea",
-      "dosis": "debe emplearse entre 25-50% de las dosis indicadas para sedación consciente, las cuales son las siguientes: Por vía oral: 500 mcg/kg (máximo 20 mg) como dosis única. Por vía bucal o intranasal: 6 meses – 9 años: 200-300 mcg/kg (máximo 5 mg) como dosis única. 10 - 17 años: 6-7 mg como dosis única. Por vía subcutánea o intravenosa: 1 mes – 11 años: dosis inicial de 25-50 mcg/kg, a administrarse en 2-3 minutos. La dosis puede incrementarse, si es necesario, de forma progresiva hasta 6 mg. 6-11 años: dosis inicial de 25-50 mcg/kg, a administrarse en 2-3 minutos. La dosis puede incrementarse, si es necesario, de forma progresiva hasta 7,5 mg. 12 - 17 años: dosis inicial de 25-50 mcg/kg, a administrarse en 2-3 minutos. La dosis puede incrementarse, si es necesario, de forma progresiva hasta 10 mg.",
-      "via": "VO / bucal / intranasal / SC / IV",
-      "nota": "También en infusión continua como sedante en estatus refractario y para la angustia en hemorragias.",
-      "page": 8,
-      "page_2024": 6
+      "x": "Estertores: explicar a los cuidadores que no es necesario aspirar (incomodaría al paciente); suele bastar con decúbito lateral, elevar el cabecero y retirar con una gasa el exceso de la boca; a veces se precisan fármacos.",
+      "cita": "Es necesario explicar a los cuidadores que no es necesario aspirar estas secreciones, ya que incomodaría al paciente. En ocasiones, es preciso recurrir a tratamientos farmacológicos, pero en la mayoría de los casos es suficiente con colocar al niño en decúbito lateral, elevar el cabecero de la cama y retirar mediante una gasa el exceso que pueda acumularse en la boca.",
+      "page": 4,
+      "auto": true
     },
     {
-      "farmaco": "midazolam",
-      "indicacion": "estatus epiléptico / crisis convulsivas en SUD (medicación de rescate)",
-      "dosis": "Por vía bucal o intranasal se debe esperar 10 minutos para repetir la dosis. Neonatos: 300 mcg/kg/dosis. 1 – 2 meses: 300 mcg/kg/dosis (máximo 2,5 mg). 3 – 11 meses: 2,5 mg/dosis. 1 – 4 años: 5 mg/dosis. 5 – 9 años: 7,5 mg/dosis. 10 – 17 años: 10 mg/dosis. Por infusión continua subcutánea o intravenosa: Neonatos – 18 años: dosis inicial de 1-3 mg/kg/día. Si es necesario, puede aumentarse hasta 7 mg/kg/día (máximo 60 mg/día o 150 mg/día en pacientes con epilepsia refractaria).",
-      "via": "bucal / intranasal / infusión continua SC o IV",
-      "nota": "En pacientes controlados previamente con diazepam rectal, reducir la dosis inicial de midazolam un 50% respecto a su dosis habitual de diazepam para minimizar el riesgo de depresión respiratoria.",
-      "page": 14,
-      "page_2024": 11
-    },
-    {
-      "farmaco": "butilbromuro de hioscina",
-      "indicacion": "estertores (disminuir la producción de secreciones)",
-      "dosis": "Por vía oral (el contenido de las ampollas puede administrarse por vía enteral): 1 mes - 4 años: 300-500mcg/kg (máximo 5 mg), 3-4 veces al día. 5 - 11 años: 5-10 mg, 3-4 veces al día. 12 -17 años: 10-20 mg, 3-4 veces al día. Por infusión continua subcutánea: 1 mes-4 años: 1,5 mg/kg/día (máximo 15 mg al día). 5-11 años: 30 mg al día. 12-17 años: hasta 60-80 mg al día.",
-      "via": "VO/enteral / infusión continua SC",
-      "nota": "Anticolinérgico; puede administrarse por vía subcutánea en bolos o en infusión continua.",
-      "page": 9,
-      "page_2024": 7
-    },
-    {
-      "farmaco": "glicopirrolato",
-      "indicacion": "estertores (disminuir la producción de secreciones)",
-      "dosis": "Por vía oral: 1 mes - 17 años: dosis inicial de 40 mcg/kg, 3-4 veces al día. Si es necesario, puede aumentarse hasta 100 mcg/kg, 3-4 veces al día (máximo 2 mg por dosis). Por vía subcutánea o intravenosa: 1 mes – 11 años: dosis inicial de 4 mcg/kg, 3-4 veces al día. Si es necesario, puede aumentarse hasta 10 mcg/kg, 3-4 veces al día (máximo de 200 mcg por dosis). 12 -17 años: 22 mcg cada 4 horas. Por infusión continua subcutánea o intravenosa: 1 mes– 11 años: dosis inicial de 12 mcg/kg/día. Si es necesario, puede aumentarse hasta 40 mcg/kg/día (máximo 1,2 mg al día). 12 -17 años: dosis inicial de 600 mcg/día. Si es necesario, puede aumentarse hasta 1,2 mg/día (máximo 2,4 mg al día).",
-      "via": "VO / SC / IV / infusión continua SC o IV",
-      "nota": "",
-      "page": 9,
-      "page_2024": 7
-    },
-    {
-      "farmaco": "ondansetrón",
-      "indicacion": "náuseas/vómitos",
-      "dosis": "Por vía oral o subcutánea (el contenido de las ampollas puede administrarse por vía enteral): 100 mcg/kg cada 8-12 horas (máximo 4 mg por dosis).",
-      "via": "VO/SC",
-      "nota": "Conocer el receptor sobre el que actúa cada antiemético para evitar tratamientos duplicados.",
-      "page": 11,
-      "page_2024": 8
-    },
-    {
-      "farmaco": "haloperidol",
-      "indicacion": "delirium/agitación (tratamiento de elección) y náuseas/vómitos",
-      "dosis": "Por vía oral: 1 mes - 17 años: 10-20 mcg/kg cada 8-12 horas, hasta 5 mg cada 12 horas. Por infusión continua subcutánea o intravenosa: 1 mes – 11 años: dosis inicial de 25 mcg/kg/día (máxima dosis inicial 1,5 mg/día). Si es necesario, puede aumentarse hasta un máximo de 85 mcg/kg/día. 12 - 17 años: dosis inicial de 1,5 mg/día. Si es necesario, puede aumentarse hasta un máximo de 5 mg/día.",
-      "via": "VO / infusión continua SC o IV",
-      "nota": "Como antiemético (p. 8) en 12 – 17 años por vía oral: 1,5 mg al día por la noche, pudiendo aumentarse a 1,5 mg cada 12 horas (máximo 5 mg cada 12 horas).",
+      "x": "Delirium sin causa desencadenante: el haloperidol es el tratamiento de elección; también pueden emplearse neurolépticos más sedantes, como la levomepromazina, o midazolam, todos ellos administrables por vía subcutánea.",
+      "cita": "En caso de no encontrar una causa desencadenante, el haloperidol es el tratamiento de elección en el manejo del delirium, pudiéndose emplear también neurolépticos más sedantes, como la levomepromazina, o midazolam, todos ellos administrables por vía subcutánea",
       "page": 13,
-      "page_2024": 10
+      "auto": true
     },
     {
-      "farmaco": "levomepromazina",
-      "indicacion": "náuseas/vómitos; agitación/delirium (neuroléptico más sedante)",
-      "dosis": "Por vía oral: 2 - 11 años: dosis inicial de 50-100 mcg/kg cada 12-24 horas. Si es necesario, puede aumentarse hasta un máximo de 1 mg/kg/dosis o 25 mg/dosis, cada 12- 24 horas. 12 – 17 años: dosis inicial de 3 mg cada 12-24 horas. Si es necesario, puede aumentarse hasta un máximo de 25 mg cada 12-24 horas. Por vía subcutánea o intravenosa: 12 – 17 años: dosis inicial de 2,5 mg cada 12-24 horas. Por infusión continua subcutánea o intravenosa: 1 mes – 11 años: dosis inicial de 100mcg/kg/día. Si es necesario, puede aumentarse hasta un máximo de 400mcg/kg/día o 25 mg/día. 12 - 17 años: dosis inicial de 5 mg/día. Si es necesario, puede aumentarse hasta un máximo de 25 mg/día.",
-      "via": "VO / SC / IV / infusión continua SC o IV",
-      "nota": "Para agitación (p. 10) las dosis son mayores: infusión continua 1 – 11 años dosis inicial de 350mcg/kg/día (máxima dosis inicial 12,5 mg), hasta 3 mg/kg/día; 12 - 17 años 12,5 mg/día, hasta 200 mg/día.",
-      "page": 11,
-      "page_2024": 8
-    },
-    {
-      "farmaco": "dexametasona",
-      "indicacion": "náuseas/vómitos en caso de aumento de la presión intracraneal",
-      "dosis": "Por vía oral o intravenosa: Menores de 1 año: dosis inicial de 250 mcg cada 8 horas. Si es necesario, puede aumentarse hasta 1 mg cada 8 horas. 1 – 5 años: dosis inicial de 1 mg cada 8 horas. Si es necesario, puede aumentarse hasta 2 mg cada 8 horas. 6 – 11 años: dosis inicial de 2 mg cada 8 horas. Si es necesario, puede aumentarse hasta 4 mg cada 8 horas. 12 – 17 años: 4 mg cada 8 horas.",
-      "via": "VO/IV",
-      "nota": "",
-      "page": 12,
-      "page_2024": 8
+      "x": "Convulsiones: adecuar el tratamiento anticomicial, suspendiendo los antiepilépticos sobre todo si se ha perdido la vía oral, y manejar las crisis con medicación de rescate como el midazolam (también en infusión continua como sedante en estatus refractario).",
+      "cita": "En esta etapa, se debe adecuar el tratamiento anticomicial, siendo necesario suspender los fármacos antiepilépticos, especialmente si el paciente ha perdido la vía oral, y manejar las crisis con medicación de rescate, como el midazolam, que puede emplearse también en infusión continua como sedante en caso de estatus refractario:",
+      "page": 14,
+      "auto": true
     }
   ],
   "banderas_rojas": [
-    "Escala de Menten: 4 o más ítems indican agonía/SUD, con fallecimiento en menos de 4 días en el 90% de los casos.",
-    "La morfina para la disnea presenta dosis techo: añadir adyuvantes si no se controla el síntoma a partir de una infusión continua de 30 mcg/kg/h.",
-    "Forzar la alimentación en SUD conlleva riesgo de broncoaspiración; restringir los aportes hídricos para evitar la acumulación de secreciones.",
-    "Identificar a los pacientes con riesgo de sangrado masivo e informar a los cuidadores; en hemorragia aguda de gran intensidad sedar de forma urgente y en el grado necesario.",
-    "Evitar medidas de restricción física en la agitación; excluir antes causas reversibles (retención urinaria, impactación fecal, dolor mal controlado).",
-    "Midazolam bucal/intranasal: en pacientes controlados previamente con diazepam rectal, reducir la dosis inicial un 50% por riesgo de depresión respiratoria.",
-    "Retirar la oxigenoterapia en las últimas horas si no contribuye al confort, especialmente con estado de consciencia muy disminuido."
+    {
+      "x": "Escala de Menten (ocho ítems; no validada en pediatría, orientativa): preagonía si presenta de 1 a 3 ítems; agonía o SUD si tiene 4 o más, con fallecimiento estimado en menos de 4 días en el 90% de los casos.",
+      "cita": "Si bien esta escala no está validada en pediatría, puede servir como orientación. Consta de ocho ítems y se considera que el paciente se encuentra en una situación de preagonía si presenta de 1 a 3 ítems, y de agonía o SUD si tiene 4 o más, estimando que el fallecimiento sucederá en menos de 4 días en el 90% de los casos.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Informar al paciente y a su familia de la posibilidad de iniciar una sedación paliativa si aparece un síntoma refractario; debe constar por escrito en la historia clínica.",
+      "cita": "Además, se debe informar al paciente y a su familia de la posibilidad de iniciar una sedación paliativa en caso de que aparezca un síntoma refractario, que debe constar por escrito en su historia clínica.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Si se fuerza la alimentación hay riesgo de broncoaspiración; deben restringirse los aportes hídricos para evitar la acumulación de secreciones.",
+      "cita": "Además, si se fuerza la alimentación, existe el riesgo de provocar una broncoaspiración por la debilidad existente en la fase final de vida y deben restringirse los aportes hídricos para evitar la acumulación de secreciones.",
+      "page": 10,
+      "auto": true
+    },
+    {
+      "x": "Agitación o delirium: evitar medidas de restricción física en el final de vida.",
+      "cita": "La agitación o delirium frecuentemente se presenta como confusión, inquietud y alteraciones del ciclo vigilia-sueño y es una situación muy angustiosa para la familia y cuidadores, debiéndose evitar medidas de restricción física en esta etapa de final de vida.",
+      "page": 13,
+      "auto": true
+    },
+    {
+      "x": "Midazolam bucal o intranasal en estatus: esperar 10 minutos para repetir la dosis; si las crisis se controlaban antes con diazepam rectal, considerar reducir la dosis inicial de midazolam un 50% respecto a su dosis habitual de diazepam, para minimizar el riesgo de depresión respiratoria.",
+      "cita": "Por vía bucal o intranasal se debe esperar 10 minutos para repetir la dosis y hay que considerar, en pacientes en los cuales se han controlado previamente las crisis convulsivas con diazepam rectal, reducir la dosis inicial de midazolam un 50% respecto a su dosis habitual de diazepam para minimizar el riesgo de depresión respiratoria.",
+      "page": 14,
+      "auto": true
+    },
+    {
+      "x": "Oxigenoterapia: mantener solo si contribuye al confort; retirar en las últimas horas, especialmente con estado de consciencia muy disminuido.",
+      "cita": "La oxigenoterapia puede mejorar la disnea en caso de hipoxemia y solamente debe mantenerse si contribuye al confort del niño, debiéndose retirar en las últimas horas, especialmente si el paciente se encuentra con un estado de consciencia muy disminuido.",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "Riesgo hemorrágico: identificar a los pacientes con riesgo elevado (sobre todo de sangrado masivo), informar a los cuidadores de este riesgo vital y establecer medidas preventivas si es posible, como transfundir plaquetas si hay trombopenia.",
+      "cita": "es primordial identificar a los pacientes con un riesgo hemorrágico elevado, especialmente aquellos con posibilidad de sufrir un sangrado masivo; informar a los cuidadores de este riesgo vital y los síntomas que pueden aparecer, y establecer medidas preventivas si es posible, como la transfusión de plaquetas en pacientes con trombopenia.",
+      "page": 15,
+      "auto": true
+    },
+    {
+      "x": "Hemorragia en SUD: paños oscuros para minimizar el impacto visual, vendajes compresivos si el foco es accesible y apósitos impregnados con hemostáticos como el ácido tranexámico.",
+      "cita": "A nivel local, se pueden emplear paños oscuros para minimizar el impacto visual, así como vendajes compresivos en caso de que el foco del sangrado sea accesible, pudiéndose utilizar apósitos impregnados con hemostáticos, como el ácido tranexámico.",
+      "page": 15,
+      "auto": true
+    },
+    {
+      "x": "Hemorragia aguda de gran intensidad: puede producirse el fallecimiento en poco tiempo; sedar al paciente de forma urgente y en el grado necesario.",
+      "cita": "En caso de hemorragia aguda de gran intensidad, puede producirse el fallecimiento en poco tiempo, por lo que se debería sedar al paciente de forma urgente y en el grado necesario.",
+      "page": 15,
+      "auto": true
+    },
+    {
+      "x": "Agitación en SUD: excluir causas reversibles como la retención urinaria, una impactación fecal o un dolor mal controlado.",
+      "cita": "Ante un paciente en SUD en el que aparezca un cuadro de agitación, hay que excluir causas reversibles como la retención urinaria, una impactación fecal o un dolor mal controlado.",
+      "page": 13,
+      "auto": true
+    },
+    {
+      "x": "Ketorolaco por vía subcutánea: el protocolo solo recoge pauta para mayores de 16 años.",
+      "cita": "Mayores de 16 años: 15-30 mg/dosis, cada 8 horas.",
+      "page": 13,
+      "auto": false
+    },
+    {
+      "x": "Morfina en disnea, si no la tomaba previamente: se prescribe al 25-50% de la dosis empleada para el dolor y presenta dosis techo; añadir adyuvantes si no se controla el síntoma a partir de una infusión continua de 30 mcg/kg/h.",
+      "cita": "Para el tratamiento de la disnea, si el paciente no tomaba previamente morfina, esta se prescribe al 25-50% de la dosis empleada para el dolor y presenta dosis techo, precisando añadir adyuvantes si no se consigue el control del síntoma a partir de una infusión continua de 30 mcg/kg/h.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Morfina en disnea, si ya la tomaba: incrementar la dosis entre un 25 y 50%, dejando siempre una dosis de rescate (1/6 de la dosis diaria total) por si aparece un episodio agudo de disnea.",
+      "cita": "Si se encontraba previamente con morfina, se incrementará la dosis entre un 25 y 50%, dejando siempre una dosis de rescate, 1/6 de la dosis diaria total, en caso de aparición de un episodio agudo de disnea.",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Alta sospecha de obstrucción intestinal: dolor, distensión abdominal, ausencia de eliminación de heces y gases, y vómitos, frecuentemente biliosos y persistentes, que pueden ser fecaloideos según el nivel de la obstrucción; tratar la etiología si es posible.",
+      "cita": "hay que tratar la etiología si es posible cuando haya una alta sospecha de obstrucción intestinal, que se manifiesta con dolor, distensión abdominal, ausencia de eliminación de heces y gases, y vómitos, frecuentemente biliosos y persistentes, pudiendo ser fecaloideos según el nivel de la obstrucción.",
+      "page": 12,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Estertores: colocar al niño en decúbito lateral, elevar el cabecero y retirar con una gasa el exceso de secreciones de la boca; no aspirar, incomodaría al paciente.",
-    "Ojos: pomada epitelizante en poca cantidad por la cara interna del párpado inferior y masajear el párpado superior; la película blanquecina inicial desaparece con el calor corporal.",
-    "Retirar la sonda nasogástrica cuando el fallecimiento sea próximo para que la familia pueda cogerlo o abrazarlo con el menor número de dispositivos posibles."
-  ],
-  "secciones_recomendadas": [
-    "MEDIDAS GENERALES",
-    "DISNEA",
-    "ESTERTORES",
-    "AGITACIÓN/DELIRIUM/ANSIEDAD"
+    {
+      "x": "Fiebre alta que produce disconfort (sobre todo con diaforesis profusa o escalofríos): antitérmicos por la vía más adecuada y menos agresiva en ese momento, como paracetamol rectal o intravenoso o ketorolaco.",
+      "cita": "Si es alta y produce disconfort al paciente, especialmente si aparece diaforesis profusa o escalofríos, deben administrarse antitérmicos por la vía más adecuada y menos agresiva en ese momento, como paracetamol por vía rectal o intravenosa o el ketorolaco por vía subcutánea:",
+      "page": 12,
+      "auto": false
+    },
+    {
+      "x": "Aunque disminuyen las necesidades hídricas y de nutrición, suele permanecer la sensación de sed: mantener la boca húmeda y limpia con los cuidados de la boca.",
+      "cita": "Las necesidades hídricas y de nutrición disminuyen es esta etapa de la vida, pero suele permanecer la sensación de sed, por lo que deben tenerse presentes los cuidados de la boca mencionados con anterioridad, y así mantenerla húmeda y limpia.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Retención urinaria: si la maniobra de Credé (masajear suavemente la parte inferior del abdomen para comprimir la vejiga) no es efectiva y la retención supone una incomodidad, puede realizarse un sondaje vesical continuo o intermitente.",
+      "cita": "técnicas como la maniobra de Credé, que consiste en masajear suavemente la parte inferior del abdomen, por debajo del ombligo, hacia abajo, con el fin de comprimir la vejiga y favorecer su vaciado. Si esta maniobra no fuera efectiva y la retención urinaria supone una incomodidad para el paciente, puede realizarse un sondaje vesical continuo o intermitente.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Si el niño lleva sonda nasogástrica para alimentación, se recomienda retirarla cuando el fallecimiento se prevea próximo, para que la familia pueda cogerlo o abrazarlo con el menor número de dispositivos posible.",
+      "cita": "En el caso de que un paciente sea portador previamente de una sonda nasogástrica para la alimentación, se recomienda su retirada cuando se prevea que el fallecimiento vaya a ser próximo para que la familia pueda cogerlo o abrazarlo sin miedo y recordarlo en su momento final con el menor número de dispositivos posibles.",
+      "page": 10,
+      "auto": true
+    },
+    {
+      "x": "Estreñimiento: si aparece o se intensifica, tratar solamente si origina malestar en el paciente, mediante enemas o sistemas de irrigación.",
+      "cita": "En caso de aparición o intensificación del estreñimiento, se debe tratar solamente si origina malestar en el paciente, mediante el uso de enemas o sistemas de irrigación.",
+      "page": 5,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

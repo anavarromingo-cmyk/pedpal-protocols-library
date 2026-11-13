@@ -55,6 +55,8 @@ def main() -> int:
     rev, fecha = val["revisor"], val["exportado"][:10]
     datos = json.loads((ROOT / "revision" / "datos.json").read_text(encoding="utf-8"))
     algs = json.loads((CUR / "algoritmos.json").read_text(encoding="utf-8"))
+    figp = CUR / "figuras_algoritmo.json"
+    figalg = json.loads(figp.read_text(encoding="utf-8")) if figp.exists() else {}
     vadp = CUR / "vademecum.json"
     vad = json.loads(vadp.read_text(encoding="utf-8")) if vadp.exists() else None
     inf = [f"# Validación de {rev} ({fecha})", ""]
@@ -93,6 +95,8 @@ def main() -> int:
                         pend_res = True
                     elif t == "frase":
                         r["en_una_frase"] = d["correccion"].strip()
+                    elif isinstance(r[CAMPO[t]][idx], dict):
+                        r[CAMPO[t]][idx].update(x=d["correccion"].strip(), editado_por=rev)
                     else:
                         r[CAMPO[t]][idx] = d["correccion"].strip()
                 elif d["estado"] == "fix":
@@ -108,6 +112,21 @@ def main() -> int:
             if not dry:
                 rp.write_text(json.dumps(r, ensure_ascii=False, indent=2), encoding="utf-8")
             inf.append(f"- {slug}: resumen {'REVISADO' if not pend_res else 'con elementos pendientes'}")
+        # figuras de algoritmo del protocolo
+        fgs = figalg.get(slug, [])
+        quitar_f = []
+        for fi, fg in enumerate(fgs):
+            d = dec.get(f"alg_fig:{fi}")
+            if not d:
+                continue
+            if d["estado"] == "ok":
+                fg.update(revisado=True, revisado_por=rev, revisado_fecha=fecha)
+            elif d["estado"] == "del":
+                quitar_f.append(fi)
+            else:
+                manual.append(f"- {slug} · alg_fig:{fi}: {d.get('correccion', '').strip() or '(sin texto)'}")
+        for fi in sorted(quitar_f, reverse=True):
+            fgs.pop(fi)
         # algoritmos
         for ai, a in enumerate(algs.get(slug, [])):
             pend = False
@@ -172,6 +191,7 @@ def main() -> int:
             vadp.write_text(json.dumps(vad, ensure_ascii=False, indent=1), encoding="utf-8")
     if not dry:
         (CUR / "algoritmos.json").write_text(json.dumps(algs, ensure_ascii=False, indent=2), encoding="utf-8")
+        figp.write_text(json.dumps({k: v for k, v in figalg.items() if v}, ensure_ascii=False, indent=2), encoding="utf-8")
     inf += ["", "## Correcciones para aplicar a mano (campos con dosis)", *(manual or ["- ninguna"])]
     inf += ["", "## Decisiones NO aplicadas (el texto cambió desde la revisión)", *(descartadas or ["- ninguna"])]
     out = ROOT / "revision" / "informe_validacion.md"

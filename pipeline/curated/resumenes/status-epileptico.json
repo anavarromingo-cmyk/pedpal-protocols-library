@@ -1,103 +1,166 @@
 {
   "slug": "status-epileptico",
-  "en_una_frase": "Manejo de las crisis epilépticas y del estatus epiléptico en niños en cuidados paliativos, incluida la situación de final de vida: benzodiacepinas de primera línea y fármacos de segunda línea.",
+  "en_una_frase": "Reconocimiento y tratamiento de las crisis epilépticas y del estatus epiléptico en niños en cuidados paliativos, con benzodiacepinas de primera línea, fármacos de segunda línea y manejo en situación de final de vida.",
   "puntos_clave": [
-    "Considerar siempre una causa tratable (hipoglucemia, alteración hidroelectrolítica, infección del SNC, obstrucción de VDVP), sobre todo si no había crisis previas.",
-    "Iniciar el tratamiento de la crisis aguda a los 3-5 minutos de su inicio; después las benzodiacepinas tienen menos efecto y hay más riesgo de estado epiléptico.",
-    "Midazolam transmucoso (bucal o intranasal) es más efectivo que el diazepam rectal; dosis más bajas en cáncer o fallo orgánico y más altas en afectación neurológica grave.",
-    "Si no cede tras dos dosis de benzodiacepinas o la respuesta es parcial: perfusión continua de midazolam o segunda línea (fenobarbital, valproico, fenitoína, levetiracetam).",
-    "Levetiracetam: pocas interacciones y escasos efectos adversos; valorar como primera elección en polimedicados, oncohematológicos y en cuidados paliativos.",
-    "Las crisis cortas que no limitan el confort del paciente y la familia pueden no tratarse; valorar cada caso y tener previsto un plan de actuación y tratamiento."
-  ],
-  "farmacos_clave": [
     {
-      "farmaco": "midazolam",
-      "indicacion": "primera línea en la crisis aguda (benzodiacepina)",
-      "dosis": "Intranasal: 0,2-0,5 mg/kg/dosis (máx. 10 mg o 5 mg por cada orificio nasal)/dividir la mitad de la dosis en cada fosa nasal mediante atomizador. Bucal (Buccolam): 0,2-0,5 mg/kg/dosis (máx. 10 mg). IV/SC: 0,1-0,2 mg/kg/dosis(máx. 10 mg).",
-      "via": "intranasal/bucal/IV/SC",
-      "nota": "Hasta 2 dosis separadas de 5-10 minutos. Inicio de acción: transmucosa 5-15 min; subcutánea 5-10 min; intravenoso 2-3 min. Tanto dosis bajas como mayores pueden dar lugar a una reacción paradójica.",
+      "x": "Considerar siempre una causa tratable (hipoglucemia, alteración hidroelectrolítica, infección del SNC, obstrucción de VDVP…), sobre todo en pacientes sin crisis previas.",
+      "cita": "Debemos considerar siempre que pueda existir una causa tratable: hipoglucemia, alteración hidroelectrolítica, infección del SNC, obstrucción de VDVP… e incluirlas en el diagnóstico diferencial de la etiología de dichas crisis, sobre todo en aquellos pacientes que no las habían presentado con anterioridad.",
+      "page": 1,
+      "auto": true
+    },
+    {
+      "x": "Valorar cada caso: las crisis de corta duración que no limitan el confort del paciente y la familia pueden no tratarse; como muchas son aparatosas y resistentes, conviene tener previsto un plan de actuación y tratamiento.",
+      "cita": "Habrá que valorar individualmente cada caso, ya que si algunas crisis son de corta duración y no limitan el confort del paciente y de la familia pueden no tratarse. En cambio, en muchos casos estas crisis pueden ser aparatosas y resistentes al tratamiento, por lo que es recomendable tener un plan de actuación y tratamiento previsto.",
+      "page": 1,
+      "auto": true
+    },
+    {
+      "x": "Iniciar el tratamiento de una crisis aguda entre los 3-5 minutos desde su inicio: después las benzodiacepinas tienen menos efecto y hay más riesgo de evolución a estado epiléptico.",
+      "cita": "Debe iniciarse tratamiento de una crisis aguda entre los 3-5 minutos desde el inicio de esta, ya que posteriormente tendrán menos efecto las benzodiacepinas y habrá más riesgo de que evolucione a un estado epiléptico.",
       "page": 2,
-      "page_2024": 3
+      "auto": true
     },
     {
-      "farmaco": "diazepam",
-      "indicacion": "primera línea en la crisis aguda (benzodiacepina)",
-      "dosis": "IV: 0,2 mg/kg/dosis (máx. 10 mg) administrar lento en 2-4 minutos Rectal: 0.5 mg/kg (<5 años); 0.3 mg/kg (6-11 años); 0.2 mg/kg (>11 años) (dosis máxima 10 mg/dosis, puede administrarse una 2ª dosis).",
-      "via": "IV/rectal",
-      "nota": "No se puede administrar por vía subcutánea. Inicio de acción: rectal 1-3 min; intravenoso 3-5 min.",
-      "page": 3,
-      "page_2024": 4
+      "x": "Benzodiacepinas (primera línea): en principio hasta 2 dosis separadas de 5-10 minutos si no cede con la primera; más dosis se han relacionado con depresión respiratoria.",
+      "cita": "Se administrarán en principio hasta 2 dosis separadas de 5-10 minutos en caso de no ceder con la primera. La administración de más dosis se ha relacionado con efectos secundarios como depresión respiratoria.",
+      "page": 2,
+      "auto": true
     },
     {
-      "farmaco": "midazolam en perfusión continua",
-      "indicacion": "crisis que no cede tras dos dosis de benzodiacepinas o respuesta parcial; control de crisis en final de vida",
-      "dosis": "0,03-0,3 mg/kg/hora. Se realizarán aumentos cada 4-6 horas si precisa. Para control de crisis en final de vida: Neonatos-18 años: Dosis inicial 1-3 mg/kg/día aumentando progresivamente hasta 7 mg/kg/día (máximo 60 mg/día ó 150mg/día en pacientes con epilepsia refractaria).",
-      "via": "SC/IV (pc)",
-      "nota": "",
+      "x": "Midazolam: mayor efectividad por vía transmucosa que el diazepam rectal.",
+      "cita": "Metabolismo por CYP450 3A4. Mayor efectividad por vía transmucosa que el diazepam rectal.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Si la crisis no cede tras dos dosis de benzodiacepinas o la respuesta es parcial: iniciar perfusión continua de midazolam o probar un fármaco de segunda línea.",
+      "cita": "En caso de no ceder la crisis tras dos dosis de benzodiacepinas o si la respuesta ha sido parcial, debe iniciarse una perfusión continua de midazolam o probar un fármaco de segunda línea.",
       "page": 4,
-      "page_2024": 5
+      "auto": true
     },
     {
-      "farmaco": "fenobarbital",
-      "indicacion": "segunda línea; en cuidados paliativos pediátricos se usa sobre todo para profilaxis o junto a otros antiepilépticos",
-      "dosis": "Dosis de carga: Oral, iv o sc: 20 mg/kg/dosis (máximo 1 g) administrada durante 20 minutos iv o sc. Neonatos para control de crisis: 2.5-5 mg/kg una o dos veces al día como mantenimiento. Niños > 1 mes- 11 años: 2.5-5 mg/kg (dosis máxima 300 mg) una o dos veces al día, o puede administrarse como perfusión continua durante 24 horas. Niños 12-17 años: 300 mg/12 horas o administrar como pc durante 24 horas.",
-      "via": "VO/IV/SC",
-      "nota": "Administración parenteral en 20 minutos o más. Evitar bolos por vía subcutánea ya que produce necrosis por presentar un pH elevado. Diluir 10 veces, concentración máxima de 20 mg/ml. En pc ascensos del 20% (0,1 mg/kg/h) cada 6 horas si precisa.",
-      "page": 4,
-      "page_2024": 5
-    },
-    {
-      "farmaco": "ácido valproico",
-      "indicacion": "segunda línea; no produce depresión respiratoria y escasa repercusión hemodinámica",
-      "dosis": "Dosis de carga iv:40 mg/kg iv a pasar en 5 minutos a un ritmo 3-6 mg/kg/min (dosis máxima 3 g/dosis) Dosis de mantenimiento en perfusión continua iv: 1-2 mg/kg/h. Se puede iniciar a 5 mg/kg/h después de la dosis de carga, ir disminuyendo durante las siguientes 6 horas a 1 mg/kg/h cada 2 horas hasta 1-2 mg/kg/h.",
-      "via": "IV",
-      "nota": "No indicado si: hepatopatía, coagulopatía o enfermedad mitocondrial o metabólica. Múltiples interacciones; los carbapenemes y rifampicina reducen los niveles de valproico. Riesgo biológico para embarazadas en su manejo.",
-      "page": 5,
-      "page_2024": 6
-    },
-    {
-      "farmaco": "fenitoína",
-      "indicacion": "segunda línea; indicada en estatus parcial",
-      "dosis": "Dosis de carga iv: 20 mg/kg iv diluidos en 20 ml de suero fisiológico (no diluir en suero glucosado) a pasar en 20 minutos (ritmo 1 mg/kg/min; ritmo máx 50 mg/min).Dosis máxima 1 g. Dosis de mantenimiento: 4-8 mg/kg/día IV repartidos cada 8-12 horas. Máximo: 1.500 mg/día. Se debe comenzar 12 a 24 horas después de la dosis de carga.",
-      "via": "IV",
-      "nota": "Contraindicado en cardiopatías. Vigilar constantes vitales, puede dar hipotensión o arritmias (alarga el intervalo QT). Concentración máxima 10 mg/ml; no compatible con suero glucosado.",
-      "page": 6,
-      "page_2024": 6
-    },
-    {
-      "farmaco": "levetiracetam",
-      "indicacion": "cualquier status convulsivo, estatus mioclónico (tras benzodiacepinas y valproico) y estatus no convulsivo",
-      "dosis": "Dosis de carga iv: 40 mg/kg (30-60 mg/kg) (dosis máxima 1.5 g). Se administra diluido en 100 ml (SF5%, G5%, Ringer lactato) en 10-15 minutos. Dosis de mantenimiento de 25-30 mg/kg cada 12 horas.",
-      "via": "IV",
-      "nota": "No tiene interacciones conocidas con otros fármacos; se excreta vía renal. En caso de insuficiencia renal, sobre todo en diálisis, precisa ajuste de dosis.",
-      "page": 7,
-      "page_2024": 7
+      "x": "Levetiracetam, entre los fármacos de segunda línea (tras las benzodiacepinas): indicado en cualquier estatus, especialmente no convulsivo y mioclónico; pocas interacciones y escasos efectos adversos; valorar como primera elección en pacientes polimedicados, oncohematológicos y en cuidados paliativos.",
+      "cita": "Levetiracetam indicado en cualquier estatus, especialmente en estatus no convulsivo y estatus mioclónico. Pocas interacciones y escasos efectos adversos, valorar como primera elección en pacientes polimedicados, oncohematológicos y en cuidados paliativos.",
+      "page": 8,
+      "auto": false
     }
   ],
   "banderas_rojas": [
-    "Benzodiacepinas: contraindicadas en insuficiencia hepática grave e insuficiencia respiratoria severa; precaución en insuficiencia renal grave. Administrar más de 2 dosis se relaciona con depresión respiratoria.",
-    "Midazolam: tanto dosis bajas como mayores pueden dar lugar a una reacción paradójica.",
-    "Fenobarbital: evitar bolos por vía subcutánea (necrosis por pH elevado); interrumpir el tratamiento si aparecen reacciones dermatológicas; la interrupción brusca tras tratamiento prolongado puede provocar síndrome de abstinencia.",
-    "Ácido valproico: no indicado en hepatopatía, coagulopatía o enfermedad mitocondrial o metabólica; evitar en < 2 años sin diagnóstico. Efectos secundarios: hepatotoxicidad, hiperamoniemia, pancitopenia, pancreatitis hemorrágica.",
-    "Fenitoína: contraindicada en cardiopatías; puede dar hipotensión o arritmias (alarga el intervalo QT); no diluir en suero glucosado; evitar en crisis no convulsivas generalizadas y mioclónicas.",
-    "Levetiracetam: precisa ajuste de dosis en insuficiencia renal, sobre todo en diálisis; se han descrito casos de pancitopenia.",
-    "Diazepam y propofol no recomendados por vía subcutánea."
+    {
+      "x": "Benzodiacepinas: contraindicadas en insuficiencia hepática grave e insuficiencia respiratoria severa; precaución en insuficiencia renal grave.",
+      "cita": "Contraindicaciones: insuficiencia hepática grave, insuficiencia respiratoria severa, precaución en insuficiencia renal grave.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Midazolam: tanto dosis bajas como mayores pueden dar lugar a una reacción paradójica.",
+      "cita": "Tanto dosis bajas como mayores pueden dar lugar a una reacción paradójica.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Diazepam y propofol: no recomendados por vía subcutánea (nota del algoritmo de final de vida).",
+      "cita": "Diazepam y propofol no recomendados por vía subcutánea",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "Fenobarbital: evitar bolos por vía subcutánea, ya que produce necrosis por su pH elevado.",
+      "cita": "Evitar bolos por vía subcutánea ya que produce necrosis por presentar un pH elevado.",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Fenobarbital: interrumpir si aparecen reacciones dermatológicas; la interrupción brusca tras un tratamiento prolongado puede provocar síndrome de abstinencia.",
+      "cita": "Si se presentan reacciones dermatológicas, se debe interrumpir el tratamiento. Una interrupción brusca tras un tratamiento prolongado puede provocar un síndrome de abstinencia.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Valproico: evitar en < 2 años sin diagnóstico, hepatopatía, coagulopatía, enfermedad mitocondrial y metabolopatía.",
+      "cita": "Valproico: evitar en < 2 años sin dx, hepatopatía, coagulopatía, enfermedad mitocondrial y metabolopatía.",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "Valproico: los carbapenemes y la rifampicina reducen sus niveles, por lo que deben evitarse.",
+      "cita": "Los carbapenemes y rifampicina reducen los niveles de valproico por lo que deben evitarse.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Fenitoína: contraindicada en cardiopatías; indicada en estatus parcial.",
+      "cita": "Fenitoína: contraindicado en cardiopatías. Indicado en estatus parcial.",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "Fenitoína: vigilar constantes vitales; puede dar hipotensión o arritmias (alarga el intervalo QT).",
+      "cita": "Vigilar constantes vitales, puede dar hipotensión o arritmias (alarga el intervalo QT).",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Fenitoína: evitar en crisis no convulsivas generalizadas y mioclónicas.",
+      "cita": "Evitar en crisis no convulsivas generalizadas y mioclónicas.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Levetiracetam: en insuficiencia renal, sobre todo en diálisis, precisa ajuste de dosis.",
+      "cita": "En caso de insuficiencia renal, sobre todo en diálisis, precisa ajuste de dosis.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Fenitoína: diluir en suero salino fisiológico, pues no es compatible con suero glucosado.",
+      "cita": "Dilución en suero salino fisiológico pues no es compatible con suero glucosado.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Valproico parenteral: fármaco con riesgo biológico para embarazadas; hay que tomar precauciones para su manejo.",
+      "cita": "Al ser fármaco con riesgo biológico para embarazadas hay que tomar precauciones para su manejo",
+      "page": 5,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Medidas generales: lateralizar la cabeza para evitar la broncoaspiración, aspirar secreciones si es necesario y administrar O2 mediante gafas nasales o mascarilla con el flujo que precise.",
-    "Midazolam intranasal: dividir la mitad de la dosis en cada fosa nasal mediante atomizador (máximo 5 mg por cada orificio nasal).",
-    "En la fase final de vida la dificultad para administrar los antiepilépticos (alteración de la deglución, vómitos, menor absorción o motilidad intestinal) puede aumentar las crisis; conviene tener previsto un plan de actuación y tratamiento."
-  ],
-  "secciones_recomendadas": [
-    "Midazolam",
-    "Fármacos de segunda línea",
-    "Levetiracetam",
-    "EN SITUACIÓN DE FINAL DE VIDA"
+    {
+      "x": "Posición: lateralizar la cabeza para evitar la broncoaspiración.",
+      "cita": "Posición: lateralización de la cabeza para evitar la broncoaspiración.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Midazolam transmucoso: intranasal 0,2-0,5 mg/kg/dosis (máx. 10 mg o 5 mg por cada orificio nasal), dividiendo la mitad de la dosis en cada fosa nasal mediante atomizador; bucal 0,2-0,5 mg/kg/dosis (máx. 10 mg).",
+      "cita": "Intranasal: 0,2-0,5 mg/kg/dosis (máx. 10 mg o 5 mg por cada orificio nasal)/dividir la mitad de la dosis en cada fosa nasal mediante atomizador. Bucal (Buccolam): 0,2-0,5 mg/kg/dosis (máx. 10 mg).",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Midazolam, sin superar el máximo de la posología: usar dosis más bajas en niños con cáncer o fallo orgánico y más altas en niños con afectación neurológica grave.",
+      "cita": "Utilizar dosis más bajas en niños con cáncer o fallo orgánico, y dosis más altas en niños con afectación neurológica grave.",
+      "page": 3,
+      "auto": false
+    },
+    {
+      "x": "En pacientes epilépticos conocidos en la fase final de vida pueden aumentar la frecuencia y la intensidad de las crisis, por el avance de la enfermedad, por procesos intercurrentes que disminuyan el umbral y por la dificultad para administrar los fármacos antiepilépticos.",
+      "cita": "En aquellos pacientes epilépticos conocidos en la fase final de vida puede existir un aumento de la frecuencia y de la intensidad de las crisis como resultado del avance de la enfermedad y de procesos intercurrentes que disminuyan el umbral para desencadenarlas. Otro motivo importante puede ser la dificultad para la administración de los fármacos antiepilépticos (FAES)",
+      "page": 1,
+      "auto": true
+    },
+    {
+      "x": "Oxigenación: la hipoxemia puede ser causa y consecuencia de las convulsiones; una vez lograda la permeabilidad respiratoria, iniciar la ventilación y administrar O2 mediante gafas nasales o mascarilla con el flujo que precisen.",
+      "cita": "Oxigenación. La hipoxemia puede ser causa y consecuencia de las convulsiones. Una vez lograda la permeabilidad respiratoria se iniciará la ventilación y se administrará O2 mediante gafas nasales o mascarilla con el flujo que precisen.",
+      "page": 2,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

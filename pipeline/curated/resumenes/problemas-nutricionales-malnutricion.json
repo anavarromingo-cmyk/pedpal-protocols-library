@@ -1,37 +1,154 @@
 {
   "slug": "problemas-nutricionales-malnutricion",
-  "en_una_frase": "Valoración del riesgo nutricional y la desnutrición en CPP: escalas de cribado, criterios de intervención y particularidades del paciente oncológico y del paciente con patología neurológica.",
+  "en_una_frase": "Valoración del riesgo nutricional y abordaje de la desnutrición en cuidados paliativos pediátricos, con las particularidades del paciente con patología oncológica y del paciente con patología neurológica.",
   "puntos_clave": [
-    "Cribado con escalas: STRONG kids (tiene en cuenta la enfermedad de base; alto riesgo 4), STAMP (riesgo elevado 4) y en oncología SCAN (validada; 3 puntos: iniciar soporte).",
-    "Criterios de intervención en oncología: pérdida de peso >5%, peso/talla <p10, albúmina <3,2mg/dl, pliegue tricipital <p5, descenso de 2 DE de peso o ingesta <80% más de 5 días.",
-    "Favorecer siempre la nutrición oral; NE si la ingesta es insuficiente con tubo digestivo funcionante; NP reservada a tracto digestivo no funcionante.",
-    "En fases finales la nutrición deja de ser un objetivo y puede empeorar otros síntomas y causar disconfort: puede estar indicado no iniciar o retirar el soporte.",
-    "Paciente neurológico: seguimiento cada 1-3 meses, antropometría al menos cada 6 meses y analítica de micronutrientes cada 6-12 meses; descartar disfagia en todos.",
-    "Sospechar disfagia ante sialorrea, comidas prolongadas (>3 horas/día), rechazo o expulsión del alimento, atragantamientos o broncoaspiraciones repetidas; videofluoroscopia."
+    {
+      "x": "Para valorar el riesgo nutricional, la escala STRONG kids podría ser la más aplicable al paciente paliativo, porque tiene en cuenta la presencia de una enfermedad de base subyacente.",
+      "cita": "La escala STRONG kids: Screening Toolfor Riskon Nutritional Statusand Growth ( Tabla1) podría ser la que encontramos con más aplicabilidad para la valoración del paciente paliativo, ya que tiene en cuenta para la estimación del riesgo nutricional la presencia de una enfermedad de base subyacente.",
+      "page": 1,
+      "auto": true
+    },
+    {
+      "x": "Antes de una intervención nutricional hay que definir su objetivo y tener en cuenta los efectos en la calidad de vida, la esperanza de vida, el estado funcional y los deseos de la familia y del paciente.",
+      "cita": "Tras esta valoración del riesgo, debemos plantearnos si es adecuado realizar algún tipo de intervención nutricional. Para ello debemos definir el objetivo que queremos conseguir con dicha intervención y tener en cuenta otros factores como los efectos en la calidad de vida, esperanza de vida, estado funcional en el que se encuentra el paciente y los deseos de la familia y del propio paciente.",
+      "page": 1,
+      "auto": true
+    },
+    {
+      "x": "En las fases finales de la enfermedad la nutrición deja de ser un objetivo y puede empeorar el control de otros síntomas y ocasionar disconfort: puede estar indicado no iniciar o retirar el soporte.",
+      "cita": "Particularmente en las fases finales de la enfermedad, la nutrición deja de ser un objetivo y por el contrario, puede empeorar el control de otros síntomas y ocasionar disconfort, por lo que puede estar indicado no iniciar o retirar el soporte.",
+      "page": 1,
+      "auto": true
+    },
+    {
+      "x": "Paciente con patología oncológica (herramienta de cribado SCAN): SCAN 3 puntos o criterios de intervención indicados en el texto, iniciar soporte nutricional.",
+      "cita": "SCAN 3 puntos o criterios de intervención indicados en el texto: Iniciar soporte nutricional",
+      "page": 9,
+      "auto": false
+    },
+    {
+      "x": "Cuando la ingesta oral es insuficiente y el tracto digestivo es funcionante, nutrición enteral; la nutrición parenteral queda reservada para cuando el tracto digestivo no sea funcionante.",
+      "cita": "Cuando la ingesta oral es insuficiente y siempre que el tracto digestivo sea funcionante, se indicará una nutrición enteral (ver protocolo de Nutrición Enteral). La nutrición parenteral queda reservada para aquellas situaciones en las que el tracto digestivo no sea funcionante.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "Patología neurológica: seguimiento cada 1-3 meses (o mayor periodicidad en lactantes o malnutrición grave), valoración antropométrica al menos cada 6 meses y comprobación analítica anual de micronutrientes.",
+      "cita": "Un seguimiento cada 1-3 meses (o mayor periodicidad para lactantes o niños con malnutrición grave), una valoración antropométrica al menos cada 6 meses (siendo fundamentales la monitorización del peso corporal y la valoración del contenido de masa grasa) y una comprobación analítica anual de micronutrientes son fundamentales para el correcto manejo de estos pacientes.",
+      "page": 3,
+      "auto": false
+    },
+    {
+      "x": "La vía oral es prioritaria siempre que permita una nutrición suficiente, segura, no estresante y no excesivamente prolongada (más de 3 horas en tareas de alimentación); si las comidas interfieren la rehabilitación o afectan gravemente la calidad de vida de los padres, valorar la nutrición enteral.",
+      "cita": "la vía oral debe ser prioritario siempre que ésta permita una nutrición suficiente, segura, no estresante y no excesivamente prolongada (se considera prolongado el empleo de más de 3 horas en tareas relacionadas con la alimentación). Si la duración de las comidas interfiere la rehabilitación del paciente o afecta gravemente la calidad de vida de los padres, debe valorarse la nutrición enteral.",
+      "page": 3,
+      "auto": true
+    }
   ],
-  "farmacos_clave": [],
   "banderas_rojas": [
-    "Signos de alarma de desnutrición en patología neurológica (ESPGHAN): úlceras por decúbito, problemas cutáneos, alteraciones de circulación periférica, Z-score peso/edad <-2, pliegue tricipital o perímetro braquial <p10, retraso del crecimiento.",
-    "Alto riesgo de desnutrición: LLA de medio y alto riesgo, leucemias no linfoides, leucemias/linfomas en recaída, tumores sólidos estadios III/IV, TPH y todo enfermo ya malnutrido.",
-    "En pacientes que no deambulan el cálculo de necesidades puede infraestimar (22%) o sobreestimar (>15%) y llevar al sobrepeso: monitorizar el efecto de cada intervención.",
-    "Riesgo aumentado de deshidratación en el paciente neurológico por dificultad para comunicar la sed, sialorrea o alteraciones de la deglución.",
-    "Comidas de más de 3 horas al día o que interfieren la rehabilitación o la calidad de vida de los padres: valorar nutrición enteral; afectación grave de la deglución: gastrostomía."
+    {
+      "x": "Paciente con patología oncológica, criterio para plantear una intervención nutricional: pérdida de peso >5%.",
+      "cita": "Pérdida de peso >5%",
+      "page": 2,
+      "auto": false
+    },
+    {
+      "x": "Paciente con patología oncológica, criterio para plantear una intervención nutricional: relación peso/talla < percentil 10 o al 90% de la media cuando la talla es >p5.",
+      "cita": "Relación peso/talla < percentil (p) 10 o al 90% de la media cuando la talla es >p5.",
+      "page": 2,
+      "auto": false
+    },
+    {
+      "x": "Paciente con patología oncológica, criterio para plantear una intervención nutricional: albúmina sérica < 3,2mg/dl.",
+      "cita": "Albúmina sérica < 3,2mg/dl",
+      "page": 2,
+      "auto": false
+    },
+    {
+      "x": "Paciente con patología oncológica, criterio para plantear una intervención nutricional: pliegue tricipital (subescapular en <1 año) < p5.",
+      "cita": "Pliegue tricipital(subescapular en <1año) < p5",
+      "page": 2,
+      "auto": false
+    },
+    {
+      "x": "Paciente con patología oncológica, criterio para plantear una intervención nutricional: disminución de peso de 2 desviaciones estándar (DE) con respecto al previo.",
+      "cita": "Disminución de peso 2 desviaciones estándar(DE)con respecto al previo",
+      "page": 2,
+      "auto": false
+    },
+    {
+      "x": "Paciente con patología oncológica, criterio para plantear una intervención nutricional: alteraciones digestivas o ingesta < 80% de los requerimientos estimados durante más de 5 días.",
+      "cita": "Alteraciones digestivas o ingesta < 80% de los requerimientos estimados durante más de 5 días.",
+      "page": 3,
+      "auto": false
+    },
+    {
+      "x": "Signos de alarma de desnutrición en el paciente con patología neurológica (ESPGHAN): signos físicos (úlceras por decúbito, problemas cutáneos, alteraciones en la circulación periférica), pliegue tricipital < percentil 10 para la edad y sexo, perímetro braquial < percentil 10 para la edad y sexo, y retraso del crecimiento.",
+      "cita": "Pliegue tricipital< percentil 10 para la edad y sexo. Perímetro braquial <percentil 10 para la edad y sexo",
+      "page": 10,
+      "auto": false
+    },
+    {
+      "x": "También es signo de alarma de desnutrición en patología neurológica un Z-score de peso para la edad <-2.",
+      "cita": "Z-score de peso para la edad<-2",
+      "page": 10,
+      "auto": false
+    },
+    {
+      "x": "Sospechar trastorno de la deglución ante sialorrea, tiempo prolongado de las comidas, rechazo de la ingesta o expulsión del alimento, atragantamientos o dificultad respiratoria en las comidas y episodios repetidos de broncoespasmo o broncoaspiración.",
+      "cita": "Debemos sospechar que existe un trastorno de la deglución en las siguientes situaciones:",
+      "page": 4,
+      "auto": false
+    },
+    {
+      "x": "En pacientes que no deambulan el cálculo puede infraestimar las necesidades (22%) o sobreestimarlas y llevar al sobrepeso (>15%): seguimiento clínico y monitorización de cada intervención.",
+      "cita": "Como ya se ha mencionado debe considerarse que para los pacientes que no deambulan puede darse tanto una infraestimación de las necesidades (22%) como una sobreestimación que puede llevar al sobrepeso (>15%), de ahí la importancia del seguimiento clínico y la monitorización de los efectos de cada intervención.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Riesgo aumentado de deshidratación por las dificultades para comunicar la sed, la sialorrea o las alteraciones en la deglución.",
+      "cita": "Necesidades de líquidos Requieren especial atención, ya que puede existir un riesgo aumentado de deshidratación por las dificultades para comunicar la sed, la sialorrea o las alteraciones en la deglución.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Si existe una afectación grave de la deglución, indicar gastrostomía.",
+      "cita": "Si por el contrario existe una afectación grave, debemos indicar la realización de una gastrostomía.",
+      "page": 4,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Si no se puede tallar, estimar la estatura con la altura talón-rodilla o la longitud de la tibia (ecuaciones de Stevenson) y pesar en básculas planas para silla de ruedas.",
-    "No usar curvas de crecimiento estándar ni específicas de parálisis cerebral; curvas OMS solo en mayores de 5 años con estatura fiable, o curvas de segmentos corporales/crecimiento cubital.",
-    "La aplicación nutricional de la SEGHNP ofrece escalas de valoración y calculadoras de gasto energético basal con factor de actividad; en niños que no deambulan basta el 60-70% de la energía."
-  ],
-  "secciones_recomendadas": [
-    "DESNUTRICIÓN EN CUIDADOS PALIATIVOS PEDIÁTRICOS",
-    "Cribado nutricional y criterios de intervención",
-    "Evaluación nutricional en el paciente con patología neurológica",
-    "Consideraciones con respecto a los requerimientos nutricionales específicos"
+    {
+      "x": "La videofluoroscopia es la técnica de referencia para el estudio de la disfagia: permite observar la seguridad y eficacia de la deglución con diferentes texturas.",
+      "cita": "La videofluoroscopia es la técnica de referencia para estudio de la disfagia. Permite observar la seguridad y eficacia de la deglución con diferentes texturas mediante una secuencia radiológica.",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "No se recomiendan las curvas de crecimiento estándar ni las específicas para parálisis cerebral, porque los patrones de crecimiento de estos pacientes son heterogéneos y muy diferentes a los de la población sana.",
+      "cita": "No se recomienda el empleo de curvas de crecimiento estándar o específicas para parálisis cerebral porque los patrones de crecimiento de estos pacientes son heterogéneos y muy diferentes a los de la población sana pediátrica.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Pueden emplearse las curvas de la OMS (niños mayores de 5 años con medición fiable de estatura) o curvas para la medición de segmentos corporales (niños mayores de 12 años).",
+      "cita": "Pueden emplearse las curvas de la OMS con ciertas especificaciones (niños mayores de 5 años con medición fiable de estatura), curvas para la medición de segmentos corporales (en niños mayores de 12 años)",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Requerimientos proteicos: los estándares del niño sano, salvo en nutrición enteral (individualizar); aumentarlos en desnutrición severa o úlceras por presión.",
+      "cita": "Requerimientos proteicos Debemos considerar los estándares del niño sano salvo para pacientes sometidos a nutrición enteral, en los que habrá que individualizar. Así mismo, en caso de desnutrición severa o de la existencia de úlceras por presión es necesario aumentarlos.",
+      "page": 6,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

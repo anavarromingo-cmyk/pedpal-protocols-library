@@ -1,93 +1,148 @@
 {
   "slug": "espasticidad",
-  "en_una_frase": "Definición, valoración clínica y tratamiento escalonado (fisioterapia, toxina botulínica, fármacos orales, cirugía) de la espasticidad en niños con enfermedad neurológica en cuidados paliativos.",
+  "en_una_frase": "Definición, valoración clínica con escalas y tratamiento no farmacológico, farmacológico e intervencionista de la espasticidad en niños con enfermedades neurológicas en cuidados paliativos.",
   "puntos_clave": [
-    "Espasticidad: hipertonía con resistencia al estiramiento pasivo dependiente de la velocidad (\"navaja de muelle\"); la rigidez (\"rueda dentada\") es homogénea y no depende de ella.",
-    "Antes de iniciar o modificar fármacos, preguntarse qué factores empeoran la espasticidad (dolor, fiebre, infecciones, agitación, estrés) y si se puede intervenir en ellos.",
-    "La fisioterapia debe optimizarse antes del tratamiento farmacológico: aumenta rangos de movimiento, disminuye el tono y debe mantenerse en domicilio, no de forma puntual.",
-    "Espasticidad focal o segmentaria: toxina botulínica tipo A, infiltraciones cada 4-6 meses, solo si hay contractura dinámica (reducible) y se asegura el estiramiento posterior.",
-    "Espasticidad generalizada: baclofeno oral es el fármaco de elección; alternativas tizanidina, benzodiazepinas (diazepam, clonazepam) y dantroleno (retirado en España en 1998).",
-    "En espasticidad grave y refractaria valorar neuromodulación con baclofeno intratecal; la cirugía ortopédica reequilibra fuerzas articulares y corrige deformidades."
-  ],
-  "farmacos_clave": [
     {
-      "farmaco": "baclofeno",
-      "indicacion": "espasticidad generalizada (fármaco de elección)",
-      "dosis": "Niños de 2-7 años: 2,5 -5 mg/día (3 tomas), aumento gradual semanal hasta un máximo de 30 mg/día. Niños mayores de 8 años: 60 mg/día (3 tomas)",
-      "via": "VO",
-      "nota": "Efectos secundarios: somnolencia, mareo, debilidad, confusión, hipotensión, nauseas, toxicidad renal. En espasticidad grave y refractaria valorar infusión intratecal.",
+      "x": "Espasticidad: aumento del tono basal del músculo (hipertonía) y de su resistencia al estiramiento pasivo, dependiente de la velocidad de la movilización («navaja de muelle»).",
+      "cita": "trastorno motor en el que hay un aumento del tono basal del músculo (es decir, una hipertonía muscular), un aumento de su resistencia al estiramiento pasivo y que además depende de la velocidad de la movilización (rigidez espástica o en “navaja de muelle”)",
+      "page": 1,
+      "auto": true
+    },
+    {
+      "x": "El objetivo terapéutico debe adaptarse a cada paciente y a la fase de la enfermedad; tratamiento siempre individualizado, consensuando al inicio objetivos realistas con el paciente y su familia.",
+      "cita": "En el tratamiento de la espasticidad el objetivo terapéutico debe estar adaptado a cada paciente, en función de la fase o momento de la enfermedad en el que se encuentre. El manejo clínico y el tratamiento debe ser siempre individualizado. Inicialmente se deben de consensuar los objetivos con el paciente y sus familias con expectativas que sean realistas.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Ante un paciente con espasticidad, preguntarse primero qué factores pueden estar empeorándola (p. ej. dolor o disconfort) y si se puede intervenir en ellos; después valorar modificar o iniciar tratamiento farmacológico.",
+      "cita": "Cuando nos encontremos con un paciente con espasticidad nos preguntaremos en primer lugar, qué factores podrían estar empeorando la espasticidad (por ejemplo dolor o disconfort) y si podríamos intervenir en ellos y posteriormente valoraremos la necesidad de modificar o iniciar tratamiento farmacológico.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "La fisioterapia es la principal medida no farmacológica y debe optimizarse antes de iniciar tratamiento farmacológico: aumenta los rangos de movimiento y disminuye el tono muscular.",
+      "cita": "Fisioterapia principalmente. Ésta debe optimizarse previo a iniciar tratamiento farmacológico. La fisioterapia en la espasticidad ha demostrado un aumento de los rangos de movimiento y una disminución del tono muscular",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Toxina botulínica: en cuidados paliativos pediátricos es un complemento de los antiespásticos orales y puede ser muy útil para el dolor al disminuir la espasticidad del músculo.",
+      "cita": "En cuidados paliativos pediátricos es un complemento de los antiespásticos orales y además puede ser muy útil en el tratamiento del dolor al conseguir disminuir la espasticidad del músculo.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Baclofeno: se considera el fármaco de elección en la espasticidad generalizada.",
+      "cita": "Baclofeno: es un análogo estructural del GABA y estimula los receptores gabaérgicos del asta posterior medular. Se considera el fármaco de elección en la espasticidad generalizada.",
       "page": 7,
-      "page_2024": 6
+      "auto": true
     },
     {
-      "farmaco": "tizanidina",
-      "indicacion": "espasticidad generalizada; propuesta como primera elección en pie equino junto a toxina botulínica tipo A",
-      "dosis": "Niños de 18 meses a 7 años; 1 mg/día en dosis nocturna. Niños de 7 a 12 años: 2 mg/día en dos dosis. Niños mayores de 12 años: 4 mg/día en dos tomas, hasta dosis de mantenimiento 12- 24 mg/día (dosis máxima 36 mg al día)",
-      "via": "VO",
-      "nota": "Estudios pediátricos: eficacia similar al adulto con 0,1-0,2 mg/kg/día en 2-3 tomas. Contraindicado si disfunción hepática; evitar con fluvoxamina o ciprofloxacino; sedación e hipotensión.",
+      "x": "En espasticidad grave y refractaria, valorar otras técnicas como la neuromodulación mediante infusión intratecal de baclofeno.",
+      "cita": "En casos de espasticidad grave y refractaria se deben valorar otras técnicas como la neuromodulación a través de la infusión intratecal de Baclofeno en líquido cefalorraquídeo.",
       "page": 8,
-      "page_2024": 6
-    },
-    {
-      "farmaco": "diazepam",
-      "indicacion": "espasticidad generalizada (benzodiazepina más usada)",
-      "dosis": "dosis inicio 0,1 mg/kg/día en 2-3 tomas, incrementar según eficacia y tolerancia hasta 0,8 mg/kg/día, máximo 40 mg/día",
-      "via": "VO",
-      "nota": "Contraindicado si insuficiencia hepática, miastenia grave, insuficiencia respiratoria, glaucoma de ángulo cerrado. Fenobarbital, carbamazepina, fenitoína y rifampicina disminuyen su efecto.",
-      "page": 8,
-      "page_2024": 6
-    },
-    {
-      "farmaco": "clonazepam",
-      "indicacion": "hemiparesia espástica (estudios con buenos resultados)",
-      "dosis": "dosis inicial 0,25 -1 mg por la noche, incrementar hasta 3 mg al día",
-      "via": "",
-      "nota": "Eficacia similar al baclofeno pero mayor sedación y debilidad.",
-      "page": 8,
-      "page_2024": 7
-    },
-    {
-      "farmaco": "dantroleno",
-      "indicacion": "espasticidad generalizada, acción periférica sobre la fibra muscular",
-      "dosis": "Inicio: 1mg/kg/día (en dos tomas). Incrementos semanales de 0,5 mg/kg/día hasta dosis de mantenimiento: 2 mg/kg/dosis en tres tomas al día. Algunos pacientes precisan dosis de 2 mg/kg/dosis en cuatro tomas al día. Dosis máxima diaria: 400 mg/día.",
-      "via": "VO",
-      "nota": "Retirado en España en 1998 (medicamento extranjero). Bastantes efectos secundarios: hipertermia maligna, síndrome neuroléptico maligno, debilidad muscular, hepatotoxicidad. Contraindicado si enfermedad hepática activa.",
-      "page": 8,
-      "page_2024": 7
-    },
-    {
-      "farmaco": "toxina botulínica tipo A",
-      "indicacion": "espasticidad focal o segmentaria; prevención primaria de deformidades y tratamiento del dolor",
-      "dosis": "Dosificación en función del peso del paciente, tamaño del músculo y tipo de toxina. Infiltraciones cada 4-6 meses",
-      "via": "Infiltración",
-      "nota": "Contraindicada si hipersensibilidad a la toxina e infección en el lugar de infiltración. No usar con otra toxina botulínica, aminoglucósidos, anticolinérgicos u otros bloqueantes neuromusculares.",
-      "page": 15,
-      "page_2024": 5
+      "auto": true
     }
   ],
   "banderas_rojas": [
-    "Replantear el diagnóstico de PCI si no hay etiología clara, hay historia familiar, datos de regresión, anomalías oculomotoras, movimientos involuntarios, ataxia, atrofia muscular, déficit sensitivo o visceromegalias.",
-    "La espasticidad puede empeorar en respuesta al dolor, fiebre, infecciones, agitación, irritabilidad y estrés: buscar factores desencadenantes.",
-    "Dantroleno: hipertermia maligna, síndrome neuroléptico maligno y debilidad muscular; contraindicado si enfermedad hepática activa.",
-    "Diazepam contraindicado en miastenia grave, insuficiencia respiratoria, insuficiencia hepática y glaucoma de ángulo cerrado.",
-    "Toxina botulínica: no usar de forma concomitante con otro tipo de toxina botulínica, aminoglucósidos, fármacos anticolinérgicos y otros bloqueantes neuromusculares.",
-    "La inestabilidad de cadera es la deformidad más severa y foco de dolor nociceptivo y neuropático; la cifoescoliosis puede condicionar insuficiencia respiratoria restrictiva progresiva."
+    {
+      "x": "Replantear el diagnóstico de PCI cuando no se encuentra una causa, sobre todo si: no hay etiología clara, hay historia familiar de «parálisis cerebral infantil», aparecen datos de regresión o existen anomalías oculomotoras, movimientos involuntarios, ataxia, atrofia muscular, déficit sensitivo o visceromegalias.",
+      "cita": "Hay niños diagnosticados inicialmente de PCI en los que no se encuentra una causa, en estos casos debemos replantearnos el diagnóstico, haciendo un diagnóstico diferencial sobre todo en:",
+      "page": 5,
+      "auto": false
+    },
+    {
+      "x": "La espasticidad puede empeorar con dolor, fiebre, infecciones y otras causas de disconfort; la agitación, la irritabilidad y el estrés pueden aumentarla: buscar factores desencadenantes.",
+      "cita": "¿Existen factores desencadenantes? | La espasticidad puede empeorar en respuesta al dolor, fiebre, infecciones y otras causas que causen disconfort. La agitación, irritabilidad y el estrés pueden aumentar la espasticidad.",
+      "page": 13,
+      "auto": true
+    },
+    {
+      "x": "La inestabilidad de la cadera es la deformidad osteoarticular más severa y con mayor repercusión funcional, y un foco importante de dolor nociceptivo y neuropático.",
+      "cita": "Dentro de las deformidades osteoarticulares la más severa y con mayor repercusión a nivel funcional es la inestabilidad de la cadera, que además de ser un foco importante de dolor nociceptivo y neuropático, limitará la sedestación y muchas actividades de la vida diaria.",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "La cifoescoliosis es foco de dolor mixto y puede condicionar una insuficiencia respiratoria restrictiva progresiva.",
+      "cita": "La cifoescoliosis es también una deformidad frecuente que será un foco de dolor mixto, limitará la sedestación y la adaptación en silla o movilizaciones, y además puede condicionar la aparición de una insuficiencia respiratoria restrictiva progresiva",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Baclofeno, interacciones: antidepresivos (especialmente imipramina, amitriptilina y clorimipramina: pérdida de memoria inmediata y mayor efecto miorrelajante); alcohol y depresores del SNC (potenciación de la sedación).",
+      "cita": "Interacciones con fármacos antidepresivos (especialmente Imipramina, Amitriptilina y Clorimipramina): pérdida de memoria inmediata e incremento del efecto miorrelajante. Alcohol y depresores del SNC: potenciación de efectos sedantes.",
+      "page": 15,
+      "auto": true
+    },
+    {
+      "x": "Tizanidina: contraindicada si disfunción hepática e hipersensibilidad; evitar la administración concomitante con fluvoxamina o ciprofloxacino; precaución con fenitoína, baclofeno, etanol y otros depresores del sistema nervioso central.",
+      "cita": "Contraindicado si disfunción hepática e hipersensibilidad. Evitar administración concomitante con Fluvoxamina o Ciprofloxacino. Precaución con fenitoía, Baclofeno, Etanol y otros depresores del sistema nervioso central",
+      "page": 15,
+      "auto": true
+    },
+    {
+      "x": "Diazepam: contraindicado si hipersensibilidad, insuficiencia hepática, miastenia grave, insuficiencia respiratoria o glaucoma de ángulo cerrado.",
+      "cita": "Contraindicado si hipersensibilidad, insuficiencia hepática, miastenia grave, insuficiencia respiratoria, glaucoma de ángulo cerrado.",
+      "page": 15,
+      "auto": true
+    },
+    {
+      "x": "Toxina botulínica: no usar de forma concomitante con otro tipo de toxina botulínica, aminoglucósidos, fármacos anticolinérgicos ni otros bloqueantes neuromusculares.",
+      "cita": "No usar de forma concomitante con otro tipo de toxina botulínica, aminoglucosidos, fármacos anticolinérgicos y otros bloqueantes neuromusculares.",
+      "page": 15,
+      "auto": true
+    },
+    {
+      "x": "Dantroleno: produce bastantes efectos secundarios (hipertermia maligna, síndrome neuroléptico maligno) y debilidad muscular; fue retirado en España en 1998.",
+      "cita": "Produce bastantes efectos secundarios (hipertermia maligna, síndrome neuroléptico maligno) y debilidad muscular. Fue retirado en España en 1998.",
+      "page": 8,
+      "auto": true
+    },
+    {
+      "x": "Dantroleno: contraindicado si hipersensibilidad o enfermedad hepática activa.",
+      "cita": "Contraindicado si hipersensibilidad, enfermedad hepática activa.",
+      "page": 15,
+      "auto": true
+    },
+    {
+      "x": "Toxina botulínica: contraindicada si hipersensibilidad a la toxina e infección en el lugar de la infiltración.",
+      "cita": "Contraindicada si hipersensibilidad a la toxina e infección en el lugar de la infiltración.",
+      "page": 15,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Escala de Tardieu: una amplia diferencia entre R1 (estiramiento rápido) y R2 (lento) indica gran componente dinámico; una pequeña diferencia, contractura predominantemente fija.",
-    "La toxina botulínica no será efectiva si el trastorno depende de la debilidad de los antagonistas y no de la espasticidad; asegurar estiramiento varias horas diarias tras la infiltración.",
-    "Además de antiespásticos, asociar en ocasiones tratamiento empírico del dolor; la actividad muscular mantenida aumenta el gasto energético y puede desembocar en malnutrición."
-  ],
-  "secciones_recomendadas": [
-    "TRATAMIENTO",
-    "ESPASTICIDAD GENERALIZADA: FÁRMACOS VÍA ORAL",
-    "ESPASTICIDAD FOCAL O SEGMENTARIA: TOXINA BOTULÍNICA TIPO A",
-    "ALGORITMOS"
+    {
+      "x": "Escala de Tardieu: una amplia diferencia entre R1 (estiramiento rápido) y R2 (estiramiento lento) indica un gran componente dinámico; una pequeña diferencia, una contractura predominantemente fija.",
+      "cita": "Una amplia diferencia entre “R1” y “R2” indica la presencia de un gran componente dinámico, mientras que una pequeña diferencia significa que estamos en presencia de una contractura muscular predominantemente fija.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "Condiciones para que la toxina botulínica sea efectiva: contractura dinámica (reducible), número limitado de grupos musculares, que el trastorno dependa primariamente de la espasticidad de un grupo muscular y no de la debilidad de los antagonistas, que la espasticidad interfiera en la funcionalidad y que se asegure el estiramiento muscular al menos varias horas diarias tras la infiltración.",
+      "cita": "Las condiciones precisas para que la toxina botulínica resulte efectiva son:",
+      "page": 7,
+      "auto": false
+    },
+    {
+      "x": "No solo emplear fármacos antiespásticos: en ocasiones hay que asociar tratamiento empírico del dolor.",
+      "cita": "De ahí la importancia no sólo de emplear fármacos anti espásticos, sino en ocasiones asociar tratamiento empírico del dolor.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Otros fármacos orales citados por el protocolo: gabapentina, clonidina, ciproheptadina y derivados del cannabis.",
+      "cita": "Otros fármacos: gabapentina, clonidina, ciproheptadina y derivados del cannabis",
+      "page": 8,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

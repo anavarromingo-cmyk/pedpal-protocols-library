@@ -1,94 +1,160 @@
 {
   "slug": "sedacion-paliativa",
-  "en_una_frase": "Indicaciones, características, fármacos, consentimiento, monitorización y marco deontológico de la sedación paliativa en niños con enfermedades limitantes de la vida y sufrimiento refractario.",
+  "en_una_frase": "Definición, indicaciones, características, fármacos, consentimiento, monitorización, seguimiento y marco deontológico de la sedación paliativa en pediatría.",
   "puntos_clave": [
-    "La sedación paliativa alivia el sufrimiento refractario con uso proporcional y monitorizado de fármacos que reducen la conciencia; no emplear términos como «sedación terminal».",
-    "Síntoma refractario: no se controla con los medios disponibles por un equipo experto en un plazo proporcionado; distinto del síntoma difícil, que precisa intervención intensiva.",
-    "Usar el nivel de sedación más bajo que alivie el sufrimiento y mantenga la función interactiva; continua si se prevé empeoramiento al bajarla, intermitente si se prevé mejoría.",
-    "Midazolam es el fármaco de elección (IV o SC, bolus de inducción y perfusión continua con rescates); levomepromazina si el síntoma refractario es delirium o falla midazolam.",
-    "Al iniciar la sedación se mantiene el tratamiento sintomático (opioides, escopolamina para estertores); la medicación oral debe suspenderse o cambiarse a una vía alternativa.",
-    "No se requiere consentimiento escrito, pero debe registrarse en la historia clínica la deliberación, indicación, fármacos, vías y dosis; monitorizar cada 15-30 min al inicio."
-  ],
-  "farmacos_clave": [
     {
-      "farmaco": "midazolam",
-      "indicacion": "fármaco de elección en sedación paliativa (todo el espectro, superficial a profunda)",
-      "dosis": "Dosis de inducción 0,03-0,05 mg/kg. Repetir si es necesario dosis cada 5 minutos (máx 2 mg). Ritmo de mantenimiento inicial: 25%-33% de la dosis de inicio acumulada. Dosis habitual de inicio 0,05-0,1 mg/kg/h. Aumentar según necesidades. Dosis máxima diaria: 240 mg/día (10 mg/h)",
-      "via": "IV / SC (bucal o nasal como inductor en urgencia)",
-      "nota": "Vigilar tolerancia si recibía benzodiacepinas previamente. Compatible con la mayoría de fármacos. Utilizar con precaución en fallo hepático por posible efecto paradójico.",
-      "page": 4,
-      "page_2024": 3
+      "x": "La sedación paliativa busca aliviar el sufrimiento refractario mediante el uso proporcional y monitorizado de medicamentos que reducen la conciencia en pacientes con enfermedades limitantes de la vida.",
+      "cita": "La sedación paliativa tiene como objetivo aliviar el sufrimiento refractario mediante el uso proporcional y monitorizado de medicamentos destinados a reducir la conciencia en pacientes con enfermedades limitantes de la vida.",
+      "page": 1,
+      "auto": true
     },
     {
-      "farmaco": "levomepromazina",
-      "indicacion": "primera elección si el síntoma refractario es el delirium o si falla el midazolam; adyuvante con ansiedad o delirium",
-      "dosis": "0,25-1 mg/kg/24 h (infusión SC continua o dividiendo la dosis cada 8 horas). Aumentar según se precise. Dosis máxima en adultos: 100 mg/día",
-      "via": "IV / SC",
-      "nota": "",
-      "page": 4,
-      "page_2024": 3
+      "x": "Síntoma refractario: el que no puede controlarse adecuadamente con los medios disponibles por un equipo experto en un plazo de tiempo proporcionado.",
+      "cita": "Síntoma refractario: aquel que no puede controlarse adecuadamente con los medios disponibles por un equipo experto en un plazo de tiempo proporcionado.",
+      "page": 1,
+      "auto": true
     },
     {
-      "farmaco": "clorpromazina",
-      "indicacion": "sedación paliativa (neuroléptico)",
-      "dosis": "1-2 mg/kg/día (infusión IV continua o dividiendo la dosis cada 6- 8 horas). Inducción en adultos: 12.5-25 mg. Dosis máxima en adultos: 300 mg/día",
-      "via": "IV",
-      "nota": "",
-      "page": 4,
-      "page_2024": 3
+      "x": "Escenarios de uso: sufrimiento refractario, emergencia con muerte inminente, destete del soporte vital al final de la vida si el sufrimiento refractario es previsible, y respiro temporal (sedación de duración limitada).",
+      "cita": "Como respiro temporal cuando el tratamiento no puede lograr alivio suficiente en un plazo aceptable, se trata de una sedación de duración limitada.",
+      "page": 1,
+      "auto": false
     },
     {
-      "farmaco": "fenobarbital",
-      "indicacion": "especialmente indicado cuando el síntoma a tratar son crisis epilépticas o irritabilidad de origen central",
-      "dosis": "Dosis de inducción 1-6 mg/kg. Si precisa repetir dosis, 1- 2 mg/kg cada 5 minutos. Ritmo de mantenimiento inicial 1 mg/kg/h. Aumentar según necesidades",
-      "via": "IV / SC / IM",
-      "nota": "Presenta interacciones farmacocinéticas con múltiples fármacos. Distintas diluciones según vías. No mezclar con otros fármacos.",
-      "page": 4,
-      "page_2024": 4
+      "x": "En general, usar el nivel de sedación más bajo posible que alivie adecuadamente el sufrimiento y mantenga la función interactiva del paciente en la medida de lo posible.",
+      "cita": "En general, se recomienda utilizar el nivel más bajo posible que proporcione un alivio adecuado del sufrimiento y mantenga la función interactiva del paciente en la medida de lo posible",
+      "page": 2,
+      "auto": true
     },
     {
-      "farmaco": "propofol",
-      "indicacion": "sedación de duración prevista entre horas-días, en medio hospitalario por profesional experto",
-      "dosis": "Dosis de inducción 0,25-0,5 mg/kg. Repetir dosis si es preciso a los 30 min. Ritmo de mantenimiento inicial 1-4 mg/kg/h. Si mal control: aumentar 0,5 mg/kg/h cada 30 min. No emplear >3 mg/kg/h prolongadamente",
-      "via": "IV",
-      "nota": "Farmacológicamente muy inestable; interacciones importantes con otros fármacos. Manejo por equipo con experiencia. Irritante en punto de infusión. Riesgo de infección. Administrar por vía única por incompatibilidades.",
-      "page": 4,
-      "page_2024": 4
+      "x": "Midazolam es el fármaco de elección: vida media corta, abarca todo el espectro de sedación, vía intravenosa o subcutánea y pocas interacciones e incompatibilidades.",
+      "cita": "Midazolam: Fármaco de elección. Tiene como principales ventajas una vida media corta, la posibilidad de abarcar todo el espectro de sedación (superficial a profunda), la posibilidad de administrarse tanto por vía intravenosa como subcutánea y que presenta pocas interacciones e incompatibilidades con otros fármacos o con situaciones de fallo renal o hepático.",
+      "page": 3,
+      "auto": true
     },
     {
-      "farmaco": "dexmedetomidina",
-      "indicacion": "sedación con alivio del dolor y preservación de conciencia simultánea (rol potencial en pediatría)",
-      "dosis": "1 ug/kg en 10 min e iniciar infusión a 0,1 ug/kg/h. Ritmo de mantenimiento inicial 0,1-1 ug/kg/h. Titular en función respuesta en primeros 10 minutos",
-      "via": "IV",
-      "nota": "Monitorizar bradicardia e hipotensión en primeros minutos y en cambios de dosis.",
-      "page": 4,
-      "page_2024": 4
+      "x": "Al iniciar la sedación hay que reevaluar el resto de tratamientos; en general el tratamiento sintomático (opioides para dolor o disnea, escopolamina para estertores) debe mantenerse, porque suspenderlo puede empeorar al paciente.",
+      "cita": "En el momento de iniciar una sedación paliativa se deben reevaluar el resto de terapias y tratamientos. En general, el tratamiento sintomático (p. ej. opioides para dolor o disnea, escopolamina para los estertores, etc.), debe mantenerse, pues su suspensión puede empeorar la situación del paciente.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "No es necesaria la firma de un consentimiento escrito, pero hay que registrar en la historia clínica el proceso de deliberación, los acuerdos, los motivos de indicación y los fármacos, vías y dosis empleados.",
+      "cita": "No es necesario la firma de un consentimiento escrito. Se debe registrar en la historia clínica todos los puntos referentes al proceso de deliberación, acuerdos, motivos de indicación, fármacos, vías y dosis empleadas.",
+      "page": 5,
+      "auto": true
     }
   ],
   "banderas_rojas": [
-    "Midazolam: dosis máxima diaria 240 mg/día (10 mg/h); pueden ser necesarias dosis más altas por tolerancia si recibía benzodiacepinas; precaución en fallo hepático por posible efecto paradójico.",
-    "Propofol: sólo vía intravenosa y en medio hospitalario por profesional experto; no emplear >3 mg/kg/h prolongadamente; irritante, riesgo de infección, administrar por vía única.",
-    "Fenobarbital: interacciones farmacocinéticas con múltiples fármacos; no mezclar con otros fármacos.",
-    "Dexmedetomidina: monitorizar bradicardia e hipotensión en los primeros minutos y en los cambios de dosis.",
-    "La sedación suele suponer la pérdida de la vía oral: toda medicación oral debe suspenderse o cambiarse a una vía alternativa.",
-    "No procede la objeción de conciencia del médico para no realizar la sedación paliativa cuando está indicada y existe consentimiento."
+    {
+      "x": "Mientras dure la sedación hay que vigilar el confort, la estabilidad clínica, el nivel de sedación, los efectos adversos y la existencia de causas de sufrimiento distintas de la que originó el síntoma.",
+      "cita": "Mientras se mantenga la sedación, debe vigilarse el estado de confort del paciente, su estabilidad clínica, el nivel de sedación, la aparición de efectos adversos, y la existencia de causas de sufrimiento diferentes a la que originó el síntoma.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Al inicio, monitorización estrecha (cada 15-30 minutos) para ajustar la dosis de inducción y el ritmo de mantenimiento.",
+      "cita": "Monitorización inicial: Al inicio, se recomienda una monitorización estrecha (cada 15-30 minutos) para ajustar la dosis de inducción y el ritmo de mantenimiento.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "En una sedación planteada como reversible, la monitorización de constantes vitales debe ser más estrecha.",
+      "cita": "Ante una sedación planteada como reversible la monitorización de constantes vitales deberá ser más estrecha.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Si se plantea suspender la sedación por mejoría del control sintomático, hacerlo de modo gradual y con monitorización estrecha.",
+      "cita": "En caso de plantearse la suspensión de la sedación paliativa por mejoría del control sintomático del paciente, este debe hacerse de modo gradual con una monitorización estrecha.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "La sedación suele suponer la pérdida de la vía oral: toda la medicación que se administrase por esa vía debe suspenderse o cambiarse a una vía alternativa.",
+      "cita": "La sedación suele suponer la pérdida de la vía oral, por lo que toda medicación que se administrase por esa vía debe suspenderse o cambiarse a una vía alternativa.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Midazolam: dosis máxima diaria 240 mg/día (10 mg/h); vigilar tolerancia si recibía benzodiacepinas previamente; utilizar con precaución en fallo hepático por posible efecto paradójico.",
+      "cita": "-Dosis máxima diaria: 240 mg/día (10 mg/h) -Vigilar tolerancia si recibía benzodiacepinas previamente. -Compatible con la mayoría de fármacos. -Utilizar con precaución en fallo hepático por posible efecto paradójico.",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Propofol: farmacológicamente muy inestable, solo por vía intravenosa y generalmente en medio hospitalario por profesional experto; se suele reservar para sedaciones de duración prevista de horas-días.",
+      "cita": "Propofol: farmacológicamente muy inestable, sólo se puede administrar por vía intravenosa y generalmente se utiliza en medio hospitalario por parte de profesional experto. Presenta interacciones importantes con otros fármacos. Se suele reservar para casos en los que se prevé una duración de sedación de entre horas-días.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "Propofol: manejo por equipo con experiencia; no emplear >3 mg/kg/h prolongadamente; irritante en el punto de infusión, riesgo de infección y administrar por vía única por incompatibilidades.",
+      "cita": "Propofol | IV | 0,25-0,5 mg/kg Repetir dosis si es preciso a los 30 min | 1-4 mg/kg/h Si mal control: aumentar 0,5 mg/kg/h cada 30 min | -Manejo por equipo con experiencia. -No emplear >3 mg/kg/h prolongadamente. -Irritante en punto de infusión. -Riesgo de infección. -Administrar por vía única por incompatibilidades.",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Fenobarbital: distintas diluciones según vías; no mezclar con otros fármacos.",
+      "cita": "Fenobarbital | IV SC IM | 1-6 mg/kg Si precisa repetir dosis, 1-2 mg/kg cada 5 minutos | 1 mg/kg/h Aumentar según necesidades | -Distintas diluciones según vías. -No mezclar con otros fármacos.",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Dexmedetomedina: monitorizar bradicardia e hipotensión en los primeros minutos y en los cambios de dosis.",
+      "cita": "Dexmedetomedina | IV | 1 ug/kg en 10 min e iniciar infusión a 0,1 ug/kg/h | 0,1-1 ug/kg/h Titular en función respuesta en primeros 10 minutos | -Rol potencial en pediatría con alivio del dolor y preservación de conciencia simultánea -Monitorizar bradicardia e hipotensión en primeros minutos y en cambios de dosis.",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "No procede la objeción de conciencia del médico como justificación para no realizar la sedación paliativa cuando sea necesaria, para el alivio del sufrimiento de las personas con enfermedad en fase terminal.",
+      "cita": "No procede por tanto la objeción de conciencia del médico como justificación para no realizar la sedación paliativa cuando sea necesaria, para el alivio del sufrimiento de las personas con enfermedad en fase terminal.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Durante la administración de bolos se debe monitorizar la aparición de posibles efectos secundarios del fármaco en cuestión.",
+      "cita": "Durante la administración de bolos, se debe monitorizar la aparición de posibles efectos secundarios del fármaco en cuestión.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Fenobarbital: especialmente indicado cuando el síntoma a tratar son crisis epilépticas o irritabilidad de origen central; presenta interacciones farmacocinéticas con múltiples fármacos.",
+      "cita": "Fenobarbital: especialmente indicado cuando el síntoma a tratar son crisis epilépticas o irritabilidad de origen central. Presenta interacciones farmacocinéticas con múltiples fármacos.",
+      "page": 3,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Abordar la posibilidad de sedación antes de una crisis de mal control sintomático, presentándola como una herramienta médica bien conocida que garantiza la ausencia de sufrimiento si fuera necesaria.",
-    "En caso de urgencia pueden emplearse las presentaciones bucales o nasales de midazolam como inductores; alternativas de administración rápida: transmucosa, intramuscular.",
-    "En domicilio hay que garantizar un control adecuado y apoyo a los cuidadores 24 horas al día; en final de vida priorizar el confort y evitar mediciones invasivas.",
-    "Si se suspende la sedación por mejoría, hacerlo de modo gradual con monitorización estrecha; prever los efectos secundarios y su tratamiento (p. ej. anticolinérgicos para estertores)."
-  ],
-  "secciones_recomendadas": [
-    "Elección de fármacos",
-    "Características de la sedación",
-    "Monitorización",
-    "Consentimiento informado y registro"
+    {
+      "x": "Levomepromazina: de primera elección si el síntoma refractario es el delirium o si falla el midazolam.",
+      "cita": "Levomepromazina: de primera elección si el síntoma refractario es el delirium o si falla el midazolam.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "Sedación intermitente: se puede plantear cuando se prevea mejoría del síntoma, exista un componente de ansiedad aparentemente transitorio o se quiera mantener al paciente con momentos puntuales de consciencia.",
+      "cita": "Intermitente: se puede plantear cuando se prevea mejoría del síntoma, existe un componente de ansiedad aparentemente transitorio o si se quiere mantener al paciente con momentos puntuales de consciencia.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Si es previsible que se necesite sedación, abordarlo antes de una crisis de mal control sintomático, presentándola como una herramienta médica bien conocida que garantiza la ausencia de sufrimiento.",
+      "cita": "Cuando sea previsible que se vaya a necesitar una sedación paliativa se recomienda abordar esta posibilidad antes de que se produzca una crisis de mal control sintomático, presentando la disminución del nivel de conciencia como una herramienta médica bien conocida que le garantiza la ausencia de sufrimiento en caso de ser necesario.",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Para controlar el nivel de sedación puede emplearse la escala de Ramsay; para cada síntoma, una escala específica.",
+      "cita": "Para controlar el nivel de sedación puede emplearse la escala de Ramsay, mientras que para cada síntoma puede emplearse una escala específica.",
+      "page": 5,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

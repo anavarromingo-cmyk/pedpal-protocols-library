@@ -1,121 +1,136 @@
 {
   "slug": "cuidados-al-final-de-la-vida-en-neonatologia",
-  "en_una_frase": "Cuidados paliativos perinatales y neonatales (control de síntomas, sedoanalgesia, adecuación del esfuerzo terapéutico, duelo) para neonatólogos, obstetras y equipos de paliativos.",
+  "en_una_frase": "Cuidados paliativos perinatales y neonatales: control de síntomas y sedoanalgesia, plan de cuidados perinatales, adecuación del esfuerzo terapéutico, actuación tras el fallecimiento y duelo perinatal.",
   "puntos_clave": [
-    "Cuidados integrales e interdisciplinares para feto/neonato y familia, compatibles con el tratamiento curativo, desde el diagnóstico hasta el duelo.",
-    "Medidas generales: confort e intimidad, familia partícipe, retirar vías y tratamientos innecesarios; en fase final suspender la monitorización o las alarmas.",
-    "Analgesia pautada con N-PASS, no 'si dolor'; los opiáceos no tienen dosis techo; rescate de morfina 1/6 de la dosis diaria con reajuste cada 24 h; si no control, subir 25-30%.",
-    "Sedación paliativa: consentimiento verbal o escrito de los progenitores; midazolam es el fármaco más usado, combinado con un opiáceo; no debe hacerse exclusivamente con opioides.",
-    "Algoritmo: N-PASS cada 20-30 min (o 20 min tras cada intervención), objetivo sedación profunda con control del dolor; en fase final mejor subir la perfusión que dar bolos.",
-    "AET: retirar soporte por la mañana con el equipo habitual; suspender relajantes, bajar FiO2, aspirar orofaringe, extubar, apagar ventilador; la muerte puede tardar o no producirse."
-  ],
-  "farmacos_clave": [
     {
-      "farmaco": "fentanilo",
-      "indicacion": "analgesia en sedoanalgesia neonatal y algoritmo de sedación paliativa",
-      "dosis": "- Bolo iv: 0,5-4 µg/kg cada 2-4 h muy lento (5 min) - Perfusión iv: 1-3 µg/kg/h - Intranasal: 1 µg/kg",
-      "via": "IV/intranasal",
-      "nota": "Algoritmo (p. 3): Paciente sin analgesia previa: Fentanilo dosis cargar 2 microgr/kg iv en 10 minutos; iniciar perfusión de Fentanilo 3 microg/kg/h; aumentar 1 microg/kg/hora cada 30 minutos hasta puntuación < 4. Si no lleva sedoanalgesia (depresión neurológica o gran pretérmino), iniciar perfusión de Fentanilo a 2 micro/kg/hora. Inicio más rápido y menor duración que morfina; RAM de los opiáceos.",
-      "page": 20,
-      "page_2024": 15
+      "x": "Cuidados integrales e interdisciplinares para el feto o neonato y su familia, compatibles con los tratamientos curativos, desde el diagnóstico hasta la fase de duelo.",
+      "cita": "Son cuidados de carácter integral e interdisciplinar, orientados tanto al feto o neonato como a su familia, compatibles con los tratamientos curativos, en aquellas enfermedades que amenazan o limitan la vida y que se ofrecen desde el momento del diagnóstico, se continúan a lo largo de su curso y se mantienen tras el fallecimiento durante la fase de duelo.",
+      "page": 1,
+      "auto": true
     },
     {
-      "farmaco": "midazolam",
-      "indicacion": "sedación paliativa (fármaco más utilizado); sedación intranasal ante muerte inminente en paritorio",
-      "dosis": "- Bolo iv/sc 0.05-0.2 mg/kg en 5 min c/2-4 h - Perfusión iv/sc: 0.01-0.1 mg/kg/h (0.15-1 mcg/kg/min). Ajustar dosis según desarrollo de tolerancia. - Nasal: 0.2-0.3 mg/kg/dosis de la solución inyectable 5 mg/mL. c/2-4 h - Sublingual: 0.2 mg/kg/dosis de la solución inyectable 5 mg/ml mezclado con jarabe. c/2-4 h - VO: 0.25 mg/kg/dosis c/2-4 h",
-      "via": "IV/SC/nasal/sublingual/VO",
-      "nota": "Algoritmo (p. 3), paciente con analgesia previa sin sedación: Iniciar Midazolam dosis de carga 0.2 mg/kg/4h en 20 minutos; perfusión 0.01-0.1 mg/kg/hora (0.15-1 mcg/kg/min); si no se consigue sedación adecuada valorar propofol. Sedación, ansiolisis, relajación muscular, pero no analgesia. RAM: depresión respiratoria, convulsiones, mioclonías. Antídoto según el texto: Flumacenil 5-10 mg/Kg/dosis (unidad tal cual en el original; revisar).",
-      "page": 21,
-      "page_2024": 15
+      "x": "Analgesia pautada a intervalos regulares según N-PASS y reevaluaciones; no es aconsejable la analgesia a «si dolor».",
+      "cita": "Según escores de la escala (NPASS) y reevaluaciones, revisar la analgesia de forma pautada, a intervalos de tiempo regulares. No es aconsejable la analgesia a “si dolor”.",
+      "page": 3,
+      "auto": true
     },
     {
-      "farmaco": "morfina",
-      "indicacion": "analgesia; bolos para dolor agudo",
-      "dosis": "- Bolo iv/im/sc: 0.05-0.2 mg/kg/4h (mín 5 min). - Perfusión: dosis de carga 100-150 mcg/kg en 1 h. seguido de perfusión a 10-20 mcg/kg/h. - Oral: 0,05-0,1 mg/kg cada 4 h - Subcutánea: igual que iv",
-      "via": "IV/IM/SC/VO",
-      "nota": "Algoritmo (p. 3): Si analgesia con Morfina: aumentar 10 microgr/kg/hora cada 20 minutos hasta puntuación <4. Dosis máxima 60 microg/kg/hora. Valorar cambio a fentanilo si analgesia no alcanzada. Para convertir dosis IV en perfusión, a oral multiplicar por 2,5 y repartir en 6 tomas. RAM: depresión respiratoria, broncoespasmo, retención urinaria, convulsiones, rigidez torácica e hipotensión sobre todo en bolos.",
-      "page": 20,
-      "page_2024": 15
+      "x": "Opiáceos: dosis inicial que se incrementa según necesidad hasta la dosis óptima individual; no hay dosis máxima (sin techo), depende del dolor y de la tolerancia a los efectos secundarios.",
+      "cita": "Se comienza con una dosis inicial, que se va incrementando a medida que el neonato lo necesita, hasta conseguir la dosis óptima individual. La dosis máxima no existe, porque no hay techo y depende, por tanto, del dolor y de la tolerancia a los efectos secundarios de cada paciente.",
+      "page": 3,
+      "auto": true
     },
     {
-      "farmaco": "dexmedetomidina",
-      "indicacion": "sedación en paciente con analgesia previa que ya lleva dexmedetomidina",
-      "dosis": "Aumentar 0,2 microg/kg/h cada 30 minutos hasta sedación profunda",
-      "via": "IV",
-      "nota": "Valorar la administración de Midazolam si no se consigue sedación profunda en un tiempo prudencial.",
-      "page": null,
-      "page_2024": 3
+      "x": "Rescate de morfina: 1/6 de la dosis total diaria; cada 24 horas reajustar sumando los rescates del día a la dosis diaria pautada.",
+      "cita": "Dosis de rescate de morfina, es la dosis “extra” que se emplea en caso de crisis o de reagudización del síntoma. Es 1/6 de la dosis total diaria de morfina. Es conveniente hacer cada 24 horas un reajuste de la dosis, sumando los rescates del día a la dosis diaria pautada.",
+      "page": 3,
+      "auto": true
     },
     {
-      "farmaco": "propofol",
-      "indicacion": "anestésico en sedación paliativa si no se consigue sedación adecuada con midazolam",
-      "dosis": "- Bolo inicial iv: 1-2 mg/kg, seguido de perfusión continua a 1-4 mg/kg/h.",
-      "via": "IV",
-      "nota": "Inicio de acción rápido (menos de 30 segundos), duración 3-10 min. Trascurridas 12 h desde su uso desechar perfusión sobrante y cambiar toda la línea de administración. No utilizar filtros microbiológicos para evitar rotura de la emulsión lipídica.",
-      "page": 21,
-      "page_2024": 15
+      "x": "Sedación paliativa: indicada para reducir la conciencia del neonato con enfermedad avanzada o final de vida tanto como sea preciso para aliviar uno o más síntomas refractarios; no la indica la angustia o ansiedad de la familia o del equipo.",
+      "cita": "No es indicación de sedación paliativa, la angustia o ansiedad de la familia o del equipo médico que trata al paciente, sino reducir la conciencia del neonato con enfermedad avanzada o final de vida, tanto como sea preciso para aliviar adecuadamente uno o más síntomas refractarios, en las dosis y combinaciones requeridas.",
+      "page": 4,
+      "auto": true
     },
     {
-      "farmaco": "glicopirrolato (fórmula magistral)",
-      "indicacion": "secreciones respiratorias, solo si causan dificultad respiratoria",
-      "dosis": "Oral: 40-100 microg/kg/dosis cada 6-8 h. Dosis inicial 40 microg/kg/dosis Máximo 2 mg/dosis. IV/SC: Dosis inicial 4 microg/kg/dosis cada 6-8 h, hasta 10 microg/kg/dosis",
-      "via": "VO/IV/SC",
-      "nota": "",
-      "page": 6,
-      "page_2024": 4
+      "x": "Durante la sedación paliativa: N-PASS cada 20-30 minutos o 20 minutos después de cada intervención; objetivo sedación profunda asegurando el control del dolor.",
+      "cita": "Se utilizará la escala N-PASS cada 20 - 30 minutos o 20 minutos después de cada intervención. El objetivo es la sedación profunda, asegurando el control del dolor.",
+      "page": 4,
+      "auto": true
     },
     {
-      "farmaco": "atropina 1% gotas oftálmicas",
-      "indicacion": "secreciones respiratorias",
-      "dosis": "sublingual 1-2 gotas cada 4-6 h",
-      "via": "sublingual",
-      "nota": "",
-      "page": 6,
-      "page_2024": 4
-    },
-    {
-      "farmaco": "lactulosa",
-      "indicacion": "estreñimiento",
-      "dosis": "2,5ml /día",
-      "via": "VO",
-      "nota": "Alternativas: estimulación rectal, supositorios glicerina.",
-      "page": null,
-      "page_2024": 4
-    },
-    {
-      "farmaco": "paracetamol",
-      "indicacion": "analgesia (tabla de sedoanalgesia neonatal)",
-      "dosis": "IV: Dosis de carga: 20 mg/kg/dosis. Mantenimiento: 32 semanas: 10 mg/kg/dosis/12h o 7,5 mg/kg/dosis/8 h (máx 22,5 mg/kg/día). 33-36 semanas: 10 mg/kg/dosis/8h o 7,5-10 mg/kg/dosis/6h (máx 40 mg/kg/día). ≥37 semanas: 10 mg/kg/dosis/6h (máx 40 mg/kg/día)",
-      "via": "IV",
-      "nota": "La tabla original (p. 16) incluye también pauta VO por edad gestacional (28-32 semanas: 10-12 mg/kg/dosis/6-8 h; 33-37 semanas o RNT <10 días; RNT ≥10 días) con máximos 40, 60 y 75 mg/kg/día, pero la extracción del texto está fragmentada: consultar el PDF.",
-      "page": 21,
-      "page_2024": 16
+      "x": "Retirada del soporte vital: suspender vasoactivos y dejar vía intravenosa si es posible para analgesia y/o sedación; asegurar sedación y analgesia adecuadas durante todo el proceso e informar a los padres de que no tendrá dolor.",
+      "cita": "Suspender fármacos vasoactivos y dejar vía intravenosa si es posible, para administrar analgesia y/o sedación. Asegurando la adecuada sedación y analgesia durante todo el proceso e informar a los padres que no tendrá dolor.",
+      "page": 14,
+      "auto": true
     }
   ],
   "banderas_rojas": [
-    "No es indicación de sedación paliativa la angustia o ansiedad de la familia o del equipo médico; su objetivo es aliviar síntomas refractarios del neonato.",
-    "En neonatos al final de vida con insuficiencia renal, la fluidoterapia intravenosa puede exacerbar edemas o disnea.",
-    "RAM opiáceos: depresión respiratoria, rigidez torácica e hipotensión sobre todo en bolos; midazolam: depresión respiratoria, convulsiones, mioclonías.",
-    "Puntuación N-PASS negativa sin medicación opioide o sedante indica respuesta del RNPT a dolor o estrés persistente o depresión neurológica.",
-    "Si no se controla con la dosis diaria de opiáceos, valorar además de rotar fármacos la posibilidad de un delirio neonatal.",
-    "Sedación paliativa requiere consentimiento informado, verbal o escrito, de progenitores o tutores legales."
+    {
+      "x": "La sedación paliativa no debe llevarse a cabo exclusivamente con opioides; la dosis de opioides no tiene por qué incrementarse necesariamente al iniciarla.",
+      "cita": "Es importante recordar que la sedación paliativa no debe llevarse a cabo exclusivamente con opioides. Por otra parte, la dosis de los opioides no tiene porqué ser incrementada necesariamente al iniciar una sedación paliativa.",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Sedación paliativa: es necesario el consentimiento informado, verbal o escrito, de progenitores o tutores legales.",
+      "cita": "Es necesario el consentimiento informado, verbal o escrito de sus progenitores o tutores legales.",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Si la dosis diaria de opiáceos no basta para controlar los síntomas: aumentar un 25-30% las dosis, valorar rotación de fármacos y la posibilidad de un delirio neonatal.",
+      "cita": "Cuando con la dosis diaria de opiáceos no es suficiente para controlar los síntomas, aumentar un 25-30% las dosis, valorar rotación de fármacos y la posibilidad de un delirio neonatal.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "Final de vida con insuficiencia renal y fluidoterapia intravenosa: se pueden exacerbar otros síntomas, como los edemas o la disnea.",
+      "cita": "Tener en cuenta, en aquellos neonatos en situación de final de vida, con insuficiencia renal y fluidoterapia intravenosa, que se pueden exacerbar otros síntomas, como los edemas o la disnea.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Convulsiones: tratamiento anticonvulsivo apropiado; si ya lo lleva y se procede a adecuación del esfuerzo terapéutico, continuar con el tratamiento.",
+      "cita": "Convulsiones: Tratamiento anticonvulsivo apropiado. En caso de llevar tratamiento anticonvulsivo y proceder a adecuación del esfuerzo terapéutico, continuar con tratamiento.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Antes de retirar el soporte respiratorio: apagar alarmas e informar de los signos posteriores (cambios de coloración, ruidos respiratorios, gasping) y de que la muerte puede tardar minutos u horas o incluso no producirse.",
+      "cita": "Previo a la retirada del soporte respiratorio, apagar alarmas e informar de los signos posteriores (cambios en coloración, ruidos respiratorios, “gasping”), así como de la posibilidad de que la muerte pueda tardar en producirse (minutos u horas) o que incluso ésta no se produzca.",
+      "page": 14,
+      "auto": true
+    },
+    {
+      "x": "Si se piensa que la decisión de los padres amenaza los intereses del niño, se debe acudir al sistema judicial, como último recurso y siempre que de forma razonable se hayan agotado otras posibilidades.",
+      "cita": "Finalmente, y como último recurso, siempre que de forma razonable se hayan agotado otras posibilidades y se piense que la decisión de los padres amenaza los intereses del niño se debe acudir al sistema judicial.",
+      "page": 13,
+      "auto": true
+    },
+    {
+      "x": "Pacientes con patologías limitantes de la vida: no está indicado canalizar una vía venosa en los primeros minutos/horas de vida.",
+      "cita": "En los pacientes con patologías limitantes de la vida no está indicado canalizar una vía venosa en los primeros minutos/horas de vida.",
+      "page": 9,
+      "auto": true
+    },
+    {
+      "x": "Es preferible aumentar el ritmo de la perfusión del fármaco sedoanalgésico que administrar bolos, sobre todo en la fase final.",
+      "cita": "Es preferible aumentar el ritmo de la perfusión del fármaco sedoanalgésico que administrar bolos, sobre todo en la fase final.",
+      "page": 3,
+      "auto": true
+    }
   ],
   "perlas": [
-    "El 'gasping' (jadeo) es frecuente al final de la vida, puede durar horas, es poco probable que responda a sedantes y no parece implicar disconfort: informar previamente a la familia de su significado y duración.",
-    "En paritorio ante muerte inminente no canalizar vía venosa; la intervención farmacológica es fundamentalmente midazolam intranasal y, si se requiere analgesia, fentanilo intranasal.",
-    "Si largo periodo de intubación, considerar dosis de corticoides previa a la extubación para disminuir los ruidos asociados.",
-    "Evitar frases como 'tendrán más bebés', 'el tiempo lo cura todo' o 'sé fuerte'; ayudan 'Lo siento', '¿Puedo hacer algo por vosotros?'; ofrecer caja de recuerdos y guardarla temporalmente si la rechazan."
-  ],
-  "secciones_recomendadas": [
-    "ALGORITMO DE SEDACIÓN PALIATIVA",
-    "Iniciar / escalar sedación y/o analgesia",
-    "Procedimientos médicos ante muerte inminente en paritorio",
-    "ANEXOS Y TABLAS"
+    {
+      "x": "Distrés: opiáceos como primera línea farmacológica (disminuyen la percepción central de disnea y la ansiedad); benzodiacepinas como coadyuvante; oxígeno si precisa hasta los instantes finales.",
+      "cita": "Distrés: Los opiáceos son el tratamiento farmacológico de primera línea ya que disminuyen la percepción central de disnea y la ansiedad relacionada. Las benzodiacepinas se pueden usar como coadyuvante. Además, el uso de oxígeno si precisa, hasta instantes finales puede reducir la sensación de disnea mediante la estimulación del nervio trigémino.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Sospecha de delirio neonatal sin respuesta a otros fármacos: neurolépticos (iv: haloperidol; vo: quetiapina, risperidona).",
+      "cita": "Neurolépticos: En caso de sospecha de delirio neonatal y no respuesta a otros fármacos (iv: haloperidol; vo: quetiapina, risperidona)",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Gasping: frecuente al final de la vida, puede durar varias horas, es poco probable que responda a sedantes o analgésicos y no parece implicar mayor disconfort; informar a la familia de su significado y posible duración.",
+      "cita": "“Gasping”: El jadeo en el final de vida es frecuente en los recién nacidos y consiste en respiraciones irregulares y reflejas iniciadas por el tronco encefálico. Puede durar varias horas y es poco probable que se vea afectado por sedantes o analgésicos. No parece implicar un mayor disconfort. Es importante informar a la familia de su significado y de su posible duración.",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "Paritorio: cuando es necesaria la intervención farmacológica, consiste fundamentalmente en sedación (midazolam intranasal) para minimizar el malestar, la agitación y la ansiedad. Es excepcional que estos pacientes sufran dolor, pero hay que evaluarlo en cada paciente; si se requiere analgesia, fentanilo intranasal.",
+      "cita": "Cuando es necesaria la intervención farmacológica consiste fundamentalmente en sedación (midazolam intranasal) para minimizar el malestar, la agitación y la ansiedad. Es excepcional que estos pacientes sufran dolor, pero es necesario evaluarlo en cada paciente y si se requiriera analgesia, se utilizará fentanilo intranasal.",
+      "page": 9,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

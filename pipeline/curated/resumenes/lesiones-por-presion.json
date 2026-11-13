@@ -1,49 +1,142 @@
 {
   "slug": "lesiones-por-presion",
-  "en_una_frase": "Prevención, valoración del riesgo y tratamiento por estadios de las lesiones por presión en niños en cuidados paliativos, priorizando el confort y la calidad de vida.",
+  "en_una_frase": "Lesiones por presión en niños en cuidados paliativos: factores de riesgo y localización, valoración del riesgo y de la lesión, prevención y tratamiento según el estadio.",
   "puntos_clave": [
-    "La lesión por presión afecta a piel y/o tejido subyacente por presión prolongada, fricción o cizallamiento sobre prominencias óseas o bajo dispositivos clínicos.",
-    "Factores de riesgo principales: inmovilidad, incontinencia, déficit nutricional y deterioro cognitivo; en <3 años la cabeza es la primera localización, en mayores talones y sacro.",
-    "Valorar el riesgo con escalas validadas: NSRAS en neonatos hasta el mes de vida; Braden Q (mejores indicadores de validez, la más utilizada) o Glamorgan de 1 mes a 14 años.",
-    "Prevención: piel limpia y seca, hidratación, ácidos grasos hiperoxigenados, cambios posturales (cada 2 h si riesgo alto, 4-6 h el resto), superficies especiales y nutrición.",
-    "Plan de curas: desbridamiento (autolítico como primera opción), limpieza con suero fisiológico sin antisépticos, cura húmeda y apósito elegido según el estadio de la lesión.",
-    "En final de vida el tratamiento debe ser proporcionado: priorizar confort sobre curación y controlar dolor, exudado y olor; los cambios posturales no son una prioridad."
-  ],
-  "farmacos_clave": [
     {
-      "farmaco": "ácidos grasos hiperoxigenados",
-      "indicacion": "prevención en zonas de riesgo de LPP y tratamiento del estadio I",
-      "dosis": "Aplicar ácidos grasos hiperoxigenados 2 veces al día en la zona de riesgo de LPP sin hacer masaje sobre las prominencias óseas (prevención). Estadio I: Aplicación ácidos grasos hiperoxigenados c/8h.",
-      "via": "Tópica",
-      "nota": "No usar en neonatos de menos de quince días de vida.",
-      "page": 10,
-      "page_2024": 11
+      "x": "Factores de riesgo más importantes, además de presión, fricción y cizalla: inmovilidad, incontinencia, déficit nutricional y deterioro cognitivo, muy presentes en cuidados paliativos pediátricos.",
+      "cita": "A parte de la presión, fricción y cizalla, se han relacionado otros factores de riesgo con la aparición de LPP (tabla 1). Los más importantes son la inmovilidad, la incontinencia, el déficit nutricional y el deterioro cognitivo, muy presentes en los pacientes que reciben cuidados paliativos pediátricos.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Localización según la edad: en mayores de 3 años, talones y sacro; en lactantes y niños más pequeños de 3 años la cabeza suele ser el primer punto, por ser proporcionalmente más grande y pesada.",
+      "cita": "Las zonas más susceptibles de desarrollar LPP en niños mayores de 3 años son los talones y el sacro. En lactantes y niños más pequeños de 3 años la cabeza suele ser el primer punto dónde se desarrollan estas lesiones, al ser proporcionalmente más grande y más pesada que otras partes del cuerpo.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Escalas de riesgo validadas en pediatría: NSRAS en neonatos hasta el mes de vida; Braden Q y Glamorgan de un mes hasta 14 años; de estas dos, la Braden Q es la que presenta mejores indicadores de validez.",
+      "cita": "existen tres escalas validadas: la Neonatal Skin Risk AssessmentScale (NSRAS) (Anexo 1), la escala de Braden Q (Anexo2), y la escala de Glamorgan. La primera es aplicable en neonatos hasta el mes de vida, y las dos últimas son las que se utilizan en niños de un mes hasta 14 años (6,7,10,11). De estas dos, la escala Braden Q es la que presenta mejores indicadores de validez",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Cambios posturales: cada 2 horas en niños con riesgo alto y cada 4-6 horas en el resto; en situaciones de final de vida no son una prioridad, sí lo es respetar el confort y la comodidad del paciente.",
+      "cita": "Cada 2 horas en niños con riesgo alto de desarrollar UPP y cada 4-6 horas en el resto de pacientes (6) o En situaciones de final de vida, los cambios posturales no son una prioridad. Sí lo es respetar el confort y la comodidad del paciente",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "Limpieza de la herida en cada cura y cambio de apósito con suero salino fisiológico, irrigación suave y sin frotar; no se aconsejan antisépticos (tóxicos para el tejido sano), salvo sospecha de infección, infección confirmada o sospecha de colonización, en que se usan soluciones con agentes tensoactivos y antimicrobianos.",
+      "cita": "Limpiar la lesión en cada cura y en cada cambio de apósito con suero salino fisiológico mediante irrigación suave y sin frotar (3,6). No se aconseja el uso de antisépticos porque pueden ser tóxicos para el tejido sano (2,4,6). En lesiones con sospecha de infección, infección confirmada o sospecha de colonización bacteriana usaremos soluciones de limpieza con agentes tensoactivos y antimicrobianos",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "La cura húmeda favorece la curación: consiste en mantener el lecho de la herida en un ambiente húmedo con su propio exudado. El apósito se elige según las características de la lesión, teniendo en cuenta el estadio.",
+      "cita": "Elección de la cura y del apósito: La cura húmeda favorece la curación de las LPP (8). Consiste en mantener el lecho de la herida en un ambiente húmedo con su propio exudado (6). Existen números apósitos en el mercado y su elección se basará en las características de la lesión teniendo en cuenta el estadio de la LPP (Tabla 5).",
+      "page": 6,
+      "auto": true
+    },
+    {
+      "x": "En fase de final de vida el tratamiento debe ser proporcionado y aceptable para el paciente y sus cuidadores, priorizando siempre calidad de vida y confort sobre la curación.",
+      "cita": "En los pacientes pediátricos en fase de final de vida el tratamiento debe ser proporcionado y aceptable tanto para el paciente como para sus cuidadores, siempre priorizando la calidad de vida y el confort del paciente sobre la curación",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Estadio I: aliviar la presión sobre la zona y aplicar ácidos grasos hiperoxigenados c/8h (no usar en neonatos de menos de quince días de vida); para reducir presión y fricción, apósitos hidrocoloides extrafinos o de poliuretano.",
+      "cita": "- Aliviar la presión sobre la zona - Aplicación ácidos grasos hiperoxigenados c/8h. No usar en neonatos de menos de quince días de vida | Para reducir presión y fricción - Apósitos hidrocoloides extrafinos - Apósitos de poliuretano",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "Estadio II: desbridar y vaciar la flictena, si la hay, sin retirar la piel; valorar exudado y signos de infección. Para reducir presión y fricción en la zona: apósitos hidrocoloides extrafinos si el exudado es escaso y de espuma de poliuretano si es mayor.",
+      "cita": "- Desbridar y vaciar flictena si hay sin retirar la piel Valorar exudado y signos de infección | Para reducir presión y fricción en la zona: - Apósitos hidrocoloides extrafinos si exudado escaso - Apósitos de espuma de poliuretano si mayor exudado",
+      "page": 11,
+      "auto": true
     }
   ],
   "banderas_rojas": [
-    "Signos de infección: fiebre, inflamación, exudado purulento, mal olor; ante sospecha de infección profunda (osteomielitis u osteítis) valorar cultivo del exudado, analítica y pruebas de imagen.",
-    "No se aconseja el uso de antisépticos en la limpieza de la herida porque pueden ser tóxicos para el tejido sano.",
-    "Ácidos grasos hiperoxigenados: no usar en neonatos de menos de quince días de vida.",
-    "Superficies dinámicas de aire alternante: no usar en pacientes con sospecha de lesión medular.",
-    "Desbridamiento mecánico en desuso por traumático y no selectivo; el enzimático aumenta la humedad y puede macerar la piel periulceral, que debe protegerse.",
-    "Si las medidas implementadas no contribuyen a aumentar el confort del paciente, hay que replantearse el tratamiento."
+    {
+      "x": "Si las medidas implementadas no aumentan el confort del paciente hay que replantearse el tratamiento; en estos casos es muy importante el control del dolor, del exudado y del olor.",
+      "cita": "Si las medidas implementadas no contribuyen a aumentar el confort del paciente, hay que replantearse el tratamiento. En estos casos es muy importante el control del dolor, del exudado y del olor.",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Signos de sospecha de infección: se puede hacer cultivo local del exudado y analítica, y valorar pruebas de imagen si se sospecha infección más profunda, como osteomielitis u osteítis.",
+      "cita": "Si se observan signos de sospecha de infección se puede realizar un cultivo local del exudado, analítica sanguínea y valorar la realización de pruebas de imagen en caso de sospecha de infección más profunda como osteomielitis u osteítis.",
+      "page": 4,
+      "auto": true
+    },
+    {
+      "x": "Las zonas donde se apoyan los dispositivos terapéuticos son de las de mayor riesgo de aparición de lesiones por presión.",
+      "cita": "Las zonas donde se apoyan los dispositivos terapéuticos son una de las zonas de mayor riesgo d eaparición de LPP.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Tratamiento del estadio I con ácidos grasos hiperoxigenados c/8h: no usar en neonatos de menos de quince días de vida.",
+      "cita": "Aplicación ácidos grasos hiperoxigenados c/8h. No usar en neonatos de menos de quince días de vida",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "Superficies dinámicas (colchones o sobrecolchones de aire alternante): deben estar específicamente diseñadas para niños; no usar en pacientes con sospecha de lesión medular.",
+      "cita": "Superficies dinámicas como colchones o sobrecolchones de aire alternante, específicamente diseñados para niños (no usar en pacientes con sospecha de lesión medular)",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "Desbridamiento enzimático: proteger la piel de alrededor, porque aumenta la humedad en la herida y puede macerar la piel periulceral.",
+      "cita": "Desbridamiento enzimático: Consiste en la aplicación local de enzimas exógenas (colagenasa, estreptoquinasa, papaina-urea, etc.), que funcionan de forma sinérgica con las enzimas endógenas. Es recomendable proteger la piel de lrededor ya que aumenta el nivel de humedad en la herida y esto puede provocar maceración en la piel periulceral",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Desbridamiento mecánico: en desuso por ser traumático y no selectivo; en ocasiones puede dañar el lecho de la lesión.",
+      "cita": "Desbridamiento mecánico: En desuso por ser traumático y no selectivo. Conjunto de técnicas que actúan de manera mecánica, tipo arrastre o presión, sobre los tejidos de la herida y que en ocasiones puede dañar el lecho de la lesión",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Estadio IV (músculo, hueso o tendones expuestos, con cavitaciones y tunelizaciones): riesgo de osteomielitis u osteítis.",
+      "cita": "Estadio IV | Tejidos más profundos: Musculo, hueso, endones | Pérdida total del espesor de los tejidos | - Hueso, tendón o músculos expuestos - Presenta esfacelos o escaras - Incluye cavitaciones y tunelizaciones - Riesgo de osteomelitis u osteítis",
+      "page": 11,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Vigilar la piel bajo dispositivos médicos (sondajes, catéteres, VMNI, oxigenoterapia, pulsioxímetro): examinarla con frecuencia, reposicionar el dispositivo periódicamente y usar apósitos o almohadillas.",
-    "Lavar con agua y jabón neutro, secar bien los pliegues evitando la fricción, no usar productos con alcohol como colonias, evitar arrugas en la ropa; cambiar el pañal con frecuencia y usar barreras sin alcohol.",
-    "Apósitos hidrocoloides extrafinos o films de poliuretano en sacro, talones y occipucio para reducir presión y fricción; espuma de poliuretano si mayor exudado.",
-    "La implicación familiar es imprescindible: explicar a los padres las principales medidas de prevención e implicarlos en los cuidados."
-  ],
-  "secciones_recomendadas": [
-    "PREVENCIÓN",
-    "TRATAMIENTO",
-    "Valoración del riesgo de LPP",
-    "ANEXOS Y TABLAS"
+    {
+      "x": "Desbridamiento autolítico: es la primera opción por ser el más conservador; se basa en la cura húmeda y se favorece con hidrogeles y apósitos.",
+      "cita": "Desbridamiento autolítico: Es la primera opción por ser el más conservador (7). Se basa en los principios de la cura húmeda favoreciendo la humedad en el lecho de la lesión y la autodigestión del tejido desvitalizado por enzimas propios del organismo. Existen diversos productos en el mercado que favorecen este tipo de desbridamiento en forma de hidrogeles y apósitos (4,9,13).",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Desbridamiento quirúrgico (en quirófano, generalmente bajo sedación): indicado en escaras gruesas, lesiones muy extensas y/o profundas, localizaciones especiales, osteomielitis o fascitis plantar.",
+      "cita": "Desbridamiento quirúrgico: Retirada completa del tejido necrótico en quirófano, generalmente bajo sedación. Indicado en escaras gruesas, lesiones muy extensas y/o profundas, localizaciones especiales, osteomielitis o fascitis plantar",
+      "page": 5,
+      "auto": true
+    },
+    {
+      "x": "Prevención: aplicar ácidos grasos hiperoxigenados 2 veces al día en la zona de riesgo, sin hacer masaje sobre las prominencias óseas. En el tratamiento del estadio I, el protocolo indica no usarlos en neonatos de menos de quince días de vida.",
+      "cita": "Aplicar ácidos grasos hiperoxigenados 2 veces al día en la zona de riesgo de LPP sin hacer masaje sobre las prominencias óseas",
+      "page": 11,
+      "auto": false
+    },
+    {
+      "x": "Dispositivos médicos: examinar con frecuencia la piel donde se apoyan, reposicionarlos a intervalos periódicos para aliviar la presión y usar apósitos o almohadillas para evitar lesiones.",
+      "cita": "Examinar frecuentemente la piel dónde se apoya el dispositivo (7) o Reposicionar el dispositivo a intervalos periódicos para aliviar la presión (6,7) o Usar apósitos o almohadillas para evitar lesiones",
+      "page": 11,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }

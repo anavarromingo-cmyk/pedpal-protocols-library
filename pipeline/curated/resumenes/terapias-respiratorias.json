@@ -1,131 +1,172 @@
 {
   "slug": "terapias-respiratorias",
-  "en_una_frase": "Terapias respiratorias domiciliarias en cuidados paliativos pediátricos: oxigenoterapia convencional y de alto flujo, aerosolterapia y dispositivos de fisioterapia respiratoria para el confort.",
+  "en_una_frase": "Terapias respiratorias domiciliarias en cuidados paliativos pediátricos: oxigenoterapia convencional y de alto flujo, aerosolterapia con nebulizadores y ayudas instrumentales de fisioterapia respiratoria.",
   "puntos_clave": [
-    "La oxigenoterapia es el primer apoyo en la insuficiencia respiratoria hipoxémica; sin hipoxemia es poco probable que alivie la disnea, donde los opioides son más eficaces.",
-    "Gafas nasales: FiO2 de 0,24 a 0,40 con flujo hasta 6 L/min (2 L/min en lactantes pequeños y recién nacidos); por encima de 6 L/min se desaconsejan por sequedad e irritación.",
-    "Con gafas nasales a flujos menores de 4 L/min no es necesaria humidificación; sí en traqueostomía o con flujos más altos de O2.",
-    "OAF: lactantes < 6 meses 2 lpm/kg (máx. 8-12 lpm); en niños no sobrepasar 1 lpm/kg para evitar barotrauma; alternativa si orden de no intubación e IRA con disnea refractaria.",
-    "El nebulizador es el dispositivo de elección en pacientes que no pueden coordinar o cooperar; volumen de llenado 2-4 ml y evitar mezclar fármacos salvo compatibilidad demostrada.",
-    "Cough Assist®: presiones +35/-35 a +50/-50 cmH2O; empezar con 10-15 cmH2O la primera vez; 3-5 ciclos con descansos de 20-30 s; aplicar al menos 2 h tras la ingesta."
-  ],
-  "farmacos_clave": [
     {
-      "farmaco": "salbutamol",
-      "indicacion": "broncodilatador en reagudizaciones respiratorias (broncoespasmo moderado y grave)",
-      "dosis": "2-5 años: 2.5 mg; >5 años o >20kg: 5 mg *Ventolín®: diluir con SSF hasta 2-2.5 mL",
-      "via": "nebulizada",
-      "nota": "Nebulizador ultrasónico o de tipo jet (5-7 L/m). El gas impulsor debe ser oxígeno en pacientes gravemente enfermos.",
-      "page": 14,
-      "page_2024": 11
+      "x": "Objetivo de la oxigenoterapia: oxigenación tisular, que se consigue con una pO2 arterial mayor de 60 mmHg (aproximadamente, saturación de hemoglobina del 90%).",
+      "cita": "su objetivo principal es la oxigenación tisular, la cual se consigue cuando la presión parcial de O2 (pO2) en sangre arterial es mayor de 60 mmHg, que suele corresponderse aproximadamente con una saturación de hemoglobina del 90%.",
+      "page": 1,
+      "auto": true
     },
     {
-      "farmaco": "bromuro de ipratropio",
-      "indicacion": "anticolinérgico de acción corta asociado o no al salbutamol en reagudizaciones",
-      "dosis": "< 30 kg: 250 mcg/4-6 horas > 30 kg: 500 mcg/4-6 horas",
-      "via": "nebulizada",
-      "nota": "",
-      "page": 14,
-      "page_2024": 12
+      "x": "La oxigenoterapia es el primer apoyo en la insuficiencia respiratoria hipoxémica; en ausencia de hipoxemia es poco probable que contribuya eficazmente al alivio de la disnea.",
+      "cita": "El uso de la oxigenoterapia en cuidados paliativos es el primer apoyo en la insuficiencia respiratoria hipoxémica del paciente. En ausencia de hipoxemia, la oxigenoterapia es poco probable que contribuya eficazmente al alivio de la disnea.",
+      "page": 2,
+      "auto": true
     },
     {
-      "farmaco": "budesonida",
-      "indicacion": "corticoide inhalado",
-      "dosis": "0 – 6 meses: 0,25-1,0 mg día c/12h 6 meses – 12 años: 0,25-1,0 mg día c/12h >12 años: 0,5-2 mg al día c/12h",
-      "via": "nebulizada",
-      "nota": "Nebulizador de tipo jet (5-7 L/m).",
-      "page": 14,
-      "page_2024": 12
+      "x": "Gafas nasales: FiO2 de 0,24 a 0,40 con flujo de hasta 6 L/min (en pacientes adultos); en lactantes pequeños y recién nacidos el flujo se limita a 2 L/min; con flujos superiores a 6 L/min se desaconsejan por sequedad e irritación.",
+      "cita": "Pueden suministrar una FiO2 de 0,24 a 0,40 (del 24% al 40%) de O2 a un flujo de hasta 6L/min (en pacientes adultos). Su eficacia disminuirá en respiradores bucales o durante el sueño. En lactantes pequeños y recién nacidos el flujo se limitará a 2L/min. Si el paciente precisa flujos superiores a 6L/min se desaconseja su uso, pues causa sequedad e irritación.",
+      "page": 6,
+      "auto": true
     },
     {
-      "farmaco": "fluticasona",
-      "indicacion": "corticoide inhalado",
-      "dosis": "50 - 1000 mcg cada 12 horas",
-      "via": "nebulizada",
-      "nota": "",
-      "page": 14,
-      "page_2024": 12
+      "x": "Oxigenoterapia de alto flujo (OAF): alternativa en pacientes con orden de no intubación e insuficiencia respiratoria aguda, en caso de disnea refractaria o intolerancia a la VMNI, para conseguir mayor confort.",
+      "cita": "La OAF podrá utilizarse como alternativa en pacientes con orden de no intubación e Insuficiencia respiratoria aguda (IRA) en caso de disnea refractaria o intolerancia a la VMNI (Ventilación mecánica no invasiva) con el fin de conseguir un mayor confort.",
+      "page": 9,
+      "auto": true
     },
     {
-      "farmaco": "adrenalina (1:1000)",
-      "indicacion": "antiedema",
-      "dosis": "0,5 ml/kg de la sol. 1:1.000, máximo 5 mL Diluir en SF o SG5%",
-      "via": "nebulizada",
-      "nota": "Nebulizador de tipo jet (4-6 L/m)",
-      "page": 15,
-      "page_2024": 12
+      "x": "Flujo en OAF: en lactantes < 6 meses, 2 lpm/kg con un máximo de 8-12 lpm; en niños no sobrepasar 1 lpm/kg para evitar el barotrauma. Comenzar con flujos bajos y aumentar rápidamente según tolerancia y efectividad.",
+      "cita": "En lactantes < 6meses se utilizan flujos de 2lpm/kg con un máximo de 8-12lpm y en niños no sobrepasar 1lpm/kg para evitar el barotrauma. En general se comienza con flujos bajos, aumentándolo rápidamente según la tolerancia y efectividad",
+      "page": 9,
+      "auto": true
     },
     {
-      "farmaco": "colistina",
-      "indicacion": "antibiótico inhalado en infección bronquial crónica por Pseudomonas aeruginosa (bronquiectasias, fibrosis quística)",
-      "dosis": "< 2 años (off label): 0,5-1 MUI cada 12 h > 2 años: 1-2 MUI cada 12 horas (máximo 2 MUI cada 8 horas) *Diluir en 2-4 mL de agua estéril",
-      "via": "nebulizada",
-      "nota": "Compresor de alto flujo tipo CR60® + pipeta tipo Ventstream® o Pari LC Plus® o E flow®; Promixin® con I-neb AAD®. Primeras dosis en medio hospitalario bajo supervisión.",
-      "page": 15,
-      "page_2024": 12
+      "x": "El nebulizador solo requiere respirar normalmente: es el dispositivo de elección en pacientes que no pueden coordinar, cooperar o realizar maniobras inspiratorias, como ocurre en la patología neurológica grave.",
+      "cita": "Dado que para el uso correcto del nebulizador solo se requiere respirar normalmente, es el dispositivo de elección para los pacientes que no pueden coordinar, cooperar o realizar maniobras inspiratorias requeridas para el uso de otros dispositivos, como ocurre en pacientes con patología neurológica grave.",
+      "page": 10,
+      "auto": true
     },
     {
-      "farmaco": "tobramicina",
-      "indicacion": "antibiótico inhalado en infección bronquial crónica por Pseudomonas aeruginosa",
-      "dosis": "> 6 años: 300mg/12 horas, 28 días, repetir tras 28 días de descanso, continuar de forma cíclica (de 3-4 semanas a 6-12 meses)",
-      "via": "nebulizada",
-      "nota": "Compresor de alto flujo tipo CR60® + pipeta tipo Ventstream® o Pari LC Plus® o E flow®. Primeras dosis en medio hospitalario bajo supervisión.",
-      "page": 15,
-      "page_2024": 12
-    },
-    {
-      "farmaco": "aztreonam",
-      "indicacion": "antibiótico inhalado en infección bronquial crónica por Pseudomonas aeruginosa",
-      "dosis": "75 mg tres veces al día durante 4 semanas, con al menos 4 horas entre cada dosis",
-      "via": "nebulizada",
-      "nota": "Eflow® + dispositivo Altera®.",
-      "page": 15,
-      "page_2024": 12
-    },
-    {
-      "farmaco": "DNasa/dornasa alfa",
-      "indicacion": "mucolítico en fibrosis quística y atelectasias",
-      "dosis": "FQ: 2,5 mg una vez al día Atelectasias: 1.25-2.5 mg hasta cada 4 horas",
-      "via": "nebulizada",
-      "nota": "Nebulizador de tipo jet con compresores de alto flujo. No usar nebulizador ultrasónico (se inestabiliza con el calor).",
-      "page": 15,
-      "page_2024": 12
-    },
-    {
-      "farmaco": "morfina",
-      "indicacion": "disnea (morfina nebulizada, resultados muy controvertidos)",
-      "dosis": "La dosis inicial sería 2.5-5 mg (solución inyectable).",
-      "via": "nebulizada",
-      "nota": "Se ha descrito algún caso de broncoespasmo secundario.",
-      "page": 15,
-      "page_2024": 12
+      "x": "Cough Assist®: se recomiendan entre 3 y 5 ciclos consecutivos de insuflación-exuflación con descansos de unos 20-30 segundos entre ciclos; en general, entre 4 y 6 repeticiones o más si son necesarias para eliminar las secreciones.",
+      "cita": "Se recomienda realizar entre 3 y 5 ciclos consecutivos de insuflación-exuflación con descansos de unos 20-30 segundos entre los ciclos. Se realizarán en general entre 4 y 6 repeticiones o más en el caso de ser necesarias para eliminar las secreciones del paciente.",
+      "page": 23,
+      "auto": true
     }
   ],
   "banderas_rojas": [
-    "La hipoxia crónica en niños da lugar a hipertensión pulmonar, alteraciones del neurodesarrollo, riesgo de apneas y muerte súbita; una SpO2 < 92% se asocia con disminución del crecimiento.",
-    "OAF: riesgo de barotrauma si se usan flujos muy altos o si las narinas quedan obstruidas por cánulas de tamaño excesivo (deben ocupar el 50-70% de la luz de las narinas).",
-    "Antibióticos nebulizados: administrar las primeras dosis en medio hospitalario bajo supervisión por posibles efectos adversos (broncoespasmo, disnea o dolor torácico).",
-    "Nebulizadores ultrasónicos: no apropiados para antibióticos ni fármacos en suspensión (corticoides, DNasa) ni para menores de 3 años.",
-    "Sistemas PEP: contraindicados en neumotórax no tratado, hemoptisis, vías aéreas hiperreactivas, fracturas faciales/cirugía y procesos de sinusitis y otitis.",
-    "Insuflación-exuflación mecánica: contraindicada en bullas enfisematosas, neumotórax y/o neumomediastino, hemoptisis activa, inestabilidad de la vía aérea, barotrauma reciente e inestabilidad hemodinámica.",
-    "Ventilación percusiva intrapulmonar: contraindicada en neumotórax sin drenar, síndrome de Lyell, hemoptisis, fracturas costales recientes y lesión medular reciente.",
-    "Oscilación-compresión torácica: contraindicaciones absolutas en inestabilidad hemodinámica o hemorragia activa, lesiones recientes o inestables de cabeza, cuello y tórax y hemoptisis."
+    {
+      "x": "La hipoxia crónica en niños da lugar a hipertensión pulmonar, alteraciones del neurodesarrollo, aumento del riesgo de apneas, muerte súbita y alteraciones de la calidad del sueño; una SpO2<92% se asocia con disminución del crecimiento.",
+      "cita": "la hipoxia crónica en niños dará lugar a hipertensión pulmonar, alteraciones del neurodesarrollo, aumento del riesgo de apneas, muerte súbita y alteraciones de la calidad del sueño, se ha observado que una SpO2<92% se asocia con disminución del crecimiento.",
+      "page": 3,
+      "auto": true
+    },
+    {
+      "x": "OAF: el barotrauma es muy raro, pero posible si se utilizan flujos muy altos y/o si las narinas quedan obstruidas por un tamaño excesivo de las cánulas nasales que impida la salida del aire espirado.",
+      "cita": "El barotrauma es muy raro, pero existe la probabilidad, si se utilizan flujos muy altos y/o si las narinas quedan obstruidas por un tamaño excesivo de las cánulas nasales, que impidan la salida del aire espirado.",
+      "page": 10,
+      "auto": true
+    },
+    {
+      "x": "Antibióticos nebulizados: se recomienda administrar las primeras dosis en medio hospitalario bajo supervisión, por la posibilidad de efectos adversos (más frecuentemente broncoespasmo, disnea o dolor torácico).",
+      "cita": "Se recomienda que las primeras dosis del mismo sean administradas en un medio hospitalario bajo supervisión ante posibilidad de efectos adversos (más frecuentemente broncoespasmo, disnea o dolor torácico).",
+      "page": 12,
+      "auto": true
+    },
+    {
+      "x": "Nebulizadores ultrasónicos: no son apropiados para antibióticos ni fármacos en suspensión, como los corticoides y la DNasa, ni para menores de 3 años.",
+      "cita": "No son apropiados para antibióticos ni fármacos en suspensión, como los corticoides y la DNasa (se inestabilizan con el calor generado), ni para menores de 3 años.",
+      "page": 13,
+      "auto": true
+    },
+    {
+      "x": "Debe evitarse la mezcla de fármacos en el mismo nebulizador, excepto si hay estudios que aseguren su compatibilidad y estabilidad.",
+      "cita": "Debe evitarse la mezcla de fármacos en el mismo nebulizador, excepto si hay estudios que aseguren su compatibilidad y estabilidad (Tabla 6).",
+      "page": 13,
+      "auto": true
+    },
+    {
+      "x": "Los cuidadores han de limpiar el nebulizador tras cada uso según las instrucciones del fabricante; de lo contrario existe riesgo de contaminación bacteriana e infección.",
+      "cita": "Tras la nebulización, los cuidadores han de limpiar sus nebulizadores tras cada uso según las instrucciones del fabricante. De lo contrario, existe riesgo de contaminación bacteriana, con el consecuente riesgo de infección.",
+      "page": 14,
+      "auto": true
+    },
+    {
+      "x": "Sistemas PEP: contraindicados en neumotórax no tratado, hemoptisis, vías aéreas hiperreactivas (accesos de tos), fracturas faciales/cirugía y procesos de sinusitis y otitis.",
+      "cita": "Contraindicaciones: neumotórax no tratado, hemoptisis, vías aéreas hiperreactivas (accesos de tos), fracturas faciales/cirugía y procesos de sinusitis y otitis.",
+      "page": 18,
+      "auto": true
+    },
+    {
+      "x": "Insuflación-exuflación mecánica (IEM): contraindicada en bullas enfisematosas, neumotórax y/o neumomediastino, hemoptisis activa, inestabilidad de la vía aérea, antecedente de barotrauma reciente e inestabilidad hemodinámica.",
+      "cita": "Contraindicaciones: bullas enfisematosas, neumotórax y/o neumomediastino, hemoptisis activa, inestabilidad de la vía aérea, antecedente de barotrauma reciente e inestabilidad hemodinámica.",
+      "page": 21,
+      "auto": true
+    },
+    {
+      "x": "IEM: es aconsejable aplicarla al menos 2 horas después de la última ingesta de alimentos.",
+      "cita": "En cualquiera de los modos, es aconsejable aplicarla al menos 2 horas después de la última ingesta de alimentos.",
+      "page": 21,
+      "auto": true
+    },
+    {
+      "x": "Ventilación percusiva intrapulmonar: contraindicada en neumotórax sin drenar, síndrome de Lyell, hemoptisis, fracturas costales recientes y lesión medular reciente.",
+      "cita": "Estará contraindicado en: neumotórax sin drenar, síndrome de Lyell, hemoptisis, fracturas costales recientes y lesión medular reciente.",
+      "page": 24,
+      "auto": true
+    },
+    {
+      "x": "Oscilación-compresión de la pared torácica, contraindicaciones absolutas: inestabilidad hemodinámica o hemorragia activa; lesiones en cabeza, cuello y tórax recientes o inestables y hemoptisis.",
+      "cita": "Contraindicaciones: Entre las absolutas están: situaciones de inestabilidad hemodinámica o hemorragia activa; lesiones en cabeza, cuello y tórax recientes o inestables y hemoptisis.",
+      "page": 24,
+      "auto": true
+    },
+    {
+      "x": "Oscilación-compresión de la pared torácica, contraindicaciones relativas: cualquier situación de inestabilidad como embolismo pulmonar, neumotórax, empiema, contusión pulmonar, broncoespasmo, riesgo de fracturas costales, riesgo de broncoaspiración o cirugía reciente de esófago o raquis.",
+      "cita": "Son contraindicaciones relativas cualquier situación de inestabilidad del paciente como: embolismo pulmonar, neumotórax, empiema, contusión pulmonar, broncoespasmo, riesgo de fracturas costales, riesgo de broncoaspiración, cirugía reciente de esófago o raquis",
+      "page": 24,
+      "auto": true
+    },
+    {
+      "x": "Morfina nebulizada para la disnea (resultados muy controvertidos; dosis inicial 2,5-5 mg de solución inyectable): se ha descrito algún caso de broncoespasmo secundario.",
+      "cita": "Existen estudios sobre el uso de morfina nebulizada como opción terapéutica para la disnea ya que produciría un efecto más rápido evitando los efectos secundarios sistémicos; aunque existen resultados muy controvertidos. La dosis inicial sería 2.5-5 mg (solución inyectable). Como precaución advertir que se ha descrito algún caso de broncoespasmo secundario.",
+      "page": 14,
+      "auto": true
+    },
+    {
+      "x": "Reagudizaciones respiratorias (broncoespasmo moderado y grave): en los dispositivos que funcionan con gas impulsor, este debe ser oxígeno en pacientes gravemente enfermos; el aire comprimido puede usarse en pacientes estables o sin hipoxemia.",
+      "cita": "Tratamiento de reagudizaciones respiratorias (broncoespasmo moderado y grave): se utilizan ẞ2-agonistas de acción corta (salbutamol) con o sin anticolinérgicos de acción corta (bromuro de ipratropio). En los dispositivos que funcionan con gas impulsor, éste debe ser oxígeno para pacientes gravemente enfermos, pudiéndose utilizar aire comprimido en pacientes estables o sin hipoxemia.",
+      "page": 11,
+      "auto": true
+    },
+    {
+      "x": "Nebulizadores de malla: no tocar la malla al limpiarlos, porque se podría dañar y dar lugar a una infra o sobredosificación.",
+      "cita": "Con los nebulizadores de malla puede ser recomendable utilizar agua destilada para su limpieza, ya que el alto contenido de minerales del agua dura de algunas zonas puede estropear la malla, teniendo precaución de no tocar la malla, ya que se podría dañar este, lo que resultaría en una infra o sobredosificación.",
+      "page": 14,
+      "auto": true
+    }
   ],
   "perlas": [
-    "Conocer las horas de autonomía que quedan a la botella de O2 según el caudal prescrito (Tabla 2): un cilindro B-2 a 1 L/min dura 6,5 h y a 3 L/min, 2 h.",
-    "Orden recomendado en antibioterapia nebulizada: broncodilatador de acción rápida, suero salino hipertónico, drenaje de secreciones y después el antibiótico inhalado.",
-    "Limpiar el nebulizador tras cada uso según el fabricante (desmontar, agua templada con detergente, secar al aire) por riesgo de contaminación bacteriana; en los de malla usar agua destilada y no tocar la malla."
-  ],
-  "secciones_recomendadas": [
-    "Indicaciones",
-    "Oxigenoterapia de alto flujo con cánulas nasales (OAF)",
-    "AEROSOLTERAPIA",
-    "DISPOSITIVOS DE SOPORTE EN FISIOTERAPIA RESPIRATORIA"
+    {
+      "x": "En la disnea sin insuficiencia respiratoria (secundaria a cáncer y otros procesos), el tratamiento con oxígeno es menos eficaz que los opioides.",
+      "cita": "el tratamiento con oxígeno de la disnea secundaria a cáncer y diferentes procesos que se manifiestan con disnea, pero sin insuficiencia respiratoria, es menos eficaz que los opiodes.",
+      "page": 2,
+      "auto": true
+    },
+    {
+      "x": "Con gafas nasales a flujos menores de 4 L/min no es necesaria la humidificación; sí lo es si el niño tiene traqueostomía o se emplean flujos más altos (humidificación activa o pasiva/nariz artificial).",
+      "cita": "cuando se utiliza oxigenoterapia mediante gafas nasales a flujos menores a 4L/min no es necesario que los pacientes dispongan de dispositivos de humidificación. Estos si serán necesarios, si los niños presentan una traqueostomía o si se emplean flujos más altos de O2 (bien humidificación activa o pasiva/nariz artificial).",
+      "page": 7,
+      "auto": true
+    },
+    {
+      "x": "Los sistemas de presión espiratoria positiva (PEP) requieren colaboración del paciente, algo poco habitual en cuidados paliativos pediátricos.",
+      "cita": "Requiere colaboración del paciente, algo poco habitual en el ámbito de los cuidados paliativos pediátricos.",
+      "page": 18,
+      "auto": true
+    },
+    {
+      "x": "Cough Assist® por primera vez: comenzar con presiones más bajas (10 a 15 cmH2O positivas y negativas) y flujo de inhalación bajo; aumentar progresivamente de 5 a 10 cmH2O por cada secuencia de 4 a 6 respiraciones. Las presiones eficaces pueden estar alrededor de 35 a 45 cmH2O.",
+      "cita": "un paciente utilice este dispositivo por primera vez, es aconsejable comenzar con presiones más bajas, (10 a 15 cmH2O positivas y negativas), y un flujo de inhalación bajo. Ya cuando se sienta más cómodo, se aumenta progresivamente las presiones inspiratoria y espiratoria de 5 a 10 cmH2O por cada secuencia de 4 a 6 respiraciones. Las presiones eficaces pueden estar alrededor de 35 a 45 cmH2O.",
+      "page": 23,
+      "auto": true
+    }
   ],
   "generado": {
-    "modelo": "Claude Fable 5.1",
-    "fecha": "2026-11-07",
-    "metodo": "Resumen extractivo automático del texto del protocolo PEDPAL. Borrador pendiente de revisión por PEDPAL.",
-    "revisado": false
+    "modelo": "Claude Fable 5.2",
+    "fecha": "2026-11-13",
+    "revisado": false,
+    "metodo": "Resumen generado con IA; cada elemento lleva la cita literal del protocolo que lo respalda, comprobada automáticamente y por dos revisores IA independientes. Pendiente de revisión por PEDPAL."
   }
 }
